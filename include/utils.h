@@ -1,0 +1,1 @@
+int getMaxPhyThread(int device);

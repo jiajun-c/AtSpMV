@@ -8,9 +8,9 @@ include_directories(/usr/local/cuda-12.4/include)
 include(FetchContent)
 
 find_package(CUDAToolkit REQUIRED)
-set(CMAKE_CXX_FLAGS " -O3 -Wall")
-set(NVCC_FLAGS  -O3 -ccbin /usr/bin/gcc -m64 -gencode arch=compute_80,code=sm_80)
-
+set(CMAKE_CXX_FLAGS " -O3 -Wall  -fopenmp")
+set(NVCC_FLAGS  -O3 -ccbin /usr/bin/gcc -m64 -gencode arch=compute_80,code=sm_80  -fopenmp)
+# set(NVCC_FLAGS "${NVCC_FLAGS}" -gencode  arch=compute_90,code=sm_90)
 
 FetchContent_Declare(
         fast_matrix_market
@@ -20,8 +20,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(fast_matrix_market)
 
-set(CMAKE_CUDA_ARCHITECTURES "80")
-file(GLOB_RECURSE mains RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/bench/*.cpp")
+set(CMAKE_CUDA_ARCHITECTURES "OFF")
+file(GLOB_RECURSE mains RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/bench/*.cpp" "${CMAKE_CURRENT_SOURCE_DIR}/bench/*.cu")
 file(GLOB_RECURSE SRC_DIR_LIST "src/*.cpp" "src/*.cu" "src/*.c")	#遍历获取source/路径下所有的*.cpp和*.c文件列表
 file(GLOB_RECURSE REMOVE_SOURCES "build/*")
 list(REMOVE_ITEM SOURCES ${REMOVE_SOURCES})

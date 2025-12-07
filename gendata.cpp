@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     //定义一个cuda的设备属性结构体
-    int row = 8, avg_nnz_in_row = 4;
+    int row =1024*128, avg_nnz_in_row = 16;
     int col = row+avg_nnz_in_row;
     int nnz = row * avg_nnz_in_row;
     printf("%%%MatrixMarket matrix coordinate pattern general\n");
@@ -14,7 +14,7 @@ int main()
             //     printf("%d %d\n", i+1, j+1);
             // }
             for (int j = 0; j < avg_nnz_in_row; j++) {
-                printf("%d %d\n", i+1, j + 1);
+                printf("%d %d\n", i+1, i+j + 1);
             }
         // }
     }
