@@ -24,20 +24,20 @@ fig,ax = plt.subplots(figsize=(20, 15))
 # ax3 = plt.subplot(gs[3])
 fontY = {'family' : 'Times New Roman',
 'weight' : 'normal',
-'size'   : 40,
+'size'   : 50,
 }
 # fig, ax = plt.subplots(figsize=(16, 8))
-ax.scatter(log10, cusp, c = 'cyan', s = 9, label = 'cusparse')
-ax.scatter(log10, amg, c = 'magenta', s = 9, label = 'amgT')
-ax.scatter(log10, dasp, c = 'orange', s = 9, label = 'dasp')
-ax.scatter(log10, dySPMV, c = 'red', s = 9, label = 'dySPMV')
+ax.scatter(log10, cusp, c = 'cyan', s = 11, label = 'cuSPARSE')
+ax.scatter(log10, amg, c = 'magenta', s = 11, label = 'amgT')
+ax.scatter(log10, dasp, c = 'orange', s = 11, label = 'DASP')
+ax.scatter(log10, dySPMV, c = 'red', s = 11, label = 'dySPMV')
 font2 = {'family' : 'Times New Roman',
 'weight' : 'normal',
-'size'   : 50,
+'size'   : 60,
 }
 # ax.tick_params(axis='both', which='major', labelsize=20) 
 ax.set_ylim(0, 100)
-ax.legend(prop= fontY,markerscale=8.0)
+ax.legend(prop= fontY,markerscale=8.0, loc = 'upper left')
 ax.set_xlim(2, log10.max())
 for label in ax.get_yticklabels():
     label.set_fontproperties(fontY)
@@ -58,3 +58,4 @@ ax.set_xlabel("log10(nnz)",fontdict=font2)
 
 
 plt.savefig("./pre_nnz.pdf", bbox_inches='tight')
+plt.savefig("./pre_nnz.svg", bbox_inches='tight')

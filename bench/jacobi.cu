@@ -134,7 +134,7 @@ int main(int argc, char** argv)
     CHECK_CUDA(cudaMalloc(&dBuffer, bufferSize));
 
     // --- Jacobi iteration ---
-    const int max_iter = 100000;
+    const int max_iter = 100;
     const double tol = 1e-4;
     int threads = 256;
     int blocks = (n + threads - 1) / threads;
@@ -161,7 +161,7 @@ int main(int argc, char** argv)
 
         // Compute Ax_new = A * x_old
 
-        if (k%100 == 0) {
+        if (k%10 == 0) {
             CHECK_CUSPARSE(cusparseSpMV(
                 handle, CUSPARSE_OPERATION_NON_TRANSPOSE,
                 &alpha, matA, vecX, &beta, vecY, CUDA_R_64F,

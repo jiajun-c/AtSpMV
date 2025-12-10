@@ -72,6 +72,7 @@ int cusparse_spmvfp64(CSRMatrix<double, int32_t> &A, double *hX, double *hY, int
                                  handle, CUSPARSE_OPERATION_NON_TRANSPOSE,
                                  &alpha, matA, vecX, &beta, vecY, CUDA_R_64F,
                                  CUSPARSE_SPMV_ALG_DEFAULT, &bufferSize) )
+    // printf("cusparse buffer size = %d\n", bufferSize +A.nnz*(sizeof(double) + sizeof(int32_t))+ (A.nrows+1)*sizeof(int));
     CHECK_CUDA( cudaMalloc(&dBuffer, bufferSize) )
     int warmup = 10;
     auto endpre = std::chrono::high_resolution_clock::now();

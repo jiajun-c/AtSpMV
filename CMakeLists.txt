@@ -9,7 +9,7 @@ include(FetchContent)
 
 find_package(CUDAToolkit REQUIRED)
 set(CMAKE_CXX_FLAGS " -O3 -Wall  -fopenmp")
-set(NVCC_FLAGS  -O3 -ccbin /usr/bin/gcc -m64 -gencode arch=compute_80,code=sm_80  -fopenmp)
+set(NVCC_FLAGS  -O3 -ccbin /usr/bin/gcc -m64 -gencode arch=compute_80,code=sm_80  -fopenmp --extended-lambda)
 # set(NVCC_FLAGS "${NVCC_FLAGS}" -gencode  arch=compute_90,code=sm_90)
 
 FetchContent_Declare(

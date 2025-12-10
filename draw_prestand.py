@@ -24,16 +24,16 @@ fig,ax = plt.subplots(figsize=(20, 15))
 # ax3 = plt.subplot(gs[3])
 fontY = {'family' : 'Times New Roman',
 'weight' : 'normal',
-'size'   : 40,
+'size'   : 50,
 }
 # fig, ax = plt.subplots(figsize=(16, 8))
-ax.scatter(log10, cusp, c = 'cyan', s = 9, label = 'cusparse')
-ax.scatter(log10, amg, c = 'magenta', s = 9, label = 'amgT')
-ax.scatter(log10, dasp, c = 'orange', s = 9, label = 'dasp')
-ax.scatter(log10, dySPMV, c = 'red', s = 9, label = 'dySPMV')
+ax.scatter(log10, cusp, c = 'cyan', s = 11, label = 'cusparse')
+ax.scatter(log10, amg, c = 'magenta', s = 11, label = 'amgT')
+ax.scatter(log10, dasp, c = 'orange', s = 11, label = 'dasp')
+ax.scatter(log10, dySPMV, c = 'red', s = 11, label = 'dySPMV')
 font2 = {'family' : 'Times New Roman',
 'weight' : 'normal',
-'size'   : 50,
+'size'   : 60,
 }
 # ax.tick_params(axis='both', which='major', labelsize=20) 
 ax.set_ylim(0, 100)
@@ -49,7 +49,7 @@ ax.margins(x=0)
 ax.margins(y=0)
 ax.grid(True)
 # ax.set_ylabel("Preprocessing Overhead(ms)", fontdict=font2)
-ax.set_xlabel("log2 of the variance of the number of elements per row",fontdict=font2)
+ax.set_xlabel("log2(standard deviation of row lengths) ",fontdict=font2)
 # ax.tick_params(
 #     axis='x',          # 针对 X 轴
 #     which='both',      # 同时影响主副刻度
@@ -60,3 +60,4 @@ ax.set_xlabel("log2 of the variance of the number of elements per row",fontdict=
 
 
 plt.savefig("./pre_stand.pdf", bbox_inches='tight')
+plt.savefig("./pre_stand.svg", bbox_inches='tight')

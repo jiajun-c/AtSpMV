@@ -7,6 +7,7 @@
 #include "amgT.h"
 #include "dasp.h"
 #include "atspmv.h"
+#include "atspmvprod.h"
 using namespace std;
 
 // #define DEBUG
@@ -74,12 +75,14 @@ int main(int argc, char **argv) {
     double amgTtime, amgTPretime;
     amgT_spmv_fp64(csr.row_ptr, csr.col_idx, csr.val, x, aty, csr.nrows, csr.ncols, csr.nnz, repeat, amgTtime, amgTPretime);
     std::cout << matrix_name;
-
+    printf("cuspPre:%f atPreTime:%f\n",cuspPreTime, atPreTime);
+    printf("time: cusp:%f,at:%f,amg:%f dasp: %f\n",cuspTime, atTime, amgTtime, dasp_avg_time);
     printf(",%f, %f, %f, %f,",(double)((long)csr.nnz * 2) / (atTime * 1e3), (double)((long)csr.nnz * 2) / (amgTtime * 1e3), (double)((long)csr.nnz * 2) / (dasp_avg_time * 1e3),(double)((long)csr.nnz * 2) / (cuspTime * 1e3));
     // printf(", %d, %d, %d, %f",csr.nrows, csr.ncols, csr.nnz, csr.stand);
     // printf(" , %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f,", cuspTime,atTime, amgTtime,dasp_avg_time, cuspPreTime, atPreTime, dasp_pre_time, amgTPretime, cuspTime / atTime, cuspPreTime / atPreTime, dasp_pre_time/atPreTime, amgTPretime/atPreTime);
     // for verify
     memset(aty, 0, csr.nrows * sizeof(double));
+    // AtSpmvProduct(atBsr, x, aty);
     Spmv(csr, x, aty, 0, 1, atTime, atPreTime);
     double res = 0,goldenRes=0;
     for (int i = 0; i < csr.nrows; i++) {

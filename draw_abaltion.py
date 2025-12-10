@@ -42,7 +42,7 @@ barFontSize = 20
 ax.annotate('8%', fontsize=barFontSize,fontweight='bold',
                 fontfamily='Times New Roman',xy=(1.125, bal[1]), xytext=(0.99 ,bal[1]+25),
                     color='red',                   # 文本的颜色
-                arrowprops=dict(arrowstyle='<-',color='red', linewidth=2))# ax.tick_params(
+                arrowprops=dict(arrowstyle='<-',color='red', linewidth=2))
 ax.annotate('156%', fontsize=barFontSize,fontweight='bold',
                 fontfamily='Times New Roman',xy=(2.125, bal[2]), xytext=(1.90 ,bal[2]+30),
                     color='red',                   # 文本的颜色

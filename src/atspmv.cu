@@ -296,9 +296,9 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
 #endif
     if (idx != -1) {
         res.first = idx;
-        printf("den:%f score:%f\n", densityArr[idx],score[idx]);
+        // printf("den:%f score:%f\n", densityArr[idx],score[idx]);
     } else {
-        printf("select: %d dens:%f  score:%f\n", res.first, densityArr[res.first],score[res.first]);
+        // printf("select: %d dens:%f  score:%f\n", res.first, densityArr[res.first],score[res.first]);
     }
     int tile_m = 1<<(res.first);
 
@@ -323,7 +323,7 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
 
     cudaMemset(blc_idx, 0, (blockCount*32*sizeof(int)));
     cudaMemset(blc_idxint16, 0, (blockCount*32*sizeof(int16_t)));
-
+    // printf("atbsr size: %d\n",(blockCount*32*sizeof(int)) + (blockCount*32*sizeof(double)) + (brow+1+warpCount+(warpCount+1)*2)*sizeof(int));
     getBlcPtrKernel<<<(brow + 255)/256 ,256>>>(drow_len, tile_m, tile_k, csrMat.nrows, blc_ptr);
     cudaDeviceSynchronize();
     thrust::exclusive_scan(thrust::device, blc_ptr, blc_ptr + (brow + 1), blc_ptr, 0);
@@ -336,7 +336,11 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
     int *warpTargetRow;
     int *rowPtrbyWarp;
     int *rowIdxbyWarp;
+    // auto endselect = std::chrono::high_resolution_clock::now();
+    // auto duration = std::chrono::duration_cast<std::chrono::microseconds>(endselect - start);
+    // auto startBal = std::chrono::high_resolution_clock::now();
 
+    // printf("select time: %ld\n", duration.count());
     cudaMalloc(&rowPtrbyWarp, (brow+1)*sizeof(int));
     cudaMalloc(&rowIdxbyWarp, warpCount*sizeof(int));
     cudaMalloc(&warpBlcPtr, (warpCount+1)*sizeof(int));
@@ -351,8 +355,12 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
         thrust::exclusive_scan(thrust::device, rowPtrbyWarp, rowPtrbyWarp + brow + 1, rowPtrbyWarp, 0);
         GetrowIdxbyWarp<<<(brow + 255)/256 ,256>>>(rowPtrbyWarp, rowIdxbyWarp, brow, tile_m);
         GetWarpBlcPtr<<<(brow + 255)/256 ,256>>>(rowPtrbyWarp, blc_ptr, warpBlcPtr, brow);
-
         cudaDeviceSynchronize();
+        // auto now = std::chrono::high_resolution_clock::now();
+        // duration = std::chrono::duration_cast<std::chrono::microseconds>(now - startBal);
+        // printf("bal time: %ld\n", duration.count());
+        // auto now1 = std::chrono::high_resolution_clock::now();
+
 #ifdef DEBUG
     printf("GetWarpBlcPtr done\n");
 #endif
@@ -364,6 +372,10 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
             csr2AtBsrBalKernel<int16_t><<<(warpCount + 7)/8 ,256>>>(d_val, drow_index, d_colIdx,d_rowPtr, csrMat.nrows, warpCount, rowIdxbyWarp, blc_ptr, warpBlcPtr, tile_m, tile_k, blc_val, blc_idxint16);
         else 
             csr2AtBsrBalKernel<int32_t><<<(warpCount + 7)/8 ,256>>>(d_val, drow_index, d_colIdx, d_rowPtr, csrMat.nrows, warpCount, rowIdxbyWarp, blc_ptr, warpBlcPtr, tile_m, tile_k, blc_val, blc_idx);
+    // cudaDeviceSynchronize();
+        // auto now2 = std::chrono::high_resolution_clock::now();
+        // duration = std::chrono::duration_cast<std::chrono::microseconds>(now2 - now1);
+        // printf("convert: %ld\n", duration.count());
     } else {
         if (atbsr.useColIdxInt16)
             csr2AtBsrKernel<int16_t><<<(csrMat.nrows + 255)/256 ,256>>>(d_val, drow_index, d_colIdx,  d_rowPtr, brow, csrMat.nrows,tile_m,tile_k, blc_ptr,blc_val,blc_idxint16);
@@ -929,7 +941,13 @@ __global__ void TcSPMVKernel1x32Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
         }
     }
 }
-
+__global__ void beta_vecY(double *d_y, double beta, int row)
+{
+    int rowid = threadIdx.x + blockDim.x * blockIdx.x;
+    if (rowid >= row)
+        return;
+    d_y[rowid] *= beta;
+}
 int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int repeat, double &avgTime) {
 
     int tile_m = atbsr.TILE_M;
@@ -1060,6 +1078,7 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    beta_vecY<<<(atbsr.nrows+127)/128, 128>>>(d_y, 1.0, atbsr.nrows);
                     TcSPMVKernel8x4Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
@@ -1385,10 +1404,10 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
         spmv_fp64_warpper(csrMat, x, y, warmup, repeat, avg_time);
         return;
     }
-        csrMat.useColInt16 = true;
 
     // CSR2A
     AtBsr<double, int32_t> atBsr;
+    printf("now\n");
     CSRToAtBSR(csrMat, atBsr, pre_time, idx);
     // for (int i = 2;i <= 8;i*=2) {
     //     blockInfo(csrMat, i);
