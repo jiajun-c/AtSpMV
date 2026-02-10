@@ -29,8 +29,8 @@ font3 = {'family' : 'Times New Roman',
 'size'   : 25,
 }
 fig,ax = plt.subplots(figsize=(18, 7))
-ax.bar(x - 0.5*width, noBal, width=width, label='AtSpMV(noBalance)',color="#0FBEC4",zorder=10, edgecolor='black')
-ax.bar(x + 0.5*width, bal, width=width, label='AtSpMV(Balance)',color="#0E8286",zorder=10, edgecolor='black')
+ax.bar(x - 0.5*width, noBal, width=width, label='AtSpMV(noBalance)',color="#AEEEEE",zorder=10, edgecolor='black')
+ax.bar(x + 0.5*width, bal, width=width, label='AtSpMV(Balance)',color="#668B8B",zorder=10, edgecolor='black')
 for label in ax.get_yticklabels():
     label.set_fontproperties(fontY)
 ax.set_ylabel('Performance(GFlops)',fontdict=fontLabel)

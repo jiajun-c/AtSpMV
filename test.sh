@@ -24,7 +24,7 @@ for folder in $DATA_DIR/*/; do
             continue
         fi
         echo "正在处理: $folder_name"
-        timeout 240 ./build/spmv_double "$mtx_file" 10 >> "density_select.csv"
+        timeout 240 ./build/spmv_double "$mtx_file" 10 >> "storage_three.csv"
         echo "已完成: $folder_name"
     else
         echo "警告: $mtx_file 不存在，跳过"

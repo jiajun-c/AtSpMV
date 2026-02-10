@@ -40,15 +40,15 @@ fig, ax = plt.subplots(figsize=(20, 8))
 
 # CUSP (noBalance)
 p1 = ax.bar(x - 0.5*width, setupCusp, width, 
-            label='cuSPARSE:Setup', color="#0FBEC4", edgecolor='black')
+            label='cuSPARSE:Setup', color="#AEEEEE", edgecolor='black')
 p2 = ax.bar(x - 0.5*width, iterCusp, width, 
-            bottom=setupCusp, label='cuSPARSE:Iter', color="#0FBEC4", edgecolor='black',hatch='xx')
+            bottom=setupCusp, label='cuSPARSE:Iter', color="#AEEEEE", edgecolor='black',hatch='xx')
 
 # AtSpMV (Balance)
 p3 = ax.bar(x + 0.5*width, setupAt, width, 
-            label='AtSpMV:Setup', color="#0E8286", edgecolor='black')
+            label='AtSpMV:Setup', color="#668B8B", edgecolor='black')
 p4 = ax.bar(x + 0.5*width, iterAt, width, 
-            bottom=setupAt, label='AtSpMV:Iter', color="#0E8286", edgecolor='black',hatch='xx')
+            bottom=setupAt, label='AtSpMV:Iter', color="#668B8B", edgecolor='black',hatch='xx')
 # ax.bar(x - 0.5*width, fullCuspPre, width=width, label='AtSpMV(noBalance)',color="#0FBEC4",zorder=10, edgecolor='black')
 # ax.bar(x + 0.5*width, fullAtPre, width=width, label='AtSpMV(Balance)',color="#0E8286",zorder=10, edgecolor='black')
 ax.set_ylabel('Execution Time(ms)',fontdict=fontLabel)

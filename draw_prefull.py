@@ -30,7 +30,7 @@ fontY = {'family' : 'Times New Roman',
 ax.scatter(log10, cusp, c = 'cyan', s = 11, label = 'cuSPARSE')
 ax.scatter(log10, amg, c = 'magenta', s = 11, label = 'amgT')
 ax.scatter(log10, dasp, c = 'orange', s = 11, label = 'DASP')
-ax.scatter(log10, dySPMV, c = 'red', s = 11, label = 'dySPMV')
+ax.scatter(log10, dySPMV, c = 'red', s = 11, label = 'AtSpMV')
 font2 = {'family' : 'Times New Roman',
 'weight' : 'normal',
 'size'   : 60,

@@ -1000,7 +1000,7 @@ void CSR2BSR_step3(MAT_PTR_TYPE *d_csrptr, MAT_IDX_TYPE *d_csridx, MAT_VAL_TYPE 
     }
 }
 
-void CSR2BSR_GPU(bsrMAT *bsrmat, int32_t *hA_csrOffsets, int32_t *hA_columns, double *hA_values, double *hX, double* hY, int32_t A_num_rows, int32_t A_num_cols, int32_t A_nnz) {
+void CSR2BSR_GPU(bsrMAT *bsrmat, int32_t *hA_csrOffsets, int32_t *hA_columns, double *hA_values, double *hX, double* hY, int32_t A_num_rows, int32_t A_num_cols, int32_t A_nnz, int64_t& buffSize) {
 {
         int *d_csrptr;
         int *d_csridx;
@@ -1033,7 +1033,7 @@ void CSR2BSR_GPU(bsrMAT *bsrmat, int32_t *hA_csrOffsets, int32_t *hA_columns, do
         CSR2BSR_step2(bsrmat->blcPtr, bsrmat->blc_row);
 
         // csr2bsr step2 over
-
+        buffSize += sizeof(MAT_PTR_TYPE) * (bsrmat->blc_row + 1);
         cudaMemcpy(&(bsrmat->blc_num), &bsrmat->blcPtr[bsrmat->blc_row], sizeof(MAT_PTR_TYPE), cudaMemcpyDeviceToHost);
         bsrmat->nnz = bsrmat->blc_num * BSR_M * BSR_N;
         bsrmat->avg_nnz = (double)A_nnz/ (double)(bsrmat->blc_num);
@@ -1055,6 +1055,7 @@ void CSR2BSR_GPU(bsrMAT *bsrmat, int32_t *hA_csrOffsets, int32_t *hA_columns, do
         cudaMalloc((void **)&bsrmat->blcIdx, sizeof(MAT_IDX_TYPE) * bsrmat->blc_num);
         cudaMalloc((void **)&bsrmat->blcVal, sizeof(MAT_VAL_TYPE) * bsrmat->nnz);
         cudaMalloc((void **)&bsrmat->blcMap, sizeof(MAT_MAP_TYPE) * (bsrmat->blc_num + 1));
+        buffSize = buffSize +  sizeof(MAT_IDX_TYPE) * bsrmat->blc_num + sizeof(MAT_VAL_TYPE) * bsrmat->nnz + sizeof(MAT_MAP_TYPE) * (bsrmat->blc_num + 1);
 
         cudaMemset(bsrmat->blcVal, 0, sizeof(MAT_VAL_TYPE) * bsrmat->nnz);
         cudaMemset(bsrmat->blcMap, 0, sizeof(MAT_MAP_TYPE) * (bsrmat->blc_num + 1));
@@ -1066,7 +1067,7 @@ void CSR2BSR_GPU(bsrMAT *bsrmat, int32_t *hA_csrOffsets, int32_t *hA_columns, do
     }
 }
 
-void BSR_BALANCED_PREPROCESS_GPU(bsrMAT *bsrmat)
+void BSR_BALANCED_PREPROCESS_GPU(bsrMAT *bsrmat,int64_t &buffSize)
 {
     bsrmat->stand = 12;
 #ifdef ADAPTIVE_AMGT_SPMV
@@ -1088,17 +1089,18 @@ void BSR_BALANCED_PREPROCESS_GPU(bsrMAT *bsrmat)
         cudaMemcpy(&bsrmat->warpnum, (bsrmat->rowPtrbyWarp) + bsrmat->blc_row, sizeof(MAT_PTR_TYPE), cudaMemcpyDeviceToHost);
 
         cudaMalloc((void **)&bsrmat->rowIdxbyWarp, sizeof(int) * bsrmat->warpnum);
-
+        buffSize += sizeof(MAT_PTR_TYPE) * (bsrmat->blc_row + 1);
+        buffSize +=sizeof(int) * bsrmat->warpnum;
         get_rowIdxbyWarp<<<BlockNum, ThreadNum>>>(bsrmat->rowPtrbyWarp, bsrmat->rowIdxbyWarp, bsrmat->blc_row);
         cudaDeviceSynchronize();
     }
 }
-int amgT_spmv_fp64(int32_t *hA_csrOffsets, int32_t *hA_columns, double *hA_values, double *hX, double* hY, int32_t A_num_rows, int32_t A_num_cols, int32_t A_nnz, int repeat, double& avg_time, double& pre_time)
+int amgT_spmv_fp64(int32_t *hA_csrOffsets, int32_t *hA_columns, double *hA_values, double *hX, double* hY, int32_t A_num_rows, int32_t A_num_cols, int32_t A_nnz, int repeat, double& avg_time, double& pre_time, int64_t &buffSize)
 {
     bsrMAT bsrmat;
     auto startpre = std::chrono::high_resolution_clock::now();
-    CSR2BSR_GPU(&bsrmat, hA_csrOffsets, hA_columns, hA_values, hX, hY, A_num_rows, A_num_cols, A_nnz);
-    BSR_BALANCED_PREPROCESS_GPU(&bsrmat);
+    CSR2BSR_GPU(&bsrmat, hA_csrOffsets, hA_columns, hA_values, hX, hY, A_num_rows, A_num_cols, A_nnz, buffSize);
+    BSR_BALANCED_PREPROCESS_GPU(&bsrmat, buffSize);
     // return 0;
     auto endpre = std::chrono::high_resolution_clock::now();
     auto durationpre = std::chrono::duration_cast<std::chrono::microseconds>(endpre - startpre);

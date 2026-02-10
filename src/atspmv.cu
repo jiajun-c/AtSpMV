@@ -208,7 +208,7 @@ __global__ void  csr2AtBsrBalKernel(double* d_val,int* drow_index,int* d_colIdx,
     }
 }
 
-__host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t>&atbsr, double& preTime, int idx) {
+__host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t>&atbsr, double& preTime, int idx, int64_t &buffsize) {
     // check use int16
     double *d_val;
     int *d_colIdx;
@@ -323,7 +323,15 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
 
     cudaMemset(blc_idx, 0, (blockCount*32*sizeof(int)));
     cudaMemset(blc_idxint16, 0, (blockCount*32*sizeof(int16_t)));
-    // printf("atbsr size: %d\n",(blockCount*32*sizeof(int)) + (blockCount*32*sizeof(double)) + (brow+1+warpCount+(warpCount+1)*2)*sizeof(int));
+    if (csrMat.useColInt16) {
+        buffsize = (blockCount*32*sizeof(int16_t)) + (blockCount*32*sizeof(double)) + (brow+1+csrMat.nrows)*sizeof(int);
+    } else {
+        buffsize = (blockCount*32*sizeof(int)) + (blockCount*32*sizeof(double)) + (brow+1 + csrMat.nrows)*sizeof(int);
+    }
+    if (atbsr.useBalance) {
+        buffsize += (brow+1 + warpCount*2+1)*sizeof(int);
+    }
+    // printf("atbsr size: %d\n",);
     getBlcPtrKernel<<<(brow + 255)/256 ,256>>>(drow_len, tile_m, tile_k, csrMat.nrows, blc_ptr);
     cudaDeviceSynchronize();
     thrust::exclusive_scan(thrust::device, blc_ptr, blc_ptr + (brow + 1), blc_ptr, 0);
@@ -1365,7 +1373,7 @@ void blockInfo(CSRMatrix<double, int32_t>& csr, int TILE_SIZE) {
     printf(",%f", (double)csr.nnz/(TILE_SIZE*TILE_SIZE*blockCount));
 }
 
-void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, int repeat, double& avg_time, double& pre_time, int idx=-1) {
+void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, int repeat, double& avg_time, double& pre_time,int64_t& buffsize, int idx=-1) {
     int minLen;
     int maxLen;
     int nonzeroRows = 0;
@@ -1407,8 +1415,7 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
 
     // CSR2A
     AtBsr<double, int32_t> atBsr;
-    printf("now\n");
-    CSRToAtBSR(csrMat, atBsr, pre_time, idx);
+    CSRToAtBSR(csrMat, atBsr, pre_time, idx, buffsize);
     // for (int i = 2;i <= 8;i*=2) {
     //     blockInfo(csrMat, i);
     // }

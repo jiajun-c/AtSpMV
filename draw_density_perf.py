@@ -70,8 +70,8 @@ x = np.arange(len(matrix))
 print(x)
 width = 0.25
 print(len(x))
-ax.bar(x - width, atflops, width, label='AtSpMV',  color="#68afe2",zorder=10, edgecolor='black')
-ax.bar(x,cusparseFlops , width, label='cuSPARSE', color="#C0B9AF",zorder=10, edgecolor='black')
+ax.bar(x - width, atflops, width, label='AtSpMV',  color="#AEEEEE",zorder=10, edgecolor='black')
+ax.bar(x,cusparseFlops , width, label='cuSPARSE', color="#668B8B",zorder=10, edgecolor='black')
 ax.bar(x + width, daspflops, width, label='DASP',  color="#F7FFAE",zorder=10, edgecolor='black')
 ax.margins(y=0.2)
 

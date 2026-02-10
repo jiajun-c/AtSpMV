@@ -14,7 +14,7 @@
 #include <cusparse_v2.h> 
 
 
-int cusparse_spmvfp64(CSRMatrix<double, int32_t> &A, double *hX, double *hY, int repeat, double &avg_time, double& pre_time) {
+int cusparse_spmvfp64(CSRMatrix<double, int32_t> &A, double *hX, double *hY, int repeat, double &avg_time, double& pre_time, int64_t &buffsize) {
     double     alpha           = 1.0f;
     double     beta            = 0.0f;
     int32_t   *dA_csrOffsets, *dA_columns;
@@ -72,12 +72,13 @@ int cusparse_spmvfp64(CSRMatrix<double, int32_t> &A, double *hX, double *hY, int
                                  handle, CUSPARSE_OPERATION_NON_TRANSPOSE,
                                  &alpha, matA, vecX, &beta, vecY, CUDA_R_64F,
                                  CUSPARSE_SPMV_ALG_DEFAULT, &bufferSize) )
-    // printf("cusparse buffer size = %d\n", bufferSize +A.nnz*(sizeof(double) + sizeof(int32_t))+ (A.nrows+1)*sizeof(int));
+    // printf("cusparse buffer size = %d\n", bufferSize);
     CHECK_CUDA( cudaMalloc(&dBuffer, bufferSize) )
     int warmup = 10;
     auto endpre = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(endpre - startpre);
     pre_time =  duration.count();
+    buffsize =  bufferSize +A.nnz*(sizeof(double) + sizeof(int32_t))+ (A.nrows+1)*sizeof(int);
     // printf("cusparse preprocess time = %d ms\n", duration.count());
     for (int i = 0; i < warmup; i++) {
 
