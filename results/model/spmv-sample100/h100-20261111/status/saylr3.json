@@ -1,0 +1,32 @@
+{
+  "dataset": "saylr3",
+  "status": "ok",
+  "matrix_sha256": "6e613fa753ae4c6571a2d88b92e9f8cf1e4ac99f48a7b614ca25756e6d3ff17d",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/saylr3/saylr3.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/saylr3-0.csv",
+        "20261173",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.5793747738935053
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/saylr3/saylr3.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/saylr3-1.csv",
+        "20261174",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.121648064116016
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

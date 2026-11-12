@@ -1,0 +1,10 @@
+{
+  "dataset": "nd24k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nd24k/nd24k.mtx",
+  "matrix_sha256": "bc27a2c946f94af8983f273220c5a61ecd623caaf36071e2fabf6faf8c35e625",
+  "index_nnz": 28715634,
+  "index_rows": 72000,
+  "elapsed_s": 8.432,
+  "returncode": 0,
+  "status": "ok"
+}

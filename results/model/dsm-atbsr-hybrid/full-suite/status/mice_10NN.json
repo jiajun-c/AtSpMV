@@ -1,0 +1,10 @@
+{
+  "dataset": "mice_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mice_10NN/mice_10NN.mtx",
+  "matrix_sha256": "0afa46285aff3669bf9cd67f4a1ce2445bddc84e4fc76ed8197570d796095898",
+  "index_nnz": 13484,
+  "index_rows": 1077,
+  "elapsed_s": 0.586,
+  "returncode": 0,
+  "status": "ok"
+}

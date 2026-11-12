@@ -1,0 +1,15 @@
+{
+  "dataset": "ABACUS_shell_md",
+  "matrix_sha256": "522684fe14da6036aca9406db390abc8cf6be230988a5502d19b07fab3470e5f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.492,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

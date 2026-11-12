@@ -1,0 +1,15 @@
+{
+  "dataset": "onera_dual",
+  "matrix_sha256": "0f386e296924ec6aaac52f7268766ea67cd29e2836e7bb246e235cd1c5525e3e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.566,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "wang1",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/wang1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2903, 2903 ) nnz = 35248\nloadfile time    = 0.01542 sec\nnnzL = 35257\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.25 ms\ntime_cuda_solve = 0.427140 ms, Mflops = 165.08\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.86633663366336633 expected=0.86633663366336633 b=0.86633663366336633\nsample i=2 got=1.2326732673267327 expected=1.2326732673267327 b=1.2326732673267327\nsample i=3 got=1.3316831683168315 expected=1.3316831683168315 b=1.3316831683168315\nsample i=4 got=0.52970297029702973 expected=0.52970297029702973 b=0.52970297029702973\nsample i=5 got=0.99504950495049505 expected=0.99504950495049505 b=0.99504950495049505\nsample i=6 got=0.7277227722772277 expected=0.7277227722772277 b=0.7277227722772277\nsample i=7 got=1.0940594059405941 expected=1.0940594059405941 b=1.0940594059405941\nVALIDATION finite=1 max_error=1.7250854139485146 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

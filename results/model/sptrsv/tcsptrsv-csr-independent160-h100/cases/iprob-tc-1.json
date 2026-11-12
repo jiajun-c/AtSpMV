@@ -1,0 +1,9 @@
+{
+  "name": "iprob",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iprob-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3008, 3008 ) nnz = 5329\nloadfile time    = 0.00137 sec\nnnzL = 5329\ntime_for_csc2CompressTile = 1.95 ms\ntime_cuda_solve = 0.041920 ms, Mflops = 254.25\nVALIDATION finite=1 max_error=6.6802119391695669e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

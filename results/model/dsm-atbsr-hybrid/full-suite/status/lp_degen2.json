@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_degen2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_degen2/lp_degen2.mtx",
+  "matrix_sha256": "fdd82125f425dc12b94a31f875d525bb25347b7c955d320217ff05f735cff281",
+  "index_nnz": 4201,
+  "index_rows": 444,
+  "elapsed_s": 1.155,
+  "returncode": 0,
+  "status": "ok"
+}

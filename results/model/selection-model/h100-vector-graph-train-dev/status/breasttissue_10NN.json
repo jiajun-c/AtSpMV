@@ -1,0 +1,17 @@
+{
+  "dataset": "breasttissue_10NN",
+  "matrix_sha256": "4168f5fc12008cb6028689ee4bce78e9c1183677de7125e75e770c6bde4746d7",
+  "index_nnz": 1412,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.321,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

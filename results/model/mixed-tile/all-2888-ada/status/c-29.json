@@ -1,0 +1,15 @@
+{
+  "dataset": "c-29",
+  "matrix_sha256": "99c564c23fa549b0cb1611935ccc60d849da01027864b25fa57955c766fdfa7e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.646,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

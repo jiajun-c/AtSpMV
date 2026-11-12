@@ -1,0 +1,17 @@
+{
+  "dataset": "route",
+  "matrix_sha256": "6131bbe0ab9f16fc12888ac2befbba5d160dbf053027484ec007987261316c76",
+  "index_nnz": 206782,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.948,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

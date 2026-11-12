@@ -1,0 +1,31 @@
+{
+  "dataset": "amazon0312",
+  "matrix_sha256": "c97ac1b7b87897c419445b72b765dcb1c5f368cbf5823311c4556a873bf69915",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/amazon0312/amazon0312.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs.csv",
+        "20261123",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.2764928850810975,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/amazon0312/amazon0312.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs-reverse.csv",
+        "20261124",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.2252594351302832,
+      "reason": null
+    }
+  ]
+}

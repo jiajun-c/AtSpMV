@@ -1,0 +1,17 @@
+{
+  "dataset": "wm2",
+  "matrix_sha256": "b1d71195181a252840c4d222f2d706a4b3729f9cbdb971e2467f14aed8e0f528",
+  "index_nnz": 2942,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.317,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

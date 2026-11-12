@@ -1,0 +1,7 @@
+{
+  "name": "rdb5000",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rdb5000-L.mtx,model,cusparse,5000,79261,-1,7490.862,587.3632202,1.773905467e-10,2.819839422e-17,1.443663365e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rdb5000-L.mtx,model-host,cusparse,5000,79261,-1,7490.862,594.542265,1.773905467e-10,2.819839422e-17,1.443663365e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rdb5000-L.mtx,default,cusparse,5000,79261,-1,6050.45,587.3728027,1.773905467e-10,2.819839422e-17,1.443663365e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rdb5000-L.mtx,default-host,cusparse,5000,79261,-1,6050.45,594.54409,1.773905467e-10,2.819839422e-17,1.443663365e-16\n",
+  "stderr": ""
+}

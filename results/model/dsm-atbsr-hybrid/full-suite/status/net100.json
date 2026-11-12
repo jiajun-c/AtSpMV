@@ -1,0 +1,10 @@
+{
+  "dataset": "net100",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/net100/net100.mtx",
+  "matrix_sha256": "93d0f6e9b8257a234720426853e55e3dfa843a8f30f3b91e32ef6197ad30a689",
+  "index_nnz": 2033200,
+  "index_rows": 29920,
+  "elapsed_s": 1.37,
+  "returncode": 0,
+  "status": "ok"
+}

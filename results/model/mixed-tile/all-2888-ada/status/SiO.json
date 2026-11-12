@@ -1,0 +1,15 @@
+{
+  "dataset": "SiO",
+  "matrix_sha256": "dcdbe57b5daac3d7e2ae8d536f0f0c8a7e62cbfd46d35be35fd78465608d9a74",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.955,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

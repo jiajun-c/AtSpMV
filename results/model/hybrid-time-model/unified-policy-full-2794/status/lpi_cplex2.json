@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_cplex2",
+  "matrix_sha256": "c4e6266a4d3554a95d83531f748ab106de44936fc69f2e3bae962cfd7c8719a6",
+  "index_nnz": 1215,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.149,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

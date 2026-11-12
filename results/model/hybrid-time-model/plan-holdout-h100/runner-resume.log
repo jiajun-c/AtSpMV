@@ -1,0 +1,9 @@
+WAIT shared GPU utilization/memory {'utilization_percent': 4, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+18/389 t60k: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+28/389 jan99jac040sc: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 6, 'free_memory_mib': 8161}
+38/389 qh1484: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}

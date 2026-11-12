@@ -1,0 +1,22 @@
+{
+  "manifest_total": 21,
+  "status_counts": {
+    "error": 2,
+    "pending": 19
+  },
+  "imported_records": 0,
+  "failures": [
+    {
+      "dataset": "arabic-2005",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "webbase-2001",
+      "status": "error",
+      "returncode": 1
+    }
+  ],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}

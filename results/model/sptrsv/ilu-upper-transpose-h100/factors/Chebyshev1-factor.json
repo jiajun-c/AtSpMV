@@ -1,0 +1,10 @@
+{
+  "matrix": "Chebyshev1",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 261,
+  "nnz": 962,
+  "min_abs_diagonal": 0.0006215407535684195,
+  "max_abs_diagonal": 20000.0,
+  "elapsed_s": 0.010294765001162887
+}

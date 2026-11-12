@@ -1,0 +1,19 @@
+{
+  "dataset": "plskz362",
+  "matrix_sha256": "fc6f9605f6aecc74b324abb2888d5125ae669c30663fba6be8ba26efd2149fd3",
+  "index_nnz": 1760,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.735,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

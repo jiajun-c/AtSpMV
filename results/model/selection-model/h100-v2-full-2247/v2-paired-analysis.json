@@ -1,0 +1,375 @@
+{
+  "status_counts": {
+    "ok": 2248
+  },
+  "total": 2248,
+  "method": "Actual v1 and v2 Plans measured within each run and construction order; per-order medians combined geometrically. Oracle is the fastest observed Plan in that order, not all possible kernels. Prediction MAPE covers cases where the chosen configuration matches a logged candidate in both orders; default fallbacks without a prediction are omitted. Actual ratios use independently timed default AtBSR, while absolute estimates use the model reference. Graph events add overhead. Training splits describe the new vector model only; other components and prior inspections may overlap. Total cost estimates use Plan setup plus N warm Graph calls and omit input loading, caller allocations and Graph creation; independent Plan allocation and construction order can affect setup. All-width metrics independently time all six vector Plans in both orders; allocations differ from model-selected Plans and affect comparisons.",
+  "all": {
+    "cases": 2248,
+    "v2_speedup_vs_v1": 1.0070192263794961,
+    "v1_over_observed_best": 1.0500643340862619,
+    "v2_over_observed_best": 1.0427450703811532,
+    "v2_faster_by_5pct": 163,
+    "v2_slower_by_5pct": 30,
+    "v1_within_5pct_best": 1606,
+    "v2_within_5pct_best": 1740,
+    "same_config_both_orders": 1908,
+    "geomean_v2_setup_over_v1": 1.156636251254505,
+    "total_cost_speedups": {
+      "1": 0.8646515842267035,
+      "100": 0.8716828315192298,
+      "1000": 0.9114438485883868,
+      "10000": 0.9777075189422016,
+      "100000": 1.0023140586016843,
+      "1000000": 1.006499269707743
+    },
+    "v1_prediction_ratio_mape": {
+      "cases": 1965,
+      "mean": 0.07550617694928796,
+      "median": 0.059085647327300594,
+      "over_20pct": 96
+    },
+    "v1_prediction_absolute_mape": {
+      "cases": 1965,
+      "mean": 0.36658314532034403,
+      "median": 0.345724402673507,
+      "over_20pct": 1907
+    },
+    "v2_prediction_ratio_mape": {
+      "cases": 1963,
+      "mean": 0.055853146451656094,
+      "median": 0.03917751544369469,
+      "over_20pct": 48
+    },
+    "v2_prediction_absolute_mape": {
+      "cases": 1963,
+      "mean": 0.37742580930332087,
+      "median": 0.35952315288382203,
+      "over_20pct": 1905
+    },
+    "v1_all_width_ratio_mape": 0.09118430715430773,
+    "v1_all_width_absolute_mape": 0.37620630286529905,
+    "v1_width_within_5pct_best": 2107,
+    "v2_all_width_ratio_mape": 0.06451809143226626,
+    "v2_all_width_absolute_mape": 0.3766998312913565,
+    "v2_width_within_5pct_best": 2166
+  },
+  "train": {
+    "cases": 1130,
+    "v2_speedup_vs_v1": 1.008989364070701,
+    "v1_over_observed_best": 1.0517932514317112,
+    "v2_over_observed_best": 1.0424225357424193,
+    "v2_faster_by_5pct": 96,
+    "v2_slower_by_5pct": 15,
+    "v1_within_5pct_best": 818,
+    "v2_within_5pct_best": 897,
+    "same_config_both_orders": 940,
+    "geomean_v2_setup_over_v1": 1.1470307296803235,
+    "total_cost_speedups": {
+      "1": 0.8718895162206549,
+      "100": 0.8787169374626255,
+      "1000": 0.9174416081765386,
+      "10000": 0.9815276857900416,
+      "100000": 1.0047325733461236,
+      "1000000": 1.008539650889761
+    },
+    "v1_prediction_ratio_mape": {
+      "cases": 981,
+      "mean": 0.07998414111322312,
+      "median": 0.06152818539754745,
+      "over_20pct": 55
+    },
+    "v1_prediction_absolute_mape": {
+      "cases": 981,
+      "mean": 0.35864743549366085,
+      "median": 0.3401181080149612,
+      "over_20pct": 953
+    },
+    "v2_prediction_ratio_mape": {
+      "cases": 984,
+      "mean": 0.0536554398896377,
+      "median": 0.03814808797568475,
+      "over_20pct": 16
+    },
+    "v2_prediction_absolute_mape": {
+      "cases": 984,
+      "mean": 0.37027104348417866,
+      "median": 0.35311762909365785,
+      "over_20pct": 961
+    },
+    "v1_all_width_ratio_mape": 0.09247822322228035,
+    "v1_all_width_absolute_mape": 0.36389868375326373,
+    "v1_width_within_5pct_best": 1050,
+    "v2_all_width_ratio_mape": 0.048237982811071424,
+    "v2_all_width_absolute_mape": 0.3656600198668726,
+    "v2_width_within_5pct_best": 1098
+  },
+  "dev": {
+    "cases": 455,
+    "v2_speedup_vs_v1": 1.0030766103887616,
+    "v1_over_observed_best": 1.0482161166653041,
+    "v2_over_observed_best": 1.0450010555614966,
+    "v2_faster_by_5pct": 21,
+    "v2_slower_by_5pct": 7,
+    "v1_within_5pct_best": 312,
+    "v2_within_5pct_best": 323,
+    "same_config_both_orders": 404,
+    "geomean_v2_setup_over_v1": 1.180819361870943,
+    "total_cost_speedups": {
+      "1": 0.8469492323102396,
+      "100": 0.8543499169870986,
+      "1000": 0.8957991525640208,
+      "10000": 0.9660712566450814,
+      "100000": 0.9965187194274269,
+      "1000000": 1.0023337853015721
+    },
+    "v1_prediction_ratio_mape": {
+      "cases": 409,
+      "mean": 0.05810604186585611,
+      "median": 0.038630274375543394,
+      "over_20pct": 9
+    },
+    "v1_prediction_absolute_mape": {
+      "cases": 409,
+      "mean": 0.37627298995681213,
+      "median": 0.34668955528572193,
+      "over_20pct": 394
+    },
+    "v2_prediction_ratio_mape": {
+      "cases": 407,
+      "mean": 0.05100884687897978,
+      "median": 0.03336062435625009,
+      "over_20pct": 10
+    },
+    "v2_prediction_absolute_mape": {
+      "cases": 407,
+      "mean": 0.38392429667507805,
+      "median": 0.36582501811182544,
+      "over_20pct": 383
+    },
+    "v1_all_width_ratio_mape": 0.07060291804306851,
+    "v1_all_width_absolute_mape": 0.38811946077973924,
+    "v1_width_within_5pct_best": 435,
+    "v2_all_width_ratio_mape": 0.07011915658983973,
+    "v2_all_width_absolute_mape": 0.38910606021771615,
+    "v2_width_within_5pct_best": 437
+  },
+  "holdout": {
+    "cases": 245,
+    "v2_speedup_vs_v1": 1.003648541356657,
+    "v1_over_observed_best": 1.0394436870778918,
+    "v2_over_observed_best": 1.0356650204192492,
+    "v2_faster_by_5pct": 15,
+    "v2_slower_by_5pct": 2,
+    "v1_within_5pct_best": 186,
+    "v2_within_5pct_best": 197,
+    "same_config_both_orders": 218,
+    "geomean_v2_setup_over_v1": 1.174191144273257,
+    "total_cost_speedups": {
+      "1": 0.8517258648532264,
+      "100": 0.8588017306193059,
+      "1000": 0.8995750939767294,
+      "10000": 0.9699516993073644,
+      "100000": 0.9972171153454907,
+      "1000000": 1.002838256246158
+    },
+    "v1_prediction_ratio_mape": {
+      "cases": 224,
+      "mean": 0.07303761518361765,
+      "median": 0.05895469858968405,
+      "over_20pct": 6
+    },
+    "v1_prediction_absolute_mape": {
+      "cases": 224,
+      "mean": 0.38133148196257566,
+      "median": 0.38899148270874834,
+      "over_20pct": 222
+    },
+    "v2_prediction_ratio_mape": {
+      "cases": 227,
+      "mean": 0.055347309024845553,
+      "median": 0.03532065963930564,
+      "over_20pct": 7
+    },
+    "v2_prediction_absolute_mape": {
+      "cases": 227,
+      "mean": 0.3938941970299483,
+      "median": 0.3952034315020256,
+      "over_20pct": 226
+    },
+    "v1_all_width_ratio_mape": 0.08146064743390848,
+    "v1_all_width_absolute_mape": 0.3988745676009285,
+    "v1_width_within_5pct_best": 235,
+    "v2_all_width_ratio_mape": 0.07857199536903565,
+    "v2_all_width_absolute_mape": 0.3942230732920275,
+    "v2_width_within_5pct_best": 236
+  },
+  "not_in_training_table": {
+    "cases": 418,
+    "v2_speedup_vs_v1": 1.0079778963790862,
+    "v1_over_observed_best": 1.0536707924696775,
+    "v2_over_observed_best": 1.04533124809059,
+    "v2_faster_by_5pct": 31,
+    "v2_slower_by_5pct": 6,
+    "v1_within_5pct_best": 290,
+    "v2_within_5pct_best": 323,
+    "same_config_both_orders": 346,
+    "geomean_v2_setup_over_v1": 1.1464921453933932,
+    "total_cost_speedups": {
+      "1": 0.8723025922785416,
+      "100": 0.8794413649065282,
+      "1000": 0.9194979212026554,
+      "10000": 0.9847317547312308,
+      "100000": 1.005109430702979,
+      "1000000": 1.007683015070133
+    },
+    "v1_prediction_ratio_mape": {
+      "cases": 351,
+      "mean": 0.08484159073793009,
+      "median": 0.06366209569601977,
+      "over_20pct": 26
+    },
+    "v1_prediction_absolute_mape": {
+      "cases": 351,
+      "mean": 0.36805937744513284,
+      "median": 0.3453877900894532,
+      "over_20pct": 338
+    },
+    "v2_prediction_ratio_mape": {
+      "cases": 345,
+      "mean": 0.06816908349221072,
+      "median": 0.050171485120167225,
+      "over_20pct": 15
+    },
+    "v2_prediction_absolute_mape": {
+      "cases": 345,
+      "mean": 0.37933039246791905,
+      "median": 0.36098832250858687,
+      "over_20pct": 335
+    },
+    "v1_all_width_ratio_mape": 0.11578886103062976,
+    "v1_all_width_absolute_mape": 0.3832240011554913,
+    "v1_width_within_5pct_best": 387,
+    "v2_all_width_ratio_mape": 0.0941947221278302,
+    "v2_all_width_absolute_mape": 0.38276910989903296,
+    "v2_width_within_5pct_best": 395
+  },
+  "segments": {
+    "nnz_bucket": {
+      "100k-1M": {
+        "cases": 631,
+        "v2_speedup_vs_v1": 1.0142564686133342,
+        "v2_within_5pct_best": 431,
+        "v2_prediction_ratio_mape": {
+          "cases": 437,
+          "mean": 0.07210325601178516
+        },
+        "v2_all_width_ratio_mape": 0.08605725433455555,
+        "v2_width_within_5pct_best": 605
+      },
+      "10k-100k": {
+        "cases": 785,
+        "v2_speedup_vs_v1": 1.0046132899370501,
+        "v2_within_5pct_best": 521,
+        "v2_prediction_ratio_mape": {
+          "cases": 724,
+          "mean": 0.06213287529698809
+        },
+        "v2_all_width_ratio_mape": 0.061021126528718266,
+        "v2_width_within_5pct_best": 756
+      },
+      "<10k": {
+        "cases": 832,
+        "v2_speedup_vs_v1": 1.0038278418833373,
+        "v2_within_5pct_best": 788,
+        "v2_prediction_ratio_mape": {
+          "cases": 802,
+          "mean": 0.04132967817011399
+        },
+        "v2_all_width_ratio_mape": 0.05148192034806028,
+        "v2_width_within_5pct_best": 805
+      }
+    },
+    "v2_backend": {
+      "atbsr": {
+        "cases": 357,
+        "v2_speedup_vs_v1": 1.0119960364498748,
+        "v2_within_5pct_best": 201,
+        "v2_prediction_ratio_mape": {
+          "cases": 72,
+          "mean": 0.06325195740827493
+        },
+        "v2_all_width_ratio_mape": 0.09226282174195422,
+        "v2_width_within_5pct_best": 351
+      },
+      "csr_dsm": {
+        "cases": 139,
+        "v2_speedup_vs_v1": 0.9971372112459277,
+        "v2_within_5pct_best": 42,
+        "v2_prediction_ratio_mape": {
+          "cases": 139,
+          "mean": 0.054515969432141057
+        },
+        "v2_all_width_ratio_mape": 0.054555849069087274,
+        "v2_width_within_5pct_best": 139
+      },
+      "csr_two_stage": {
+        "cases": 41,
+        "v2_speedup_vs_v1": 0.9875629457093071,
+        "v2_within_5pct_best": 0,
+        "v2_prediction_ratio_mape": {
+          "cases": 41,
+          "mean": 0.07267914810830395
+        },
+        "v2_all_width_ratio_mape": 0.10908563919395681,
+        "v2_width_within_5pct_best": 41
+      },
+      "csr_vector": {
+        "cases": 1690,
+        "v2_speedup_vs_v1": 1.0072878910277048,
+        "v2_within_5pct_best": 1488,
+        "v2_prediction_ratio_mape": {
+          "cases": 1690,
+          "mean": 0.05367642952516887
+        },
+        "v2_all_width_ratio_mape": 0.05790634137220445,
+        "v2_width_within_5pct_best": 1614
+      },
+      "cusparse": {
+        "cases": 12,
+        "v2_speedup_vs_v1": 1.0079775714936585,
+        "v2_within_5pct_best": 0,
+        "v2_prediction_ratio_mape": {
+          "cases": 12,
+          "mean": 0.26815637689038047
+        },
+        "v2_all_width_ratio_mape": 0.09269097652083504,
+        "v2_width_within_5pct_best": 12
+      },
+      "hybrid_dsm_atbsr": {
+        "cases": 9,
+        "v2_speedup_vs_v1": 1.0012663810750615,
+        "v2_within_5pct_best": 9,
+        "v2_prediction_ratio_mape": {
+          "cases": 9,
+          "mean": 0.06633092305301022
+        },
+        "v2_all_width_ratio_mape": 0.11878436811399977,
+        "v2_width_within_5pct_best": 9
+      }
+    },
+    "v2_reference_calibrated": {
+      "0": {
+        "cases": 2248,
+        "v2_speedup_vs_v1": 1.0070192263794961,
+        "v2_within_5pct_best": 1740,
+        "v2_prediction_ratio_mape": {
+          "cases": 1963,
+          "mean": 0.055853146451656094
+        },
+        "v2_all_width_ratio_mape": 0.06451809143226626,
+        "v2_width_within_5pct_best": 2166
+      }
+    }
+  }
+}

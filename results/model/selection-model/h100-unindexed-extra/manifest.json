@@ -1,0 +1,212 @@
+[
+  {
+    "dataset": "arabic-2005",
+    "rows": "22744080",
+    "columns": "22744080",
+    "nnz": "639999458",
+    "longest_row": "2960954",
+    "longest_row_nnz": "9905",
+    "ratio": "1.54765756067e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "webbase-2001",
+    "rows": "118142155",
+    "columns": "118142155",
+    "nnz": "1019903190",
+    "longest_row": "86002303",
+    "longest_row_nnz": "3841",
+    "ratio": "3.76604371636e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "kmer_A2a",
+    "rows": "170728175",
+    "columns": "170728175",
+    "nnz": "360585172",
+    "longest_row": "21095627",
+    "longest_row_nnz": "40",
+    "ratio": "1.10930795568e-07",
+    "status": "ok"
+  },
+  {
+    "dataset": "it-2004",
+    "rows": "41291594",
+    "columns": "41291594",
+    "nnz": "1150725436",
+    "longest_row": "1906277",
+    "longest_row_nnz": "9964",
+    "ratio": "8.65888568053e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "kmer_V1r",
+    "rows": "214005017",
+    "columns": "214005017",
+    "nnz": "465410904",
+    "longest_row": "2",
+    "longest_row_nnz": "8",
+    "ratio": "1.71891116672e-08",
+    "status": "ok"
+  },
+  {
+    "dataset": "rgg_n_2_24_s0",
+    "rows": "16777216",
+    "columns": "16777216",
+    "nnz": "265114400",
+    "longest_row": "2421853",
+    "longest_row_nnz": "40",
+    "ratio": "1.50878262365e-07",
+    "status": "ok"
+  },
+  {
+    "dataset": "mawi_201512020330",
+    "rows": "226196185",
+    "columns": "226196185",
+    "nnz": "480047894",
+    "longest_row": "104492306",
+    "longest_row_nnz": "210795477",
+    "ratio": "0.439113429378",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian19",
+    "rows": "393215",
+    "columns": "393215",
+    "nnz": "903194710",
+    "longest_row": "393215",
+    "longest_row_nnz": "196607",
+    "ratio": "0.000217679530032",
+    "status": "ok"
+  },
+  {
+    "dataset": "kron_g500-logn21",
+    "rows": "2097152",
+    "columns": "2097152",
+    "nnz": "182082942",
+    "longest_row": "1930587",
+    "longest_row_nnz": "213905",
+    "ratio": "0.00117476682687",
+    "status": "ok"
+  },
+  {
+    "dataset": "uk-2005",
+    "rows": "39459925",
+    "columns": "39459925",
+    "nnz": "936364282",
+    "longest_row": "21049533",
+    "longest_row_nnz": "5213",
+    "ratio": "5.56727771468e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "kmer_V2a",
+    "rows": "55042369",
+    "columns": "55042369",
+    "nnz": "117217600",
+    "longest_row": "4105631",
+    "longest_row_nnz": "39",
+    "ratio": "3.32714541161e-07",
+    "status": "ok"
+  },
+  {
+    "dataset": "com-Orkut",
+    "rows": "3072441",
+    "columns": "3072441",
+    "nnz": "234370166",
+    "longest_row": "43608",
+    "longest_row_nnz": "33313",
+    "ratio": "0.000142138398281",
+    "status": "ok"
+  },
+  {
+    "dataset": "mawi_201512020030",
+    "rows": "68863315",
+    "columns": "68863315",
+    "nnz": "143414960",
+    "longest_row": "31413874",
+    "longest_row_nnz": "63040326",
+    "ratio": "0.439565900238",
+    "status": "ok"
+  },
+  {
+    "dataset": "stokes",
+    "rows": "11449533",
+    "columns": "11449533",
+    "nnz": "349321980",
+    "longest_row": "10901764",
+    "longest_row_nnz": "720",
+    "ratio": "2.0611356892e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "kmer_P1a",
+    "rows": "139353211",
+    "columns": "139353211",
+    "nnz": "297829984",
+    "longest_row": "414528",
+    "longest_row_nnz": "40",
+    "ratio": "1.3430481197e-07",
+    "status": "ok"
+  },
+  {
+    "dataset": "sk-2005",
+    "rows": "50636154",
+    "columns": "50636154",
+    "nnz": "1949412601",
+    "longest_row": "19879528",
+    "longest_row_nnz": "12870",
+    "ratio": "6.60198871875e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "mawi_201512020130",
+    "rows": "128568730",
+    "columns": "128568730",
+    "nnz": "270234840",
+    "longest_row": "58782752",
+    "longest_row_nnz": "119191841",
+    "ratio": "0.441067632138",
+    "status": "ok"
+  },
+  {
+    "dataset": "kmer_U1a",
+    "rows": "67716231",
+    "columns": "67716231",
+    "nnz": "138778562",
+    "longest_row": "10669071",
+    "longest_row_nnz": "35",
+    "ratio": "2.52200336245e-07",
+    "status": "ok"
+  },
+  {
+    "dataset": "twitter7",
+    "rows": "41652230",
+    "columns": "41652230",
+    "nnz": "1468365182",
+    "longest_row": "4597022",
+    "longest_row_nnz": "2997469",
+    "ratio": "0.00204136480267",
+    "status": "ok"
+  },
+  {
+    "dataset": "GAP-twitter",
+    "rows": "61578415",
+    "columns": "61578415",
+    "nnz": "1468364884",
+    "longest_row": "19058682",
+    "longest_row_nnz": "2997469",
+    "ratio": "0.00204136521696",
+    "status": "ok"
+  },
+  {
+    "dataset": "GAP-web",
+    "rows": "50636151",
+    "columns": "50636151",
+    "nnz": "1930292948",
+    "longest_row": "19879528",
+    "longest_row_nnz": "12869",
+    "ratio": "6.66686370757e-06",
+    "status": "ok"
+  }
+]

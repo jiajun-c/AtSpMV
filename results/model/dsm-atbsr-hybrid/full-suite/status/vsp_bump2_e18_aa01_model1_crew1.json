@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_bump2_e18_aa01_model1_crew1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_bump2_e18_aa01_model1_crew1/vsp_bump2_e18_aa01_model1_crew1.mtx",
+  "matrix_sha256": "0e7a808e7d4dd26de7a5750e613cbcc56aff4117ef13e98db5c1d857e9425ae8",
+  "index_nnz": 601602,
+  "index_rows": 56438,
+  "elapsed_s": 1.324,
+  "returncode": 0,
+  "status": "ok"
+}

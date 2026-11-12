@@ -1,0 +1,10 @@
+{
+  "dataset": "kron_g500-logn16",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/kron_g500-logn16/kron_g500-logn16.mtx",
+  "matrix_sha256": "269b84f18b7c5f93db7e0f547f996ec3fa6b8e86b563932a06e6f02c92c4171e",
+  "index_nnz": 4912469,
+  "index_rows": 65536,
+  "elapsed_s": 2.463,
+  "returncode": 0,
+  "status": "ok"
+}

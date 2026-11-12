@@ -1,0 +1,9 @@
+{
+  "name": "Chem97ZtZ",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Chem97ZtZ-L.mtx,default,cusparse,2544,12634,-1,2275.1,43.02720261,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Chem97ZtZ-L.mtx,default-host,cusparse,2544,12634,-1,2275.1,49.143285,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Chem97ZtZ-L.mtx,model,cusparse,2544,12634,23,2265.044,43.01119995,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Chem97ZtZ-L.mtx,model-host,cusparse,2544,12634,23,2265.044,48.95928,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\n",
+  "stderr": ""
+}

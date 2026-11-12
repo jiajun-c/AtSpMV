@@ -1,0 +1,9 @@
+{
+  "name": "grid1_dual",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=3.9968028886505635e-15 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.073260000 ms\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cq5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cq5/cq5.mtx",
+  "matrix_sha256": "8805a8cc196115be929b68b87eca8da1d8f6e0ec92f18ab8531ea182ad699967",
+  "index_nnz": 51571,
+  "index_rows": 5048,
+  "elapsed_s": 1.381,
+  "returncode": 0,
+  "status": "ok"
+}

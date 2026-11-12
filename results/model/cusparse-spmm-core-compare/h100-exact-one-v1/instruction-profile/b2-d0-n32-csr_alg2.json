@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "returncode": 0,
+  "cmd": [
+    "/usr/local/cuda-12.4/bin/ncu",
+    "--csv",
+    "--target-processes",
+    "all",
+    "--launch-count",
+    "20",
+    "--metrics",
+    "sm__inst_executed_pipe_tensor.sum,sm__inst_executed_pipe_tensor_op_hmma.sum,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,sm__sass_thread_inst_executed_op_hfma_pred_on.sum",
+    "/staff/chengjiajun/workspace/AtSpmv/results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/cusparse_spmm_core_compare",
+    "2",
+    "0",
+    "32",
+    "csr_alg2"
+  ],
+  "has_metric_records": true
+}

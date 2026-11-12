@@ -1,0 +1,15 @@
+{
+  "dataset": "tp-6",
+  "matrix_sha256": "bf2bb711aee0d140f54b7657c238a8aa1747a2a9f091af8aa103f830a73b39f2",
+  "gpu_before": {
+    "utilization_percent": 78,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 124.346,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

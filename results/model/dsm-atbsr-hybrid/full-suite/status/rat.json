@@ -1,0 +1,10 @@
+{
+  "dataset": "rat",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rat/rat.mtx",
+  "matrix_sha256": "4ecd01c2b19a9b54920e93995c2eccb78670a4ab57fd1c0a62a394b4969adb50",
+  "index_nnz": 268908,
+  "index_rows": 3136,
+  "elapsed_s": 0.695,
+  "returncode": 0,
+  "status": "ok"
+}

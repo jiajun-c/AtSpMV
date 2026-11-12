@@ -1,0 +1,7 @@
+{
+  "split": "holdout",
+  "cases": 41,
+  "max_relative_error": 3.3306690738754696e-16,
+  "issues": [],
+  "scope": "Host-only comparison on hash-verified real matrices; GPU integration is tested separately."
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "S10PI_n",
+  "matrix_sha256": "abad41188e6f828ebb03864bdefae9919599d7d4cd637f0670ebd42015144406",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.732,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

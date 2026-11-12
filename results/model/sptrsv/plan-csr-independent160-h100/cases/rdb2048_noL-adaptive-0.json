@@ -1,0 +1,8 @@
+{
+  "name": "rdb2048_noL",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rdb2048_noL-L.mtx,default,cusparse,2048,21569,-1,3660.879,251.0783844,1.776356839e-15,3.777733141e-17,1.220756358e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb2048_noL-L.mtx,default-host,cusparse,2048,21569,-1,3660.879,258.865475,1.776356839e-15,3.777733141e-17,1.220756358e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb2048_noL-L.mtx,model,cusparse,2048,21569,168,3656.529,251.2383881,1.776356839e-15,3.777733141e-17,1.220756358e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb2048_noL-L.mtx,model-host,cusparse,2048,21569,168,3656.529,257.26207,1.776356839e-15,3.777733141e-17,1.220756358e-16,0\n",
+  "stderr": ""
+}

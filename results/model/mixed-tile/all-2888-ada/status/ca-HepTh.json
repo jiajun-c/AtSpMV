@@ -1,0 +1,15 @@
+{
+  "dataset": "ca-HepTh",
+  "matrix_sha256": "047291a60dcf877592743d90b6c8455e5bdf6f4a7442a77e6d3d5ecb00159744",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.771,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

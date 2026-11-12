@@ -1,0 +1,17 @@
+{
+  "dataset": "GD06_Java",
+  "matrix_sha256": "75d83ea55d2be284d2159931b2e5fefe7a3622bd6c2d37c98cfcfa0d87f3fdad",
+  "index_nnz": 8032,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.411,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

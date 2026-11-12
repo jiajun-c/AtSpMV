@@ -1,0 +1,17 @@
+{
+  "dataset": "DK01R",
+  "matrix_sha256": "a77fb19f83a240c62147748663f97880712f3b3f92cf27303e47b08c436004d8",
+  "index_nnz": 11766,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.206,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

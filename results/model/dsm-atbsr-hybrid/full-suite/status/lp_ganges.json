@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_ganges",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_ganges/lp_ganges.mtx",
+  "matrix_sha256": "f5fc4cbd39348c79c21e2537152836bdb9c10c70a99b93b0ff3901bbaddb31f0",
+  "index_nnz": 6937,
+  "index_rows": 1309,
+  "elapsed_s": 1.258,
+  "returncode": 0,
+  "status": "ok"
+}

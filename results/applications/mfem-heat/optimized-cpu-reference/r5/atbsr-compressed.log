@@ -1,0 +1,32 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 5
+   --order 2
+   --ode-solver 21
+   --t-final 0.03
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr-compressed
+   --solution /staff/chengjiajun/workspace/AtSpmv/results/applications/mfem-heat/optimized-cpu-reference/r5/atbsr-compressed.bin
+   --dump-implicit-matrix 
+   --persist-x
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --bulk-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 82561
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+compressed_columns bytes=2216472
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+compressed_columns bytes=2216472
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+compressed_columns bytes=2216472
+step 3, t = 0.03
+APP_RESULT {"backend":"atbsr-compressed","dofs":82561,"steps":3,"nnz":1313281,"initialization_s":0.65377393299999997,"evolution_s":0.116738087,"total_s":0.77051213600000001,"plan_s":0.036051227000000005,"plans":3,"value_updates":5,"linear_s":0.043932950999999998,"parameter_s":0.056571501999999996,"implicit_setup_s":0.046047673999999997,"implicit_updates":2,"spmv_calls":661,"linear_solves":3,"cg_iterations":658,"sum":96105.483437196672,"l2":343.69417292557875,"mass_relative_error":7.9969536113453037e-09,"initial_energy":7.1115985012722467,"final_energy":6.8196398657908572}
+

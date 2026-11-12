@@ -1,0 +1,10 @@
+{
+  "dataset": "bbmat",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bbmat/bbmat.mtx",
+  "matrix_sha256": "9e7b28944c5de6ce97362f54e6efbefbecc6b6b16fcfd82395eda21dd36f3ff7",
+  "index_nnz": 1771722,
+  "index_rows": 38744,
+  "elapsed_s": 1.809,
+  "returncode": 0,
+  "status": "ok"
+}

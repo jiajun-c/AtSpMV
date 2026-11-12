@@ -1,0 +1,14 @@
+{
+  "matrix": "raefsky1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/raefsky1/raefsky1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3242,
+  "columns": 3242,
+  "original_nnz": 294276,
+  "factor_L_nnz": 694489,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.7275478099472821
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "dataset18mfeatmorphological_10NN",
+  "matrix_sha256": "86e2cadd67452ca890a7a952882fbfb4ae14daa7c26eda1295902f2804fdf030",
+  "index_nnz": 22832,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.123,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 81079
+  }
+}

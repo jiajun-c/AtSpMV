@@ -1,0 +1,589 @@
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2392467, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2394902, 'name': '[No data]'}]
+WAIT shared GPU activity/memory {'utilization_percent': 23, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 17, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2400789, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 10, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2404958, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2407373, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2410473, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2412347, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2413627, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 4, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2419222, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2422293, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2425417, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 15, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2433531, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 33, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2447183, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 16, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2453424, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2459145, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 13, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2464500, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2467022, 'name': '[No data]'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2472009, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2474181, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2475961, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 4, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2478301, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 5, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2482590, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2484778, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2490902, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2494525, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2499278, 'name': '[No data]'}]
+WAIT shared GPU activity/memory {'utilization_percent': 12, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 7, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 38, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2514853, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2521044, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2524367, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 11, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2529288, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2531359, 'name': '[No data]'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2534231, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2537649, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2539720, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2542700, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2544684, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2547074, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2549254, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2551226, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2553127, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2558040, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2560222, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2563312, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 15, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 54, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2570443, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 9, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2586357, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2591730, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2595460, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2597747, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2600614, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2602784, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2604761, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2608976, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2613679, 'name': '[No data]'}]
+WAIT shared GPU activity/memory {'utilization_percent': 34, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2619073, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 10, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 14, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2623681, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2626088, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2628196, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2630150, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2633358, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2635229, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2638006, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2643215, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 23, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2652680, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2658612, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2662228, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2664741, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2667592, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2669780, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2672201, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2674613, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2677454, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2681073, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2683297, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2685189, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 13, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 25, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2690510, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2694335, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2696404, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2699379, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2702437, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2704530, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 43, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2714825, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2724859, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2735465, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 10, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2739841, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2741849, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2746213, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 5, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2749870, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2753235, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2755914, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2757036, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2762439, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2765087, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2768150, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 12, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2770880, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2773940, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2776597, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2778458, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2787195, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2803489, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2806031, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2810620, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2812496, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 45, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2815054, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2817980, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2819749, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2821832, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2825648, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 12, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2828712, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2831955, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2836047, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 8, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 11, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2843580, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2845983, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 24, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2848850, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2853262, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2859328, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2867225, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2873255, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2876178, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2878991, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2883640, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2887265, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2889436, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 7, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 29, 'free_memory_mib': 81079} []
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2896115, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2901140, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 4, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2904196, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 42, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2907151, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2909244, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 1, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2912658, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2914804, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2917898, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+WAIT shared GPU activity/memory {'utilization_percent': 11, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 2920979, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/selection-model/h100-vector-graph-train-dev/provenance/spmv_hybrid_validation'}]
+10/2794 p0040: ok, new=10
+20/2794 ex22: ok, new=20
+30/2794 whitaker3_dual: ok, new=30
+40/2794 D_6: ok, new=40
+50/2794 Franz11: ok, new=50
+60/2794 Tina_AskCal: ok, new=60
+70/2794 EternityII_E: ok, new=70
+80/2794 onera_dual: ok, new=80
+90/2794 bcsstk39: ok, new=90
+100/2794 G20: ok, new=100
+110/2794 lhr02: ok, new=110
+120/2794 G28: ok, new=120
+130/2794 dgreen: ok, new=130
+140/2794 Spielman_k500: error, new=140
+150/2794 psmigr_3: ok, new=150
+160/2794 GL7d20: ok, new=160
+170/2794 lhr11c: ok, new=170
+180/2794 Trefethen_500: ok, new=180
+190/2794 n3c6-b3: ok, new=190
+200/2794 poli3: ok, new=200
+210/2794 mycielskian9: ok, new=210
+220/2794 utm300: ok, new=220
+230/2794 commanche_dual: ok, new=230
+240/2794 ch8-8-b2: ok, new=240
+250/2794 bcsstk22: ok, new=250
+260/2794 mesh3em5: ok, new=260
+270/2794 usroads-48: ok, new=270
+280/2794 west0989: ok, new=280
+290/2794 G2: ok, new=290
+300/2794 adder_dcop_61: ok, new=300
+310/2794 af_1_k101: ok, new=310
+320/2794 scagr7-2c: ok, new=320
+330/2794 lpi_gran: ok, new=330
+340/2794 xenon1: ok, new=340
+350/2794 TSOPF_FS_b300_c1: ok, new=350
+360/2794 nemeth18: ok, new=360
+370/2794 JapaneseVowelsSmall_10NN: ok, new=370
+380/2794 G5: ok, new=380
+390/2794 ch7-9-b5: ok, new=390
+400/2794 n3c5-b2: ok, new=400
+410/2794 flower_8_1: ok, new=410
+420/2794 nasa1824: ok, new=420
+430/2794 ex1: ok, new=430
+440/2794 Trefethen_300: ok, new=440
+450/2794 dw4096: ok, new=450
+460/2794 lp_etamacro: ok, new=460
+470/2794 ex4: ok, new=470
+480/2794 pds-80: ok, new=480
+490/2794 tub1000: ok, new=490
+500/2794 human_gene1: ok, new=500
+510/2794 lp_bandm: ok, new=510
+520/2794 viscorocks: ok, new=520
+530/2794 olafu: ok, new=530
+540/2794 Fashion_MNIST_norm_10NN: ok, new=540
+550/2794 iris_dataset_30NN: ok, new=550
+560/2794 relat4: ok, new=560
+570/2794 sinc15: ok, new=570
+580/2794 nemeth13: ok, new=580
+590/2794 rajat21: ok, new=590
+600/2794 plskz362: ok, new=600
+610/2794 Trec14: ok, new=610
+620/2794 dwt_307: ok, new=620
+630/2794 bibd_16_8: ok, new=630
+640/2794 af_shell5: ok, new=640
+650/2794 kineticBatchReactor_4: ok, new=650
+660/2794 std1_Jac3: ok, new=660
+670/2794 c-18: ok, new=670
+RETRY due to external GPU use srb1 [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3413307, 'name': 'VLLM::EngineCore'}]
+688/2794 reorientation_1: ok, new=10
+698/2794 mcca: ok, new=20
+RETRY due to external GPU use lp_osa_60 [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 3534782, 'name': 'VLLM::EngineCore'}]
+713/2794 bcsstk38: ok, new=10
+723/2794 comsol: ok, new=20
+733/2794 fxm2-16: ok, new=30
+743/2794 GD95_c: ok, new=40
+753/2794 fpga_dcop_28: ok, new=50
+763/2794 G14: ok, new=60
+773/2794 H2O: ok, new=70
+783/2794 adder_dcop_03: ok, new=80
+793/2794 stat96v1: ok, new=90
+803/2794 TSOPF_RS_b2383_c1: ok, new=100
+809/2794 uk-2002: error, new=106
+813/2794 freeFlyingRobot_3: ok, new=110
+823/2794 indianpines_10NN: ok, new=120
+833/2794 Kuu: ok, new=130
+843/2794 a5esindl: ok, new=140
+853/2794 g7jac060sc: ok, new=150
+863/2794 dynamicSoaringProblem_5: ok, new=160
+873/2794 sls: ok, new=170
+883/2794 lhr17c: ok, new=180
+893/2794 NACA0015: ok, new=190
+903/2794 lp_grow7: ok, new=200
+913/2794 mk9-b3: ok, new=210
+923/2794 lpi_galenet: ok, new=220
+933/2794 EAT_RS: ok, new=230
+943/2794 trdheim: ok, new=240
+953/2794 plsk1919: ok, new=250
+963/2794 CurlCurl_4: ok, new=260
+973/2794 bcsstk20: ok, new=270
+983/2794 d_dyn: ok, new=280
+993/2794 adder_dcop_37: ok, new=290
+1003/2794 cage7: ok, new=300
+1013/2794 olm2000: ok, new=310
+1023/2794 lshp_778: ok, new=320
+1033/2794 TSOPF_RS_b9_c6: ok, new=330
+1043/2794 sstmodel: ok, new=340
+1053/2794 cavity22: ok, new=350
+1063/2794 Bump_2911: ok, new=360
+1073/2794 TSC_OPF_300: ok, new=370
+1083/2794 young3c: ok, new=380
+1093/2794 bcsstk35: ok, new=390
+1103/2794 ex28: ok, new=400
+1113/2794 rajat28: ok, new=410
+1123/2794 farm: ok, new=420
+1133/2794 mice_10NN: ok, new=430
+1143/2794 gams30am: ok, new=440
+1153/2794 Goodwin_040: ok, new=450
+1163/2794 engine: ok, new=460
+1173/2794 can_24: ok, new=470
+1183/2794 bcsstm22: ok, new=480
+1193/2794 rail582: ok, new=490
+1203/2794 astro-ph: ok, new=500
+1213/2794 ex10hs: ok, new=510
+1223/2794 deter8: ok, new=520
+1233/2794 lshp1009: ok, new=530
+1243/2794 delaunay_n21: ok, new=540
+1253/2794 gyro_m: ok, new=550
+1263/2794 ch7-8-b2: ok, new=560
+1273/2794 t2em: ok, new=570
+1283/2794 GD96_d: ok, new=580
+1293/2794 nasa2146: ok, new=590
+1303/2794 cant: ok, new=600
+1313/2794 ex25: ok, new=610
+1323/2794 abb313: ok, new=620
+1333/2794 epb1: ok, new=630
+1343/2794 opt1: ok, new=640
+1353/2794 Erdos991: ok, new=650
+1363/2794 G32: ok, new=660
+1373/2794 cegb2919: ok, new=670
+1383/2794 adder_dcop_64: ok, new=680
+1393/2794 rw5151: ok, new=690
+1403/2794 M20PI_n: ok, new=700
+1413/2794 lp_ken_07: ok, new=710
+1423/2794 cti: ok, new=720
+1433/2794 n3c6-b10: ok, new=730
+1443/2794 vsp_c-60_data_cti_cs4: ok, new=740
+1453/2794 lp_sctap1: ok, new=750
+1463/2794 az2010: ok, new=760
+1473/2794 USAir97: ok, new=770
+1483/2794 adder_dcop_45: ok, new=780
+1493/2794 nd2010: ok, new=790
+1503/2794 str_600: ok, new=800
+1513/2794 stat96v3: ok, new=810
+1523/2794 gridgena: ok, new=820
+1533/2794 bcspwr10: ok, new=830
+1543/2794 boyd1: ok, new=840
+1553/2794 trans5: ok, new=850
+1563/2794 GL7d10: ok, new=860
+1573/2794 TSOPF_RS_b162_c3: ok, new=870
+1583/2794 sctap1-2b: ok, new=880
+1593/2794 adjnoun: ok, new=890
+1603/2794 c-42: ok, new=900
+1613/2794 n3c6-b2: ok, new=910
+1623/2794 cq5: ok, new=920
+1633/2794 rdb2048_noL: ok, new=930
+1643/2794 n4c6-b10: ok, new=940
+1653/2794 M10PI_n: ok, new=950
+1663/2794 bcsstm07: ok, new=960
+1673/2794 hvdc1: ok, new=970
+1683/2794 GL7d23: ok, new=980
+1693/2794 shermanACd: ok, new=990
+1703/2794 ct2010: ok, new=1000
+1713/2794 adder_dcop_55: ok, new=1010
+1723/2794 soc-sign-Slashdot081106: ok, new=1020
+1733/2794 n4c5-b10: ok, new=1030
+1743/2794 bcsstk14: ok, new=1040
+1753/2794 Spielman_k200: ok, new=1050
+1763/2794 ex32: ok, new=1060
+1773/2794 mult_dcop_02: ok, new=1070
+1783/2794 n4c6-b9: ok, new=1080
+1793/2794 Goodwin_023: ok, new=1090
+1803/2794 mark3jac080sc: ok, new=1100
+1813/2794 144: ok, new=1110
+1823/2794 spaceStation_12: ok, new=1120
+1833/2794 g7jac020sc: ok, new=1130
+1843/2794 12month1: ok, new=1140
+1853/2794 pores_1: ok, new=1150
+1863/2794 Si2: ok, new=1160
+1873/2794 str_200: ok, new=1170
+1883/2794 rw496: ok, new=1180
+1893/2794 preferentialAttachment: ok, new=1190
+1903/2794 c-19: ok, new=1200
+1913/2794 mri2: ok, new=1210
+1923/2794 Ga3As3H12: ok, new=1220
+1933/2794 lp_wood1p: ok, new=1230
+1943/2794 ch7-6-b5: ok, new=1240
+1953/2794 oscil_dcop_42: ok, new=1250
+1963/2794 rim: ok, new=1260
+1973/2794 adder_dcop_39: ok, new=1270
+1983/2794 orsirr_2: ok, new=1280
+1993/2794 fullb: ok, new=1290
+2003/2794 Vehicle_10NN: ok, new=1300
+2013/2794 email-Enron: ok, new=1310
+2023/2794 Reuters911: ok, new=1320
+2033/2794 webbase-1M: ok, new=1330
+2043/2794 G25: ok, new=1340
+2053/2794 lpi_gosh: ok, new=1350
+2063/2794 pre2: ok, new=1360
+2073/2794 lp_agg: ok, new=1370
+2083/2794 delaunay_n24: ok, new=1380
+2093/2794 gsm_106857: ok, new=1390
+2103/2794 water_tank: ok, new=1400
+2113/2794 TEM152078: ok, new=1410
+2123/2794 cond-mat-2003: ok, new=1420
+2133/2794 bibd_17_4: ok, new=1430
+2143/2794 dwt_87: ok, new=1440
+2153/2794 pa2010: ok, new=1450
+2163/2794 Cities: ok, new=1460
+2173/2794 wheel_5_1: ok, new=1470
+2183/2794 rel6: ok, new=1480

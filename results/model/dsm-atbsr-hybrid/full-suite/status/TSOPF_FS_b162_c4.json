@@ -1,0 +1,10 @@
+{
+  "dataset": "TSOPF_FS_b162_c4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_FS_b162_c4/TSOPF_FS_b162_c4.mtx",
+  "matrix_sha256": "1574e213a90bab09b9a3887b6a5ba1565c65302719a9f3ba249ce539e87ee29c",
+  "index_nnz": 2398220,
+  "index_rows": 40798,
+  "elapsed_s": 1.318,
+  "returncode": 0,
+  "status": "ok"
+}

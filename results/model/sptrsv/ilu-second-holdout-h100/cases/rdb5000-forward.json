@@ -1,0 +1,7 @@
+{
+  "name": "rdb5000",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/rdb5000-L.mtx,default,cusparse,5000,52555,-1,4621.385,503.0240173,1.110223025e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/rdb5000-L.mtx,model,cusparse,5000,52555,-1,4571.921,502.9215698,1.110223025e-14\n",
+  "stderr": ""
+}

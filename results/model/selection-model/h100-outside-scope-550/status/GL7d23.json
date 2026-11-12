@@ -1,0 +1,17 @@
+{
+  "dataset": "GL7d23",
+  "matrix_sha256": "04a775018ac7b3144b2974f735bb99dded2c62d2e99b18bd588334e3ad683a65",
+  "index_nnz": 2695430,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.062,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

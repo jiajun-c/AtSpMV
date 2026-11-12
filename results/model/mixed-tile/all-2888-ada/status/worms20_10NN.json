@@ -1,0 +1,15 @@
+{
+  "dataset": "worms20_10NN",
+  "matrix_sha256": "4aa22bf4ae22d61d648eaf88a2bcf6588ff6226ca84f8ec8d817bf565afd8044",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.008,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

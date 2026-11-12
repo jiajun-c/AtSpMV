@@ -1,0 +1,10 @@
+{
+  "dataset": "rel9",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rel9/rel9.mtx",
+  "matrix_sha256": "b95492265880f1f38aa05419af8e1088fc116173fac41c2fc31fd59ddcf2022a",
+  "index_nnz": 23667183,
+  "index_rows": 9888048,
+  "elapsed_s": 12.104,
+  "returncode": 0,
+  "status": "ok"
+}

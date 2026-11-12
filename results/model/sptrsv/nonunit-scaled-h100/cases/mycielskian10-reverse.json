@@ -1,0 +1,7 @@
+{
+  "name": "mycielskian10",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/mycielskian10-L.mtx,model,cusparse,767,39131,513,7156.769,422.8384094,5.40678613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/mycielskian10-L.mtx,model-host,cusparse,767,39131,513,7156.769,430.2055,5.40678613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/mycielskian10-L.mtx,default,cusparse,767,39131,-1,6983.529,422.8799744,5.40678613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/mycielskian10-L.mtx,default-host,cusparse,767,39131,-1,6983.529,430.15685,5.40678613e-14\n",
+  "stderr": ""
+}

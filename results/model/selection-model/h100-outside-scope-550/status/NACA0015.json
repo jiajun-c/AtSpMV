@@ -1,0 +1,17 @@
+{
+  "dataset": "NACA0015",
+  "matrix_sha256": "6be4530f9ce89a4a8179f87cf67ef38b2ac4efbef1e6c272914e4aac45cbc9af",
+  "index_nnz": 6229636,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 46.97,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

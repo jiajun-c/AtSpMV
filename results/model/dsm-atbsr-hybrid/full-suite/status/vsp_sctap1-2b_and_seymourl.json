@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_sctap1-2b_and_seymourl",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_sctap1-2b_and_seymourl/vsp_sctap1-2b_and_seymourl.mtx",
+  "matrix_sha256": "b38339ebc95de8e6c739efe9b1fd47fb2679ddd9b3acb720c360d816d3d6263c",
+  "index_nnz": 281662,
+  "index_rows": 40174,
+  "elapsed_s": 1.195,
+  "returncode": 0,
+  "status": "ok"
+}

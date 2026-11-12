@@ -1,0 +1,7 @@
+{
+  "name": "t2d_q9",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/t2d_q9-L.mtx,default,cusparse,9801,217881,-1,9415.976,714.2528076,4.218847494e-15,4.428313253e-17,1.633869971e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/t2d_q9-L.mtx,default-host,cusparse,9801,217881,-1,9415.976,721.45887,4.218847494e-15,4.428313253e-17,1.633869971e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/t2d_q9-L.mtx,model,cusparse,9801,217881,-1,8349.542,714.5631714,4.218847494e-15,4.428313253e-17,1.633869971e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/t2d_q9-L.mtx,model-host,cusparse,9801,217881,-1,8349.542,721.682505,4.218847494e-15,4.428313253e-17,1.633869971e-16\n",
+  "stderr": ""
+}

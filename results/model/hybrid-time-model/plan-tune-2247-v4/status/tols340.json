@@ -1,0 +1,19 @@
+{
+  "dataset": "tols340",
+  "matrix_sha256": "af70c69a998b78da8eb880972a395ddcee19d48ecbd656790adf2cc3c09ce397",
+  "index_nnz": 2196,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.737,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

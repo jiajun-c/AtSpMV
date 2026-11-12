@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_capri",
+  "matrix_sha256": "acb65d24ee028a7c22e6ec156a62088df054f5f395d41171f842a83b589ccf6e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.212,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 48508
+  }
+}

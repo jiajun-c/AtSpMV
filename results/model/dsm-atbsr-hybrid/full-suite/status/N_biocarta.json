@@ -1,0 +1,10 @@
+{
+  "dataset": "N_biocarta",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/N_biocarta/N_biocarta.mtx",
+  "matrix_sha256": "c186ecf944a3bbca63b669b459413b15b6e0cd8706bfcb79efc7d8853b87059e",
+  "index_nnz": 4335,
+  "index_rows": 1922,
+  "elapsed_s": 1.259,
+  "returncode": 0,
+  "status": "ok"
+}

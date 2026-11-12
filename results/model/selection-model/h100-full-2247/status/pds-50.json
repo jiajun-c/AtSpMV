@@ -1,0 +1,17 @@
+{
+  "dataset": "pds-50",
+  "matrix_sha256": "f2e43d58ad690f453f1cda3d1f8e6bd3fd71ba8600d7fb6a7cefd3b90b4f11d5",
+  "index_nnz": 590833,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.392,
+  "gpu_after": {
+    "utilization_percent": 13,
+    "free_memory_mib": 81079
+  }
+}

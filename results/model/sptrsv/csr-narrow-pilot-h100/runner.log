@@ -1,0 +1,43 @@
+WAIT GPU busy [{'pid': 906093, 'name': '/tmp/h100-source-ablation-study/bench'}]
+WAIT GPU busy [{'pid': 907090, 'name': '/tmp/h100-source-ablation-study/bench'}]
+WAIT GPU busy [{'pid': 907090, 'name': '/tmp/h100-source-ablation-study/bench'}]
+WAIT GPU busy [{'pid': 907090, 'name': '/tmp/h100-source-ablation-study/bench'}]
+WAIT GPU busy [{'pid': 907090, 'name': '/tmp/h100-source-ablation-study/bench'}]
+dwt_310 forward 0
+dwt_310 reverse 0
+west0479 forward 0
+west0479 reverse 0
+bwm200 forward 0
+bwm200 reverse 0
+Trefethen_200b forward 0
+Trefethen_200b reverse 0
+nos4 forward 0
+nos4 reverse 0
+fs_183_4 forward 0
+fs_183_4 reverse 0
+iris_dataset_30NN forward 0
+iris_dataset_30NN reverse 0
+circuit204 forward 0
+circuit204 reverse 0
+breasttissue_10NN forward 0
+breasttissue_10NN reverse 0
+Glass_10NN forward 0
+Glass_10NN reverse 0
+bcsstk04 forward 0
+bcsstk04 reverse 0
+Journals forward 0
+Journals reverse 0
+YaleA_10NN forward 0
+RETRY due to external GPU use [{'pid': 911336, 'name': '[No data]'}]
+YaleA_10NN reverse 0
+cavity03 forward 0
+cavity03 reverse 0
+comsol forward 0
+comsol reverse 0
+jazz forward 0
+jazz reverse 0
+plat362 forward 0
+plat362 reverse 0
+tomography forward 0
+tomography reverse 0
+runner_exit=0

@@ -1,0 +1,9 @@
+{
+  "name": "ex25",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,default,cusparse,848,32950,-1,6075.76,527.9039917,1.199040867e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,default-host,cusparse,848,32950,-1,6075.76,533.71292,1.199040867e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,model,cusparse,848,32950,542,6108.16,527.9424438,1.199040867e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,model-host,cusparse,848,32950,542,6108.16,533.60567,1.199040867e-14\n",
+  "stderr": ""
+}

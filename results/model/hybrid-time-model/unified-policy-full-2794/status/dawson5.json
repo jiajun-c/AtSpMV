@@ -1,0 +1,17 @@
+{
+  "dataset": "dawson5",
+  "matrix_sha256": "549f0f6076676c622a32a4d622fd5d2dc8d0a0651c22307ca4435c569d94a0d6",
+  "index_nnz": 1010777,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.487,
+  "gpu_after": {
+    "utilization_percent": 20,
+    "free_memory_mib": 81079
+  }
+}

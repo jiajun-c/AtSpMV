@@ -1,0 +1,15 @@
+{
+  "dataset": "memplus",
+  "matrix_sha256": "7557ed285697c72b4692b41804725194798f9285ef39c0fe3823024214072aa1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.456,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

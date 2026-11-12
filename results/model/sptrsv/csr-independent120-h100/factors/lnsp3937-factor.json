@@ -1,0 +1,13 @@
+{
+  "matrix": "lnsp3937",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lnsp3937/lnsp3937.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3937,
+  "columns": 3937,
+  "original_nnz": 25407,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.0745767978951335
+}

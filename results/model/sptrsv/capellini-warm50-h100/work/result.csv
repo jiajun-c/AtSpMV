@@ -1,0 +1,132 @@
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex13-L.mtx, 2576, 148517, 57.65, 1711, 1.51, 0.00, 3.32, 0.09, 0.56, 0.93, 0.99
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex13-L.mtx, 2576, 148517, 57.65, 1711, 1.51, 0.00, 3.33, 0.09, 0.56, 0.93, 0.99
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex10hs-L.mtx, 2560, 64109, 25.04, 1308, 1.96, 0.00, 2.56, 0.05, 0.33, 0.95, 0.98
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex10hs-L.mtx, 2560, 64109, 25.04, 1308, 1.96, 0.00, 2.56, 0.05, 0.33, 0.95, 0.98
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/dynamicSoaringProblem_7-L.mtx, 3520, 74884, 21.27, 666, 5.29, 0.00, 1.30, 0.12, 0.76, 0.52, 0.92
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/dynamicSoaringProblem_7-L.mtx, 3520, 74884, 21.27, 666, 5.29, 0.00, 1.30, 0.12, 0.76, 0.52, 0.92
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/wang1-L.mtx, 2912, 35257, 12.11, 150, 19.41, 0.00, 0.30, 0.24, 1.67, 0.54, 0.80
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/wang1-L.mtx, 2912, 35257, 12.11, 150, 19.41, 0.00, 0.30, 0.24, 1.69, 0.54, 0.80
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx, 2032, 5461, 2.69, 28, 72.57, 0.00, 0.12, 0.09, 0.93, 0.02, 0.06
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx, 2032, 5461, 2.69, 28, 72.57, 0.00, 0.12, 0.09, 0.98, 0.02, 0.06
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Trefethen_300-L.mtx, 304, 10515, 34.59, 241, 1.26, 0.00, 0.47, 0.04, 0.28, 0.79, 0.96
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Trefethen_300-L.mtx, 304, 10515, 34.59, 241, 1.26, 0.00, 0.47, 0.04, 0.28, 0.79, 0.96
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex36-L.mtx, 3088, 112406, 36.40, 1197, 2.58, 0.00, 2.34, 0.10, 0.61, 0.80, 0.96
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex36-L.mtx, 3088, 112406, 36.40, 1197, 2.58, 0.00, 2.34, 0.10, 0.61, 0.80, 0.96
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/shl_0-L.mtx, 672, 1944, 2.89, 44, 15.27, 0.00, 0.14, 0.03, 0.28, 0.10, 0.38
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/shl_0-L.mtx, 672, 1944, 2.89, 44, 15.27, 0.00, 0.14, 0.03, 0.28, 0.10, 0.38
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx, 640, 7851, 12.27, 211, 3.03, 0.00, 0.38, 0.04, 0.29, 0.55, 0.70
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx, 640, 7851, 12.27, 211, 3.03, 0.00, 0.38, 0.04, 0.29, 0.55, 0.70
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/str_400-L.mtx, 368, 2189, 5.95, 43, 8.56, 0.00, 0.10, 0.04, 0.35, 0.22, 0.71
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/str_400-L.mtx, 368, 2189, 5.95, 43, 8.56, 0.00, 0.10, 0.04, 0.35, 0.22, 0.71
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_39-L.mtx, 1232, 2948, 2.39, 18, 68.44, 0.00, 0.05, 0.12, 1.38, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_39-L.mtx, 1232, 2948, 2.39, 18, 68.44, 0.00, 0.05, 0.12, 1.36, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_46-L.mtx, 1824, 3879, 2.13, 8, 228.00, 0.00, 0.04, 0.19, 2.21, 0.02, 0.24
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_46-L.mtx, 1824, 3879, 2.13, 8, 228.00, 0.00, 0.04, 0.17, 2.03, 0.02, 0.24
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_04-L.mtx, 1824, 6357, 3.49, 16, 114.00, 0.00, 0.19, 0.07, 0.62, 0.05, 0.31
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_04-L.mtx, 1824, 6357, 3.49, 16, 114.00, 0.00, 0.19, 0.07, 0.64, 0.05, 0.31
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx, 1664, 4194, 2.52, 467, 3.56, 0.00, 0.79, 0.01, 0.11, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx, 1664, 4194, 2.52, 467, 3.56, 0.00, 0.79, 0.01, 0.11, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex25-L.mtx, 848, 32950, 38.86, 542, 1.56, 0.00, 1.04, 0.06, 0.40, 0.85, 0.97
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex25-L.mtx, 848, 32950, 38.86, 542, 1.56, 0.00, 1.04, 0.06, 0.40, 0.85, 0.97
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_28-L.mtx, 1232, 2954, 2.40, 18, 68.44, 0.00, 0.05, 0.12, 1.37, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_28-L.mtx, 1232, 2954, 2.40, 18, 68.44, 0.00, 0.05, 0.12, 1.29, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx, 432, 1106, 2.56, 25, 17.28, 0.00, 0.06, 0.04, 0.38, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx, 432, 1106, 2.56, 25, 17.28, 0.00, 0.06, 0.04, 0.39, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_34-L.mtx, 1232, 2948, 2.39, 18, 68.44, 0.00, 0.05, 0.12, 1.37, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_34-L.mtx, 1232, 2948, 2.39, 18, 68.44, 0.00, 0.05, 0.12, 1.33, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx, 1824, 4047, 2.22, 9, 202.67, 0.00, 0.06, 0.14, 1.56, 0.02, 0.22
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx, 1824, 4047, 2.22, 9, 202.67, 0.00, 0.06, 0.14, 1.57, 0.02, 0.22
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mice_10NN-L.mtx, 1088, 31230, 28.70, 323, 3.37, 0.00, 0.62, 0.10, 0.65, 0.65, 0.91
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mice_10NN-L.mtx, 1088, 31230, 28.70, 323, 3.37, 0.00, 0.62, 0.10, 0.65, 0.65, 0.91
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_55-L.mtx, 1824, 3873, 2.12, 8, 228.00, 0.00, 0.04, 0.17, 2.03, 0.02, 0.23
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_55-L.mtx, 1824, 3873, 2.12, 8, 228.00, 0.00, 0.04, 0.17, 2.04, 0.02, 0.23
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx, 3568, 36982, 10.36, 181, 19.71, 0.00, 0.37, 0.20, 1.46, 0.45, 0.76
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx, 3568, 36982, 10.36, 181, 19.71, 0.00, 0.37, 0.20, 1.47, 0.45, 0.76
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx, 224, 5782, 25.81, 197, 1.14, 0.00, 0.37, 0.03, 0.20, 0.86, 0.95
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx, 224, 5782, 25.81, 197, 1.14, 0.00, 0.37, 0.03, 0.20, 0.86, 0.95
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/dwt_234-L.mtx, 240, 910, 3.79, 40, 6.00, 0.00, 0.08, 0.02, 0.20, 0.07, 0.21
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/dwt_234-L.mtx, 240, 910, 3.79, 40, 6.00, 0.00, 0.08, 0.02, 0.21, 0.07, 0.21
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx, 192, 1735, 9.04, 92, 2.09, 0.00, 0.17, 0.02, 0.15, 0.33, 0.66
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx, 192, 1735, 9.04, 92, 2.09, 0.00, 0.17, 0.02, 0.15, 0.33, 0.66
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_22-L.mtx, 1232, 3013, 2.45, 18, 68.44, 0.00, 0.05, 0.11, 1.24, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fpga_dcop_22-L.mtx, 1232, 3013, 2.45, 18, 68.44, 0.00, 0.05, 0.12, 1.33, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/bp_0-L.mtx, 832, 1506, 1.81, 18, 46.22, 0.00, 0.05, 0.06, 0.74, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/bp_0-L.mtx, 832, 1506, 1.81, 18, 46.22, 0.00, 0.05, 0.06, 0.77, 0.00, 0.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx, 464, 9909, 21.36, 103, 4.50, 0.00, 0.22, 0.09, 0.61, 0.59, 0.87
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx, 464, 9909, 21.36, 103, 4.50, 0.00, 0.22, 0.09, 0.61, 0.59, 0.87
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_48-L.mtx, 1824, 3871, 2.12, 8, 228.00, 0.00, 0.04, 0.19, 2.20, 0.02, 0.24
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_48-L.mtx, 1824, 3871, 2.12, 8, 228.00, 0.00, 0.04, 0.19, 2.21, 0.02, 0.24
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cavity06-L.mtx, 1184, 45002, 38.01, 905, 1.31, 0.00, 1.76, 0.05, 0.33, 0.92, 0.99
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cavity06-L.mtx, 1184, 45002, 38.01, 905, 1.31, 0.00, 1.76, 0.05, 0.33, 0.92, 0.99
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex2-L.mtx, 448, 22290, 49.75, 433, 1.03, 0.00, 0.85, 0.05, 0.33, 1.00, 1.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex2-L.mtx, 448, 22290, 49.75, 433, 1.03, 0.00, 0.85, 0.05, 0.33, 1.00, 1.00
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx, 416, 12202, 29.33, 160, 2.60, 0.00, 0.32, 0.08, 0.49, 0.62, 0.94
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx, 416, 12202, 29.33, 160, 2.60, 0.00, 0.32, 0.08, 0.49, 0.62, 0.94
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fs_183_6-L.mtx, 192, 1220, 6.35, 55, 3.49, 0.00, 0.12, 0.02, 0.17, 0.33, 0.82
+filename,m,nnzL,nnzL/m,layer,parallelism,pre_time,solve_time,gflops,bandwith,warp_occupy,element_occupy
+/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/fs_183_6-L.mtx, 192, 1220, 6.35, 55, 3.49, 0.00, 0.12, 0.02, 0.17, 0.33, 0.82

@@ -1,0 +1,15 @@
+{
+  "dataset": "oilpan",
+  "matrix_sha256": "eced87d09e676a1e997273cd2ba51dd1d7ef1466e8f8940b60abc1cc38951c0c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.153,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

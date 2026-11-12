@@ -1,0 +1,15 @@
+{
+  "dataset": "offshore",
+  "matrix_sha256": "45e402df80f58465caa8d8e2bb5bf64f86287d938d74dbfc550d65df5e27185a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.879,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

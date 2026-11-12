@@ -1,0 +1,10 @@
+{
+  "dataset": "af_3_k101",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/af_3_k101/af_3_k101.mtx",
+  "matrix_sha256": "e61f564e72932e52095d8cf1baf125f0b9830f616f7e22cf8baa8ab6a9919e7c",
+  "index_nnz": 17550675,
+  "index_rows": 503625,
+  "elapsed_s": 5.994,
+  "returncode": 0,
+  "status": "ok"
+}

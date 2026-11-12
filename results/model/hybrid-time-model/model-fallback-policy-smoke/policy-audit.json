@@ -1,0 +1,13 @@
+{
+  "manifest_total": 4,
+  "status_counts": {
+    "ok": 4
+  },
+  "policy_paths": {
+    "tuned": 6,
+    "model": 2
+  },
+  "orders_checked": 8,
+  "issues": [],
+  "scope": "Checks recorded routing, logs and default 5% gate, not independent timing accuracy. H100 scope check assumes no model/kernel environment overrides."
+}

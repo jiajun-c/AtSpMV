@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_ken_18",
+  "matrix_sha256": "51ec073fca36d4216eb018a2255580923c2756074d8c029aff82d9b0bb5039af",
+  "index_nnz": 358171,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.618,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

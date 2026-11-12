@@ -1,0 +1,9 @@
+{
+  "name": "mhd3200b",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mhd3200b-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3200, 3200 ) nnz = 10758\nloadfile time    = 0.00475 sec\nnnzL = 10758\ntime_for_csc2CompressTile = 1.96 ms\ntime_cuda_solve = 1.498130 ms, Mflops = 14.36\nVALIDATION finite=1 max_error=1.7763568394002505e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

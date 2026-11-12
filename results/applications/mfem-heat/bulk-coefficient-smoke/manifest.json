@@ -1,0 +1,19 @@
+{
+  "exe": "/tmp/atspmv-mfem-apps/apps/mfem/mfem_heat",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "results/applications/mfem-heat/bulk-coefficient-smoke",
+  "refine": 2,
+  "order": 2,
+  "steps": 5,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "cusparse,mfem-rebuild,mfem-hostcoeff,mfem,atbsr",
+  "rounds": 1,
+  "timeout": 900,
+  "rebuild_values": false,
+  "prefetch": 4,
+  "warps": 4,
+  "gpu_assembly": true,
+  "rebuild_implicit": false,
+  "executable_sha256": "380e63c09268d5d9c62dc27366a5f2216fa1e5efe17bd10db98d0d08e9a1dbe0"
+}

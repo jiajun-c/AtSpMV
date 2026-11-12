@@ -1,0 +1,10 @@
+{
+  "dataset": "memchip",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/memchip/memchip.mtx",
+  "matrix_sha256": "fac6311b28f5baaf94540f4a4e5dd6d0dc01760e03e186d37a17e8c07968e19f",
+  "index_nnz": 14810202,
+  "index_rows": 2707524,
+  "elapsed_s": 7.152,
+  "returncode": 0,
+  "status": "ok"
+}

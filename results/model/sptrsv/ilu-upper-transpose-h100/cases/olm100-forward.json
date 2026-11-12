@@ -1,0 +1,7 @@
+{
+  "name": "olm100",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/olm100-L.mtx,default,cusparse,100,468,-1,2407.605,74.92480469,5.706546347e-14\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/olm100-L.mtx,default-host,cusparse,100,468,-1,2407.605,82.64433,5.706546347e-14\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/olm100-L.mtx,model,cached,100,468,100,1430.433,67.4815979,3.019806627e-14\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/olm100-L.mtx,model-host,cached,100,468,100,1430.433,74.239285,3.019806627e-14\n",
+  "stderr": ""
+}

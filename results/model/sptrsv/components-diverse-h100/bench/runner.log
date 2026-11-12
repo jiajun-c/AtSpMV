@@ -1,0 +1,17 @@
+fs_541_1 tile-first 0
+fs_541_1 components-first 0
+str_0 tile-first 0
+str_0 components-first 0
+rajat07 tile-first 0
+rajat07 components-first 0
+{
+  "status_counts": {
+    "invalid_or_unsupported": 1,
+    "ok": 2
+  },
+  "valid_pairs": 2,
+  "geomean_baseline_over_components": 1.3868602016709513,
+  "wins_gt_5pct": 2,
+  "losses_gt_5pct": 0
+}
+runner_exit=0

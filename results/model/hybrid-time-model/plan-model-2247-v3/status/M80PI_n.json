@@ -1,0 +1,19 @@
+{
+  "dataset": "M80PI_n",
+  "matrix_sha256": "6647fc281b455f592e3976e986adda872beb0d85045ac48dc80f4d89c92994c4",
+  "index_nnz": 10261,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.845,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

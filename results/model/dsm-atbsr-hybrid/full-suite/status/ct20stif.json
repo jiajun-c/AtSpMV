@@ -1,0 +1,10 @@
+{
+  "dataset": "ct20stif",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ct20stif/ct20stif.mtx",
+  "matrix_sha256": "8cc830bbf60e20c934d059a07702a18f68e893ca35af63d42b7efe4c98d49912",
+  "index_nnz": 2698463,
+  "index_rows": 52329,
+  "elapsed_s": 1.77,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "arc130",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cusparse,27681.283,16.76480025,5.551115123e-15,4.540549771e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cusparse-host,27681.283,24.313985,5.551115123e-15,4.540549771e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cached-tiles-512,38.367,14.0959993,5.551115123e-15,4.553376183e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cached-tiles-host-512,38.367,20.904925,5.551115123e-15,4.553376183e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cached-tiles-1024,38.367,14.50559944,5.551115123e-15,4.553376183e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,cached-tiles-host-1024,38.367,21.29488,5.551115123e-15,4.553376183e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,130,363,15,selector-cached,38.367,14.09280002,5.551115123e-15,4.553376183e-17\n",
+  "stderr": ""
+}

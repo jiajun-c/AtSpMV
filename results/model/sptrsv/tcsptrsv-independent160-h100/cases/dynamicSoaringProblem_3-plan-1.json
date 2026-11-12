@@ -1,0 +1,9 @@
+{
+  "name": "dynamicSoaringProblem_3",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dynamicSoaringProblem_3-L.mtx,default,cusparse,2880,63999,-1,6960.059,537.3919678,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dynamicSoaringProblem_3-L.mtx,default-host,cusparse,2880,63999,-1,6960.059,543.63111,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dynamicSoaringProblem_3-L.mtx,model,cusparse,2880,63999,420,6859.821,537.3504028,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dynamicSoaringProblem_3-L.mtx,model-host,cusparse,2880,63999,420,6859.821,543.32553,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\n",
+  "stderr": ""
+}

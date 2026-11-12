@@ -1,0 +1,9 @@
+{
+  "name": "bloweybq",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bloweybq-L.mtx --------------\nsuccess open file\ninput matrix A: ( 10016, 10016 ) nnz = 40013\nloadfile time    = 0.01336 sec\nnnzL = 40013\ntime_for_csc2CompressTile = 2.09 ms\ntime_cuda_solve = 18.991380 ms, Mflops = 4.21\nVALIDATION finite=1 max_error=6.805112029439897e-12 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

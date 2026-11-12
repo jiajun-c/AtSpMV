@@ -1,0 +1,9 @@
+{
+  "name": "wang1",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/wang1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2912, 2912 ) nnz = 35257\nloadfile time    = 0.01554 sec\nnnzL = 35257\ntime_for_csc2CompressTile = 2.44 ms\ntime_cuda_solve = 0.400490 ms, Mflops = 176.07\nVALIDATION finite=1 max_error=1.3322676295501878e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

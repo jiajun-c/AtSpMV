@@ -1,0 +1,9 @@
+{
+  "name": "Olivetti_norm_10NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Olivetti_norm_10NN-L.mtx,default,cusparse,400,12905,-1,3904.675,199.468811,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Olivetti_norm_10NN-L.mtx,default-host,cusparse,400,12905,-1,3904.675,206.14402,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Olivetti_norm_10NN-L.mtx,model,cached-csr,400,12905,203,1309.238,115.711998,7.66053887e-14,3.539016584e-17,1.143886963e-16,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Olivetti_norm_10NN-L.mtx,model-host,cached-csr,400,12905,203,1309.238,121.770075,7.66053887e-14,3.539016584e-17,1.143886963e-16,256\n",
+  "stderr": ""
+}

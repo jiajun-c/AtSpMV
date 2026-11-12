@@ -1,0 +1,7 @@
+{
+  "name": "ex10hs",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/ex10hs-L.mtx --------------\ninput matrix A: ( 2548, 2548 ) nnz = 64097\ncomputation usetime = 1.601 ms\nPerformance = 0.080 gflops\n\n x check _NOT_ passed! |x-xref|/|xref| = 2.47e-03\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=3\nstage calculate done\n"
+}

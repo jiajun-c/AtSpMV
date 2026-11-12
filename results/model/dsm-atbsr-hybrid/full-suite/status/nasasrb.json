@@ -1,0 +1,10 @@
+{
+  "dataset": "nasasrb",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nasasrb/nasasrb.mtx",
+  "matrix_sha256": "630b5acc0553168ff1f0a337b9549481e5550deef758ea6c75834e8d3aad4c6c",
+  "index_nnz": 2677324,
+  "index_rows": 54870,
+  "elapsed_s": 1.945,
+  "returncode": 0,
+  "status": "ok"
+}

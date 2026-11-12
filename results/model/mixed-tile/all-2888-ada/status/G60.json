@@ -1,0 +1,15 @@
+{
+  "dataset": "G60",
+  "matrix_sha256": "d3170c36043af27bb664d5cc8b219c4620cdd7d638d8c29b6caa2911bd01fb8b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.228,
+  "gpu_after": {
+    "utilization_percent": 15,
+    "free_memory_mib": 48508
+  }
+}

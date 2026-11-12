@@ -1,0 +1,8 @@
+{
+  "name": "ex22",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/ex22-L.mtx,default,cusparse,839,18560,-1,6467.815,602.5247803,1.441069486e-13,1.846761305e-17,1.045143223e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex22-L.mtx,default-host,cusparse,839,18560,-1,6467.815,608.30806,1.441069486e-13,1.846761305e-17,1.045143223e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex22-L.mtx,model,cusparse,839,18560,832,7287.24,602.5087891,1.441069486e-13,1.846761305e-17,1.045143223e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex22-L.mtx,model-host,cusparse,839,18560,832,7287.24,608.4697,1.441069486e-13,1.846761305e-17,1.045143223e-16,0\n",
+  "stderr": ""
+}

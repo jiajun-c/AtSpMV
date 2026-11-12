@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-independent-120/provenance/benchmark_plan_selection.py", line 18, in <module>
+    from benchmark_dsm_atbsr_full import apps, sha, write_json
+ModuleNotFoundError: No module named 'benchmark_dsm_atbsr_full'
+10/120 Tina_AskCal: ok, new=10
+20/120 sx-askubuntu: ok, new=20
+30/120 176bit: ok, new=30
+40/120 nopss_11k: ok, new=40
+50/120 Sieber: ok, new=50
+60/120 g7jac080sc: ok, new=60
+70/120 t2dal_bci: ok, new=70
+80/120 struct4: ok, new=80
+90/120 nemscem: ok, new=90
+100/120 bloweya: ok, new=100
+110/120 Olivetti_norm_10NN: ok, new=110
+120/120 Vehicle_10NN: ok, new=120
+DONE new cases 120

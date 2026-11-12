@@ -1,0 +1,7 @@
+{
+  "matrix": "M20PI_n1",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/M20PI_n1-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 9.150244295597076e-07
+}

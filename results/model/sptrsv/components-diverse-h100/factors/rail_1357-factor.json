@@ -1,0 +1,14 @@
+{
+  "matrix": "rail_1357",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/rail_1357/rail_1357.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1357,
+  "columns": 1357,
+  "original_nnz": 8985,
+  "factor_L_nnz": 17655,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.08661963511258364
+}

@@ -1,0 +1,8 @@
+{
+  "name": "breasttissue_10NN",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cusparse,27586.092,75.28960109,2.486899575e-14,3.039111704e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cusparse-host,27586.092,83.228495,2.486899575e-14,3.039111704e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-512,148.918,76.59839988,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-host-512,148.918,83.41082,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-256,148.918,77.02080011,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-host-256,148.918,83.781855,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-128,148.918,81.70560002,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,cached-tiles-host-128,148.918,88.39718,1.965094754e-14,4.364456312e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/breasttissue_10NN-L.mtx,112,3233,98,selector-cached,148.918,76.62400007,1.965094754e-14,4.364456312e-17\n",
+  "stderr": ""
+}

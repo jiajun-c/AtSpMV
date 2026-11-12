@@ -1,0 +1,10 @@
+{
+  "dataset": "test1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/test1/test1.mtx",
+  "matrix_sha256": "d33ae382ecc59e926a48d02dceeff41ecee00658c2422f9ea98784bf07e8eb5e",
+  "index_nnz": 12968200,
+  "index_rows": 392908,
+  "elapsed_s": 4.964,
+  "returncode": 0,
+  "status": "ok"
+}

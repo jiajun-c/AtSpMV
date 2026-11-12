@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "matrices": 24,
+  "shape_pairs": 144,
+  "raw_timings": 7344,
+  "performance_full_vector_checks": 2448,
+  "value_update_configurations": 138,
+  "memcheck_configurations": 57,
+  "memcheck_errors": 0,
+  "verified": "candidate IDs and trial coverage in both orders, zero exits and no recorded interference, inputs and frozen executable/runner identities, current modified implementation equals archived source"
+}

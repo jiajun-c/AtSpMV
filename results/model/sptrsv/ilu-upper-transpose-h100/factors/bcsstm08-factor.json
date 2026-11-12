@@ -1,0 +1,10 @@
+{
+  "matrix": "bcsstm08",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/bcsstm08-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1074,
+  "nnz": 1074,
+  "min_abs_diagonal": 0.1746943,
+  "max_abs_diagonal": 1444061.02862,
+  "elapsed_s": 0.007254923926666379
+}

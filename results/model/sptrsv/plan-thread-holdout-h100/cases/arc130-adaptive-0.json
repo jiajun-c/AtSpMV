@@ -1,0 +1,8 @@
+{
+  "name": "arc130",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,default,cusparse,130,363,-1,2123.877,17.25119972,5.551115123e-15,4.540549771e-17,5.542105177e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,default-host,cusparse,130,363,-1,2123.877,24.10439,5.551115123e-15,4.540549771e-17,5.542105177e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,model,cached,130,363,15,1140.504,14.16639996,5.551115123e-15,4.553376183e-17,5.557760842e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/arc130-L.mtx,model-host,cached,130,363,15,1140.504,20.278505,5.551115123e-15,4.553376183e-17,5.557760842e-17,512\n",
+  "stderr": ""
+}

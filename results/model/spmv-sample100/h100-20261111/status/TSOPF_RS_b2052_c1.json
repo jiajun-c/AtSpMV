@@ -1,0 +1,32 @@
+{
+  "dataset": "TSOPF_RS_b2052_c1",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "d3f2cba62a28fca6a162496cb11c7032d2b0726aa61447dfa32561c6b9a4dd94",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_RS_b2052_c1/TSOPF_RS_b2052_c1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/TSOPF_RS_b2052_c1-0.csv",
+        "20261235",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.5563157580327243
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_RS_b2052_c1/TSOPF_RS_b2052_c1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/TSOPF_RS_b2052_c1-1.csv",
+        "20261236",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.0052774741780013
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "sources": {
+    "include/dsmLongRow.cuh": "3d1811c20ac0ae6e2b0d610108853cf1fb1dfd9ca2632688fef4312d58a88d73",
+    "bench/dsm_long_row_bench.cu": "595cbc0cd019d4462d4b15ebd2adec0a7d800ef9bb200ddd0d66b0691289c9bf",
+    "scripts/analysis/benchmark_dsm_long_rows.py": "61f610225665a278cc976f27b4ca32d0750ab71f595c439f39d3e8e00d73fd97"
+  },
+  "executable": "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+  "executable_sha256": "7c47729555e340b68011e89fc42f62bb4d99e756dba131358c7f6e121795f787",
+  "inputs": {
+    "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx": "01fcc847421fc17f3f07e5f38457f8f3d36575d4e94f3c44f7d7505c1fcd2668",
+    "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_60/lp_osa_60.mtx": "fb2f829afc98fa25d223eb5b0120c6cf95ae6cc55c0c2ec3829f1bb106947d47",
+    "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx": "8991bb0104be94fa59901cb6ecdc983ad20d548bb5a716aec03c3c2a17a32dbe",
+    "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx": "7e84631464825450aaf9361675b87a8533b6dd1cf18303f07291dfbd80bed6d6",
+    "/staff/chengjiajun/workspace/database/suitsparse/rail2586/rail2586.mtx": "9b1aaa0bfee77be31b578b20c30343e4bb9970ab9342e8fc62694ba417a3f5fc",
+    "/staff/chengjiajun/workspace/database/suitsparse/rail4284/rail4284.mtx": "dadc00a9c6c48cdd8285fbc7273a99a9e282e74ae6ec2c9d6fdac56a3c6e816f",
+    "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx": "91cda3cf1dc847286028f209bd546fa42dcf5fb28564f6c9bd78b6accdec3f73"
+  },
+  "quack_reference": "77a750c0d9548d4a6e23c0f64062d61b3ea420ff",
+  "cuda_visible_devices": "3",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB\n",
+  "seeds": [
+    202610301,
+    202610302,
+    202610303
+  ],
+  "cases": [
+    [
+      "64-16384",
+      [
+        "64",
+        "16384"
+      ]
+    ],
+    [
+      "32-32768",
+      [
+        "32",
+        "32768"
+      ]
+    ],
+    [
+      "128-8192",
+      [
+        "128",
+        "8192"
+      ]
+    ],
+    [
+      "128-16384",
+      [
+        "128",
+        "16384"
+      ]
+    ],
+    [
+      "random-64-16384",
+      [
+        "random:64",
+        "16384"
+      ]
+    ],
+    [
+      "mixed-137-16387",
+      [
+        "mixed:137",
+        "16387"
+      ]
+    ],
+    [
+      "lp_osa_30",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx",
+        "0"
+      ]
+    ],
+    [
+      "lp_osa_60",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_60/lp_osa_60.mtx",
+        "0"
+      ]
+    ],
+    [
+      "rail507",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx",
+        "0"
+      ]
+    ],
+    [
+      "rail582",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+        "0"
+      ]
+    ],
+    [
+      "rail2586",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/rail2586/rail2586.mtx",
+        "0"
+      ]
+    ],
+    [
+      "rail4284",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/rail4284/rail4284.mtx",
+        "0"
+      ]
+    ],
+    [
+      "Stanford",
+      [
+        "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx",
+        "0"
+      ]
+    ]
+  ],
+  "timing": "8 independent beta=0 SpMV calls per CUDA graph; 3 warmup and 15 shuffled interleaved measurement batches; per-call GPU event time. Includes output clear, DSM initialization/communication, and second-stage kernels. No cache flush. Excludes allocation, row partition/sort/upload, AtBSR packing, cuSPARSE preprocessing, and graph setup.",
+  "validation": "Every candidate vs CPU long-double reference, two nonuniform X vectors, poisoned output before direct and graph checks. Graph replay includes repeated overwrite.",
+  "selection": "Sweep threads 128/256/512/1024, rows/group 1/4/8, split 2/4/8 (non-DSM additionally16/32), long-row cutoffs 0/1024/4096; deduplicate identical row partitions. Skip cutoff0 for >16384 rows. AtSpmv sweeps all six shapes and both balancing modes. Report per-kind best median across seeds; not an online selector or unbiased holdout.",
+  "gpu_state_after": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 2 %, 0 MiB\n"
+}

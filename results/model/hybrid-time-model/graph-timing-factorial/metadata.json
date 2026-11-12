@@ -1,0 +1,12 @@
+{
+  "method": "Four selected cases known to have equal vector configurations; random order over two Graph-sharing modes and two event placements, each with two construction orders, 21 samples. Same Plan, optionally same Graph. Poll GPU compute PIDs at 250 ms; polling does not exclude brief activity, clock drift or non-compute interference.",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "exe_sha256": "ca753ed804bc1dd001c2bee819e589f526303dec882fa2302e2d10be93438776",
+  "seed": 20261028,
+  "matrices": {
+    "685_bus": "31b1d5fa595c2c0972996c6517ff314c5acba98a7423cbd344971f280068bc5b",
+    "fe_sphere": "c1080e954820bdf7c7b3a4655384deeb280938a6d22ab941b859a703acb68794",
+    "c-66b": "13e36eeeaddbd9ad4cebab7ea1fe4f0e5d7e522e7ddc5a5b9f3a81d7929b6615",
+    "bloweybq": "8cde3216bab4dd754b1bb6d4c47671f595b2b206c179187fd179c3d15668e343"
+  }
+}

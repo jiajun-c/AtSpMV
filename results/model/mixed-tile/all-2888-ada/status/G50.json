@@ -1,0 +1,15 @@
+{
+  "dataset": "G50",
+  "matrix_sha256": "0506bc393a41c4165e01f8dcf4f76a3bc16ec35b9e5c4d67590df483e248ae44",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.93,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

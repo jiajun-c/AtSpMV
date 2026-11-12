@@ -1,0 +1,9 @@
+{
+  "name": "msc00726",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=2.886579864025407e-15 reference_scale=1.4900990099009901\ntime_cuda_solve = 1.305220000 ms\n",
+  "stderr": ""
+}

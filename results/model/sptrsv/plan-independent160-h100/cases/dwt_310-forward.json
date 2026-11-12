@@ -1,0 +1,7 @@
+{
+  "name": "dwt_310",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,default,cusparse,310,1749,-1,2584.553,87.29919434,7.105427358e-14,4.669372503e-17,7.254160064e-17,0\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,default-host,cusparse,310,1749,-1,2584.553,93.404265,7.105427358e-14,4.669372503e-17,7.254160064e-17,0\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,model,cached,310,1749,108,1242.846,77.49760437,8.10462808e-14,1.749511505e-17,6.432533714e-17,512\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,model-host,cached,310,1749,108,1242.846,83.27701,8.10462808e-14,1.749511505e-17,6.432533714e-17,512\n",
+  "stderr": ""
+}

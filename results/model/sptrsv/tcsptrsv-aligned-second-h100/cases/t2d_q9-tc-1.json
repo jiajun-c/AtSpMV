@@ -1,0 +1,9 @@
+{
+  "name": "t2d_q9",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/t2d_q9-L.mtx --------------\nsuccess open file\ninput matrix A: ( 9808, 9808 ) nnz = 197896\nloadfile time    = 0.09503 sec\nnnzL = 197896\ntime_for_csc2CompressTile = 2.48 ms\ntime_cuda_solve = 0.898030 ms, Mflops = 440.73\nVALIDATION finite=1 max_error=3.219646771412954e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

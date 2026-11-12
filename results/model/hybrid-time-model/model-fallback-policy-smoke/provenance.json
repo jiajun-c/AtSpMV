@@ -1,0 +1,20 @@
+{
+  "note": "Three random matrices of 1M\u20133M nnz plus one previously studied in-scope case; not a representative full-suite evaluation.",
+  "seed": 20261028,
+  "eligible_large_cases": 216,
+  "index_sha256": "34935e1cc3007044559b9fed34af01f477eacc868fdc7641700a08a182321b52",
+  "provenance_sha256": {
+    "analyze_plan_selection.py": "406920fd4592760ddaed58356a126326e28b24c3a93e9215e1fe87b77c93298f",
+    "spmv_hybrid_validation": "ec6c821c14ac3d785458aed88473a75c51f5b739ca54e90b7d5c3e076a267910",
+    "spmv_hybrid_validation.cu": "73f49c2baaef88fb59e2c83b64615434c0438b3de898ba848e107248fca49c12",
+    "run_priority_vector_holdout.py": "9652a8e51f5d0648896f10b247105c8d59a10e544829c0577ce48fd4029b053f",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "spmvPlan.h": "b0c6fc02d8f3b580a0129526c931fc0b4ef7256972edc3cb11167659218dc8e7",
+    "audit_plan_sweep.py": "fc79ce48122cf0520869d6fabcc3d92e2aa96af2e6a38fc367e053991d814017",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "audit_model_fallback_policy.py": "dcbdc5b7fc7ff5195dd2c4d7bfd4967d2d470f7ee690fceb166d5c0b0e63ce9b",
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "spmvPlan.cu": "b5a2b247acb697a197c5302a5198d66bbbbd8f8fa8f6a9e2e37097a68a40958d",
+    "benchmark_plan_selection.py": "7818765d669426daa1216fe9e6e6bea4cd8b27060a5e22e0e9396a34a804b322"
+  }
+}

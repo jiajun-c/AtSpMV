@@ -1,0 +1,15 @@
+{
+  "dataset": "mhd3200b",
+  "matrix_sha256": "95a6afaa7b0a886e370860941c7a28a102f076fb904d9a875286173da623d7ac",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.2,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

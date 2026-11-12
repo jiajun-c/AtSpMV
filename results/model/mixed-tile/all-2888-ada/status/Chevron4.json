@@ -1,0 +1,15 @@
+{
+  "dataset": "Chevron4",
+  "matrix_sha256": "a415639c4305694e407c27e3b34afc6abe40c91274bb5dd5784e3f071e56020f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.509,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

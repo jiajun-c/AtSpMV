@@ -1,0 +1,17 @@
+{
+  "dataset": "gams30am",
+  "matrix_sha256": "7088ce56d50e87cf169c441e887c3a9a6db43473720c3ce53c82f46fad72fb43",
+  "index_nnz": 1287,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.416,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

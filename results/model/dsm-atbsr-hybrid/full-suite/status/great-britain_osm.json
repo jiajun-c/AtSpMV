@@ -1,0 +1,10 @@
+{
+  "dataset": "great-britain_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/great-britain_osm/great-britain_osm.mtx",
+  "matrix_sha256": "72cb2375ac3b81b47d9eee0f8c3b8be45d72198ede7f32cdedd7ad13a79df997",
+  "index_nnz": 16313034,
+  "index_rows": 7733822,
+  "elapsed_s": 11.199,
+  "returncode": 0,
+  "status": "ok"
+}

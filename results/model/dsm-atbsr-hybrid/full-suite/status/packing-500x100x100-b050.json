@@ -1,0 +1,10 @@
+{
+  "dataset": "packing-500x100x100-b050",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/packing-500x100x100-b050/packing-500x100x100-b050.mtx",
+  "matrix_sha256": "62c88530958aa99a47195ae45654c32efca49a55934f70d66d38cab8b91dc9e3",
+  "index_nnz": 34976486,
+  "index_rows": 2145852,
+  "elapsed_s": 11.155,
+  "returncode": 0,
+  "status": "ok"
+}

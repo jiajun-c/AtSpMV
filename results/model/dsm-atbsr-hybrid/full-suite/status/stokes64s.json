@@ -1,0 +1,10 @@
+{
+  "dataset": "stokes64s",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stokes64s/stokes64s.mtx",
+  "matrix_sha256": "b6e26c998caecc1e1175ce0d006b18430993d49b84f6ee34de57cef379676833",
+  "index_nnz": 140034,
+  "index_rows": 12546,
+  "elapsed_s": 1.274,
+  "returncode": 0,
+  "status": "ok"
+}

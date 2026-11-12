@@ -1,0 +1,8 @@
+{
+  "name": "micromass_10NN",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/micromass_10NN-L.mtx,model,cusparse,571,22876,268,5220.219,257.1231995,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\nresults/model/sptrsv/components-independent-h100/factors/micromass_10NN-L.mtx,model-host,cusparse,571,22876,268,5220.219,265.04122,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\nresults/model/sptrsv/components-independent-h100/factors/micromass_10NN-L.mtx,default,cusparse,571,22876,-1,5123.245,257.1040039,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\nresults/model/sptrsv/components-independent-h100/factors/micromass_10NN-L.mtx,default-host,cusparse,571,22876,-1,5123.245,265.01618,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_pds_10",
+  "matrix_sha256": "12295cbdb29748ddd4d33b03ec16f8390719a3bb6abb67d8efdc6225c5afcc9b",
+  "index_nnz": 107605,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.86,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

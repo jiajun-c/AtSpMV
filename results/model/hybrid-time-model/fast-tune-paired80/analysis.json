@@ -1,0 +1,47 @@
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "csr_vector": 61,
+    "hybrid_dsm_atbsr": 4,
+    "cusparse": 5,
+    "atbsr": 7,
+    "csr_vector|atbsr": 1,
+    "csr_dsm": 1,
+    "atbsr|cusparse": 1
+  },
+  "selection": "auto_fast_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.190310949655052,
+    "median": 1.1842096420128043,
+    "wins": 73,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6135346445877634,
+    "median": 1.8160978434678494,
+    "wins": 76,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1738152633016505,
+    "median": 1.1704802357107107,
+    "wins": 71,
+    "cases": 80
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.0896801826474833,
+    "median": 1.0986838061939719,
+    "wins": 70,
+    "cases": 80
+  },
+  "speedup_vs_full_tune": {
+    "geomean": 0.9732870439010594,
+    "median": 0.9810378497780827,
+    "wins": 8,
+    "cases": 80
+  }
+}

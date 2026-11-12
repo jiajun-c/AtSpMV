@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_nug12",
+  "matrix_sha256": "eec55eb37ad09a82f5c24ca7a6070e1c0bfd3fb09e94f56e58bcb2316ffb35d4",
+  "index_nnz": 38304,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.932,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

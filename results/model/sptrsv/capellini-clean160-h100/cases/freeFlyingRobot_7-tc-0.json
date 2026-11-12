@@ -1,0 +1,9 @@
+{
+  "name": "freeFlyingRobot_7",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=5.6843418860808015e-14 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.919630000 ms\n",
+  "stderr": ""
+}

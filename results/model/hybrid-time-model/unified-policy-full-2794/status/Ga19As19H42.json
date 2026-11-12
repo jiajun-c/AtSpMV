@@ -1,0 +1,17 @@
+{
+  "dataset": "Ga19As19H42",
+  "matrix_sha256": "5ee1550ebf8ae569bc5eb257700bfe54409b2fdf61aae37d72e505fd5da24f37",
+  "index_nnz": 8884839,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.065,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

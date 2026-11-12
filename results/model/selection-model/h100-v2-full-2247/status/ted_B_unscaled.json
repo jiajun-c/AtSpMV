@@ -1,0 +1,17 @@
+{
+  "dataset": "ted_B_unscaled",
+  "matrix_sha256": "e61df6d8a77f2d60263450d6eeaadd83856583ba32b05cf09ce033c5b64ef255",
+  "index_nnz": 144579,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.667,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

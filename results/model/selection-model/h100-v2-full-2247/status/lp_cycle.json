@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_cycle",
+  "matrix_sha256": "540e44c5bbe9acb424c82ea1e1033b3084281b5e23ec572b3193ee8d26426fee",
+  "index_nnz": 21234,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.468,
+  "gpu_after": {
+    "utilization_percent": 13,
+    "free_memory_mib": 81079
+  }
+}

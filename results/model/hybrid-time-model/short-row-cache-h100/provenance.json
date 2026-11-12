@@ -1,0 +1,20 @@
+{
+  "purpose": "H100 correctness, sanitizer, and 80 selected matrix performance validation for shared short CSR and row sorting; sample has prior analysis.",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "provenance_sha256": {
+    "audit_plan_sweep.py": "5eeff94379e48acb675ca528d28fd9b91d6611286aebff5f77ebd9090f1e3a97",
+    "atspmvProduct.cu": "5cb32b8d60970195d020bdf82e47af41e485de400d5c0b627419cc6eb416e0c1",
+    "analyze_plan_selection.py": "3e79911e438ca75f42380e6237447f0eed28bc6260a5e5ba1c06b48f3eeb9736",
+    "spmv_hybrid_validation": "6ce64493dac2088664a663afdf6236f8db65009f63a7219101df2ec9ab47883b",
+    "analyze_plan_amortization.py": "d50b8687da4f539f5f42231a755f2407cb1432578da570ef74bb5cc4d2672d11",
+    "benchmark_plan_selection.py": "bb8c0defd303141976e629802c13b870030f3e959c04072dd7a924efee18731b",
+    "audit_tuned_choice.py": "29d3f2835cb5fc584d48516b0d480bbf4f9013dec9f58d6a5bd769a28af0206c",
+    "atspmvprod.h": "28dc6c2cd364d0fd787f466a4d9bad55cf23faa14a2411d9e164149cf2ab00d9",
+    "spmv_plan_test.cu": "096ee5c73c2aa9c186b50d5d72070a5ca03414c329ca0ac7d80f2655be281abf",
+    "spmvPlan.cu": "3a8e451083caf30dbe973f027d9a4f41417f5f49da4af7050a8873c8ff762193",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "spmv_plan_test": "1d99d1f70288f21f105483b4ff7668ac6f15158365f4cf4adeb96847b90efcb9",
+    "run_on_idle_gpu.py": "71182d65711375b3a7bb3caaa01e2065859633b33859c9b7a9dc0816da0f30cb"
+  },
+  "index_sha256": "d0c585eb17827b57e15119cdfacb3ee6da40e18acfaded3df71237e050af96cf"
+}

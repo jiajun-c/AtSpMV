@@ -1,0 +1,19 @@
+{
+  "dataset": "indochina-2004",
+  "matrix_sha256": "4fbcb9a3a33f98aec10e99bdaf24fde0e0af02f368f3277aaf2c6ce05574da7e",
+  "index_nnz": 194109311,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 84.226,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

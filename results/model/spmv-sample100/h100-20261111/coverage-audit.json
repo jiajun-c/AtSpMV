@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "successful": 100,
+  "pending": [],
+  "failures": [],
+  "raw_timings": 12600,
+  "full_vector_checks": 4200,
+  "verified": "sample strata/family cap, frozen binary/runner/manifest hashes, input hash records, per-process return codes, backend and trial coverage. Numerical assertions execute inside the benchmark."
+}

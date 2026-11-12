@@ -1,0 +1,220 @@
+{
+  "selection": "Choose up to 8 highest first-pass wins among matrices with at least one million nonzeros. Selected from the first pass, not a random holdout.",
+  "selection_mode": "large-wins",
+  "cases": [
+    {
+      "dataset": "neos3",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.8132326676830839,
+      "max_row_nnz": 6480,
+      "sha256": "99e65921885bc9b1a7194576b2567dfb05760318c3fbf3b71c6b3df418f3d162"
+    },
+    {
+      "dataset": "3dtube",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.470686337301485,
+      "max_row_nnz": 2364,
+      "sha256": "8ac6788df051e67ea6b104b439d538633f2a7ad0ca591ebab692a715797cb4c6"
+    },
+    {
+      "dataset": "matrix_9",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.3874104151569775,
+      "max_row_nnz": 4057,
+      "sha256": "87640f40f1afa1b0803bb572efc1d1fa91ff92323bc2e0f7396ef6fc57048e41"
+    },
+    {
+      "dataset": "nasasrb",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.2962551990031568,
+      "max_row_nnz": 276,
+      "sha256": "630b5acc0553168ff1f0a337b9549481e5550deef758ea6c75834e8d3aad4c6c"
+    },
+    {
+      "dataset": "power9",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.2452121968065175,
+      "max_row_nnz": 3744,
+      "sha256": "a2412b7f3f4019c3f19b754b06e8ee8c4cf849157fb68cefd6c64320a1a3fee5"
+    },
+    {
+      "dataset": "stat96v2",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.1597926539768617,
+      "max_row_nnz": 3232,
+      "sha256": "b73c6e63a427b8a305065ddaeddb54119b36ddbeff47c0f0d5b07eabaa88cdc3"
+    },
+    {
+      "dataset": "boyd1",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.1280331352799127,
+      "max_row_nnz": 93261,
+      "sha256": "abb54c90be3238903658073918777fb759890ea22cc5a6014681c71a87a44abc"
+    },
+    {
+      "dataset": "oilpan",
+      "reason": "large-matrix wins",
+      "initial_speedup": 1.071519656569472,
+      "max_row_nnz": 70,
+      "sha256": "eced87d09e676a1e997273cd2ba51dd1d7ef1466e8f8940b60abc1cc38951c0c"
+    }
+  ],
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "exe": "/tmp/atspmv-workspace-opt-v3-build/spmv_hybrid_validation",
+  "exe_sha256": "7f1d2ed3c91b1647b1000de5e379e9a10836b82f75ace0deff8d2be482ba8ee0",
+  "config_sha256": "09df79eefe212919ecae0f840431590ceb849007715659ad77e07b1a69f93c20",
+  "seeds": [
+    202610281,
+    202610282,
+    202610283
+  ],
+  "method": "3 randomized orders, each 21 timed warm Graph batches of 8 calls. Every config has direct and Graph CPU reference check. Non-hybrid comparison includes all 12 AtBSR tile/mode pairs, an extended CSR shortlist and cuSPARSE CSR_ALG1. New candidates lower thresholds and use different tile/cluster/thread group; interpret as a combined config.",
+  "results": [
+    {
+      "dataset": "neos3",
+      "seed": 202610281,
+      "file_sha256": "1388c20d2ad07d5093572ac8b1b1972ca077563a5b68673a131f1efd4ef4762d",
+      "seconds": 5.588135217898525
+    },
+    {
+      "dataset": "neos3",
+      "seed": 202610282,
+      "file_sha256": "ef7afbee4077671eddbe5866a2b4925bea330715c018c725dae042791c2d1164",
+      "seconds": 5.8030378189869225
+    },
+    {
+      "dataset": "neos3",
+      "seed": 202610283,
+      "file_sha256": "2ab933773affb6b777994f9491c73fdef274612ab855804febc8839b4c751124",
+      "seconds": 4.435617397073656
+    },
+    {
+      "dataset": "3dtube",
+      "seed": 202610281,
+      "file_sha256": "14b8bd4314e910e6f5d040e4ccae7f5adbfe1f50adcdfbe5febba005f57e9bde",
+      "seconds": 3.7101693199947476
+    },
+    {
+      "dataset": "3dtube",
+      "seed": 202610282,
+      "file_sha256": "061b72ac637d2f5ded207c92e70a19fe22655876676d3f6ca448dc9dbb60c247",
+      "seconds": 3.2623998280614614
+    },
+    {
+      "dataset": "3dtube",
+      "seed": 202610283,
+      "file_sha256": "06b6d5edf95c6a63247335b0498509a61a6407ce28101b91c4877a2dd0e78741",
+      "seconds": 4.4443563430104405
+    },
+    {
+      "dataset": "matrix_9",
+      "seed": 202610281,
+      "file_sha256": "c33799e265a7045965da9f640b86feb04b12f68c12f6fca9cb955fc00036b8ad",
+      "seconds": 3.3632007359992713
+    },
+    {
+      "dataset": "matrix_9",
+      "seed": 202610282,
+      "file_sha256": "a1e9480c8dae276b91f78b3a0efa7e65457b82f37c29300990c7adf8a3d70962",
+      "seconds": 3.7151808069320396
+    },
+    {
+      "dataset": "matrix_9",
+      "seed": 202610283,
+      "file_sha256": "378e627957339bfca8c521b5155ce01f62232baafcb75532ea0471ca3a0a129b",
+      "seconds": 3.71953692601528
+    },
+    {
+      "dataset": "nasasrb",
+      "seed": 202610281,
+      "file_sha256": "5d2fd14d3864f16d016adeb5226b9fc708239001d7c54ad828ebb18a2af5e99e",
+      "seconds": 2.6236713270191103
+    },
+    {
+      "dataset": "nasasrb",
+      "seed": 202610282,
+      "file_sha256": "72b4d419adf1f8432ae017a2be3ec65a7b76c7b6297439a322b20017099d4a2c",
+      "seconds": 3.1346335139824077
+    },
+    {
+      "dataset": "nasasrb",
+      "seed": 202610283,
+      "file_sha256": "4c5ae9d852840715defc619229a1af74a426daf04736b382eac923d88f0b302f",
+      "seconds": 2.6096369080478325
+    },
+    {
+      "dataset": "power9",
+      "seed": 202610281,
+      "file_sha256": "e1eec6840b64cc1abca0df2c161bc10eee7f62b31f4c3050ad0ee3e9e8936d6a",
+      "seconds": 3.9276067920727655
+    },
+    {
+      "dataset": "power9",
+      "seed": 202610282,
+      "file_sha256": "a54b00e9c6a257c914a97efd9d3780163cafc6cb642f67749229559a1cc4301a",
+      "seconds": 4.499561346950941
+    },
+    {
+      "dataset": "power9",
+      "seed": 202610283,
+      "file_sha256": "f476c96c38812d4d8b9201c728cf708b20c083bd9826afbbb8935e5005c495cd",
+      "seconds": 4.07032636506483
+    },
+    {
+      "dataset": "stat96v2",
+      "seed": 202610281,
+      "file_sha256": "dfd1a38fca114b2850bf7ee37a19190748eb3797159caf76150b0cecae33eaa3",
+      "seconds": 4.705877065076493
+    },
+    {
+      "dataset": "stat96v2",
+      "seed": 202610282,
+      "file_sha256": "8dd1b21f7e97c8025abc31b114cd6ca2323d6afeb1167bf08f6fbb592cebba5e",
+      "seconds": 4.498767760000192
+    },
+    {
+      "dataset": "stat96v2",
+      "seed": 202610283,
+      "file_sha256": "7bf22368935acf4fc5a2880a33584043900e45bf5c037190ca2ef9a3cb4e84b2",
+      "seconds": 3.9126190199749544
+    },
+    {
+      "dataset": "boyd1",
+      "seed": 202610281,
+      "file_sha256": "8179476bdc1de5eeb927b22d461cbebb1b2af022879eb13add3b6a273b0697fc",
+      "seconds": 15.012313224026002
+    },
+    {
+      "dataset": "boyd1",
+      "seed": 202610282,
+      "file_sha256": "ed9836dff0a0ad4c8cfe21f298e561bb198ede37b1d7a50a1e3925c7061beaa2",
+      "seconds": 14.77440884092357
+    },
+    {
+      "dataset": "boyd1",
+      "seed": 202610283,
+      "file_sha256": "50f6b97c1a27ffdfb545a7dadd79bafa2276314c69a0425d2bcb11f2b050d1d4",
+      "seconds": 14.420895865070634
+    },
+    {
+      "dataset": "oilpan",
+      "seed": 202610281,
+      "file_sha256": "218ccf487e96df9c223bf8ea73defe71a8614a84f86edc022e87257f6c20273e",
+      "seconds": 3.346596337039955
+    },
+    {
+      "dataset": "oilpan",
+      "seed": 202610282,
+      "file_sha256": "2bf76fe98549191f6ddf5cd6b224c943da4a9a256f4a9f208c0242ae2799d7b7",
+      "seconds": 4.593198589980602
+    },
+    {
+      "dataset": "oilpan",
+      "seed": 202610283,
+      "file_sha256": "e853dc9c350442c534ae119c133bd34fa0719a33f5bb82e90e0023f4ab81bf2b",
+      "seconds": 4.937486256938428
+    }
+  ],
+  "failures": [],
+  "complete": true
+}

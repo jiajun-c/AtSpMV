@@ -1,0 +1,10 @@
+{
+  "dataset": "dwt_512",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dwt_512/dwt_512.mtx",
+  "matrix_sha256": "4a96200324b6879f132378587fe83b79d9d755d3b506bd8e811ef60cf7924e8b",
+  "index_nnz": 3502,
+  "index_rows": 512,
+  "elapsed_s": 1.273,
+  "returncode": 0,
+  "status": "ok"
+}

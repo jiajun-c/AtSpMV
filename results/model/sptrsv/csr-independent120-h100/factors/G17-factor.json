@@ -1,0 +1,13 @@
+{
+  "matrix": "G17",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/G17/G17.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 800,
+  "columns": 800,
+  "original_nnz": 9334,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.07383472006767988
+}

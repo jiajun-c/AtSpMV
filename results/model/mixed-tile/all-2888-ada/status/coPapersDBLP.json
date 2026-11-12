@@ -1,0 +1,15 @@
+{
+  "dataset": "coPapersDBLP",
+  "matrix_sha256": "0062468c30e0b91634b2932386cfe4fae867b8097f5210926945bda1beff6373",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 27.463,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

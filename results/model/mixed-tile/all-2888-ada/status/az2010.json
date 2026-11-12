@@ -1,0 +1,15 @@
+{
+  "dataset": "az2010",
+  "matrix_sha256": "388366cdc8d206d352ea4e313b1364a45a416e48d05ea4b76ddec4e419ac8c30",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.102,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

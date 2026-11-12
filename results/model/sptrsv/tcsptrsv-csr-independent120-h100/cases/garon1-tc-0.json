@@ -1,0 +1,9 @@
+{
+  "name": "garon1",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/garon1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3184, 3184 ) nnz = 210746\nloadfile time    = 0.07312 sec\nnnzL = 210746\ntime_for_csc2CompressTile = 3.54 ms\ntime_cuda_solve = 1.612120 ms, Mflops = 261.45\nVALIDATION finite=1 max_error=8.22675261247241e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

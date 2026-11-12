@@ -1,0 +1,7 @@
+{
+  "name": "bcsstm34",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstm34-L.mtx,model,cusparse,588,40255,577,8363.927,529.8560181,3.006483951e-13\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstm34-L.mtx,default,cusparse,588,40255,-1,8314.976,529.7887573,3.006483951e-13\n",
+  "stderr": ""
+}

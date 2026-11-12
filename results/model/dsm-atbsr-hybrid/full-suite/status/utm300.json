@@ -1,0 +1,10 @@
+{
+  "dataset": "utm300",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/utm300/utm300.mtx",
+  "matrix_sha256": "868ee441865f9de5d387349d39383c93fb842b1e35f66e417e53376de8e9d381",
+  "index_nnz": 3155,
+  "index_rows": 300,
+  "elapsed_s": 1.901,
+  "returncode": 0,
+  "status": "ok"
+}

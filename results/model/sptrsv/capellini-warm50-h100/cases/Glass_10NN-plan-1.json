@@ -1,0 +1,9 @@
+{
+  "name": "Glass_10NN",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx,default,cusparse,224,5782,-1,3461.168,148.7967987,1.687538997e-14,2.437057704e-17,8.867635993e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx,default-host,cusparse,224,5782,-1,3461.168,157.223245,1.687538997e-14,2.437057704e-17,8.867635993e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx,model,cached-csr,224,5782,197,2729.835,103.0879974,1.687538997e-14,2.437057704e-17,8.867635993e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/Glass_10NN-L.mtx,model-host,cached-csr,224,5782,197,2729.835,110.3929,1.687538997e-14,2.437057704e-17,8.867635993e-17,256\n",
+  "stderr": ""
+}

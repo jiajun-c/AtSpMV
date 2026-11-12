@@ -1,0 +1,10 @@
+{
+  "dataset": "bcspwr04",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bcspwr04/bcspwr04.mtx",
+  "matrix_sha256": "059fce38865190986d1d893d3a6ac1767745472e285f6f8e487a7051b6eddc0d",
+  "index_nnz": 1612,
+  "index_rows": 274,
+  "elapsed_s": 0.601,
+  "returncode": 0,
+  "status": "ok"
+}

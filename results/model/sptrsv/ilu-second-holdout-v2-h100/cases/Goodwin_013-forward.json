@@ -1,0 +1,7 @@
+{
+  "name": "Goodwin_013",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Goodwin_013-L.mtx,default,cusparse,1965,94349,-1,11836.481,988.2304077,3.685940442e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Goodwin_013-L.mtx,model,cusparse,1965,94349,803,11571.25,988.1088257,3.685940442e-14\n",
+  "stderr": ""
+}

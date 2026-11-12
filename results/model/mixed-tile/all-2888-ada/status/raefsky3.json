@@ -1,0 +1,15 @@
+{
+  "dataset": "raefsky3",
+  "matrix_sha256": "311ab4ef6a50912f909b8cf79c2439f4aa3b8b3b1805fc57680cae9616af2e04",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.61,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

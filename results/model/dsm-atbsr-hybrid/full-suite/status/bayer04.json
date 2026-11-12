@@ -1,0 +1,10 @@
+{
+  "dataset": "bayer04",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bayer04/bayer04.mtx",
+  "matrix_sha256": "94092aba6742405d34042dfc3eaeeca68532aad072b8482894495f56fae96192",
+  "index_nnz": 159082,
+  "index_rows": 20545,
+  "elapsed_s": 1.34,
+  "returncode": 0,
+  "status": "ok"
+}

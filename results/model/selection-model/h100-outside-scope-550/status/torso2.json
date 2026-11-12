@@ -1,0 +1,17 @@
+{
+  "dataset": "torso2",
+  "matrix_sha256": "8f20119ca8ce3ae3be196295fef51872999059935893fb850b4b1899ebd0e826",
+  "index_nnz": 1033473,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 97.992,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

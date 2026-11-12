@@ -1,0 +1,105 @@
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+10/80 robot24c1_mat5: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+20/80 lp_sctap2: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 16, 'free_memory_mib': 8161}
+30/80 garon2: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 3, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+40/80 n2c6-b10: ok, new=40
+50/80 n2c6-b7: ok, new=50
+60/80 diag: ok, new=60
+WAIT GPU busy [{'pid': 1000388, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+70/80 mycielskian5: ok, new=70
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+DONE new cases 8
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "csr_vector": 58,
+    "hybrid_dsm_atbsr": 6,
+    "atbsr": 10,
+    "cusparse": 3,
+    "csr_vector|atbsr": 1,
+    "csr_dsm": 1,
+    "atbsr|cusparse": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.207242880131104,
+    "median": 1.2041078858026668,
+    "wins": 74,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6708988573684656,
+    "median": 1.8733087294783213,
+    "wins": 79,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1923251343925783,
+    "median": 1.2010949641170336,
+    "wins": 73,
+    "cases": 80
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1238721659217548,
+    "median": 1.1295038273659497,
+    "wins": 72,
+    "cases": 80
+  }
+}
+DONE new cases 0
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "csr_vector": 58,
+    "hybrid_dsm_atbsr": 6,
+    "atbsr": 10,
+    "cusparse": 3,
+    "csr_vector|atbsr": 1,
+    "csr_dsm": 1,
+    "atbsr|cusparse": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.207242880131104,
+    "median": 1.2041078858026668,
+    "wins": 74,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6708988573684656,
+    "median": 1.8733087294783213,
+    "wins": 79,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1923251343925783,
+    "median": 1.2010949641170336,
+    "wins": 73,
+    "cases": 80
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1238721659217548,
+    "median": 1.1295038273659497,
+    "wins": 72,
+    "cases": 80
+  }
+}

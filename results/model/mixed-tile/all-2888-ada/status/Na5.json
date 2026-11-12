@@ -1,0 +1,15 @@
+{
+  "dataset": "Na5",
+  "matrix_sha256": "9b3945db4fe83ae770df21aef197840d22e1e11f076c31fef74a4949cf9459eb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.003,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

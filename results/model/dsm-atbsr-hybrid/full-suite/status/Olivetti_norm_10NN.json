@@ -1,0 +1,10 @@
+{
+  "dataset": "Olivetti_norm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Olivetti_norm_10NN/Olivetti_norm_10NN.mtx",
+  "matrix_sha256": "2369f771df3316389353f681360f3a44d73460f7cb7b95448d1a7f4d06075e97",
+  "index_nnz": 5656,
+  "index_rows": 400,
+  "elapsed_s": 1.348,
+  "returncode": 0,
+  "status": "ok"
+}

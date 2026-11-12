@@ -1,0 +1,14 @@
+{
+  "matrix": "lung1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lung1/lung1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1650,
+  "columns": 1650,
+  "original_nnz": 7419,
+  "factor_L_nnz": 4180,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.038969968911260366
+}

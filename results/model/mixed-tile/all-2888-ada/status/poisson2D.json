@@ -1,0 +1,15 @@
+{
+  "dataset": "poisson2D",
+  "matrix_sha256": "976ad5c2f5b6f1a2edeaf3954eb8c40d0f73c613af37c520bf6eb200ddb41932",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.585,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

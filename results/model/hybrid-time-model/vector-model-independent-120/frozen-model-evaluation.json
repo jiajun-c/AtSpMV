@@ -1,0 +1,27 @@
+{
+  "method": "Preselected ExtraTrees model trained on frozen tuning-time labels; selects one vector width only if its predicted ratio beats the existing model prediction. Independently measured warm Graph timing in both Plan-construction orders. Limited fixed baseline; setup excluded; approximate family grouping.",
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "training_families": 423,
+  "sklearn_version": "1.6.0",
+  "training_sha256": "1e3f94c842db67b33be1103facf3b083fbfc3e64d5faf08f84aaee2f3f973e6c",
+  "features_sha256": "7354e6e877aa7701d5d4d07cc0355d9f2d604e9a3ec95e2aa278fb0ab2bb3f29",
+  "references_sha256": "6da6f54994d176b1a1d9b52943c280182344cfa18c43312cb49851bdb14db59e",
+  "selected_vector": 90,
+  "regressions_vs_model": 7,
+  "test_family_disjoint": true,
+  "complete_success": true,
+  "cases": 120,
+  "speedup_vs_model": {
+    "geomean": 1.1076499045003068,
+    "median": 1.1102188993691784,
+    "wins": 83
+  },
+  "speedup_vs_fixed_oracle": {
+    "geomean": 1.0739107778212564,
+    "median": 1.090584238049389,
+    "wins": 97
+  }
+}

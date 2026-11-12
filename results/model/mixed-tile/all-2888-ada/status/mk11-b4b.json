@@ -1,0 +1,15 @@
+{
+  "dataset": "mk11-b4b",
+  "matrix_sha256": "3a1deef2cdc7180e912da5e95329d915fba09a7ce698fc0f2d0ed86abb589476",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.034,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

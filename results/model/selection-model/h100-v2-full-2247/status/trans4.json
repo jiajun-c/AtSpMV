@@ -1,0 +1,17 @@
+{
+  "dataset": "trans4",
+  "matrix_sha256": "483c4cfd42e940a97b1c263d695d0d11245cd74962a04601a592cec172c227ff",
+  "index_nnz": 766396,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 81.209,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

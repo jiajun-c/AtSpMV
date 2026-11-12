@@ -1,0 +1,10 @@
+{
+  "dataset": "aircraft",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/aircraft/aircraft.mtx",
+  "matrix_sha256": "8e3e03c6238668bbf5db142f746542a008a1f3cdc623f723894209af70025960",
+  "index_nnz": 20267,
+  "index_rows": 3754,
+  "elapsed_s": 1.245,
+  "returncode": 0,
+  "status": "ok"
+}

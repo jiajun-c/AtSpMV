@@ -1,0 +1,15 @@
+{
+  "dataset": "cop20k_A",
+  "matrix_sha256": "57ac0d3d29c51e39e4b669d78e5da81e34d66859581c1208c28295a69351728a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.621,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

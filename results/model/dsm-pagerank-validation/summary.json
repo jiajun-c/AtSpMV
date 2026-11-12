@@ -1,0 +1,39 @@
+{
+  "verified_at_utc": "2026-10-27T05:16:17.030804+00:00",
+  "objective": "H100 DSM optimization with measured benefit on real workloads",
+  "scope": "Opt-in persistent fixed-iteration PageRank; single SpMV has no demonstrated gain",
+  "device": "H100 PCIe GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "build": {
+    "cuda": "12.4",
+    "host_compiler": "g++-11",
+    "type": "Release",
+    "dsm_architecture": "sm_90"
+  },
+  "sources": {
+    "src/dsmPageRank.cu": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+    "bench/dsm_pagerank_bench.cu": "d12f4f9176c3597b1ee6895782f4e8329fc8c82de0d04fd24d6732f3ecc3b70a"
+  },
+  "executable_sha256": "48ecf3b1cefcf461692066c47a75e9c22555c2a7fbf12b7d0b1d74a2f765cd6d",
+  "correctness": {
+    "synthetic_cases": 36,
+    "candidates_per_case": 12,
+    "direct_and_graph": true,
+    "ctest_passed": 14,
+    "sanitizers": [
+      "memcheck",
+      "racecheck",
+      "synccheck"
+    ],
+    "unsupported_ada_exit_code": 77
+  },
+  "real_workload_evidence": "../dsm-pagerank-holdout/summary.json",
+  "independent_iteration_count_repeats": "../dsm-pagerank-iterations/summary.json",
+  "final_rebuilt_binary_confirmation": "../dsm-pagerank-final/summary.json",
+  "limitations": [
+    "Warm solve timings exclude preprocessing and plan/graph construction",
+    "Single cluster limits parallelism",
+    "Not all graphs benefit; explicit opt-in retained",
+    "Fixed iteration count; no early convergence check",
+    "Ordinary single SpMV DSM experiment did not improve performance"
+  ]
+}

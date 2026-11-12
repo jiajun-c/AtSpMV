@@ -1,0 +1,17 @@
+{
+  "dataset": "sphere2",
+  "matrix_sha256": "4176da8257cd6e1430712e4cfccc822e4380c2e756d8f2f766fae25393772711",
+  "index_nnz": 450,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.203,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

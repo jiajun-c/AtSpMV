@@ -1,0 +1,7 @@
+{
+  "name": "shermanACa",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/shermanACa-L.mtx,default,cusparse,3432,39644,-1,5794.727,429.2543945,3.388400671e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/shermanACa-L.mtx,default-host,cusparse,3432,39644,-1,5794.727,435.768,3.388400671e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/shermanACa-L.mtx,model,cusparse,3432,39644,418,5731.416,429.2832031,3.388400671e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/shermanACa-L.mtx,model-host,cusparse,3432,39644,418,5731.416,435.532415,3.388400671e-13\n",
+  "stderr": ""
+}

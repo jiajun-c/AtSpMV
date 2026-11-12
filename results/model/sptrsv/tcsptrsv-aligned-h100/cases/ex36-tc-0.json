@@ -1,0 +1,9 @@
+{
+  "name": "ex36",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex36-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3088, 3088 ) nnz = 112406\nloadfile time    = 0.04377 sec\nnnzL = 112406\ntime_for_csc2CompressTile = 2.36 ms\ntime_cuda_solve = 1.177530 ms, Mflops = 190.92\nVALIDATION finite=1 max_error=3.907985046680551e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

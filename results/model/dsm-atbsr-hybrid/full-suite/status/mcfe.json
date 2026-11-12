@@ -1,0 +1,10 @@
+{
+  "dataset": "mcfe",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mcfe/mcfe.mtx",
+  "matrix_sha256": "1e663e9cd6588ef7948fe255d3b2cd2cedf43f3a617198f305a84ee212a811e0",
+  "index_nnz": 24382,
+  "index_rows": 765,
+  "elapsed_s": 1.273,
+  "returncode": 0,
+  "status": "ok"
+}

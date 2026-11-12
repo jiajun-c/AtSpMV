@@ -1,0 +1,10 @@
+{
+  "dataset": "e18",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/e18/e18.mtx",
+  "matrix_sha256": "9a1b9bcd53a9c3445c7ab17f656fae2faada3c5327b9e3c5866c48e2b1c070e4",
+  "index_nnz": 156466,
+  "index_rows": 24617,
+  "elapsed_s": 1.706,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "goddardRocketProblem_1",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/goddardRocketProblem_1-L.mtx,default,cusparse,832,19577,-1,3886.665,161.9328003,1.7985613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/goddardRocketProblem_1-L.mtx,default-host,cusparse,832,19577,-1,3886.665,168.8015,1.7985613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/goddardRocketProblem_1-L.mtx,model,cusparse,832,19577,177,3735.948,161.8975983,1.7985613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/goddardRocketProblem_1-L.mtx,model-host,cusparse,832,19577,177,3735.948,167.637035,1.7985613e-14\n",
+  "stderr": ""
+}

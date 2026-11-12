@@ -1,0 +1,10 @@
+PLAN_PREP,atbsr,14900.075000000001
+PLAN_PREP,auto_model,6775.1970000000001
+PLAN_PREP,auto_vector_model,6894.8050000000003
+PLAN_PREP,auto_vector_model_2pct,6645.9930000000004
+PLAN_ALIAS,auto_model,owner
+PLAN_ALIAS,auto_vector_model,shared
+PLAN_ALIAS,auto_vector_model_2pct,shared
+TIMING_MODE,internal_graph_events
+GRAPH_ALIAS,auto_vector_model,auto_model
+GRAPH_ALIAS,auto_vector_model_2pct,auto_model

@@ -1,0 +1,10 @@
+{
+  "dataset": "hydr1c",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hydr1c/hydr1c.mtx",
+  "matrix_sha256": "3673e1946bb8fe7d3f469def8454bac4f87864c984e111636e1ed855b363f4b3",
+  "index_nnz": 23752,
+  "index_rows": 5308,
+  "elapsed_s": 0.626,
+  "returncode": 0,
+  "status": "ok"
+}

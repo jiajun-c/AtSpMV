@@ -1,0 +1,8 @@
+{
+  "name": "ex3",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/ex3-L.mtx,model,cusparse,1821,88180,1168,12389.495,1091.369629,8.8240526e-13,2.116548436e-17,1.152340586e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/ex3-L.mtx,model-host,cusparse,1821,88180,1168,12389.495,1099.251925,8.8240526e-13,2.116548436e-17,1.152340586e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/ex3-L.mtx,default,cusparse,1821,88180,-1,12038.108,1092.85437,8.8240526e-13,2.116548436e-17,1.152340586e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/ex3-L.mtx,default-host,cusparse,1821,88180,-1,12038.108,1100.76503,8.8240526e-13,2.116548436e-17,1.152340586e-16,0\n",
+  "stderr": ""
+}

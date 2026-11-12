@@ -1,0 +1,9 @@
+{
+  "name": "fs_680_1",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/fs_680_1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 688, 688 ) nnz = 1396\nloadfile time    = 0.00046 sec\nnnzL = 1396\ntime_for_csc2CompressTile = 2.21 ms\ntime_cuda_solve = 0.263810 ms, Mflops = 10.58\nVALIDATION finite=1 max_error=4.4408920985006262e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

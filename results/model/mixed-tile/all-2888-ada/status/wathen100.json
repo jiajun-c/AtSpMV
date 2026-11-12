@@ -1,0 +1,15 @@
+{
+  "dataset": "wathen100",
+  "matrix_sha256": "e380691637b3764f9176cf2410aab5d09e4464f19ef618729b7e6742e39c9cd5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.424,
+  "gpu_after": {
+    "utilization_percent": 20,
+    "free_memory_mib": 48508
+  }
+}

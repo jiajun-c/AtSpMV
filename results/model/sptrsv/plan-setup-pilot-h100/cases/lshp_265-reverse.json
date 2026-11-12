@@ -1,0 +1,7 @@
+{
+  "name": "lshp_265",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/lshp_265-L.mtx,default,cusparse,2666.013,2529.347,6165.001,15.9645,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/lshp_265-L.mtx,model,cached-csr,1016.1525,910.979,1057.775,16.001,12\n",
+  "stderr": ""
+}

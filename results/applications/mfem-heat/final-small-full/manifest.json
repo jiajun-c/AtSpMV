@@ -1,0 +1,19 @@
+{
+  "exe": "/tmp/atspmv-mfem-final",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "results/applications/mfem-heat/final-small-full",
+  "refine": 5,
+  "order": 2,
+  "steps": 20,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "cusparse,mfem,atbsr,mixed",
+  "rounds": 4,
+  "timeout": 900,
+  "rebuild_values": false,
+  "prefetch": 0,
+  "warps": 4,
+  "gpu_assembly": true,
+  "rebuild_implicit": false,
+  "executable_sha256": "32a411c2728f05316e1184f1a28947d3332b3a777e0b6a033825f3a3fdb15d0c"
+}

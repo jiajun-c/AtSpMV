@@ -1,0 +1,10 @@
+{
+  "dataset": "IMDB",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/IMDB/IMDB.mtx",
+  "matrix_sha256": "5d92def28e5df1d194488ddeb362c3001456ba0db024d2365a3482847a02785f",
+  "index_nnz": 3782463,
+  "index_rows": 428440,
+  "elapsed_s": 2.643,
+  "returncode": 0,
+  "status": "ok"
+}

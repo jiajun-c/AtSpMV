@@ -1,0 +1,7 @@
+{
+  "name": "comsol",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,cusparse,42737.404,1104.380798,3.841371665e-14,2.48248474e-17\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,cusparse-host,42737.404,1113.105485,3.841371665e-14,2.48248474e-17\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,selector-cusparse,3158.618,1104.399967,3.841371665e-14,2.48248474e-17\n",
+  "stderr": "cached_csr_skipped_shared_bytes=1437796\n"
+}

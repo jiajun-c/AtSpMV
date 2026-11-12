@@ -1,0 +1,10 @@
+{
+  "manifest_total": 4,
+  "status_counts": {
+    "ok": 4
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}

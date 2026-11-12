@@ -1,0 +1,9 @@
+{
+  "name": "linverse",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/linverse-L.mtx --------------\nsuccess open file\ninput matrix A: ( 12000, 12000 ) nnz = 53591\nloadfile time    = 0.02382 sec\nnnzL = 53591\ntime_for_csc2CompressTile = 1.81 ms\ntime_cuda_solve = 20.105990 ms, Mflops = 5.33\nVALIDATION finite=1 max_error=1.021405182655144e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

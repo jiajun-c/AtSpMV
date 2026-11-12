@@ -1,0 +1,10 @@
+{
+  "dataset": "lpl3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpl3/lpl3.mtx",
+  "matrix_sha256": "2c0777994612b88f4ffdd0a4534a1008fde33d5c38f4a3936c38e42834c9ce07",
+  "index_nnz": 100525,
+  "index_rows": 10828,
+  "elapsed_s": 1.236,
+  "returncode": 0,
+  "status": "ok"
+}

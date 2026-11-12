@@ -1,0 +1,17 @@
+{
+  "dataset": "ca-CondMat",
+  "matrix_sha256": "93bd8cafb06eddebf3b0b25fd8a1fadab20f0a0690d95d0ca16ecd5b3317830c",
+  "index_nnz": 186936,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.767,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

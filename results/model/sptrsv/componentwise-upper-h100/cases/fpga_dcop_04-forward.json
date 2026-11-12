@@ -1,0 +1,7 @@
+{
+  "name": "fpga_dcop_04",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/fpga_dcop_04-L.mtx,default,cusparse,1220,3965,-1,2092.45,36.04800034,0.0001816049976,5.521495435e-17,1.549467755e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/fpga_dcop_04-L.mtx,default-host,cusparse,1220,3965,-1,2092.45,41.829615,0.0001816049976,5.521495435e-17,1.549467755e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/fpga_dcop_04-L.mtx,model,cached,1220,3965,19,1240.138,20.68799973,0.0001826374948,4.585879605e-17,1.089320989e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/fpga_dcop_04-L.mtx,model-host,cached,1220,3965,19,1240.138,26.270165,0.0001826374948,4.585879605e-17,1.089320989e-16\n",
+  "stderr": ""
+}

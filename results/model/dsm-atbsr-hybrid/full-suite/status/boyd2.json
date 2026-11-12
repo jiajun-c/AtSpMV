@@ -1,0 +1,10 @@
+{
+  "dataset": "boyd2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/boyd2/boyd2.mtx",
+  "matrix_sha256": "cf57fb4485005bf63c0ed69d3c4b8a8e24281907065ad3c642e3c750839da934",
+  "index_nnz": 1500397,
+  "index_rows": 466316,
+  "elapsed_s": 2.744,
+  "returncode": 0,
+  "status": "ok"
+}

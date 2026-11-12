@@ -1,0 +1,9 @@
+{
+  "name": "bcsstm08",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm08-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1088, 1088 ) nnz = 1088\nloadfile time    = 0.00038 sec\nnnzL = 1088\ntime_for_csc2CompressTile = 6.28 ms\ntime_cuda_solve = 0.034440 ms, Mflops = 63.18\nVALIDATION finite=1 max_error=0 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

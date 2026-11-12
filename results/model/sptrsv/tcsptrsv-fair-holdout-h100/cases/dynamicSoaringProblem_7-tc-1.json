@@ -1,0 +1,9 @@
+{
+  "name": "dynamicSoaringProblem_7",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/dynamicSoaringProblem_7-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3511, 3511 ) nnz = 74875\nloadfile time    = 0.03725 sec\nnnzL = 74884\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.88 ms\ntime_cuda_solve = 0.835290 ms, Mflops = 179.30\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=1.0643564356435644 expected=1.0643564356435644 b=1.0643564356435644\nsample i=2 got=0.99504950495049505 expected=0.99504950495049505 b=0.99504950495049505\nsample i=3 got=1.2920792079207921 expected=1.2920792079207921 b=1.2920792079207921\nsample i=4 got=0.65841584158415845 expected=0.65841584158415845 b=0.65841584158415845\nsample i=5 got=1.0247524752475248 expected=1.0247524752475248 b=1.0247524752475248\nsample i=6 got=0.75742574257425743 expected=0.75742574257425743 b=0.75742574257425743\nsample i=7 got=1.1237623762376239 expected=1.1237623762376239 b=1.1237623762376239\nVALIDATION finite=1 max_error=46.828105088567703 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_standgub",
+  "matrix_sha256": "f7b237712efb7fa6edc419b699ad32bd12a32c03b8e66b885afbb27d7f7df326",
+  "index_nnz": 3339,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.947,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

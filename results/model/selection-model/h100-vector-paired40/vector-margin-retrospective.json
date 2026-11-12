@@ -1,0 +1,42 @@
+{
+  "cases": 40,
+  "scope": "Retrospective thresholds on previously inspected samples. Reuses measured Plan timings; not an independent experiment or automatic default recommendation.",
+  "margins": {
+    "0.0": {
+      "geomean_speedup_vs_base": 1.1170255121949764,
+      "selected_vector_cases": 30,
+      "slower_than_base_by_5pct_cases": 1,
+      "faster_than_base_by_5pct_cases": 26
+    },
+    "0.02": {
+      "geomean_speedup_vs_base": 1.1154045547636666,
+      "selected_vector_cases": 28,
+      "slower_than_base_by_5pct_cases": 1,
+      "faster_than_base_by_5pct_cases": 26
+    },
+    "0.05": {
+      "geomean_speedup_vs_base": 1.1203762149707988,
+      "selected_vector_cases": 26,
+      "slower_than_base_by_5pct_cases": 0,
+      "faster_than_base_by_5pct_cases": 25
+    },
+    "0.1": {
+      "geomean_speedup_vs_base": 1.0854856484099649,
+      "selected_vector_cases": 17,
+      "slower_than_base_by_5pct_cases": 0,
+      "faster_than_base_by_5pct_cases": 16
+    },
+    "0.15": {
+      "geomean_speedup_vs_base": 1.0073454849493968,
+      "selected_vector_cases": 1,
+      "slower_than_base_by_5pct_cases": 0,
+      "faster_than_base_by_5pct_cases": 1
+    },
+    "0.2": {
+      "geomean_speedup_vs_base": 1.0,
+      "selected_vector_cases": 0,
+      "slower_than_base_by_5pct_cases": 0,
+      "faster_than_base_by_5pct_cases": 0
+    }
+  }
+}

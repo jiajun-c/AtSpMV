@@ -1,0 +1,5 @@
+b3bd950ea6a76c02c8c5446645cd85bd050851cd4d1b3365b0c89d5d4f63599d  /tmp/atspmv-mfem-gpu-structure
+9b22bd7dd180a542e723c50a495f03b8fd8f0fbe4a2e17e4dcde2d5f352651f1  apps/mfem/heat.cpp
+2b778b69109b96b026220435be779be90c7c7eaad2016991740acd6cebd84dba  apps/mfem/spmvOperator.hpp
+bf4775ba01c8abce86988a6e14f7a85c839d7f2960cf8bc9411ca8d4a9da3988  apps/mfem/sparseSum.cu
+e3fc9b0ea7dd3083fff2ffff5ce5361e70c869c557d86d955afe82b4f31980d8  apps/mfem/sparseSum.hpp

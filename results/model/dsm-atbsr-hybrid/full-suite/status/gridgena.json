@@ -1,0 +1,10 @@
+{
+  "dataset": "gridgena",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gridgena/gridgena.mtx",
+  "matrix_sha256": "e0e3bfea7f5f19de343b244cbe5812cddb266bc847946d6a20265a78599fc000",
+  "index_nnz": 512084,
+  "index_rows": 48962,
+  "elapsed_s": 1.32,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "G24",
+  "matrix_sha256": "226c3d37d35b13deaa86f0dd9b738d2ed7770c0bf95436ec722122ced83b6d9b",
+  "index_nnz": 39980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.781,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "stormg2-125",
+  "matrix_sha256": "4955fb4090f9ef7218aa3098e78bf0e395936af51b1e857f83f005d2b16f874a",
+  "index_nnz": 433256,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.885,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

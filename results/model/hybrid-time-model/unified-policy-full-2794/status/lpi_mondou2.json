@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_mondou2",
+  "matrix_sha256": "545c7051a694e91d5e5479bd9b797370e0839e0fc45013239f6f27bd887b92ce",
+  "index_nnz": 1208,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.195,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

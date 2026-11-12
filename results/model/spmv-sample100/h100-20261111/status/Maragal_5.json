@@ -1,0 +1,32 @@
+{
+  "dataset": "Maragal_5",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "9ae3bd36446bc73ad9daad31842a986af5fdaab82c5134520ee28d80f7bc51ba",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Maragal_5/Maragal_5.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Maragal_5-0.csv",
+        "20261241",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0023506279103458
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Maragal_5/Maragal_5.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Maragal_5-1.csv",
+        "20261242",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0050599919632077
+    }
+  ]
+}

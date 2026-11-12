@@ -1,0 +1,14 @@
+{
+  "matrix": "rajat11",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/rajat11/rajat11.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 135,
+  "columns": 135,
+  "original_nnz": 812,
+  "factor_L_nnz": 683,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.024055874906480312
+}

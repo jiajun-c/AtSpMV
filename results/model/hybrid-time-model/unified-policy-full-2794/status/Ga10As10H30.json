@@ -1,0 +1,17 @@
+{
+  "dataset": "Ga10As10H30",
+  "matrix_sha256": "5b2fdd894aefdace52e31e11348d99542c0cef3e940613803b7f71cfe6b424d2",
+  "index_nnz": 6115633,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.639,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "qa8fk",
+  "matrix_sha256": "509b0bdea84b6f0af4aaca947d29228d457bcb625ba6c76829b9b0899daf7c5b",
+  "index_nnz": 1660579,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.659,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

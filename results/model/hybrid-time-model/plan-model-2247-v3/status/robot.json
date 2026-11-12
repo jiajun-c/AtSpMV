@@ -1,0 +1,19 @@
+{
+  "dataset": "robot",
+  "matrix_sha256": "84e830b2e943a56bca19b08881b935b48203708df70de194420c5b58df1c6beb",
+  "index_nnz": 870,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.329,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

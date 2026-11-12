@@ -1,0 +1,7 @@
+{
+  "matrix": "fpga_dcop_15",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_15-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.034000888466835e-06
+}

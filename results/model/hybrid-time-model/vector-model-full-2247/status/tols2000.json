@@ -1,0 +1,17 @@
+{
+  "dataset": "tols2000",
+  "matrix_sha256": "2afcae488e3d021e0f4e2ce3ac411e271e7dd0298c8166fc0e986ad635b8953a",
+  "index_nnz": 5184,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.686,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

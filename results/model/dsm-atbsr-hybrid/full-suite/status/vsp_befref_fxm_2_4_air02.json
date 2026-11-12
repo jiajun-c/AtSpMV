@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_befref_fxm_2_4_air02",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_befref_fxm_2_4_air02/vsp_befref_fxm_2_4_air02.mtx",
+  "matrix_sha256": "b02be6d444c6ddf9caed74e511dc75a8a38ebdff9a557e31b3cc2c504282038a",
+  "index_nnz": 196448,
+  "index_rows": 14109,
+  "elapsed_s": 0.677,
+  "returncode": 0,
+  "status": "ok"
+}

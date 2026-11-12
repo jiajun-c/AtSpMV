@@ -1,0 +1,17 @@
+{
+  "dataset": "G13",
+  "matrix_sha256": "05f769ab6b0cc117ff6171415b9452e2587f5fe4e2e2814fa74165a744b660e5",
+  "index_nnz": 3200,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.176,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

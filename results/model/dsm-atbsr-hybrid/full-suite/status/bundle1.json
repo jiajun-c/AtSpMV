@@ -1,0 +1,10 @@
+{
+  "dataset": "bundle1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bundle1/bundle1.mtx",
+  "matrix_sha256": "03e58eac1cb794172c45f0b9977b73ffbf462c61300afd04954617af5185cd17",
+  "index_nnz": 770901,
+  "index_rows": 10581,
+  "elapsed_s": 1.682,
+  "returncode": 0,
+  "status": "ok"
+}

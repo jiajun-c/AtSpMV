@@ -1,0 +1,17 @@
+{
+  "dataset": "tsyl201",
+  "matrix_sha256": "d5d0c5dc98ae538d99ddca73b3748f5fa28db9edf4c904b102662dd2f1a1001d",
+  "index_nnz": 2454957,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.669,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

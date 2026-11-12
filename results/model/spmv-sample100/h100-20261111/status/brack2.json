@@ -1,0 +1,32 @@
+{
+  "dataset": "brack2",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "f7603e1e95611c5d134f6d0da99901f577cd0b9c751a3d2cd2422546aab06005",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/brack2/brack2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/brack2-0.csv",
+        "20261279",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0048693919088691
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/brack2/brack2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/brack2-1.csv",
+        "20261280",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.002814088948071
+    }
+  ]
+}

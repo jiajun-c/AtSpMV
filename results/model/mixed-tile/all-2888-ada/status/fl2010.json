@@ -1,0 +1,15 @@
+{
+  "dataset": "fl2010",
+  "matrix_sha256": "9ce294bf7741df4b9552ea458e6932ae8d4573b2cffee12b9ab59f673e1ce941",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.56,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

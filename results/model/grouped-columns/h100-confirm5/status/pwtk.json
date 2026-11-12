@@ -1,0 +1,31 @@
+{
+  "dataset": "pwtk",
+  "matrix_sha256": "b96f7a0d851ddd65d6a833dcd13f32bad39a273018e00163b890500316f48dfa",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-confirm5/configs.csv",
+        "20261111",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.118118613027036,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-confirm5/configs-reverse.csv",
+        "20261112",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 3.0058706859126687,
+      "reason": null
+    }
+  ]
+}

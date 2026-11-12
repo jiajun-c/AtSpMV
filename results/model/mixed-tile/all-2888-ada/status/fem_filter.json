@@ -1,0 +1,15 @@
+{
+  "dataset": "fem_filter",
+  "matrix_sha256": "f3959fe25c0101d796b6f5157d521cb05578048b9903425cd2a8c35a8bd0b3c3",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.374,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

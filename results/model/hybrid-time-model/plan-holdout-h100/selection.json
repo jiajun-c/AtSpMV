@@ -1,0 +1,5 @@
+{
+  "split": "same grouped holdout as historical model replay",
+  "cases": 389,
+  "note": "fresh measurement but same holdout matrix structures as prior replay; not a new dataset holdout"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "west2021",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx,default,cusparse,2032,5461,-1,2210.35,41.84320068,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx,default-host,cusparse,2032,5461,-1,2210.35,48.129115,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx,model,cached,2032,5461,28,1305.916,31.55840111,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx,model-host,cached,2032,5461,28,1305.916,37.66337,8.881784197e-16\n",
+  "stderr": ""
+}

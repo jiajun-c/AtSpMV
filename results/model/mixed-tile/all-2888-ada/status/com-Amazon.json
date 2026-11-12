@@ -1,0 +1,15 @@
+{
+  "dataset": "com-Amazon",
+  "matrix_sha256": "a42f2ced834c89955ffd575af75cb043e44bce2cd249d88bfa2d4583985bc09e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.089,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

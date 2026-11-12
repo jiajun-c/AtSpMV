@@ -1,0 +1,17 @@
+{
+  "dataset": "lshp1882",
+  "matrix_sha256": "6e7265bd77d054271dcdcc9f1165fe823048fec1453114bf61ce79ea7d01b2f0",
+  "index_nnz": 12904,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.496,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

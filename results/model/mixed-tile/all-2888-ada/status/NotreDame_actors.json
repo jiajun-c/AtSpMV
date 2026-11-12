@@ -1,0 +1,15 @@
+{
+  "dataset": "NotreDame_actors",
+  "matrix_sha256": "e7495abafe7a2e336a8cdfee220518693282216d24c7e0a7ef6d252a752f1275",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.147,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

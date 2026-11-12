@@ -1,0 +1,10 @@
+{
+  "dataset": "well1850",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/well1850/well1850.mtx",
+  "matrix_sha256": "c1aeb025ce9edab460b5b07ee472d9a76b1a30de928a84f768f8163826b60c33",
+  "index_nnz": 8758,
+  "index_rows": 1850,
+  "elapsed_s": 1.146,
+  "returncode": 0,
+  "status": "ok"
+}

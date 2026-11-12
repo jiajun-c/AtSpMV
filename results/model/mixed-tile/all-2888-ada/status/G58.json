@@ -1,0 +1,15 @@
+{
+  "dataset": "G58",
+  "matrix_sha256": "46ad78d410b5799838bce84e2fe1a84db89ad19c0337e9a10cfff057d839f8f0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.382,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

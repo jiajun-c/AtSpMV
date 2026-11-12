@@ -1,0 +1,15 @@
+{
+  "dataset": "ex31",
+  "matrix_sha256": "26cb58ee8933daf809e07e12877bb552fb854999174d329ea63fcad587ef9749",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.64,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

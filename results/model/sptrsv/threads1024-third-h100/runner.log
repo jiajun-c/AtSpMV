@@ -1,0 +1,31 @@
+bcsstk03 forward 0
+bcsstk03 reverse 0
+adder_dcop_40 forward 0
+adder_dcop_40 reverse 0
+adder_dcop_43 forward 0
+adder_dcop_43 reverse 0
+mesh3em5 forward 0
+mesh3em5 reverse 0
+bp_1200 forward 0
+bp_1200 reverse 0
+mycielskian8 forward 0
+mycielskian8 reverse 0
+adder_dcop_08 forward 0
+adder_dcop_08 reverse 0
+cdde4 forward 0
+cdde4 reverse 0
+494_bus forward 0
+494_bus reverse 0
+bcsstm09 forward 0
+bcsstm09 reverse 0
+fpga_dcop_09 forward 0
+fpga_dcop_09 reverse 0
+{
+  "status_counts": {
+    "ok": 11
+  },
+  "1024_geomean_vs_512": 1.0164785060543666,
+  "1024_wins_gt_5pct": 4,
+  "1024_losses_gt_5pct": 1
+}
+runner_exit=0

@@ -1,0 +1,17 @@
+{
+  "dataset": "viscoplastic2",
+  "matrix_sha256": "f0acb555dd305c4200e72b7d097ac7e4c5a747947291aa8e7fad57156e87937f",
+  "index_nnz": 381326,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.984,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

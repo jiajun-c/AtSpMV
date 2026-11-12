@@ -1,0 +1,9 @@
+{
+  "name": "impcol_a",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/impcol_a-L.mtx --------------\nsuccess open file\ninput matrix A: ( 208, 208 ) nnz = 441\nloadfile time    = 0.00025 sec\nnnzL = 441\ntime_for_csc2CompressTile = 2.65 ms\ntime_cuda_solve = 0.049230 ms, Mflops = 17.92\nVALIDATION finite=1 max_error=6.6613381477509392e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

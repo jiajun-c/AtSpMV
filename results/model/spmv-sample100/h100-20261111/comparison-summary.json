@@ -1,0 +1,295 @@
+{
+  "coverage": {
+    "requested": 100,
+    "successful": 100,
+    "failures": [],
+    "candidate_pairs": 700,
+    "scope": "Predeclared 100-matrix structural sample: 25 per nnz bin (1k-100k,100k-1m,1m-5m,5m-20m); each 13 short/12 long-row cases. Approximate name-family cap 3. Excludes previous24, no performance used for selection. Not a random full-library sample or training holdout."
+  },
+  "raw_timings": 12600,
+  "full_vector_checks": 4200,
+  "scope": "Predeclared 100-matrix structural sample: 25 per nnz bin (1k-100k,100k-1m,1m-5m,5m-20m); each 13 short/12 long-row cases. Approximate name-family cap 3. Excludes previous24, no performance used for selection. Not a random full-library sample or training holdout.",
+  "plans": {
+    "atbsr_control": {
+      "vs_best_cusparse": {
+        "n": 100,
+        "geomean": 0.9011586652488965,
+        "median": 1.0707852741137187,
+        "wins_over_1pct": 57,
+        "losses_over_1pct": 38,
+        "min": 0.12565366897844282,
+        "max": 3.044581046771698
+      },
+      "vs_alg1": {
+        "n": 100,
+        "geomean": 0.9046852668616869,
+        "median": 1.0744463503381871,
+        "wins_over_1pct": 58,
+        "losses_over_1pct": 38,
+        "min": 0.12584447251816056,
+        "max": 3.044581046771698
+      },
+      "median_setup_us": 10137.0945,
+      "grouped_plan_instances": 0
+    },
+    "atbsr_grouped_model": {
+      "vs_best_cusparse": {
+        "n": 100,
+        "geomean": 0.8994586436297065,
+        "median": 1.0694961673618333,
+        "wins_over_1pct": 61,
+        "losses_over_1pct": 35,
+        "min": 0.11908470104002856,
+        "max": 3.0184741822753254
+      },
+      "vs_alg1": {
+        "n": 100,
+        "geomean": 0.9029785923641357,
+        "median": 1.0757488960906556,
+        "wins_over_1pct": 62,
+        "losses_over_1pct": 35,
+        "min": 0.11930206315808975,
+        "max": 3.0184741822753254
+      },
+      "median_setup_us": 6998.4095,
+      "grouped_plan_instances": 58
+    },
+    "auto_refined_v2": {
+      "vs_best_cusparse": {
+        "n": 100,
+        "geomean": 1.287062013587307,
+        "median": 1.1381803173289604,
+        "wins_over_1pct": 71,
+        "losses_over_1pct": 26,
+        "min": 0.8151901753052696,
+        "max": 3.4059843153046434
+      },
+      "vs_alg1": {
+        "n": 100,
+        "geomean": 1.2920988124862274,
+        "median": 1.1465128971066316,
+        "wins_over_1pct": 72,
+        "losses_over_1pct": 26,
+        "min": 0.816445417771038,
+        "max": 3.4059843153046434
+      },
+      "median_setup_us": 115993.3985,
+      "grouped_plan_instances": 0
+    },
+    "auto_refined_v2_grouped": {
+      "vs_best_cusparse": {
+        "n": 100,
+        "geomean": 1.2953912785440558,
+        "median": 1.135042150388891,
+        "wins_over_1pct": 72,
+        "losses_over_1pct": 23,
+        "min": 0.8142139104202275,
+        "max": 3.443949367615852
+      },
+      "vs_alg1": {
+        "n": 100,
+        "geomean": 1.3004606732558583,
+        "median": 1.1415568558225069,
+        "wins_over_1pct": 73,
+        "losses_over_1pct": 22,
+        "min": 0.8154676496181957,
+        "max": 3.443949367615852
+      },
+      "median_setup_us": 117953.70449999999,
+      "grouped_plan_instances": 15
+    }
+  },
+  "strata": {
+    "0": {
+      "atbsr_control": {
+        "n": 25,
+        "geomean": 1.3285176779383614,
+        "median": 1.3923294601868603,
+        "wins_over_1pct": 21,
+        "losses_over_1pct": 1,
+        "min": 0.9625023133914613,
+        "max": 2.119090422210073
+      },
+      "atbsr_grouped_model": {
+        "n": 25,
+        "geomean": 1.3250807942097973,
+        "median": 1.370996772118598,
+        "wins_over_1pct": 22,
+        "losses_over_1pct": 1,
+        "min": 0.9693509258348844,
+        "max": 2.0923893549307957
+      },
+      "auto_refined_v2": {
+        "n": 25,
+        "geomean": 1.4076839111341233,
+        "median": 1.3683764429823315,
+        "wins_over_1pct": 22,
+        "losses_over_1pct": 1,
+        "min": 0.970998436478771,
+        "max": 2.450537256559217
+      },
+      "auto_refined_v2_grouped": {
+        "n": 25,
+        "geomean": 1.4129765539844938,
+        "median": 1.3914215110386878,
+        "wins_over_1pct": 21,
+        "losses_over_1pct": 1,
+        "min": 0.965510541707688,
+        "max": 2.467711487523097
+      }
+    },
+    "1": {
+      "atbsr_control": {
+        "n": 25,
+        "geomean": 1.1809537659499991,
+        "median": 1.1318655088896397,
+        "wins_over_1pct": 21,
+        "losses_over_1pct": 4,
+        "min": 0.6317863541590484,
+        "max": 3.044581046771698
+      },
+      "atbsr_grouped_model": {
+        "n": 25,
+        "geomean": 1.1703375584937319,
+        "median": 1.1340213028250952,
+        "wins_over_1pct": 20,
+        "losses_over_1pct": 5,
+        "min": 0.6319691083001157,
+        "max": 3.0184741822753254
+      },
+      "auto_refined_v2": {
+        "n": 25,
+        "geomean": 1.3389633163983325,
+        "median": 1.1875149237873162,
+        "wins_over_1pct": 24,
+        "losses_over_1pct": 1,
+        "min": 0.9679491802586232,
+        "max": 3.4059843153046434
+      },
+      "auto_refined_v2_grouped": {
+        "n": 25,
+        "geomean": 1.3393858116013773,
+        "median": 1.1830992009820707,
+        "wins_over_1pct": 24,
+        "losses_over_1pct": 1,
+        "min": 0.9632907556024346,
+        "max": 3.443949367615852
+      }
+    },
+    "2": {
+      "atbsr_control": {
+        "n": 25,
+        "geomean": 0.990119660929835,
+        "median": 1.1039311786470445,
+        "wins_over_1pct": 15,
+        "losses_over_1pct": 9,
+        "min": 0.160428290529408,
+        "max": 2.6251829054780744
+      },
+      "atbsr_grouped_model": {
+        "n": 25,
+        "geomean": 0.9963275888253312,
+        "median": 1.115386940222774,
+        "wins_over_1pct": 16,
+        "losses_over_1pct": 8,
+        "min": 0.1472130427717142,
+        "max": 2.7982043887400523
+      },
+      "auto_refined_v2": {
+        "n": 25,
+        "geomean": 1.5098746886817427,
+        "median": 1.5111865693334077,
+        "wins_over_1pct": 21,
+        "losses_over_1pct": 4,
+        "min": 0.9221666989626538,
+        "max": 2.6220944304233886
+      },
+      "auto_refined_v2_grouped": {
+        "n": 25,
+        "geomean": 1.516410032204323,
+        "median": 1.5112312363655247,
+        "wins_over_1pct": 20,
+        "losses_over_1pct": 4,
+        "min": 0.925807409142471,
+        "max": 2.803459334965953
+      }
+    },
+    "3": {
+      "atbsr_control": {
+        "n": 25,
+        "geomean": 0.42453855247494043,
+        "median": 0.6590003137483187,
+        "wins_over_1pct": 0,
+        "losses_over_1pct": 24,
+        "min": 0.12565366897844282,
+        "max": 0.9956206528422884
+      },
+      "atbsr_grouped_model": {
+        "n": 25,
+        "geomean": 0.42361286423193445,
+        "median": 0.6578962185031995,
+        "wins_over_1pct": 3,
+        "losses_over_1pct": 21,
+        "min": 0.11908470104002856,
+        "max": 1.0605281233143458
+      },
+      "auto_refined_v2": {
+        "n": 25,
+        "geomean": 0.9642355968225311,
+        "median": 0.9634906038461678,
+        "wins_over_1pct": 4,
+        "losses_over_1pct": 20,
+        "min": 0.8151901753052696,
+        "max": 1.1801361185576804
+      },
+      "auto_refined_v2_grouped": {
+        "n": 25,
+        "geomean": 0.9811752316492938,
+        "median": 0.9666430992439243,
+        "wins_over_1pct": 7,
+        "losses_over_1pct": 17,
+        "min": 0.8142139104202275,
+        "max": 1.1766788826218082
+      }
+    }
+  },
+  "selected_backend_counts_per_process": {
+    "atbsr_control": {
+      "atbsr": 200
+    },
+    "atbsr_grouped_model": {
+      "atbsr": 200
+    },
+    "auto_refined_v2": {
+      "csr_vector": 66,
+      "atbsr": 73,
+      "mixed_tile": 61
+    },
+    "auto_refined_v2_grouped": {
+      "csr_vector": 66,
+      "atbsr": 73,
+      "mixed_tile": 61
+    }
+  },
+  "ratios": {
+    "grouped_vs_original_atbsr": {
+      "n": 100,
+      "geomean": 0.9981135157606008,
+      "median": 1.0002615517849331,
+      "wins_over_1pct": 20,
+      "losses_over_1pct": 25,
+      "min": 0.8071573705340082,
+      "max": 1.2206314351731247
+    },
+    "unified_grouped_vs_unified": {
+      "n": 100,
+      "geomean": 1.0064715335149494,
+      "median": 1.000539028351657,
+      "wins_over_1pct": 22,
+      "losses_over_1pct": 6,
+      "min": 0.9816393785015446,
+      "max": 1.1655028923023012
+    }
+  },
+  "measurement": "FP64 warm Graph, best of three measured cuSPARSE algorithms per process, paired opposite construction orders. Setup and tuning excluded from speedups; no global-best claim."
+}

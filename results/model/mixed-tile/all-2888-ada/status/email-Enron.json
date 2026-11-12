@@ -1,0 +1,15 @@
+{
+  "dataset": "email-Enron",
+  "matrix_sha256": "ac766218c88bf2afdf5d6b1f487c5dc98315669a37c2433a5c71be9772793f40",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.113,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

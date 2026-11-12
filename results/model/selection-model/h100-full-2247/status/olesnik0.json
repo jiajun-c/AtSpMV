@@ -1,0 +1,17 @@
+{
+  "dataset": "olesnik0",
+  "matrix_sha256": "162e5570bf5a9efa46274b1ece36e0ac855c065da686507e2efcba45ec9d085a",
+  "index_nnz": 744216,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.793,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "relat7b",
+  "matrix_sha256": "048bb647ba79b4efbadb8f27eadc8958a2b9c1cf04f633eadc321453476393b3",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.494,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

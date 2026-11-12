@@ -1,0 +1,7 @@
+0 cusparse 0 None
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_mfem_heat.py", line 165, in <module>
+    main()
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_mfem_heat.py", line 111, in main
+    raise RuntimeError(f'application failed: {stem}')
+RuntimeError: application failed: results/applications/mfem-heat/optimize-compressed-persist-r7/cusparse-0

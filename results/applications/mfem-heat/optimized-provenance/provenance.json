@@ -1,0 +1,32 @@
+{
+  "repository_head": "ff881efaea598ed2cbc06918695270708dbf12be",
+  "mfem_commit": "a01719101027383954b69af1777dc828bf795d62",
+  "executable": "/tmp/atspmv-mfem-compressed-v3",
+  "executable_sha256": "03352fff3a5b9eb285ad4f768bd5d2e307822c4615974c7c1a4db266b1cfa719",
+  "source_sha256": {
+    "apps/mfem/heat.cpp": "a21e8a608961c2bcfef9869412b537a4a07bd805825d8a66808137f583f52b34",
+    "apps/mfem/spmvOperator.hpp": "97c913c4a90a181a34987c4f6fa622728ea9708dd1210c22434eba1e3d6164d2",
+    "apps/mfem/sparseSum.cu": "bf4775ba01c8abce86988a6e14f7a85c839d7f2960cf8bc9411ca8d4a9da3988",
+    "apps/mfem/sparseSum.hpp": "e3fc9b0ea7dd3083fff2ffff5ce5361e70c869c557d86d955afe82b4f31980d8",
+    "include/spmvPlan.h": "a29bbb0d191ddc80108b092564265ec47f2bc22c20cd284f7c8e495110068f91",
+    "include/detail/planStorage.cuh": "25fe6bd39fffa95a9583051afc6dfae6f459c4b214659b8d854812d63815e168",
+    "include/detail/compressedTileColumns.cuh": "b624ea52bb3704bcf69f3c94667cd7edcd0354ce0ba70dcc18d260e9898b80ea",
+    "include/detail/planValueUpdate.cuh": "b42c113dfa997ea0be6150e085aaecbb1b069fb666f4ddde32f2babc02f5cb10",
+    "src/spmvPlan.cu": "0ab6a1eb10a77639dc9564f189d66cb29a87055166d73442da5a9ae0c406d058",
+    "bench/packed_spmv_bench.cu": "fb0938742260a13581d208f4eb0ffd571d22fa0b68cbae660549060b191c0917",
+    "tests/spmv_value_update_test.cu": "0bc8f4d28e3736991d3f7dca7d977a73dcd919d0be3749cb441e07c2f7caae88",
+    "scripts/analysis/benchmark_mfem_heat.py": "26d54837ade6a1aefa06e69b5f9cd95ad18bb52b1d44dab0a63e22002c908277",
+    "scripts/analysis/validate_mfem_cpu_reference.py": "4087a3c6d942d43fed61cc6f5fc912297755d21a177050dce88f4891e41866dc",
+    "scripts/analysis/analyze_mfem_optimization.py": "e59bc555d8930676a10c7c8d1d0e705dbe17a641bb6df56a49d5e0698639e3ea"
+  },
+  "toolchain": "CUDA 12.6, GCC 11, Release, SM90; MFEM 4.8 serial FP64 CUDA",
+  "device": "NVIDIA H100 PCIe, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "mesh_sha256": "374d20f1cd3457de6d398b33fb69f685215dd5cf8e23816f829a33f8b62bf210",
+  "implicit_csr_sha256": "228bdc53fc3179b95c4121b19daa8b9be2f498f69f37128fa3abb6316f882f32",
+  "confirmation": "optimized-confirmation-r7",
+  "exploration": "optimize-compressed-persist-v2-r7",
+  "kernel_replays": "optimized-kernels",
+  "hardware_counters": "optimized-profile",
+  "cpu_reference": "optimized-cpu-reference",
+  "known_failed_check": "optimized-validation/value-updates-memcheck.log: pre-existing DSM path; not used in this application comparison"
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "arc130",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/arc130-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 130,
+  "nnz": 342,
+  "min_abs_diagonal": 0.0788942589140268,
+  "max_abs_diagonal": 14.31075477600098,
+  "elapsed_s": 0.008016410050913692
+}

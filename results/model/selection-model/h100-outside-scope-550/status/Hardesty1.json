@@ -1,0 +1,17 @@
+{
+  "dataset": "Hardesty1",
+  "matrix_sha256": "5d1f06467f1941b3a18ec1346a8ad029bb6ef1656e7026e41c036e8fd11e58aa",
+  "index_nnz": 12143314,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 45.139,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

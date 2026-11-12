@@ -1,0 +1,15 @@
+{
+  "dataset": "juba40k",
+  "matrix_sha256": "50c75e1706ed819e3b3f4b048dbd8ca6ccde8407a5fa8fe3891a75eb477264ed",
+  "gpu_before": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": -11,
+  "elapsed_s": 1.255,
+  "gpu_after": {
+    "utilization_percent": 9,
+    "free_memory_mib": 48508
+  }
+}

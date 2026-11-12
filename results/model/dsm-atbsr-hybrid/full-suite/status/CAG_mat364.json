@@ -1,0 +1,10 @@
+{
+  "dataset": "CAG_mat364",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/CAG_mat364/CAG_mat364.mtx",
+  "matrix_sha256": "f6cdb635561e7b9f5086d29f7a810b6a65c4294cf0264eeb51f8cf43ab4546e3",
+  "index_nnz": 13585,
+  "index_rows": 364,
+  "elapsed_s": 2.039,
+  "returncode": 0,
+  "status": "ok"
+}

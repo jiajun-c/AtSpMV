@@ -1,0 +1,6 @@
+{
+  "name": "bcsstk18",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,cusparse,21572.061,559.0688229,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,packed-adaptive,3060.321,812.0639801,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,1,407.844,1457.728004,4.440892099e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,2,407.844,1134.518433,3.330669074e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,4,407.844,935.740757,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,8,407.844,767.6511765,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,16,407.844,681.0495853,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,32,407.844,653.7695885,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/bcsstk18/bcsstk18.mtx,11948,80519,310,adaptive,407.844,773.0336189,2.220446049e-16\n",
+  "stderr": "packed_slots=143552,strict_lower_nnz=68571,packing_us=2652.48\n"
+}

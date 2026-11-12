@@ -1,0 +1,10 @@
+{
+  "dataset": "memplus",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/memplus/memplus.mtx",
+  "matrix_sha256": "7557ed285697c72b4692b41804725194798f9285ef39c0fe3823024214072aa1",
+  "index_nnz": 126150,
+  "index_rows": 17758,
+  "elapsed_s": 1.302,
+  "returncode": 0,
+  "status": "ok"
+}

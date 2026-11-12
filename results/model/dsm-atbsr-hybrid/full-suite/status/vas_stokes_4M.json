@@ -1,0 +1,10 @@
+{
+  "dataset": "vas_stokes_4M",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vas_stokes_4M/vas_stokes_4M.mtx",
+  "matrix_sha256": "3f4f40c06c767a6f6a6f7507377104782533bed896ab6f1bac906fb599a3f499",
+  "index_nnz": 131577616,
+  "index_rows": 4382246,
+  "elapsed_s": 38.357,
+  "returncode": 0,
+  "status": "ok"
+}

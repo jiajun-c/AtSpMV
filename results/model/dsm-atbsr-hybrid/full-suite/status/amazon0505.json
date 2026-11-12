@@ -1,0 +1,10 @@
+{
+  "dataset": "amazon0505",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/amazon0505/amazon0505.mtx",
+  "matrix_sha256": "8695f88ef825eb37d56a186fd1c119060dc9ec03e186c468ba840c8e75cb7f11",
+  "index_nnz": 3356824,
+  "index_rows": 410236,
+  "elapsed_s": 3.071,
+  "returncode": 0,
+  "status": "ok"
+}

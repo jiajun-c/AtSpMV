@@ -1,0 +1,17 @@
+{
+  "dataset": "soc-sign-Slashdot081106",
+  "matrix_sha256": "4dfb664c08e74a147c087a86c45e0ecc4df272b8e606c08b9a2653879a2ab735",
+  "index_nnz": 516575,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.365,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

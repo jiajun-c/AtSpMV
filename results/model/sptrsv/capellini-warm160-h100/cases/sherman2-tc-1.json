@@ -1,0 +1,9 @@
+{
+  "name": "sherman2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=6.6835426082434424e-14 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.872200000 ms\n",
+  "stderr": ""
+}

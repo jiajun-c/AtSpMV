@@ -1,0 +1,15 @@
+{
+  "dataset": "G42",
+  "matrix_sha256": "a2b48bc886f4ae6ffdad949c8f89c8cf7fe326d9cbba2350fe6aaac82242c11d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.968,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

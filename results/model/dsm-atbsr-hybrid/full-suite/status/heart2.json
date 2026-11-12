@@ -1,0 +1,10 @@
+{
+  "dataset": "heart2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/heart2/heart2.mtx",
+  "matrix_sha256": "37cbe4a5e947bda5563ec20ed8059fbca14d9dcd5ac1c2c858bd4e81420c69ff",
+  "index_nnz": 682797,
+  "index_rows": 2339,
+  "elapsed_s": 1.255,
+  "returncode": 0,
+  "status": "ok"
+}

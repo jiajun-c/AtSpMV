@@ -1,0 +1,15 @@
+{
+  "dataset": "2D_54019_highK",
+  "matrix_sha256": "7da5183c9e99c28b58d4bfbb3e978a5561b698dc5e7fea485b52312d8055136c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.396,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

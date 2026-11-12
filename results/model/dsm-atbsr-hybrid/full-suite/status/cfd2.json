@@ -1,0 +1,10 @@
+{
+  "dataset": "cfd2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cfd2/cfd2.mtx",
+  "matrix_sha256": "80faade5d176fce67517715f6e70b4de7046e666bf2251a0c52221e079aba844",
+  "index_nnz": 3087898,
+  "index_rows": 123440,
+  "elapsed_s": 1.765,
+  "returncode": 0,
+  "status": "ok"
+}

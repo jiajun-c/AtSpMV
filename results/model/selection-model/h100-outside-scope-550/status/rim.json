@@ -1,0 +1,17 @@
+{
+  "dataset": "rim",
+  "matrix_sha256": "925673cd967387cef99191422ad101d1fb5d8ba962b66f7b4c7f450d6044bc59",
+  "index_nnz": 1014951,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.495,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

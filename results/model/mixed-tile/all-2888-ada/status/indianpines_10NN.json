@@ -1,0 +1,15 @@
+{
+  "dataset": "indianpines_10NN",
+  "matrix_sha256": "f2c384c0ce2e7956740b076cd9976585b98240a020fd27976cfbc6de09d05a9e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.095,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 48508
+  }
+}

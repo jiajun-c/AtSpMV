@@ -1,0 +1,10 @@
+{
+  "dataset": "LFAT5000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/LFAT5000/LFAT5000.mtx",
+  "matrix_sha256": "fcd9be9fa0bcf626d06cf61ebc65e36e51a398b523551a912680e2f861be7771",
+  "index_nnz": 79966,
+  "index_rows": 19994,
+  "elapsed_s": 0.732,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "sls",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sls/sls.mtx",
+  "matrix_sha256": "9a222e5618251134ea69c20b83914e7c42121e4c8686b45bf20fce52bbca0e8a",
+  "index_nnz": 6804304,
+  "index_rows": 1748122,
+  "elapsed_s": 4.118,
+  "returncode": 0,
+  "status": "ok"
+}

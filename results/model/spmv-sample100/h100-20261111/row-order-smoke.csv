@@ -1,0 +1,15 @@
+backend,config,trial,us
+atbsr_rows_sorted,3/0/8/128/1/1024,0,5.228000227
+atbsr_rows_sorted,3/0/8/128/1/1024,1,5.216000136
+atbsr_rows_sorted,5/0/8/128/1/1024,0,14.188
+atbsr_rows_sorted,5/0/8/128/1/1024,1,14.18399997
+atbsr_rows_original,3/0/8/128/1/1024,0,5.351999775
+atbsr_rows_original,3/0/8/128/1/1024,1,5.379999988
+atbsr_rows_original,5/0/8/128/1/1024,0,14.06800002
+atbsr_rows_original,5/0/8/128/1/1024,1,14.05999996
+cusparse,CSR_ALG1,0,4.443999846
+cusparse,CSR_ALG1,1,4.439999815
+cusparse_default,cusparse_default,0,4.443999846
+cusparse_default,cusparse_default,1,4.451999906
+cusparse_alg2,cusparse_alg2,0,7.724000141
+cusparse_alg2,cusparse_alg2,1,7.728000171

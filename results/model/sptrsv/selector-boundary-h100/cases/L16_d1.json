@@ -1,0 +1,6 @@
+{
+  "name": "L16_d1",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/selector-boundary-h100/factors/L16_d1.mtx,default,cusparse,4096,7936,-1,2127.453,35.50719833,0\nresults/model/sptrsv/selector-boundary-h100/factors/L16_d1.mtx,model,cusparse,4096,7936,-1,2095.85,35.55200195,0\n",
+  "stderr": ""
+}

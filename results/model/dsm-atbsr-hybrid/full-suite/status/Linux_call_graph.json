@@ -1,0 +1,10 @@
+{
+  "dataset": "Linux_call_graph",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Linux_call_graph/Linux_call_graph.mtx",
+  "matrix_sha256": "d7cb9196a87516f45c762486ae1c1bd38f746d9dd5bd76f5732c893ae73f4612",
+  "index_nnz": 1208908,
+  "index_rows": 324085,
+  "elapsed_s": 1.879,
+  "returncode": 0,
+  "status": "ok"
+}

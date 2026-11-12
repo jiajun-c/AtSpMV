@@ -1,0 +1,7 @@
+{
+  "name": "dataset22mfeatzernike_10NN",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/dataset22mfeatzernike_10NN-L.mtx,default,cusparse,2000,61134,-1,6484.944,567.4879761,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dataset22mfeatzernike_10NN-L.mtx,default-host,cusparse,2000,61134,-1,6484.944,573.925865,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dataset22mfeatzernike_10NN-L.mtx,model,cusparse,2000,61134,424,6518.838,566.9248047,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dataset22mfeatzernike_10NN-L.mtx,model-host,cusparse,2000,61134,424,6518.838,573.87634,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\n",
+  "stderr": ""
+}

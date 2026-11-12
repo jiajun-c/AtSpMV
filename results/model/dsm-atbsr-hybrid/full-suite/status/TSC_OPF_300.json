@@ -1,0 +1,10 @@
+{
+  "dataset": "TSC_OPF_300",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TSC_OPF_300/TSC_OPF_300.mtx",
+  "matrix_sha256": "204d2725bce1062ed6ead63707a1239a06618dda1d7ab53be66c6a0719cd27bb",
+  "index_nnz": 820804,
+  "index_rows": 9774,
+  "elapsed_s": 2.215,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ex9",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex9-L.mtx,default,cusparse,3376,237869,-1,25291.128,1531.456055,9.413581026e-13,2.50118791e-17,1.142021828e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex9-L.mtx,default-host,cusparse,3376,237869,-1,25291.128,1538.529045,9.413581026e-13,2.50118791e-17,1.142021828e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex9-L.mtx,model,cusparse,3376,237869,1596,24381.732,1528.758423,9.413581026e-13,2.50118791e-17,1.142021828e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex9-L.mtx,model-host,cusparse,3376,237869,1596,24381.732,1539.5347,9.413581026e-13,2.50118791e-17,1.142021828e-16,0\n",
+  "stderr": ""
+}

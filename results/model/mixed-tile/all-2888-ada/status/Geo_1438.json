@@ -1,0 +1,15 @@
+{
+  "dataset": "Geo_1438",
+  "matrix_sha256": "2a9c7e79b96c17b1ddb9bdf82088ed76ee846fb3615aab6066964bb4e7227010",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 48.667,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

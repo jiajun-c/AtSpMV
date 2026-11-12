@@ -1,0 +1,15 @@
+{
+  "dataset": "jan99jac120",
+  "matrix_sha256": "0b7d6d28b571781d516a7e39e497b2597cddd41a0e3b987671bbdff62d4cf130",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.785,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

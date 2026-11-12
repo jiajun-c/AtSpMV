@@ -1,0 +1,19 @@
+{
+  "dataset": "pf2177",
+  "matrix_sha256": "ad97a65a4adb25fe87a66fdbf7cd3423cec9969f07588da544c1ebe4d96fe9b3",
+  "index_nnz": 725144,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.721,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "mice_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mice_10NN/mice_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1077,
+  "columns": 1077,
+  "original_nnz": 13484,
+  "factor_L_nnz": 31219,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04045143397524953
+}

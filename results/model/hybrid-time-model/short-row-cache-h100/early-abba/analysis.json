@@ -1,0 +1,50 @@
+{
+  "method": "ABBA process order; geometric mean of two initialization measurements per version, then previous/current ratio. Small selected sample, process order cannot remove every system or allocation effect. Not a GPU kernel speedup.",
+  "cases": {
+    "a0nsdsil": {
+      "previous_setup_us": 1251108.660584491,
+      "current_setup_us": 1213014.5885462244,
+      "setup_speedup": 1.031404463225724,
+      "samples_us": {
+        "previous": [
+          1229229.311,
+          1273377.446
+        ],
+        "current": [
+          1214962.151,
+          1211070.148
+        ]
+      }
+    },
+    "freeFlyingRobot_16": {
+      "previous_setup_us": 312154.94615023205,
+      "current_setup_us": 250167.62269984864,
+      "setup_speedup": 1.2477831574742022,
+      "samples_us": {
+        "previous": [
+          387539.626,
+          251434.186
+        ],
+        "current": [
+          250866.793,
+          249470.401
+        ]
+      }
+    },
+    "shermanACb": {
+      "previous_setup_us": 2124484.852884253,
+      "current_setup_us": 2115279.62039042,
+      "setup_speedup": 1.004351780447889,
+      "samples_us": {
+        "previous": [
+          2100532.51,
+          2148710.324
+        ],
+        "current": [
+          2127783.108,
+          2102849.607
+        ]
+      }
+    }
+  }
+}

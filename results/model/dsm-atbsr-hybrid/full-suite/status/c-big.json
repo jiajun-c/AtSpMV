@@ -1,0 +1,10 @@
+{
+  "dataset": "c-big",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/c-big/c-big.mtx",
+  "matrix_sha256": "bfcc8bf8e612fda9a01f91d8a5e36f760e0441f9bcac91d3bb856f02a7e214a2",
+  "index_nnz": 2341011,
+  "index_rows": 345241,
+  "elapsed_s": 2.641,
+  "returncode": 0,
+  "status": "ok"
+}

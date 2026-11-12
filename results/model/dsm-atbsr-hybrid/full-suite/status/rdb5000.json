@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb5000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb5000/rdb5000.mtx",
+  "matrix_sha256": "1a0f6d295d6b560c9020da52f47902ac69b9d273c3ea15078a29934d3a78ab64",
+  "index_nnz": 29600,
+  "index_rows": 5000,
+  "elapsed_s": 1.265,
+  "returncode": 0,
+  "status": "ok"
+}

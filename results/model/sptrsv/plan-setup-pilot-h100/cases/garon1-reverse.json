@@ -1,0 +1,7 @@
+{
+  "name": "garon1",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/garon1-L.mtx,default,cusparse,21052.4635,20881.239,22528.883,133.01,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/garon1-L.mtx,model,cusparse,21277.3815,21029.578,23998.411,145.132,12\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "mesh1e1",
+  "matrix_sha256": "33a96f12d45b41478227ce85315e729abfb3dc15d980e2d0e3f89e010ac1e71b",
+  "index_nnz": 306,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.216,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

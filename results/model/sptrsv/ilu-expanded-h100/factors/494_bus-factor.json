@@ -1,0 +1,14 @@
+{
+  "matrix": "494_bus",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/494_bus/494_bus.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 494,
+  "columns": 494,
+  "original_nnz": 1666,
+  "factor_L_nnz": 1563,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.024170243879780173
+}

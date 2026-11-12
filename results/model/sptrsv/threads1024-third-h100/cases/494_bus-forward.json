@@ -1,0 +1,7 @@
+{
+  "name": "494_bus",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cusparse,30585.729,59.7119987,2.664535259e-15,2.550937012e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cusparse-host,30585.729,68.171745,2.664535259e-15,2.550937012e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cached-tiles-512,168.392,41.82400107,1.33226763e-15,3.508102758e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cached-tiles-host-512,168.392,49.36286,1.33226763e-15,3.508102758e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cached-tiles-1024,168.392,43.4175998,1.33226763e-15,3.508102758e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,cached-tiles-host-1024,168.392,50.721695,1.33226763e-15,3.508102758e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,494,1563,54,selector-cached,168.392,41.83999896,1.33226763e-15,3.508102758e-17\n",
+  "stderr": ""
+}

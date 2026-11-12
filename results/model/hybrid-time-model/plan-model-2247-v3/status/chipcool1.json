@@ -1,0 +1,19 @@
+{
+  "dataset": "chipcool1",
+  "matrix_sha256": "fc228638e3f3741873da80464e2db77e8354275cd9b6db25ff9aaae6b134e4b2",
+  "index_nnz": 281150,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.103,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

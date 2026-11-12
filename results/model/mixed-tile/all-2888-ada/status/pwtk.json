@@ -1,0 +1,15 @@
+{
+  "dataset": "pwtk",
+  "matrix_sha256": "b96f7a0d851ddd65d6a833dcd13f32bad39a273018e00163b890500316f48dfa",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.836,
+  "gpu_after": {
+    "utilization_percent": 83,
+    "free_memory_mib": 48508
+  }
+}

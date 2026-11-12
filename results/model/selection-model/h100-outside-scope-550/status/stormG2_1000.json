@@ -1,0 +1,17 @@
+{
+  "dataset": "stormG2_1000",
+  "matrix_sha256": "f94079f5def44afb32eb15d6acb0ff035b87ffa6b032f189cf6ee9f915f76c2d",
+  "index_nnz": 3459881,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 69.832,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

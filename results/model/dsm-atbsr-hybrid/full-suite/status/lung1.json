@@ -1,0 +1,10 @@
+{
+  "dataset": "lung1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lung1/lung1.mtx",
+  "matrix_sha256": "681f710f53305f3c47d21f2367a6a1cc37b7a1ed31d6bf725e1197a665d78115",
+  "index_nnz": 7419,
+  "index_rows": 1650,
+  "elapsed_s": 1.348,
+  "returncode": 0,
+  "status": "ok"
+}

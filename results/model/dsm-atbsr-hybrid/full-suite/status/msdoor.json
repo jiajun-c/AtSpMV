@@ -1,0 +1,10 @@
+{
+  "dataset": "msdoor",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/msdoor/msdoor.mtx",
+  "matrix_sha256": "1382f14191b819bfd730fe7cc3818157f89c0fdf105c68dc489f1cdb6ac24650",
+  "index_nnz": 20240935,
+  "index_rows": 415863,
+  "elapsed_s": 6.24,
+  "returncode": 0,
+  "status": "ok"
+}

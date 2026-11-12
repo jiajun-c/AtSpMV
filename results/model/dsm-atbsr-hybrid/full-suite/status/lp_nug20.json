@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_nug20",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_nug20/lp_nug20.mtx",
+  "matrix_sha256": "23573e083152db1d1d0734d7631d835ee9ee248cf882de638e3fc06d8cca4776",
+  "index_nnz": 304800,
+  "index_rows": 15240,
+  "elapsed_s": 1.406,
+  "returncode": 0,
+  "status": "ok"
+}

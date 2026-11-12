@@ -1,0 +1,17 @@
+{
+  "dataset": "TEM152078",
+  "matrix_sha256": "d6b63c0fb9318ec8de44172808578843117abe51e7fea6391e5c5034f3dd9535",
+  "index_nnz": 6459326,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 117.462,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

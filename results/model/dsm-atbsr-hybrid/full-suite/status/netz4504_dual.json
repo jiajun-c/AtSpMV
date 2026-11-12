@@ -1,0 +1,10 @@
+{
+  "dataset": "netz4504_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/netz4504_dual/netz4504_dual.mtx",
+  "matrix_sha256": "37be4880a14c69580617c1117d83abc9b6c857c7633d3688490eac9d33a2bcbb",
+  "index_nnz": 2342,
+  "index_rows": 615,
+  "elapsed_s": 1.297,
+  "returncode": 0,
+  "status": "ok"
+}

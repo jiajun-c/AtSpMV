@@ -1,0 +1,21 @@
+{
+  "index_sha256": "d0c585eb17827b57e15119cdfacb3ee6da40e18acfaded3df71237e050af96cf",
+  "exe_sha256": "25986cfedbeb60d49293e6f71d634bae44beb2af9de1223ed8c9b00530d1d81e",
+  "config_sha256": "b434dc182678f1dfe0acb6aae02c323bbdb277a69cee8c3491c1602b083862b6",
+  "runner_sha256": "bb8c0defd303141976e629802c13b870030f3e959c04072dd7a924efee18731b",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "seed": 20261028,
+  "trials": 9,
+  "timeout_s": 900,
+  "allowed_gpu_pids": [],
+  "monitor_resident": true,
+  "selection": "auto_fast_tuned",
+  "counterbalance": true,
+  "extended_baselines": true,
+  "vector_candidates": false,
+  "compare_full_tune": true,
+  "reverse_config_sha256": "e4f31d7db6c467bcc2fa1985567723ed8beaaf82c1d2efead9d2946fd744619b",
+  "defer_memory_infeasible": false,
+  "idle_policy": "30s GPU-wide idle at startup/after interference; otherwise use per-process resident activity, foreign process detection and memory reserve. Polling cannot rule out short or non-compute interference.",
+  "method": "Actual Plan selection before independent interleaved warm Graph timings; compare default AtBSR and preprocessed cuSPARSE CSR_ALG1. Each candidate checked with two nonuniform vectors and a graph against CPU long-double reference. Preparation excluded."
+}

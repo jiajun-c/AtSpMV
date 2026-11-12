@@ -1,0 +1,15 @@
+{
+  "dataset": "hydr1",
+  "matrix_sha256": "ec15f7fe32d2385a597a5670272faf5d6d31acb24fb5cbcbead698c4c8e0022c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.483,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "Vehicle_10NN",
+  "matrix_sha256": "cb2955b9de7f0575509ffd793185519755bd7a64a91aedbf8c443f5fb1afb888",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.345,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

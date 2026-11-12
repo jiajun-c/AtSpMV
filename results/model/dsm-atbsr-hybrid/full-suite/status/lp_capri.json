@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_capri",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_capri/lp_capri.mtx",
+  "matrix_sha256": "acb65d24ee028a7c22e6ec156a62088df054f5f395d41171f842a83b589ccf6e",
+  "index_nnz": 1896,
+  "index_rows": 271,
+  "elapsed_s": 0.631,
+  "returncode": 0,
+  "status": "ok"
+}

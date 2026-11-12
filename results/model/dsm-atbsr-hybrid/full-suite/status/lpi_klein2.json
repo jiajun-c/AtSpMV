@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_klein2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_klein2/lpi_klein2.mtx",
+  "matrix_sha256": "b337aaaeb9f1d500a194e5b0921bf57f597010b293103b3015620a9079dbe7fb",
+  "index_nnz": 5062,
+  "index_rows": 477,
+  "elapsed_s": 1.241,
+  "returncode": 0,
+  "status": "ok"
+}

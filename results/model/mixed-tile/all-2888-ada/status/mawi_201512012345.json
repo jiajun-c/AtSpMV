@@ -1,0 +1,15 @@
+{
+  "dataset": "mawi_201512012345",
+  "matrix_sha256": "eb7d7912a1d6b9d247031691d8aa7d48766f179cdf388529e0fdde72a87acdd2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 19.805,
+  "gpu_after": {
+    "utilization_percent": 88,
+    "free_memory_mib": 48508
+  }
+}

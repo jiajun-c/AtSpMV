@@ -1,0 +1,15 @@
+{
+  "dataset": "p2756",
+  "matrix_sha256": "6afcbef26173578bafe4facaedef1c9a86586312dac8f4791572371790fa4c87",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.328,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

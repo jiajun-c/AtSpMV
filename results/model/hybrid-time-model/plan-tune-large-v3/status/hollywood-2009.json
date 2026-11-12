@@ -1,0 +1,19 @@
+{
+  "dataset": "hollywood-2009",
+  "matrix_sha256": "87017bef56cfe87d543646a01dff56cd51b3ccb239900888b536b1b0f83c47c6",
+  "index_nnz": 113891327,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 188.471,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "wathen100",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wathen100/wathen100.mtx",
+  "matrix_sha256": "e380691637b3764f9176cf2410aab5d09e4464f19ef618729b7e6742e39c9cd5",
+  "index_nnz": 471601,
+  "index_rows": 30401,
+  "elapsed_s": 0.641,
+  "returncode": 0,
+  "status": "ok"
+}

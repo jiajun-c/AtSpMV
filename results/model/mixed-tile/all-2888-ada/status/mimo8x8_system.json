@@ -1,0 +1,15 @@
+{
+  "dataset": "mimo8x8_system",
+  "matrix_sha256": "678d7e684913463c80a38ce8ae7a56659ec40fb6b4867cd74532e58626028927",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.29,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "power",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/power/power.mtx",
+  "matrix_sha256": "9b795f75ed56144390ea148627427d39d6516665661903e5f6487a112b3f5f20",
+  "index_nnz": 13188,
+  "index_rows": 4941,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

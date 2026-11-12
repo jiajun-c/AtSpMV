@@ -1,0 +1,17 @@
+{
+  "dataset": "nopss_11k",
+  "matrix_sha256": "664e275d991d490f502b6365999e651672cd539bb0a607377f9d1faaf35e4f2d",
+  "index_nnz": 44941,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.243,
+  "gpu_after": {
+    "utilization_percent": 15,
+    "free_memory_mib": 81079
+  }
+}

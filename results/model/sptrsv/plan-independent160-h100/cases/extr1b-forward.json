@@ -1,0 +1,7 @@
+{
+  "name": "extr1b",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/extr1b-L.mtx,default,cusparse,2836,12980,-1,4332.975,384.8448181,3.419486916e-14,1.56098253e-17,9.628374275e-17,0\nresults/model/sptrsv/components-independent-h100/factors/extr1b-L.mtx,default-host,cusparse,2836,12980,-1,4332.975,392.49742,3.419486916e-14,1.56098253e-17,9.628374275e-17,0\nresults/model/sptrsv/components-independent-h100/factors/extr1b-L.mtx,model,cusparse,2836,12980,445,4487.258,384.7008057,3.419486916e-14,1.56098253e-17,9.628374275e-17,0\nresults/model/sptrsv/components-independent-h100/factors/extr1b-L.mtx,model-host,cusparse,2836,12980,445,4487.258,392.534765,3.419486916e-14,1.56098253e-17,9.628374275e-17,0\n",
+  "stderr": ""
+}

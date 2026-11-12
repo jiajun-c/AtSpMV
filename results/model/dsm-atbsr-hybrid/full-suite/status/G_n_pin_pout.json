@@ -1,0 +1,10 @@
+{
+  "dataset": "G_n_pin_pout",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G_n_pin_pout/G_n_pin_pout.mtx",
+  "matrix_sha256": "f6f3948b3dd70d87b9eba683c9d2c14a4bce718af7b6e13fd70f350605a94acc",
+  "index_nnz": 1002396,
+  "index_rows": 100000,
+  "elapsed_s": 1.347,
+  "returncode": 0,
+  "status": "ok"
+}

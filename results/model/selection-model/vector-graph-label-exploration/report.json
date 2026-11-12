@@ -1,0 +1,148 @@
+{
+  "method": "Exploration on 2248-case H100 device 3 run; prior table splits retained. Two-order geometric mean of median Graph vector/default ratios. Name-based families are approximate; independent allocations, event nodes and previously inspected data limit independence. Matrix hashes match historical tuning or the recorded additional input hash, and stored features match the feature table. Dev and holdout have been evaluated and are no longer blind. No model is exported.",
+  "feature_table_sha256": "8d43d907699595061304671e92f8498ae70dc900a0433977bdfac95681de1db6",
+  "additional_feature_table_sha256": "bc89c956310b279590dba59951409b75925e82451f95efef3ea485231d3af89c",
+  "run_metadata_sha256": "eaf67facb34f4e50a25cb952af2bb9ace72ac714014dba804828237e88ca0c25",
+  "candidate_sha256": "18649e42a6303021763a14099893cc6ace91dfe35d106f5c4c8069f09501fc8b",
+  "split_sizes": {
+    "train": 1130,
+    "dev": 455,
+    "holdout": 245,
+    "not_in_training_table": 418
+  },
+  "models": {
+    "frozen_v2": {
+      "dev": {
+        "cases": 455,
+        "mape": 0.06983731262972476,
+        "width_regret_geomean": 1.0042343278741082,
+        "width_within_5pct": 437
+      },
+      "holdout": {
+        "cases": 245,
+        "mape": 0.07828382094128848,
+        "width_regret_geomean": 1.0037039163098869,
+        "width_within_5pct": 236
+      },
+      "not_in_training_table": {
+        "cases": 418,
+        "mape": 0.09389849168948769,
+        "width_regret_geomean": 1.0069274524969252,
+        "width_within_5pct": 395
+      }
+    },
+    "depth_10_leaf_5": {
+      "dev": {
+        "cases": 455,
+        "mape": 0.0762015378731246,
+        "width_regret_geomean": 1.0061175692831572,
+        "width_within_5pct": 442
+      },
+      "holdout": {
+        "cases": 245,
+        "mape": 0.08375900896143816,
+        "width_regret_geomean": 1.0044059250354778,
+        "width_within_5pct": 237
+      },
+      "not_in_training_table": {
+        "cases": 418,
+        "mape": 0.10344332703221408,
+        "width_regret_geomean": 1.009107141521231,
+        "width_within_5pct": 394
+      }
+    },
+    "depth_14_leaf_3": {
+      "dev": {
+        "cases": 455,
+        "mape": 0.06607342836263949,
+        "width_regret_geomean": 1.0030319705784598,
+        "width_within_5pct": 445
+      },
+      "holdout": {
+        "cases": 245,
+        "mape": 0.07573534775507927,
+        "width_regret_geomean": 1.0025126779472078,
+        "width_within_5pct": 239
+      },
+      "not_in_training_table": {
+        "cases": 418,
+        "mape": 0.08949332598105042,
+        "width_regret_geomean": 1.00565129747681,
+        "width_within_5pct": 405
+      }
+    },
+    "depth_14_leaf_12": {
+      "dev": {
+        "cases": 455,
+        "mape": 0.07497307836815616,
+        "width_regret_geomean": 1.0032554739753285,
+        "width_within_5pct": 443
+      },
+      "holdout": {
+        "cases": 245,
+        "mape": 0.08576673295775432,
+        "width_regret_geomean": 1.0026729860376926,
+        "width_within_5pct": 240
+      },
+      "not_in_training_table": {
+        "cases": 418,
+        "mape": 0.10869016512033904,
+        "width_regret_geomean": 1.01009826466301,
+        "width_within_5pct": 389
+      }
+    },
+    "depth_None_leaf_20": {
+      "dev": {
+        "cases": 455,
+        "mape": 0.08209819026120321,
+        "width_regret_geomean": 1.0045277143822877,
+        "width_within_5pct": 441
+      },
+      "holdout": {
+        "cases": 245,
+        "mape": 0.09118716990763945,
+        "width_regret_geomean": 1.0042679668772092,
+        "width_within_5pct": 236
+      },
+      "not_in_training_table": {
+        "cases": 418,
+        "mape": 0.11848300137904987,
+        "width_regret_geomean": 1.014315899316206,
+        "width_within_5pct": 386
+      }
+    }
+  },
+  "chosen_vs_frozen_bootstrap": {
+    "dev": {
+      "cases": 455,
+      "families": 166,
+      "mean_mape_reduction": 0.0037638842670852653,
+      "ci95": [
+        0.0013283741119227673,
+        0.006149545349685452
+      ],
+      "regressed_cases": 225
+    },
+    "holdout": {
+      "cases": 245,
+      "families": 71,
+      "mean_mape_reduction": 0.0025484731862092237,
+      "ci95": [
+        -0.00036684731266512584,
+        0.0059075318291986045
+      ],
+      "regressed_cases": 127
+    },
+    "not_in_training_table": {
+      "cases": 418,
+      "families": 207,
+      "mean_mape_reduction": 0.004405165708437277,
+      "ci95": [
+        0.002930602630814971,
+        0.005922012655480293
+      ],
+      "regressed_cases": 170
+    }
+  },
+  "bootstrap_caveat": "Name-based family bootstrap only; does not include measurement noise, exploration or data-set sampling bias."
+}

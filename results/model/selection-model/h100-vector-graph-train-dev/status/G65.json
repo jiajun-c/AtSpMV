@@ -1,0 +1,17 @@
+{
+  "dataset": "G65",
+  "matrix_sha256": "2571e86909fe98b659a9494e7c72c8e483aaffdbd0d05c537ca6fc6a2cffd9dd",
+  "index_nnz": 32000,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.192,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

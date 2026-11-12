@@ -1,0 +1,17 @@
+{
+  "dataset": "stokes",
+  "file_bytes": 8967184039,
+  "file_mtime_ns": 1547674370000000000,
+  "structure": {
+    "dataset": "stokes",
+    "rows": "11449533",
+    "columns": "11449533",
+    "nnz": "349321980",
+    "longest_row": "10901764",
+    "longest_row_nnz": "720",
+    "ratio": "2.0611356892e-06",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 46.66
+}

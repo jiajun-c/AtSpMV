@@ -1,0 +1,19 @@
+{
+  "dataset": "abb313",
+  "matrix_sha256": "3ef9b89719ec5e7e7640b8b230eea5dbeaa020bf7d8f9ba528c6e0b9e1a6ff0e",
+  "index_nnz": 1557,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.976,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

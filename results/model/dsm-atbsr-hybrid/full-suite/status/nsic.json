@@ -1,0 +1,10 @@
+{
+  "dataset": "nsic",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nsic/nsic.mtx",
+  "matrix_sha256": "d45d4e45a28d54c1544241da5425557761b754db785548a1ad9e17a661e33fff",
+  "index_nnz": 3449,
+  "index_rows": 465,
+  "elapsed_s": 0.557,
+  "returncode": 0,
+  "status": "ok"
+}

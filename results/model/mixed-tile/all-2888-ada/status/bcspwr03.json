@@ -1,0 +1,15 @@
+{
+  "dataset": "bcspwr03",
+  "matrix_sha256": "32ff00035ed0f44bc04bc27ad060a21b2ad4a0588dcb087d26e8bd08614f20cd",
+  "gpu_before": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.551,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 48508
+  }
+}

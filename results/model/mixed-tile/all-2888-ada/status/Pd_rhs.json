@@ -1,0 +1,15 @@
+{
+  "dataset": "Pd_rhs",
+  "matrix_sha256": "856fe81d29b0dc603a545087293e00c409db175fdd83275c416393d1c01caecf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.743,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

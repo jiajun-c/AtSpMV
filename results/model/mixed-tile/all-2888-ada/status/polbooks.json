@@ -1,0 +1,15 @@
+{
+  "dataset": "polbooks",
+  "matrix_sha256": "a5a578d912363643b03a3f2c059df4501ea6007af5b02fc3f9c01a5665633198",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.778,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  }
+}

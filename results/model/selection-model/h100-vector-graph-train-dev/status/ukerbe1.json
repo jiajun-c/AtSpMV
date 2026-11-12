@@ -1,0 +1,17 @@
+{
+  "dataset": "ukerbe1",
+  "matrix_sha256": "724756ec5088c9700c654609e20c834aa9526aa66f7ef9450ec24b3f18905552",
+  "index_nnz": 15704,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.334,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

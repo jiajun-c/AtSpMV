@@ -1,0 +1,19 @@
+{
+  "dataset": "Sieber",
+  "matrix_sha256": "715e6bf4a4d48c218f39b14325e1b34216f7fbed7512154d2d18ac0ac11ef66c",
+  "index_nnz": 14873,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.348,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

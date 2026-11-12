@@ -1,0 +1,7 @@
+{
+  "name": "Trefethen_200b",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/Trefethen_200b-L.mtx,model,cached,199,5641,161,1352.01,125.0112076,2.220446049e-16,2.921257482e-17,5.298965475e-17,512\nresults/model/sptrsv/components-independent-h100/factors/Trefethen_200b-L.mtx,model-host,cached,199,5641,161,1352.01,130.98906,2.220446049e-16,2.921257482e-17,5.298965475e-17,512\nresults/model/sptrsv/components-independent-h100/factors/Trefethen_200b-L.mtx,default,cusparse,199,5641,-1,3236.667,127.8527985,2.220446049e-16,2.921257482e-17,5.298965475e-17,0\nresults/model/sptrsv/components-independent-h100/factors/Trefethen_200b-L.mtx,default-host,cusparse,199,5641,-1,3236.667,134.39853,2.220446049e-16,2.921257482e-17,5.298965475e-17,0\n",
+  "stderr": ""
+}

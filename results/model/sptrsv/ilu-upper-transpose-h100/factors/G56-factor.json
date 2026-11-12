@@ -1,0 +1,7 @@
+{
+  "matrix": "G56",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/G56-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 1.0309740900993347e-06
+}

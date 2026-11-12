@@ -1,0 +1,10 @@
+{
+  "dataset": "tomographic1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tomographic1/tomographic1.mtx",
+  "matrix_sha256": "a19d12967c20fb6413ebef64e4aad22dd2e6bf7a2fc03767f2480031bfef2ed9",
+  "index_nnz": 647495,
+  "index_rows": 73159,
+  "elapsed_s": 1.139,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "H2O",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/H2O/H2O.mtx",
+  "matrix_sha256": "c3e0748c6545093a1df566a473bb7bc176ae24db386a3f187294c424df2e0a84",
+  "index_nnz": 2216736,
+  "index_rows": 67024,
+  "elapsed_s": 2.554,
+  "returncode": 0,
+  "status": "ok"
+}

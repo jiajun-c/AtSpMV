@@ -1,0 +1,10 @@
+{
+  "dataset": "poisson2D",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/poisson2D/poisson2D.mtx",
+  "matrix_sha256": "976ad5c2f5b6f1a2edeaf3954eb8c40d0f73c613af37c520bf6eb200ddb41932",
+  "index_nnz": 2417,
+  "index_rows": 367,
+  "elapsed_s": 2.182,
+  "returncode": 0,
+  "status": "ok"
+}

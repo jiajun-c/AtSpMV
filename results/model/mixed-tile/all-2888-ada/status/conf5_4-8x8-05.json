@@ -1,0 +1,15 @@
+{
+  "dataset": "conf5_4-8x8-05",
+  "matrix_sha256": "584c7c6c4da0182dc86f53565c5fe9aa61bd93f02c99d79f045c3ae268d87095",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.497,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

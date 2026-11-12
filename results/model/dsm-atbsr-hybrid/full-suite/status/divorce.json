@@ -1,0 +1,10 @@
+{
+  "dataset": "divorce",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/divorce/divorce.mtx",
+  "matrix_sha256": "714f621f265714f11b603858a7fd4a6c08d8fb11296d43f961489853b5ed2cad",
+  "index_nnz": 225,
+  "index_rows": 50,
+  "elapsed_s": 0.609,
+  "returncode": 0,
+  "status": "ok"
+}

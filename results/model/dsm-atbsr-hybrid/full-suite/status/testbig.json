@@ -1,0 +1,10 @@
+{
+  "dataset": "testbig",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/testbig/testbig.mtx",
+  "matrix_sha256": "e25ad537c2b44236f807704c071d246d5aed7dafdd4e765ea98b4f5576817741",
+  "index_nnz": 61639,
+  "index_rows": 17613,
+  "elapsed_s": 0.713,
+  "returncode": 0,
+  "status": "ok"
+}

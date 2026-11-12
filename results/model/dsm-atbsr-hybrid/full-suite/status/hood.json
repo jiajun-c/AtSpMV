@@ -1,0 +1,10 @@
+{
+  "dataset": "hood",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hood/hood.mtx",
+  "matrix_sha256": "163805a11f42987b3647f4ca9ffb986286b2fc1ca5c9b8bfdd7bfdf49e48a528",
+  "index_nnz": 10768436,
+  "index_rows": 220542,
+  "elapsed_s": 3.885,
+  "returncode": 0,
+  "status": "ok"
+}

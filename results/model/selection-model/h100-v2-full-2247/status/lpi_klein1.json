@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_klein1",
+  "matrix_sha256": "9c8b12b662e39dac46d18f1cd558243092e9d43d9a737d4fa50e1b19db9d5e85",
+  "index_nnz": 750,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.602,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

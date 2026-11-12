@@ -1,0 +1,8 @@
+{
+  "name": "plat362",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/plat362-L.mtx,362,8981,285,cusparse,23343.807,213.1232023,9.592326933e-14,2.065934638e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/plat362-L.mtx,362,8981,285,cusparse-host,23343.807,219.84418,9.592326933e-14,2.065934638e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/plat362-L.mtx,362,8981,285,selector-cusparse,350.418,213.1135941,9.592326933e-14,2.065934638e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_qap12",
+  "matrix_sha256": "b85c9f0a19d27a96bb224cb9fd46616b214ed9f36f0a2ec8d341e56542f4eb7f",
+  "index_nnz": 38304,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.369,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

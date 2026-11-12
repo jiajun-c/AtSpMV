@@ -1,0 +1,15 @@
+{
+  "dataset": "fpga_dcop_22",
+  "matrix_sha256": "718a3bbdb80ce35a2308f4cc5b79d42163bfecff17b45f25487694da661a9bbc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.659,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

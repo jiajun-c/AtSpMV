@@ -1,0 +1,17 @@
+{
+  "dataset": "LeGresley_87936",
+  "matrix_sha256": "dd3faf56a54834ec18148dbe9c234f3c849b0772090e780c2b0b3adb84ce47e3",
+  "index_nnz": 593276,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.206,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

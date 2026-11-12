@@ -1,0 +1,15 @@
+{
+  "dataset": "dblp-2010",
+  "matrix_sha256": "e9023379d1e2d76ac4e9be57a3510753a6078aee399ed85228448c70b19eb68e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.811,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

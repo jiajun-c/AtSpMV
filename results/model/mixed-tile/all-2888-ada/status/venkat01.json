@@ -1,0 +1,15 @@
+{
+  "dataset": "venkat01",
+  "matrix_sha256": "8e2f0f5b034cb83a7cfde725404ef1b81c500d7842aa95f3277b6e2de77b165c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.065,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

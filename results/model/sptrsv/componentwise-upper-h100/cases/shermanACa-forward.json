@@ -1,0 +1,7 @@
+{
+  "name": "shermanACa",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/shermanACa-L.mtx,default,cusparse,3432,30210,-1,6145.012,384.7712097,3.29162253e-11,1.946703551e-17,2.009529549e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/shermanACa-L.mtx,default-host,cusparse,3432,30210,-1,6145.012,392.238,3.29162253e-11,1.946703551e-17,2.009529549e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/shermanACa-L.mtx,model,cusparse,3432,30210,339,5145.905,385.4367981,3.29162253e-11,1.946703551e-17,2.009529549e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/shermanACa-L.mtx,model-host,cusparse,3432,30210,339,5145.905,392.545355,3.29162253e-11,1.946703551e-17,2.009529549e-16\n",
+  "stderr": ""
+}

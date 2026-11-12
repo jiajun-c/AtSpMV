@@ -1,0 +1,4 @@
+{'refine': 4, 'backend': 'cusparse', 'dofs': 20801, 'relative_max_error': 4.518372036058962e-15}
+{'refine': 4, 'backend': 'atbsr-compressed', 'dofs': 20801, 'relative_max_error': 4.292453434256013e-15}
+{'refine': 5, 'backend': 'cusparse', 'dofs': 82561, 'relative_max_error': 1.2877707689187704e-14}
+{'refine': 5, 'backend': 'atbsr-compressed', 'dofs': 82561, 'relative_max_error': 1.1861046555830779e-14}

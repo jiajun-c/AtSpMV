@@ -1,0 +1,15 @@
+{
+  "dataset": "OPF_10000",
+  "matrix_sha256": "504c4b4cf001c2aa4c599bd2ce9a71ea187a1114ea3a1e5ab0bf3cdb502e8856",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.782,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

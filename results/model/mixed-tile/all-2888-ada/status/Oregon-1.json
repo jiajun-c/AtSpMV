@@ -1,0 +1,15 @@
+{
+  "dataset": "Oregon-1",
+  "matrix_sha256": "81537d7fa2442527fd8ce847292cf8b9b70557ffb4b7922e186f86ca49330e12",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.524,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "gre_185",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/gre_185/gre_185.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 185,
+  "columns": 185,
+  "original_nnz": 1005,
+  "factor_L_nnz": 1855,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03108729002997279
+}

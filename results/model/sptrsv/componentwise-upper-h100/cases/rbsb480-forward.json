@@ -1,0 +1,7 @@
+{
+  "name": "rbsb480",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rbsb480-L.mtx,default,cusparse,480,40380,-1,6197.351,299.3023987,1.372013614e-11,1.97848024e-17,7.988096879e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rbsb480-L.mtx,default-host,cusparse,480,40380,-1,6197.351,306.040665,1.372013614e-11,1.97848024e-17,7.988096879e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rbsb480-L.mtx,model,cusparse,480,40380,348,6227.488,299.4559937,1.372013614e-11,1.97848024e-17,7.988096879e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/rbsb480-L.mtx,model-host,cusparse,480,40380,348,6227.488,305.787875,1.372013614e-11,1.97848024e-17,7.988096879e-17\n",
+  "stderr": ""
+}

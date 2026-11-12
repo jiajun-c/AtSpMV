@@ -1,0 +1,15 @@
+{
+  "dataset": "gas_sensor",
+  "matrix_sha256": "f09cb100579072d74b1e59e63949cdb367753f3fecea462bf215caa393251475",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.111,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

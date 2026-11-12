@@ -1,0 +1,7 @@
+{
+  "name": "oscil_dcop_24",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_24-L.mtx,model,cached,430,977,14,6639.014,13.59679985,0.1138613861,4.248800231e-17,9.19486709e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_24-L.mtx,model-host,cached,430,977,14,6639.014,20.409645,0.1138613861,4.248800231e-17,9.19486709e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_24-L.mtx,default,cusparse,430,977,-1,2098.49,24.73600006,0.1138613861,4.248800231e-17,1.088814743e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_24-L.mtx,default-host,cusparse,430,977,-1,2098.49,32.76244,0.1138613861,4.248800231e-17,1.088814743e-16\n",
+  "stderr": ""
+}

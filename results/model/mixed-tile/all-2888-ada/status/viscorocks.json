@@ -1,0 +1,15 @@
+{
+  "dataset": "viscorocks",
+  "matrix_sha256": "2c7fb6e9321a6d151663b34e46ec7e419a5137bfe494209f468d9a197948634c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.135,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

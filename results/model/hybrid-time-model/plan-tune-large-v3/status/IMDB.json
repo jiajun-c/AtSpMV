@@ -1,0 +1,19 @@
+{
+  "dataset": "IMDB",
+  "matrix_sha256": "5d92def28e5df1d194488ddeb362c3001456ba0db024d2365a3482847a02785f",
+  "index_nnz": 3782463,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 17.455,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

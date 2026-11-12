@@ -1,0 +1,17 @@
+{
+  "dataset": "ct20stif",
+  "matrix_sha256": "8cc830bbf60e20c934d059a07702a18f68e893ca35af63d42b7efe4c98d49912",
+  "index_nnz": 2698463,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.897,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

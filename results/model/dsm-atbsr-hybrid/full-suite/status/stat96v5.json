@@ -1,0 +1,10 @@
+{
+  "dataset": "stat96v5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stat96v5/stat96v5.mtx",
+  "matrix_sha256": "ffe1da2805fc26b69ab8c533bc4ca636eec00229525d5b878e91ae8a07e416f1",
+  "index_nnz": 233921,
+  "index_rows": 2307,
+  "elapsed_s": 0.623,
+  "returncode": 0,
+  "status": "ok"
+}

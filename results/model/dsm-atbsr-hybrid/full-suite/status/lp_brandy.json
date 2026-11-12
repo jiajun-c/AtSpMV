@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_brandy",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_brandy/lp_brandy.mtx",
+  "matrix_sha256": "ad5152fda5c4c9166dae508aa3f5a395995052adeb62c7ba04ad727461542c87",
+  "index_nnz": 2202,
+  "index_rows": 220,
+  "elapsed_s": 0.71,
+  "returncode": 0,
+  "status": "ok"
+}

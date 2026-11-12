@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_stocfor2",
+  "matrix_sha256": "43d5cdca35ac8d0170f4afc8b8238ff1238d9e6aca56f6290e7cdc4c302e4ce7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.245,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "mac_econ_fwd500",
+  "matrix_sha256": "af42fcc1e72ef6c470ed247358cd7dd19dcf4d3e05acd354087717b66abc1684",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.328,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

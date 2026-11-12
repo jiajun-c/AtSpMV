@@ -1,0 +1,32 @@
+{
+  "dataset": "rajat21",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "ea416e8acb80c26d0ec49e2e8a3225d4405d9f4f7654545e59e322888a97e93f",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/rajat21/rajat21.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/rajat21-0.csv",
+        "20261283",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 8.549384098965675
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/rajat21/rajat21.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/rajat21-1.csv",
+        "20261284",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 8.609800327103585
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "Raj1",
+  "matrix_sha256": "90eb0ab6eb82b4947cee74e79f0b25582f1751b5d790f8304ea4b4021afb5a2a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.412,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

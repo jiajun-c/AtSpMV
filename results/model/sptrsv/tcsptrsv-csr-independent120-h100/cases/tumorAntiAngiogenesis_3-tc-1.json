@@ -1,0 +1,9 @@
+{
+  "name": "tumorAntiAngiogenesis_3",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/tumorAntiAngiogenesis_3-L.mtx --------------\nsuccess open file\ninput matrix A: ( 416, 416 ) nnz = 8159\nloadfile time    = 0.00329 sec\nnnzL = 8159\ntime_for_csc2CompressTile = 2.02 ms\ntime_cuda_solve = 0.183340 ms, Mflops = 89.00\nVALIDATION finite=1 max_error=1.2656542480726785e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

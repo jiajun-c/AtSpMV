@@ -1,0 +1,29 @@
+{
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "executable": "/tmp/atspmv-workspace-opt-v3-build/spmv_plan_test",
+  "executable_sha256": "89637b9a62446f402f3ab73e9ab894b16cf0e1bfc1dcf61c95b77bdcd32fadb9",
+  "source_sha256": "5270051936bbbb9b5f6b13b0e58448a49b0ba885bf9bc1e08fbe14d32a536570",
+  "test_source_sha256": "a3c9cd769ed1032be6bc7843695a00110c03691ae3abc5b92a15a58c67b34ef6",
+  "results": {
+    "direct": {
+      "returncode": 0,
+      "log": "results/model/dsm-atbsr-hybrid/full-suite/workspace-validation-v4/direct.log",
+      "sha256": "bc4e8d018599c4947ef874cc48c308b298ed6cb9a7418054aff333cc33552f54"
+    },
+    "memcheck": {
+      "returncode": 0,
+      "log": "results/model/dsm-atbsr-hybrid/full-suite/workspace-validation-v4/memcheck.log",
+      "sha256": "5e4a76610dea10da4f961aa45aefa18f333b3de98a48c1fc74132b7a9e95a0c7"
+    },
+    "synccheck": {
+      "returncode": 0,
+      "log": "results/model/dsm-atbsr-hybrid/full-suite/workspace-validation-v4/synccheck.log",
+      "sha256": "fff8a00c2aaf12de03f20cfe68c2bd6e532381df3a749a389bbb41e8951ff0ca"
+    },
+    "racecheck": {
+      "returncode": 0,
+      "log": "results/model/dsm-atbsr-hybrid/full-suite/workspace-validation-v4/racecheck.log",
+      "sha256": "604451762eed0f34a4954accf3815a929faf20a1cf2c47f7f185ca8d6c157c14"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ex33",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/ex33-L.mtx,model,cusparse,1733,33746,587,6292.728,605.6864014,9.769962617e-15,2.176292847e-17,1.088494887e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex33-L.mtx,model-host,cusparse,1733,33746,587,6292.728,615.435745,9.769962617e-15,2.176292847e-17,1.088494887e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex33-L.mtx,default,cusparse,1733,33746,-1,6059.495,605.8272095,9.769962617e-15,2.176292847e-17,1.088494887e-16,0\nresults/model/sptrsv/components-independent-h100/factors/ex33-L.mtx,default-host,cusparse,1733,33746,-1,6059.495,613.83659,9.769962617e-15,2.176292847e-17,1.088494887e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "mesh1em1",
+  "matrix_sha256": "27e2e01ec5fabf5c9a34779b6ef74e2bd1dc792f08ccb7d55197bba7a4d9908e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.464,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "Trec6",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Trec6/Trec6.mtx",
+  "matrix_sha256": "493ded4463a1c7152f7af3c5aa96858f8dc78136253603cb60163b3713425fe8",
+  "index_nnz": 40,
+  "index_rows": 6,
+  "elapsed_s": 0.57,
+  "returncode": 0,
+  "status": "ok"
+}

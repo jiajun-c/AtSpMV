@@ -1,0 +1,10 @@
+{
+  "dataset": "G32",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G32/G32.mtx",
+  "matrix_sha256": "0b25c3043438184b1888df6956c8eb720560a47423f17a2fb3e8f414c9bfdda7",
+  "index_nnz": 8000,
+  "index_rows": 2000,
+  "elapsed_s": 0.713,
+  "returncode": 0,
+  "status": "ok"
+}

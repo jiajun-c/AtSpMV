@@ -1,0 +1,15 @@
+{
+  "dataset": "photogrammetry2",
+  "matrix_sha256": "1e79ab5682c11e3e3683a46fca289f83f89b8d765cd6ae360f9371ca4217084f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.587,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

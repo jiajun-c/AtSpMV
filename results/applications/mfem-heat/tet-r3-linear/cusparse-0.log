@@ -1,0 +1,27 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/beam-tet.mesh
+   --refine 3
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend cusparse
+   --solution /tmp/atspmv-heat-field-1izyyvy0/temperature.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 37281
+plan rows=37281 nnz=992769 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=37281 nnz=992769 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=37281 nnz=992769 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"cusparse","dofs":37281,"steps":20,"nnz":992769,"initialization_s":0.85284280199999996,"evolution_s":0.086898647999999995,"total_s":0.93974154600000004,"plan_s":0.020198421000000001,"plans":3,"spmv_calls":1204,"linear_solves":20,"cg_iterations":1184,"sum":37592.943838960309,"l2":194.73747145052727,"mass_relative_error":3.5792135579895445e-10,"initial_energy":8.1919177827380967,"final_energy":8.1339341646186512}
+
+STDERR

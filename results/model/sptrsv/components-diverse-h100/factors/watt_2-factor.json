@@ -1,0 +1,14 @@
+{
+  "matrix": "watt_2",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/watt_2/watt_2.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1856,
+  "columns": 1856,
+  "original_nnz": 11550,
+  "factor_L_nnz": 20994,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.0381218371912837
+}

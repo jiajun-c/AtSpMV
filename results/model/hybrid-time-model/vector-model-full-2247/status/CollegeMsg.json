@@ -1,0 +1,17 @@
+{
+  "dataset": "CollegeMsg",
+  "matrix_sha256": "ca3f5b5a493b8551bc734dff925af4b333d6f5bf44eac612395914ed2fda70c1",
+  "index_nnz": 20296,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.23,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "robot",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/robot-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 120,
+  "nnz": 546,
+  "min_abs_diagonal": 2.4809808201129013e-05,
+  "max_abs_diagonal": 14.989300020856852,
+  "elapsed_s": 0.009927352890372276
+}

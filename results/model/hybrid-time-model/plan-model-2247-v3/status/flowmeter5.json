@@ -1,0 +1,19 @@
+{
+  "dataset": "flowmeter5",
+  "matrix_sha256": "3c5787ad93ab65c3fd975341f06a93d197a9d6322b2bbbd59c560ff2b0730bfd",
+  "index_nnz": 67391,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.467,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

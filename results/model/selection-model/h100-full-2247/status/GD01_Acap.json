@@ -1,0 +1,17 @@
+{
+  "dataset": "GD01_Acap",
+  "matrix_sha256": "675653510b6cdce195489df20b476c3a486572791b453fd6f9d2af935e686fff",
+  "index_nnz": 645,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.834,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

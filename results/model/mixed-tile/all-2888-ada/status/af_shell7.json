@@ -1,0 +1,15 @@
+{
+  "dataset": "af_shell7",
+  "matrix_sha256": "963c5151028c94f2707f18b84121f52859a1fc1c7abd8e89424f00b917feb542",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 15.785,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

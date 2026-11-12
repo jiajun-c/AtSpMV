@@ -1,0 +1,19 @@
+{
+  "dataset": "sx-askubuntu",
+  "matrix_sha256": "ba69f3d31d5289a565db62fd81d7b74fddc3f3b689e5e0e56b391d9fdbd4691b",
+  "index_nnz": 596933,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.586,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

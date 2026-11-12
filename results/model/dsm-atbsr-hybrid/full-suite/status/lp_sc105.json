@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_sc105",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_sc105/lp_sc105.mtx",
+  "matrix_sha256": "276f27805046c0fab230e6036adf9ea391915768be1c87afa3892dce4fcde79f",
+  "index_nnz": 340,
+  "index_rows": 105,
+  "elapsed_s": 1.34,
+  "returncode": 0,
+  "status": "ok"
+}

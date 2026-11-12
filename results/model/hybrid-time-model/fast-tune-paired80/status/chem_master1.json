@@ -1,0 +1,17 @@
+{
+  "dataset": "chem_master1",
+  "matrix_sha256": "7b4acc0ce964169abb304d9ecd1863738d2109efcc278cc382bbddf708b5f8af",
+  "index_nnz": 201201,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.046,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

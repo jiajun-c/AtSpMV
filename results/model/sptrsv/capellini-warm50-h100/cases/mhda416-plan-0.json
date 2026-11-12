@@ -1,0 +1,9 @@
+{
+  "name": "mhda416",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx,default,cusparse,416,12202,-1,3230.078,141.9904022,3.996802889e-15,1.802854221e-17,7.969025016e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx,default-host,cusparse,416,12202,-1,3230.078,150.129745,3.996802889e-15,1.802854221e-17,7.969025016e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx,model,cached-csr,416,12202,160,1442.942,105.2127991,3.996802889e-15,1.802854221e-17,7.969025016e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx,model-host,cached-csr,416,12202,160,1442.942,112.18682,3.996802889e-15,1.802854221e-17,7.969025016e-17,256\n",
+  "stderr": ""
+}

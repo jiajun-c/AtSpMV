@@ -1,0 +1,15 @@
+{
+  "dataset": "mahindas",
+  "matrix_sha256": "92b0d640ce68087d4c98f8c6d686795542ff7c9c8973548d55324d351f0c3912",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.808,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

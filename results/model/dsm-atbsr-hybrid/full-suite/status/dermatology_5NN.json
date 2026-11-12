@@ -1,0 +1,10 @@
+{
+  "dataset": "dermatology_5NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dermatology_5NN/dermatology_5NN.mtx",
+  "matrix_sha256": "179062703a49759f890c775f9dccae4f642692dbbd480f8525bfdd34da1975ae",
+  "index_nnz": 2440,
+  "index_rows": 366,
+  "elapsed_s": 0.963,
+  "returncode": 0,
+  "status": "ok"
+}

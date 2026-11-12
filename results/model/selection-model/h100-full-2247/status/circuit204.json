@@ -1,0 +1,17 @@
+{
+  "dataset": "circuit204",
+  "matrix_sha256": "086ea08c0036aac605c99e4cbfd25569771ef0bf84f3c423294634f97c2f4cec",
+  "index_nnz": 5883,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.755,
+  "gpu_after": {
+    "utilization_percent": 34,
+    "free_memory_mib": 81079
+  }
+}

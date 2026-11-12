@@ -1,0 +1,7 @@
+{
+  "matrix": "can_715",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/can_715-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.1879019439220428e-06
+}

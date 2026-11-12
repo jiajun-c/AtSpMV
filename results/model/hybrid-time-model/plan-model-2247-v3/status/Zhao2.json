@@ -1,0 +1,19 @@
+{
+  "dataset": "Zhao2",
+  "matrix_sha256": "c062f1d986b9d2650cbb3be9f3fc972707b1f0bf0afe31e22b8df2cda2567553",
+  "index_nnz": 166453,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.144,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

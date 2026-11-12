@@ -1,0 +1,9 @@
+{
+  "name": "lshp_406",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/lshp_406-L.mtx --------------\nsuccess open file\ninput matrix A: ( 416, 416 ) nnz = 5492\nloadfile time    = 0.00193 sec\nnnzL = 5492\ntime_for_csc2CompressTile = 2.13 ms\ntime_cuda_solve = 0.195860 ms, Mflops = 56.08\nVALIDATION finite=1 max_error=5.5511151231257827e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

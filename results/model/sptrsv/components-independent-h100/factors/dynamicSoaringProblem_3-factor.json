@@ -1,0 +1,14 @@
+{
+  "matrix": "dynamicSoaringProblem_3",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/dynamicSoaringProblem_3/dynamicSoaringProblem_3.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2871,
+  "columns": 2871,
+  "original_nnz": 32022,
+  "factor_L_nnz": 63990,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.07600523997098207
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "t2dah_a",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t2dah_a/t2dah_a.mtx",
+  "matrix_sha256": "f01b69bed99d148acf345438e5308c922c8cf6b4667a31a6252a3fe5922522bf",
+  "index_nnz": 176117,
+  "index_rows": 11445,
+  "elapsed_s": 1.378,
+  "returncode": 0,
+  "status": "ok"
+}

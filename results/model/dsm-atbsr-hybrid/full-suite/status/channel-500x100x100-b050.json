@@ -1,0 +1,10 @@
+{
+  "dataset": "channel-500x100x100-b050",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/channel-500x100x100-b050/channel-500x100x100-b050.mtx",
+  "matrix_sha256": "df812526f0006ec26861c0a0d83b7cf95b1cebc2cc2bedcb5920911f33b51bbd",
+  "index_nnz": 85362744,
+  "index_rows": 4802000,
+  "elapsed_s": 27.735,
+  "returncode": 0,
+  "status": "ok"
+}

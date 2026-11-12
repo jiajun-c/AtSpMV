@@ -1,0 +1,7 @@
+{
+  "name": "dynamicSoaringProblem_3",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/dynamicSoaringProblem_3-L.mtx,default,cusparse,2871,63990,-1,7076.734,539.8303833,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dynamicSoaringProblem_3-L.mtx,default-host,cusparse,2871,63990,-1,7076.734,545.985205,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dynamicSoaringProblem_3-L.mtx,model,cusparse,2871,63990,420,10719.867,539.6832275,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\nresults/model/sptrsv/components-independent-h100/factors/dynamicSoaringProblem_3-L.mtx,model-host,cusparse,2871,63990,420,10719.867,545.51323,1.643130076e-14,4.350473632e-17,1.273443695e-16,0\n",
+  "stderr": ""
+}

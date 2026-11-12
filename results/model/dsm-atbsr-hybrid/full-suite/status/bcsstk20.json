@@ -1,0 +1,10 @@
+{
+  "dataset": "bcsstk20",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bcsstk20/bcsstk20.mtx",
+  "matrix_sha256": "43fcdff44bf3343dfc81ed583aad77cabd25fceabbcaf5c1036aa381dbb111ee",
+  "index_nnz": 3135,
+  "index_rows": 485,
+  "elapsed_s": 1.269,
+  "returncode": 0,
+  "status": "ok"
+}

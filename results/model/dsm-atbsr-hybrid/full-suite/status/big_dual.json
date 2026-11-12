@@ -1,0 +1,10 @@
+{
+  "dataset": "big_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/big_dual/big_dual.mtx",
+  "matrix_sha256": "704618ce773d05f5522b4834e292cb8eae7936902fd910cef9896b4b2707784f",
+  "index_nnz": 89858,
+  "index_rows": 30269,
+  "elapsed_s": 1.248,
+  "returncode": 0,
+  "status": "ok"
+}

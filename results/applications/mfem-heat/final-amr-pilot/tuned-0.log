@@ -1,0 +1,84 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/amr-hex.mesh
+   --refine 2
+   --order 2
+   --ode-solver 21
+   --t-final 0.05
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend tuned
+   --solution /tmp/atspmv-heat-field-cmhi72qv/temperature.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 62353
+plan rows=62353 nnz=3852097 backend=csr_vector tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=84.795997
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=30.716
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=72.679996
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=53.172
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=41.083999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=28.004
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=27.659999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=31.259999
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=33.732001
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=36.444001
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=32.683998
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=35.847999
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=34.483999
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=37.368
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=86.443998
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=71.415998
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.579999
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.156
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=31.652
+plan rows=62353 nnz=3852097 backend=csr_vector tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=85.188001
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=30.644
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=70.019998
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=53.624
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=40.716
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=28.192
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=27.496001
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=30.928001
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=33.572
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=36.212001
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=32.483999
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=35.599999
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=34.715999
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=37.271999
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=86.655997
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=72.336003
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.444
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.032
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.627999
+plan rows=62353 nnz=3852097 backend=csr_vector tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=84.696002
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=30.703999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=72.215997
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=54.235999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=40.720001
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=28.232001
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=27.764
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=31.319998
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=34.031998
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=36.715999
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=32.648001
+candidate backend=hybrid_dsm_atbsr tile=2 balanced=0 vector_width=0 median_us=35.588
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=34.775998
+candidate backend=hybrid_dsm_atbsr tile=3 balanced=0 vector_width=0 median_us=37.384
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=86.375996
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=71.676001
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.487999
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.024
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=30.74
+step 5, t = 0.05
+APP_RESULT {"backend":"tuned","dofs":62353,"steps":5,"nnz":3852097,"initialization_s":1.4028474339999999,"evolution_s":1.237147446,"total_s":2.63999505,"plan_s":0.94844203799999993,"plans":3,"value_updates":9,"linear_s":0.059604089000000006,"parameter_s":1.1402057810000001,"implicit_setup_s":0.46535362400000002,"implicit_updates":4,"spmv_calls":521,"linear_solves":5,"cg_iterations":516,"sum":66227.456164857154,"l2":265.82875485928139,"mass_relative_error":2.8177904669487845e-09,"initial_energy":1.1959170711658613,"final_energy":1.1428787310381314}
+
+STDERR

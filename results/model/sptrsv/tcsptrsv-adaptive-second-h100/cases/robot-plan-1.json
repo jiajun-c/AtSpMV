@@ -1,0 +1,9 @@
+{
+  "name": "robot",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,default,cusparse,128,455,-1,2165.596,32.3103981,9.992007222e-16,1.121668649e-16,1.366521089e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,default-host,cusparse,128,455,-1,2165.596,38.468785,9.992007222e-16,1.121668649e-16,1.366521089e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,model,cached,128,455,28,1174.159,22.89279938,3.774758284e-15,1.646622678e-17,5.631540823e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,model-host,cached,128,455,28,1174.159,28.92262,3.774758284e-15,1.646622678e-17,5.631540823e-17,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "pesa",
+  "matrix_sha256": "f57fd6e19a95306aae2ffb3c8f2c59ef65bc21afb92a39f50efdef0af1547ee9",
+  "index_nnz": 79566,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.042,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

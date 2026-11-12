@@ -1,0 +1,9 @@
+{
+  "name": "semeion_10NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/semeion_10NN-L.mtx,default,cusparse,1600,48712,-1,6523.013,459.9679871,2.717825964e-13,2.926349713e-17,1.091661657e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/semeion_10NN-L.mtx,default-host,cusparse,1600,48712,-1,6523.013,467.54107,2.717825964e-13,2.926349713e-17,1.091661657e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/semeion_10NN-L.mtx,model,cusparse,1600,48712,354,5725.834,460.2975769,2.717825964e-13,2.926349713e-17,1.091661657e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/semeion_10NN-L.mtx,model-host,cusparse,1600,48712,354,5725.834,467.732325,2.717825964e-13,2.926349713e-17,1.091661657e-16,0\n",
+  "stderr": ""
+}

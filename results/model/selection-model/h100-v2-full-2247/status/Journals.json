@@ -1,0 +1,17 @@
+{
+  "dataset": "Journals",
+  "matrix_sha256": "24fb811f7643e945242db88390e6e925ba94a6283183d5475652e146ea79895f",
+  "index_nnz": 12068,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.16,
+  "gpu_after": {
+    "utilization_percent": 51,
+    "free_memory_mib": 81079
+  }
+}

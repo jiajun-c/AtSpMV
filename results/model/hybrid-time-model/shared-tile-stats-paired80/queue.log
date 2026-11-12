@@ -1,0 +1,102 @@
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "cases": 80,
+  "blocks_checked": 160,
+  "problems": [],
+  "scope": "Checks logged medians and 5% selection gate; does not independently validate GPU timing or numerical accuracy."
+}
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "csr_vector": 57,
+    "hybrid_dsm_atbsr": 6,
+    "atbsr": 11,
+    "cusparse": 2,
+    "atbsr|csr_vector": 2,
+    "cusparse|atbsr": 1,
+    "csr_dsm": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.206252877533289,
+    "median": 1.2107299537129048,
+    "wins": 74,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6658883838889305,
+    "median": 1.877530122689624,
+    "wins": 78,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1904250166738721,
+    "median": 1.2035419988824092,
+    "wins": 72,
+    "cases": 80
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.123554312789489,
+    "median": 1.1308621214866654,
+    "wins": 72,
+    "cases": 80
+  }
+}
+{
+  "cases": 80,
+  "manifest_total": 80,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 74,
+  "median_break_even_calls": 208150.5,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "reuse_scenarios": {
+    "1": {
+      "cases": 80,
+      "geomean_speedup": 0.0313875444500173,
+      "wins": 0
+    },
+    "10": {
+      "cases": 80,
+      "geomean_speedup": 0.03170398734271648,
+      "wins": 0
+    },
+    "100": {
+      "cases": 80,
+      "geomean_speedup": 0.03473699749681845,
+      "wins": 0
+    },
+    "1000": {
+      "cases": 80,
+      "geomean_speedup": 0.05890221327942705,
+      "wins": 0
+    },
+    "10000": {
+      "cases": 80,
+      "geomean_speedup": 0.21127189026804347,
+      "wins": 0
+    },
+    "100000": {
+      "cases": 80,
+      "geomean_speedup": 0.7274654592034501,
+      "wins": 2
+    },
+    "1000000": {
+      "cases": 80,
+      "geomean_speedup": 1.1151095079587499,
+      "wins": 65
+    }
+  }
+}

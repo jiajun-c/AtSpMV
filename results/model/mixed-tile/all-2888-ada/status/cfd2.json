@@ -1,0 +1,15 @@
+{
+  "dataset": "cfd2",
+  "matrix_sha256": "80faade5d176fce67517715f6e70b4de7046e666bf2251a0c52221e079aba844",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.462,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

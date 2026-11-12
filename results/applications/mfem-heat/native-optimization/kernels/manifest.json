@@ -1,0 +1,10 @@
+{
+  "exe": "/tmp/atspmv-mfem-apps/apps/mfem/packed_spmv_bench",
+  "sha256": "a433cc76249fb7c03c60b1d2b4b43950024f9afbbe0ede8b3f92b5e660c2e865",
+  "persist_x": false,
+  "cpu": 30,
+  "matrices": {
+    "5": "ada2ea8022af99700bbc556fbf5e7004fb64618a6653970412fa5a78700f5d8b",
+    "7": "228bdc53fc3179b95c4121b19daa8b9be2f498f69f37128fa3abb6316f882f32"
+  }
+}

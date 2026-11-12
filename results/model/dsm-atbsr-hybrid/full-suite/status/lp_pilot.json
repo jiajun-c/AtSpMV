@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_pilot",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_pilot/lp_pilot.mtx",
+  "matrix_sha256": "845d26b15d6df2bc9e08092dc40462d103a4fffb814fcb095c7484b3da19d1ca",
+  "index_nnz": 44375,
+  "index_rows": 1441,
+  "elapsed_s": 1.184,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,38 @@
+{
+  "sources": {
+    "include/dsmLongRow.cuh": "3d1811c20ac0ae6e2b0d610108853cf1fb1dfd9ca2632688fef4312d58a88d73",
+    "bench/dsm_long_row_bench.cu": "595cbc0cd019d4462d4b15ebd2adec0a7d800ef9bb200ddd0d66b0691289c9bf"
+  },
+  "binary_sha256": "7c47729555e340b68011e89fc42f62bb4d99e756dba131358c7f6e121795f787",
+  "device": "CUDA_VISIBLE_DEVICES=3, H100 PCIe",
+  "ctest": "3/3: empty7x0, tail137x1003, mixed137x16387",
+  "memcheck": {
+    "cuda": "13.0",
+    "case": "mixed:17 4103 --check-only",
+    "candidates": 574,
+    "errors": 0
+  },
+  "racecheck": {
+    "cuda": "13.0",
+    "case": "mixed:5 33 --sanitizer-only",
+    "candidates": 41,
+    "errors": 0,
+    "warnings": 0
+  },
+  "synccheck": {
+    "cuda": "13.0",
+    "case": "mixed:17 4103 --sanitizer-only",
+    "candidates": 61,
+    "errors": 0
+  },
+  "checks_per_candidate": "two distinct X vectors, poisoned output, direct launch and existing 8-call graph for each vector",
+  "sanitizer_subset": "pull and async DSM, groups1/4/8, threads128/1024 (subject to >=32threads/row), cluster2/8, distinct long-row thresholds; includes cuSPARSE control",
+  "limitations": "CUDA12.4 memcheck reports shared-write errors/launch failure and racecheck reports hazards (interrupted); same kernel passes CUDA13.0 checks. Full CUDA13.0 racecheck sweep interrupted for runtime; use the documented smaller case, not a full-sweep pass.",
+  "performance_validation": {
+    "cases": 21,
+    "runs": 63,
+    "candidate_configurations_checked": 24942,
+    "max_absolute_error": 1.927746851e-11,
+    "checks_per_configuration": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "msc00726",
+  "matrix_sha256": "5b4083dbaea0aeb0c75084f10985b1dfe636392a3a07ea21b0ca62a3f8e83b55",
+  "index_nnz": 34518,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.206,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "orbitRaising_2",
+  "matrix_sha256": "d5511b5c9bf81d44b6656a0d2adbf072f87ac2538d4be1e26d3cb4c2806ef686",
+  "index_nnz": 6526,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.288,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

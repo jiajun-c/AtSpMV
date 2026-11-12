@@ -1,0 +1,10 @@
+{
+  "dataset": "sstmodel",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sstmodel/sstmodel.mtx",
+  "matrix_sha256": "832de3e7df66073a0d37efe091da1ec6f37dfcc7ca2943b6758d118f219fc079",
+  "index_nnz": 22749,
+  "index_rows": 3345,
+  "elapsed_s": 1.251,
+  "returncode": 0,
+  "status": "ok"
+}

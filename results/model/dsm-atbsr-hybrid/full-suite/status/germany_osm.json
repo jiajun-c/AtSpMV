@@ -1,0 +1,10 @@
+{
+  "dataset": "germany_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/germany_osm/germany_osm.mtx",
+  "matrix_sha256": "a8de087a1262601537a77ca8acc0ce6d3f790f07621f0cef605a8c362303924c",
+  "index_nnz": 24738362,
+  "index_rows": 11548845,
+  "elapsed_s": 15.946,
+  "returncode": 0,
+  "status": "ok"
+}

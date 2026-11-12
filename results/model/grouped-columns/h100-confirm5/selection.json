@@ -1,0 +1,42 @@
+{
+  "selection_policy": "Post-hoc independent confirmation of strong gains and regressions in the predeclared 24-matrix sample; not an additional unbiased sample.",
+  "prior_analysis": "results/model/mixed-tile/all-2888-ada/analysis.csv",
+  "prior_analysis_sha256": "4475e5c113fed002ea67929d12cdf7c0b13f180e310c2db3b47294ac8bd582a7",
+  "matrices": [
+    {
+      "dataset": "rma10",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rma10/rma10.mtx",
+      "prior_nnz": 2374001,
+      "prior_fastest_fixed": "m8_b0/m32_b1_cap16",
+      "file_bytes": 61434328
+    },
+    {
+      "dataset": "FEM_3D_thermal2",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+      "prior_nnz": 3489300,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 119519394
+    },
+    {
+      "dataset": "cop20k_A",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cop20k_A/cop20k_A.mtx",
+      "prior_nnz": 2624331,
+      "prior_fastest_fixed": "m8_b0/m8_b0",
+      "file_bytes": 27894342
+    },
+    {
+      "dataset": "mac_econ_fwd500",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mac_econ_fwd500/mac_econ_fwd500.mtx",
+      "prior_nnz": 1273389,
+      "prior_fastest_fixed": "m8_b0/m8_b0",
+      "file_bytes": 32904083
+    },
+    {
+      "dataset": "pwtk",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+      "prior_nnz": 11634424,
+      "prior_fastest_fixed": "m32_b1_cap16/m32_b1_cap16",
+      "file_bytes": 162185434
+    }
+  ]
+}

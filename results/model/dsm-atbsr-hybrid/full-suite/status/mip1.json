@@ -1,0 +1,10 @@
+{
+  "dataset": "mip1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mip1/mip1.mtx",
+  "matrix_sha256": "f730e8b5345c00c37ed7c1c3634afe6822e6116a6b69e48956465fcd23684e54",
+  "index_nnz": 10352819,
+  "index_rows": 66463,
+  "elapsed_s": 4.59,
+  "returncode": 0,
+  "status": "ok"
+}

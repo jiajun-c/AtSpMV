@@ -1,0 +1,7 @@
+{
+  "name": "ex10hs",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex10hs-L.mtx,default,cusparse,2548,64097,-1,11217.83,1298.755127,2.70894418e-14\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex10hs-L.mtx,model,cusparse,2548,64097,1308,11523.578,1298.707153,2.70894418e-14\n",
+  "stderr": ""
+}

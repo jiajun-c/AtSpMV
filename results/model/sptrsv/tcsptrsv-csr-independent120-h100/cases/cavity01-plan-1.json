@@ -1,0 +1,9 @@
+{
+  "name": "cavity01",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/cavity01-L.mtx,default,cusparse,320,6402,-1,3320.203,147.4303894,5.995204333e-15,3.713161747e-17,9.542067433e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/cavity01-L.mtx,default-host,cusparse,320,6402,-1,3320.203,153.62531,5.995204333e-15,3.713161747e-17,9.542067433e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/cavity01-L.mtx,model,cached-csr,320,6402,171,1272.564,95.92959595,5.995204333e-15,3.713161747e-17,9.542067433e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/cavity01-L.mtx,model-host,cached-csr,320,6402,171,1272.564,101.807205,5.995204333e-15,3.713161747e-17,9.542067433e-17,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "gyro",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gyro/gyro.mtx",
+  "matrix_sha256": "4575f2ac0f7dceb070d668b0d2351e431c5e24502c03907f735e8888ddd53b7f",
+  "index_nnz": 1021159,
+  "index_rows": 17361,
+  "elapsed_s": 1.304,
+  "returncode": 0,
+  "status": "ok"
+}

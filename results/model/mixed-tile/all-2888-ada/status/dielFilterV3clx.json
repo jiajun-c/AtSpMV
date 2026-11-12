@@ -1,0 +1,15 @@
+{
+  "dataset": "dielFilterV3clx",
+  "matrix_sha256": "51648d12afffd2cd155dab8d2e93992c83af698a666a6236980b89051dfd5e96",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.363,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

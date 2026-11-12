@@ -1,0 +1,19 @@
+{
+  "dataset": "G29",
+  "matrix_sha256": "bac3a05dab89b7b4e64129f56622ed995005189aa2f65c9632ee6c9a23eabf07",
+  "index_nnz": 39980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.938,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

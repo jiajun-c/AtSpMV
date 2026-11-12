@@ -1,0 +1,28 @@
+{
+  "total": 38,
+  "status_counts": {
+    "ok": 38
+  },
+  "method": "Measured actual Plans, two construction orders and warm Graph. The oracle only compares existing vector-v2 Plan and the single candidate predicted by the exploratory model; it is not a global optimum. Setup excluded, sample previously viewed.",
+  "cases": 38,
+  "selected_medium": 10,
+  "speedup_geomean": 1.0528406124373968,
+  "faster_5pct": 10,
+  "slower_5pct": 0,
+  "within_5pct_oracle": 29,
+  "amortization": {
+    "10000": {
+      "geomean_speedup": 1.055039962818663,
+      "wins": 10
+    },
+    "100000": {
+      "geomean_speedup": 1.0529060812924178,
+      "wins": 10
+    },
+    "1000000": {
+      "geomean_speedup": 1.0528442239134637,
+      "wins": 10
+    }
+  },
+  "amortization_method": "Per-order estimated selected Plan setup plus N warm Graph executions. Medium-model prediction, input reading, allocation by caller and Graph creation are excluded. Measurements contain construction-order and allocation effects."
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "cz628",
+  "matrix_sha256": "aef4ddda61b2fe43f77b1cf9a2f2f0539dd37068f434cd4cd30fcb5155b88860",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.107,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

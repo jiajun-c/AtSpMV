@@ -1,0 +1,10 @@
+{
+  "dataset": "G20",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G20/G20.mtx",
+  "matrix_sha256": "3d06b4ec0549b3e5036350abdb2aa0625788b7ec681189f2ddcfadd884349e1d",
+  "index_nnz": 9344,
+  "index_rows": 800,
+  "elapsed_s": 1.404,
+  "returncode": 0,
+  "status": "ok"
+}

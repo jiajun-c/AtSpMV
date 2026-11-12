@@ -1,0 +1,15 @@
+{
+  "dataset": "collins_15NN",
+  "matrix_sha256": "4235965675db63fba38952fbb56fc933367640a032a152d106eda4a6ca856d4c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.219,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "mycielskian19",
+  "file_bytes": 5755237014,
+  "file_mtime_ns": 1530643153000000000,
+  "structure": {
+    "dataset": "mycielskian19",
+    "rows": "393215",
+    "columns": "393215",
+    "nnz": "903194710",
+    "longest_row": "393215",
+    "longest_row_nnz": "196607",
+    "ratio": "0.000217679530032",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 39.62
+}

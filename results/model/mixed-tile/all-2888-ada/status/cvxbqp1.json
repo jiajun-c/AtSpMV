@@ -1,0 +1,15 @@
+{
+  "dataset": "cvxbqp1",
+  "matrix_sha256": "d95a80a39640c91c2d211bfd1de1bd6a542b72268b502b75fb7773643cfd6437",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.414,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

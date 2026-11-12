@@ -1,0 +1,10 @@
+{
+  "dataset": "gemat12",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gemat12/gemat12.mtx",
+  "matrix_sha256": "49eb475fbf292d1e2a5773b8c32437d077518f2d23d14b1f0492e2fc3fc7c2a9",
+  "index_nnz": 33111,
+  "index_rows": 4929,
+  "elapsed_s": 1.237,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,175 @@
+{
+  "selection_policy": "Predeclared named sample from the earlier successful all-2888 mixed-tile analysis; covers small/int16 fallback, FEM/engineering, graph/circuit, long-tail and large matrices. Excludes duplicate dc2/trans4 and matrices not in prior analysis. No new timing used for selection.",
+  "prior_analysis": "results/model/mixed-tile/all-2888-ada/analysis.csv",
+  "prior_analysis_sha256": "4475e5c113fed002ea67929d12cdf7c0b13f180e310c2db3b47294ac8bd582a7",
+  "matrices": [
+    {
+      "dataset": "rajat09",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat09/rajat09.mtx",
+      "prior_nnz": 105573,
+      "prior_fastest_fixed": "m32_b1/m32_b1",
+      "file_bytes": 721214
+    },
+    {
+      "dataset": "bcsstk17",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bcsstk17/bcsstk17.mtx",
+      "prior_nnz": 428650,
+      "prior_fastest_fixed": "m16_b1/m16_b1",
+      "file_bytes": 5610999
+    },
+    {
+      "dataset": "poisson3Da",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/poisson3Da/poisson3Da.mtx",
+      "prior_nnz": 352762,
+      "prior_fastest_fixed": "m4_b0/m4_b0",
+      "file_bytes": 10682591
+    },
+    {
+      "dataset": "pdb1HYS",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pdb1HYS/pdb1HYS.mtx",
+      "prior_nnz": 4344765,
+      "prior_fastest_fixed": "m8_b0/m8_b0",
+      "file_bytes": 57157539
+    },
+    {
+      "dataset": "rma10",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rma10/rma10.mtx",
+      "prior_nnz": 2374001,
+      "prior_fastest_fixed": "m8_b0/m32_b1_cap16",
+      "file_bytes": 61434328
+    },
+    {
+      "dataset": "cant",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cant/cant.mtx",
+      "prior_nnz": 4007383,
+      "prior_fastest_fixed": "m16_b0/m8_b0",
+      "file_bytes": 59698523
+    },
+    {
+      "dataset": "consph",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/consph/consph.mtx",
+      "prior_nnz": 6010480,
+      "prior_fastest_fixed": "m16_b0/m32_b0",
+      "file_bytes": 85995826
+    },
+    {
+      "dataset": "FEM_3D_thermal2",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+      "prior_nnz": 3489300,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 119519394
+    },
+    {
+      "dataset": "shipsec1",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shipsec1/shipsec1.mtx",
+      "prior_nnz": 7813404,
+      "prior_fastest_fixed": "m32_b0/m8_b0",
+      "file_bytes": 86800783
+    },
+    {
+      "dataset": "cop20k_A",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cop20k_A/cop20k_A.mtx",
+      "prior_nnz": 2624331,
+      "prior_fastest_fixed": "m8_b0/m8_b0",
+      "file_bytes": 27894342
+    },
+    {
+      "dataset": "mac_econ_fwd500",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mac_econ_fwd500/mac_econ_fwd500.mtx",
+      "prior_nnz": 1273389,
+      "prior_fastest_fixed": "m8_b0/m8_b0",
+      "file_bytes": 32904083
+    },
+    {
+      "dataset": "pwtk",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+      "prior_nnz": 11634424,
+      "prior_fastest_fixed": "m32_b1_cap16/m32_b1_cap16",
+      "file_bytes": 162185434
+    },
+    {
+      "dataset": "ohne2",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ohne2/ohne2.mtx",
+      "prior_nnz": 11063545,
+      "prior_fastest_fixed": "m32_b1_cap16/m32_b1_cap16",
+      "file_bytes": 246604153
+    },
+    {
+      "dataset": "trans4",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/trans4/trans4.mtx",
+      "prior_nnz": 766396,
+      "prior_fastest_fixed": "m8_b1_cap16/m8_b1_cap16",
+      "file_bytes": 16378242
+    },
+    {
+      "dataset": "webbase-1M",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/webbase-1M/webbase-1M.mtx",
+      "prior_nnz": 3105536,
+      "prior_fastest_fixed": "m32_b1_cap16/m32_b1_cap16",
+      "file_bytes": 70667857
+    },
+    {
+      "dataset": "amazon0312",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/amazon0312/amazon0312.mtx",
+      "prior_nnz": 3200440,
+      "prior_fastest_fixed": "m16_b0/m16_b0",
+      "file_bytes": 42238461
+    },
+    {
+      "dataset": "ecology2",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ecology2/ecology2.mtx",
+      "prior_nnz": 4995991,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 52298703
+    },
+    {
+      "dataset": "parabolic_fem",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/parabolic_fem/parabolic_fem.mtx",
+      "prior_nnz": 3674625,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 70397527
+    },
+    {
+      "dataset": "thermal2",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/thermal2/thermal2.mtx",
+      "prior_nnz": 8580313,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 163044976
+    },
+    {
+      "dataset": "G3_circuit",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/G3_circuit/G3_circuit.mtx",
+      "prior_nnz": 7660826,
+      "prior_fastest_fixed": "m32_b0/m32_b1_cap4",
+      "file_bytes": 106086720
+    },
+    {
+      "dataset": "cage14",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cage14/cage14.mtx",
+      "prior_nnz": 27130349,
+      "prior_fastest_fixed": "m32_b0/m32_b0",
+      "file_bytes": 885603207
+    },
+    {
+      "dataset": "msdoor",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/msdoor/msdoor.mtx",
+      "prior_nnz": 20240935,
+      "prior_fastest_fixed": "m32_b1/m32_b0",
+      "file_bytes": 290500307
+    },
+    {
+      "dataset": "F1",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/F1/F1.mtx",
+      "prior_nnz": 26837113,
+      "prior_fastest_fixed": "m32_b1_cap16/m32_b1_cap16",
+      "file_bytes": 417834415
+    },
+    {
+      "dataset": "RM07R",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/RM07R/RM07R.mtx",
+      "prior_nnz": 37464962,
+      "prior_fastest_fixed": "m32_b1_cap4/m32_b1_cap4",
+      "file_bytes": 1236185753
+    }
+  ]
+}

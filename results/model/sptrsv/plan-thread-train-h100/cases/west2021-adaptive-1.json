@@ -1,0 +1,8 @@
+{
+  "name": "west2021",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,model,cached,2021,5450,28,1593.198,29.62880135,8.881784197e-16,1.440066826e-17,1.356341683e-16,1024\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,model-host,cached,2021,5450,28,1593.198,36.42949,8.881784197e-16,1.440066826e-17,1.356341683e-16,1024\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,default,cusparse,2021,5450,-1,2221.172,41.88479996,8.881784197e-16,1.557719345e-17,1.467153912e-16,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,default-host,cusparse,2021,5450,-1,2221.172,49.621465,8.881784197e-16,1.557719345e-17,1.467153912e-16,0\n",
+  "stderr": ""
+}

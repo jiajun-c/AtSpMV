@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_greenbeb",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_greenbeb/lp_greenbeb.mtx",
+  "matrix_sha256": "c8cc5880aa35f9a2b96626304267ba051e10a45f8e298371bed099e1274e392b",
+  "index_nnz": 31070,
+  "index_rows": 2392,
+  "elapsed_s": 1.271,
+  "returncode": 0,
+  "status": "ok"
+}

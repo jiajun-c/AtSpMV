@@ -1,0 +1,17 @@
+{
+  "dataset": "it-2004",
+  "file_bytes": 20241588318,
+  "file_mtime_ns": 1425766712000000000,
+  "structure": {
+    "dataset": "it-2004",
+    "rows": "41291594",
+    "columns": "41291594",
+    "nnz": "1150725436",
+    "longest_row": "1906277",
+    "longest_row_nnz": "9964",
+    "ratio": "8.65888568053e-06",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 109.41
+}

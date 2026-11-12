@@ -1,0 +1,9 @@
+{
+  "name": "rdb5000",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb5000-L.mtx,default,cusparse,5008,52563,-1,5393.093,447.5935974,1.110223025e-14,3.899517432e-17,1.37635244e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb5000-L.mtx,default-host,cusparse,5008,52563,-1,5393.093,453.515495,1.110223025e-14,3.899517432e-17,1.37635244e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb5000-L.mtx,model,cusparse,5008,52563,-1,4597.571,447.6672058,1.110223025e-14,3.899517432e-17,1.37635244e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb5000-L.mtx,model-host,cusparse,5008,52563,-1,4597.571,453.59056,1.110223025e-14,3.899517432e-17,1.37635244e-16,0\n",
+  "stderr": ""
+}

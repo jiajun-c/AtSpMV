@@ -1,0 +1,10 @@
+{
+  "dataset": "pct20stif",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pct20stif/pct20stif.mtx",
+  "matrix_sha256": "dfbbaf18da5b88d756b378429f2f47a547a7182254f974e851214783d3a877b4",
+  "index_nnz": 2698463,
+  "index_rows": 52329,
+  "elapsed_s": 1.906,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "aug2dc",
+  "matrix_sha256": "823224e157b4be14a969ae2cade8df2c9c3fd5d58df3af12e3dc6a7c983141f6",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.081,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "specular",
+  "matrix_sha256": "059eb2df3f6709c4431391fd648cc5b1e45f98f10c0ea84119313a00db5b5172",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.695,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

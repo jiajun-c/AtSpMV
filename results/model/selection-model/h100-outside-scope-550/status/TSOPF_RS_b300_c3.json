@@ -1,0 +1,17 @@
+{
+  "dataset": "TSOPF_RS_b300_c3",
+  "matrix_sha256": "4bd028c6544aa113509631df9d1096581301abbc02757017352267f79bfc49c9",
+  "index_nnz": 4413449,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 98.519,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

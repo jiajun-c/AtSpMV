@@ -1,0 +1,7 @@
+{
+  "name": "ex15",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/ex15-L.mtx,model,cusparse,6867,233804,-1,37115.712,3211.910156,2.564615187e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/ex15-L.mtx,model-host,cusparse,6867,233804,-1,37115.712,3220.77722,2.564615187e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/ex15-L.mtx,default,cusparse,6867,233804,-1,37189.626,3212.575928,2.564615187e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/ex15-L.mtx,default-host,cusparse,6867,233804,-1,37189.626,3221.608995,2.564615187e-13\n",
+  "stderr": ""
+}

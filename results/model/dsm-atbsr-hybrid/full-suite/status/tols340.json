@@ -1,0 +1,10 @@
+{
+  "dataset": "tols340",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tols340/tols340.mtx",
+  "matrix_sha256": "af70c69a998b78da8eb880972a395ddcee19d48ecbd656790adf2cc3c09ce397",
+  "index_nnz": 2196,
+  "index_rows": 340,
+  "elapsed_s": 1.164,
+  "returncode": 0,
+  "status": "ok"
+}

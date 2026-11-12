@@ -1,0 +1,10 @@
+{
+  "dataset": "wiki-Talk",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-Talk/wiki-Talk.mtx",
+  "matrix_sha256": "6c7f3c21bba142109fee12d5304c90d80d29464e3c6167a06251ec8d1538f7e7",
+  "index_nnz": 5021410,
+  "index_rows": 2394385,
+  "elapsed_s": 6.342,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "shipsec8",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/shipsec8/shipsec8.mtx",
+  "matrix_sha256": "ccdb550482026170d095f29a755583fed377e81b04cec470cb4aa273b7448859",
+  "index_nnz": 6653399,
+  "index_rows": 114919,
+  "elapsed_s": 3.162,
+  "returncode": 0,
+  "status": "ok"
+}

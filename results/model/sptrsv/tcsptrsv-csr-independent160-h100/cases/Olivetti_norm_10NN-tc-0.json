@@ -1,0 +1,9 @@
+{
+  "name": "Olivetti_norm_10NN",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Olivetti_norm_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 400, 400 ) nnz = 12905\nloadfile time    = 0.00603 sec\nnnzL = 12905\ntime_for_csc2CompressTile = 2.40 ms\ntime_cuda_solve = 0.223680 ms, Mflops = 115.39\nVALIDATION finite=1 max_error=8.2822637637036678e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

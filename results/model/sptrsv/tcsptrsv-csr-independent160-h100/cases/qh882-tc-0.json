@@ -1,0 +1,9 @@
+{
+  "name": "qh882",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/qh882-L.mtx --------------\nsuccess open file\ninput matrix A: ( 896, 896 ) nnz = 2969\nloadfile time    = 0.00130 sec\nnnzL = 2969\ntime_for_csc2CompressTile = 1.90 ms\ntime_cuda_solve = 0.105010 ms, Mflops = 56.55\nVALIDATION finite=1 max_error=3.9968028886505635e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,7 @@
+{
+  "name": "rajat06",
+  "order": "components-first",
+  "returncode": 1,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/components-grouped-pilot-h100/factors/rajat06-L.mtx,10922,24302,13,cusparse,18525.077,20.43199986,2.220446049e-15,2.490252787e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/rajat06-L.mtx,10922,24302,13,cusparse-host,18525.077,26.826595,2.220446049e-15,2.490252787e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/rajat06-L.mtx,10922,24302,13,cached-components-256,1375.947,31.94560111,2.220446049e-15,2.490252787e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/rajat06-L.mtx,10922,24302,13,cached-components-512,1375.947,22.28800058,2.220446049e-15,2.490252787e-17\n",
+  "stderr": "cudaGetLastError(): invalid argument\n"
+}

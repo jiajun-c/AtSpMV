@@ -1,0 +1,7 @@
+{
+  "name": "iris_dataset_30NN",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/iris_dataset_30NN-L.mtx,default,cusparse,150,3979,-1,2805.154,109.5072021,6.217248938e-14,2.1681732e-17,7.395556029e-17,0\nresults/model/sptrsv/components-independent-h100/factors/iris_dataset_30NN-L.mtx,default-host,cusparse,150,3979,-1,2805.154,116.738195,6.217248938e-14,2.1681732e-17,7.395556029e-17,0\nresults/model/sptrsv/components-independent-h100/factors/iris_dataset_30NN-L.mtx,model,cached,150,3979,145,1413.797,111.3888016,1.931788063e-14,2.252072651e-17,8.602254651e-17,512\nresults/model/sptrsv/components-independent-h100/factors/iris_dataset_30NN-L.mtx,model-host,cached,150,3979,145,1413.797,117.681475,1.931788063e-14,2.252072651e-17,8.602254651e-17,512\n",
+  "stderr": ""
+}

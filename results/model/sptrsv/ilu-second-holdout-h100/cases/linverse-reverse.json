@@ -1,0 +1,7 @@
+{
+  "name": "linverse",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/linverse-L.mtx,model,cusparse,11999,53590,-1,43197.184,9971.238281,1.110223025e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/linverse-L.mtx,default,cusparse,11999,53590,-1,43164.486,9970.742188,1.110223025e-14\n",
+  "stderr": ""
+}

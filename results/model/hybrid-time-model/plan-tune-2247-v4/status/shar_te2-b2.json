@@ -1,0 +1,19 @@
+{
+  "dataset": "shar_te2-b2",
+  "matrix_sha256": "6849e9a71c8921ed6deedb19633b4fa4c3e37af13524182a2d20177eedba3330",
+  "index_nnz": 600600,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.145,
+  "gpu_after": {
+    "utilization_percent": 30,
+    "free_memory_mib": 81079
+  }
+}

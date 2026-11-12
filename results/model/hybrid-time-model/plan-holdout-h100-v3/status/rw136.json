@@ -1,0 +1,19 @@
+{
+  "dataset": "rw136",
+  "matrix_sha256": "4c03826869e972718bea3229537f7327865008e9067c44863e44f21f864f043f",
+  "index_nnz": 479,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.757,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

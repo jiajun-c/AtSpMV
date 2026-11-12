@@ -1,0 +1,56 @@
+{
+  "status_counts": {
+    "ok": 2794,
+    "error": 1,
+    "missing": 3
+  },
+  "total_manifest": 2798,
+  "metrics": {
+    "cases": 2794,
+    "hybrid_wins": 69,
+    "wins_at_least_5pct_faster": 27,
+    "slower_more_5pct": 2342,
+    "median": 0.8085786432101649,
+    "geomean": 0.6738714293206105,
+    "min": 0.10866158212081768,
+    "max": 1.8132326676830839,
+    "vs_default_atbsr_geomean": 0.758852265968463,
+    "groups": {
+      "no_long": {
+        "count": 2361,
+        "wins": 23,
+        "median": 0.8262014326327788,
+        "geomean": 0.7231502261870845
+      },
+      "has_long": {
+        "count": 433,
+        "wins": 46,
+        "median": 0.5490639346183293,
+        "geomean": 0.45861162133954925
+      }
+    }
+  },
+  "failures": [
+    {
+      "dataset": "Spielman_k600",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "Oregon",
+      "status": "missing",
+      "returncode": null
+    },
+    {
+      "dataset": "barrier2",
+      "status": "missing",
+      "returncode": null
+    },
+    {
+      "dataset": "net4",
+      "status": "missing",
+      "returncode": null
+    }
+  ],
+  "method": "Best of fixed hybrid shortlist vs best fixed non-hybrid shortlist and cuSPARSE CSR_ALG1; 9 interleaved trials of 8 warm Graph calls per config. No preprocessing cost. Early results are sorted by nnz and are not representative of the whole suite."
+}

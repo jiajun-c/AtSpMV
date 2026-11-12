@@ -1,0 +1,9 @@
+{
+  "name": "arc130",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,default,cusparse,144,377,-1,2924.293,17.20319939,5.551115123e-15,4.540549771e-17,5.542105177e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,default-host,cusparse,144,377,-1,2924.293,23.25561,5.551115123e-15,4.540549771e-17,5.542105177e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,model,cached,144,377,15,1185.809,14.07359982,5.551115123e-15,4.553376183e-17,5.557760842e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,model-host,cached,144,377,15,1185.809,19.71892,5.551115123e-15,4.553376183e-17,5.557760842e-17,512\n",
+  "stderr": ""
+}

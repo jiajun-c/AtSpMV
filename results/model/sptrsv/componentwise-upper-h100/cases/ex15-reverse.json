@@ -1,0 +1,7 @@
+{
+  "name": "ex15",
+  "order": "reverse",
+  "returncode": 1,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\n",
+  "stderr": "nonfinite result\n"
+}

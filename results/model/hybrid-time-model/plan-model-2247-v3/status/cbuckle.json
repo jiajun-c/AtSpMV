@@ -1,0 +1,19 @@
+{
+  "dataset": "cbuckle",
+  "matrix_sha256": "8065d8286af4f767837ef7ec8270866b30c18b249b6c573a1f8495c017e9f08f",
+  "index_nnz": 676515,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.896,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

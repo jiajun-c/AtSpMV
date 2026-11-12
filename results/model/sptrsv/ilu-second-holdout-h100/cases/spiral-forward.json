@@ -1,0 +1,7 @@
+{
+  "name": "spiral",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/spiral-L.mtx,default,cusparse,1434,17005,-1,5882.096,346.0639954,8.770761895e-15\nresults/model/sptrsv/ilu-second-holdout-h100/factors/spiral-L.mtx,model,cusparse,1434,17005,357,4534.917,346.3648071,8.770761895e-15\n",
+  "stderr": ""
+}

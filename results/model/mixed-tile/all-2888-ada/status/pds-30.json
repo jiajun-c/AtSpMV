@@ -1,0 +1,15 @@
+{
+  "dataset": "pds-30",
+  "matrix_sha256": "3db88dfe7432f0c2dec3bac9a8b352c0c82ff67214ec38bf6c24e7e28cde7d38",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.426,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

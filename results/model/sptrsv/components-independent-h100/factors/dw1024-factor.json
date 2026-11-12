@@ -1,0 +1,13 @@
+{
+  "matrix": "dw1024",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/dw1024/dw1024.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2048,
+  "columns": 2048,
+  "original_nnz": 10114,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.05214858194813132
+}

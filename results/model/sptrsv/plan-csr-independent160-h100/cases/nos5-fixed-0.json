@@ -1,0 +1,8 @@
+{
+  "name": "nos5",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/nos5-L.mtx,default,cusparse,468,11220,-1,3855.674,211.3919983,1.33226763e-14,2.265416315e-17,1.194266058e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nos5-L.mtx,default-host,cusparse,468,11220,-1,3855.674,219.086895,1.33226763e-14,2.265416315e-17,1.194266058e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nos5-L.mtx,model,cusparse,468,11220,210,3960.596,211.0655975,1.33226763e-14,2.265416315e-17,1.194266058e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nos5-L.mtx,model-host,cusparse,468,11220,210,3960.596,218.833715,1.33226763e-14,2.265416315e-17,1.194266058e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "TEM152078",
+  "matrix_sha256": "d6b63c0fb9318ec8de44172808578843117abe51e7fea6391e5c5034f3dd9535",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.365,
+  "gpu_after": {
+    "utilization_percent": 34,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "west1505",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/west1505-L.mtx,default,cusparse,1505,4081,-1,2203.51,44.26240158,8.881784197e-16,3.612531292e-17,1.080095181e-16,0\nresults/model/sptrsv/components-independent-h100/factors/west1505-L.mtx,default-host,cusparse,1505,4081,-1,2203.51,51.863165,8.881784197e-16,3.612531292e-17,1.080095181e-16,0\nresults/model/sptrsv/components-independent-h100/factors/west1505-L.mtx,model,cached,1505,4081,33,1329.288,30.64959908,8.881784197e-16,3.612531292e-17,1.012809643e-16,1024\nresults/model/sptrsv/components-independent-h100/factors/west1505-L.mtx,model-host,cached,1505,4081,33,1329.288,36.62915,8.881784197e-16,3.612531292e-17,1.012809643e-16,1024\n",
+  "stderr": ""
+}

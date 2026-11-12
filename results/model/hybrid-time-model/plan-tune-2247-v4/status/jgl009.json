@@ -1,0 +1,19 @@
+{
+  "dataset": "jgl009",
+  "matrix_sha256": "62efd1cf89d5c9e129baa98b51603c0e51d745f718493342659a86598276618f",
+  "index_nnz": 50,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.78,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

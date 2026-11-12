@@ -1,0 +1,152 @@
+{
+  "requested": 24,
+  "successful": 24,
+  "failures": [],
+  "scope": "Predeclared 24-matrix prior sample on one H100. Two independent processes with opposite construction order; interleaved warm Graph timings. No persisting L2. Setup excluded.",
+  "groups": {
+    "all": {
+      "matrices": 24,
+      "group_vs_m32": {
+        "geomean": 1.0952414706148497,
+        "wins_over_1pct": 17,
+        "losses_over_1pct": 4
+      },
+      "group_vs_original": {
+        "geomean": 0.5461632723399957,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 10
+      },
+      "model_vs_original": {
+        "geomean": 1.0891623426404833,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 2
+      },
+      "group_vs_old_compression": {
+        "geomean": 1.4046296415460804,
+        "wins_over_1pct": 20,
+        "losses_over_1pct": 1
+      },
+      "group_vs_cusparse": {
+        "geomean": 0.46655382777107257,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 16
+      },
+      "model_vs_cusparse": {
+        "geomean": 0.9304046715662204,
+        "wins_over_1pct": 10,
+        "losses_over_1pct": 13
+      },
+      "original_vs_cusparse": {
+        "geomean": 0.8542387439788061,
+        "wins_over_1pct": 8,
+        "losses_over_1pct": 16
+      },
+      "group_vs_historical": {
+        "geomean": 0.5368010552551536,
+        "wins_over_1pct": 12,
+        "losses_over_1pct": 10
+      },
+      "group_vs_best_cusparse": {
+        "geomean": 0.46630043889612055,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 16
+      }
+    },
+    "grouped_active": {
+      "matrices": 21,
+      "group_vs_m32": {
+        "geomean": 1.1095644840592387,
+        "wins_over_1pct": 17,
+        "losses_over_1pct": 4
+      },
+      "group_vs_original": {
+        "geomean": 0.5994605649877913,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 7
+      },
+      "model_vs_original": {
+        "geomean": 1.1029204045942966,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 2
+      },
+      "group_vs_old_compression": {
+        "geomean": 1.474613029337022,
+        "wins_over_1pct": 20,
+        "losses_over_1pct": 1
+      },
+      "group_vs_cusparse": {
+        "geomean": 0.49156077621709526,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 13
+      },
+      "model_vs_cusparse": {
+        "geomean": 0.9044004591012367,
+        "wins_over_1pct": 7,
+        "losses_over_1pct": 13
+      },
+      "original_vs_cusparse": {
+        "geomean": 0.8200051928805465,
+        "wins_over_1pct": 5,
+        "losses_over_1pct": 16
+      },
+      "group_vs_historical": {
+        "geomean": 0.5839935552657693,
+        "wins_over_1pct": 12,
+        "losses_over_1pct": 7
+      },
+      "group_vs_best_cusparse": {
+        "geomean": 0.4914062909684518,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 13
+      }
+    },
+    "grouped_model_active": {
+      "matrices": 16,
+      "group_vs_m32": {
+        "geomean": 1.136469444037734,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 2
+      },
+      "group_vs_original": {
+        "geomean": 1.1405600631887514,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 2
+      },
+      "model_vs_original": {
+        "geomean": 1.141686399838668,
+        "wins_over_1pct": 14,
+        "losses_over_1pct": 1
+      },
+      "group_vs_old_compression": {
+        "geomean": 1.3472102542381377,
+        "wins_over_1pct": 15,
+        "losses_over_1pct": 1
+      },
+      "group_vs_cusparse": {
+        "geomean": 1.0571206582579455,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 8
+      },
+      "model_vs_cusparse": {
+        "geomean": 1.0581645960383472,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 9
+      },
+      "original_vs_cusparse": {
+        "geomean": 0.9268434801254326,
+        "wins_over_1pct": 4,
+        "losses_over_1pct": 12
+      },
+      "group_vs_historical": {
+        "geomean": 1.105352202973957,
+        "wins_over_1pct": 12,
+        "losses_over_1pct": 2
+      },
+      "group_vs_best_cusparse": {
+        "geomean": 1.0569804360554005,
+        "wins_over_1pct": 6,
+        "losses_over_1pct": 8
+      }
+    }
+  }
+}

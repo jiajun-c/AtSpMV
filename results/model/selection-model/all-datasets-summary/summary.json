@@ -1,0 +1,68 @@
+{
+  "total": 2888,
+  "scope_counts": {
+    "within_calibration_scope": 2248,
+    "unsupported_complex": 49,
+    "invalid_input": 3,
+    "outside_calibration_scope": 582,
+    "unsupported_int32_nnz": 6
+  },
+  "method": "Each ratio compares actual selected Plan to the fastest measured candidate separately in each construction order, then takes their geometric mean. Candidate sets differ between runs. Timings are warm Graph execution and exclude setup. Pending and failed cases are never included in timing metrics.",
+  "baseline": {
+    "status_counts": {
+      "ok": 2247,
+      "not_applicable": 641
+    },
+    "cases": 2247,
+    "geomean_over_observed_best": 1.0507713339950346,
+    "within_5pct": 1605,
+    "over_10pct": 359,
+    "geomean_speedup_vs_default": 1.1641321443359307,
+    "geomean_speedup_vs_cusparse": 1.5645167286522734
+  },
+  "v2": {
+    "status_counts": {
+      "ok": 2248,
+      "not_applicable": 640
+    },
+    "cases": 2248,
+    "geomean_over_observed_best": 1.0427450703811532,
+    "within_5pct": 1740,
+    "over_10pct": 294,
+    "geomean_speedup_vs_default": 1.1783870958364828,
+    "geomean_speedup_vs_cusparse": 1.5939274213987515,
+    "geomean_paired_speedup_vs_v1": 1.0070192263794961
+  },
+  "outside_refined": {
+    "status_counts": {
+      "not_applicable": 2306,
+      "ok": 549,
+      "timeout": 7,
+      "error": 7,
+      "pending": 19
+    },
+    "cases": 549,
+    "geomean_over_observed_best": 1.0612261644358538,
+    "within_5pct": 321,
+    "over_10pct": 108,
+    "geomean_speedup_vs_default": 1.3817665762401738,
+    "geomean_speedup_vs_cusparse": 1.2433453693352006
+  },
+  "resource_retry": {
+    "status_counts": {
+      "not_applicable": 2855,
+      "pending_classification": 33
+    }
+  },
+  "absolute_reference": {
+    "status_counts": {
+      "ok": 2248,
+      "not_applicable": 640
+    },
+    "cases": 2248,
+    "old_reference_mape": 0.37847202146706127,
+    "new_reference_mape": 0.052428177894690085,
+    "old_vector_absolute_mape": 0.3766998312913565,
+    "new_vector_absolute_mape": 0.05799792742607396
+  }
+}

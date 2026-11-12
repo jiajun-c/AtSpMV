@@ -1,0 +1,15 @@
+{
+  "dataset": "Trec5",
+  "matrix_sha256": "3d4e8ef0a11fc8e47b45c92c9b9db7c5e14190c6d4f846b607379edc103ffba8",
+  "gpu_before": {
+    "utilization_percent": 23,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.292,
+  "gpu_after": {
+    "utilization_percent": 16,
+    "free_memory_mib": 48508
+  }
+}

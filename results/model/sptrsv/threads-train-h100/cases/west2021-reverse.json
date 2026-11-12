@@ -1,0 +1,7 @@
+{
+  "name": "west2021",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cusparse,23394.916,41.39840007,8.881784197e-16,1.557719345e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cusparse-host,23394.916,47.136365,8.881784197e-16,1.557719345e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-512,145.151,31.49439991,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-host-512,145.151,37.02616,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-256,145.151,38.3807987,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-host-256,145.151,43.87501,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-128,145.151,54.98239994,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,cached-tiles-host-128,145.151,60.408095,8.881784197e-16,1.440066826e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,2021,5450,28,selector-cached,145.151,31.49760067,8.881784197e-16,1.440066826e-17\n",
+  "stderr": ""
+}

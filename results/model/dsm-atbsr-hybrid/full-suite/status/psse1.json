@@ -1,0 +1,10 @@
+{
+  "dataset": "psse1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/psse1/psse1.mtx",
+  "matrix_sha256": "4cd201c962802a38b994612c087c96cdaf5c6e94f291ea211970cafd94ed8ad2",
+  "index_nnz": 57376,
+  "index_rows": 14318,
+  "elapsed_s": 1.187,
+  "returncode": 0,
+  "status": "ok"
+}

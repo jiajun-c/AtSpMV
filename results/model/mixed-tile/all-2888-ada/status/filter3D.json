@@ -1,0 +1,15 @@
+{
+  "dataset": "filter3D",
+  "matrix_sha256": "5ff98de119a00ffb17d96f53ec9fc3c645b983a52c3fada267d721da0d3f1980",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.982,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "N_reactome",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/N_reactome/N_reactome.mtx",
+  "matrix_sha256": "86bcd52ee1e11c903c8d68a47381b15e69001d0f37408295d92643875aa9537e",
+  "index_nnz": 43816,
+  "index_rows": 10204,
+  "elapsed_s": 1.389,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,752 @@
+{
+  "selection_rule": "All existing manifest square nonempty matrices with n<=20000 and file_nnz<=300000, selected before timing; no performance filtering",
+  "iterations": 100,
+  "cluster": 8,
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "matrices": [
+    {
+      "matrix": "ww_36_pmec_36",
+      "family": "ww",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ww_36_pmec_36/ww_36_pmec_36.mtx",
+      "rows": 66,
+      "cols": 66,
+      "file_nnz": 1194,
+      "bytes": 38184,
+      "split": "train"
+    },
+    {
+      "matrix": "Journals",
+      "family": "journals",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Journals/Journals.mtx",
+      "rows": 124,
+      "cols": 124,
+      "file_nnz": 6096,
+      "bytes": 56599,
+      "split": "train"
+    },
+    {
+      "matrix": "lund_a",
+      "family": "lund_a",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lund_a/lund_a.mtx",
+      "rows": 147,
+      "cols": 147,
+      "file_nnz": 1298,
+      "bytes": 21205,
+      "split": "test"
+    },
+    {
+      "matrix": "YaleA_10NN",
+      "family": "yalea",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/YaleA_10NN/YaleA_10NN.mtx",
+      "rows": 165,
+      "cols": 165,
+      "file_nnz": 1134,
+      "bytes": 31858,
+      "split": "train"
+    },
+    {
+      "matrix": "mcca",
+      "family": "mcca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mcca/mcca.mtx",
+      "rows": 180,
+      "cols": 180,
+      "file_nnz": 2659,
+      "bytes": 50119,
+      "split": "train"
+    },
+    {
+      "matrix": "jazz",
+      "family": "jazz",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/jazz/jazz.mtx",
+      "rows": 198,
+      "cols": 198,
+      "file_nnz": 2742,
+      "bytes": 25748,
+      "split": "train"
+    },
+    {
+      "matrix": "Glass_10NN",
+      "family": "glass",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Glass_10NN/Glass_10NN.mtx",
+      "rows": 214,
+      "cols": 214,
+      "file_nnz": 1493,
+      "bytes": 41395,
+      "split": "train"
+    },
+    {
+      "matrix": "saylr1",
+      "family": "saylr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/saylr1/saylr1.mtx",
+      "rows": 238,
+      "cols": 238,
+      "file_nnz": 1128,
+      "bytes": 16806,
+      "split": "train"
+    },
+    {
+      "matrix": "sphere3",
+      "family": "sphere",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sphere3/sphere3.mtx",
+      "rows": 258,
+      "cols": 258,
+      "file_nnz": 1026,
+      "bytes": 7928,
+      "split": "test"
+    },
+    {
+      "matrix": "celegansneural",
+      "family": "celegansneural",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/celegansneural/celegansneural.mtx",
+      "rows": 297,
+      "cols": 297,
+      "file_nnz": 2345,
+      "bytes": 23940,
+      "split": "train"
+    },
+    {
+      "matrix": "USAir97",
+      "family": "usair",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/USAir97/USAir97.mtx",
+      "rows": 332,
+      "cols": 332,
+      "file_nnz": 2126,
+      "bytes": 29977,
+      "split": "train"
+    },
+    {
+      "matrix": "Ecoli_10NN",
+      "family": "ecoli",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Ecoli_10NN/Ecoli_10NN.mtx",
+      "rows": 336,
+      "cols": 336,
+      "file_nnz": 2280,
+      "bytes": 62785,
+      "split": "train"
+    },
+    {
+      "matrix": "Olivetti_norm_10NN",
+      "family": "olivetti_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Olivetti_norm_10NN/Olivetti_norm_10NN.mtx",
+      "rows": 400,
+      "cols": 400,
+      "file_nnz": 2828,
+      "bytes": 78207,
+      "split": "train"
+    },
+    {
+      "matrix": "odepa400",
+      "family": "odepa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/odepa400/odepa400.mtx",
+      "rows": 400,
+      "cols": 400,
+      "file_nnz": 1201,
+      "bytes": 12324,
+      "split": "test"
+    },
+    {
+      "matrix": "problem1",
+      "family": "problem",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/problem1/problem1.mtx",
+      "rows": 415,
+      "cols": 415,
+      "file_nnz": 2779,
+      "bytes": 74291,
+      "split": "train"
+    },
+    {
+      "matrix": "mhda416",
+      "family": "mhda",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mhda416/mhda416.mtx",
+      "rows": 416,
+      "cols": 416,
+      "file_nnz": 8562,
+      "bytes": 172592,
+      "split": "train"
+    },
+    {
+      "matrix": "oscil_trans_01",
+      "family": "oscil_trans",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/oscil_trans_01/oscil_trans_01.mtx",
+      "rows": 430,
+      "cols": 430,
+      "file_nnz": 1614,
+      "bytes": 34009,
+      "split": "dev"
+    },
+    {
+      "matrix": "rbsb480",
+      "family": "rbsb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rbsb480/rbsb480.mtx",
+      "rows": 480,
+      "cols": 480,
+      "file_nnz": 17088,
+      "bytes": 185526,
+      "split": "test"
+    },
+    {
+      "matrix": "494_bus",
+      "family": "494_bus",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/494_bus/494_bus.mtx",
+      "rows": 494,
+      "cols": 494,
+      "file_nnz": 1080,
+      "bytes": 18779,
+      "split": "train"
+    },
+    {
+      "matrix": "mbeacxc",
+      "family": "mbeacxc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mbeacxc/mbeacxc.mtx",
+      "rows": 496,
+      "cols": 496,
+      "file_nnz": 49920,
+      "bytes": 983320,
+      "split": "train"
+    },
+    {
+      "matrix": "lnsp_511",
+      "family": "lnsp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lnsp_511/lnsp_511.mtx",
+      "rows": 511,
+      "cols": 511,
+      "file_nnz": 2796,
+      "bytes": 54479,
+      "split": "train"
+    },
+    {
+      "matrix": "umistfacesnorm_10NN",
+      "family": "umistfacesnorm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/umistfacesnorm_10NN/umistfacesnorm_10NN.mtx",
+      "rows": 575,
+      "cols": 575,
+      "file_nnz": 3495,
+      "bytes": 95720,
+      "split": "dev"
+    },
+    {
+      "matrix": "shl_200",
+      "family": "shl",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shl_200/shl_200.mtx",
+      "rows": 663,
+      "cols": 663,
+      "file_nnz": 1726,
+      "bytes": 17825,
+      "split": "train"
+    },
+    {
+      "matrix": "bfwb782",
+      "family": "bfwb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bfwb782/bfwb782.mtx",
+      "rows": 782,
+      "cols": 782,
+      "file_nnz": 3382,
+      "bytes": 70115,
+      "split": "train"
+    },
+    {
+      "matrix": "young3c",
+      "family": "young",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/young3c/young3c.mtx",
+      "rows": 841,
+      "cols": 841,
+      "file_nnz": 3988,
+      "bytes": 52069,
+      "split": "train"
+    },
+    {
+      "matrix": "orsirr_2",
+      "family": "orsirr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/orsirr_2/orsirr_2.mtx",
+      "rows": 886,
+      "cols": 886,
+      "file_nnz": 5970,
+      "bytes": 91682,
+      "split": "train"
+    },
+    {
+      "matrix": "email-Eu-core",
+      "family": "email-eu-core",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core/email-Eu-core.mtx",
+      "rows": 1005,
+      "cols": 1005,
+      "file_nnz": 25571,
+      "bytes": 199806,
+      "split": "test"
+    },
+    {
+      "matrix": "email-Eu-core-temporal",
+      "family": "email-eu-core-temporal",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core-temporal/email-Eu-core-temporal.mtx",
+      "rows": 1005,
+      "cols": 1005,
+      "file_nnz": 24929,
+      "bytes": 259153,
+      "split": "train"
+    },
+    {
+      "matrix": "cnae9_10NN",
+      "family": "cnae",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cnae9_10NN/cnae9_10NN.mtx",
+      "rows": 1080,
+      "cols": 1080,
+      "file_nnz": 9139,
+      "bytes": 248923,
+      "split": "dev"
+    },
+    {
+      "matrix": "netscience",
+      "family": "netscience",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/netscience/netscience.mtx",
+      "rows": 1589,
+      "cols": 1589,
+      "file_nnz": 2742,
+      "bytes": 40356,
+      "split": "train"
+    },
+    {
+      "matrix": "plantsmargin_12NN",
+      "family": "plantsmargin",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/plantsmargin_12NN/plantsmargin_12NN.mtx",
+      "rows": 1600,
+      "cols": 1600,
+      "file_nnz": 12741,
+      "bytes": 358360,
+      "split": "dev"
+    },
+    {
+      "matrix": "init_adder1",
+      "family": "init_adder",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/init_adder1/init_adder1.mtx",
+      "rows": 1813,
+      "cols": 1813,
+      "file_nnz": 11156,
+      "bytes": 318953,
+      "split": "dev"
+    },
+    {
+      "matrix": "CSphd",
+      "family": "csphd",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/CSphd/CSphd.mtx",
+      "rows": 1882,
+      "cols": 1882,
+      "file_nnz": 1740,
+      "bytes": 15628,
+      "split": "train"
+    },
+    {
+      "matrix": "NotreDame_yeast",
+      "family": "notredame_yeast",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx",
+      "rows": 2114,
+      "cols": 2114,
+      "file_nnz": 2277,
+      "bytes": 20828,
+      "split": "test"
+    },
+    {
+      "matrix": "TS",
+      "family": "ts",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TS/TS.mtx",
+      "rows": 2142,
+      "cols": 2142,
+      "file_nnz": 45262,
+      "bytes": 1250147,
+      "split": "train"
+    },
+    {
+      "matrix": "orani678",
+      "family": "orani",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/orani678/orani678.mtx",
+      "rows": 2529,
+      "cols": 2529,
+      "file_nnz": 90158,
+      "bytes": 1954143,
+      "split": "test"
+    },
+    {
+      "matrix": "Chem97ZtZ",
+      "family": "chem",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Chem97ZtZ/Chem97ZtZ.mtx",
+      "rows": 2541,
+      "cols": 2541,
+      "file_nnz": 4951,
+      "bytes": 83528,
+      "split": "train"
+    },
+    {
+      "matrix": "minnesota",
+      "family": "minnesota",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/minnesota/minnesota.mtx",
+      "rows": 2642,
+      "cols": 2642,
+      "file_nnz": 3303,
+      "bytes": 30861,
+      "split": "dev"
+    },
+    {
+      "matrix": "laser",
+      "family": "laser",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/laser/laser.mtx",
+      "rows": 3002,
+      "cols": 3002,
+      "file_nnz": 5000,
+      "bytes": 85208,
+      "split": "train"
+    },
+    {
+      "matrix": "swang1",
+      "family": "swang",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/swang1/swang1.mtx",
+      "rows": 3169,
+      "cols": 3169,
+      "file_nnz": 20841,
+      "bytes": 430633,
+      "split": "train"
+    },
+    {
+      "matrix": "shermanACa",
+      "family": "shermanaca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shermanACa/shermanACa.mtx",
+      "rows": 3432,
+      "cols": 3432,
+      "file_nnz": 25220,
+      "bytes": 509338,
+      "split": "train"
+    },
+    {
+      "matrix": "soc-sign-bitcoin-alpha",
+      "family": "soc-sign-bitcoin-alpha",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/soc-sign-bitcoin-alpha/soc-sign-bitcoin-alpha.mtx",
+      "rows": 3783,
+      "cols": 3783,
+      "file_nnz": 24186,
+      "bytes": 244777,
+      "split": "test"
+    },
+    {
+      "matrix": "shyy41",
+      "family": "shyy",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shyy41/shyy41.mtx",
+      "rows": 4720,
+      "cols": 4720,
+      "file_nnz": 20042,
+      "bytes": 386921,
+      "split": "train"
+    },
+    {
+      "matrix": "SiH4",
+      "family": "sih",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/SiH4/SiH4.mtx",
+      "rows": 5041,
+      "cols": 5041,
+      "file_nnz": 88472,
+      "bytes": 2597870,
+      "split": "train"
+    },
+    {
+      "matrix": "ca-GrQc",
+      "family": "ca-grqc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ca-GrQc/ca-GrQc.mtx",
+      "rows": 5242,
+      "cols": 5242,
+      "file_nnz": 14496,
+      "bytes": 142721,
+      "split": "train"
+    },
+    {
+      "matrix": "Kuu",
+      "family": "kuu",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Kuu/Kuu.mtx",
+      "rows": 7102,
+      "cols": 7102,
+      "file_nnz": 173651,
+      "bytes": 5110147,
+      "split": "dev"
+    },
+    {
+      "matrix": "commanche_dual",
+      "family": "commanche_dual",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/commanche_dual/commanche_dual.mtx",
+      "rows": 7920,
+      "cols": 7920,
+      "file_nnz": 19800,
+      "bytes": 193069,
+      "split": "dev"
+    },
+    {
+      "matrix": "Pd",
+      "family": "pd",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Pd/Pd.mtx",
+      "rows": 8081,
+      "cols": 8081,
+      "file_nnz": 13036,
+      "bytes": 175643,
+      "split": "test"
+    },
+    {
+      "matrix": "wiki-Vote",
+      "family": "wiki-vote",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-Vote/wiki-Vote.mtx",
+      "rows": 8297,
+      "cols": 8297,
+      "file_nnz": 103689,
+      "bytes": 995847,
+      "split": "train"
+    },
+    {
+      "matrix": "EVA",
+      "family": "eva",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/EVA/EVA.mtx",
+      "rows": 8497,
+      "cols": 8497,
+      "file_nnz": 6726,
+      "bytes": 61885,
+      "split": "train"
+    },
+    {
+      "matrix": "Kaufhold",
+      "family": "kaufhold",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Kaufhold/Kaufhold.mtx",
+      "rows": 8765,
+      "cols": 8765,
+      "file_nnz": 42471,
+      "bytes": 1332939,
+      "split": "train"
+    },
+    {
+      "matrix": "Lederberg",
+      "family": "lederberg",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Lederberg/Lederberg.mtx",
+      "rows": 8843,
+      "cols": 8843,
+      "file_nnz": 41601,
+      "bytes": 477236,
+      "split": "dev"
+    },
+    {
+      "matrix": "wb-cs-stanford",
+      "family": "wb-cs-stanford",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wb-cs-stanford/wb-cs-stanford.mtx",
+      "rows": 9914,
+      "cols": 9914,
+      "file_nnz": 36854,
+      "bytes": 362042,
+      "split": "test"
+    },
+    {
+      "matrix": "Fashion_MNIST_norm_10NN",
+      "family": "fashion_mnist_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Fashion_MNIST_norm_10NN/Fashion_MNIST_norm_10NN.mtx",
+      "rows": 10000,
+      "cols": 10000,
+      "file_nnz": 79152,
+      "bytes": 2314166,
+      "split": "train"
+    },
+    {
+      "matrix": "kmnist_norm_10NN",
+      "family": "kmnist_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/kmnist_norm_10NN/kmnist_norm_10NN.mtx",
+      "rows": 10000,
+      "cols": 10000,
+      "file_nnz": 78466,
+      "bytes": 2296157,
+      "split": "train"
+    },
+    {
+      "matrix": "crack",
+      "family": "crack",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/crack/crack.mtx",
+      "rows": 10240,
+      "cols": 10240,
+      "file_nnz": 30380,
+      "bytes": 299587,
+      "split": "train"
+    },
+    {
+      "matrix": "har_10NN",
+      "family": "har",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/har_10NN/har_10NN.mtx",
+      "rows": 10299,
+      "cols": 10299,
+      "file_nnz": 75868,
+      "bytes": 2223351,
+      "split": "dev"
+    },
+    {
+      "matrix": "FA",
+      "family": "fa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/FA/FA.mtx",
+      "rows": 10617,
+      "cols": 10617,
+      "file_nnz": 72176,
+      "bytes": 1068696,
+      "split": "dev"
+    },
+    {
+      "matrix": "PGPgiantcompo",
+      "family": "pgpgiantcompo",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/PGPgiantcompo/PGPgiantcompo.mtx",
+      "rows": 10680,
+      "cols": 10680,
+      "file_nnz": 24316,
+      "bytes": 288613,
+      "split": "train"
+    },
+    {
+      "matrix": "wing_nodal",
+      "family": "wing_nodal",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wing_nodal/wing_nodal.mtx",
+      "rows": 10937,
+      "cols": 10937,
+      "file_nnz": 75488,
+      "bytes": 769038,
+      "split": "train"
+    },
+    {
+      "matrix": "fe_4elt2",
+      "family": "fe",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fe_4elt2/fe_4elt2.mtx",
+      "rows": 11143,
+      "cols": 11143,
+      "file_nnz": 32818,
+      "bytes": 342005,
+      "split": "train"
+    },
+    {
+      "matrix": "wiki-RfA",
+      "family": "wiki-rfa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx",
+      "rows": 11380,
+      "cols": 11380,
+      "file_nnz": 188077,
+      "bytes": 2280181,
+      "split": "train"
+    },
+    {
+      "matrix": "Oregon-1",
+      "family": "oregon",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Oregon-1/Oregon-1.mtx",
+      "rows": 11492,
+      "cols": 11492,
+      "file_nnz": 23409,
+      "bytes": 227402,
+      "split": "train"
+    },
+    {
+      "matrix": "linverse",
+      "family": "linverse",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/linverse/linverse.mtx",
+      "rows": 11999,
+      "cols": 11999,
+      "file_nnz": 53988,
+      "bytes": 1603299,
+      "split": "train"
+    },
+    {
+      "matrix": "ca-HepPh",
+      "family": "ca-hepph",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ca-HepPh/ca-HepPh.mtx",
+      "rows": 12008,
+      "cols": 12008,
+      "file_nnz": 118521,
+      "bytes": 1205986,
+      "split": "train"
+    },
+    {
+      "matrix": "vibrobox",
+      "family": "vibrobox",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vibrobox/vibrobox.mtx",
+      "rows": 12328,
+      "cols": 12328,
+      "file_nnz": 177578,
+      "bytes": 4799934,
+      "split": "train"
+    },
+    {
+      "matrix": "stokes64",
+      "family": "stokes",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/stokes64/stokes64.mtx",
+      "rows": 12546,
+      "cols": 12546,
+      "file_nnz": 74242,
+      "bytes": 2129584,
+      "split": "train"
+    },
+    {
+      "matrix": "tuma2",
+      "family": "tuma",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/tuma2/tuma2.mtx",
+      "rows": 12992,
+      "cols": 12992,
+      "file_nnz": 28440,
+      "bytes": 449598,
+      "split": "train"
+    },
+    {
+      "matrix": "zeros_nopss_13k",
+      "family": "zeros_nopss",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/zeros_nopss_13k/zeros_nopss_13k.mtx",
+      "rows": 13296,
+      "cols": 13296,
+      "file_nnz": 48827,
+      "bytes": 1243795,
+      "split": "train"
+    },
+    {
+      "matrix": "poli_large",
+      "family": "poli_large",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/poli_large/poli_large.mtx",
+      "rows": 15575,
+      "cols": 15575,
+      "file_nnz": 33074,
+      "bytes": 450898,
+      "split": "test"
+    },
+    {
+      "matrix": "fe_sphere",
+      "family": "fe_sphere",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fe_sphere/fe_sphere.mtx",
+      "rows": 16386,
+      "cols": 16386,
+      "file_nnz": 49152,
+      "bytes": 535241,
+      "split": "dev"
+    },
+    {
+      "matrix": "gyro_m",
+      "family": "gyro_m",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gyro_m/gyro_m.mtx",
+      "rows": 17361,
+      "cols": 17361,
+      "file_nnz": 178896,
+      "bytes": 5968917,
+      "split": "train"
+    },
+    {
+      "matrix": "LFAT5000",
+      "family": "lfat",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/LFAT5000/LFAT5000.mtx",
+      "rows": 19994,
+      "cols": 19994,
+      "file_nnz": 49980,
+      "bytes": 1489635,
+      "split": "train"
+    },
+    {
+      "matrix": "LF10000",
+      "family": "lf",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/LF10000/LF10000.mtx",
+      "rows": 19998,
+      "cols": 19998,
+      "file_nnz": 59990,
+      "bytes": 1723840,
+      "split": "dev"
+    }
+  ]
+}

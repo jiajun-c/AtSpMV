@@ -1,0 +1,15 @@
+{
+  "dataset": "connectus",
+  "matrix_sha256": "083ccf0991ad44c188a8ba336f5de59e1e51f51afad678c620456722b098cc7c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.154,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 48508
+  }
+}

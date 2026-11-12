@@ -1,0 +1,6 @@
+{
+  "name": "bcsstk01",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-factor-pilot/bcsstk01-L.mtx --------------\nsuccess open file\ninput matrix A: ( 48, 48 ) nnz = 620\nloadfile time    = 0.00039 sec\nnnzL = 620\nCSC col6 row=6 val=1\nCSC col6 row=10 val=0.001329080276436582\ntime_for_csc2CompressTile = 2.81 ms\ntime_cuda_solve = 0.05 ms, Mflops = 24.47\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.96534653465346532 expected=0.96534653465346532 b=0.96534653465346532\nsample i=2 got=1.3316831683168315 expected=1.3316831683168315 b=1.3316831683168315\nsample i=3 got=1.1633663366336635 expected=1.1633663366336635 b=1.1633663366336635\nsample i=4 got=1.4603960396039604 expected=1.4603960396039604 b=1.4603960396039604\nsample i=5 got=0.49573749839504822 expected=0.86633663366336633 b=0.49573749839504822\nsample i=6 got=0.69801980198019797 expected=0.69801980198019797 b=0.43168316831619247\nsample i=7 got=0.52970297029702973 expected=0.52970297029702973 b=-0.037040616574684715\nVALIDATION finite=1 max_error=3.5850059584839875 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

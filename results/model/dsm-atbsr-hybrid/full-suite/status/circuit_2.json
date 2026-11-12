@@ -1,0 +1,10 @@
+{
+  "dataset": "circuit_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/circuit_2/circuit_2.mtx",
+  "matrix_sha256": "625442cbac59550a21c0a94800a7cc8024bbeec37ff3bcf9247e9dd2085869b8",
+  "index_nnz": 21199,
+  "index_rows": 4510,
+  "elapsed_s": 1.299,
+  "returncode": 0,
+  "status": "ok"
+}

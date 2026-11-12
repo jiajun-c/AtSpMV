@@ -1,0 +1,19 @@
+{
+  "dataset": "fpga_dcop_14",
+  "matrix_sha256": "6574822b76acac9d970fb90e4c2cc5a35210292fc8644a5a45e48b6c7dcdc072",
+  "index_nnz": 5892,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.755,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

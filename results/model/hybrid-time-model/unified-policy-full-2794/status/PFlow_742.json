@@ -1,0 +1,17 @@
+{
+  "dataset": "PFlow_742",
+  "matrix_sha256": "4f1e5589ad793e430071a09fb4f1a11b3a577da637634e36b36ea1a40a0e6b92",
+  "index_nnz": 37138461,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 37.624,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "collins_15NN",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,default,cusparse,1000,10401,-1,5315.974,497.939209,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,default-host,cusparse,1000,10401,-1,5315.974,505.672285,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,model,cusparse,1000,10401,671,5518.236,497.9455872,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,model-host,cusparse,1000,10401,671,5518.236,506.130085,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\n",
+  "stderr": ""
+}

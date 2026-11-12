@@ -1,0 +1,13 @@
+{
+  "matrix": "west0167",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/west0167/west0167.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 167,
+  "columns": 167,
+  "original_nnz": 507,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.013727276120334864
+}

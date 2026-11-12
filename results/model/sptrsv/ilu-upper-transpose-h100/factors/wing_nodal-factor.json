@@ -1,0 +1,7 @@
+{
+  "matrix": "wing_nodal",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/wing_nodal-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.1529773473739624e-06
+}

@@ -1,0 +1,9 @@
+{
+  "name": "west1505",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west1505-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1520, 1520 ) nnz = 4096\nloadfile time    = 0.00179 sec\nnnzL = 4096\ntime_for_csc2CompressTile = 1.79 ms\ntime_cuda_solve = 0.093350 ms, Mflops = 87.76\nVALIDATION finite=1 max_error=8.8817841970012523e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

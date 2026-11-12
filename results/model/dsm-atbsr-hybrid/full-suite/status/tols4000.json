@@ -1,0 +1,10 @@
+{
+  "dataset": "tols4000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tols4000/tols4000.mtx",
+  "matrix_sha256": "8ec763dafba4ad5fdd6647bb9b41f7f27c4e307cc8b45b6b38a782405366b720",
+  "index_nnz": 8784,
+  "index_rows": 4000,
+  "elapsed_s": 0.771,
+  "returncode": 0,
+  "status": "ok"
+}

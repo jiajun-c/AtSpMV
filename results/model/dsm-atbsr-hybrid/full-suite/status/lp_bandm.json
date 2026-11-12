@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_bandm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_bandm/lp_bandm.mtx",
+  "matrix_sha256": "a914a9939869e07639c7d4c8cc0411d1f395de118c19b0c2f77b2d9455f56d6f",
+  "index_nnz": 2494,
+  "index_rows": 305,
+  "elapsed_s": 1.219,
+  "returncode": 0,
+  "status": "ok"
+}

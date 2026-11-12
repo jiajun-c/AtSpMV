@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb450",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb450/rdb450.mtx",
+  "matrix_sha256": "92ae96dbd2b0955b2835dfd0b4566ad87a5cc587d4b4ef6642bd4445bb668e81",
+  "index_nnz": 2580,
+  "index_rows": 450,
+  "elapsed_s": 0.665,
+  "returncode": 0,
+  "status": "ok"
+}

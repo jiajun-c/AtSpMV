@@ -1,0 +1,72 @@
+{
+  "index_cases": 2794,
+  "status_counts": {
+    "ok": 2364,
+    "error": 2,
+    "pending": 428
+  },
+  "suite_complete": false,
+  "all_successful": false,
+  "suites": [
+    {
+      "directory": "results/model/hybrid-time-model/plan-tune-2247-v4",
+      "status": "started",
+      "index_cases": 2247,
+      "status_counts": {
+        "ok": 2247
+      },
+      "failures": [],
+      "exe_sha256": "eeb10025380b16ad65a705ac38345657de900b8a76dd6df867eef8816d462365",
+      "defer_memory_infeasible": false
+    },
+    {
+      "directory": "results/model/hybrid-time-model/plan-tune-large-v3",
+      "status": "started",
+      "index_cases": 547,
+      "status_counts": {
+        "ok": 117,
+        "error": 2,
+        "pending": 428
+      },
+      "failures": [
+        {
+          "dataset": "europe_osm",
+          "status": "error",
+          "returncode": 1
+        },
+        {
+          "dataset": "indochina-2004",
+          "status": "error",
+          "returncode": 1
+        }
+      ],
+      "exe_sha256": "eeb10025380b16ad65a705ac38345657de900b8a76dd6df867eef8816d462365",
+      "defer_memory_infeasible": true
+    }
+  ],
+  "method": "Two construction orders; each ratio uses medians and a geometric average across orders. Aggregate includes successful cases only. Shared GPU and finite baseline shortlist; setup excluded. Memory-based deferral biases incomplete large-suite snapshots.",
+  "speedup_vs_default": {
+    "cases": 2364,
+    "geomean": 1.212427537508539,
+    "median": 1.2111906060186208,
+    "wins": 2255
+  },
+  "speedup_vs_cusparse": {
+    "cases": 2364,
+    "geomean": 1.6261724388822876,
+    "median": 1.7395459074646396,
+    "wins": 2291
+  },
+  "speedup_vs_best_baseline": {
+    "cases": 2364,
+    "geomean": 1.1847805925389958,
+    "median": 1.1935840811928704,
+    "wins": 2188
+  },
+  "speedup_vs_extended_baseline": {
+    "cases": 2364,
+    "geomean": 1.1116542835785928,
+    "median": 1.126856839520715,
+    "wins": 2137
+  }
+}

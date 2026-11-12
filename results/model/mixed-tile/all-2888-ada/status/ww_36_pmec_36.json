@@ -1,0 +1,15 @@
+{
+  "dataset": "ww_36_pmec_36",
+  "matrix_sha256": "5b41c270b0c375b7e92978c26065bcb017694199a8d6a0adfba27f37f73306bb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.631,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "rel7",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rel7/rel7.mtx",
+  "matrix_sha256": "71a9b854a4f3c28ebf8c758ed19dc1bbedfd797cd0a1b82e063243e13c901c46",
+  "index_nnz": 50636,
+  "index_rows": 21924,
+  "elapsed_s": 0.551,
+  "returncode": 0,
+  "status": "ok"
+}

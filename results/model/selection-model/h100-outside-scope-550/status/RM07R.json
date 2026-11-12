@@ -1,0 +1,17 @@
+{
+  "dataset": "RM07R",
+  "matrix_sha256": "686635d3d2cc88dec0981cc7d94636a00a7eb390615069c41368ecce4765e02b",
+  "index_nnz": 37464962,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 107.061,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

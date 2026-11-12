@@ -1,0 +1,15 @@
+{
+  "dataset": "orani678",
+  "matrix_sha256": "8d3898bc3007e8921ed65abce1f7fbb3e4a3729cdbff3126e5febf15beb5d38a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.209,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

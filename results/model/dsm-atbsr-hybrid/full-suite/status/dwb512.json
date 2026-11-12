@@ -1,0 +1,10 @@
+{
+  "dataset": "dwb512",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dwb512/dwb512.mtx",
+  "matrix_sha256": "d3bf0a63a229cb0b3fedc2edbfa7ff9ac78ca2837b8e5d74d8aa8e9764e0cee0",
+  "index_nnz": 2500,
+  "index_rows": 512,
+  "elapsed_s": 0.647,
+  "returncode": 0,
+  "status": "ok"
+}

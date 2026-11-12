@@ -1,0 +1,17 @@
+{
+  "dataset": "meg1",
+  "matrix_sha256": "1222353864553e7f1fe369f478a3580c071e2ad1fcb21ad80b61b41f620c9bdf",
+  "index_nnz": 58142,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.628,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

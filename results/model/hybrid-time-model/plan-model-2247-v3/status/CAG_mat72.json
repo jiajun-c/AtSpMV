@@ -1,0 +1,19 @@
+{
+  "dataset": "CAG_mat72",
+  "matrix_sha256": "77c493ce5ed724822b5ffd27b4a87488fad2ed1870c356820ff1442f4f37810b",
+  "index_nnz": 1012,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.373,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

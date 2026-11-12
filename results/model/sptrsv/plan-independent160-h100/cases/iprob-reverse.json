@@ -1,0 +1,7 @@
+{
+  "name": "iprob",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/iprob-L.mtx,model,cusparse,3001,5322,4,2633.193,25.37600136,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\nresults/model/sptrsv/components-independent-h100/factors/iprob-L.mtx,model-host,cusparse,3001,5322,4,2633.193,32.688465,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\nresults/model/sptrsv/components-independent-h100/factors/iprob-L.mtx,default,cusparse,3001,5322,-1,2377.614,25.37919807,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\nresults/model/sptrsv/components-independent-h100/factors/iprob-L.mtx,default-host,cusparse,3001,5322,-1,2377.614,32.53061,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\n",
+  "stderr": ""
+}

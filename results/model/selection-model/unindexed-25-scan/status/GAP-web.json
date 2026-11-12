@@ -1,0 +1,17 @@
+{
+  "dataset": "GAP-web",
+  "file_bytes": 40948741828,
+  "file_mtime_ns": 1571702936000000000,
+  "structure": {
+    "dataset": "GAP-web",
+    "rows": "50636151",
+    "columns": "50636151",
+    "nnz": "1930292948",
+    "longest_row": "19879528",
+    "longest_row_nnz": "12869",
+    "ratio": "6.66686370757e-06",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 203.37
+}

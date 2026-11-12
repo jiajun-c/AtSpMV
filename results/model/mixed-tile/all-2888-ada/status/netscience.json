@@ -1,0 +1,15 @@
+{
+  "dataset": "netscience",
+  "matrix_sha256": "ea8aceaaaa5840d82f2c98df348bf95f081daea6263beba54fccc8c2fc28da1d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.348,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

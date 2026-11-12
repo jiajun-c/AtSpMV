@@ -1,0 +1,15 @@
+{
+  "dataset": "Erdos981",
+  "matrix_sha256": "4b10747a5e544b3443c2a25b58acc43758921340fd1be35fbd1ea7dbf4f977b4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.712,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

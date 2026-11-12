@@ -1,0 +1,17 @@
+{
+  "dataset": "GL7d15",
+  "matrix_sha256": "eab22b0ab853f03622597e30649f3a5b448e54af7f21f05b53a619adc230c5c4",
+  "index_nnz": 6080381,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 25.331,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

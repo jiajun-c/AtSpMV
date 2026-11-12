@@ -1,0 +1,9 @@
+{
+  "name": "Goodwin_017",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Goodwin_017-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3328, 3328 ) nnz = 200136\nloadfile time    = 0.07060 sec\nnnzL = 200136\ntime_for_csc2CompressTile = 2.48 ms\ntime_cuda_solve = 1.517880 ms, Mflops = 263.70\nVALIDATION finite=1 max_error=1.3311574065255627e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

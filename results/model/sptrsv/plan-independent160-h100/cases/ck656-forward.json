@@ -1,0 +1,7 @@
+{
+  "name": "ck656",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/ck656-L.mtx,default,cusparse,656,2032,-1,9544.293,204.2783966,1.33226763e-15,2.116620244e-17,7.91048363e-17,0\nresults/model/sptrsv/components-independent-h100/factors/ck656-L.mtx,default-host,cusparse,656,2032,-1,9544.293,210.49263,1.33226763e-15,2.116620244e-17,7.91048363e-17,0\nresults/model/sptrsv/components-independent-h100/factors/ck656-L.mtx,model,cached,656,2032,155,1372.571,102.8192062,1.33226763e-15,2.116620244e-17,7.91048363e-17,512\nresults/model/sptrsv/components-independent-h100/factors/ck656-L.mtx,model-host,cached,656,2032,155,1372.571,108.52371,1.33226763e-15,2.116620244e-17,7.91048363e-17,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "ulevimin",
+  "matrix_sha256": "a05110f6ef2cf6822f509833f2c19a87003447abb5eb7d0b2b107ca79c4c7802",
+  "index_nnz": 164538,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 15.464,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

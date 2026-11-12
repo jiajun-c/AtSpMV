@@ -1,0 +1,10 @@
+{
+  "dataset": "collins_15NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/collins_15NN/collins_15NN.mtx",
+  "matrix_sha256": "4235965675db63fba38952fbb56fc933367640a032a152d106eda4a6ca856d4c",
+  "index_nnz": 16492,
+  "index_rows": 1000,
+  "elapsed_s": 1.311,
+  "returncode": 0,
+  "status": "ok"
+}

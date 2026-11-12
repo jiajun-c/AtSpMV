@@ -1,0 +1,15 @@
+{
+  "dataset": "sherman4",
+  "matrix_sha256": "03f02cfbb986a8980dac1cfd4f0a686a0972ccf389fb6fa1d3df7c0301ea0313",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.267,
+  "gpu_after": {
+    "utilization_percent": 21,
+    "free_memory_mib": 48508
+  }
+}

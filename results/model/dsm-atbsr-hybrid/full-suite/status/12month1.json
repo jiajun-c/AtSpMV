@@ -1,0 +1,10 @@
+{
+  "dataset": "12month1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/12month1/12month1.mtx",
+  "matrix_sha256": "83ebe3b102f95954bc85fbe2c21c7ef46417d92bf4f71d003aa3beedb64a26ce",
+  "index_nnz": 22624727,
+  "index_rows": 12471,
+  "elapsed_s": 9.048,
+  "returncode": 0,
+  "status": "ok"
+}

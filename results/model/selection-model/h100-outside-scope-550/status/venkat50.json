@@ -1,0 +1,17 @@
+{
+  "dataset": "venkat50",
+  "matrix_sha256": "130106a4a5d0b87e7aa688e4fcce3b810511d88214ab2143e77b86230a1da630",
+  "index_nnz": 1717792,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 22.592,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

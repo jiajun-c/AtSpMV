@@ -1,0 +1,9 @@
+{
+  "name": "dynamicSoaringProblem_3",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dynamicSoaringProblem_3-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2880, 2880 ) nnz = 63999\nloadfile time    = 0.03172 sec\nnnzL = 63999\ntime_for_csc2CompressTile = 3.72 ms\ntime_cuda_solve = 0.729120 ms, Mflops = 175.55\nVALIDATION finite=1 max_error=3.7747582837255322e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

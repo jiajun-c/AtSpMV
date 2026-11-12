@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_share2b",
+  "matrix_sha256": "ae7554ceb29801397e6d26e87e5771213537a1748477201326549872978ce1e6",
+  "index_nnz": 777,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.578,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 8161
+  }
+}

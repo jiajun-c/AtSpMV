@@ -1,0 +1,15 @@
+{
+  "dataset": "aircraft",
+  "matrix_sha256": "8e3e03c6238668bbf5db142f746542a008a1f3cdc623f723894209af70025960",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.74,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

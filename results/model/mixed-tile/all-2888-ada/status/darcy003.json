@@ -1,0 +1,15 @@
+{
+  "dataset": "darcy003",
+  "matrix_sha256": "39a4bf4b32930bf307e6c895bcb904a89ba9ba88829ceaae50a7fe1d789de8e8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.229,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

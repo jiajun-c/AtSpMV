@@ -1,0 +1,9 @@
+{
+  "name": "dynamicSoaringProblem_8",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=1.3500311979441904e-13 reference_scale=1.4900990099009901\ntime_cuda_solve = 1.242290000 ms\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "FX_March2010",
+  "matrix_sha256": "5d6892ebe1f783295bd35658a1bec2be93ff46f19135fce1a80ecbbd9312572a",
+  "index_nnz": 301899,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 13.046,
+  "gpu_after": {
+    "utilization_percent": 83,
+    "free_memory_mib": 81079
+  }
+}

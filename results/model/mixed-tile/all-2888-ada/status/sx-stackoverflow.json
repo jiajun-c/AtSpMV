@@ -1,0 +1,15 @@
+{
+  "dataset": "sx-stackoverflow",
+  "matrix_sha256": "3270835bad6d1733d3dd25fb3afdaa9db8be7237e1022d275bb3fc59b5244565",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 69.273,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

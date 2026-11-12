@@ -1,0 +1,7 @@
+{
+  "name": "cz628",
+  "implementation": "ours",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/cz628-L.mtx,628,7839,211,cusparse,23165.075,278.8095951,2.997602166e-15,3.656411595e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/cz628-L.mtx,628,7839,211,cusparse-host,23165.075,285.41861,2.997602166e-15,3.656411595e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/cz628-L.mtx,628,7839,211,selector-cusparse,336.495,278.8415909,2.997602166e-15,3.656411595e-17\n",
+  "stderr": ""
+}

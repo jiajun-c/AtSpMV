@@ -1,0 +1,19 @@
+{
+  "dataset": "G5",
+  "matrix_sha256": "aef84750bab94c6d863ccd1e20fa3d07e812e1ffd26fd0d9e20e2947e108c9ca",
+  "index_nnz": 38352,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.919,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

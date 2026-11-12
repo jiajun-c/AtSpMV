@@ -1,0 +1,9 @@
+{
+  "name": "lung1",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx,default,cusparse,1664,4194,-1,3828.587,368.060791,2.220446049e-16,2.439396457e-17,9.136368971e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx,default-host,cusparse,1664,4194,-1,3828.587,375.08837,2.220446049e-16,2.439396457e-17,9.136368971e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx,model,cached-csr,1664,4194,467,1292.051,261.6351929,2.220446049e-16,2.439396457e-17,9.136368971e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx,model-host,cached-csr,1664,4194,467,1292.051,268.230455,2.220446049e-16,2.439396457e-17,9.136368971e-17,256\n",
+  "stderr": ""
+}

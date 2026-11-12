@@ -1,0 +1,14 @@
+{
+  "matrix": "bp_1400",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/bp_1400/bp_1400.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 822,
+  "columns": 822,
+  "original_nnz": 4790,
+  "factor_L_nnz": 7159,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.037927920930087566
+}

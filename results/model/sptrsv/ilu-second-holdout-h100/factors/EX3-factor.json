@@ -1,0 +1,13 @@
+{
+  "matrix": "EX3",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/EX3/EX3.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2600,
+  "columns": 2600,
+  "original_nnz": 71760,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.6445311449933797
+}

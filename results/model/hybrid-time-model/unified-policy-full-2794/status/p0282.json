@@ -1,0 +1,17 @@
+{
+  "dataset": "p0282",
+  "matrix_sha256": "62396b0cc023f8abe305d0a81d26f90b477e6e4f504939017e28900244990315",
+  "index_nnz": 2207,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.31,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

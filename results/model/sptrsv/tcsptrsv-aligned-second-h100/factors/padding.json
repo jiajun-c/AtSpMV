@@ -1,0 +1,252 @@
+{
+  "Chebyshev1-L.mtx": {
+    "original_n": 261,
+    "padded_n": 272,
+    "added_identity_rows": 11
+  },
+  "Goodwin_013-L.mtx": {
+    "original_n": 1965,
+    "padded_n": 1968,
+    "added_identity_rows": 3
+  },
+  "Goodwin_017-L.mtx": {
+    "original_n": 3317,
+    "padded_n": 3328,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_17-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_19-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_36-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_50-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_66-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "arc130-L.mtx": {
+    "original_n": 130,
+    "padded_n": 144,
+    "added_identity_rows": 14
+  },
+  "bayer10-L.mtx": {
+    "original_n": 13436,
+    "padded_n": 13440,
+    "added_identity_rows": 4
+  },
+  "bcsstk04-L.mtx": {
+    "original_n": 132,
+    "padded_n": 144,
+    "added_identity_rows": 12
+  },
+  "bcsstm08-L.mtx": {
+    "original_n": 1074,
+    "padded_n": 1088,
+    "added_identity_rows": 14
+  },
+  "bcsstm19-L.mtx": {
+    "original_n": 817,
+    "padded_n": 832,
+    "added_identity_rows": 15
+  },
+  "bcsstm20-L.mtx": {
+    "original_n": 485,
+    "padded_n": 496,
+    "added_identity_rows": 11
+  },
+  "bcsstm21-L.mtx": {
+    "original_n": 3600,
+    "padded_n": 3600,
+    "added_identity_rows": 0
+  },
+  "bcsstm34-L.mtx": {
+    "original_n": 588,
+    "padded_n": 592,
+    "added_identity_rows": 4
+  },
+  "bloweybq-L.mtx": {
+    "original_n": 10001,
+    "padded_n": 10016,
+    "added_identity_rows": 15
+  },
+  "cdde2-L.mtx": {
+    "original_n": 961,
+    "padded_n": 976,
+    "added_identity_rows": 15
+  },
+  "dw256A-L.mtx": {
+    "original_n": 512,
+    "padded_n": 512,
+    "added_identity_rows": 0
+  },
+  "ex15-L.mtx": {
+    "original_n": 6867,
+    "padded_n": 6880,
+    "added_identity_rows": 13
+  },
+  "fpga_dcop_04-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_05-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_14-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_29-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_33-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_50-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_trans_01-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "freeFlyingRobot_16-L.mtx": {
+    "original_n": 6078,
+    "padded_n": 6080,
+    "added_identity_rows": 2
+  },
+  "goddardRocketProblem_1-L.mtx": {
+    "original_n": 831,
+    "padded_n": 832,
+    "added_identity_rows": 1
+  },
+  "linverse-L.mtx": {
+    "original_n": 11999,
+    "padded_n": 12000,
+    "added_identity_rows": 1
+  },
+  "lshp_406-L.mtx": {
+    "original_n": 406,
+    "padded_n": 416,
+    "added_identity_rows": 10
+  },
+  "mycielskian10-L.mtx": {
+    "original_n": 767,
+    "padded_n": 768,
+    "added_identity_rows": 1
+  },
+  "olm100-L.mtx": {
+    "original_n": 100,
+    "padded_n": 112,
+    "added_identity_rows": 12
+  },
+  "oscil_dcop_16-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "oscil_dcop_24-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "oscil_dcop_32-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "oscil_dcop_42-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "oscil_dcop_48-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "rajat06-L.mtx": {
+    "original_n": 10922,
+    "padded_n": 10928,
+    "added_identity_rows": 6
+  },
+  "rbsb480-L.mtx": {
+    "original_n": 480,
+    "padded_n": 480,
+    "added_identity_rows": 0
+  },
+  "rdb1250l-L.mtx": {
+    "original_n": 1250,
+    "padded_n": 1264,
+    "added_identity_rows": 14
+  },
+  "rdb5000-L.mtx": {
+    "original_n": 5000,
+    "padded_n": 5008,
+    "added_identity_rows": 8
+  },
+  "rdist2-L.mtx": {
+    "original_n": 3198,
+    "padded_n": 3200,
+    "added_identity_rows": 2
+  },
+  "robot-L.mtx": {
+    "original_n": 120,
+    "padded_n": 128,
+    "added_identity_rows": 8
+  },
+  "shermanACa-L.mtx": {
+    "original_n": 3432,
+    "padded_n": 3440,
+    "added_identity_rows": 8
+  },
+  "spiral-L.mtx": {
+    "original_n": 1434,
+    "padded_n": 1440,
+    "added_identity_rows": 6
+  },
+  "sts4098-L.mtx": {
+    "original_n": 4098,
+    "padded_n": 4112,
+    "added_identity_rows": 14
+  },
+  "swang2-L.mtx": {
+    "original_n": 3169,
+    "padded_n": 3184,
+    "added_identity_rows": 15
+  },
+  "t2d_q9-L.mtx": {
+    "original_n": 9801,
+    "padded_n": 9808,
+    "added_identity_rows": 7
+  },
+  "wang2-L.mtx": {
+    "original_n": 2903,
+    "padded_n": 2912,
+    "added_identity_rows": 9
+  }
+}

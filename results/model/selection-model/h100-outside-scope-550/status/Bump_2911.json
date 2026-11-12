@@ -1,0 +1,17 @@
+{
+  "dataset": "Bump_2911",
+  "matrix_sha256": "d420ad7470a40fd09d5de83eb41ca75eb311ba370c56c29fa21a39e16a031e0f",
+  "index_nnz": 127729899,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 221.221,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

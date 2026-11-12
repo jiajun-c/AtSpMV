@@ -1,0 +1,10 @@
+{
+  "dataset": "G55",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G55/G55.mtx",
+  "matrix_sha256": "4e17845f257cfcac2ebd0e760a8d42c52c01e295d02123432f454b4f408aec40",
+  "index_nnz": 24996,
+  "index_rows": 5000,
+  "elapsed_s": 0.653,
+  "returncode": 0,
+  "status": "ok"
+}

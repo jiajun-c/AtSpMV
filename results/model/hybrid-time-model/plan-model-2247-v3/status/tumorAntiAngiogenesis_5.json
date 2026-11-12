@@ -1,0 +1,19 @@
+{
+  "dataset": "tumorAntiAngiogenesis_5",
+  "matrix_sha256": "cfe334f4340452f2371d7795d121f467d966e1a31067f354eba5ea1fd2d94308",
+  "index_nnz": 4690,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.074,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

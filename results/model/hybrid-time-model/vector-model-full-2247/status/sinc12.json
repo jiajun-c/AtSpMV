@@ -1,0 +1,17 @@
+{
+  "dataset": "sinc12",
+  "matrix_sha256": "9366ebb4104decd2f8ec1d7853a37f0afbb51201958cdae05b2d804f9ade965c",
+  "index_nnz": 294986,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.482,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

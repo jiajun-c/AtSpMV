@@ -1,0 +1,34 @@
+Internal ctest changing into directory: /tmp/atspmv-dsm-sm90-build
+Test project /tmp/atspmv-dsm-sm90-build
+      Start  7: dsm_pagerank_correctness
+ 1/14 Test  #7: dsm_pagerank_correctness .........   Passed    1.05 sec
+      Start  8: dsm_pagerank_n1_i0
+ 2/14 Test  #8: dsm_pagerank_n1_i0 ...............   Passed    0.76 sec
+      Start  9: dsm_pagerank_n1_i1
+ 3/14 Test  #9: dsm_pagerank_n1_i1 ...............   Passed    0.78 sec
+      Start 10: dsm_pagerank_n1_i2
+ 4/14 Test #10: dsm_pagerank_n1_i2 ...............   Passed    0.41 sec
+      Start 11: dsm_pagerank_n1_i7
+ 5/14 Test #11: dsm_pagerank_n1_i7 ...............   Passed    0.89 sec
+      Start 12: dsm_pagerank_n513_i0
+ 6/14 Test #12: dsm_pagerank_n513_i0 .............   Passed    0.40 sec
+      Start 13: dsm_pagerank_n513_i1
+ 7/14 Test #13: dsm_pagerank_n513_i1 .............   Passed    0.37 sec
+      Start 14: dsm_pagerank_n513_i2
+ 8/14 Test #14: dsm_pagerank_n513_i2 .............   Passed    1.20 sec
+      Start 15: dsm_pagerank_n513_i7
+ 9/14 Test #15: dsm_pagerank_n513_i7 .............   Passed    0.38 sec
+      Start 16: dsm_pagerank_n4097_i0
+10/14 Test #16: dsm_pagerank_n4097_i0 ............   Passed    0.37 sec
+      Start 17: dsm_pagerank_n4097_i1
+11/14 Test #17: dsm_pagerank_n4097_i1 ............   Passed    1.17 sec
+      Start 18: dsm_pagerank_n4097_i2
+12/14 Test #18: dsm_pagerank_n4097_i2 ............   Passed    0.37 sec
+      Start 19: dsm_pagerank_n4097_i7
+13/14 Test #19: dsm_pagerank_n4097_i7 ............   Passed    1.04 sec
+      Start 20: dsm_spmv_correctness
+14/14 Test #20: dsm_spmv_correctness .............   Passed    1.42 sec
+
+100% tests passed, 0 tests failed out of 14
+
+Total Test time (real) =  10.63 sec

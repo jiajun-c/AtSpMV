@@ -1,0 +1,9 @@
+{
+  "name": "dataset22mfeatzernike_10NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dataset22mfeatzernike_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2000, 2000 ) nnz = 61134\nloadfile time    = 0.02547 sec\nnnzL = 61134\ntime_for_csc2CompressTile = 2.13 ms\ntime_cuda_solve = 0.739190 ms, Mflops = 165.41\nVALIDATION finite=1 max_error=1.4366285938649526e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

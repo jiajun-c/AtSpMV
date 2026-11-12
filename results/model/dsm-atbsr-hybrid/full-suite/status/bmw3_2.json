@@ -1,0 +1,10 @@
+{
+  "dataset": "bmw3_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bmw3_2/bmw3_2.mtx",
+  "matrix_sha256": "f323d640cdbcb1fe68a786f46818da4b490e3a6e4f3fd3169e814735f0011a65",
+  "index_nnz": 11288630,
+  "index_rows": 227362,
+  "elapsed_s": 4.164,
+  "returncode": 0,
+  "status": "ok"
+}

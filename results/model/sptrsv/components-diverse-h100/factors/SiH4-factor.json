@@ -1,0 +1,14 @@
+{
+  "matrix": "SiH4",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/SiH4/SiH4.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 5041,
+  "columns": 5041,
+  "original_nnz": 171903,
+  "factor_L_nnz": 418802,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 1.4042534248437732
+}

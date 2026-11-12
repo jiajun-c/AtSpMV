@@ -1,0 +1,10 @@
+{
+  "dataset": "nh2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nh2010/nh2010.mtx",
+  "matrix_sha256": "3cc27fcfe4b3f1bdb6dabd26db4b563028f063642648e7d79a729779c51797f0",
+  "index_nnz": 234550,
+  "index_rows": 48837,
+  "elapsed_s": 1.164,
+  "returncode": 0,
+  "status": "ok"
+}

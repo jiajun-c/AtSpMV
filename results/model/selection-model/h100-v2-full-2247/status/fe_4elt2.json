@@ -1,0 +1,17 @@
+{
+  "dataset": "fe_4elt2",
+  "matrix_sha256": "6e83576d527a868f150c058311af647348ae19e25fdcc2615158d40cadab6921",
+  "index_nnz": 65636,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.759,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

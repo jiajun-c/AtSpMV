@@ -1,0 +1,23 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 2
+   --order 2
+   --ode-solver 1
+   --t-final 0.02
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr
+   --solution results/applications/mfem-heat/smoke/atbsr.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1361
+plan rows=1361 nnz=20801 backend=atbsr tile=1 balanced=0 mixed_cap=0
+plan rows=1361 nnz=20799 backend=atbsr tile=1 balanced=0 mixed_cap=0
+plan rows=1361 nnz=20801 backend=atbsr tile=1 balanced=0 mixed_cap=0
+step 2, t = 0.02
+plan rows=1361 nnz=20801 backend=atbsr tile=1 balanced=0 mixed_cap=0
+APP_RESULT {"backend":"atbsr","dofs":1361,"steps":2,"nnz":20801,"initialization_s":0.52679249399999994,"evolution_s":0.0187469,"total_s":0.54553949700000004,"plan_s":0.013839149000000002,"plans":4,"spmv_calls":42,"linear_solves":2,"cg_iterations":40,"sum":-97444.918205958296,"l2":19496.333787164174}

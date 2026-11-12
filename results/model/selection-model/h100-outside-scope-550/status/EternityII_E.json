@@ -1,0 +1,17 @@
+{
+  "dataset": "EternityII_E",
+  "matrix_sha256": "110ac53bea0a88a118c9101280c75c4628d167c236ace50cfc37b65cc7fa9f52",
+  "index_nnz": 1503732,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 27.083,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

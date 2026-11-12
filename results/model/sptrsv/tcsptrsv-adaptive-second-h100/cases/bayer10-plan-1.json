@@ -1,0 +1,9 @@
+{
+  "name": "bayer10",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bayer10-L.mtx,default,cusparse,13440,75131,-1,7417.411,808.6784668,7.993605777e-15,2.568730709e-17,1.489532923e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bayer10-L.mtx,default-host,cusparse,13440,75131,-1,7417.411,815.92201,7.993605777e-15,2.568730709e-17,1.489532923e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bayer10-L.mtx,model,cusparse,13440,75131,-1,6902.798,808.2816162,7.993605777e-15,2.568730709e-17,1.489532923e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bayer10-L.mtx,model-host,cusparse,13440,75131,-1,6902.798,813.262825,7.993605777e-15,2.568730709e-17,1.489532923e-16,0\n",
+  "stderr": ""
+}

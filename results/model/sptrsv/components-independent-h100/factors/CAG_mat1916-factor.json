@@ -1,0 +1,14 @@
+{
+  "matrix": "CAG_mat1916",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/CAG_mat1916/CAG_mat1916.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1916,
+  "columns": 1916,
+  "original_nnz": 195985,
+  "factor_L_nnz": 58499,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.12425525998696685
+}

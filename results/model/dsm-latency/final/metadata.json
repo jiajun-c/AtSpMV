@@ -1,0 +1,21 @@
+{
+  "source_sha256": "6970e41c516a283c6639f01238b14a10fa673d0fbb11beddbad9ef5b5a7cb9ed",
+  "script_sha256": "f9c078362373acb1e94dd2c3a057dec347a7d08a361d48739c65bdcfbf778c90",
+  "binary": "/tmp/atspmv-dsm-sm90-build/dsm_latency_bench",
+  "binary_sha256": "24bd6aec5431e38af3e55b8850e449157cb4363ed38955d3c5226a571df59885",
+  "cuda_visible_devices": "3",
+  "iterations": [
+    1024,
+    4096
+  ],
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "trials": 21,
+  "method": "32 calls per CUDA graph; 3 warmup rounds and randomly interleaved candidates each round; p10/median/p90 from trials. Clock64 samples refer to the last graph node; cudaEvent time is per graph node.",
+  "timing_limits": "Dependent loops report cycles/iteration including dependent-address or value arithmetic. Single atomic includes clock/branch/issue and need not await atomic completion. Returnless RED clock is not completion latency. DSM round times mbarrier transaction and rank0 combine after initial cluster.sync; event time includes initialization. Atomic_plain kernels have no cluster barrier. Independent output addresses are 128 bytes apart. All hot caches; no clocks locked.",
+  "validation": "Every candidate checked via direct launch and graph replay; expected counters, vector sum, and final DSM row sum are checked. Number of distinct physical SM IDs from final graph node is recorded.",
+  "runs": 6
+}

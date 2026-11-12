@@ -1,0 +1,14 @@
+{
+  "matrix": "Goodwin_013",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Goodwin_013/Goodwin_013.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1965,
+  "columns": 1965,
+  "original_nnz": 56069,
+  "factor_L_nnz": 94349,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.1350937271490693
+}

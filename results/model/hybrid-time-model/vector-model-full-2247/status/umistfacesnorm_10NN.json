@@ -1,0 +1,17 @@
+{
+  "dataset": "umistfacesnorm_10NN",
+  "matrix_sha256": "dfe200c9c10348cdb29ac58b1bc8ed77bd8edb2de33bbae77e5d29f0716f6bce",
+  "index_nnz": 6990,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.484,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

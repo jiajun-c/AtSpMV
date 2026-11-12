@@ -1,0 +1,10 @@
+{
+  "dataset": "cvxbqp1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cvxbqp1/cvxbqp1.mtx",
+  "matrix_sha256": "d95a80a39640c91c2d211bfd1de1bd6a542b72268b502b75fb7773643cfd6437",
+  "index_nnz": 349968,
+  "index_rows": 50000,
+  "elapsed_s": 1.408,
+  "returncode": 0,
+  "status": "ok"
+}

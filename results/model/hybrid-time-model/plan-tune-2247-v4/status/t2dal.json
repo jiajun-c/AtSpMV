@@ -1,0 +1,19 @@
+{
+  "dataset": "t2dal",
+  "matrix_sha256": "452ccb797509143e6f0618650a5ff069533751eb20f5ca43c7fa80dbccd0a22b",
+  "index_nnz": 37465,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.981,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

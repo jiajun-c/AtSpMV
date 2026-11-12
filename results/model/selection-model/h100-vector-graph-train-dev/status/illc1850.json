@@ -1,0 +1,17 @@
+{
+  "dataset": "illc1850",
+  "matrix_sha256": "5f1b2210f5d91fc5c2565e0dee5230ad5c3cc89b70010e2e1f8b371c2ac52168",
+  "index_nnz": 8758,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.805,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Stranke94",
+  "matrix_sha256": "849990a5b1da45d069d07d4a25f14bd47507352cd404943df75564ac5799d591",
+  "index_nnz": 90,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.873,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

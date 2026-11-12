@@ -1,0 +1,8 @@
+{
+  "cases": 1,
+  "manifest_total": 2247,
+  "all_cases_completed_successfully": false,
+  "positive_per_call_saving": 1,
+  "median_break_even_calls": 257368,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution."
+}

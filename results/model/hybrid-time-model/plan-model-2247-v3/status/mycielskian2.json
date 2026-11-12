@@ -1,0 +1,19 @@
+{
+  "dataset": "mycielskian2",
+  "matrix_sha256": "c13f180d3af4b1c001fe8c1d9dc4e58c7343d569d55c6e9f6e6707b76e116205",
+  "index_nnz": 2,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.814,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

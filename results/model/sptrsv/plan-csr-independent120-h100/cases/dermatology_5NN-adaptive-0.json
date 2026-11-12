@@ -1,0 +1,8 @@
+{
+  "name": "dermatology_5NN",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/dermatology_5NN-L.mtx,default,cusparse,366,3470,-1,3359.505,147.0720062,1.099120794e-14,7.406742181e-17,9.168572028e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/dermatology_5NN-L.mtx,default-host,cusparse,366,3470,-1,3359.505,153.767105,1.099120794e-14,7.406742181e-17,9.168572028e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/dermatology_5NN-L.mtx,model,cached-csr,366,3470,165,1395.92,89.14880371,1.099120794e-14,7.406742181e-17,9.168572028e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/dermatology_5NN-L.mtx,model-host,cached-csr,366,3470,165,1395.92,95.59414,1.099120794e-14,7.406742181e-17,9.168572028e-17,256\n",
+  "stderr": ""
+}

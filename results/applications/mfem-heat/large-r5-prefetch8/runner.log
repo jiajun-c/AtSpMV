@@ -1,0 +1,3 @@
+RETRY due to external GPU use [{'pid': 1777833, 'name': '/tmp/atspmv-mfem-apps/apps/mfem/mfem_sparse_sum_test'}]
+RETRY due to external GPU use [{'pid': 1779146, 'name': '[No data]'}]
+runner_exit=143

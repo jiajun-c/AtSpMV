@@ -1,0 +1,9 @@
+{
+  "name": "cz148",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/cz148-L.mtx,default,cusparse,160,1737,-1,2521.257,82.08959961,1.33226763e-15,3.195377836e-17,8.566785881e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/cz148-L.mtx,default-host,cusparse,160,1737,-1,2521.257,89.80738,1.33226763e-15,3.195377836e-17,8.566785881e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/cz148-L.mtx,model,cached-csr,160,1737,104,1209.026,54.13439941,1.33226763e-15,3.195377836e-17,8.566785881e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/cz148-L.mtx,model-host,cached-csr,160,1737,104,1209.026,61.03084,1.33226763e-15,3.195377836e-17,8.566785881e-17,256\n",
+  "stderr": ""
+}

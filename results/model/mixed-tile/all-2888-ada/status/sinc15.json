@@ -1,0 +1,15 @@
+{
+  "dataset": "sinc15",
+  "matrix_sha256": "1ad29190a5532a2e62c594984f3cf5a1c01aa6631febc92808f6c13d2804b87e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.739,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

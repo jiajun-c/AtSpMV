@@ -1,0 +1,31 @@
+{
+  "dataset": "ohne2",
+  "matrix_sha256": "8ba827a5db2c88b60d57ac7d8ee1a47e74609432291fbdee938345cbbce9649d",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/ohne2/ohne2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs.csv",
+        "20261127",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.144666116917506,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/ohne2/ohne2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs-reverse.csv",
+        "20261128",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 5.517973945941776,
+      "reason": null
+    }
+  ]
+}

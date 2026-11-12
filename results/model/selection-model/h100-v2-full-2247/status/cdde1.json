@@ -1,0 +1,17 @@
+{
+  "dataset": "cdde1",
+  "matrix_sha256": "4b1dd267df04210befb61234d6f1a38c3ac89dff3c040e4192e38b20cf0f9c0c",
+  "index_nnz": 4681,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.535,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

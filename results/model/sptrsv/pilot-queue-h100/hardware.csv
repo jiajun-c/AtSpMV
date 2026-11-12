@@ -1,0 +1,5 @@
+index, name, driver_version, utilization.gpu [%], memory.used [MiB]
+0, NVIDIA RTX 5880 Ada Generation, 580.178.04, 100 %, 14472 MiB
+1, NVIDIA RTX 5880 Ada Generation, 580.178.04, 96 %, 46054 MiB
+2, NVIDIA H100 PCIe, 580.178.04, 100 %, 61723 MiB
+3, NVIDIA H100 PCIe, 580.178.04, 0 %, 0 MiB

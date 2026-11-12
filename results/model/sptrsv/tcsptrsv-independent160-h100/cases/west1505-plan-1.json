@@ -1,0 +1,9 @@
+{
+  "name": "west1505",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west1505-L.mtx,default,cusparse,1520,4096,-1,2199.05,44.6303978,8.881784197e-16,3.612531292e-17,1.080095181e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west1505-L.mtx,default-host,cusparse,1520,4096,-1,2199.05,50.641515,8.881784197e-16,3.612531292e-17,1.080095181e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west1505-L.mtx,model,cached,1520,4096,33,6490.781,30.71360016,8.881784197e-16,3.612531292e-17,1.012809643e-16,1024\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west1505-L.mtx,model-host,cached,1520,4096,33,6490.781,36.40974,8.881784197e-16,3.612531292e-17,1.012809643e-16,1024\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "rdist2",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/rdist2-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 3198,
+  "nnz": 101905,
+  "min_abs_diagonal": 0.01268362146490275,
+  "max_abs_diagonal": 554.4440183587039,
+  "elapsed_s": 0.05530372494831681
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "ncvxqp5",
+  "matrix_sha256": "6640cb3d35bcaf6ed4d9605d1a6b6cc167d975976d80d190104b38ef156bc36a",
+  "index_nnz": 424966,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.705,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

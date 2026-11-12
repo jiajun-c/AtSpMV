@@ -1,0 +1,10 @@
+{
+  "dataset": "nopss_11k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nopss_11k/nopss_11k.mtx",
+  "matrix_sha256": "664e275d991d490f502b6365999e651672cd539bb0a607377f9d1faaf35e4f2d",
+  "index_nnz": 44941,
+  "index_rows": 11685,
+  "elapsed_s": 0.664,
+  "returncode": 0,
+  "status": "ok"
+}

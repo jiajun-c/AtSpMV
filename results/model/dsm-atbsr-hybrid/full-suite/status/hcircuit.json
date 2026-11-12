@@ -1,0 +1,10 @@
+{
+  "dataset": "hcircuit",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hcircuit/hcircuit.mtx",
+  "matrix_sha256": "4e26756b7187ffdc5726548925312fc29a691b40179f8d2091790efd8ec37994",
+  "index_nnz": 513072,
+  "index_rows": 105676,
+  "elapsed_s": 1.207,
+  "returncode": 0,
+  "status": "ok"
+}

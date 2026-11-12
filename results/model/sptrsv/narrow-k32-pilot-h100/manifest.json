@@ -1,0 +1,45 @@
+{
+  "selection": "narrow-level exploratory cases plus separately drawn prior-diverse candidates",
+  "names": [
+    "dwt_310",
+    "west0479",
+    "bwm200",
+    "Trefethen_200b",
+    "nos4",
+    "fs_183_4",
+    "iris_dataset_30NN",
+    "circuit204",
+    "breasttissue_10NN",
+    "Glass_10NN",
+    "bcsstk04",
+    "Journals",
+    "YaleA_10NN",
+    "cavity03",
+    "comsol",
+    "jazz",
+    "plat362",
+    "tomography"
+  ],
+  "initial_names": [
+    "dwt_310",
+    "west0479",
+    "bwm200",
+    "Trefethen_200b",
+    "nos4",
+    "fs_183_4",
+    "iris_dataset_30NN",
+    "circuit204",
+    "breasttissue_10NN",
+    "Glass_10NN",
+    "bcsstk04"
+  ],
+  "additional_names": [
+    "Journals",
+    "YaleA_10NN",
+    "cavity03",
+    "comsol",
+    "jazz",
+    "plat362",
+    "tomography"
+  ]
+}

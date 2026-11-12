@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_bgindy",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_bgindy/lpi_bgindy.mtx",
+  "matrix_sha256": "cfdd8757f942a1ab06ff84f1096bf2062efab42f06de73d8876a1d5be09aa010",
+  "index_nnz": 66266,
+  "index_rows": 2671,
+  "elapsed_s": 1.216,
+  "returncode": 0,
+  "status": "ok"
+}

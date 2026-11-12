@@ -1,0 +1,7 @@
+{
+  "name": "bcsstm08",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstm08-L.mtx,model,cusparse,1074,1074,1,1995.887,6.492800236,2.220446049e-16,4.598295089e-17,8.860018027e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstm08-L.mtx,model-host,cusparse,1074,1074,1,1995.887,13.04286,2.220446049e-16,4.598295089e-17,8.860018027e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstm08-L.mtx,default,cusparse,1074,1074,-1,3429.818,6.543999672,2.220446049e-16,4.598295089e-17,8.860018027e-17\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstm08-L.mtx,default-host,cusparse,1074,1074,-1,3429.818,12.98887,2.220446049e-16,4.598295089e-17,8.860018027e-17\n",
+  "stderr": ""
+}

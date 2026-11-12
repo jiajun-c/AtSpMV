@@ -1,0 +1,17 @@
+{
+  "dataset": "iris_dataset_30NN",
+  "matrix_sha256": "573ab4d1c248d703bdc2c67131e48fb5d2840608633a345ac2612e4aa3bfb844",
+  "index_nnz": 5518,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.178,
+  "gpu_after": {
+    "utilization_percent": 10,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "adder_dcop_17",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_17-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1813,
+  "nnz": 4322,
+  "min_abs_diagonal": 2e-12,
+  "max_abs_diagonal": 1.0,
+  "elapsed_s": 0.01608533808030188
+}

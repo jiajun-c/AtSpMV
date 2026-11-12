@@ -23,3 +23,59 @@ build/
 .vscode/
 data/
 # End of https://www.toptal.com/developers/gitignore/api/cmake
+# Local Python environments and generated runs
+__pycache__/
+*.py[cod]
+.venv/
+results_spmv/
+artifacts/
+a.out
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local test and formatting caches
+.pytest_cache/
+.ruff_cache/
+
+# Generated experiment artifacts remain in local archives, not source releases.
+/results/**/*.bin
+/results/**/*.joblib
+/results/**/*.mtx
+/results/**/*.ncu-rep
+/results/**/*.nsys-rep
+/results/**/*.qdrep
+/results/**/*.sqlite
+/results/**/*.cubin
+/results/**/*.fatbin
+/results/**/*.o
+/results/**/*.a
+/results/**/*.so
+/results/**/adaptive
+/results/**/atspmv-longest-row-audit
+/results/**/bench
+/results/**/capellini
+/results/**/current
+/results/**/cusparse_buffer_probe
+/results/**/cusparse_spmm_core_compare
+/results/**/fixed
+/results/**/mfem_heat
+/results/**/mixed_tile_bench
+/results/**/ours
+/results/**/packed_spmv_bench
+/results/**/plan
+/results/**/previous
+/results/**/recblock
+/results/**/spmv_hybrid_validation
+/results/**/spmv_plan_bench
+/results/**/spmv_plan_test
+/results/**/spmv_plan_test-margin2
+/results/**/spmv_value_update_test
+/results/**/sptrsv_plan_test
+/results/**/sptrsv_selection_test
+/results/**/tcsptrsv
+/results/**/tcsptrsv-binary
+/results/**/matrix-overlay/
+/results/**/factors/
+/results/model/sptrsv/components-grouped-v2-pilot-h100/factors
+/results/model/sptrsv/csr-narrow-pilot-h100/factors

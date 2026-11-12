@@ -1,0 +1,10 @@
+{
+  "dataset": "Spielman_k100",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Spielman_k100/Spielman_k100.mtx",
+  "matrix_sha256": "c222aefca52c71a11a01f5fc1c4ab6efd53e02dbf91c19b218a72bfca29bf356",
+  "index_nnz": 1025404,
+  "index_rows": 338402,
+  "elapsed_s": 2.042,
+  "returncode": 0,
+  "status": "ok"
+}

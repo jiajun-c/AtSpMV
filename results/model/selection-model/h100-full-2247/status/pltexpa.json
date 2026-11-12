@@ -1,0 +1,17 @@
+{
+  "dataset": "pltexpa",
+  "matrix_sha256": "23032068c7211601c00a6f23998ab3c6285b35d8d5c6bdfdab980f5b2ab37e8b",
+  "index_nnz": 143059,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.568,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "can_256",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/can_256/can_256.mtx",
+  "matrix_sha256": "5dbbb02d7d596baed75ad63f920cf44872b6844242c79cf0cd99a4bba02796a5",
+  "index_nnz": 2916,
+  "index_rows": 256,
+  "elapsed_s": 0.857,
+  "returncode": 0,
+  "status": "ok"
+}

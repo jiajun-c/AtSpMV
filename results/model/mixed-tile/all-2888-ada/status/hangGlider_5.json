@@ -1,0 +1,15 @@
+{
+  "dataset": "hangGlider_5",
+  "matrix_sha256": "4207730e5f253c60d4b481d270bd75c1e590a145ca286815d0585605ae3bee22",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.114,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

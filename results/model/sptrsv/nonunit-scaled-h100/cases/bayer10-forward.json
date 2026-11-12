@@ -1,0 +1,7 @@
+{
+  "name": "bayer10",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/bayer10-L.mtx,default,cusparse,13436,75127,-1,7390.518,809.1296387,7.993605777e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/bayer10-L.mtx,default-host,cusparse,13436,75127,-1,7390.518,816.02665,7.993605777e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/bayer10-L.mtx,model,cusparse,13436,75127,-1,8580.802,808.9855957,7.993605777e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/bayer10-L.mtx,model-host,cusparse,13436,75127,-1,8580.802,815.90346,7.993605777e-15\n",
+  "stderr": ""
+}

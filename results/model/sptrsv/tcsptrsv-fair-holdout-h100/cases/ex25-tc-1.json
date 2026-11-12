@@ -1,0 +1,9 @@
+{
+  "name": "ex25",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx --------------\nsuccess open file\ninput matrix A: ( 848, 848 ) nnz = 32950\nloadfile time    = 0.01021 sec\nnnzL = 32950\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.05 ms\ntime_cuda_solve = 0.404910 ms, Mflops = 162.75\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.89603960396039606 expected=0.89603960396039606 b=0.89603960396039606\nsample i=2 got=1.4900990099009901 expected=1.4900990099009901 b=1.4900990099009901\nsample i=3 got=1.0841584158415842 expected=1.0841584158415842 b=1.0841584158415842\nsample i=4 got=0.67821782178217815 expected=0.67821782178217815 b=0.67821782178217815\nsample i=5 got=1.3316831683168315 expected=1.3316831683168315 b=1.3316831683168315\nsample i=6 got=0.95544554455445541 expected=0.95544554455445541 b=0.95544554455445541\nsample i=7 got=0.63861386138613863 expected=0.63861386138613863 b=0.63861386138613863\nVALIDATION finite=1 max_error=4.1160732896149863 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

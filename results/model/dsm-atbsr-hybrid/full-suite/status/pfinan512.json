@@ -1,0 +1,10 @@
+{
+  "dataset": "pfinan512",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pfinan512/pfinan512.mtx",
+  "matrix_sha256": "19a9ad7220934a56f63a38dbc0d766aaf00fc96463913cfb0c130c2a6a1acf33",
+  "index_nnz": 596992,
+  "index_rows": 74752,
+  "elapsed_s": 1.288,
+  "returncode": 0,
+  "status": "ok"
+}

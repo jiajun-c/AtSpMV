@@ -1,0 +1,15 @@
+{
+  "dataset": "cnr-2000",
+  "matrix_sha256": "aa1e885ba738927a0b8e9b8c031a434bfb8898390777275cf3b27ebef3ed276f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.715,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

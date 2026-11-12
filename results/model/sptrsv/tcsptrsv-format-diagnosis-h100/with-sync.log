@@ -1,0 +1,23 @@
+PRECISION = 64-bit Double Precision
+the matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-factor-pilot/bcsstk01-L.mtx --------------
+success open file
+input matrix A: ( 48, 48 ) nnz = 620
+loadfile time    = 0.00131 sec
+nnzL = 620
+CSC col6 row=6 val=1
+CSC col6 row=10 val=0.001329080276436582
+time_for_csc2CompressTile = 2.09 ms
+DIAG_RECON checked=56 errors=0 tiles=8 vals=56
+ROW5 tile=0 bit=0 expected=-0.741198271 got=-0.741198271
+TILE_RECON checked=428 errors=0 missingrow=0 missingbit=0 badvalue=0 tiles=26 vals=428
+row5 col=0 val=-0.74119827053663623 xref=0.5 block=1
+time_cuda_solve = 0.070760 ms, Mflops = 17.52
+sample i=0 got=0.5 expected=0.5 b=0.5
+sample i=1 got=0.96534653465346532 expected=0.96534653465346532 b=0.96534653465346532
+sample i=2 got=1.3316831683168315 expected=1.3316831683168315 b=1.3316831683168315
+sample i=3 got=1.1633663366336635 expected=1.1633663366336635 b=1.1633663366336635
+sample i=4 got=1.4603960396039604 expected=1.4603960396039604 b=1.4603960396039604
+sample i=5 got=0.86633663366336633 expected=0.86633663366336633 b=0.49573749839504822
+sample i=6 got=0.69801980198019797 expected=0.69801980198019797 b=0.43168316831619247
+sample i=7 got=0.52970297029702973 expected=0.52970297029702973 b=-0.037040616574684715
+VALIDATION finite=1 max_error=9.9920072216264089e-16 reference_scale=1.4900990099009901

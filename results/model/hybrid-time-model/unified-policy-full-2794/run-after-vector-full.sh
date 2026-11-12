@@ -1,0 +1,18 @@
+#!/bin/bash
+set -u
+cd /staff/chengjiajun/workspace/AtSpmv || exit 1
+out=results/model/hybrid-time-model/unified-policy-full-2794
+previous=results/model/hybrid-time-model/vector-model-full-2247
+pid=$(cat "$previous/queue.pid")
+while [ -r "/proc/$pid/cmdline" ] && tr '\0' ' ' < "/proc/$pid/cmdline" | rg -q 'vector-model-full-2247/run-after-80.sh'; do sleep 30; done
+while true; do
+    python3 "$out/provenance/benchmark_plan_selection.py" --exe "$out/provenance/spmv_hybrid_validation" --index "$out/index.csv" --matrix-root /staff/chengjiajun/workspace/database/suitsparse --output "$out" --gpu-index 3 --monitor-resident --selection auto_model_fallback_tuned --counterbalance --extended-baselines --internal-graph-events --defer-memory-infeasible --retry-shared-storage-on-oom >> "$out/runner.log" 2>&1
+    rc=$?
+    if [ "$rc" -ne 75 ]; then break; fi
+done
+if [ "$rc" -ne 0 ]; then exit "$rc"; fi
+python3 "$out/provenance/audit_plan_sweep.py" "$out" || exit $?
+python3 "$out/provenance/audit_model_fallback_policy.py" "$out" --assume-h100-default-scope || exit $?
+python3 "$out/provenance/analyze_plan_selection.py" "$out" || exit $?
+python3 "$out/provenance/analyze_plan_amortization.py" "$out" || exit $?
+python3 "$out/provenance/plan_speedup_uncertainty.py" "$out" || exit $?

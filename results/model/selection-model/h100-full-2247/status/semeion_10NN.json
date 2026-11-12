@@ -1,0 +1,17 @@
+{
+  "dataset": "semeion_10NN",
+  "matrix_sha256": "1a704a97d2cd51bd2984c940b42420259907690c38151eaf5eac223d26f9808f",
+  "index_nnz": 22226,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.086,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

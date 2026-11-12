@@ -1,0 +1,15 @@
+{
+  "dataset": "wiki-topcats",
+  "matrix_sha256": "94268db6fb9022d8d5df3b86248c3c370e32ba3e3d0839c1092cfc64f7eb49bc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 37.656,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

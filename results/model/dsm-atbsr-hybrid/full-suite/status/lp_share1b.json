@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_share1b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_share1b/lp_share1b.mtx",
+  "matrix_sha256": "0256cfeccbb170cc489498d27abad02498c5817352ef2202ca1a12cbc3f27885",
+  "index_nnz": 1179,
+  "index_rows": 117,
+  "elapsed_s": 0.565,
+  "returncode": 0,
+  "status": "ok"
+}

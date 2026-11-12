@@ -1,0 +1,13 @@
+{
+  "matrix": "lock1074",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lock1074/lock1074.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1074,
+  "columns": 1074,
+  "original_nnz": 51588,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.04637954500503838
+}

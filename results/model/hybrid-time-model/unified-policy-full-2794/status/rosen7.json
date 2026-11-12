@@ -1,0 +1,17 @@
+{
+  "dataset": "rosen7",
+  "matrix_sha256": "6977dbf5db1860c0e59ac472e7dd2e08b712a6181758bbd5f3f081934cb155df",
+  "index_nnz": 8034,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.164,
+  "gpu_after": {
+    "utilization_percent": 14,
+    "free_memory_mib": 81079
+  }
+}

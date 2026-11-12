@@ -1,0 +1,10 @@
+{
+  "dataset": "air06",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/air06/air06.mtx",
+  "matrix_sha256": "9eecd7688cd72879720d4aede34337d54e5476f655510d2eacafab3ef4829321",
+  "index_nnz": 70806,
+  "index_rows": 825,
+  "elapsed_s": 0.587,
+  "returncode": 0,
+  "status": "ok"
+}

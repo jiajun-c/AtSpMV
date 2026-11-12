@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_qap8",
+  "matrix_sha256": "2a9a4744c5318cf6f029b7988a418d5746098a3f3ffdb45a7e79c7a2b74c2bd5",
+  "index_nnz": 7296,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.187,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

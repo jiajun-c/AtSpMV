@@ -1,0 +1,9 @@
+{
+  "name": "west0479",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/west0479-L.mtx --------------\nsuccess open file\ninput matrix A: ( 480, 480 ) nnz = 2377\nloadfile time    = 0.00118 sec\nnnzL = 2377\ntime_for_csc2CompressTile = 2.50 ms\ntime_cuda_solve = 0.179810 ms, Mflops = 26.44\nVALIDATION finite=1 max_error=2.7755575615628914e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

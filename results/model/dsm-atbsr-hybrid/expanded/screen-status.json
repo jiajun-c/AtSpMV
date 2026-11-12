@@ -1,0 +1,230 @@
+[
+  {
+    "name": "rajat20",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=2652561.48, dsm_available=1, correct=1",
+    "seconds": 3.32
+  },
+  {
+    "name": "trans4",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=7777550.23, dsm_available=1, correct=1",
+    "seconds": 8.89
+  },
+  {
+    "name": "mult_dcop_02",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1274314.23, dsm_available=1, correct=1",
+    "seconds": 1.82
+  },
+  {
+    "name": "mult_dcop_01",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1305935.57, dsm_available=1, correct=1",
+    "seconds": 2.42
+  },
+  {
+    "name": "rajat17",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=2718909.25, dsm_available=1, correct=1",
+    "seconds": 3.87
+  },
+  {
+    "name": "case9",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1038366.69, dsm_available=1, correct=1",
+    "seconds": 1.87
+  },
+  {
+    "name": "ts-palko",
+    "status": "ok",
+    "headline": "selected=hybrid_dsm_atbsr, measured=1, setup_us=2286026.58, dsm_available=1, correct=1",
+    "seconds": 3.02
+  },
+  {
+    "name": "rajat16",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=2915256.93, dsm_available=1, correct=1",
+    "seconds": 3.48
+  },
+  {
+    "name": "c-73",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=4182283.14, dsm_available=1, correct=1",
+    "seconds": 4.88
+  },
+  {
+    "name": "lowThrust_6",
+    "status": "ok",
+    "headline": "selected=hybrid_dsm_atbsr, measured=1, setup_us=550790.833, dsm_available=1, correct=1",
+    "seconds": 1.62
+  },
+  {
+    "name": "a0nsdsil",
+    "status": "ok",
+    "headline": "selected=hybrid_dsm_atbsr, measured=1, setup_us=1108182.46, dsm_available=1, correct=1",
+    "seconds": 1.82
+  },
+  {
+    "name": "lowThrust_5",
+    "status": "ok",
+    "headline": "selected=hybrid_dsm_atbsr, measured=1, setup_us=553283.747, dsm_available=1, correct=1",
+    "seconds": 1.37
+  },
+  {
+    "name": "rail507",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1510413.99, dsm_available=1, correct=1",
+    "seconds": 2.27
+  },
+  {
+    "name": "rail582",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1459799.66, dsm_available=1, correct=1",
+    "seconds": 1.92
+  },
+  {
+    "name": "case39",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1813124.66, dsm_available=1, correct=1",
+    "seconds": 2.42
+  },
+  {
+    "name": "c-53",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1416573.45, dsm_available=1, correct=1",
+    "seconds": 2.07
+  },
+  {
+    "name": "c-60",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1211243.59, dsm_available=1, correct=1",
+    "seconds": 2.27
+  },
+  {
+    "name": "psmigr_2",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1124752.14, dsm_available=1, correct=1",
+    "seconds": 1.62
+  },
+  {
+    "name": "3D_28984_Tetra",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1826015.67, dsm_available=1, correct=1",
+    "seconds": 2.62
+  },
+  {
+    "name": "c-63",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1589117.26, dsm_available=1, correct=1",
+    "seconds": 2.42
+  },
+  {
+    "name": "c-62ghs",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1820137.02, dsm_available=1, correct=1",
+    "seconds": 2.37
+  },
+  {
+    "name": "ckt11752_dc_1",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1401464.52, dsm_available=1, correct=1",
+    "seconds": 1.87
+  },
+  {
+    "name": "bundle1",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1169354.32, dsm_available=1, correct=1",
+    "seconds": 2.22
+  },
+  {
+    "name": "vsp_sctap1-2b_and_seymourl",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1070142.12, dsm_available=1, correct=1",
+    "seconds": 1.52
+  },
+  {
+    "name": "Zd_Jac3",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1265536, dsm_available=1, correct=1",
+    "seconds": 2.47
+  },
+  {
+    "name": "std1_Jac3",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1641048.61, dsm_available=1, correct=1",
+    "seconds": 2.37
+  },
+  {
+    "name": "heart1",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=950069.928, dsm_available=1, correct=1",
+    "seconds": 2.07
+  },
+  {
+    "name": "EternityII_Etilde",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=875747.765, dsm_available=1, correct=1",
+    "seconds": 1.57
+  },
+  {
+    "name": "caidaRouterLevel",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=2995009.33, dsm_available=1, correct=1",
+    "seconds": 3.82
+  },
+  {
+    "name": "Zd_Jac6",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1569003.57, dsm_available=1, correct=1",
+    "seconds": 2.57
+  },
+  {
+    "name": "fome21",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=878974.765, dsm_available=1, correct=1",
+    "seconds": 1.37
+  },
+  {
+    "name": "ACTIVSg10K",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=331453.973, dsm_available=1, correct=1",
+    "seconds": 0.77
+  },
+  {
+    "name": "nh2010",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=759813.45, dsm_available=1, correct=1",
+    "seconds": 1.67
+  },
+  {
+    "name": "t60k",
+    "status": "ok",
+    "headline": "selected=hybrid_dsm_atbsr, measured=1, setup_us=730609.974, dsm_available=1, correct=1",
+    "seconds": 1.42
+  },
+  {
+    "name": "ch7-8-b4",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=1964326.41, dsm_available=1, correct=1",
+    "seconds": 2.82
+  },
+  {
+    "name": "mhd4800a",
+    "status": "ok",
+    "headline": "selected=csr_two_stage, measured=1, setup_us=381695.287, dsm_available=1, correct=1",
+    "seconds": 0.82
+  },
+  {
+    "name": "mark3jac120",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=723435.802, dsm_available=1, correct=1",
+    "seconds": 1.57
+  },
+  {
+    "name": "lhr07c",
+    "status": "ok",
+    "headline": "selected=atbsr, measured=1, setup_us=313238.682, dsm_available=1, correct=1",
+    "seconds": 0.97
+  }
+]

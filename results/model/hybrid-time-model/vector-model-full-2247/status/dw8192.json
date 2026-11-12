@@ -1,0 +1,17 @@
+{
+  "dataset": "dw8192",
+  "matrix_sha256": "29ed7a2b63536f4b37f842154fc4720ebe830dd6b2bef8fb3a3988c1702a4fdb",
+  "index_nnz": 41746,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.882,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

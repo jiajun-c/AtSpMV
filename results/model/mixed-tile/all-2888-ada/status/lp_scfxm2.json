@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_scfxm2",
+  "matrix_sha256": "38f3f089cfc19d9768730e9d0942c3d53be47f5c67af448e25cb94df4128c12b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.179,
+  "gpu_after": {
+    "utilization_percent": 20,
+    "free_memory_mib": 48508
+  }
+}

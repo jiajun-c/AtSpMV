@@ -1,0 +1,8 @@
+{
+  "name": "bwm200",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/bwm200-L.mtx,default,cusparse,200,597,-1,2845.711,145.9104004,0,4.396970693e-17,7.304777066e-17,0\nresults/model/sptrsv/components-independent-h100/factors/bwm200-L.mtx,default-host,cusparse,200,597,-1,2845.711,152.963,0,4.396970693e-17,7.304777066e-17,0\nresults/model/sptrsv/components-independent-h100/factors/bwm200-L.mtx,model,cached-csr,200,597,200,1264.326,98.11840057,0,4.396970693e-17,7.304777066e-17,256\nresults/model/sptrsv/components-independent-h100/factors/bwm200-L.mtx,model-host,cached-csr,200,597,200,1264.326,104.12061,0,4.396970693e-17,7.304777066e-17,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dw256A",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/dw256A-L.mtx,default,cusparse,512,4239,-1,3372.287,103.6511993,4.130029652e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/dw256A-L.mtx,default-host,cusparse,512,4239,-1,3372.287,111.51734,4.130029652e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/dw256A-L.mtx,model,cached,512,4239,73,1435.172,58.05760193,5.684341886e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/dw256A-L.mtx,model-host,cached,512,4239,73,1435.172,65.08246,5.684341886e-14\n",
+  "stderr": ""
+}

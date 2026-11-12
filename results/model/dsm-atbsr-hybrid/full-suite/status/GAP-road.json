@@ -1,0 +1,10 @@
+{
+  "dataset": "GAP-road",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/GAP-road/GAP-road.mtx",
+  "matrix_sha256": "621147d06948b05e0c8ebb57061052ccbf088c8cc6d9a4ce81c2f8195ff38de7",
+  "index_nnz": 57708624,
+  "index_rows": 23947347,
+  "elapsed_s": 32.228,
+  "returncode": 0,
+  "status": "ok"
+}

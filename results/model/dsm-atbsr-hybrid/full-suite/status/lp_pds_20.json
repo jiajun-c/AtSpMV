@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_pds_20",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_pds_20/lp_pds_20.mtx",
+  "matrix_sha256": "eee241775f416cbfc225838aebd8ba52d4a683f48fc33c28f45c7661444db7c5",
+  "index_nnz": 232647,
+  "index_rows": 33874,
+  "elapsed_s": 1.292,
+  "returncode": 0,
+  "status": "ok"
+}

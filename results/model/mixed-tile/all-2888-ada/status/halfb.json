@@ -1,0 +1,15 @@
+{
+  "dataset": "halfb",
+  "matrix_sha256": "33ffcd4fe5f8089548351315666d16005d5c8d1c44cf81dfdaecde3a123a48e8",
+  "gpu_before": {
+    "utilization_percent": 50,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.497,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

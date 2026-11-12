@@ -1,0 +1,19 @@
+{
+  "dataset": "rw496",
+  "matrix_sha256": "6797da2221bc297db15a00b54fe6094e484f375577b714436093dd59c302017c",
+  "index_nnz": 1859,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.037,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

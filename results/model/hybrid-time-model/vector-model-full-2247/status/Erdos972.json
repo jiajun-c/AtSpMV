@@ -1,0 +1,17 @@
+{
+  "dataset": "Erdos972",
+  "matrix_sha256": "b69662c8099d66078b41ba7d30bba711288cb4ba4d4e5cdbd1ec7264ed389bcd",
+  "index_nnz": 14170,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.36,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 81079
+  }
+}

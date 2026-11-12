@@ -1,0 +1,9 @@
+{
+  "name": "dataset22mfeatzernike_10NN",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dataset22mfeatzernike_10NN-L.mtx,default,cusparse,2000,61134,-1,6513.036,567.3312378,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dataset22mfeatzernike_10NN-L.mtx,default-host,cusparse,2000,61134,-1,6513.036,575.888305,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dataset22mfeatzernike_10NN-L.mtx,model,cusparse,2000,61134,424,6591.56,567.6480103,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/dataset22mfeatzernike_10NN-L.mtx,model-host,cusparse,2000,61134,424,6591.56,573.52577,1.025846075e-13,3.316689202e-17,1.674143528e-16,0\n",
+  "stderr": ""
+}

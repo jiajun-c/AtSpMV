@@ -1,0 +1,17 @@
+{
+  "dataset": "foldoc",
+  "matrix_sha256": "cf5a03b2d3bff1434c8a7ea216b8cee8f91049982f184296ae3027a38f2c7b6c",
+  "index_nnz": 120238,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.162,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

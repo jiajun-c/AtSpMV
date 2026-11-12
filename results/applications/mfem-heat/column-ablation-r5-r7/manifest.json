@@ -1,0 +1,24 @@
+{
+  "exe": "/tmp/atspmv-mfem-compressed-v3",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "gpu": 3,
+  "rounds": 8,
+  "cases": [
+    [
+      5,
+      100
+    ],
+    [
+      7,
+      20
+    ]
+  ],
+  "executable_sha256": "03352fff3a5b9eb285ad4f768bd5d2e307822c4615974c7c1a4db266b1cfa719",
+  "mesh_sha256": "374d20f1cd3457de6d398b33fb69f685215dd5cf8e23816f829a33f8b62bf210",
+  "prefetch": 2,
+  "warps": 4,
+  "tile": "32x1 normal",
+  "precision": "FP64",
+  "runner_sha256": "0b9e707d8d5787b47a73f8775e85e0f56860dc22c5771357de7aa851c7deb86a",
+  "benchmark_sha256": "26d54837ade6a1aefa06e69b5f9cd95ad18bb52b1d44dab0a63e22002c908277"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "soc-LiveJournal1",
+  "matrix_sha256": "381b7cc1e34f8cd07b7fa054e1762a299ee1a6f899d51524b542abdfdead1999",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 114.245,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

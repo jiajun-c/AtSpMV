@@ -1,0 +1,8 @@
+{
+  "name": "1138_bus",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/1138_bus-L.mtx,default,cusparse,1138,3751,-1,2353.846,80.52159882,3.996802889e-15,4.960604255e-17,1.027537886e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/1138_bus-L.mtx,default-host,cusparse,1138,3751,-1,2353.846,87.856255,3.996802889e-15,4.960604255e-17,1.027537886e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/1138_bus-L.mtx,model,cached,1138,3751,69,1545.285,55.95199966,3.996802889e-15,5.773601354e-17,1.027537886e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/1138_bus-L.mtx,model-host,cached,1138,3751,69,1545.285,62.466855,3.996802889e-15,5.773601354e-17,1.027537886e-16,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "twotone",
+  "matrix_sha256": "9d5ffb1f79a8f3dbee39b86282bb4ba82e04e879b4a5484cc5fb49e7c7d34260",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.772,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

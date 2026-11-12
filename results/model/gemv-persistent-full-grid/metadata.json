@@ -1,0 +1,63 @@
+{
+  "source_sha256": "cb2fb21227fc38fdd6f0a5c4de0dfba3f90a6c881eb7dbebe955146c9714c2cd",
+  "executable": "/tmp/atspmv-dsm-sm90-build/gemv_persistent_bench",
+  "executable_sha256": "1438511910780d000d137a5a4c216b7e9818548abef3ae95f9612c80b0335708",
+  "cases": [
+    [
+      114,
+      1024
+    ],
+    [
+      128,
+      1024
+    ],
+    [
+      1024,
+      256
+    ],
+    [
+      1024,
+      4096
+    ],
+    [
+      7296,
+      256
+    ],
+    [
+      7296,
+      1024
+    ],
+    [
+      7296,
+      4096
+    ],
+    [
+      7296,
+      8192
+    ],
+    [
+      8192,
+      1024
+    ],
+    [
+      32768,
+      1024
+    ],
+    [
+      512,
+      32768
+    ],
+    [
+      4096,
+      16384
+    ]
+  ],
+  "seeds": [
+    202610291,
+    202610292,
+    202610293
+  ],
+  "cuda_visible_devices": "3",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB\n",
+  "method": "FP64 row-major dense GEMV; one-row CTA vs cyclic/contiguous persistent rows; 128/256/512/1024 threads; grids min(M,SMs*min(occupancy,1/2/4/8/full)); global X only; no artificial shared-memory reservation. 3 warmup +15 randomized batches of 8 graph nodes; report per-call event time. Small A may remain in L2; large A streams from memory. cuBLAS as a separate reference."
+}

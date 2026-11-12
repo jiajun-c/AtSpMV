@@ -1,0 +1,15 @@
+{
+  "dataset": "will199",
+  "matrix_sha256": "8cbf4b5820338fca7428673f5888625d50414a5b6299bcfd67183c4b296b37e2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48506
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.708,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48506
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "kmnist_norm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/kmnist_norm_10NN/kmnist_norm_10NN.mtx",
+  "matrix_sha256": "92f9716da0b0727b8cf2e95835b8232dba256db3ef9bbff46c22e0bbfe18dd64",
+  "index_nnz": 156932,
+  "index_rows": 10000,
+  "elapsed_s": 1.354,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "Zewail",
+  "matrix_sha256": "74bbdc6396bf5108bda71f8a461f92616239f013f0ccce0e81321ff3f7747e58",
+  "index_nnz": 54233,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.022,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "GAP-kron",
+  "file_bytes": 46279283951,
+  "file_mtime_ns": 1571707578000000000,
+  "structure": {
+    "dataset": "GAP-kron",
+    "rows": "134217726",
+    "columns": "134217726",
+    "nnz": "4223264644",
+    "longest_row": "71328661",
+    "longest_row_nnz": "1572838",
+    "ratio": "0.000372422316047",
+    "status": "ok"
+  },
+  "status": "unsupported_int32_nnz",
+  "elapsed_s": 359.81
+}

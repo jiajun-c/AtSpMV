@@ -1,0 +1,10 @@
+{
+  "dataset": "G51",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G51/G51.mtx",
+  "matrix_sha256": "f6f64a8281889f5405e0209ec12766192c89ffe01e33c093c79702296296fedd",
+  "index_nnz": 11818,
+  "index_rows": 1000,
+  "elapsed_s": 1.115,
+  "returncode": 0,
+  "status": "ok"
+}

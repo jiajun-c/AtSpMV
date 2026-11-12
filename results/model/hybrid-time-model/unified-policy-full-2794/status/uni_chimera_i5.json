@@ -1,0 +1,17 @@
+{
+  "dataset": "uni_chimera_i5",
+  "matrix_sha256": "f1873afa87a198f3919ef235e8fdcb8b6b2ed57be6d8af3b01f06541ddf11ad2",
+  "index_nnz": 499982,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.842,
+  "gpu_after": {
+    "utilization_percent": 22,
+    "free_memory_mib": 81079
+  }
+}

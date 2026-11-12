@@ -1,0 +1,9 @@
+{
+  "name": "G20",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/G20-L.mtx --------------\nsuccess open file\ninput matrix A: ( 800, 800 ) nnz = 21972\nloadfile time    = 0.01028 sec\nnnzL = 21972\ntime_for_csc2CompressTile = 3.25 ms\ntime_cuda_solve = 0.371650 ms, Mflops = 118.24\nVALIDATION finite=1 max_error=6.2616578588858829e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

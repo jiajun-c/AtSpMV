@@ -1,0 +1,15 @@
+{
+  "dataset": "cit-Patents",
+  "matrix_sha256": "889dc8c3f3b0e02a47f43a492a2e61f64672826cc515db302c034984ad76d9af",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 37.766,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

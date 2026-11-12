@@ -1,0 +1,10 @@
+{
+  "dataset": "fs_680_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fs_680_2/fs_680_2.mtx",
+  "matrix_sha256": "31e632558af79d33f95564bcc52ab1373e845542f7f1d2ae488b6378ddb5780b",
+  "index_nnz": 2646,
+  "index_rows": 680,
+  "elapsed_s": 0.605,
+  "returncode": 0,
+  "status": "ok"
+}

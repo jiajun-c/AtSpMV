@@ -1,0 +1,17 @@
+{
+  "dataset": "MISKnowledgeMap",
+  "matrix_sha256": "d890104890556dcb20579ecc225fb3f447748f1ed5a437ea7529c4ebc6e0bf9e",
+  "index_nnz": 57022,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.351,
+  "gpu_after": {
+    "utilization_percent": 16,
+    "free_memory_mib": 81079
+  }
+}

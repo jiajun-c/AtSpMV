@@ -1,0 +1,14 @@
+{
+  "matrix": "linverse",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/linverse/linverse.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 11999,
+  "columns": 11999,
+  "original_nnz": 95977,
+  "factor_L_nnz": 53590,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.18449354195035994
+}

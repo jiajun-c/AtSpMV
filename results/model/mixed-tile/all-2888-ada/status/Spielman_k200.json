@@ -1,0 +1,15 @@
+{
+  "dataset": "Spielman_k200",
+  "matrix_sha256": "e22c878db0dff89d589c7c0d1f2276951dbd7fb6d02e5a6f020739b216780ab0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 13.719,
+  "gpu_after": {
+    "utilization_percent": 57,
+    "free_memory_mib": 48508
+  }
+}

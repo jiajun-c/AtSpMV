@@ -1,0 +1,9 @@
+{
+  "name": "dwt_234",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/dwt_234-L.mtx --------------\nsuccess open file\ninput matrix A: ( 240, 240 ) nnz = 910\nloadfile time    = 0.00036 sec\nnnzL = 910\ntime_for_csc2CompressTile = 4.50 ms\ntime_cuda_solve = 0.103330 ms, Mflops = 17.61\nVALIDATION finite=1 max_error=5.3290705182007514e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

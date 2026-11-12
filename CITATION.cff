@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use AtSpMV in your research, please cite the paper in preferred-citation."
+type: software
+title: AtSpMV
+authors:
+  - family-names: Cheng
+    given-names: Jiajun
+  - family-names: Chen
+    given-names: Junshi
+  - family-names: Li
+    given-names: Qi
+  - family-names: Song
+    given-names: Longsheng
+  - family-names: Zhao
+    given-names: Yang
+  - family-names: Shi
+    given-names: Jun
+  - family-names: Hao
+    given-names: Xiaoyu
+  - family-names: An
+    given-names: Hong
+preferred-citation:
+  type: conference-paper
+  title: "AtSpMV: Model-Guided Adaptive Tiling and Load Balancing for SpMV on GPUs"
+  authors:
+    - family-names: Cheng
+      given-names: Jiajun
+    - family-names: Chen
+      given-names: Junshi
+    - family-names: Li
+      given-names: Qi
+    - family-names: Song
+      given-names: Longsheng
+    - family-names: Zhao
+      given-names: Yang
+    - family-names: Shi
+      given-names: Jun
+    - family-names: Hao
+      given-names: Xiaoyu
+    - family-names: An
+      given-names: Hong
+  year: 2027
+  collection-title: "Euro-Par 2026: Parallel Processing"
+  collection-type: proceedings
+  volume: 16781
+  start: 509
+  end: 522
+  publisher:
+    name: Springer
+    city: Cham
+  doi: 10.1007/978-3-032-35248-4_35
+  url: https://doi.org/10.1007/978-3-032-35248-4_35

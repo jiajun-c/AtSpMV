@@ -1,0 +1,10 @@
+{
+  "dataset": "OPF_6000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/OPF_6000/OPF_6000.mtx",
+  "matrix_sha256": "5ae50cf8f5a341ab6344484dd3092c82c45d6f1182edb37a807b3f23285dd817",
+  "index_nnz": 302418,
+  "index_rows": 29902,
+  "elapsed_s": 2.211,
+  "returncode": 0,
+  "status": "ok"
+}

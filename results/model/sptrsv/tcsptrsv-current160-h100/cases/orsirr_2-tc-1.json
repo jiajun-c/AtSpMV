@@ -1,0 +1,9 @@
+{
+  "name": "orsirr_2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orsirr_2-L.mtx --------------\nsuccess open file\ninput matrix A: ( 896, 896 ) nnz = 11096\nloadfile time    = 0.00550 sec\nnnzL = 11096\ntime_for_csc2CompressTile = 2.51 ms\ntime_cuda_solve = 0.305790 ms, Mflops = 72.57\nVALIDATION finite=1 max_error=2.1094237467877974e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

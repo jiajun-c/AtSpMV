@@ -1,0 +1,129 @@
+{
+  "sources": {
+    "CMakeLists.txt": "d2c95379e39903e55a17955958cbe5409e7ac995f8b5d57a162e831278aa7ccf",
+    "include/spmvPlan.h": "07591eba5f488a4068297df231da2e201b26e2243c9c8a1f345dbccc3a9c8c3e",
+    "include/detail/spmvPlanDsm.h": "68c443b28525d95c8cd3e1de707280c9572a77529f52930e5fdc37197736830a",
+    "src/spmvPlan.cu": "e023f55657af752c0b3d6d3a1e406a5d387ab43b6b04c79740b8c3af6fa852f1",
+    "src/spmvPlanDsm.cu": "b83a1ef3268fc2a2628041c1aec703378a4594bcf3101d0c1cb59c98608a6a48",
+    "include/dsmLongRow.cuh": "3d1811c20ac0ae6e2b0d610108853cf1fb1dfd9ca2632688fef4312d58a88d73",
+    "tests/spmv_plan_test.cu": "9d79b06f3ee9902a2af7ec3e8e2f4fb9d39c3324414dc1df5ed6429aae873f91",
+    "bench/spmv_plan_bench.cu": "b30e94a07bacd60c591ccc323c52f74823b523155e3100a18aa63acf4ff2a404"
+  },
+  "binaries": {
+    "/tmp/atspmv-dsm-sm90-build/spmv_plan_test": "b0e58a17a34aa4f23e4ad469301df70d2a4766992d88c413e39e12d85e737706",
+    "/tmp/atspmv-dsm-sm90-build/spmv_plan_bench": "c21bba5339c6d6562047f0eeee656476f4da3877fac60dd745dafcab0bc25e9c",
+    "/tmp/atspmv-dsm-sm90-build/libatspmv_plan.a": "c641da4159ce3a1e4c0a4f07822b30cf51812d5d10bbf969bc64bbdf8522d97d",
+    "/tmp/atspmv-dsm-sm90-build/libatspmv.a": "277599eff5336086225a3b7d6632927a0e3bdcca90b1211bd7a8b903ea1bc195",
+    "/tmp/atspmv-plan-no-dsm-build/spmv_plan_test": "c6b561af3837538734fef41babd0ea5cc470c73b22e3a09dc9a93ae88e60b8f9"
+  },
+  "build": "CUDA12.4, Release, core SM80, plan SM80+SM90 when DSM enabled, DSM object SM90; separate DSM-OFF build SM80",
+  "tests": {
+    "h100": {
+      "visible_devices": "3,0",
+      "checks": 180,
+      "includes": "device mismatch and destruction while another device is current"
+    },
+    "ada": {
+      "visible_devices": "0",
+      "checks": 124,
+      "dsm_available": false
+    },
+    "dsm_off_on_h100": {
+      "visible_devices": "3",
+      "checks": 124,
+      "dsm_available": false
+    },
+    "ctest": "1/1 spmv_plan passed"
+  },
+  "sanitizers": {
+    "version": "13.0",
+    "memcheck": "full case, 0 errors, 0 bytes leaked",
+    "synccheck": "full case, 0 errors",
+    "racecheck": "all kernels, --quick smaller CSR, 0 errors / 0 warnings"
+  },
+  "historical_diagnostic": "racecheck-two-stage.log is an unsuccessful filtered instrumentation attempt (Internal Sanitizer Error); not a passing validation. Final unfiltered racecheck.log passed.",
+  "scope": "All backends forced; default/model selection; supported measured candidates and exact argmin choice; CSR lifetime; move construction/assignment; changed X and poisoned Y; Graph replay; empty rows/matrix/zero columns; invalid config/CSR; overlapping vectors; capture-time construction rejection; default/non-default stream.",
+  "timing_examples": [
+    {
+      "file": "h100-synthetic-model.csv",
+      "result": "selected=atbsr, measured=0, setup_us=16601.708, dsm_available=1, correct=1",
+      "candidates": 0,
+      "best_per_backend": {}
+    },
+    {
+      "file": "h100-synthetic-tuned.csv",
+      "result": "selected=csr_dsm, measured=1, setup_us=667657.647, dsm_available=1, correct=1",
+      "candidates": 50,
+      "best_per_backend": {
+        "atbsr": {
+          "backend": "atbsr",
+          "tile_index": "1",
+          "balanced": "1",
+          "parts": "8",
+          "threads": "128",
+          "rows_per_group": "1",
+          "threshold": "1024",
+          "median_us": "8.76799971"
+        },
+        "csr_dsm": {
+          "backend": "csr_dsm",
+          "tile_index": "-1",
+          "balanced": "-1",
+          "parts": "8",
+          "threads": "256",
+          "rows_per_group": "1",
+          "threshold": "1024",
+          "median_us": "7.53200008"
+        },
+        "csr_two_stage": {
+          "backend": "csr_two_stage",
+          "tile_index": "-1",
+          "balanced": "-1",
+          "parts": "32",
+          "threads": "256",
+          "rows_per_group": "4",
+          "threshold": "1024",
+          "median_us": "8.22400022"
+        }
+      }
+    },
+    {
+      "file": "h100-bibd_19_9-tuned.csv",
+      "result": "selected=csr_dsm, measured=1, setup_us=1348702.67, dsm_available=1, correct=1",
+      "candidates": 50,
+      "best_per_backend": {
+        "atbsr": {
+          "backend": "atbsr",
+          "tile_index": "1",
+          "balanced": "1",
+          "parts": "8",
+          "threads": "128",
+          "rows_per_group": "1",
+          "threshold": "1024",
+          "median_us": "18.9239997"
+        },
+        "csr_dsm": {
+          "backend": "csr_dsm",
+          "tile_index": "-1",
+          "balanced": "-1",
+          "parts": "4",
+          "threads": "256",
+          "rows_per_group": "1",
+          "threshold": "4096",
+          "median_us": "16.6079998"
+        },
+        "csr_two_stage": {
+          "backend": "csr_two_stage",
+          "tile_index": "-1",
+          "balanced": "-1",
+          "parts": "16",
+          "threads": "512",
+          "rows_per_group": "8",
+          "threshold": "4096",
+          "median_us": "16.9280004"
+        }
+      }
+    }
+  ],
+  "timing_scope": "Single initialization measurements on free H100, warm graphs, default shortlist of 50 candidates. Demonstrates selection, not a new multi-run performance claim. Setup cost is separate and may dominate one-shot use."
+}

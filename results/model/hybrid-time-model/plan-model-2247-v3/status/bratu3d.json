@@ -1,0 +1,19 @@
+{
+  "dataset": "bratu3d",
+  "matrix_sha256": "e5651fabdbbb50f02d64ae70fe1f4171dea0ee1f2f496a0da1faecf77b4fba51",
+  "index_nnz": 173796,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.471,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

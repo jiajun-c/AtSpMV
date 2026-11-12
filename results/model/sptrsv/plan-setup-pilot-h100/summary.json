@@ -1,0 +1,26 @@
+{
+  "status_counts": {
+    "ok": 18
+  },
+  "valid_pairs": 18,
+  "by_backend": {
+    "cached": {
+      "count": 6,
+      "default_median_us": 2562.867,
+      "model_median_us": 1189.233375,
+      "geomean_default_over_model": 2.0665008581917457
+    },
+    "cached-csr": {
+      "count": 6,
+      "default_median_us": 2828.55075,
+      "model_median_us": 1008.107125,
+      "geomean_default_over_model": 3.1735156771960655
+    },
+    "cusparse": {
+      "count": 6,
+      "default_median_us": 11553.733499999998,
+      "model_median_us": 11685.43475,
+      "geomean_default_over_model": 0.9925097620652434
+    }
+  }
+}

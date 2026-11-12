@@ -1,0 +1,167 @@
+{
+  "Glass_10NN-L.mtx": {
+    "original_n": 214,
+    "padded_n": 224,
+    "added_identity_rows": 10
+  },
+  "Trefethen_300-L.mtx": {
+    "original_n": 300,
+    "padded_n": 304,
+    "added_identity_rows": 4
+  },
+  "adder_dcop_04-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_20-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_46-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_48-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "adder_dcop_55-L.mtx": {
+    "original_n": 1813,
+    "padded_n": 1824,
+    "added_identity_rows": 11
+  },
+  "bp_0-L.mtx": {
+    "original_n": 822,
+    "padded_n": 832,
+    "added_identity_rows": 10
+  },
+  "cavity06-L.mtx": {
+    "original_n": 1182,
+    "padded_n": 1184,
+    "added_identity_rows": 2
+  },
+  "cz628-L.mtx": {
+    "original_n": 628,
+    "padded_n": 640,
+    "added_identity_rows": 12
+  },
+  "dwt_234-L.mtx": {
+    "original_n": 234,
+    "padded_n": 240,
+    "added_identity_rows": 6
+  },
+  "dynamicSoaringProblem_7-L.mtx": {
+    "original_n": 3511,
+    "padded_n": 3520,
+    "added_identity_rows": 9
+  },
+  "ex10hs-L.mtx": {
+    "original_n": 2548,
+    "padded_n": 2560,
+    "added_identity_rows": 12
+  },
+  "ex13-L.mtx": {
+    "original_n": 2568,
+    "padded_n": 2576,
+    "added_identity_rows": 8
+  },
+  "ex2-L.mtx": {
+    "original_n": 441,
+    "padded_n": 448,
+    "added_identity_rows": 7
+  },
+  "ex25-L.mtx": {
+    "original_n": 848,
+    "padded_n": 848,
+    "added_identity_rows": 0
+  },
+  "ex36-L.mtx": {
+    "original_n": 3079,
+    "padded_n": 3088,
+    "added_identity_rows": 9
+  },
+  "fpga_dcop_22-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_28-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_34-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fpga_dcop_39-L.mtx": {
+    "original_n": 1220,
+    "padded_n": 1232,
+    "added_identity_rows": 12
+  },
+  "fs_183_6-L.mtx": {
+    "original_n": 183,
+    "padded_n": 192,
+    "added_identity_rows": 9
+  },
+  "lung1-L.mtx": {
+    "original_n": 1650,
+    "padded_n": 1664,
+    "added_identity_rows": 14
+  },
+  "mcca-L.mtx": {
+    "original_n": 180,
+    "padded_n": 192,
+    "added_identity_rows": 12
+  },
+  "mhda416-L.mtx": {
+    "original_n": 416,
+    "padded_n": 416,
+    "added_identity_rows": 0
+  },
+  "mice_10NN-L.mtx": {
+    "original_n": 1077,
+    "padded_n": 1088,
+    "added_identity_rows": 11
+  },
+  "oscil_dcop_27-L.mtx": {
+    "original_n": 430,
+    "padded_n": 432,
+    "added_identity_rows": 2
+  },
+  "saylr4-L.mtx": {
+    "original_n": 3564,
+    "padded_n": 3568,
+    "added_identity_rows": 4
+  },
+  "shl_0-L.mtx": {
+    "original_n": 663,
+    "padded_n": 672,
+    "added_identity_rows": 9
+  },
+  "str_400-L.mtx": {
+    "original_n": 363,
+    "padded_n": 368,
+    "added_identity_rows": 5
+  },
+  "tumorAntiAngiogenesis_5-L.mtx": {
+    "original_n": 460,
+    "padded_n": 464,
+    "added_identity_rows": 4
+  },
+  "wang1-L.mtx": {
+    "original_n": 2903,
+    "padded_n": 2912,
+    "added_identity_rows": 9
+  },
+  "west2021-L.mtx": {
+    "original_n": 2021,
+    "padded_n": 2032,
+    "added_identity_rows": 11
+  }
+}

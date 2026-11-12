@@ -1,0 +1,17 @@
+{
+  "dataset": "sit100",
+  "matrix_sha256": "9a935b61386f6eeba76eea85177b22640b6c7117016a7b28502b9e9d2af40c9e",
+  "index_nnz": 61046,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.833,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

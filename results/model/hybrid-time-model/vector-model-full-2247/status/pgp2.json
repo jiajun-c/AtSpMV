@@ -1,0 +1,17 @@
+{
+  "dataset": "pgp2",
+  "matrix_sha256": "0b827dc98784ffc56565e7ceaad95ed09fc20e5e6421e6c9dbfe36592fa9a089",
+  "index_nnz": 22474,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.198,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "water_tank",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/water_tank/water_tank.mtx",
+  "matrix_sha256": "a1b5d6d04fd04e3a68db6d28b6bafdb564a6824e72ce73a47874ed6f2ddc6810",
+  "index_nnz": 2035281,
+  "index_rows": 60740,
+  "elapsed_s": 1.525,
+  "returncode": 0,
+  "status": "ok"
+}

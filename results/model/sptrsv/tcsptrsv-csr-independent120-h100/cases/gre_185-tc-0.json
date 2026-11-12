@@ -1,0 +1,9 @@
+{
+  "name": "gre_185",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_185-L.mtx --------------\nsuccess open file\ninput matrix A: ( 192, 192 ) nnz = 1862\nloadfile time    = 0.00094 sec\nnnzL = 1862\ntime_for_csc2CompressTile = 2.00 ms\ntime_cuda_solve = 0.139270 ms, Mflops = 26.74\nVALIDATION finite=1 max_error=1.2434497875801753e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

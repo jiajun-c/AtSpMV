@@ -1,0 +1,7 @@
+{
+  "name": "olm100",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/olm100-L.mtx,model,cached,100,250,38,1378.732,26.4640007,3.552713679e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/olm100-L.mtx,model-host,cached,100,250,38,1378.732,33.27984,3.552713679e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/olm100-L.mtx,default,cusparse,100,250,-1,2148.1,32.68799973,3.108624469e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/olm100-L.mtx,default-host,cusparse,100,250,-1,2148.1,38.658035,3.108624469e-15\n",
+  "stderr": ""
+}

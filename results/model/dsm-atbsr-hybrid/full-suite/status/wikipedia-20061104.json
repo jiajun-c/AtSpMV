@@ -1,0 +1,10 @@
+{
+  "dataset": "wikipedia-20061104",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wikipedia-20061104/wikipedia-20061104.mtx",
+  "matrix_sha256": "a86bc93858c4db1bca68b84f5b84be066073a21484b8b750083d20964c4c51c0",
+  "index_nnz": 39383235,
+  "index_rows": 3148440,
+  "elapsed_s": 17.572,
+  "returncode": 0,
+  "status": "ok"
+}

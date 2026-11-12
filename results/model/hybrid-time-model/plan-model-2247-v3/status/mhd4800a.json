@@ -1,0 +1,19 @@
+{
+  "dataset": "mhd4800a",
+  "matrix_sha256": "b71b040a80870fb44eb3c8b5b6a4703df59ca3fede8f62276e6850f654178aa7",
+  "index_nnz": 102252,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.743,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

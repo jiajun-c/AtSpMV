@@ -1,0 +1,8 @@
+{
+  "name": "Trefethen_200b",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cusparse,37917.086,128.6208034,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cusparse-host,37917.086,136.451485,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-512,265.647,125.1135945,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-host-512,265.647,132.09986,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-256,265.647,126.1791945,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-host-256,265.647,133.003465,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-128,265.647,135.1008058,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,cached-tiles-host-128,265.647,141.93575,2.220446049e-16,2.921257482e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Trefethen_200b-L.mtx,208,5650,161,selector-cached,265.647,125.0560045,2.220446049e-16,2.921257482e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "loc-Gowalla",
+  "matrix_sha256": "bed39d02286f17e4feb59ad52cfdc7b804267ec73aa1de75da05f8feb4959a80",
+  "index_nnz": 1900654,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.519,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

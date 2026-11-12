@@ -1,0 +1,10 @@
+{
+  "dataset": "finance256",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/finance256/finance256.mtx",
+  "matrix_sha256": "73516873e4e42f0aa092eb3914ea826ed6b76caf784656bf102b4d2813563d40",
+  "index_nnz": 298496,
+  "index_rows": 37376,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

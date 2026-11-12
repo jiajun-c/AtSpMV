@@ -1,0 +1,9 @@
+{
+  "name": "cdde2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,default,cusparse,976,7320,-1,2751.5,128.3712006,1.776356839e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,default-host,cusparse,976,7320,-1,2751.5,135.394005,1.776356839e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,model,cached,976,7320,104,1547.101,84.63999939,1.776356839e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,model-host,cached,976,7320,104,1547.101,90.987385,1.776356839e-15\n",
+  "stderr": ""
+}

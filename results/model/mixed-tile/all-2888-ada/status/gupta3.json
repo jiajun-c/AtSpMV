@@ -1,0 +1,15 @@
+{
+  "dataset": "gupta3",
+  "matrix_sha256": "3dbee39916cf747d4fc42bed720774231f30e635972ef915c93867e21ec8bc95",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.207,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

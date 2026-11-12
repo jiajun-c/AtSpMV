@@ -1,0 +1,9 @@
+{
+  "name": "steam2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/steam2-L.mtx,default,cusparse,608,3472,-1,4120.577,146.3392029,8.881784197e-16,6.02929901e-17,7.92920328e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/steam2-L.mtx,default-host,cusparse,608,3472,-1,4120.577,154.017365,8.881784197e-16,6.02929901e-17,7.92920328e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/steam2-L.mtx,model,cached,608,3472,110,1481.356,79.20320129,8.881784197e-16,6.02929901e-17,7.105159112e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/steam2-L.mtx,model-host,cached,608,3472,110,1481.356,86.086665,8.881784197e-16,6.02929901e-17,7.105159112e-17,512\n",
+  "stderr": ""
+}

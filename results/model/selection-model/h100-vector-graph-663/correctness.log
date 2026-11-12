@@ -1,0 +1,18 @@
+WAIT GPU busy [{'pid': 1418443, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1430384, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1439967, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1449389, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1458928, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1469048, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+RETRY due to external GPU use [{'pid': 1509250, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1514106, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1528367, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1549975, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1562686, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+tuned auto -> csr_dsm_vector, candidates=40, setup_us=67182.7
+tuned atbsr -> atbsr, candidates=12, setup_us=28980
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=658.243
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=444.579
+tuned cusparse -> cusparse, candidates=1, setup_us=1378.8
+PASS: 952 direct/graph/reference checks; dsm_available=1
+correctness exit code: 0

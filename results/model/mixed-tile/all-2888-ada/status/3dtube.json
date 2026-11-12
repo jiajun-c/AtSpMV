@@ -1,0 +1,15 @@
+{
+  "dataset": "3dtube",
+  "matrix_sha256": "8ac6788df051e67ea6b104b439d538633f2a7ad0ca591ebab692a715797cb4c6",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.935,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

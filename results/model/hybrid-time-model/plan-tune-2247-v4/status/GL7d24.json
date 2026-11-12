@@ -1,0 +1,19 @@
+{
+  "dataset": "GL7d24",
+  "matrix_sha256": "f81a05b69987444fb110a3d21e79ec1558f78adc8082dc8c30ad9ae910c21073",
+  "index_nnz": 593892,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.489,
+  "gpu_after": {
+    "utilization_percent": 99,
+    "free_memory_mib": 81079
+  }
+}

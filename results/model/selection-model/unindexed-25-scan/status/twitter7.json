@@ -1,0 +1,17 @@
+{
+  "dataset": "twitter7",
+  "file_bytes": 24659257670,
+  "file_mtime_ns": 1531498312000000000,
+  "structure": {
+    "dataset": "twitter7",
+    "rows": "41652230",
+    "columns": "41652230",
+    "nnz": "1468365182",
+    "longest_row": "4597022",
+    "longest_row_nnz": "2997469",
+    "ratio": "0.00204136480267",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 196.7
+}

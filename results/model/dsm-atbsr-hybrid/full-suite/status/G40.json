@@ -1,0 +1,10 @@
+{
+  "dataset": "G40",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G40/G40.mtx",
+  "matrix_sha256": "cd3c1403ac62b7f799e763e72d6f52667e2723d0bba43a2716dec3bb7c9aff52",
+  "index_nnz": 23532,
+  "index_rows": 2000,
+  "elapsed_s": 1.169,
+  "returncode": 0,
+  "status": "ok"
+}

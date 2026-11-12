@@ -1,0 +1,15 @@
+{
+  "dataset": "kl02",
+  "matrix_sha256": "cdaea8cf821c2d7f4d2e2225e78fabca26edfd3450d8a0c62dc806b46ad49c13",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.64,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

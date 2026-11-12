@@ -1,0 +1,10 @@
+{
+  "dataset": "bwm2000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bwm2000/bwm2000.mtx",
+  "matrix_sha256": "70bc9967b44d876e94b7c4069bcd3ba2476372aa7dd9706334124d7a480e284d",
+  "index_nnz": 7996,
+  "index_rows": 2000,
+  "elapsed_s": 1.163,
+  "returncode": 0,
+  "status": "ok"
+}

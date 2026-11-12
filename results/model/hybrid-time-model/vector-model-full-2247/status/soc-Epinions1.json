@@ -1,0 +1,17 @@
+{
+  "dataset": "soc-Epinions1",
+  "matrix_sha256": "f24ae6890fc53c9e9b153812c4d22cd2e87a3642a1af12eeefd06dae0888f627",
+  "index_nnz": 508837,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.454,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

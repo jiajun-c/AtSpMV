@@ -1,0 +1,10 @@
+{
+  "dataset": "watt_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/watt_2/watt_2.mtx",
+  "matrix_sha256": "53a569019a5ec5799e41e29e32407b90943bf963c6b2b79c102c4419182c493f",
+  "index_nnz": 11550,
+  "index_rows": 1856,
+  "elapsed_s": 0.641,
+  "returncode": 0,
+  "status": "ok"
+}

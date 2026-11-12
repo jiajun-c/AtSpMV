@@ -1,0 +1,10 @@
+{
+  "dataset": "wing",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wing/wing.mtx",
+  "matrix_sha256": "0aaf60b6c63ad6a9da1e882db0b2772b25590e94fcff7f8d682f8bf7d33705d2",
+  "index_nnz": 243088,
+  "index_rows": 62032,
+  "elapsed_s": 0.62,
+  "returncode": 0,
+  "status": "ok"
+}

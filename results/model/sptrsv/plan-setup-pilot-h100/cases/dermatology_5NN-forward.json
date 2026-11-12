@@ -1,0 +1,7 @@
+{
+  "name": "dermatology_5NN",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/dermatology_5NN-L.mtx,default,cusparse,2753.8215,2665.747,2816.396,10.9925,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/dermatology_5NN-L.mtx,model,cached-csr,984.501,924.624,1047.555,10.35,12\n",
+  "stderr": ""
+}

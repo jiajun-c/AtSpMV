@@ -1,0 +1,14 @@
+{
+  "matrix": "pores_2",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/pores_2/pores_2.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1224,
+  "columns": 1224,
+  "original_nnz": 9613,
+  "factor_L_nnz": 16874,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03757446398958564
+}

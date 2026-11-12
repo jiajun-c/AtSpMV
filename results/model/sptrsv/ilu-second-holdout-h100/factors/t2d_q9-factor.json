@@ -1,0 +1,14 @@
+{
+  "matrix": "t2d_q9",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/t2d_q9/t2d_q9.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 9801,
+  "columns": 9801,
+  "original_nnz": 87025,
+  "factor_L_nnz": 197889,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.1997500618454069
+}

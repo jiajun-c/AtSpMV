@@ -1,0 +1,17 @@
+{
+  "dataset": "std1_Jac3",
+  "matrix_sha256": "f54d4056d666b39691b1d2686e80862a6cc2e2b377636332b819afc1983ee232",
+  "index_nnz": 1455848,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.192,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

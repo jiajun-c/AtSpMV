@@ -1,0 +1,17 @@
+{
+  "dataset": "shock-9",
+  "matrix_sha256": "29b5d854d47bf60619fefbebc3878d157188ef406a0ead400e61358c14df526b",
+  "index_nnz": 142580,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.201,
+  "gpu_after": {
+    "utilization_percent": 14,
+    "free_memory_mib": 81079
+  }
+}

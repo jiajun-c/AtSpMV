@@ -1,0 +1,10 @@
+{
+  "dataset": "pds-100",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pds-100/pds-100.mtx",
+  "matrix_sha256": "2d6c45f42a07b17b7285578ae56f75f239ee5781b9638a382dd78c679826bd8d",
+  "index_nnz": 1096002,
+  "index_rows": 156243,
+  "elapsed_s": 1.223,
+  "returncode": 0,
+  "status": "ok"
+}

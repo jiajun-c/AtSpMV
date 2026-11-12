@@ -1,0 +1,9 @@
+{
+  "name": "G44",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/G44-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1008, 1008 ) nnz = 46255\nloadfile time    = 0.02196 sec\nnnzL = 46255\ntime_for_csc2CompressTile = 2.88 ms\ntime_cuda_solve = 0.509100 ms, Mflops = 181.71\nVALIDATION finite=1 max_error=3.8169467586612882e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

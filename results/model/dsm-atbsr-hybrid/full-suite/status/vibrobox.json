@@ -1,0 +1,10 @@
+{
+  "dataset": "vibrobox",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vibrobox/vibrobox.mtx",
+  "matrix_sha256": "bfd7590c87ebee6cfecfc8fdff23eedb3d92b054dd7af5661f839125427564ff",
+  "index_nnz": 342828,
+  "index_rows": 12328,
+  "elapsed_s": 1.177,
+  "returncode": 0,
+  "status": "ok"
+}

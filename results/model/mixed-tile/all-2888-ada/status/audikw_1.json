@@ -1,0 +1,15 @@
+{
+  "dataset": "audikw_1",
+  "matrix_sha256": "b2239f90db6a9a5c74e7bc4c6e365876a85752c6a87830e7abcd05d646bd33bb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 57.39,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

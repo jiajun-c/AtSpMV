@@ -1,0 +1,32 @@
+{
+  "dataset": "raefsky2",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "d12904a703acb0d11f4f2cee90657a3087ff4c55fbf79e24a6e902265365e6e5",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/raefsky2/raefsky2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/raefsky2-0.csv",
+        "20261263",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.5025652130134404
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/raefsky2/raefsky2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/raefsky2-1.csv",
+        "20261264",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0045901050325483
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "TSC_OPF_300",
+  "matrix_sha256": "204d2725bce1062ed6ead63707a1239a06618dda1d7ab53be66c6a0719cd27bb",
+  "index_nnz": 820804,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.384,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

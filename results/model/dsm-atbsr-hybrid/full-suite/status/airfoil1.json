@@ -1,0 +1,10 @@
+{
+  "dataset": "airfoil1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/airfoil1/airfoil1.mtx",
+  "matrix_sha256": "5164703dd8f59b8133cf0a2ae74ba9d14a921cfb46fa80e401488c1c74e7a689",
+  "index_nnz": 24578,
+  "index_rows": 4253,
+  "elapsed_s": 1.24,
+  "returncode": 0,
+  "status": "ok"
+}

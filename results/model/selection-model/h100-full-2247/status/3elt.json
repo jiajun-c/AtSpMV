@@ -1,0 +1,17 @@
+{
+  "dataset": "3elt",
+  "matrix_sha256": "46ca66a3d1b4cf3fe67ee54ab8e442c9ede077046dec06fc4c7fe66ebb0af4e7",
+  "index_nnz": 27444,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.146,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

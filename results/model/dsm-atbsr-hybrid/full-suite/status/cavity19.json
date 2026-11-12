@@ -1,0 +1,10 @@
+{
+  "dataset": "cavity19",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cavity19/cavity19.mtx",
+  "matrix_sha256": "6e529036e881f64860972802374c6668d432c78dbe1a840009d3375f807b42d4",
+  "index_nnz": 138187,
+  "index_rows": 4562,
+  "elapsed_s": 1.233,
+  "returncode": 0,
+  "status": "ok"
+}

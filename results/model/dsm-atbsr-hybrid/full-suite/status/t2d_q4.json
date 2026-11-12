@@ -1,0 +1,10 @@
+{
+  "dataset": "t2d_q4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t2d_q4/t2d_q4.mtx",
+  "matrix_sha256": "e06b408430051cc94a906a31bd9f57c3158f659881945301ed7c18a7d03cc5f8",
+  "index_nnz": 87025,
+  "index_rows": 9801,
+  "elapsed_s": 1.267,
+  "returncode": 0,
+  "status": "ok"
+}

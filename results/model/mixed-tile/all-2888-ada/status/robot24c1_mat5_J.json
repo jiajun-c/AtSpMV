@@ -1,0 +1,15 @@
+{
+  "dataset": "robot24c1_mat5_J",
+  "matrix_sha256": "a9b5d6246d344b300fa419e2c2dadd526ed4229bc69687dd24e906e60330a70c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.737,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

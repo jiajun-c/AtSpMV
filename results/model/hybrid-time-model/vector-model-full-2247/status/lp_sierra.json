@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_sierra",
+  "matrix_sha256": "e76e709df77f4ce6f6b2980fb6381dd74f6962c4d8d3a51841be768edf0b1587",
+  "index_nnz": 8001,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.854,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

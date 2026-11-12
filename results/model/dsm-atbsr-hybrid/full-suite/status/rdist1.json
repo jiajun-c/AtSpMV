@@ -1,0 +1,10 @@
+{
+  "dataset": "rdist1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdist1/rdist1.mtx",
+  "matrix_sha256": "fe0e00f1dab6711333997f669719b41e39536c154f9239f6bfedc2b974c0f7ba",
+  "index_nnz": 94408,
+  "index_rows": 4134,
+  "elapsed_s": 1.271,
+  "returncode": 0,
+  "status": "ok"
+}

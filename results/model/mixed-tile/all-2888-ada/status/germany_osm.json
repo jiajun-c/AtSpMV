@@ -1,0 +1,15 @@
+{
+  "dataset": "germany_osm",
+  "matrix_sha256": "a8de087a1262601537a77ca8acc0ce6d3f790f07621f0cef605a8c362303924c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 75.045,
+  "gpu_after": {
+    "utilization_percent": 97,
+    "free_memory_mib": 48508
+  }
+}

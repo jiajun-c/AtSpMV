@@ -1,0 +1,15 @@
+{
+  "dataset": "psmigr_3",
+  "matrix_sha256": "3b71b24775b69de2b07f5c9e39c750a967eae61daafc3097073acef9e08778c5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.723,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

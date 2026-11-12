@@ -1,0 +1,20 @@
+{
+  "names": [
+    "grid1_dual",
+    "bp_1000",
+    "nos6",
+    "circuit204",
+    "str_200"
+  ],
+  "modes": [
+    "adaptive",
+    "1",
+    "2",
+    "4",
+    "8",
+    "16",
+    "32"
+  ],
+  "threads": 512,
+  "rounds": 2
+}

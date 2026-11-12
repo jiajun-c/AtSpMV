@@ -1,0 +1,17 @@
+{
+  "dataset": "wiki-RfA",
+  "matrix_sha256": "cb50b1fe11152927f8f4b37ae00804ee38f3b9a21d731b5b81b43dde559a8757",
+  "index_nnz": 188077,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.995,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "LF10",
+  "matrix_sha256": "18e463b34d674aa33dc574b9c0c67fd98f1a9ff271c6e661ed6b150512316a7d",
+  "gpu_before": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.389,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

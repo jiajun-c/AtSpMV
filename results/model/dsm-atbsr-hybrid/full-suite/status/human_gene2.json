@@ -1,0 +1,10 @@
+{
+  "dataset": "human_gene2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/human_gene2/human_gene2.mtx",
+  "matrix_sha256": "7e880ea0012e4202195bcd6fb930f8259e726179e56cdc7e4012fc20a1da3a8f",
+  "index_nnz": 18068388,
+  "index_rows": 14340,
+  "elapsed_s": 5.909,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "channel-500x100x100-b050",
+  "matrix_sha256": "df812526f0006ec26861c0a0d83b7cf95b1cebc2cc2bedcb5920911f33b51bbd",
+  "index_nnz": 85362744,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 139.913,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

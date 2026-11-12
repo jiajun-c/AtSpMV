@@ -1,0 +1,49 @@
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "csr_vector": 21,
+    "atbsr": 44,
+    "csr_vector|atbsr": 6,
+    "atbsr|csr_vector": 8,
+    "cusparse": 1
+  },
+  "selection": "auto_tuned_shared",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.0725540828734579,
+    "median": 1.0589255731840392,
+    "wins": 52,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.857831991644198,
+    "median": 2.0334797434900542,
+    "wins": 79,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.068338121919128,
+    "median": 1.0540935352683656,
+    "wins": 51,
+    "cases": 80
+  },
+  "speedup_vs_full_tune": {
+    "geomean": 1.0031127829615352,
+    "median": 1.0,
+    "wins": 22,
+    "cases": 80
+  }
+}

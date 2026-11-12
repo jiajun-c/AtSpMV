@@ -1,0 +1,5 @@
+{
+  "count": 547,
+  "criterion": "prior complete-sweep success and >1000000 nnz",
+  "note": "shared H100 has about 8 GiB free; OOM/timeout cases are recorded and not silently omitted"
+}

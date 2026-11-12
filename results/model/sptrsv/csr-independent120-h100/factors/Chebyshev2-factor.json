@@ -1,0 +1,14 @@
+{
+  "matrix": "Chebyshev2",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Chebyshev2/Chebyshev2.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2053,
+  "columns": 2053,
+  "original_nnz": 18447,
+  "factor_L_nnz": 4563,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.12840658496133983
+}

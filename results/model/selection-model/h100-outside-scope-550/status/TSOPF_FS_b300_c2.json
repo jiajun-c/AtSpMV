@@ -1,0 +1,17 @@
+{
+  "dataset": "TSOPF_FS_b300_c2",
+  "matrix_sha256": "9c89c2351b066b9291c9eb528edf4867b18b9dfa4a11bb924b957199ba0db25a",
+  "index_nnz": 8767466,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 49.795,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

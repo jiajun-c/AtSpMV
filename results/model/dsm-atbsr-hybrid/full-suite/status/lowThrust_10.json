@@ -1,0 +1,10 @@
+{
+  "dataset": "lowThrust_10",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lowThrust_10/lowThrust_10.mtx",
+  "matrix_sha256": "0d9bc9066e935765254b610057aad97afd5ee075a965c0e4db4f13721d93490e",
+  "index_nnz": 222005,
+  "index_rows": 18260,
+  "elapsed_s": 0.628,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "mcca",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx --------------\ninput matrix A: ( 180, 180 ) nnz = 1723\ncomputation usetime = 0.180 ms\nPerformance = 0.019 gflops\n\nx check passed! |x-xref|/|xref| = 7.46e-17\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=2\nstage calculate done\n"
+}

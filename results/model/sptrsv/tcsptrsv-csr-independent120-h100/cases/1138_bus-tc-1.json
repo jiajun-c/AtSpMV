@@ -1,0 +1,9 @@
+{
+  "name": "1138_bus",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/1138_bus-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1152, 1152 ) nnz = 3765\nloadfile time    = 0.00163 sec\nnnzL = 3765\ntime_for_csc2CompressTile = 4.78 ms\ntime_cuda_solve = 0.142740 ms, Mflops = 52.75\nVALIDATION finite=1 max_error=4.4408920985006262e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

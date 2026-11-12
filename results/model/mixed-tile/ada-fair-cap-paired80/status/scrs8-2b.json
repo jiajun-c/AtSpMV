@@ -1,0 +1,15 @@
+{
+  "dataset": "scrs8-2b",
+  "matrix_sha256": "a5fb5e20c1dd49de8f2b2a9b2bd78d5725cbe712a268209489bf465b4d8d24aa",
+  "gpu_before": {
+    "utilization_percent": 35,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.043,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  }
+}

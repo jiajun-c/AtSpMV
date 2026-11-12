@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_osa_14",
+  "matrix_sha256": "15ff84a6caba5a6755bdcdc963fe739d3ed89f26076a21ed0428ade24a0de988",
+  "index_nnz": 317097,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 20.348,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

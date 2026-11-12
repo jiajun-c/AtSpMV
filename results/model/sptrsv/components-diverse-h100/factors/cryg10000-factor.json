@@ -1,0 +1,13 @@
+{
+  "matrix": "cryg10000",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/cryg10000/cryg10000.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 10000,
+  "columns": 10000,
+  "original_nnz": 49699,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.15804015612229705
+}

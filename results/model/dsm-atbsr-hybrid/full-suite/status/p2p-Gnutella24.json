@@ -1,0 +1,10 @@
+{
+  "dataset": "p2p-Gnutella24",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/p2p-Gnutella24/p2p-Gnutella24.mtx",
+  "matrix_sha256": "5df77df267cf5640ceb479c88461705735b1d5c9fa28b48fc0f41672e9063c67",
+  "index_nnz": 65369,
+  "index_rows": 26518,
+  "elapsed_s": 0.611,
+  "returncode": 0,
+  "status": "ok"
+}

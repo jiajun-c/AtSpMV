@@ -1,0 +1,314 @@
+[
+  {
+    "case": "lp_fit2d",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_fit2d/lp_fit2d.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "lp_fit2d-202610301.csv",
+    "candidates": 387,
+    "max_abs_error": 1.927746851e-11
+  },
+  {
+    "case": "lp_fit2d",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_fit2d/lp_fit2d.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "lp_fit2d-202610302.csv",
+    "candidates": 387,
+    "max_abs_error": 1.927746851e-11
+  },
+  {
+    "case": "lp_fit2d",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_fit2d/lp_fit2d.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "lp_fit2d-202610303.csv",
+    "candidates": 387,
+    "max_abs_error": 1.927746851e-11
+  },
+  {
+    "case": "kl02",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/kl02/kl02.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "kl02-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 1.181936493e-13
+  },
+  {
+    "case": "kl02",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/kl02/kl02.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "kl02-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 1.181936493e-13
+  },
+  {
+    "case": "kl02",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/kl02/kl02.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "kl02-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 1.181936493e-13
+  },
+  {
+    "case": "nw14",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/nw14/nw14.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "nw14-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 8.775723204e-13
+  },
+  {
+    "case": "nw14",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/nw14/nw14.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "nw14-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 8.775723204e-13
+  },
+  {
+    "case": "nw14",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/nw14/nw14.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "nw14-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 8.775723204e-13
+  },
+  {
+    "case": "bibd_16_8",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_16_8/bibd_16_8.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "bibd_16_8-202610301.csv",
+    "candidates": 387,
+    "max_abs_error": 9.506284648e-14
+  },
+  {
+    "case": "bibd_16_8",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_16_8/bibd_16_8.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "bibd_16_8-202610302.csv",
+    "candidates": 387,
+    "max_abs_error": 9.506284648e-14
+  },
+  {
+    "case": "bibd_16_8",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_16_8/bibd_16_8.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "bibd_16_8-202610303.csv",
+    "candidates": 387,
+    "max_abs_error": 9.506284648e-14
+  },
+  {
+    "case": "bibd_17_8",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_17_8/bibd_17_8.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "bibd_17_8-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 2.199282423e-13
+  },
+  {
+    "case": "bibd_17_8",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_17_8/bibd_17_8.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "bibd_17_8-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 2.199282423e-13
+  },
+  {
+    "case": "bibd_17_8",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_17_8/bibd_17_8.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "bibd_17_8-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 2.199282423e-13
+  },
+  {
+    "case": "bibd_18_9",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_18_9/bibd_18_9.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "bibd_18_9-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 5.360850652e-13
+  },
+  {
+    "case": "bibd_18_9",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_18_9/bibd_18_9.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "bibd_18_9-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 5.360850652e-13
+  },
+  {
+    "case": "bibd_18_9",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_18_9/bibd_18_9.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "bibd_18_9-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 5.360850652e-13
+  },
+  {
+    "case": "bibd_19_9",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_19_9/bibd_19_9.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "bibd_19_9-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 1.049993426e-12
+  },
+  {
+    "case": "bibd_19_9",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_19_9/bibd_19_9.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "bibd_19_9-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 1.049993426e-12
+  },
+  {
+    "case": "bibd_19_9",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/bibd_19_9/bibd_19_9.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "bibd_19_9-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 1.049993426e-12
+  },
+  {
+    "case": "connectus",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/connectus/connectus.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "connectus-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 2.349342942e-12
+  },
+  {
+    "case": "connectus",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/connectus/connectus.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "connectus-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 2.349342942e-12
+  },
+  {
+    "case": "connectus",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/connectus/connectus.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "connectus-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 2.349342942e-12
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "dataset": "torso3",
+  "matrix_sha256": "09888ebe674ccc05e37535857e174150fce5d00ae2425cbec27cc9bf199f5676",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.634,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

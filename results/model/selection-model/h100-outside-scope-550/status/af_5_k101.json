@@ -1,0 +1,17 @@
+{
+  "dataset": "af_5_k101",
+  "matrix_sha256": "2fbf6385979c3cdb83e3e82f589163e9bf6db8a73dfefb1e01b47755fa704570",
+  "index_nnz": 17550675,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 50.077,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

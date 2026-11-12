@@ -1,0 +1,7 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 3828616 (/tmp/atspmv-dsm-sm90-build/dsm_latency_bench)
+==PROF== Disconnected from process 3828616
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3828616","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Command line profiler metrics","lts__t_sectors_aperture_device_op_read_lookup_hit.sum","sector","6080"
+"0","3828616","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Command line profiler metrics","lts__t_sectors_aperture_device_op_read_lookup_miss.sum","sector","20"

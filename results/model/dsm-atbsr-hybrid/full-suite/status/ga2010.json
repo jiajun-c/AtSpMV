@@ -1,0 +1,10 @@
+{
+  "dataset": "ga2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ga2010/ga2010.mtx",
+  "matrix_sha256": "30dafec7287dc4c902e3e11c7d253b4f30cbbcccc1caeb97b11ddba667fa7cc2",
+  "index_nnz": 1418056,
+  "index_rows": 291086,
+  "elapsed_s": 1.728,
+  "returncode": 0,
+  "status": "ok"
+}

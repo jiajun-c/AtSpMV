@@ -1,0 +1,7 @@
+{
+  "name": "494_bus",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx --------------\ninput matrix A: ( 494, 494 ) nnz = 1563\ncomputation usetime = 0.103 ms\nPerformance = 0.030 gflops\n\nx check passed! |x-xref|/|xref| = 7.70e-17\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=2\nstage calculate done\n"
+}

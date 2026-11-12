@@ -1,0 +1,14 @@
+{
+  "matrix": "sherman4",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/sherman4/sherman4.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1104,
+  "columns": 1104,
+  "original_nnz": 3786,
+  "factor_L_nnz": 7639,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.07597066997550428
+}

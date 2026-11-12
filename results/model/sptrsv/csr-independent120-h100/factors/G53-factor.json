@@ -1,0 +1,14 @@
+{
+  "matrix": "G53",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/G53/G53.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1000,
+  "columns": 1000,
+  "original_nnz": 11828,
+  "factor_L_nnz": 26791,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.07905500708147883
+}

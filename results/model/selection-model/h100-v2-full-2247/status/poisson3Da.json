@@ -1,0 +1,17 @@
+{
+  "dataset": "poisson3Da",
+  "matrix_sha256": "3a762311f0e31989ab0b7812bd867b2fd00c30bd6fe079f1cc96825b59d43e8c",
+  "index_nnz": 352762,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.974,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

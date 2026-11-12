@@ -1,0 +1,10 @@
+{
+  "dataset": "com-DBLP",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/com-DBLP/com-DBLP.mtx",
+  "matrix_sha256": "cf24d01a3d7da9db5af8d41df69734c11d9a90d36d877670239b45f3f73fe3f3",
+  "index_nnz": 2099732,
+  "index_rows": 317080,
+  "elapsed_s": 1.939,
+  "returncode": 0,
+  "status": "ok"
+}

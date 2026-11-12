@@ -1,0 +1,10 @@
+{
+  "dataset": "graham1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/graham1/graham1.mtx",
+  "matrix_sha256": "5bf7b4b5bc38317e29cb9be3b7cd1e3d9ada256aa1e5ae14aa17f8e77960d2bd",
+  "index_nnz": 335504,
+  "index_rows": 9035,
+  "elapsed_s": 1.22,
+  "returncode": 0,
+  "status": "ok"
+}

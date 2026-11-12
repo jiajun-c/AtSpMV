@@ -1,0 +1,14 @@
+{
+  "matrix": "fs_541_1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/fs_541_1/fs_541_1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 541,
+  "columns": 541,
+  "original_nnz": 4285,
+  "factor_L_nnz": 1625,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03939039213582873
+}

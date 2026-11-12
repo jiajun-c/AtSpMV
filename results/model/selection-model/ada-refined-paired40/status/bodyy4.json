@@ -1,0 +1,17 @@
+{
+  "dataset": "bodyy4",
+  "matrix_sha256": "2379a555a0add1c4df601ce96dcf5c0f8cbcb307d55800db561b33dcadb6da5d",
+  "index_nnz": 121938,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.769,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

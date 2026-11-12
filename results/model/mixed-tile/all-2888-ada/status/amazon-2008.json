@@ -1,0 +1,15 @@
+{
+  "dataset": "amazon-2008",
+  "matrix_sha256": "77d94e28b8556791e06f1fcdec85cb9582396427f738a99c6a4e6b8a6bfa7779",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.95,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

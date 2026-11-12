@@ -1,0 +1,10 @@
+{
+  "dataset": "uni_chimera_i4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/uni_chimera_i4/uni_chimera_i4.mtx",
+  "matrix_sha256": "126864edaf57d7b52542c4fe19262500944294fd546bffa635cf15d881c20ba0",
+  "index_nnz": 814436,
+  "index_rows": 100000,
+  "elapsed_s": 1.155,
+  "returncode": 0,
+  "status": "ok"
+}

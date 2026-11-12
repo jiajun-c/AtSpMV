@@ -1,0 +1,9 @@
+{
+  "name": "Si2",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Si2-L.mtx,default,cusparse,784,41460,-1,6644.692,429.9071655,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Si2-L.mtx,default-host,cusparse,784,41460,-1,6644.692,436.851505,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Si2-L.mtx,model,cusparse,784,41460,496,6692.657,430.2720032,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Si2-L.mtx,model-host,cusparse,784,41460,496,6692.657,436.719275,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\n",
+  "stderr": ""
+}

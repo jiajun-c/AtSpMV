@@ -1,0 +1,15 @@
+{
+  "dataset": "ks2010",
+  "matrix_sha256": "d3254556488d0133622db8b062d480425571fc73058cde6059e3636e96e6cf45",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.472,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

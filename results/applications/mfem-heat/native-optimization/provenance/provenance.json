@@ -1,0 +1,49 @@
+{
+  "repository_head": "ff881efaea598ed2cbc06918695270708dbf12be",
+  "mfem_commit": "a01719101027383954b69af1777dc828bf795d62",
+  "application_sha256": "10b5cebd9993698431c74e69695ed4d285d6b1e22a5a4049baf76cecddbd00d6",
+  "benchmark_sha256": "58c928ca41dc866e45f8f0fd40581a1e897a1d861f9814dffeeedff029a655c6",
+  "source_sha256": {
+    "CMakeLists.txt": "468ee7b55df0f363a6ec729868deadd85b901ad7e82cc1b7181c73342bd1944c",
+    "include/spmvPlan.h": "168a289e3503f415e8ecaf149ee9e8fdffb7997c303b8a67780839d0f05c2d88",
+    "include/detail/planStorage.cuh": "7300b1d25759e5c09e3ab2ae9806b3e80dec166cbc8ecd89dd9b80b840eacd40",
+    "include/detail/groupedTileColumns.cuh": "9004ca47da491051fdfdd17d5266fa61f4807bcf6d34a3cb1c529690efc70bfd",
+    "include/detail/compressedTileColumns.cuh": "b624ea52bb3704bcf69f3c94667cd7edcd0354ce0ba70dcc18d260e9898b80ea",
+    "include/detail/planValueUpdate.cuh": "b42c113dfa997ea0be6150e085aaecbb1b069fb666f4ddde32f2babc02f5cb10",
+    "include/atspmvprod.h": "afa8cf87e56b40da666128919d898e710fc9ff6eb3c026e216c8f10e4045f73b",
+    "include/kernelConfig.h": "d7a2f905d22469a5d55d648b8795bc692ce9873928f07d68f2490416d1e818b2",
+    "include/tileModel.h": "371f72dc43159e0311d2fd66478c1a360bb51b78edad075ae296c50abd34ad4a",
+    "include/tileSelector.cuh": "147334a8b2ef1428f0150121e34b884c1c9b1e7ad579dfed5a4d754dcf734f19",
+    "include/tunedSpmv.cuh": "08cf8ec5d1433f8536edc6611c9c4811b849f83c724e5248c6bc9b59e0cbf6ad",
+    "src/atspmvProduct.cu": "6c3d6e37662c6a325c29d9671ae4cab17052e302b1b957caa2d430f9d1c68d15",
+    "src/spmvPlan.cu": "d775889ef81803f82ecd198452cb398187322675df6c9126a0dc2691ec413c00",
+    "apps/mfem/heat.cpp": "01f018fbd58fedbce2871c99eb3f31b900a84c26967961a18de08654c2d9d5db",
+    "apps/mfem/spmvOperator.hpp": "93be2c855157b4525df5302969716767651ae8368888df8b3b21057c229c1cc1",
+    "apps/mfem/sparseSum.cu": "bf4775ba01c8abce86988a6e14f7a85c839d7f2960cf8bc9411ca8d4a9da3988",
+    "apps/mfem/sparseSum.hpp": "e3fc9b0ea7dd3083fff2ffff5ce5361e70c869c557d86d955afe82b4f31980d8",
+    "apps/mfem/CMakeLists.txt": "bf76c119cac66a27f6027ce65137d5fc034f1d8837e23c4a4e56ccde7905055d",
+    "bench/packed_spmv_bench.cu": "efaf57503c4876674938d0bde3d9a5984ed7474f0366931f94192cd95c507156",
+    "tests/spmv_value_update_test.cu": "5d79fc9b8f144d1fcd6a078e0a226d9e225344d5d2f2ad48cabb8261fcda5937",
+    "scripts/analysis/benchmark_mfem_native.py": "24d3fe3d6237b78f2aaa4486ca43442b93b8bdf16df840daaf53bd5ce881dc3c",
+    "scripts/analysis/benchmark_mfem_heat.py": "26d54837ade6a1aefa06e69b5f9cd95ad18bb52b1d44dab0a63e22002c908277",
+    "scripts/analysis/validate_mfem_cpu_reference.py": "4087a3c6d942d43fed61cc6f5fc912297755d21a177050dce88f4891e41866dc"
+  },
+  "hardware": "NVIDIA H100 PCIe, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, 580.178.04",
+  "toolchain": "CUDA 12.6, GCC11, Release SM90; MFEM 4.8 serial FP64 CUDA",
+  "persist_x": false,
+  "cpu_controls": [
+    30,
+    -1
+  ],
+  "application_experiments": [
+    "confirmation-r7",
+    "confirmation-unbound-r7"
+  ],
+  "kernel_experiment": "cusparse-algorithms",
+  "tests": {
+    "value_updates": 90,
+    "compressed_grouped_memcheck": 9,
+    "plan_checks": 956
+  },
+  "known_issue": "Pre-existing DSM sanitizer failure remains unresolved; this feature and measured application do not use DSM."
+}

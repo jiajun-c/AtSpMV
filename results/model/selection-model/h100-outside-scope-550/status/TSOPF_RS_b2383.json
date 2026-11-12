@@ -1,0 +1,17 @@
+{
+  "dataset": "TSOPF_RS_b2383",
+  "matrix_sha256": "5eee71c510f977bf3b867b4e83aa648e3b25544240f8ac0b6bce0869ff57adde",
+  "index_nnz": 16171169,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 147.128,
+  "gpu_after": {
+    "utilization_percent": 17,
+    "free_memory_mib": 81079
+  }
+}

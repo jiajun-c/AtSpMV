@@ -1,0 +1,17 @@
+{
+  "dataset": "mark3jac060sc",
+  "matrix_sha256": "8980b95839f2e15dc7470f7611c569b3f6fe74ced717c5e3c75fd4e34dab24e3",
+  "index_nnz": 170695,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.496,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

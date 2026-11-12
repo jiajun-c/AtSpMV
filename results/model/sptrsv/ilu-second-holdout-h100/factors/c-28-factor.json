@@ -1,0 +1,13 @@
+{
+  "matrix": "c-28",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/c-28/c-28.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 4598,
+  "columns": 4598,
+  "original_nnz": 30590,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.027778516057878733
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "parabolic_fem",
+  "matrix_sha256": "711a89faf2454b052e1e326b6bad6e5d2df4cde162d92ae6e0bc0577b5c6f488",
+  "index_nnz": 3674625,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 81.734,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

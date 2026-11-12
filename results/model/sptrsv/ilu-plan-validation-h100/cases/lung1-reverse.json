@@ -1,0 +1,7 @@
+{
+  "name": "lung1",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,model,cusparse,1650,4180,467,3979.22,450.9247742,2.220446049e-16\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,default,cusparse,1650,4180,-1,3885.948,450.7520142,2.220446049e-16\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "srb1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/srb1/srb1.mtx",
+  "matrix_sha256": "aaa10ca3de66378ee6ede991413675aba6ccf7bb6f4cdb06aa23b8e3bb41aedc",
+  "index_nnz": 2962152,
+  "index_rows": 54924,
+  "elapsed_s": 1.308,
+  "returncode": 0,
+  "status": "ok"
+}

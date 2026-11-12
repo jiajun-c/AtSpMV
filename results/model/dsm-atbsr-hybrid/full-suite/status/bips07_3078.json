@@ -1,0 +1,10 @@
+{
+  "dataset": "bips07_3078",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bips07_3078/bips07_3078.mtx",
+  "matrix_sha256": "99670b7f6248edb70571c8e19334929870e408465d738822d17402c95da7f53c",
+  "index_nnz": 75729,
+  "index_rows": 21128,
+  "elapsed_s": 2.844,
+  "returncode": 0,
+  "status": "ok"
+}

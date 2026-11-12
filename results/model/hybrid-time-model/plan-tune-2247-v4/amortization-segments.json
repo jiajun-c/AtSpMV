@@ -1,0 +1,100 @@
+{
+  "cases": 2247,
+  "selection": "auto_tuned",
+  "method": "Per-order Plan setup plus N independent warm Graph GPU calls, compared to default AtBSR; per-case paired geometric mean before group aggregation. Setup excludes input loading, caller allocations, Graph creation and CPU launch overhead. Grouped by nnz; incomplete sample is not a full-suite result.",
+  "groups": {
+    "100k-1M": {
+      "cases": 631,
+      "median_selection_setup_ms": 444.21768099999997,
+      "median_default_setup_ms": 10.234328999999999,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.015389995706580659,
+          "wins": 0
+        },
+        "100": {
+          "geomean_speedup": 0.017081499944860724,
+          "wins": 0
+        },
+        "1000": {
+          "geomean_speedup": 0.029817569889529858,
+          "wins": 0
+        },
+        "10000": {
+          "geomean_speedup": 0.12228639261961602,
+          "wins": 0
+        },
+        "100000": {
+          "geomean_speedup": 0.5534681378276636,
+          "wins": 21
+        },
+        "1000000": {
+          "geomean_speedup": 1.0340454715716179,
+          "wins": 368
+        }
+      }
+    },
+    "10k-100k": {
+      "cases": 784,
+      "median_selection_setup_ms": 167.24937450000002,
+      "median_default_setup_ms": 8.922517500000001,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.03147933071529801,
+          "wins": 0
+        },
+        "100": {
+          "geomean_speedup": 0.03545306122467182,
+          "wins": 1
+        },
+        "1000": {
+          "geomean_speedup": 0.0632457481658532,
+          "wins": 2
+        },
+        "10000": {
+          "geomean_speedup": 0.23581333077098873,
+          "wins": 2
+        },
+        "100000": {
+          "geomean_speedup": 0.8087623155299491,
+          "wins": 72
+        },
+        "1000000": {
+          "geomean_speedup": 1.1827734921059456,
+          "wins": 728
+        }
+      }
+    },
+    "<10k": {
+      "cases": 832,
+      "median_selection_setup_ms": 81.0995745,
+      "median_default_setup_ms": 8.72999075,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.053840274512763894,
+          "wins": 3
+        },
+        "100": {
+          "geomean_speedup": 0.05936763067857587,
+          "wins": 3
+        },
+        "1000": {
+          "geomean_speedup": 0.09841892320081387,
+          "wins": 3
+        },
+        "10000": {
+          "geomean_speedup": 0.3165969662519746,
+          "wins": 3
+        },
+        "100000": {
+          "geomean_speedup": 0.8709615536369129,
+          "wins": 42
+        },
+        "1000000": {
+          "geomean_speedup": 1.138202051129734,
+          "wins": 800
+        }
+      }
+    }
+  }
+}

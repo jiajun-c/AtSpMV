@@ -1,0 +1,10 @@
+{
+  "dataset": "G3_circuit",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G3_circuit/G3_circuit.mtx",
+  "matrix_sha256": "ccaf9972ebe3f24731cec7295f281bdca59f31cb084663ef1011f0194a26a101",
+  "index_nnz": 7660826,
+  "index_rows": 1585478,
+  "elapsed_s": 4.492,
+  "returncode": 0,
+  "status": "ok"
+}

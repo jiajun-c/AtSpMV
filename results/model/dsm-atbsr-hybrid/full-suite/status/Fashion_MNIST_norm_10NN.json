@@ -1,0 +1,10 @@
+{
+  "dataset": "Fashion_MNIST_norm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Fashion_MNIST_norm_10NN/Fashion_MNIST_norm_10NN.mtx",
+  "matrix_sha256": "e20f449c70336fdf60831a4a8f94c0a46819f6ea01742b040526dce671d02bcb",
+  "index_nnz": 158304,
+  "index_rows": 10000,
+  "elapsed_s": 0.576,
+  "returncode": 0,
+  "status": "ok"
+}

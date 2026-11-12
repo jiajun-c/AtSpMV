@@ -1,0 +1,9 @@
+{
+  "name": "oscil_dcop_27",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx --------------\nsuccess open file\ninput matrix A: ( 432, 432 ) nnz = 1106\nloadfile time    = 0.00044 sec\nnnzL = 1106\ntime_for_csc2CompressTile = 6.03 ms\ntime_cuda_solve = 0.081070 ms, Mflops = 27.29\nVALIDATION finite=1 max_error=3.3306690738754696e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "exe": "/tmp/atspmv-mfem-grouped-v2",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "/staff/chengjiajun/workspace/AtSpmv/results/applications/mfem-heat/native-optimization/confirmation-unbound-r7",
+  "gpu": 3,
+  "cpu": -1,
+  "refine": 7,
+  "steps": 20,
+  "rounds": 8,
+  "executable_sha256": "10b5cebd9993698431c74e69695ed4d285d6b1e22a5a4049baf76cecddbd00d6",
+  "mesh_sha256": "374d20f1cd3457de6d398b33fb69f685215dd5cf8e23816f829a33f8b62bf210",
+  "runner_sha256": "24d3fe3d6237b78f2aaa4486ca43442b93b8bdf16df840daaf53bd5ce881dc3c",
+  "helper_sha256": "26d54837ade6a1aefa06e69b5f9cd95ad18bb52b1d44dab0a63e22002c908277",
+  "persist_x": false,
+  "prefetch": 2,
+  "warps": 4
+}

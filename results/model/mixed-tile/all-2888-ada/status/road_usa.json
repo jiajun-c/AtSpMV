@@ -1,0 +1,15 @@
+{
+  "dataset": "road_usa",
+  "matrix_sha256": "5ee32b5ac21e95c8c4a9bf14aa3725215cc8f4104df88284b53913f43252b990",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 8.928,
+  "gpu_after": {
+    "utilization_percent": 89,
+    "free_memory_mib": 48508
+  }
+}

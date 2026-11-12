@@ -1,0 +1,10 @@
+{
+  "dataset": "complex",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/complex/complex.mtx",
+  "matrix_sha256": "ed3ce7b6ae342015600f926d4a5747c1cf908b0658ac98687098e567814c2cea",
+  "index_nnz": 46463,
+  "index_rows": 1023,
+  "elapsed_s": 1.252,
+  "returncode": 0,
+  "status": "ok"
+}

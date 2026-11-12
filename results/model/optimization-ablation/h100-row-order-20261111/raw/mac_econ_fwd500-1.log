@@ -1,0 +1,9 @@
+PLAN_LAYOUT,atbsr_rows_original,206500,206500,1273389,5,0,0,0,0
+PLAN_SLOTS,atbsr_rows_original,5,4631648
+PLAN_LAYOUT,atbsr_rows_original,206500,206500,1273389,3,0,0,0,0
+PLAN_SLOTS,atbsr_rows_original,3,2941632
+PLAN_LAYOUT,atbsr_rows_sorted,206500,206500,1273389,5,0,0,0,0
+PLAN_SLOTS,atbsr_rows_sorted,5,1275360
+PLAN_LAYOUT,atbsr_rows_sorted,206500,206500,1273389,3,0,0,0,0
+PLAN_SLOTS,atbsr_rows_sorted,3,1527680
+TIMING_MODE,internal_graph_events

@@ -1,0 +1,17 @@
+{
+  "dataset": "as-caida",
+  "matrix_sha256": "60462c16d93c6b143486c3f9d47789bf3debd81c4d5e44c966357a66d7d94a97",
+  "index_nnz": 106762,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.356,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

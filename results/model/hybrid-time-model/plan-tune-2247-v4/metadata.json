@@ -1,0 +1,21 @@
+{
+  "index_sha256": "7797379a962fe9c19c1159e2591c9119ba6d329ee3bd032cf37ef05a88e26c5d",
+  "exe_sha256": "eeb10025380b16ad65a705ac38345657de900b8a76dd6df867eef8816d462365",
+  "config_sha256": "db4597d836e181d697f15b38d3bdd911e0cbbcbddafeb14fa5e8f7d6b66cd46a",
+  "runner_sha256": "d007526ba3f81f3358276137a3334965dfd210148714cb491a52cf260b347d35",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "seed": 20261028,
+  "trials": 9,
+  "timeout_s": 900,
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "monitor_resident": true,
+  "selection": "auto_tuned",
+  "counterbalance": true,
+  "extended_baselines": true,
+  "vector_candidates": false,
+  "reverse_config_sha256": "f2faf8f783127077c3500ba3523ee8507a4946e33003a577ea1da1f45d538065",
+  "idle_policy": "30s GPU-wide idle at startup/after interference; otherwise use per-process resident activity, foreign process detection and memory reserve. Polling cannot rule out short or non-compute interference.",
+  "method": "Actual Plan selection before independent interleaved warm Graph timings; compare default AtBSR and preprocessed cuSPARSE CSR_ALG1. Each candidate checked with two nonuniform vectors and a graph against CPU long-double reference. Preparation excluded."
+}

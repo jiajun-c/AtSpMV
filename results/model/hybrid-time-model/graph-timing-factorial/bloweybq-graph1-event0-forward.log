@@ -1,0 +1,9 @@
+PLAN_PREP,atbsr,18042.706999999999
+PLAN_PREP,auto_model,9733.4269999999997
+PLAN_PREP,auto_vector_model,9507.4760000000006
+PLAN_PREP,auto_vector_model_2pct,157130.32999999999
+PLAN_ALIAS,auto_model,owner
+PLAN_ALIAS,auto_vector_model,shared
+PLAN_ALIAS,auto_vector_model_2pct,shared
+GRAPH_ALIAS,auto_vector_model,auto_model
+GRAPH_ALIAS,auto_vector_model_2pct,auto_model

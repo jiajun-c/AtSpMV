@@ -1,0 +1,7 @@
+{
+  "matrix": "young3c",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/young3c-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 8.039642125368118e-07
+}

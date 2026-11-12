@@ -1,0 +1,8 @@
+========= COMPUTE-SANITIZER
+tuned auto -> hybrid_dsm_atbsr, candidates=29, setup_us=724295
+tuned atbsr -> atbsr, candidates=12, setup_us=317986
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=7472.52
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=4995.3
+PASS: 280 direct/graph/reference checks; dsm_available=1
+========= LEAK SUMMARY: 0 bytes leaked in 0 allocations
+========= ERROR SUMMARY: 0 errors

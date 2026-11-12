@@ -1,0 +1,17 @@
+{
+  "dataset": "grid2",
+  "matrix_sha256": "49f5c4eb24a84dec021aa54db120b5641836a4503264219b138ce2c35ce88bb7",
+  "index_nnz": 12864,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.061,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

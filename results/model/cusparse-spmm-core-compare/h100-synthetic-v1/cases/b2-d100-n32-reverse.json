@@ -1,0 +1,57 @@
+{
+  "case": [
+    2,
+    100,
+    32,
+    "reverse"
+  ],
+  "returncode": 0,
+  "stderr": "",
+  "rows": [
+    {
+      "method": "blocked_ell",
+      "m": "1024",
+      "k": "1024",
+      "n": "32",
+      "nnz": "30551",
+      "block": "16",
+      "blocks_per_row": "2",
+      "requested_density": "100",
+      "real_density": "0.93234253",
+      "workspace_bytes": "0",
+      "median_us": "3.795500",
+      "max_abs_error": "0",
+      "status": "ok"
+    },
+    {
+      "method": "csr_alg3",
+      "m": "1024",
+      "k": "1024",
+      "n": "32",
+      "nnz": "30551",
+      "block": "16",
+      "blocks_per_row": "2",
+      "requested_density": "100",
+      "real_density": "0.93234253",
+      "workspace_bytes": "8214",
+      "median_us": "4.436250",
+      "max_abs_error": "0",
+      "status": "ok"
+    },
+    {
+      "method": "csr_alg2",
+      "m": "1024",
+      "k": "1024",
+      "n": "32",
+      "nnz": "30551",
+      "block": "16",
+      "blocks_per_row": "2",
+      "requested_density": "100",
+      "real_density": "0.93234253",
+      "workspace_bytes": "5095",
+      "median_us": "11.071250",
+      "max_abs_error": "0",
+      "status": "ok"
+    }
+  ]
+}

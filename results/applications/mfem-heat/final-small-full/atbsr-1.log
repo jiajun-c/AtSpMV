@@ -1,0 +1,30 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 5
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr
+   --solution /tmp/atspmv-heat-field-87i0bhkb/temperature.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 82561
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+plan rows=82561 nnz=1313281 backend=atbsr tile=5 balanced=0 mixed_cap=0
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"atbsr","dofs":82561,"steps":20,"nnz":1313281,"initialization_s":0.57088788999999995,"evolution_s":0.82869956700000003,"total_s":1.3995876840000001,"plan_s":0.17979682,"plans":3,"value_updates":39,"linear_s":0.30680925099999995,"parameter_s":0.434077616,"implicit_setup_s":0.11782179099999995,"implicit_updates":19,"spmv_calls":5578,"linear_solves":20,"cg_iterations":5558,"sum":96183.598078235475,"l2":334.94353362775468,"mass_relative_error":2.1713632222971162e-09,"initial_energy":7.1115985012722467,"final_energy":6.4652659526014302}
+
+STDERR

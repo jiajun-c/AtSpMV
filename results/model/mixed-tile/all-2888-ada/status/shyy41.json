@@ -1,0 +1,15 @@
+{
+  "dataset": "shyy41",
+  "matrix_sha256": "bd692f144d793fccb122922b29cedc69d0ed0757ad70c91d76e5f04a832c7afd",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.455,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

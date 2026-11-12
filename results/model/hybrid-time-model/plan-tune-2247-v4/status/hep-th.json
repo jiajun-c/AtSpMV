@@ -1,0 +1,19 @@
+{
+  "dataset": "hep-th",
+  "matrix_sha256": "82715549b2e1fe217ab3405626b65c62312fee8fdb7c3d9911a3fc43c62b3250",
+  "index_nnz": 31502,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.781,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "swang2",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/swang2-L.mtx,default,cusparse,3184,31418,-1,3536.218,261.9872131,6.661338148e-16,5.432014037e-17,1.093466059e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/swang2-L.mtx,default-host,cusparse,3184,31418,-1,3536.218,269.28748,6.661338148e-16,5.432014037e-17,1.093466059e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/swang2-L.mtx,model,cusparse,3184,31418,187,3829.255,262.0287781,6.661338148e-16,5.432014037e-17,1.093466059e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/swang2-L.mtx,model-host,cusparse,3184,31418,187,3829.255,269.07871,6.661338148e-16,5.432014037e-17,1.093466059e-16,0\n",
+  "stderr": ""
+}

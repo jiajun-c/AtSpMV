@@ -1,0 +1,10 @@
+{
+  "dataset": "dolphins",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dolphins/dolphins.mtx",
+  "matrix_sha256": "1ad619d33495fe5dc3c951469e6eae8b28ba788316b6183db86d45e50dfa1e5e",
+  "index_nnz": 318,
+  "index_rows": 62,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

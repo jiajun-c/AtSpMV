@@ -1,0 +1,15 @@
+{
+  "dataset": "piston",
+  "matrix_sha256": "6b824db6fb392837e1fddd3f09c2607d36592535ef31b626b1e513eaadbfd98f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.188,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "webbase-2001",
+  "matrix_sha256": "888447fc24c7866c96cfbe659999f7ab9f32015ce127202610cc8c2661807d71",
+  "index_nnz": 1019903190,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 225.813,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

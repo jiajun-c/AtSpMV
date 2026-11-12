@@ -1,0 +1,9 @@
+{
+  "name": "saylr4",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3568, 3568 ) nnz = 36982\nloadfile time    = 0.01625 sec\nnnzL = 36982\ntime_for_csc2CompressTile = 3.12 ms\ntime_cuda_solve = 0.507950 ms, Mflops = 145.61\nVALIDATION finite=1 max_error=3.1086244689504383e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

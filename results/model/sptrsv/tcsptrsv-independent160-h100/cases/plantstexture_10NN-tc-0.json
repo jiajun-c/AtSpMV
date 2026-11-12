@@ -1,0 +1,9 @@
+{
+  "name": "plantstexture_10NN",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantstexture_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1600, 1600 ) nnz = 47919\nloadfile time    = 0.02341 sec\nnnzL = 47919\ntime_for_csc2CompressTile = 3.88 ms\ntime_cuda_solve = 0.546020 ms, Mflops = 175.52\nVALIDATION finite=1 max_error=3.872457909892546e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

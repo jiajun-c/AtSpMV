@@ -1,0 +1,10 @@
+{
+  "dataset": "plantsmargin_12NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/plantsmargin_12NN/plantsmargin_12NN.mtx",
+  "matrix_sha256": "3acc650c40eaf4fb0865c585cb87c01a4093b8bc764bfb80ea965f3950cc68fd",
+  "index_nnz": 25482,
+  "index_rows": 1600,
+  "elapsed_s": 0.653,
+  "returncode": 0,
+  "status": "ok"
+}

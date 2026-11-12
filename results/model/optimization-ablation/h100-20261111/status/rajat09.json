@@ -1,0 +1,31 @@
+{
+  "dataset": "rajat09",
+  "status": "ok",
+  "matrix_sha256": "4bfc7732334623ae6c2136b3409d522a83ddeae1b586876f3bcdd2274ac9291a",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/rajat09/rajat09.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/rajat09-0.csv",
+        "20261111",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.3713449379429221
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/rajat09/rajat09.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/rajat09-1.csv",
+        "20261112",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.164701676927507
+    }
+  ]
+}

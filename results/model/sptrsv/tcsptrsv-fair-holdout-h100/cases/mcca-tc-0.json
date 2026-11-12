@@ -1,0 +1,9 @@
+{
+  "name": "mcca",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx --------------\nsuccess open file\ninput matrix A: ( 180, 180 ) nnz = 1723\nloadfile time    = 0.00062 sec\nnnzL = 1735\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.35 ms\ntime_cuda_solve = 0.125980 ms, Mflops = 27.54\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.96534653465346532 expected=0.96534653465346532 b=0.96534653465346532\nsample i=2 got=1.4306930693069306 expected=1.4306930693069306 b=1.4306930693069306\nsample i=3 got=0.89603960396039606 expected=0.89603960396039606 b=0.89603960396039606\nsample i=4 got=0.62871287128712872 expected=0.62871287128712872 b=0.62871287128712872\nsample i=5 got=1.0940594059405941 expected=1.0940594059405941 b=1.0940594059405941\nsample i=6 got=1.193069306930693 expected=1.193069306930693 b=1.193069306930693\nsample i=7 got=0.92574257425742568 expected=0.92574257425742568 b=0.92574257425742568\nVALIDATION finite=1 max_error=0.73447677460404337 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

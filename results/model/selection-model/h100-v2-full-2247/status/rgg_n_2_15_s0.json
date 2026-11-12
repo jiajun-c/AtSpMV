@@ -1,0 +1,17 @@
+{
+  "dataset": "rgg_n_2_15_s0",
+  "matrix_sha256": "6ba7649fb3cf39820dec769b9ab9ecbca6d5ca4f32eb82f22bbc06e42ade4016",
+  "index_nnz": 320480,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.604,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  }
+}

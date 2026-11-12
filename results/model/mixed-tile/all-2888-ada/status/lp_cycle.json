@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_cycle",
+  "matrix_sha256": "540e44c5bbe9acb424c82ea1e1033b3084281b5e23ec572b3193ee8d26426fee",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.126,
+  "gpu_after": {
+    "utilization_percent": 13,
+    "free_memory_mib": 48508
+  }
+}

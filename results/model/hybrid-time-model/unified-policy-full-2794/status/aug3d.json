@@ -1,0 +1,17 @@
+{
+  "dataset": "aug3d",
+  "matrix_sha256": "5a5b4004c43c170833805b74acd9b3c4aed389a49062b497552b369c9046a20f",
+  "index_nnz": 69984,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.21,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

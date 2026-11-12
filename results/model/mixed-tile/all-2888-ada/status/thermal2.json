@@ -1,0 +1,15 @@
+{
+  "dataset": "thermal2",
+  "matrix_sha256": "f22cafc97c150c1333545f519ee92226f8407ec281938a6a39b5ff685d61acf2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.593,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "benzene",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/benzene/benzene.mtx",
+  "matrix_sha256": "896fab3f162c082029682db9f3e5e21e48ebdb2c71ae7616997393f0d6c5d12b",
+  "index_nnz": 242669,
+  "index_rows": 8219,
+  "elapsed_s": 1.312,
+  "returncode": 0,
+  "status": "ok"
+}

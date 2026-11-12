@@ -1,0 +1,9 @@
+{
+  "name": "bcsstk12",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bcsstk12-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1488, 1488 ) nnz = 51924\nloadfile time    = 0.02544 sec\nnnzL = 51924\ntime_for_csc2CompressTile = 3.16 ms\ntime_cuda_solve = 0.685800 ms, Mflops = 151.43\nVALIDATION finite=1 max_error=3.8324898810060404e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

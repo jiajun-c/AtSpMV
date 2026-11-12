@@ -1,0 +1,15 @@
+{
+  "dataset": "pkustk10",
+  "matrix_sha256": "7bcb5ef60133baed734f89b172d7773e8eb69707ed0bf5dfd849faffaca34af4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.99,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

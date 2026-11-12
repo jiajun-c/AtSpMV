@@ -1,0 +1,32 @@
+{
+  "dataset": "Goodwin_127",
+  "status": "ok",
+  "matrix_sha256": "51f4f7b4177102dea31ffa80ef6d827d4fc66bdaefd8186d90b93d68016a932f",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Goodwin_127/Goodwin_127.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Goodwin_127-0.csv",
+        "20261187",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.379651173017919
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Goodwin_127/Goodwin_127.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Goodwin_127-1.csv",
+        "20261188",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.342541716992855
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "G53",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/G53-L.mtx,default,cusparse,1000,26791,-1,4694.794,281.5648193,5.329070518e-14,3.330923876e-17,1.295869775e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/G53-L.mtx,default-host,cusparse,1000,26791,-1,4694.794,288.920795,5.329070518e-14,3.330923876e-17,1.295869775e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/G53-L.mtx,model,cusparse,1000,26791,222,4813.702,282.2175903,5.329070518e-14,3.330923876e-17,1.295869775e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/G53-L.mtx,model-host,cusparse,1000,26791,222,4813.702,288.3151,5.329070518e-14,3.330923876e-17,1.295869775e-16,0\n",
+  "stderr": ""
+}

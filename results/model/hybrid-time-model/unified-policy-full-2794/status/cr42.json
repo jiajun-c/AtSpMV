@@ -1,0 +1,17 @@
+{
+  "dataset": "cr42",
+  "matrix_sha256": "593a873eb17cc6d5b18f505d7b4a6da8bf730d614c9239b8b905483da2b32898",
+  "index_nnz": 6614,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.19,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

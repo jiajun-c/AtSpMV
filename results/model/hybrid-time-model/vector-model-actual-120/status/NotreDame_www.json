@@ -1,0 +1,17 @@
+{
+  "dataset": "NotreDame_www",
+  "matrix_sha256": "c54fddc40f0638ecd9fbb0cbc37b56b49f163777a6729d72546015fb96dbf497",
+  "index_nnz": 929849,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.492,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cfd1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cfd1/cfd1.mtx",
+  "matrix_sha256": "81c2f6203542f3fb6029da7403d4f6fa9777a2d26a248eee79de59d06aaccd59",
+  "index_nnz": 1828364,
+  "index_rows": 70656,
+  "elapsed_s": 1.615,
+  "returncode": 0,
+  "status": "ok"
+}

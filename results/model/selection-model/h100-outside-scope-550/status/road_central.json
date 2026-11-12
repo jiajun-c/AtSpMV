@@ -1,0 +1,17 @@
+{
+  "dataset": "road_central",
+  "matrix_sha256": "43fd76019778455edb42184fbac8142e1b540a3d51885f76f87c54157b38e22b",
+  "index_nnz": 33866826,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 598.545,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

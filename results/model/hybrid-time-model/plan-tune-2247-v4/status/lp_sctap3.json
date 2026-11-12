@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_sctap3",
+  "matrix_sha256": "08de9da45f5bc782ba1637696ddec1d3a56b0024499d070e9524ad82dde58254",
+  "index_nnz": 9734,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.373,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

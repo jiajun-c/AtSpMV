@@ -1,0 +1,9 @@
+{
+  "name": "mhda416",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mhda416-L.mtx --------------\nsuccess open file\ninput matrix A: ( 416, 416 ) nnz = 12202\nloadfile time    = 0.00501 sec\nnnzL = 12202\ntime_for_csc2CompressTile = 2.56 ms\ntime_cuda_solve = 0.145130 ms, Mflops = 168.15\nVALIDATION finite=1 max_error=5.6621374255882984e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

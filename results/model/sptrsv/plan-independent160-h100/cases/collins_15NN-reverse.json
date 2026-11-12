@@ -1,0 +1,7 @@
+{
+  "name": "collins_15NN",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,model,cusparse,1000,10401,671,5411.253,499.2256165,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,model-host,cusparse,1000,10401,671,5411.253,505.23601,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,default,cusparse,1000,10401,-1,5792.781,499.3215942,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\nresults/model/sptrsv/components-independent-h100/factors/collins_15NN-L.mtx,default-host,cusparse,1000,10401,-1,5792.781,505.16361,4.352074257e-14,2.237871321e-17,1.082059626e-16,0\n",
+  "stderr": ""
+}

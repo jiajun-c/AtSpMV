@@ -1,0 +1,32 @@
+{
+  "dataset": "darcy003",
+  "status": "ok",
+  "matrix_sha256": "39a4bf4b32930bf307e6c895bcb904a89ba9ba88829ceaae50a7fe1d789de8e8",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/darcy003/darcy003.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/darcy003-0.csv",
+        "20261215",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.2205570319201797
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/darcy003/darcy003.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/darcy003-1.csv",
+        "20261216",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 31.953004932031035
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

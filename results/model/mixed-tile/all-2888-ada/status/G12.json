@@ -1,0 +1,15 @@
+{
+  "dataset": "G12",
+  "matrix_sha256": "6a53390a2c758d5821a371ce8a4f91a93f75a9edf8de47b0cb85ae58b58813c5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.135,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "oscil_dcop_27",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx,default,cusparse,432,1106,-1,2244.457,37.68000031,3.552713679e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx,default-host,cusparse,432,1106,-1,2244.457,45.283035,3.552713679e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx,model,cached,432,1106,25,1287.878,21.1935997,3.552713679e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/oscil_dcop_27-L.mtx,model-host,cached,432,1106,25,1287.878,28.0369,3.552713679e-15\n",
+  "stderr": ""
+}

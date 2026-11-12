@@ -1,0 +1,10 @@
+{
+  "dataset": "pa2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pa2010/pa2010.mtx",
+  "matrix_sha256": "22849b67367766aad55ebf70718aee87627be883dc1b33eb1f70aeb9ccb7afd1",
+  "index_nnz": 2058462,
+  "index_rows": 421545,
+  "elapsed_s": 2.243,
+  "returncode": 0,
+  "status": "ok"
+}

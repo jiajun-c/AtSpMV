@@ -1,0 +1,7 @@
+{
+  "name": "dwt_234",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/dwt_234-L.mtx --------------\ninput matrix A: ( 234, 234 ) nnz = 904\ncomputation usetime = 0.090 ms\nPerformance = 0.020 gflops\n\n x check _NOT_ passed! |x-xref|/|xref| = 1.30e-02\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=2\nstage calculate done\n"
+}

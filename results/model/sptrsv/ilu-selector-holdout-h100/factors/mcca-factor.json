@@ -1,0 +1,14 @@
+{
+  "matrix": "mcca",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mcca/mcca.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 180,
+  "columns": 180,
+  "original_nnz": 2659,
+  "factor_L_nnz": 1723,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03980169910937548
+}

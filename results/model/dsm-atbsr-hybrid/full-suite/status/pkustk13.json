@@ -1,0 +1,10 @@
+{
+  "dataset": "pkustk13",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pkustk13/pkustk13.mtx",
+  "matrix_sha256": "af2339d319bbe761e435f95ac4eab5f4cd0c57921131c31b292b73876615cceb",
+  "index_nnz": 6616827,
+  "index_rows": 94893,
+  "elapsed_s": 3.129,
+  "returncode": 0,
+  "status": "ok"
+}

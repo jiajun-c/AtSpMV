@@ -1,0 +1,9 @@
+{
+  "name": "breasttissue_10NN",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/breasttissue_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 112, 112 ) nnz = 3233\nloadfile time    = 0.00153 sec\nnnzL = 3233\ntime_for_csc2CompressTile = 2.63 ms\ntime_cuda_solve = 0.099230 ms, Mflops = 65.16\nVALIDATION finite=1 max_error=1.7208456881689926e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

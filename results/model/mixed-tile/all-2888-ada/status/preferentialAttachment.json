@@ -1,0 +1,15 @@
+{
+  "dataset": "preferentialAttachment",
+  "matrix_sha256": "9578e46c7068db6df79768632d469279d1a20d17cc039066d3a7b2915d858804",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.655,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "vsp_vibrobox_scagr7-2c_rlfddd",
+  "matrix_sha256": "32c9d5819839671e34a19c8ae1bfaaa4653a859075e44180dffad84d74c0a12d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.748,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

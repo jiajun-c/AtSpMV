@@ -1,0 +1,19 @@
+{
+  "dataset": "barth4",
+  "matrix_sha256": "7275c6738477117bbdc40be1d084530b6441c21638a6a539926f672f65ffe2e8",
+  "index_nnz": 23492,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.77,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

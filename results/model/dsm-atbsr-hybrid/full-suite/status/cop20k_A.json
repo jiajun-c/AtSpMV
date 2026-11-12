@@ -1,0 +1,10 @@
+{
+  "dataset": "cop20k_A",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cop20k_A/cop20k_A.mtx",
+  "matrix_sha256": "57ac0d3d29c51e39e4b669d78e5da81e34d66859581c1208c28295a69351728a",
+  "index_nnz": 2624331,
+  "index_rows": 121192,
+  "elapsed_s": 2.691,
+  "returncode": 0,
+  "status": "ok"
+}

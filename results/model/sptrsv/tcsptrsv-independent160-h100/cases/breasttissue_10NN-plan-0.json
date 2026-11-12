@@ -1,0 +1,9 @@
+{
+  "name": "breasttissue_10NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/breasttissue_10NN-L.mtx,default,cusparse,112,3233,-1,2831.089,75.69280243,2.486899575e-14,3.039111704e-17,8.059913371e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/breasttissue_10NN-L.mtx,default-host,cusparse,112,3233,-1,2831.089,83.03952,2.486899575e-14,3.039111704e-17,8.059913371e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/breasttissue_10NN-L.mtx,model,cached,112,3233,98,1836.761,76.47039795,1.965094754e-14,4.364456312e-17,8.359450397e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/breasttissue_10NN-L.mtx,model-host,cached,112,3233,98,1836.761,83.21499,1.965094754e-14,4.364456312e-17,8.359450397e-17,512\n",
+  "stderr": ""
+}

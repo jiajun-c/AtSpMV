@@ -1,0 +1,10 @@
+{
+  "dataset": "tuma2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tuma2/tuma2.mtx",
+  "matrix_sha256": "2995bd03114ade723422b182b6a82ef9cd69ae2431c5baad8bd7ad4ca3e33c43",
+  "index_nnz": 49365,
+  "index_rows": 12992,
+  "elapsed_s": 0.719,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "rkat7_mat5",
+  "matrix_sha256": "a814fd489d05aebd424c71a210d360b8a1bdf566cf60ae4f1ad0ec778039bfc8",
+  "index_nnz": 38114,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.461,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

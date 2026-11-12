@@ -1,0 +1,6 @@
+{
+  "name": "wiki-RfA",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,cusparse,25885.428,191.3184047,3.996802889e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,packed-adaptive,3262.959,320.8863974,4.218847494e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,1,248.166,1548.963165,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,2,248.166,1019.184017,4.440892099e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,4,248.166,659.1296196,4.440892099e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,8,248.166,452.4320126,4.440892099e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,16,248.166,341.683197,4.218847494e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,32,248.166,276.8575907,3.996802889e-15\n/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx,11380,105451,90,adaptive,248.166,371.3407993,4.218847494e-15\n",
+  "stderr": "packed_slots=198464,strict_lower_nnz=94071,packing_us=3014.79\n"
+}

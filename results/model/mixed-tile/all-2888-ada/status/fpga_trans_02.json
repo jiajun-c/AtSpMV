@@ -1,0 +1,15 @@
+{
+  "dataset": "fpga_trans_02",
+  "matrix_sha256": "01395af97cbe04971bdf562cf1f75650e766ce1313850fa592c86280ca36a960",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.469,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

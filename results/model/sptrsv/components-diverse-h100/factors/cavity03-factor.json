@@ -1,0 +1,14 @@
+{
+  "matrix": "cavity03",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/cavity03/cavity03.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 317,
+  "columns": 317,
+  "original_nnz": 7327,
+  "factor_L_nnz": 6399,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04780658893287182
+}

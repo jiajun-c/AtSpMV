@@ -1,0 +1,17 @@
+{
+  "dataset": "mesh_deform",
+  "matrix_sha256": "2eb562a0ae815343e7cb460727fc7752bf2ae5342bfb24fee3b9634cde0c60d2",
+  "index_nnz": 853829,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.817,
+  "gpu_after": {
+    "utilization_percent": 41,
+    "free_memory_mib": 81079
+  }
+}

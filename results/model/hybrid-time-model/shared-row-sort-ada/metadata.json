@@ -1,0 +1,85 @@
+{
+  "gpu": "RTX 5880 Ada, shared host; no continuous GPU interference monitor",
+  "notes": "Two processes per version, counterbalanced ABBA; 3 hand-selected matrices, not representative. Setup includes all Auto candidates; timing may vary with machine state. Correctness verified by benchmark.",
+  "sha256": {
+    "previous": "25986cfedbeb60d49293e6f71d634bae44beb2af9de1223ed8c9b00530d1d81e",
+    "current": "1e01541968970c0db5058a40d04984580dc80ed504a997ccb00174e381db0756",
+    "spmvPlan.cu": "40c67c4fc060b17b135273a95de6a6e266bc6a03e53f4fc5b1d62afa17016db5",
+    "atspmvProduct.cu": "5cb32b8d60970195d020bdf82e47af41e485de400d5c0b627419cc6eb416e0c1",
+    "atspmvprod.h": "28dc6c2cd364d0fd787f466a4d9bad55cf23faa14a2411d9e164149cf2ab00d9"
+  },
+  "rows": [
+    {
+      "dataset": "lp_sc205",
+      "order": 0,
+      "version": "previous",
+      "setup_us": 52366.448
+    },
+    {
+      "dataset": "lp_sc205",
+      "order": 1,
+      "version": "current",
+      "setup_us": 47390.915
+    },
+    {
+      "dataset": "lp_sc205",
+      "order": 2,
+      "version": "current",
+      "setup_us": 98284.119
+    },
+    {
+      "dataset": "lp_sc205",
+      "order": 3,
+      "version": "previous",
+      "setup_us": 55929.567
+    },
+    {
+      "dataset": "a0nsdsil",
+      "order": 0,
+      "version": "previous",
+      "setup_us": 520303.433
+    },
+    {
+      "dataset": "a0nsdsil",
+      "order": 1,
+      "version": "current",
+      "setup_us": 491080.144
+    },
+    {
+      "dataset": "a0nsdsil",
+      "order": 2,
+      "version": "current",
+      "setup_us": 522146.776
+    },
+    {
+      "dataset": "a0nsdsil",
+      "order": 3,
+      "version": "previous",
+      "setup_us": 713395.959
+    },
+    {
+      "dataset": "shermanACb",
+      "order": 0,
+      "version": "previous",
+      "setup_us": 573783.986
+    },
+    {
+      "dataset": "shermanACb",
+      "order": 1,
+      "version": "current",
+      "setup_us": 517784.891
+    },
+    {
+      "dataset": "shermanACb",
+      "order": 2,
+      "version": "current",
+      "setup_us": 495325.489
+    },
+    {
+      "dataset": "shermanACb",
+      "order": 3,
+      "version": "previous",
+      "setup_us": 534232.52
+    }
+  ]
+}

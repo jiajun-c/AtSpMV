@@ -1,0 +1,9 @@
+{
+  "name": "micromass_10NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/micromass_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 576, 576 ) nnz = 22881\nloadfile time    = 0.01008 sec\nnnzL = 22881\ntime_for_csc2CompressTile = 2.19 ms\ntime_cuda_solve = 0.307850 ms, Mflops = 148.65\nVALIDATION finite=1 max_error=1.7208456881689926e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

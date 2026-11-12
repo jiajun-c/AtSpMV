@@ -1,0 +1,10 @@
+{
+  "matrix": "olm100",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/olm100-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 100,
+  "nnz": 468,
+  "min_abs_diagonal": 2.067198555173224,
+  "max_abs_diagonal": 61.890753249173336,
+  "elapsed_s": 0.007109548896551132
+}

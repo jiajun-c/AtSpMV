@@ -1,0 +1,98 @@
+{
+  "hardware": "NVIDIA RTX 5880 Ada Generation",
+  "driver": "580.178.04",
+  "cuda_toolkit": "12.4",
+  "compiled_architecture": "SM80/PTX, running on SM89",
+  "split_seed": 20261027,
+  "measurement_seeds": [
+    20261027,
+    20261028
+  ],
+  "train_matrices": 161,
+  "dev_matrices": 40,
+  "test_matrices": 40,
+  "invalid_training_input": {
+    "matrix": "nlpkkt80",
+    "reason": "Local file invalid floating-point token at line 106979; excluded before fitting, recorded in collection metadata."
+  },
+  "input_recovery": {
+    "inline_1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/data/recovered/inline_1/inline_1.mtx",
+      "source_url": "https://www.cise.ufl.edu/research/sparse/MM/GHS_psdef/inline_1.tar.gz",
+      "sha256": "6179bf6aecb79f124a85afec6259664beb85c1bbfdc12923dba9e8c7fcdb62ea",
+      "bytes": 603544811,
+      "reason": "Original local .mtx and .tar.gz were truncated; original files preserved. Recovered same matrix from the official UF mirror; gzip integrity verified."
+    }
+  },
+  "cases": {
+    "warm": {
+      "first": {
+        "matrices": 40,
+        "candidates": 480,
+        "mape": 0.1414570573792597,
+        "median_ape": 0.0930572061626459,
+        "p90_ape": 0.3415626459371536,
+        "max_ape": 1.1673501621902216,
+        "median_regret": 0.0051612183321120275,
+        "p90_regret": 0.21357056531152502,
+        "gate": {
+          "mape_limit": 0.3,
+          "p90_ape_limit": 0.5,
+          "passed": true
+        }
+      },
+      "repeat": {
+        "matrices": 40,
+        "candidates": 480,
+        "mape": 0.13979452896987116,
+        "median_ape": 0.09336323989706197,
+        "p90_ape": 0.3269102020618654,
+        "max_ape": 1.2743798683809149,
+        "median_regret": 0.004241200296161707,
+        "p90_regret": 0.22178909163921215,
+        "gate": {
+          "mape_limit": 0.3,
+          "p90_ape_limit": 0.5,
+          "passed": true
+        }
+      },
+      "cross_run_median_difference": 0.004718460894975851,
+      "cross_run_p90_difference": 0.08957803784502273
+    },
+    "cold": {
+      "first": {
+        "matrices": 40,
+        "candidates": 480,
+        "mape": 0.1539703688976041,
+        "median_ape": 0.1421473214734959,
+        "p90_ape": 0.30234512765860705,
+        "max_ape": 0.49820800419865474,
+        "median_regret": 0.007619401516127278,
+        "p90_regret": 0.2825913612493327,
+        "gate": {
+          "mape_limit": 0.3,
+          "p90_ape_limit": 0.5,
+          "passed": true
+        }
+      },
+      "repeat": {
+        "matrices": 40,
+        "candidates": 480,
+        "mape": 0.12136571585030169,
+        "median_ape": 0.09914615401032573,
+        "p90_ape": 0.26188022202065503,
+        "max_ape": 0.786164417261906,
+        "median_regret": 0.014014255437623913,
+        "p90_regret": 0.356216132818687,
+        "gate": {
+          "mape_limit": 0.3,
+          "p90_ape_limit": 0.5,
+          "passed": true
+        }
+      },
+      "cross_run_median_difference": 0.0894886363636363,
+      "cross_run_p90_difference": 0.19361102780709513
+    }
+  },
+  "all_gates_passed": true
+}

@@ -1,0 +1,13 @@
+refine,candidate,median_us
+5,cusparse,11.18000031
+5,cusparse-default,11.06400013
+5,cusparse-alg2,19.3920002
+5,atbsr-w4-d2,7.512000084
+5,compressed-w4,15.38799953
+5,grouped-w4,8.93599987
+7,cusparse,155.8240051
+7,cusparse-default,154.8639984
+7,cusparse-alg2,173.628006
+7,atbsr-w4-d2,171.0080109
+7,compressed-w4,159.8359985
+7,grouped-w4,144.9840088

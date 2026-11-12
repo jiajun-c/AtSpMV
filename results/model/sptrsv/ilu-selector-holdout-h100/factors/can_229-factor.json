@@ -1,0 +1,13 @@
+{
+  "matrix": "can_229",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/can_229/can_229.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 229,
+  "columns": 229,
+  "original_nnz": 1777,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.011865749955177307
+}

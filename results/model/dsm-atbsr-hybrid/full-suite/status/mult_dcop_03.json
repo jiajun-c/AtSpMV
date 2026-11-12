@@ -1,0 +1,10 @@
+{
+  "dataset": "mult_dcop_03",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mult_dcop_03/mult_dcop_03.mtx",
+  "matrix_sha256": "e937c66c389bd0c2557923fdca58631deabe0ace849e143dce14608398a10ae6",
+  "index_nnz": 193216,
+  "index_rows": 25187,
+  "elapsed_s": 1.246,
+  "returncode": 0,
+  "status": "ok"
+}

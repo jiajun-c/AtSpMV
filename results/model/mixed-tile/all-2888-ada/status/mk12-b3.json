@@ -1,0 +1,15 @@
+{
+  "dataset": "mk12-b3",
+  "matrix_sha256": "71b6dba03711e213733fba464cd1ca2cfc07d448c7a19373733b3ec05cbbe23f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.551,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

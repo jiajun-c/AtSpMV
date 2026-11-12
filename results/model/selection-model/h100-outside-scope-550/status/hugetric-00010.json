@@ -1,0 +1,17 @@
+{
+  "dataset": "hugetric-00010",
+  "matrix_sha256": "50a0ef16eb615c904867b97b65115169302ff302ac9993c2785bfd36a5469005",
+  "index_nnz": 19771708,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 359.853,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

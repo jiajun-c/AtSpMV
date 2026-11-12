@@ -1,0 +1,10 @@
+{
+  "dataset": "G66",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G66/G66.mtx",
+  "matrix_sha256": "b649350bc708c369e6f991acf3a1a38bf73881ccdf4f252342ec67a83e635665",
+  "index_nnz": 36000,
+  "index_rows": 9000,
+  "elapsed_s": 0.572,
+  "returncode": 0,
+  "status": "ok"
+}

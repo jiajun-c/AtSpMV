@@ -1,0 +1,9 @@
+{
+  "name": "shl_400",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/shl_400-L.mtx --------------\nsuccess open file\ninput matrix A: ( 672, 672 ) nnz = 2144\nloadfile time    = 0.00078 sec\nnnzL = 2144\ntime_for_csc2CompressTile = 1.94 ms\ntime_cuda_solve = 0.106780 ms, Mflops = 40.16\nVALIDATION finite=1 max_error=6.7723604502134549e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

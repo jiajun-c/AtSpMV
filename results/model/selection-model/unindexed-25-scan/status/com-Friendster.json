@@ -1,0 +1,17 @@
+{
+  "dataset": "com-Friendster",
+  "file_bytes": 31669809876,
+  "file_mtime_ns": 1531424057000000000,
+  "structure": {
+    "dataset": "com-Friendster",
+    "rows": "65608366",
+    "columns": "65608366",
+    "nnz": "3612134270",
+    "longest_row": "40553569",
+    "longest_row_nnz": "5214",
+    "ratio": "1.4434679362e-06",
+    "status": "ok"
+  },
+  "status": "unsupported_int32_nnz",
+  "elapsed_s": 293.83
+}

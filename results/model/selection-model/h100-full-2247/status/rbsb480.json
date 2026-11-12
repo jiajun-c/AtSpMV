@@ -1,0 +1,17 @@
+{
+  "dataset": "rbsb480",
+  "matrix_sha256": "df930a7b0ad0b85fd3dd7ae1ea3e0c05c0c1c233e6ad386fe4a9e7c25ef2f784",
+  "index_nnz": 17088,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.556,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

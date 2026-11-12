@@ -1,0 +1,19 @@
+{
+  "exe": "/tmp/atspmv-mfem-gpu-structure",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "results/applications/mfem-heat/rebuild-reference-r7",
+  "refine": 7,
+  "order": 2,
+  "steps": 20,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "cusparse,mfem-rebuild,mfem,atbsr",
+  "rounds": 4,
+  "timeout": 900,
+  "rebuild_values": false,
+  "prefetch": 4,
+  "warps": 4,
+  "gpu_assembly": true,
+  "rebuild_implicit": false,
+  "executable_sha256": "b3bd950ea6a76c02c8c5446645cd85bd050851cd4d1b3365b0c89d5d4f63599d"
+}

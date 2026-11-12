@@ -1,0 +1,15 @@
+{
+  "dataset": "vanbody",
+  "matrix_sha256": "83291e07f5aad85afab2de49321301ae0b6922790628f443c082c494a66a4574",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.342,
+  "gpu_after": {
+    "utilization_percent": 74,
+    "free_memory_mib": 48508
+  }
+}

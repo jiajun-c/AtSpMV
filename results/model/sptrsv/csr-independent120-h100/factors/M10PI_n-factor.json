@@ -1,0 +1,13 @@
+{
+  "matrix": "M10PI_n",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/M10PI_n/M10PI_n.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 682,
+  "columns": 682,
+  "original_nnz": 1633,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.02460480690933764
+}

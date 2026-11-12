@@ -1,0 +1,10 @@
+{
+  "dataset": "roadNet-PA",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/roadNet-PA/roadNet-PA.mtx",
+  "matrix_sha256": "5e3ebb35aa4266155c77e3caee2c2188332cdcb4492b040a4a28c68b04d13b64",
+  "index_nnz": 3083796,
+  "index_rows": 1090920,
+  "elapsed_s": 3.616,
+  "returncode": 0,
+  "status": "ok"
+}

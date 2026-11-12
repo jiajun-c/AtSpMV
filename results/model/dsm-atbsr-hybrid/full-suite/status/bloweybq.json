@@ -1,0 +1,10 @@
+{
+  "dataset": "bloweybq",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bloweybq/bloweybq.mtx",
+  "matrix_sha256": "8cde3216bab4dd754b1bb6d4c47671f595b2b206c179187fd179c3d15668e343",
+  "index_nnz": 69991,
+  "index_rows": 10001,
+  "elapsed_s": 0.605,
+  "returncode": 0,
+  "status": "ok"
+}

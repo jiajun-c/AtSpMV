@@ -1,0 +1,31 @@
+{
+  "dataset": "pwtk",
+  "status": "ok",
+  "matrix_sha256": "b96f7a0d851ddd65d6a833dcd13f32bad39a273018e00163b890500316f48dfa",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/pwtk-0.csv",
+        "20261121",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 21.562514730961993
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/pwtk/pwtk.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/pwtk-1.csv",
+        "20261122",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 5.405986557947472
+    }
+  ]
+}

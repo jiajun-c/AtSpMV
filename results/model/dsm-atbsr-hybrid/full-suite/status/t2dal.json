@@ -1,0 +1,10 @@
+{
+  "dataset": "t2dal",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t2dal/t2dal.mtx",
+  "matrix_sha256": "452ccb797509143e6f0618650a5ff069533751eb20f5ca43c7fa80dbccd0a22b",
+  "index_nnz": 37465,
+  "index_rows": 4257,
+  "elapsed_s": 1.141,
+  "returncode": 0,
+  "status": "ok"
+}

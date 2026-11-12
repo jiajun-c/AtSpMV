@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_osa_07",
+  "matrix_sha256": "c50b8e4dbe87292ad33163cb932d5d6d8262eb28cdf3c13ab46f3ae9aa7bc970",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.541,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

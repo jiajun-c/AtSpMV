@@ -1,0 +1,17 @@
+{
+  "dataset": "plat1919",
+  "matrix_sha256": "5a34cf56a233ed3e81feb0cc425a2b6b70e50cb439bcbed5432eae1215b9d9e2",
+  "index_nnz": 32399,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.165,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 81079
+  }
+}

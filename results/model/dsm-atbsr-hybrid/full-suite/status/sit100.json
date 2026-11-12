@@ -1,0 +1,10 @@
+{
+  "dataset": "sit100",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sit100/sit100.mtx",
+  "matrix_sha256": "9a935b61386f6eeba76eea85177b22640b6c7117016a7b28502b9e9d2af40c9e",
+  "index_nnz": 61046,
+  "index_rows": 10262,
+  "elapsed_s": 0.748,
+  "returncode": 0,
+  "status": "ok"
+}

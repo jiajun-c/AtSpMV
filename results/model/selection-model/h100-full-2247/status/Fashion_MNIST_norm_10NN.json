@@ -1,0 +1,17 @@
+{
+  "dataset": "Fashion_MNIST_norm_10NN",
+  "matrix_sha256": "e20f449c70336fdf60831a4a8f94c0a46819f6ea01742b040526dce671d02bcb",
+  "index_nnz": 158304,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.753,
+  "gpu_after": {
+    "utilization_percent": 90,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "G43",
+  "matrix_sha256": "bdd9d14386ccf45232edb51142681a5f6da72ccfae7d200401c76f309b32fd38",
+  "index_nnz": 19980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.046,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

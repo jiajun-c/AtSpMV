@@ -1,0 +1,10 @@
+{
+  "dataset": "image_interp",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/image_interp/image_interp.mtx",
+  "matrix_sha256": "802277a69d2ce2ca95fa0282396dc08a59c7029853bf7d716179879956bbf76e",
+  "index_nnz": 711683,
+  "index_rows": 240000,
+  "elapsed_s": 1.212,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "beaflw",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/beaflw/beaflw.mtx",
+  "matrix_sha256": "8be75bcb99d7ec51e916ff1b3c1c9f56bca8f016560db066ad8f047d9ffc66d7",
+  "index_nnz": 53403,
+  "index_rows": 497,
+  "elapsed_s": 1.236,
+  "returncode": 0,
+  "status": "ok"
+}

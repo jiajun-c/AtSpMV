@@ -1,0 +1,15 @@
+{
+  "dataset": "xingo_afonso_itaipu",
+  "matrix_sha256": "26e0cb5d9c5f2bf4079c2300b2587d18ba40429752662c1e764f40048b7e5154",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.517,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "requested": 100,
+  "successful": 100,
+  "failures": [],
+  "candidate_pairs": 700,
+  "scope": "Predeclared 100-matrix structural sample: 25 per nnz bin (1k-100k,100k-1m,1m-5m,5m-20m); each 13 short/12 long-row cases. Approximate name-family cap 3. Excludes previous24, no performance used for selection. Not a random full-library sample or training holdout."
+}

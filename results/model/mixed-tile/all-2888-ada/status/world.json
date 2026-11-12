@@ -1,0 +1,15 @@
+{
+  "dataset": "world",
+  "matrix_sha256": "5c86fbcf0cc251623f5cae7c97b3e08705443d093bcc8c49fe68b050a37ca4bf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.998,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "TF18",
+  "matrix_sha256": "abe23eedaf4a7a8807e057f247a8c50a5837aa6764cf335ae2ac52af569faf5e",
+  "index_nnz": 1597545,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.073,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

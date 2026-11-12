@@ -1,0 +1,17 @@
+{
+  "dataset": "chesapeake",
+  "matrix_sha256": "b93dfd5ef4bfabe7a528f83289aa84ea9e5d3ff5fd7a25547e2ec9e6a3c6fb57",
+  "index_nnz": 340,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.26,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

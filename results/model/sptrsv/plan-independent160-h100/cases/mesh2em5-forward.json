@@ -1,0 +1,7 @@
+{
+  "name": "mesh2em5",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/mesh2em5-L.mtx,default,cusparse,306,2396,-1,2865.555,101.2863998,4.440892099e-16,3.238780028e-17,5.909830202e-17,0\nresults/model/sptrsv/components-independent-h100/factors/mesh2em5-L.mtx,default-host,cusparse,306,2396,-1,2865.555,107.759315,4.440892099e-16,3.238780028e-17,5.909830202e-17,0\nresults/model/sptrsv/components-independent-h100/factors/mesh2em5-L.mtx,model,cached,306,2396,75,1508.377,57.20000458,4.440892099e-16,3.238780028e-17,5.784604921e-17,512\nresults/model/sptrsv/components-independent-h100/factors/mesh2em5-L.mtx,model-host,cached,306,2396,75,1508.377,63.372955,4.440892099e-16,3.238780028e-17,5.784604921e-17,512\n",
+  "stderr": ""
+}

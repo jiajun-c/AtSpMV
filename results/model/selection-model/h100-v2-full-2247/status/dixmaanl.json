@@ -1,0 +1,17 @@
+{
+  "dataset": "dixmaanl",
+  "matrix_sha256": "33881ba99c62a55f6195e8cd5d3b62cced6b5e652bfd122cd650497e10bbd446",
+  "index_nnz": 299998,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.727,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,8 @@
+fcebe8c4674d6ce24738172925fed5969d912f8575e7e19767b1819e4f38ada4  results/model/sptrsv/ilu-plan-validation-h100/provenance/bench
+7645efba213f2f4a4efc77534692db508e9723069c32df4e3496812f65ff60f3  results/model/sptrsv/ilu-plan-validation-h100/provenance/benchmark_sptrsv_plan.py
+b2902d2a29eb2a17dc60eba1374c08fba463f85371dd5670fd2536186028274e  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsvPacking.h
+ee84f2215c0b85f2bea2016c20c3fd7c5e5d2fb88e16c798a67a8fdb8d3240f9  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsvPlan.cu
+d377b1ccb1c7488a4d04566c56f78cdd8b726ba1bdf561714f029a0a45d6899c  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsvPlan.h
+8b815321d4877c2603f667ccd08f92f18c1bd38d3cfe9d2ecbf081fdd92bb952  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsvSelection.h
+64637c6672d07b3bd755356bd321529dd33aa78ae7e500f9c19ae25c71cc5937  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsvShared.cuh
+948f8079294a592253aa75a086a6373a7e17fde79b5c0b832d9cc18c59178be9  results/model/sptrsv/ilu-plan-validation-h100/provenance/sptrsv_plan_bench.cu

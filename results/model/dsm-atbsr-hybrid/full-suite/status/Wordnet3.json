@@ -1,0 +1,10 @@
+{
+  "dataset": "Wordnet3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Wordnet3/Wordnet3.mtx",
+  "matrix_sha256": "4020e99ec1e759596864ffd14bb2989f5cde8a0e48951b0aee76e01a21807017",
+  "index_nnz": 132964,
+  "index_rows": 82670,
+  "elapsed_s": 1.301,
+  "returncode": 0,
+  "status": "ok"
+}

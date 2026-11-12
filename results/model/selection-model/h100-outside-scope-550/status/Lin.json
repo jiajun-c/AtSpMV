@@ -1,0 +1,17 @@
+{
+  "dataset": "Lin",
+  "matrix_sha256": "56f7347e6369942ba0a8af1261fb1ef8e1641611b6cf54b582dd8608d2b12cc2",
+  "index_nnz": 1766400,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.374,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

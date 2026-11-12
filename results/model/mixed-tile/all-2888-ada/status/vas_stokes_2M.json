@@ -1,0 +1,15 @@
+{
+  "dataset": "vas_stokes_2M",
+  "matrix_sha256": "e2f98a3caa55928f726091b888e71472e26e1a2882e0348309db0a45a4dbd102",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 53.207,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

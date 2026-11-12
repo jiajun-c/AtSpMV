@@ -1,0 +1,18 @@
+{
+  "status_counts": {
+    "ok": 2247
+  },
+  "cases_over_cutoff": 193,
+  "cutoff": 1.1,
+  "winner_backends_per_order": {
+    "hybrid_dsm_atbsr": 238,
+    "atbsr": 140,
+    "csr_two_stage": 3,
+    "csr_dsm": 4,
+    "csr_dsm_vector": 1
+  },
+  "candidate_coverage_per_order": {
+    "winner_not_in_refinement_candidates": 386
+  },
+  "method": "Retrospective comparison of measured Plan Graph times; candidate membership is inferred from refinement tuning logs. Config matching cannot establish causality, and some labels lack resolved configurations."
+}

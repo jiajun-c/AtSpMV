@@ -1,0 +1,9 @@
+{
+  "name": "plantsmargin_12NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantsmargin_12NN-L.mtx,default,cusparse,1600,59944,-1,7674.201,512.9119873,7.33746397e-13,1.679031293e-17,1.25516366e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantsmargin_12NN-L.mtx,default-host,cusparse,1600,59944,-1,7674.201,519.62742,7.33746397e-13,1.679031293e-17,1.25516366e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantsmargin_12NN-L.mtx,model,cusparse,1600,59944,417,7677.761,512.6143799,7.33746397e-13,1.679031293e-17,1.25516366e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantsmargin_12NN-L.mtx,model-host,cusparse,1600,59944,417,7677.761,518.90266,7.33746397e-13,1.679031293e-17,1.25516366e-16,0\n",
+  "stderr": ""
+}

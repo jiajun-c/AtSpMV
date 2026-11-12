@@ -1,0 +1,15 @@
+{
+  "dataset": "Zhao1",
+  "matrix_sha256": "6a62139928bec5484e68ac21163c4040e50fbc6300dd5f8c74c2f6407e50445c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.564,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

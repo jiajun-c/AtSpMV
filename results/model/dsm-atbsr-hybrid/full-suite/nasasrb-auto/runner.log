@@ -1,0 +1,8 @@
+RUN plan-test
+RUN nasasrb-auto-optimized-0
+RUN nasasrb-auto-baseline-2
+RUN nasasrb-auto-optimized-1
+RUN nasasrb-auto-optimized-2
+RUN nasasrb-auto-baseline-0
+RUN nasasrb-auto-baseline-1
+COMPLETE

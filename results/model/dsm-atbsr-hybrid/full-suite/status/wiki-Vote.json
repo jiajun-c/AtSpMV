@@ -1,0 +1,10 @@
+{
+  "dataset": "wiki-Vote",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-Vote/wiki-Vote.mtx",
+  "matrix_sha256": "c28b16ffed623c7f220cd4b8feab92edfca5b481ebc663db3e75bd1d19a8eec3",
+  "index_nnz": 103689,
+  "index_rows": 8297,
+  "elapsed_s": 1.347,
+  "returncode": 0,
+  "status": "ok"
+}

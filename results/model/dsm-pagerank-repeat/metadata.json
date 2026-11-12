@@ -1,0 +1,12 @@
+{
+  "source_sha256": "eafb61759093fe6438dd1af7b6063cb694965a625124653b5291d3e0c91bd98b",
+  "benchmark_sha256": "bdc46eef3a04111d4d528bc885f245ed448cfa46b78eae53339f8a07cb1121b8",
+  "device": "H100 PCIe, physical GPU 3",
+  "iterations": 100,
+  "seeds": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "started": "2026-10-27T13:09:24+0800"
+}

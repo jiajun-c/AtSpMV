@@ -1,0 +1,15 @@
+{
+  "dataset": "TSOPF_RS_b2052_c1",
+  "matrix_sha256": "d3f2cba62a28fca6a162496cb11c7032d2b0726aa61447dfa32561c6b9a4dd94",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.196,
+  "gpu_after": {
+    "utilization_percent": 66,
+    "free_memory_mib": 48508
+  }
+}

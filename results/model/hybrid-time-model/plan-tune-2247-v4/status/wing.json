@@ -1,0 +1,19 @@
+{
+  "dataset": "wing",
+  "matrix_sha256": "0aaf60b6c63ad6a9da1e882db0b2772b25590e94fcff7f8d682f8bf7d33705d2",
+  "index_nnz": 243088,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.397,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

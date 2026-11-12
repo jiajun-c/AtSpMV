@@ -1,0 +1,15 @@
+{
+  "dataset": "rdb450l",
+  "matrix_sha256": "895dbed0955629702686220f76e113120798a34b2e01776e2c3e2a6c13b7012e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.247,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

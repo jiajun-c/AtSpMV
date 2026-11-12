@@ -1,0 +1,56 @@
+{
+  "crossover": {},
+  "automatic": {
+    "nasasrb": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 1964769.72,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 11.5320003
+          },
+          {
+            "setup_us": 1945211.09,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 11.5959998
+          },
+          {
+            "setup_us": 1644994.86,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 11.5719996
+          }
+        ],
+        "median_setup_us": 1945211.09,
+        "median_best_candidate_us": 11.5719996
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 1456863.46,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 80,
+            "best_candidate_us": 10.0840004
+          },
+          {
+            "setup_us": 1289233.91,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 80,
+            "best_candidate_us": 9.88799985
+          },
+          {
+            "setup_us": 1588523.12,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 80,
+            "best_candidate_us": 10.0400001
+          }
+        ],
+        "median_setup_us": 1456863.46,
+        "median_best_candidate_us": 10.0400001
+      }
+    }
+  },
+  "notes": "Fixed crossover candidates, 3 independent order seeds and 21 warm graph batches, using the optimized executable. Auto setup includes selection and is not included in per-call execution time. Best reported per dataset is within listed candidates only."
+}

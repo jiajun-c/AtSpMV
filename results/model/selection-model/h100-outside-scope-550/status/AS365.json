@@ -1,0 +1,17 @@
+{
+  "dataset": "AS365",
+  "matrix_sha256": "cba17d92f0d493ee2d92e48210c63c0bee7ac79bd935536a1df3f1b53cbdc6f9",
+  "index_nnz": 22736152,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 179.756,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

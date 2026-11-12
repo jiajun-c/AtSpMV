@@ -1,0 +1,9 @@
+{
+  "name": "shermanACa",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/shermanACa-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3440, 3440 ) nnz = 39652\nloadfile time    = 0.01723 sec\nnnzL = 39652\ntime_for_csc2CompressTile = 2.64 ms\ntime_cuda_solve = 0.448700 ms, Mflops = 176.74\nVALIDATION finite=1 max_error=1.7127632645497215e-11 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

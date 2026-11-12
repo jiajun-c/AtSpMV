@@ -1,0 +1,32 @@
+{
+  "dataset": "TF19",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "37848ef6c0e7d294d303dc5ec717da144835f826f3864efd9900308a1709cfe9",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/TF19/TF19.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/TF19-0.csv",
+        "20261271",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.063864367082715
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/TF19/TF19.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/TF19-1.csv",
+        "20261272",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.0075681409798563
+    }
+  ]
+}

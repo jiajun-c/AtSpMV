@@ -1,0 +1,10 @@
+{
+  "dataset": "sinc15",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sinc15/sinc15.mtx",
+  "matrix_sha256": "1ad29190a5532a2e62c594984f3cf5a1c01aa6631febc92808f6c13d2804b87e",
+  "index_nnz": 568526,
+  "index_rows": 11532,
+  "elapsed_s": 1.245,
+  "returncode": 0,
+  "status": "ok"
+}

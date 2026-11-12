@@ -1,0 +1,10 @@
+{
+  "dataset": "skirt",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/skirt/skirt.mtx",
+  "matrix_sha256": "d50473b0af40cc3e7aa165ef84eecc0f6dfa03a9a70e88346e8b22e9e4da0505",
+  "index_nnz": 196520,
+  "index_rows": 12598,
+  "elapsed_s": 1.29,
+  "returncode": 0,
+  "status": "ok"
+}

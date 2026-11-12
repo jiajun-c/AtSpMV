@@ -1,0 +1,17 @@
+{
+  "dataset": "com-DBLP",
+  "matrix_sha256": "cf24d01a3d7da9db5af8d41df69734c11d9a90d36d877670239b45f3f73fe3f3",
+  "index_nnz": 2099732,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 15.653,
+  "gpu_after": {
+    "utilization_percent": 30,
+    "free_memory_mib": 81079
+  }
+}

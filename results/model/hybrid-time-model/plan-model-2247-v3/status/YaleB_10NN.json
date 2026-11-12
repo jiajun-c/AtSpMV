@@ -1,0 +1,19 @@
+{
+  "dataset": "YaleB_10NN",
+  "matrix_sha256": "593ef05e4f84989cbbf9c3f360415b6594cf1d3af8f918e2a2cdc404ba8fe3df",
+  "index_nnz": 34808,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.571,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

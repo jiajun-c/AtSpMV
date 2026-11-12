@@ -1,0 +1,15 @@
+{
+  "dataset": "mplate",
+  "matrix_sha256": "e3f3aec4f456167ccca5451fc51e74caa41f4615dcef7f87b8256c1b9103017e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.349,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

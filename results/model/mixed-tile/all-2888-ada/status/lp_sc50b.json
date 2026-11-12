@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_sc50b",
+  "matrix_sha256": "e1889ce915718cf7a0169518fda4975dc350c6851418b641f8b3fffa9b9990bc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.615,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

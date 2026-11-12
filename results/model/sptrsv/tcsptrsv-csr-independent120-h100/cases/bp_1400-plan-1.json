@@ -1,0 +1,9 @@
+{
+  "name": "bp_1400",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bp_1400-L.mtx,default,cusparse,832,7169,-1,2572.463,85.43360138,8.215650382e-15,1.885805089e-17,1.040305732e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bp_1400-L.mtx,default-host,cusparse,832,7169,-1,2572.463,91.871925,8.215650382e-15,1.885805089e-17,1.040305732e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bp_1400-L.mtx,model,cached,832,7169,81,1444.316,70.14399719,8.215650382e-15,2.47946525e-17,1.040305732e-16,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bp_1400-L.mtx,model-host,cached,832,7169,81,1444.316,76.066185,8.215650382e-15,2.47946525e-17,1.040305732e-16,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "GaAsH6",
+  "matrix_sha256": "3e948eacbe4aa544ccdfaa240360460cd4f1d9a937ac838da29a0b7f3b2f2d19",
+  "index_nnz": 3381809,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.378,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

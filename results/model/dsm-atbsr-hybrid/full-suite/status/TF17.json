@@ -1,0 +1,10 @@
+{
+  "dataset": "TF17",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TF17/TF17.mtx",
+  "matrix_sha256": "affa45f737c7b67728bba66cfc858a5500674697db09562efd7c74f249b3e35b",
+  "index_nnz": 586218,
+  "index_rows": 38132,
+  "elapsed_s": 1.379,
+  "returncode": 0,
+  "status": "ok"
+}

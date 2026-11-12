@@ -1,0 +1,17 @@
+{
+  "dataset": "cavity10",
+  "matrix_sha256": "09f01d9d4a6f8cd7813300778cb223637357e6a25ec3f763ebb0e80234da509a",
+  "index_nnz": 76367,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.82,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

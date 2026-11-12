@@ -1,0 +1,10 @@
+{
+  "matrix": "rbsb480",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/rbsb480-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 480,
+  "nnz": 40380,
+  "min_abs_diagonal": 10.689962017978036,
+  "max_abs_diagonal": 4419.625032666454,
+  "elapsed_s": 0.01988835888914764
+}

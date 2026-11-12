@@ -1,0 +1,15 @@
+{
+  "dataset": "mhd4800b",
+  "matrix_sha256": "bcdbeab60f1d02a31381de233bba214acb02008dc08b3d1beee7602bf009495e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.999,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

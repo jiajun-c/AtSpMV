@@ -1,0 +1,10 @@
+{
+  "dataset": "brainpc2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/brainpc2/brainpc2.mtx",
+  "matrix_sha256": "990fac4b86d531f92c31934ed821af91c8e18bf4953f81db3aae6746635c45ba",
+  "index_nnz": 179395,
+  "index_rows": 27607,
+  "elapsed_s": 1.117,
+  "returncode": 0,
+  "status": "ok"
+}

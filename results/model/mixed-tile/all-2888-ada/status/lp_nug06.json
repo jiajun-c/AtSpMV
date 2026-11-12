@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_nug06",
+  "matrix_sha256": "581849024562571c1a22b66f20f006dc9ff08c173e2693e2ec62e9865e79fa7b",
+  "gpu_before": {
+    "utilization_percent": 9,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.88,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

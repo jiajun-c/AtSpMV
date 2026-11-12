@@ -1,0 +1,19 @@
+{
+  "dataset": "d_pretok",
+  "matrix_sha256": "4986f267f767d354784a2dc92dd5a80015dc7cea6049178caace823052d1cf75",
+  "index_nnz": 1641672,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.38,
+  "gpu_after": {
+    "utilization_percent": 37,
+    "free_memory_mib": 81079
+  }
+}

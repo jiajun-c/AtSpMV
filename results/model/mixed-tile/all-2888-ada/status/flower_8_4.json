@@ -1,0 +1,15 @@
+{
+  "dataset": "flower_8_4",
+  "matrix_sha256": "9e77e0142b81de8a94992745d75bdf8bc554de35fe715ccfae5aa2fe8424a874",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.308,
+  "gpu_after": {
+    "utilization_percent": 50,
+    "free_memory_mib": 48508
+  }
+}

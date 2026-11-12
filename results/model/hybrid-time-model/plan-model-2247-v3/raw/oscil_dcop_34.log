@@ -1,0 +1,14 @@
+BENCH_ORDER,baseline_first
+PLAN_PREP,atbsr,16193.444
+PLAN_PREP,atbsr_m8,1276.79
+PLAN_PREP,atbsr_m1_balanced,1347.175
+PLAN_PREP,csr_dsm_fixed,79.328000000000003
+PLAN_PREP,csr_two_stage_fixed,77.006
+PLAN_PREP,auto_model,2313.6819999999998
+BENCH_ORDER,selection_first
+PLAN_PREP,auto_model,12885.099
+PLAN_PREP,csr_two_stage_fixed,75.420000000000002
+PLAN_PREP,csr_dsm_fixed,53.927999999999997
+PLAN_PREP,atbsr_m1_balanced,1433.9949999999999
+PLAN_PREP,atbsr_m8,1405.806
+PLAN_PREP,atbsr,1289.722

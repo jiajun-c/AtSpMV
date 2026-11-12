@@ -1,0 +1,9 @@
+{
+  "name": "fs_760_2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/fs_760_2-L.mtx,default,cusparse,768,6247,-1,3028.506,183.6416016,6.994405055e-15,4.4398009e-17,1.053178456e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/fs_760_2-L.mtx,default-host,cusparse,768,6247,-1,3028.506,189.553815,6.994405055e-15,4.4398009e-17,1.053178456e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/fs_760_2-L.mtx,model,cached,768,6247,175,1484.926,133.612793,6.994405055e-15,4.413933416e-17,1.219491013e-16,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/fs_760_2-L.mtx,model-host,cached,768,6247,175,1484.926,139.30209,6.994405055e-15,4.413933416e-17,1.219491013e-16,512\n",
+  "stderr": ""
+}

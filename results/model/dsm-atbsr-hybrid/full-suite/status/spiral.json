@@ -1,0 +1,10 @@
+{
+  "dataset": "spiral",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/spiral/spiral.mtx",
+  "matrix_sha256": "789600335290cdef1e98adafdfc4e9e245477c0fb2562f88da708063c4679383",
+  "index_nnz": 18228,
+  "index_rows": 1434,
+  "elapsed_s": 1.618,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "tumorAntiAngiogenesis_5",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/tumorAntiAngiogenesis_5/tumorAntiAngiogenesis_5.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 460,
+  "columns": 460,
+  "original_nnz": 4690,
+  "factor_L_nnz": 9905,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.02834798116236925
+}

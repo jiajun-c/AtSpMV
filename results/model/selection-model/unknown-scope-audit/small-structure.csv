@@ -1,0 +1,10 @@
+dataset,rows,columns,nnz,longest_row,longest_row_nnz,ratio,status
+Oregon-1,11492,11492,46818,194,2389,0.0510273826306,ok
+uni_chimera_i2,,,,,,,invalid_data
+lhr71,,,,,,,invalid_data
+venkat50,,,,,,,invalid_data
+net4-1,88343,88343,2441727,4,4791,0.00196213581617,ok
+nd3k,,,,,,,invalid_data
+barrier2-1,113076,113076,3805068,36748,7031,0.00184779877784,ok
+xenon2,,,,,,,invalid_data
+nd6k,,,,,,,invalid_data

@@ -1,0 +1,19 @@
+{
+  "dataset": "shermanACd",
+  "matrix_sha256": "c716f5e0df699f93c1dc5f0c655fa95182edd92be27fde08ecec0bffc93ae119",
+  "index_nnz": 53329,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.492,
+  "gpu_after": {
+    "utilization_percent": 88,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,12 @@
+# Included from the repository root; paths remain relative to that source directory.
+option(ATSPMV_BUILD_APPS "Build PageRank and Jacobi applications" ${ATSPMV_BUILD_BENCHMARKS})
+option(ATSPMV_BUILD_MFEM_APPS "Build the optional MFEM heat-conduction application" OFF)
+if(ATSPMV_BUILD_MFEM_APPS)
+    add_subdirectory(apps/mfem)
+endif()
+if(ATSPMV_BUILD_APPS)
+    foreach(app IN ITEMS jacobi pagerank pagerank_atspmv)
+        add_executable(${app} apps/${app}.cu)
+        target_link_libraries(${app} PRIVATE atspmv_core)
+    endforeach()
+endif()

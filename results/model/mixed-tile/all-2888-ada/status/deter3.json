@@ -1,0 +1,15 @@
+{
+  "dataset": "deter3",
+  "matrix_sha256": "17267610c6bdc7e01fae62e2a997c6f4967ee3e55acdb3102b7219cc44ae2f6e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.098,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

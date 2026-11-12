@@ -1,0 +1,17 @@
+{
+  "dataset": "12month1",
+  "matrix_sha256": "83ebe3b102f95954bc85fbe2c21c7ef46417d92bf4f71d003aa3beedb64a26ce",
+  "index_nnz": 22624727,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 167.063,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

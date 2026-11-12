@@ -1,0 +1,15 @@
+{
+  "dataset": "trdheim",
+  "matrix_sha256": "80020d5871904f2a1d7866f6f596b10aca6cc3ad85dec918a12ba28d0c41208e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.757,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

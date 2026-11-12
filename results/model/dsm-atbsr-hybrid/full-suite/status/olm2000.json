@@ -1,0 +1,10 @@
+{
+  "dataset": "olm2000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/olm2000/olm2000.mtx",
+  "matrix_sha256": "89c1d748c82c3edb8deb9616a21f0d41ba85fbe2051d1808d218084a9f09ca54",
+  "index_nnz": 7996,
+  "index_rows": 2000,
+  "elapsed_s": 1.141,
+  "returncode": 0,
+  "status": "ok"
+}

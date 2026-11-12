@@ -1,0 +1,17 @@
+{
+  "dataset": "rdb200",
+  "matrix_sha256": "4d899f02be8f31b90746736ef38c32cb0943046f1df7e0cf3d1a72acdfc7cfa4",
+  "index_nnz": 1120,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.89,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

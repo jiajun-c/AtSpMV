@@ -1,0 +1,45 @@
+{
+  "cases": 80,
+  "manifest_total": 80,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 74,
+  "median_break_even_calls": 208150.5,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "reuse_scenarios": {
+    "1": {
+      "cases": 80,
+      "geomean_speedup": 0.0313875444500173,
+      "wins": 0
+    },
+    "10": {
+      "cases": 80,
+      "geomean_speedup": 0.03170398734271648,
+      "wins": 0
+    },
+    "100": {
+      "cases": 80,
+      "geomean_speedup": 0.03473699749681845,
+      "wins": 0
+    },
+    "1000": {
+      "cases": 80,
+      "geomean_speedup": 0.05890221327942705,
+      "wins": 0
+    },
+    "10000": {
+      "cases": 80,
+      "geomean_speedup": 0.21127189026804347,
+      "wins": 0
+    },
+    "100000": {
+      "cases": 80,
+      "geomean_speedup": 0.7274654592034501,
+      "wins": 2
+    },
+    "1000000": {
+      "cases": 80,
+      "geomean_speedup": 1.1151095079587499,
+      "wins": 65
+    }
+  }
+}

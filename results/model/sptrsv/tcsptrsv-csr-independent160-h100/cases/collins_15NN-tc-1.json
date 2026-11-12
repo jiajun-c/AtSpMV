@@ -1,0 +1,9 @@
+{
+  "name": "collins_15NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/collins_15NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1008, 1008 ) nnz = 10409\nloadfile time    = 0.00489 sec\nnnzL = 10409\ntime_for_csc2CompressTile = 2.86 ms\ntime_cuda_solve = 1.171140 ms, Mflops = 17.78\nVALIDATION finite=1 max_error=3.7969627442180354e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

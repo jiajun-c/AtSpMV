@@ -1,0 +1,19 @@
+========= COMPUTE-SANITIZER
+kind,cluster,peer,trial,cycles,iterations,segment
+dsm,8,7,0,122739,64,0
+dsm,2,1,0,121733,64,0
+cold_global,16,-1,0,155672,64,0
+cold_global,2,-1,0,154275,64,1
+dsm,8,1,0,122911,64,0
+cold_global,8,-1,0,155371,64,2
+hot_l2,16,-1,0,165492,64,0
+hot_l2,2,-1,0,167925,64,0
+dsm,16,15,0,122400,64,0
+dsm,16,1,0,123327,64,0
+hot_l2,4,-1,0,165293,64,0
+cold_global,4,-1,0,156791,64,3
+dsm,4,1,0,122911,64,0
+dsm,4,3,0,122197,64,0
+hot_l2,8,-1,0,165291,64,0
+========= LEAK SUMMARY: 0 bytes leaked in 0 allocations
+========= ERROR SUMMARY: 0 errors

@@ -1,0 +1,8 @@
+{
+  "name": "fpga_dcop_34",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fpga_dcop_34-L.mtx,model,cached,1220,2936,18,1296.311,18.13439941,1.443289932e-15,3.946046465e-17,9.773719357e-17,1024\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fpga_dcop_34-L.mtx,model-host,cached,1220,2936,18,1296.311,23.753215,1.443289932e-15,3.946046465e-17,9.773719357e-17,1024\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fpga_dcop_34-L.mtx,default,cusparse,1220,2936,-1,2083.008,29.28319931,1.443289932e-15,4.724997961e-17,9.773719357e-17,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fpga_dcop_34-L.mtx,default-host,cusparse,1220,2936,-1,2083.008,35.222965,1.443289932e-15,4.724997961e-17,9.773719357e-17,0\n",
+  "stderr": ""
+}

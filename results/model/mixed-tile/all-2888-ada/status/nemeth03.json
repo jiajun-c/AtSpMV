@@ -1,0 +1,15 @@
+{
+  "dataset": "nemeth03",
+  "matrix_sha256": "c05148dbdd3711883ffa7b496ca1bdecd9df418ab1d243d444f42f4bc6e06fff",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.115,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "mk13-b5",
+  "matrix_sha256": "5233a4aa6f75dc8a02667b226c87b80d4b772bc3eea85933abc2b47b066c622b",
+  "index_nnz": 810810,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.048,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

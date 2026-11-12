@@ -1,0 +1,8 @@
+{
+  "name": "lshp_265",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/lshp_265-L.mtx,model,cached-csr,265,3125,110,1165.541,61.26719666,4.218847494e-14,2.669052892e-17,1.002610806e-16,256\nresults/model/sptrsv/csr-independent120-h100/factors/lshp_265-L.mtx,model-host,cached-csr,265,3125,110,1165.541,67.211045,4.218847494e-14,2.669052892e-17,1.002610806e-16,256\nresults/model/sptrsv/csr-independent120-h100/factors/lshp_265-L.mtx,default,cusparse,265,3125,-1,2758.066,104.4191971,4.218847494e-14,2.669052892e-17,1.002610806e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/lshp_265-L.mtx,default-host,cusparse,265,3125,-1,2758.066,111.170535,4.218847494e-14,2.669052892e-17,1.002610806e-16,0\n",
+  "stderr": ""
+}

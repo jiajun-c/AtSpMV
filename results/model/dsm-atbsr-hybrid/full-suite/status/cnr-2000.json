@@ -1,0 +1,10 @@
+{
+  "dataset": "cnr-2000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cnr-2000/cnr-2000.mtx",
+  "matrix_sha256": "aa1e885ba738927a0b8e9b8c031a434bfb8898390777275cf3b27ebef3ed276f",
+  "index_nnz": 3216152,
+  "index_rows": 325557,
+  "elapsed_s": 2.067,
+  "returncode": 0,
+  "status": "ok"
+}

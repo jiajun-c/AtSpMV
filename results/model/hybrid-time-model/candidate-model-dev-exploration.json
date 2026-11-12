@@ -1,0 +1,322 @@
+{
+  "ridge:0.95": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.006790828497519,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9377645732185962,
+      "slower_than_default": 293,
+      "hybrid_selected": 11
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 0.9981847012866566,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9289084898317989,
+      "slower_than_default": 115,
+      "hybrid_selected": 3
+    }
+  },
+  "ridge:0.97": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0081179035982568,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9390006631592738,
+      "slower_than_default": 324,
+      "hybrid_selected": 11
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 0.9985420705323007,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9292410568665929,
+      "slower_than_default": 125,
+      "hybrid_selected": 3
+    }
+  },
+  "ridge:0.99": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0115740820484123,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9422198836940042,
+      "slower_than_default": 362,
+      "hybrid_selected": 11
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 0.9975649317005494,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9283317336167092,
+      "slower_than_default": 139,
+      "hybrid_selected": 3
+    }
+  },
+  "ridge:1.0": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0121531949911886,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9427592922645396,
+      "slower_than_default": 379,
+      "hybrid_selected": 11
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 0.9964358120557595,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9272809773561401,
+      "slower_than_default": 143,
+      "hybrid_selected": 3
+    }
+  },
+  "boost_small:0.95": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0553550035537083,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9829991558212651,
+      "slower_than_default": 32,
+      "hybrid_selected": 4
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0502738140456518,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9773825037164708,
+      "slower_than_default": 30,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_small:0.97": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.063874746797521,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9909347797471295,
+      "slower_than_default": 88,
+      "hybrid_selected": 4
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.056902365256493,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9835510189091987,
+      "slower_than_default": 59,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_small:0.99": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0651788235092416,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9921494480837851,
+      "slower_than_default": 172,
+      "hybrid_selected": 4
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0588574139349638,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9853703829138012,
+      "slower_than_default": 76,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_small:1.0": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.065003935312052,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9919865503388351,
+      "slower_than_default": 197,
+      "hybrid_selected": 4
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.058859891449826,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9853726884836885,
+      "slower_than_default": 80,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_large:0.95": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0641715082301908,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9912111950166954,
+      "slower_than_default": 23,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0524242431691182,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9793836883339015,
+      "slower_than_default": 29,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_large:0.97": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0687847883721187,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9955081855741966,
+      "slower_than_default": 53,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0573723601393221,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9839883951144989,
+      "slower_than_default": 56,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_large:0.99": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0692196163277952,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9959132014332377,
+      "slower_than_default": 122,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0579048738461678,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9844839512000642,
+      "slower_than_default": 79,
+      "hybrid_selected": 2
+    }
+  },
+  "boost_large:1.0": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0690059709396256,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9957142037163474,
+      "slower_than_default": 156,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0585765223369024,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9851089858098131,
+      "slower_than_default": 86,
+      "hybrid_selected": 2
+    }
+  },
+  "forest:0.95": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0631022039399536,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9902152029466529,
+      "slower_than_default": 22,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0474771737579025,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9747799564093969,
+      "slower_than_default": 27,
+      "hybrid_selected": 2
+    }
+  },
+  "forest:0.97": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0678448053788796,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9946326484461886,
+      "slower_than_default": 57,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.055212965695508,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9819788673896509,
+      "slower_than_default": 52,
+      "hybrid_selected": 2
+    }
+  },
+  "forest:0.99": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0678916981096296,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9946763261798292,
+      "slower_than_default": 128,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0576261477972275,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.98422456935133,
+      "slower_than_default": 67,
+      "hybrid_selected": 2
+    }
+  },
+  "forest:1.0": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.067487873916584,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9943001884446335,
+      "slower_than_default": 175,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0572610402997478,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9838848011163801,
+      "slower_than_default": 78,
+      "hybrid_selected": 2
+    }
+  },
+  "extra:0.95": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0563365349549814,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9839133927705519,
+      "slower_than_default": 26,
+      "hybrid_selected": 5
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0492168830129007,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9763989260196542,
+      "slower_than_default": 21,
+      "hybrid_selected": 3
+    }
+  },
+  "extra:0.97": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0657569098203379,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.992687900409198,
+      "slower_than_default": 80,
+      "hybrid_selected": 4
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0560355690969936,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9827443803076704,
+      "slower_than_default": 43,
+      "hybrid_selected": 2
+    }
+  },
+  "extra:0.99": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0661791156649991,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9930811595376308,
+      "slower_than_default": 147,
+      "hybrid_selected": 3
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.0608717386709212,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.987244909087261,
+      "slower_than_default": 60,
+      "hybrid_selected": 2
+    }
+  },
+  "extra:1.0": {
+    "train": {
+      "count": 1448,
+      "geomean_vs_default": 1.0668538169694626,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9937096028675868,
+      "slower_than_default": 173,
+      "hybrid_selected": 3
+    },
+    "dev": {
+      "count": 410,
+      "geomean_vs_default": 1.060876835330229,
+      "geomean_vs_fixed_nonhybrid_oracle": 0.9872496520272146,
+      "slower_than_default": 65,
+      "hybrid_selected": 2
+    }
+  }
+}

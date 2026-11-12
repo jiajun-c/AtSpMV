@@ -1,0 +1,14 @@
+{
+  "matrix": "oscil_dcop_32",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/oscil_dcop_32/oscil_dcop_32.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 430,
+  "columns": 430,
+  "original_nnz": 1544,
+  "factor_L_nnz": 1094,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.028481812914833426
+}

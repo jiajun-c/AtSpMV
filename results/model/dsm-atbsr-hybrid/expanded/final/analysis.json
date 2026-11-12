@@ -1,0 +1,77 @@
+{
+  "overall": {
+    "count": 38,
+    "hybrid_wins": 4,
+    "hybrid_wins_5pct": 1,
+    "hybrid_slower_5pct": 28,
+    "hybrid_geo_mean": 0.727285423853429,
+    "hybrid_median": 0.7674159856222476,
+    "hybrid_min": 0.42289934122069545,
+    "hybrid_max": 1.3476599407298264,
+    "auto_hybrid_selected": 5,
+    "auto_geo_mean_vs_best_nonhybrid": 0.9808865053719461
+  },
+  "groups": {
+    "high": {
+      "count": 8,
+      "hybrid_wins": 1,
+      "hybrid_wins_5pct": 0,
+      "hybrid_slower_5pct": 6,
+      "hybrid_geo_mean": 0.6670919652900058,
+      "hybrid_median": 0.7092839563504447,
+      "hybrid_min": 0.42623308269711,
+      "hybrid_max": 1.0100924939192382,
+      "auto_hybrid_selected": 1,
+      "auto_geo_mean_vs_best_nonhybrid": 0.9032601707727113
+    },
+    "medium": {
+      "count": 8,
+      "hybrid_wins": 3,
+      "hybrid_wins_5pct": 1,
+      "hybrid_slower_5pct": 5,
+      "hybrid_geo_mean": 0.7431091260382007,
+      "hybrid_median": 0.767049548053937,
+      "hybrid_min": 0.42289934122069545,
+      "hybrid_max": 1.3476599407298264,
+      "auto_hybrid_selected": 3,
+      "auto_geo_mean_vs_best_nonhybrid": 1.0328296086331683
+    },
+    "low": {
+      "count": 8,
+      "hybrid_wins": 0,
+      "hybrid_wins_5pct": 0,
+      "hybrid_slower_5pct": 8,
+      "hybrid_geo_mean": 0.6384603738605249,
+      "hybrid_median": 0.6084766793057521,
+      "hybrid_min": 0.48430644436277254,
+      "hybrid_max": 0.8518518730452675,
+      "auto_hybrid_selected": 0,
+      "auto_geo_mean_vs_best_nonhybrid": 0.991005961164325
+    },
+    "very_low": {
+      "count": 6,
+      "hybrid_wins": 0,
+      "hybrid_wins_5pct": 0,
+      "hybrid_slower_5pct": 6,
+      "hybrid_geo_mean": 0.6679844600630798,
+      "hybrid_median": 0.6424120351006466,
+      "hybrid_min": 0.5506949857254667,
+      "hybrid_max": 0.8594005530717431,
+      "auto_hybrid_selected": 0,
+      "auto_geo_mean_vs_best_nonhybrid": 0.9951478139159451
+    },
+    "no_long": {
+      "count": 8,
+      "hybrid_wins": 0,
+      "hybrid_wins_5pct": 0,
+      "hybrid_slower_5pct": 3,
+      "hybrid_geo_mean": 0.9422175191570789,
+      "hybrid_median": 0.955711333288364,
+      "hybrid_min": 0.8809816141988789,
+      "hybrid_max": 0.9730392237773634,
+      "auto_hybrid_selected": 1,
+      "auto_geo_mean_vs_best_nonhybrid": 0.9905025702719069
+    }
+  },
+  "note": "Stratified exploratory sample, not representative of the full database; baseline is the best of three shortlisted configurations per non-hybrid backend and one cuSPARSE algorithm; no inference for unmeasured configurations."
+}

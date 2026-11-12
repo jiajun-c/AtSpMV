@@ -1,0 +1,9 @@
+{
+  "name": "fpga_trans_01",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_trans_01-L.mtx,default,cusparse,1232,8196,-1,2727.163,149.2384033,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_trans_01-L.mtx,default-host,cusparse,1232,8196,-1,2727.163,156.092315,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_trans_01-L.mtx,model,cached,1232,8196,132,1571.383,104.1087952,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_trans_01-L.mtx,model-host,cached,1232,8196,132,1571.383,110.538995,1.33226763e-15\n",
+  "stderr": ""
+}

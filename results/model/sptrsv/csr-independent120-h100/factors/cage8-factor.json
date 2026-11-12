@@ -1,0 +1,14 @@
+{
+  "matrix": "cage8",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/cage8/cage8.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1015,
+  "columns": 1015,
+  "original_nnz": 11003,
+  "factor_L_nnz": 23320,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.05769431800581515
+}

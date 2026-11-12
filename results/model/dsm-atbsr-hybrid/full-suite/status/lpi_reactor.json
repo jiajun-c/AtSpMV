@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_reactor",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_reactor/lpi_reactor.mtx",
+  "matrix_sha256": "b85da533bb048a182d2dd585ab0f68bfd2b30a0fcfb15ec99a9a59c10b5fdad7",
+  "index_nnz": 2591,
+  "index_rows": 318,
+  "elapsed_s": 1.22,
+  "returncode": 0,
+  "status": "ok"
+}

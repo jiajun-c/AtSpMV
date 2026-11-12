@@ -1,0 +1,35 @@
+{
+  "algorithm": "HistGradientBoostingRegressor",
+  "sklearn_version": "1.6.0",
+  "selection_gate": 0.9,
+  "configurations": [
+    "3/0/8/256/1/1024",
+    "5/0/8/256/1/1024",
+    "5/0/8/128/1/4096"
+  ],
+  "features_sha256": "58fea6ef293c9498d19817e8b90fe424c161c9f0ce2c23913ecd884727a6b0d2",
+  "manifest_sha256": "eb2db5f3296d0d464bc12dbb91436a101db0e13ad6ec4768fccafafa5ff8f8aa",
+  "split": "sha256 of name with trailing digits, underscores and hyphens stripped; 60/20/20 buckets",
+  "training": "train split only",
+  "dev_and_holdout": {
+    "train": {
+      "matrices": 1448,
+      "hybrid_selected": 16,
+      "hybrid_slower_than_default": 0,
+      "geomean_speedup": 1.0017940678720685
+    },
+    "dev": {
+      "matrices": 410,
+      "hybrid_selected": 10,
+      "hybrid_slower_than_default": 0,
+      "geomean_speedup": 1.0052647220328088
+    },
+    "holdout": {
+      "matrices": 389,
+      "hybrid_selected": 19,
+      "hybrid_slower_than_default": 3,
+      "geomean_speedup": 1.0051886282429994
+    }
+  },
+  "source": "full-suite fixed candidates on H100 PCIe; warm graph; <=1M nnz"
+}

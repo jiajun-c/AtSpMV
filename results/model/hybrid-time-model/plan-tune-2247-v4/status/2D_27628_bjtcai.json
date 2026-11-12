@@ -1,0 +1,19 @@
+{
+  "dataset": "2D_27628_bjtcai",
+  "matrix_sha256": "c6a8ea8dfbc927d46926de1a2a99ef37a4d57464f8e8089dd55b47aca5d0fdac",
+  "index_nnz": 442898,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.655,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

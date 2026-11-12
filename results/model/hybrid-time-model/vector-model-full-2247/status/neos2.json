@@ -1,0 +1,17 @@
+{
+  "dataset": "neos2",
+  "matrix_sha256": "8c5749802574f8603c8f021a4e8f11051da085c377afbe5c0d0efd4f7494f571",
+  "index_nnz": 685087,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.696,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

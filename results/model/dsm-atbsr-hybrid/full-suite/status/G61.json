@@ -1,0 +1,10 @@
+{
+  "dataset": "G61",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G61/G61.mtx",
+  "matrix_sha256": "00061b69aad0e68036af8c6b904bbc70fcd60f1b877d98804bcf388f349d554e",
+  "index_nnz": 34296,
+  "index_rows": 7000,
+  "elapsed_s": 1.165,
+  "returncode": 0,
+  "status": "ok"
+}

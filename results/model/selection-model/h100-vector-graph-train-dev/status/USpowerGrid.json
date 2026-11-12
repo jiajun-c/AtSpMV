@@ -1,0 +1,17 @@
+{
+  "dataset": "USpowerGrid",
+  "matrix_sha256": "8fda7edfc1844d73d4f5be7d9a49963104349292aae64e73782c1a55c3b5f05f",
+  "index_nnz": 13188,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.213,
+  "gpu_after": {
+    "utilization_percent": 9,
+    "free_memory_mib": 81079
+  }
+}

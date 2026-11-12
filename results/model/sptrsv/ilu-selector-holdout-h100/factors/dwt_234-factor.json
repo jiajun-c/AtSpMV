@@ -1,0 +1,14 @@
+{
+  "matrix": "dwt_234",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/dwt_234/dwt_234.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 234,
+  "columns": 234,
+  "original_nnz": 834,
+  "factor_L_nnz": 904,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03612796706147492
+}

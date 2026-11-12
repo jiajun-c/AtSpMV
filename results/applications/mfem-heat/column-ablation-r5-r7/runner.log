@@ -1,0 +1,199 @@
+completed r5 round=0 persist=0 order=('cusparse', 'atbsr', 'atbsr-compressed')
+completed r5 round=0 persist=1 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r7 round=0 persist=0 order=('cusparse', 'atbsr', 'atbsr-compressed')
+completed r7 round=0 persist=1 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r7 round=1 persist=1 order=('atbsr-compressed', 'cusparse', 'atbsr')
+completed r7 round=1 persist=0 order=('cusparse', 'atbsr-compressed', 'atbsr')
+completed r5 round=1 persist=1 order=('atbsr-compressed', 'cusparse', 'atbsr')
+GPU 3 utilization=62%, waiting for idle
+completed r5 round=1 persist=0 order=('cusparse', 'atbsr-compressed', 'atbsr')
+completed r5 round=2 persist=0 order=('atbsr', 'cusparse', 'atbsr-compressed')
+GPU 3 utilization=14%, waiting for idle
+completed r5 round=2 persist=1 order=('atbsr-compressed', 'atbsr', 'cusparse')
+GPU 3 utilization=6%, waiting for idle
+completed r7 round=2 persist=0 order=('atbsr', 'cusparse', 'atbsr-compressed')
+completed r7 round=2 persist=1 order=('atbsr-compressed', 'atbsr', 'cusparse')
+completed r7 round=3 persist=1 order=('cusparse', 'atbsr', 'atbsr-compressed')
+completed r7 round=3 persist=0 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r5 round=3 persist=1 order=('cusparse', 'atbsr', 'atbsr-compressed')
+completed r5 round=3 persist=0 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r5 round=4 persist=0 order=('atbsr-compressed', 'cusparse', 'atbsr')
+completed r5 round=4 persist=1 order=('cusparse', 'atbsr-compressed', 'atbsr')
+completed r7 round=4 persist=0 order=('atbsr-compressed', 'cusparse', 'atbsr')
+completed r7 round=4 persist=1 order=('cusparse', 'atbsr-compressed', 'atbsr')
+completed r7 round=5 persist=1 order=('atbsr', 'cusparse', 'atbsr-compressed')
+completed r7 round=5 persist=0 order=('atbsr-compressed', 'atbsr', 'cusparse')
+completed r5 round=5 persist=1 order=('atbsr', 'cusparse', 'atbsr-compressed')
+completed r5 round=5 persist=0 order=('atbsr-compressed', 'atbsr', 'cusparse')
+GPU 3 utilization=10%, waiting for idle
+completed r5 round=6 persist=0 order=('cusparse', 'atbsr', 'atbsr-compressed')
+GPU 3 utilization=53%, waiting for idle
+completed r5 round=6 persist=1 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r7 round=6 persist=0 order=('cusparse', 'atbsr', 'atbsr-compressed')
+completed r7 round=6 persist=1 order=('atbsr', 'atbsr-compressed', 'cusparse')
+completed r7 round=7 persist=1 order=('atbsr-compressed', 'cusparse', 'atbsr')
+completed r7 round=7 persist=0 order=('cusparse', 'atbsr-compressed', 'atbsr')
+completed r5 round=7 persist=1 order=('atbsr-compressed', 'cusparse', 'atbsr')
+completed r5 round=7 persist=0 order=('cusparse', 'atbsr-compressed', 'atbsr')
+[
+  {
+    "refine": 5,
+    "persist_x": 0,
+    "total_s": {
+      "geomean_speedup": 0.9527276171964041,
+      "paired_bootstrap_95": [
+        0.89235223152763,
+        1.0085285742008079
+      ],
+      "wins": 3,
+      "rounds": 8
+    },
+    "linear_s": {
+      "geomean_speedup": 0.9036678713122026,
+      "paired_bootstrap_95": [
+        0.8712620457002626,
+        0.9379843181956317
+      ],
+      "wins": 0,
+      "rounds": 8
+    },
+    "plan_s": {
+      "geomean_speedup": 1.0652092974968257,
+      "paired_bootstrap_95": [
+        0.9503343644178226,
+        1.215627049244022
+      ],
+      "wins": 5,
+      "rounds": 8
+    },
+    "process_wall_s": {
+      "geomean_speedup": 0.9587521744552834,
+      "paired_bootstrap_95": [
+        0.9018966476770678,
+        1.0116860231208957
+      ],
+      "wins": 3,
+      "rounds": 8
+    }
+  },
+  {
+    "refine": 5,
+    "persist_x": 1,
+    "total_s": {
+      "geomean_speedup": 0.9439575519628001,
+      "paired_bootstrap_95": [
+        0.9016275816742336,
+        0.9918094880487547
+      ],
+      "wins": 2,
+      "rounds": 8
+    },
+    "linear_s": {
+      "geomean_speedup": 0.9051578447623356,
+      "paired_bootstrap_95": [
+        0.8750943758550164,
+        0.9336768824326901
+      ],
+      "wins": 0,
+      "rounds": 8
+    },
+    "plan_s": {
+      "geomean_speedup": 0.9919741848048516,
+      "paired_bootstrap_95": [
+        0.8933508375455842,
+        1.125086510682418
+      ],
+      "wins": 4,
+      "rounds": 8
+    },
+    "process_wall_s": {
+      "geomean_speedup": 0.9502879601482983,
+      "paired_bootstrap_95": [
+        0.9098910896130935,
+        0.9947648763421489
+      ],
+      "wins": 2,
+      "rounds": 8
+    }
+  },
+  {
+    "refine": 7,
+    "persist_x": 0,
+    "total_s": {
+      "geomean_speedup": 0.9928404146670622,
+      "paired_bootstrap_95": [
+        0.9714816771513629,
+        1.0181491428579452
+      ],
+      "wins": 2,
+      "rounds": 8
+    },
+    "linear_s": {
+      "geomean_speedup": 1.0371206077653652,
+      "paired_bootstrap_95": [
+        1.0363503830281755,
+        1.0379974977707966
+      ],
+      "wins": 8,
+      "rounds": 8
+    },
+    "plan_s": {
+      "geomean_speedup": 0.8926482200080076,
+      "paired_bootstrap_95": [
+        0.8358120913973763,
+        0.9643157421016709
+      ],
+      "wins": 2,
+      "rounds": 8
+    },
+    "process_wall_s": {
+      "geomean_speedup": 0.9925587651043758,
+      "paired_bootstrap_95": [
+        0.971176637919356,
+        1.017972329758741
+      ],
+      "wins": 2,
+      "rounds": 8
+    }
+  },
+  {
+    "refine": 7,
+    "persist_x": 1,
+    "total_s": {
+      "geomean_speedup": 0.9930844168638269,
+      "paired_bootstrap_95": [
+        0.974610000528288,
+        1.010736237031273
+      ],
+      "wins": 2,
+      "rounds": 8
+    },
+    "linear_s": {
+      "geomean_speedup": 1.0205526653438985,
+      "paired_bootstrap_95": [
+        1.014588391635635,
+        1.0282139032430229
+      ],
+      "wins": 8,
+      "rounds": 8
+    },
+    "plan_s": {
+      "geomean_speedup": 0.9430787043803947,
+      "paired_bootstrap_95": [
+        0.9013428735734997,
+        0.986643514328228
+      ],
+      "wins": 1,
+      "rounds": 8
+    },
+    "process_wall_s": {
+      "geomean_speedup": 0.9928249506759592,
+      "paired_bootstrap_95": [
+        0.9713927295033066,
+        1.0122990864866233
+      ],
+      "wins": 3,
+      "rounds": 8
+    }
+  }
+]

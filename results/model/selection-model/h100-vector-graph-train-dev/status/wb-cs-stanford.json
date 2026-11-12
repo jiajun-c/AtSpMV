@@ -1,0 +1,17 @@
+{
+  "dataset": "wb-cs-stanford",
+  "matrix_sha256": "c81413d2746fee6a75c63777aef875d24a0be4239c27245f63133a2d4c040a27",
+  "index_nnz": 36854,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.206,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

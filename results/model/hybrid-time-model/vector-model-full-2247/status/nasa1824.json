@@ -1,0 +1,17 @@
+{
+  "dataset": "nasa1824",
+  "matrix_sha256": "2b8928785b16908c7abee4927861fe604eeea6810efa772431ba6336806126ac",
+  "index_nnz": 39208,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.412,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

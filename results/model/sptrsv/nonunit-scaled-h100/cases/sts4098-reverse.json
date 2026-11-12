@@ -1,0 +1,7 @@
+{
+  "name": "sts4098",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/sts4098-L.mtx,model,cusparse,4098,163703,-1,10948.901,650.694397,2.819966483e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/sts4098-L.mtx,model-host,cusparse,4098,163703,-1,10948.901,658.58842,2.819966483e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/sts4098-L.mtx,default,cusparse,4098,163703,-1,10132.85,651.0303955,2.819966483e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/sts4098-L.mtx,default-host,cusparse,4098,163703,-1,10132.85,657.917155,2.819966483e-14\n",
+  "stderr": ""
+}

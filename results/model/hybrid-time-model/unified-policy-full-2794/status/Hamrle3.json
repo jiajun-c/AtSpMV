@@ -1,0 +1,17 @@
+{
+  "dataset": "Hamrle3",
+  "matrix_sha256": "ca8698a6c1444fd7a27f285c9dd81acc507c54fae443f1d671d28433d245c9c5",
+  "index_nnz": 5514242,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 32.39,
+  "gpu_after": {
+    "utilization_percent": 58,
+    "free_memory_mib": 81079
+  }
+}

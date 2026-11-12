@@ -1,0 +1,19 @@
+{
+  "dataset": "Sandi_sandi",
+  "matrix_sha256": "97e49f58c0aa26a7a224e8ed5a1f1b15ad2e3086033dfe411169be2e347100b6",
+  "index_nnz": 613,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.352,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

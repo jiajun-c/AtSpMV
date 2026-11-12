@@ -1,0 +1,19 @@
+{
+  "dataset": "gent113",
+  "matrix_sha256": "ae645bd8ab49e0d082b499029bff9b7a4907f2e7bcdef47f3362071e8216cacd",
+  "index_nnz": 655,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.488,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

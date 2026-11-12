@@ -1,0 +1,10 @@
+{
+  "dataset": "coAuthorsCiteseer",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/coAuthorsCiteseer/coAuthorsCiteseer.mtx",
+  "matrix_sha256": "77be499ad53a227cbeb5e06cb0beed75f023fc06132338b1fcfae8bf0cbad207",
+  "index_nnz": 1628268,
+  "index_rows": 227320,
+  "elapsed_s": 1.779,
+  "returncode": 0,
+  "status": "ok"
+}

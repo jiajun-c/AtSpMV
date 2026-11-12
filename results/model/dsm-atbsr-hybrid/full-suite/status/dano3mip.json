@@ -1,0 +1,10 @@
+{
+  "dataset": "dano3mip",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dano3mip/dano3mip.mtx",
+  "matrix_sha256": "1f08a14c1103d3cace7e5f0f748f216240268014dbbba3f1797969ea847d2a64",
+  "index_nnz": 81633,
+  "index_rows": 3202,
+  "elapsed_s": 0.739,
+  "returncode": 0,
+  "status": "ok"
+}

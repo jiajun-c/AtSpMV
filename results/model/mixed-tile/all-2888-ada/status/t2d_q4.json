@@ -1,0 +1,15 @@
+{
+  "dataset": "t2d_q4",
+  "matrix_sha256": "e06b408430051cc94a906a31bd9f57c3158f659881945301ed7c18a7d03cc5f8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.929,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

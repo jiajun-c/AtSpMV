@@ -1,0 +1,10 @@
+{
+  "dataset": "mk12-b4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mk12-b4/mk12-b4.mtx",
+  "matrix_sha256": "ceac90c2de02acf649a384ce6dbccd7288b8890e149bc94442048e892474db09",
+  "index_nnz": 311850,
+  "index_rows": 62370,
+  "elapsed_s": 1.332,
+  "returncode": 0,
+  "status": "ok"
+}

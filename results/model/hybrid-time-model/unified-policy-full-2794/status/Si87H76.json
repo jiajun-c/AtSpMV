@@ -1,0 +1,17 @@
+{
+  "dataset": "Si87H76",
+  "matrix_sha256": "533075ea9bedd25f7427733f431741fc830a9f8bfe0abbe1c1a8ac0f1cb95cef",
+  "index_nnz": 10661631,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 13.595,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

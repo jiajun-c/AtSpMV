@@ -1,0 +1,17 @@
+{
+  "dataset": "mimo8x8_system",
+  "matrix_sha256": "678d7e684913463c80a38ce8ae7a56659ec40fb6b4867cd74532e58626028927",
+  "index_nnz": 48872,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.909,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,99 @@
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+10/389 spaceStation_8: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+20/389 qh882: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+30/389 n2c6-b6: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 4, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+46/389 reorientation_1: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+56/389 HTC_336_9129: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 81079}
+66/389 n2c6-b3: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+76/389 reorientation_3: ok, new=40
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 81079}
+86/389 Trefethen_20b: ok, new=50
+96/389 ch8-8-b1: ok, new=60
+WAIT shared GPU utilization/memory {'utilization_percent': 5, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+106/389 lp_ken_18: ok, new=70
+116/389 garon1: ok, new=80
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+RETRY due to external GPU use jnlbrng1 [{'pid': 2198599, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT GPU busy [{'pid': 2200341, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 2200341, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}, {'pid': 2202618, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+133/389 spaceStation_11: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+143/389 nemswrld: ok, new=20
+153/389 add32: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT GPU busy [{'pid': 2234854, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+163/389 add20: ok, new=40
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+173/389 soc-Slashdot0902: ok, new=50
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 81079}
+183/389 ch7-8-b5: ok, new=60
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 81079}
+193/389 soc-Slashdot0811: ok, new=70
+203/389 rw496: ok, new=80
+213/389 rlfprim: ok, new=90
+223/389 GD99_c: ok, new=100
+233/389 ca-AstroPh: ok, new=110
+243/389 n4c5-b10: ok, new=120
+253/389 m3plates: ok, new=130
+263/389 l30: ok, new=140
+273/389 aa01: ok, new=150
+283/389 L-9: ok, new=160
+293/389 hcircuit: ok, new=170
+303/389 lp_sc105: ok, new=180
+313/389 data: ok, new=190
+323/389 lp_pilotnov: ok, new=200
+333/389 reorientation_5: ok, new=210
+343/389 shermanACa: ok, new=220
+353/389 tumorAntiAngiogenesis_4: ok, new=230
+363/389 lp_ken_07: ok, new=240
+373/389 cegb3024: ok, new=250
+383/389 nasa4704: ok, new=260
+DONE new cases 266
+{
+  "manifest_total": 389,
+  "status_counts": {
+    "ok": 389
+  },
+  "selected_backends": {
+    "csr_dsm": 61,
+    "atbsr": 289,
+    "csr_two_stage": 34,
+    "hybrid_dsm_atbsr": 3,
+    "cusparse": 2
+  },
+  "selection": "auto_model",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.0406020915412029,
+    "median": 1.00074267193217,
+    "wins": 242,
+    "cases": 389
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.3889448254080417,
+    "median": 1.4499535320789623,
+    "wins": 356,
+    "cases": 389
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.0303122578603086,
+    "median": 1.000492493358357,
+    "wins": 224,
+    "cases": 389
+  }
+}

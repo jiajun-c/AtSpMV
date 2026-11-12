@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_truss",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_truss/lp_truss.mtx",
+  "matrix_sha256": "c3e808e30640fdddc7b559ef27f684ae21693c3cecb6dda58cfa03114609a864",
+  "index_nnz": 27836,
+  "index_rows": 1000,
+  "elapsed_s": 0.647,
+  "returncode": 0,
+  "status": "ok"
+}

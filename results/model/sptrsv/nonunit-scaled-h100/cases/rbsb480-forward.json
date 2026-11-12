@@ -1,0 +1,7 @@
+{
+  "name": "rbsb480",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/rbsb480-L.mtx,default,cusparse,480,27058,-1,6657.691,298.1663818,8.437694987e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rbsb480-L.mtx,default-host,cusparse,480,27058,-1,6657.691,305.892235,8.437694987e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rbsb480-L.mtx,model,cusparse,480,27058,350,6504.934,298.153595,8.437694987e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rbsb480-L.mtx,model-host,cusparse,480,27058,350,6504.934,305.73941,8.437694987e-14\n",
+  "stderr": ""
+}

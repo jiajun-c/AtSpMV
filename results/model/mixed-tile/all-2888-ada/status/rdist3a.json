@@ -1,0 +1,15 @@
+{
+  "dataset": "rdist3a",
+  "matrix_sha256": "6ff7d7498524eadd9fc235477d2166368f5d639387d3623e4f6f9751507d02bf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.143,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

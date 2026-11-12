@@ -1,0 +1,15 @@
+{
+  "dataset": "tub100",
+  "matrix_sha256": "3f14fc90f2a60a0953e8718c9ab6a5f9150e171a01d68b9f8ec8d62beb66fbb9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.476,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

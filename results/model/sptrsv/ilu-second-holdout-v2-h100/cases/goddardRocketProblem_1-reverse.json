@@ -1,0 +1,7 @@
+{
+  "name": "goddardRocketProblem_1",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/goddardRocketProblem_1-L.mtx,model,cusparse,831,19576,177,3773.814,190.7839966,1.7985613e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/goddardRocketProblem_1-L.mtx,default,cusparse,831,19576,-1,3886.119,190.9152069,1.7985613e-14\n",
+  "stderr": ""
+}

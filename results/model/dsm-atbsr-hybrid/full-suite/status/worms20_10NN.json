@@ -1,0 +1,10 @@
+{
+  "dataset": "worms20_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/worms20_10NN/worms20_10NN.mtx",
+  "matrix_sha256": "4aa22bf4ae22d61d648eaf88a2bcf6588ff6226ca84f8ec8d817bf565afd8044",
+  "index_nnz": 240826,
+  "index_rows": 20055,
+  "elapsed_s": 0.811,
+  "returncode": 0,
+  "status": "ok"
+}

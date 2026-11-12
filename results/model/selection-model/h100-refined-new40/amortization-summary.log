@@ -1,0 +1,121 @@
+{
+  "manifest_total": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "scope": "Paired Plan-reported setup plus N * independently measured warm-Graph SpMV; excludes input reading, caller allocation and Graph creation. Construction order, aliasing, shared warmup and timing noise affect estimates.",
+  "cases": 40,
+  "comparisons": {
+    "auto_model": {
+      "1": {
+        "geomean_speedup": 0.21369021899896726,
+        "median_speedup": 0.25079836221381974,
+        "cases_above_one": 0
+      },
+      "100": {
+        "geomean_speedup": 0.22649212617906092,
+        "median_speedup": 0.26665553866920605,
+        "cases_above_one": 0
+      },
+      "1000": {
+        "geomean_speedup": 0.32431332339021274,
+        "median_speedup": 0.3867437504731699,
+        "cases_above_one": 0
+      },
+      "10000": {
+        "geomean_speedup": 0.709453426994542,
+        "median_speedup": 0.7986556511068541,
+        "cases_above_one": 1
+      },
+      "100000": {
+        "geomean_speedup": 1.0232404623427498,
+        "median_speedup": 1.0755953246370253,
+        "cases_above_one": 28
+      },
+      "1000000": {
+        "geomean_speedup": 1.0905924936352596,
+        "median_speedup": 1.117689916084018,
+        "cases_above_one": 29
+      },
+      "10000000": {
+        "geomean_speedup": 1.0986938881595905,
+        "median_speedup": 1.1218676684972841,
+        "cases_above_one": 32
+      }
+    },
+    "auto_vector_model": {
+      "1": {
+        "geomean_speedup": 0.20842973727584918,
+        "median_speedup": 0.25459773710373035,
+        "cases_above_one": 0
+      },
+      "100": {
+        "geomean_speedup": 0.2200041137569057,
+        "median_speedup": 0.2667222206675537,
+        "cases_above_one": 0
+      },
+      "1000": {
+        "geomean_speedup": 0.30907515931804674,
+        "median_speedup": 0.3657007851171493,
+        "cases_above_one": 0
+      },
+      "10000": {
+        "geomean_speedup": 0.6643863009687122,
+        "median_speedup": 0.7324862686158675,
+        "cases_above_one": 0
+      },
+      "100000": {
+        "geomean_speedup": 0.9562299496744845,
+        "median_speedup": 0.9658994237251162,
+        "cases_above_one": 8
+      },
+      "1000000": {
+        "geomean_speedup": 1.0190225492745877,
+        "median_speedup": 1.003121647897033,
+        "cases_above_one": 21
+      },
+      "10000000": {
+        "geomean_speedup": 1.0265784694674087,
+        "median_speedup": 1.007404317229628,
+        "cases_above_one": 25
+      }
+    },
+    "auto_tuned_mixed": {
+      "1": {
+        "geomean_speedup": 8.88912273783645,
+        "median_speedup": 7.7935053000237575,
+        "cases_above_one": 40
+      },
+      "100": {
+        "geomean_speedup": 8.771216714552525,
+        "median_speedup": 7.6942592638587515,
+        "cases_above_one": 40
+      },
+      "1000": {
+        "geomean_speedup": 7.848139706607905,
+        "median_speedup": 6.915526690102121,
+        "cases_above_one": 40
+      },
+      "10000": {
+        "geomean_speedup": 4.209294481406735,
+        "median_speedup": 4.008053626957526,
+        "cases_above_one": 40
+      },
+      "100000": {
+        "geomean_speedup": 1.547087499999764,
+        "median_speedup": 1.4619461606256512,
+        "cases_above_one": 40
+      },
+      "1000000": {
+        "geomean_speedup": 1.043978390298948,
+        "median_speedup": 1.0385642069173535,
+        "cases_above_one": 33
+      },
+      "10000000": {
+        "geomean_speedup": 0.9840421999353197,
+        "median_speedup": 1.001257176280658,
+        "cases_above_one": 21
+      }
+    }
+  }
+}

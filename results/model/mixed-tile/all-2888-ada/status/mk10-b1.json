@@ -1,0 +1,15 @@
+{
+  "dataset": "mk10-b1",
+  "matrix_sha256": "095b8d855ad69ff941fb816380016b68528121c8ad0188c5ed223be216e8ed8d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.54,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

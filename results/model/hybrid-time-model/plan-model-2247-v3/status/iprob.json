@@ -1,0 +1,19 @@
+{
+  "dataset": "iprob",
+  "matrix_sha256": "7f3995d41be115478d3d9ed48bb65058d5b30912028023f5aa9d2dad0a4d32bf",
+  "index_nnz": 9000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.083,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

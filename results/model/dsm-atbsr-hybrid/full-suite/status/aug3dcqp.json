@@ -1,0 +1,10 @@
+{
+  "dataset": "aug3dcqp",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/aug3dcqp/aug3dcqp.mtx",
+  "matrix_sha256": "085243b3d267587e2aa3cb1851f134477807d3c7dabfebd35cfaa189db3a1703",
+  "index_nnz": 128115,
+  "index_rows": 35543,
+  "elapsed_s": 0.763,
+  "returncode": 0,
+  "status": "ok"
+}

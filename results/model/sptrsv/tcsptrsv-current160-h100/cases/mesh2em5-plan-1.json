@@ -1,0 +1,9 @@
+{
+  "name": "mesh2em5",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mesh2em5-L.mtx,default,cusparse,320,2410,-1,2382.212,100.377594,4.440892099e-16,3.238780028e-17,5.909830202e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mesh2em5-L.mtx,default-host,cusparse,320,2410,-1,2382.212,109.077565,4.440892099e-16,3.238780028e-17,5.909830202e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mesh2em5-L.mtx,model,cached,320,2410,75,1433.229,57.49440002,4.440892099e-16,3.238780028e-17,5.784604921e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mesh2em5-L.mtx,model-host,cached,320,2410,75,1433.229,65.11723,4.440892099e-16,3.238780028e-17,5.784604921e-17,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "zeros_nopss_13k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/zeros_nopss_13k/zeros_nopss_13k.mtx",
+  "matrix_sha256": "400f8740697a6feaf79f754b843a7731e6bcf71e4e43af7f01bf5b3600fb0f07",
+  "index_nnz": 48827,
+  "index_rows": 13296,
+  "elapsed_s": 0.579,
+  "returncode": 0,
+  "status": "ok"
+}

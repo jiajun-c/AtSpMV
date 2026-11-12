@@ -1,0 +1,201 @@
+{
+  "cases": {
+    "optimize-compressed-persist-v2-r7": {
+      "cusparse": {
+        "trials": 4,
+        "median_total_s": 9.376425163499999,
+        "geomean_total_s_speedup": 1.0,
+        "total_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_linear_s": 5.4466211875,
+        "geomean_linear_s_speedup": 1.0,
+        "linear_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_evolution_s": 7.92327916,
+        "geomean_evolution_s_speedup": 1.0,
+        "evolution_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_plan_s": 0.286912227,
+        "geomean_plan_s_speedup": 1.0,
+        "plan_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_process_wall_s": 9.7411049134098,
+        "geomean_process_wall_s_speedup": 1.0,
+        "process_wall_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "application_wins": 0,
+        "max_field_relative_error": 0.0
+      },
+      "atbsr": {
+        "trials": 4,
+        "median_total_s": 9.2368517695,
+        "geomean_total_s_speedup": 1.0212441042486413,
+        "total_s_paired_bootstrap_95": [
+          1.0034809546145946,
+          1.0400054091623823
+        ],
+        "median_linear_s": 5.3310497485,
+        "geomean_linear_s_speedup": 1.023263765598709,
+        "linear_s_paired_bootstrap_95": [
+          1.0196692521338901,
+          1.0270176667355762
+        ],
+        "median_evolution_s": 7.7273204425,
+        "geomean_evolution_s_speedup": 1.0278391052363962,
+        "evolution_s_paired_bootstrap_95": [
+          1.0172128524063955,
+          1.0410897397803054
+        ],
+        "median_plan_s": 0.3004049865,
+        "geomean_plan_s_speedup": 0.9595992143316442,
+        "plan_s_paired_bootstrap_95": [
+          0.9273569017578587,
+          0.9890487219761667
+        ],
+        "median_process_wall_s": 9.58670548349619,
+        "geomean_process_wall_s_speedup": 1.0214662781077801,
+        "process_wall_s_paired_bootstrap_95": [
+          1.0050975810441787,
+          1.0414615673192538
+        ],
+        "application_wins": 4,
+        "max_field_relative_error": 7.489691934198503e-14
+      },
+      "atbsr-compressed": {
+        "trials": 4,
+        "median_total_s": 9.158827939,
+        "geomean_total_s_speedup": 1.034452729173385,
+        "total_s_paired_bootstrap_95": [
+          1.0091296594318169,
+          1.0659350335871463
+        ],
+        "median_linear_s": 5.2358377140000005,
+        "geomean_linear_s_speedup": 1.0397867678922474,
+        "linear_s_paired_bootstrap_95": [
+          1.038845518430092,
+          1.0411511840090386
+        ],
+        "median_evolution_s": 7.6878349445000005,
+        "geomean_evolution_s_speedup": 1.0291019590604276,
+        "evolution_s_paired_bootstrap_95": [
+          1.0196144045440008,
+          1.0395076416980196
+        ],
+        "median_plan_s": 0.31389992049999993,
+        "geomean_plan_s_speedup": 0.9538897319324271,
+        "plan_s_paired_bootstrap_95": [
+          0.8816536606675616,
+          1.0865637785163162
+        ],
+        "median_process_wall_s": 9.506163491983898,
+        "geomean_process_wall_s_speedup": 1.030213764929008,
+        "process_wall_s_paired_bootstrap_95": [
+          1.0083101010956137,
+          1.0534660398255724
+        ],
+        "application_wins": 4,
+        "max_field_relative_error": 7.489691934198503e-14
+      }
+    },
+    "optimized-confirmation-r7": {
+      "cusparse": {
+        "trials": 8,
+        "median_total_s": 9.404379515999999,
+        "geomean_total_s_speedup": 1.0,
+        "total_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_linear_s": 5.4416305099999995,
+        "geomean_linear_s_speedup": 1.0,
+        "linear_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_evolution_s": 7.8586298894999995,
+        "geomean_evolution_s_speedup": 1.0,
+        "evolution_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_plan_s": 0.2557261485,
+        "geomean_plan_s_speedup": 1.0,
+        "plan_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "median_process_wall_s": 9.77686657954473,
+        "geomean_process_wall_s_speedup": 1.0,
+        "process_wall_s_paired_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "application_wins": 0,
+        "max_field_relative_error": 0.0
+      },
+      "atbsr-compressed": {
+        "trials": 8,
+        "median_total_s": 9.1250913535,
+        "geomean_total_s_speedup": 1.0293985332692117,
+        "total_s_paired_bootstrap_95": [
+          1.0142463607517662,
+          1.0477428867776188
+        ],
+        "median_linear_s": 5.2494446754999995,
+        "geomean_linear_s_speedup": 1.0361007742396078,
+        "linear_s_paired_bootstrap_95": [
+          1.0345641316380914,
+          1.0376962619605619
+        ],
+        "median_evolution_s": 7.751808005,
+        "geomean_evolution_s_speedup": 1.0218957947715652,
+        "evolution_s_paired_bootstrap_95": [
+          1.0128940634484023,
+          1.033028694993575
+        ],
+        "median_plan_s": 0.2869166489999999,
+        "geomean_plan_s_speedup": 0.8818706339795755,
+        "plan_s_paired_bootstrap_95": [
+          0.8259180979215138,
+          0.9350937030615057
+        ],
+        "median_process_wall_s": 9.493705898406915,
+        "geomean_process_wall_s_speedup": 1.0310709946890462,
+        "process_wall_s_paired_bootstrap_95": [
+          1.0165821891777735,
+          1.0482742747150093
+        ],
+        "application_wins": 8,
+        "max_field_relative_error": 7.489691934198503e-14
+      }
+    }
+  },
+  "scope": "H100 PCIe; FP64 nonlinear heat; 1313281 DoFs; 20981761 CSR entries; 20 steps. Both backends use value/structure reuse and persisting X. Bootstrap intervals describe repeated trials on this case only.",
+  "profile": [
+    {
+      "case": "atbsr",
+      "dram_bytes_read": 295036672.0,
+      "aggregate_l2_hit_percent": 20.33
+    },
+    {
+      "case": "atbsr-persist",
+      "dram_bytes_read": 267945472.0,
+      "aggregate_l2_hit_percent": 24.22
+    },
+    {
+      "case": "compressed-persist",
+      "dram_bytes_read": 225260800.0,
+      "aggregate_l2_hit_percent": 30.02
+    }
+  ]
+}

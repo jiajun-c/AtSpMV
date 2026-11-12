@@ -1,0 +1,65 @@
+PAUSED sweep runner; waiting for its current child to finish
+RUNNING independent vector holdout
+RESUMED sweep runner
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "selected_backends": {
+    "atbsr": 27,
+    "csr_vector": 83,
+    "csr_two_stage": 5,
+    "csr_dsm": 3,
+    "hybrid_dsm_atbsr": 2
+  },
+  "selection": "auto_vector_model_2pct",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. Default AtBSR is constructed first in both orders; the two model plans swap relative order after this anchor. Model labels with identical resolved configurations execute the same Plan instance. Those labels also execute the same Graph executable. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.145032715508867,
+    "median": 1.1776162890551531,
+    "wins": 98,
+    "cases": 120
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.5595706565732437,
+    "median": 1.682622552215613,
+    "wins": 117,
+    "cases": 120
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1388520733927106,
+    "median": 1.1563352266404876,
+    "wins": 97,
+    "cases": 120
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.068817671525418,
+    "median": 1.0885270536662204,
+    "wins": 87,
+    "cases": 120
+  },
+  "speedup_vs_auto_model": {
+    "geomean": 1.102244663473706,
+    "median": 1.1032661310463951,
+    "wins": 94,
+    "cases": 120
+  },
+  "speedup_vs_ungated_vector": {
+    "geomean": 0.9996305731734865,
+    "median": 1.0,
+    "wins": 50,
+    "cases": 120
+  }
+}
+HOLDOUT complete_success= True

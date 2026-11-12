@@ -1,0 +1,9 @@
+{
+  "name": "adder_dcop_17",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/adder_dcop_17-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1824, 1824 ) nnz = 4024\nloadfile time    = 0.00172 sec\nnnzL = 4024\ntime_for_csc2CompressTile = 3.99 ms\ntime_cuda_solve = 0.052790 ms, Mflops = 152.45\nVALIDATION finite=1 max_error=4.1189274213593308e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "cdde2",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 961,
+  "nnz": 7938,
+  "min_abs_diagonal": 3.778122106220264,
+  "max_abs_diagonal": 4.688998282578129,
+  "elapsed_s": 0.014017344918102026
+}

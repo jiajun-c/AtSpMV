@@ -1,0 +1,15 @@
+{
+  "dataset": "dw4096",
+  "matrix_sha256": "a3f437eeecee36f74c1ee8391954ab18f4832b1e071d351cf8c1204c2142ca20",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.912,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

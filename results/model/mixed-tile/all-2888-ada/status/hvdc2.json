@@ -1,0 +1,15 @@
+{
+  "dataset": "hvdc2",
+  "matrix_sha256": "b07262798ef0a4e16e71bcfc867ca8feacb1465bbfe96e4e68f619086c325be5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.028,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

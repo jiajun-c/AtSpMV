@@ -1,0 +1,10 @@
+{
+  "dataset": "nmos3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nmos3/nmos3.mtx",
+  "matrix_sha256": "3eb0f552db37ba67af9e11f58c299962199fec2d3997384b17093a9d86b16cb3",
+  "index_nnz": 386594,
+  "index_rows": 18588,
+  "elapsed_s": 1.162,
+  "returncode": 0,
+  "status": "ok"
+}

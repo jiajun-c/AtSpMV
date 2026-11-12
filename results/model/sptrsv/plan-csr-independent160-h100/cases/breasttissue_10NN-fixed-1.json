@@ -1,0 +1,8 @@
+{
+  "name": "breasttissue_10NN",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/breasttissue_10NN-L.mtx,model,cached,106,3227,98,1281.466,76.34880066,1.965094754e-14,4.364456312e-17,8.359450397e-17,512\nresults/model/sptrsv/components-independent-h100/factors/breasttissue_10NN-L.mtx,model-host,cached,106,3227,98,1281.466,82.039345,1.965094754e-14,4.364456312e-17,8.359450397e-17,512\nresults/model/sptrsv/components-independent-h100/factors/breasttissue_10NN-L.mtx,default,cusparse,106,3227,-1,2669.974,75.459198,2.486899575e-14,3.039111704e-17,8.059913371e-17,0\nresults/model/sptrsv/components-independent-h100/factors/breasttissue_10NN-L.mtx,default-host,cusparse,106,3227,-1,2669.974,81.59744,2.486899575e-14,3.039111704e-17,8.059913371e-17,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cryg2500",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cryg2500/cryg2500.mtx",
+  "matrix_sha256": "17e7aae931e9ee9d55c4699e2790e83627263c89a89ce6ce550d6dcd28466d79",
+  "index_nnz": 12349,
+  "index_rows": 2500,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

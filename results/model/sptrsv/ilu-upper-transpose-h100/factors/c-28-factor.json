@@ -1,0 +1,7 @@
+{
+  "matrix": "c-28",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/c-28-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.3329554349184036e-06
+}

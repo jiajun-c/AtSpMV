@@ -1,0 +1,10 @@
+{
+  "dataset": "mcca",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mcca/mcca.mtx",
+  "matrix_sha256": "e2ffd51d89f346f86c5de6fc4de5aa893388f761907acdbb4f6024027501a024",
+  "index_nnz": 2659,
+  "index_rows": 180,
+  "elapsed_s": 1.171,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "wm2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wm2/wm2.mtx",
+  "matrix_sha256": "b1d71195181a252840c4d222f2d706a4b3729f9cbdb971e2467f14aed8e0f528",
+  "index_nnz": 2942,
+  "index_rows": 207,
+  "elapsed_s": 1.362,
+  "returncode": 0,
+  "status": "ok"
+}

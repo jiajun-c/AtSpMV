@@ -1,0 +1,19 @@
+{
+  "dataset": "G47",
+  "matrix_sha256": "68f29198d9327f05279287da16535ded7da13dd1ea31b6d21a48ce938d3fc436",
+  "index_nnz": 19980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.764,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

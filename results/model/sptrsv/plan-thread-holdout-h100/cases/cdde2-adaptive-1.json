@@ -1,0 +1,8 @@
+{
+  "name": "cdde2",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,model,cached,961,7305,104,2517.969,84.83200073,1.776356839e-15,6.049513538e-17,9.64010307e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,model-host,cached,961,7305,104,2517.969,91.49769,1.776356839e-15,6.049513538e-17,9.64010307e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,default,cusparse,961,7305,-1,2883.882,127.8975983,1.776356839e-15,5.558562646e-17,9.64010307e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,default-host,cusparse,961,7305,-1,2883.882,135.50537,1.776356839e-15,5.558562646e-17,9.64010307e-17,0\n",
+  "stderr": ""
+}

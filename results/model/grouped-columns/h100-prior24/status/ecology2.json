@@ -1,0 +1,31 @@
+{
+  "dataset": "ecology2",
+  "matrix_sha256": "54a1ac678e4d20a2b8b41f86de196dbb0ea5c354cc2cbc8940025ea547202176",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/ecology2/ecology2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs.csv",
+        "20261113",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.7377119541633874,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/ecology2/ecology2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs-reverse.csv",
+        "20261114",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.8731725020334125,
+      "reason": null
+    }
+  ]
+}

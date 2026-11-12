@@ -1,0 +1,15 @@
+{
+  "dataset": "meg4",
+  "matrix_sha256": "e7df7b18d953ff04b8a47d830166effa1aaf4271afb3aa1224861b813e2be69a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.476,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

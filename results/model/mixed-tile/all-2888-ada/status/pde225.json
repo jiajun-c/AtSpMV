@@ -1,0 +1,15 @@
+{
+  "dataset": "pde225",
+  "matrix_sha256": "d7138a35c19fe0c5be2a3093cd23c0f8f049e18831876575bacf9bcb08dd2efa",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.169,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

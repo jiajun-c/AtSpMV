@@ -1,0 +1,15 @@
+{
+  "dataset": "TSOPF_FS_b300_c1",
+  "matrix_sha256": "1d81c5c2d7e8b6ee13da8d1ec26d03cbb03d7191e3da4ea50ea4b5b40254be81",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.623,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

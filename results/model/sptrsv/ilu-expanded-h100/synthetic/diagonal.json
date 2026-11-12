@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cusparse,19021.92,5.449600145,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cusparse-host,19021.92,11.895655,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-128,70.958,29.05920148,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-host-128,70.958,35.12212,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-256,70.958,16.38720036,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-host-256,70.958,22.34708,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-512,70.958,10.49280018,0,0\nresults/model/sptrsv/ilu-expanded-h100/synthetic/diagonal.mtx,4096,4096,1,cached-tiles-host-512,70.958,16.41525,0,0\n",
+  "stderr": ""
+}

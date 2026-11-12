@@ -1,0 +1,17 @@
+{
+  "dataset": "world",
+  "matrix_sha256": "5c86fbcf0cc251623f5cae7c97b3e08705443d093bcc8c49fe68b050a37ca4bf",
+  "index_nnz": 198883,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.179,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

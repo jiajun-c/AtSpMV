@@ -1,0 +1,15 @@
+{
+  "dataset": "coPapersCiteseer",
+  "matrix_sha256": "2eaf2c824c8b724d3ef2971c50b3346b69df7a7586070b5abbe0fc41c4a35f26",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 27.332,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

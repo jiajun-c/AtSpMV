@@ -1,0 +1,10 @@
+{
+  "dataset": "thermal2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/thermal2/thermal2.mtx",
+  "matrix_sha256": "f22cafc97c150c1333545f519ee92226f8407ec281938a6a39b5ff685d61acf2",
+  "index_nnz": 8580313,
+  "index_rows": 1228045,
+  "elapsed_s": 4.677,
+  "returncode": 0,
+  "status": "ok"
+}

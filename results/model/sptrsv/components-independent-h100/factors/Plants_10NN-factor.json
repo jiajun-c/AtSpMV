@@ -1,0 +1,14 @@
+{
+  "matrix": "Plants_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Plants_10NN/Plants_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1600,
+  "columns": 1600,
+  "original_nnz": 21930,
+  "factor_L_nnz": 51358,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.08035141183063388
+}

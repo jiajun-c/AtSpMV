@@ -1,0 +1,10 @@
+{
+  "dataset": "ne2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ne2010/ne2010.mtx",
+  "matrix_sha256": "53cfe34bb93a0f322b8658670cd61b98b468595bebc3278e67af624237b03978",
+  "index_nnz": 913854,
+  "index_rows": 193352,
+  "elapsed_s": 1.183,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,8 @@
+find_package(MFEM 4.8 CONFIG REQUIRED)
+if(NOT MFEM_USE_CUDA OR NOT MFEM_USE_DOUBLE OR MFEM_USE_MPI)
+    message(FATAL_ERROR "mfem_heat requires a serial FP64 CUDA build of MFEM")
+endif()
+add_executable(mfem_heat heat.cpp)
+target_include_directories(mfem_heat PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(mfem_heat PRIVATE mfem atspmv_plan)
+target_compile_features(mfem_heat PRIVATE cxx_std_17)

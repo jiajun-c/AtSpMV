@@ -1,0 +1,10 @@
+{
+  "dataset": "oh2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/oh2010/oh2010.mtx",
+  "matrix_sha256": "6895c944f18c940ed90d6738dd51adad8ba87ce736a6744cbf272fd9bade78b9",
+  "index_nnz": 1768240,
+  "index_rows": 365344,
+  "elapsed_s": 1.373,
+  "returncode": 0,
+  "status": "ok"
+}

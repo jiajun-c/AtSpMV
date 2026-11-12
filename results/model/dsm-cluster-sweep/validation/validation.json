@@ -1,0 +1,12 @@
+{
+  "device": "H100 PCIe, physical GPU3, UUID GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "source_sha256": "368cc7024da5f0f189aea324c72ff322428a78253a3ee67e6fb5aa2be2fd8bb0",
+  "binary_sha256": "00107312c1d9237c4f7140870b83de8e8e2f8525f31a0e22e91bee0725ef78c7",
+  "sass_sha256": "65beb2c938f2b057b4591cbcb6fec0fb2dc46c6bd7c96160a169cb01d38768e5",
+  "benchmark_script_sha256": "ac29cedf961998245ff7bebd7d66726408888dcd6404990d84006f2cfd9219e7",
+  "analysis_script_sha256": "ee675928972cb3f098d22470bbfaa5768d15c6bf9ab93bda248fbc0f6e227a68",
+  "cluster_16": "cudaFuncAttributeNonPortableClusterSizeAllowed set for all participating kernels; positive cudaOccupancyMaxActiveClusters and actual direct/graph launches",
+  "testing": "128 candidates per run; six measured runs; all candidates validated directly and by graph; H100 CTest pass; Ada device skipped; CUDA13 memcheck, synccheck and racecheck passed; zero leaks",
+  "compiler": "CUDA 12.4, sm_90; SASS includes STAS.64, REDG.E.ADD.F64 and generic CAS path",
+  "scope": "One cluster per kernel, peer rank 1 and last, 128 threads per CTA for direct comparisons; separate fixed-16-partial control with variable CTA size. Occupancy is API maximum, not achieved concurrency."
+}

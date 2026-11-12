@@ -1,0 +1,17 @@
+{
+  "dataset": "well1033",
+  "matrix_sha256": "758808d2647a6f802b144a28ab14024a3cb51e4e115a114adcc5bc2528031d95",
+  "index_nnz": 4732,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.573,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "dbic1",
+  "matrix_sha256": "ca23ea8ed442b5c4519227f3a3eb996bfd5dbce2f8c3f6cb8041c39ae807a54f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.855,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

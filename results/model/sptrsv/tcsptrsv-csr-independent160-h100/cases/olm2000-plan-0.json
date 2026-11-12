@@ -1,0 +1,9 @@
+{
+  "name": "olm2000",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/olm2000-L.mtx,default,cusparse,2000,5000,-1,8654.725,1250.665527,4.658495811e-13,4.439040869e-17,7.499318067e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/olm2000-L.mtx,default-host,cusparse,2000,5000,-1,8654.725,1259.68505,4.658495811e-13,4.439040869e-17,7.499318067e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/olm2000-L.mtx,model,cached-csr,2000,5000,1768,1341.571,847.9104004,4.658495811e-13,4.439040869e-17,7.499318067e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/olm2000-L.mtx,model-host,cached-csr,2000,5000,1768,1341.571,854.502335,4.658495811e-13,4.439040869e-17,7.499318067e-17,256\n",
+  "stderr": ""
+}

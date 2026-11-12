@@ -1,0 +1,19 @@
+{
+  "dataset": "USAir97",
+  "matrix_sha256": "0125f5b9f6a236a3172056c534a41316b1d44946f528c5a93e5b10b20340f28a",
+  "index_nnz": 4252,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.67,
+  "gpu_after": {
+    "utilization_percent": 56,
+    "free_memory_mib": 81079
+  }
+}

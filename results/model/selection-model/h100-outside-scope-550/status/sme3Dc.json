@@ -1,0 +1,17 @@
+{
+  "dataset": "sme3Dc",
+  "matrix_sha256": "c22cc2843ec3986632156538a3ded593885fd728c46b05895fbdb9e61fab28c7",
+  "index_nnz": 3148656,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 54.864,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81072
+  }
+}

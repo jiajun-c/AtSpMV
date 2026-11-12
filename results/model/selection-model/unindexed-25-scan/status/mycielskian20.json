@@ -1,0 +1,17 @@
+{
+  "dataset": "mycielskian20",
+  "file_bytes": 17838339813,
+  "file_mtime_ns": 1530644309000000000,
+  "structure": {
+    "dataset": "mycielskian20",
+    "rows": "786431",
+    "columns": "786431",
+    "nnz": "2710370560",
+    "longest_row": "786431",
+    "longest_row_nnz": "393215",
+    "ratio": "0.000145077948308",
+    "status": "ok"
+  },
+  "status": "unsupported_int32_nnz",
+  "elapsed_s": 112.11
+}

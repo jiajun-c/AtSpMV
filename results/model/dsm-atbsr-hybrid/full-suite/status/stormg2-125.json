@@ -1,0 +1,10 @@
+{
+  "dataset": "stormg2-125",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stormg2-125/stormg2-125.mtx",
+  "matrix_sha256": "4955fb4090f9ef7218aa3098e78bf0e395936af51b1e857f83f005d2b16f874a",
+  "index_nnz": 433256,
+  "index_rows": 66185,
+  "elapsed_s": 1.36,
+  "returncode": 0,
+  "status": "ok"
+}

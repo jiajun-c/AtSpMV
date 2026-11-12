@@ -1,0 +1,10 @@
+{
+  "dataset": "bcsstm35",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bcsstm35/bcsstm35.mtx",
+  "matrix_sha256": "b45082d58a6ba450020f77d963a3bc58710ea5a095446671cf567a87e80487eb",
+  "index_nnz": 20619,
+  "index_rows": 30237,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

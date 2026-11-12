@@ -1,0 +1,9 @@
+{
+  "name": "plantsmargin_12NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/plantsmargin_12NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1600, 1600 ) nnz = 59944\nloadfile time    = 0.02899 sec\nnnzL = 59944\ntime_for_csc2CompressTile = 3.25 ms\ntime_cuda_solve = 0.657500 ms, Mflops = 182.34\nVALIDATION finite=1 max_error=8.5942364336233368e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

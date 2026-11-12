@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_galenet",
+  "matrix_sha256": "0510ad7d99521cbfe816c7d759b5a0df2c922046c9b67a5abff8e3ae272bad5c",
+  "index_nnz": 22,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.293,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

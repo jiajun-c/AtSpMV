@@ -1,0 +1,22 @@
+fast_matrix_market version 1.7.7
+std::from_chars<int> detected.
+std::to_chars<int> detected.
+std::to_chars<double> detected.
+std::to_chars<long double> detected.
+Using fast_float
+Using Dragonbox
+Using ryu
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/atspmv-sptrsv-cuda126
+Consolidate compiler generated dependencies of target ryu
+Consolidate compiler generated dependencies of target dragonbox_to_chars
+[ 33%] Built target ryu
+[ 50%] Built target dragonbox_to_chars
+Consolidate compiler generated dependencies of target atspmv_core_objects
+[ 75%] Built target atspmv_core_objects
+[ 83%] Built target atspmv_core
+Consolidate compiler generated dependencies of target sptrsv_level_bench
+[ 91%] Building CUDA object CMakeFiles/sptrsv_level_bench.dir/bench/sptrsv_level_bench.cu.o
+[100%] Linking CXX executable sptrsv_level_bench
+[100%] Built target sptrsv_level_bench

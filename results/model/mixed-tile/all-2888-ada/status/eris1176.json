@@ -1,0 +1,15 @@
+{
+  "dataset": "eris1176",
+  "matrix_sha256": "98823fbbd50ea3d465e281bbda0984243e835ab7573714b88054d6b19f59f820",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.764,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

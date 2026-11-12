@@ -1,0 +1,19 @@
+{
+  "dataset": "soc-sign-bitcoin-otc",
+  "matrix_sha256": "75c074f88a4c087d1cacac9daabf4d5f6a19f5a73da4d1fd8fa4dddc168d0fd5",
+  "index_nnz": 35592,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.128,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

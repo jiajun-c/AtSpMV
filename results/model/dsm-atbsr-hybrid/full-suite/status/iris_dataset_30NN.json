@@ -1,0 +1,10 @@
+{
+  "dataset": "iris_dataset_30NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/iris_dataset_30NN/iris_dataset_30NN.mtx",
+  "matrix_sha256": "573ab4d1c248d703bdc2c67131e48fb5d2840608633a345ac2612e4aa3bfb844",
+  "index_nnz": 5518,
+  "index_rows": 150,
+  "elapsed_s": 0.551,
+  "returncode": 0,
+  "status": "ok"
+}

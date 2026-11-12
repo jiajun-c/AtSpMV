@@ -1,0 +1,10 @@
+{
+  "dataset": "ecology1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ecology1/ecology1.mtx",
+  "matrix_sha256": "0135990b04b925d6dda6a416106ac6b38138c6069734812e4465523279d174e7",
+  "index_nnz": 4996000,
+  "index_rows": 1000000,
+  "elapsed_s": 2.435,
+  "returncode": 0,
+  "status": "ok"
+}

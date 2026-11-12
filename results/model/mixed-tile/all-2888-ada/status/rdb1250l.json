@@ -1,0 +1,15 @@
+{
+  "dataset": "rdb1250l",
+  "matrix_sha256": "f88dc760c5b64981b9afc47d4ab40fe4dd1262349569173e96fccd731691900d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.758,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

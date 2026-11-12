@@ -1,0 +1,19 @@
+{
+  "dataset": "ecl32",
+  "matrix_sha256": "3d47353a8f796080523720f01e6b8f450099282c5e0a7e4965979a6e0d19ae38",
+  "index_nnz": 380415,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.089,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

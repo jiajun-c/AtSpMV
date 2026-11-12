@@ -1,0 +1,14 @@
+{
+  "matrix": "qh768",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/qh768/qh768.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 768,
+  "columns": 768,
+  "original_nnz": 2934,
+  "factor_L_nnz": 2579,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03536566300317645
+}

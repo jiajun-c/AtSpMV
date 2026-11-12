@@ -1,0 +1,17 @@
+{
+  "dataset": "G30",
+  "matrix_sha256": "a89b296fa12dd52e9bb5196c8dd5440ee5a60a80d55426bf5fa2022674dab179",
+  "index_nnz": 39980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.197,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

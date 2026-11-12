@@ -1,0 +1,10 @@
+{
+  "dataset": "klein-b2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/klein-b2/klein-b2.mtx",
+  "matrix_sha256": "f4d2edb8e1898c0d9cad248a64ab33f88598a37c560e3c8498c4120bda60e5c6",
+  "index_nnz": 60,
+  "index_rows": 20,
+  "elapsed_s": 0.811,
+  "returncode": 0,
+  "status": "ok"
+}

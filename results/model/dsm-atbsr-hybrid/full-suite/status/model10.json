@@ -1,0 +1,10 @@
+{
+  "dataset": "model10",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/model10/model10.mtx",
+  "matrix_sha256": "bb2fcc9443387452e86e0a5c8819b7fc70a8e95ad7d47272e9fd97d101e1ebc4",
+  "index_nnz": 150372,
+  "index_rows": 4400,
+  "elapsed_s": 1.24,
+  "returncode": 0,
+  "status": "ok"
+}

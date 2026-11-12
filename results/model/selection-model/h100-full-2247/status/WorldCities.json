@@ -1,0 +1,17 @@
+{
+  "dataset": "WorldCities",
+  "matrix_sha256": "03de9e7912d399e1f545cb9c2d7062e7659b896ad449f19322e92c245c7e1e4e",
+  "index_nnz": 7518,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.038,
+  "gpu_after": {
+    "utilization_percent": 51,
+    "free_memory_mib": 81079
+  }
+}

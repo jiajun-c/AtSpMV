@@ -1,0 +1,17 @@
+{
+  "dataset": "Trefethen_20b",
+  "matrix_sha256": "6029c0262b97232f12553d4cc742f9dbcf968de82016afb7f55a45c9cc5c983f",
+  "index_nnz": 147,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.832,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

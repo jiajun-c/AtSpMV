@@ -1,0 +1,15 @@
+{
+  "dataset": "std1_Jac3_db",
+  "matrix_sha256": "4789e3775cf21f79d13eb1efdaa0e8aaa576a8b0227e3e9f7b5da0108489aedb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.342,
+  "gpu_after": {
+    "utilization_percent": 40,
+    "free_memory_mib": 48508
+  }
+}

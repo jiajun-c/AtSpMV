@@ -1,0 +1,7 @@
+{
+  "name": "saylr4",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,model,cusparse,3564,36978,181,3852.197,329.3152161,2.664535259e-15\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,default,cusparse,3564,36978,-1,3885.902,328.8479919,2.664535259e-15\n",
+  "stderr": ""
+}

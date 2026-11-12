@@ -1,0 +1,19 @@
+{
+  "dataset": "rotor2",
+  "matrix_sha256": "4f2219ba2639de91bdf3ac59361463c364a97293e35a6bcfc6a5600c075d1f05",
+  "index_nnz": 10685,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.304,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

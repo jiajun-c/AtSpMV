@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb800l",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb800l/rdb800l.mtx",
+  "matrix_sha256": "650826a14369debf82dc52a56447eb94ad557310ca61ccbd042b4e52796202e6",
+  "index_nnz": 4640,
+  "index_rows": 800,
+  "elapsed_s": 0.948,
+  "returncode": 0,
+  "status": "ok"
+}

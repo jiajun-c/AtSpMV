@@ -1,0 +1,10 @@
+{
+  "dataset": "nopoly",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nopoly/nopoly.mtx",
+  "matrix_sha256": "f8b1803c0c99dd4161fa2a97579924006e09a34c463197d3fbb5b25a6a235dd7",
+  "index_nnz": 70842,
+  "index_rows": 10774,
+  "elapsed_s": 0.86,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "jazz",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/jazz/jazz.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 198,
+  "columns": 198,
+  "original_nnz": 5484,
+  "factor_L_nnz": 7140,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03100170590914786
+}

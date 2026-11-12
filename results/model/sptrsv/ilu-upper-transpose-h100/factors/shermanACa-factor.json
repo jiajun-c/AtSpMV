@@ -1,0 +1,10 @@
+{
+  "matrix": "shermanACa",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/shermanACa-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 3432,
+  "nnz": 30210,
+  "min_abs_diagonal": 4.90185e-05,
+  "max_abs_diagonal": 2654.6051149584023,
+  "elapsed_s": 0.053934606024995446
+}

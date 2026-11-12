@@ -1,0 +1,19 @@
+{
+  "dataset": "igbt3",
+  "matrix_sha256": "2475131e9e39520eb677af9c0df941ebea8685172b4b07677c2d79a1ba006aa8",
+  "index_nnz": 234006,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.332,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

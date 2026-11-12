@@ -1,0 +1,17 @@
+{
+  "dataset": "filter2D",
+  "matrix_sha256": "da4f43329dbd527e5e586aae9eeca897246f8a1481bd1865561abb72d0dc9f3a",
+  "index_nnz": 10750,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.487,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

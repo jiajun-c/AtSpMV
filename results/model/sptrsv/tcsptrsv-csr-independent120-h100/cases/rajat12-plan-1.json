@@ -1,0 +1,9 @@
+{
+  "name": "rajat12",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/rajat12-L.mtx,default,cusparse,1888,13961,-1,3646.651,176.5440063,1.456612608e-13,2.477946323e-17,1.153429201e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/rajat12-L.mtx,default-host,cusparse,1888,13961,-1,3646.651,182.50883,1.456612608e-13,2.477946323e-17,1.153429201e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/rajat12-L.mtx,model,cusparse,1888,13961,201,3722.627,176.540802,1.456612608e-13,2.477946323e-17,1.153429201e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/rajat12-L.mtx,model-host,cusparse,1888,13961,201,3722.627,182.85773,1.456612608e-13,2.477946323e-17,1.153429201e-16,0\n",
+  "stderr": ""
+}

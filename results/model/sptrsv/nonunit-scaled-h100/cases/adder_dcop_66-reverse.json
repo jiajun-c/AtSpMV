@@ -1,0 +1,7 @@
+{
+  "name": "adder_dcop_66",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/adder_dcop_66-L.mtx,model,cached,1813,3863,8,1400.412,13.24159908,8.002487561e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/adder_dcop_66-L.mtx,model-host,cached,1813,3863,8,1400.412,19.755055,8.002487561e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/adder_dcop_66-L.mtx,default,cusparse,1813,3863,-1,3368.949,18.29120064,8.002487561e-13\nresults/model/sptrsv/nonunit-scaled-h100/factors/adder_dcop_66-L.mtx,default-host,cusparse,1813,3863,-1,3368.949,25.800805,8.002487561e-13\n",
+  "stderr": ""
+}

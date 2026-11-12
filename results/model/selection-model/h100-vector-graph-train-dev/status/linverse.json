@@ -1,0 +1,17 @@
+{
+  "dataset": "linverse",
+  "matrix_sha256": "6ec0ec0e3ff7db7c5a36294e290fca7d6eb9bf54211ef490e3decd239bb7a78f",
+  "index_nnz": 95977,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.298,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 81079
+  }
+}

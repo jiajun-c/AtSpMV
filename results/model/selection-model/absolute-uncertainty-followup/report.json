@@ -1,0 +1,89 @@
+{
+  "method": "Frozen threshold applied to later cases excluded from the earlier gate snapshot. Tree log-time spread is a heuristic, not a confidence interval. Groups can share approximate families and previously observed data; timing noise remains. No Plan behavior is changed.",
+  "evaluation_sha256": "08ae2599fc27e97cc8763311179a9987a8157205015c6398a6b9d56a228da789",
+  "model_sha256": "c71e00219d4d82227d1534cf5896394ee396ceaa8c2c8f9cab57146d7b94a0de",
+  "excluded_cases_sha256": "9d6b37d94a9640640b9350d5e99b698a386c4bf2f3a40bd50f6a9e7b600d4e1a",
+  "threshold_log_std": 0.18,
+  "metrics": {
+    "all": {
+      "learned_only": {
+        "cases": 86,
+        "mape": 0.0610566936146146,
+        "max_ape": 0.6197901700937065,
+        "over_20pct": 4,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 86,
+        "mape": 0.06731464814469926,
+        "max_ape": 0.6197901700937065,
+        "over_20pct": 6,
+        "fallbacks": 3
+      }
+    },
+    "dev": {
+      "learned_only": {
+        "cases": 17,
+        "mape": 0.07479753991769633,
+        "max_ape": 0.1800700814705759,
+        "over_20pct": 0,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 17,
+        "mape": 0.08589274395432642,
+        "max_ape": 0.23983854354246226,
+        "over_20pct": 1,
+        "fallbacks": 1
+      }
+    },
+    "holdout": {
+      "learned_only": {
+        "cases": 12,
+        "mape": 0.09795045235516038,
+        "max_ape": 0.6197901700937065,
+        "over_20pct": 2,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 12,
+        "mape": 0.09765300611908441,
+        "max_ape": 0.6197901700937065,
+        "over_20pct": 2,
+        "fallbacks": 1
+      }
+    },
+    "not_in_training_table": {
+      "learned_only": {
+        "cases": 13,
+        "mape": 0.08209847802406006,
+        "max_ape": 0.27552252404304534,
+        "over_20pct": 2,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 13,
+        "mape": 0.08209847802406006,
+        "max_ape": 0.27552252404304534,
+        "over_20pct": 2,
+        "fallbacks": 0
+      }
+    },
+    "train": {
+      "learned_only": {
+        "cases": 44,
+        "mape": 0.039468905220029826,
+        "max_ape": 0.19249556096991838,
+        "over_20pct": 0,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 44,
+        "mape": 0.047494700124518036,
+        "max_ape": 0.5045468244703024,
+        "over_20pct": 1,
+        "fallbacks": 1
+      }
+    }
+  }
+}

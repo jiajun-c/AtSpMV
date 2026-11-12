@@ -1,0 +1,19 @@
+{
+  "dataset": "lp22",
+  "matrix_sha256": "5918711e266edafa7efb078b2e9f63c772eae507808af07b11eb0a97b1560797",
+  "index_nnz": 68518,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.995,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

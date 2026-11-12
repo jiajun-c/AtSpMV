@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_mod2_pgp2_slptsk",
+  "matrix_sha256": "dc12dcb6414760317ab52251fb67e81d42388556614afa01c121ac227e2b5373",
+  "index_nnz": 778736,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.402,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

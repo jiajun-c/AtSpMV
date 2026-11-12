@@ -1,0 +1,15 @@
+{
+  "dataset": "lns_131",
+  "matrix_sha256": "86d98416da2dd60fabc18169a2eea8c0b78183856534fce105b059c3852b270b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.021,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

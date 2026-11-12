@@ -1,0 +1,8 @@
+{
+  "name": "freeFlyingRobot_7",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/freeFlyingRobot_7-L.mtx,model,cusparse,3918,55766,472,6691.578,474.6431885,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\nresults/model/sptrsv/components-independent-h100/factors/freeFlyingRobot_7-L.mtx,model-host,cusparse,3918,55766,472,6691.578,482.803155,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\nresults/model/sptrsv/components-independent-h100/factors/freeFlyingRobot_7-L.mtx,default,cusparse,3918,55766,-1,6432.021,475.1615906,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\nresults/model/sptrsv/components-independent-h100/factors/freeFlyingRobot_7-L.mtx,default-host,cusparse,3918,55766,-1,6432.021,482.628955,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\n",
+  "stderr": ""
+}

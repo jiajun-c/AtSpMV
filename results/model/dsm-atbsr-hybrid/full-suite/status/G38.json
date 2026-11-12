@@ -1,0 +1,10 @@
+{
+  "dataset": "G38",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G38/G38.mtx",
+  "matrix_sha256": "976969e3107aa29b805aaaf8c3ccc03394a303f98a24224cf5b7fa316bc24114",
+  "index_nnz": 23558,
+  "index_rows": 2000,
+  "elapsed_s": 1.349,
+  "returncode": 0,
+  "status": "ok"
+}

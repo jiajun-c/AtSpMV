@@ -1,0 +1,33 @@
+{
+  "exe_sha256": "82b51041fa7eadec309fc4f4e201a3779234f19a3c0fe6f6921ce24b011f04fa",
+  "metrics": "sm__inst_executed_pipe_tensor.sum,sm__inst_executed_pipe_tensor_op_hmma.sum,sm__sass_thread_inst_executed_op_ffma_pred_on.sum,sm__sass_thread_inst_executed_op_hfma_pred_on.sum",
+  "cases": [
+    [
+      2,
+      5,
+      32
+    ],
+    [
+      2,
+      100,
+      32
+    ],
+    [
+      8,
+      5,
+      8
+    ],
+    [
+      8,
+      100,
+      128
+    ]
+  ],
+  "methods": [
+    "csr_alg2",
+    "csr_alg3",
+    "blocked_ell"
+  ],
+  "launch_count": 20,
+  "note": "NCU profiles the first 20 launched kernels, including any cuSPARSE preprocessing and correctness/warmup launches; classify by kernel name, not total process counts."
+}

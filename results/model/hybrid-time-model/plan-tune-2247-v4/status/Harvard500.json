@@ -1,0 +1,19 @@
+{
+  "dataset": "Harvard500",
+  "matrix_sha256": "46f12d8a345e302a8e64b31103c3dcb478e805192d03c5021155f8ad2f5b1f08",
+  "index_nnz": 2636,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.765,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

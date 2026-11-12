@@ -1,0 +1,8 @@
+{
+  "name": "cage8",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/cage8-L.mtx,model,cusparse,1015,23320,253,4273.384,308.6080017,4.440892099e-16,3.046994154e-17,5.601707703e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/cage8-L.mtx,model-host,cusparse,1015,23320,253,4273.384,315.392755,4.440892099e-16,3.046994154e-17,5.601707703e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/cage8-L.mtx,default,cusparse,1015,23320,-1,4306.593,308.4608154,4.440892099e-16,3.046994154e-17,5.601707703e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/cage8-L.mtx,default-host,cusparse,1015,23320,-1,4306.593,314.86152,4.440892099e-16,3.046994154e-17,5.601707703e-17,0\n",
+  "stderr": ""
+}

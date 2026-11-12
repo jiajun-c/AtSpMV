@@ -1,0 +1,10 @@
+{
+  "dataset": "as-caida",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/as-caida/as-caida.mtx",
+  "matrix_sha256": "60462c16d93c6b143486c3f9d47789bf3debd81c4d5e44c966357a66d7d94a97",
+  "index_nnz": 106762,
+  "index_rows": 31379,
+  "elapsed_s": 1.167,
+  "returncode": 0,
+  "status": "ok"
+}

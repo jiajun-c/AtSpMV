@@ -1,0 +1,10 @@
+{
+  "dataset": "jazz",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/jazz/jazz.mtx",
+  "matrix_sha256": "f8539f84b99c350685ddaddd74984b6f5db5f47128ff775858da60da20d09925",
+  "index_nnz": 5484,
+  "index_rows": 198,
+  "elapsed_s": 0.629,
+  "returncode": 0,
+  "status": "ok"
+}

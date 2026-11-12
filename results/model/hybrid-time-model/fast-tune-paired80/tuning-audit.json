@@ -1,0 +1,6 @@
+{
+  "cases": 80,
+  "blocks_checked": 160,
+  "problems": [],
+  "scope": "Checks logged medians and 5% selection gate; does not independently validate GPU timing or numerical accuracy."
+}

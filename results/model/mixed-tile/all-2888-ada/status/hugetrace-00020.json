@@ -1,0 +1,15 @@
+{
+  "dataset": "hugetrace-00020",
+  "matrix_sha256": "176b3f6aa7c3b337acc3f59ed0600e60fd3be8ee5d408e373df11fc09818f62b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 11.484,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

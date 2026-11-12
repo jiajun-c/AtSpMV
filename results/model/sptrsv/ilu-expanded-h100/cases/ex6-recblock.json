@@ -1,0 +1,7 @@
+{
+  "name": "ex6",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-expanded-h100/factors/ex6-L.mtx --------------\ninput matrix A: ( 1651, 1651 ) nnz = 67644\ncomputation usetime = 1.937 ms\nPerformance = 0.070 gflops\n\nx check passed! |x-xref|/|xref| = 4.24e-15\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=3\nstage calculate done\n"
+}

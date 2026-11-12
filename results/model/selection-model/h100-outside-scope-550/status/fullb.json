@@ -1,0 +1,17 @@
+{
+  "dataset": "fullb",
+  "matrix_sha256": "97666892f9d100f1b54f3a96a1310f3498293ad19424cb609727c95fe68398e6",
+  "index_nnz": 11708077,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 20.029,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

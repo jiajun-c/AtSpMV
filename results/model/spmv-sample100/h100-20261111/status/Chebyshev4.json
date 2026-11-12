@@ -1,0 +1,32 @@
+{
+  "dataset": "Chebyshev4",
+  "status": "ok",
+  "matrix_sha256": "724727529e5a5bb3d6bd5fdf99eeeedab6ee51fa8fc9294d32cd74a5ef5f52e1",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Chebyshev4/Chebyshev4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Chebyshev4-0.csv",
+        "20261213",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 33.81513345101848
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Chebyshev4/Chebyshev4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Chebyshev4-1.csv",
+        "20261214",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 49.12988264695741
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

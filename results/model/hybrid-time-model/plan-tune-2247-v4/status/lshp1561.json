@@ -1,0 +1,19 @@
+{
+  "dataset": "lshp1561",
+  "matrix_sha256": "b6ee6e4a5ddc2683fad0d2eb4b225dfec269649b9e9d7b7410210394f2785c89",
+  "index_nnz": 10681,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.063,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

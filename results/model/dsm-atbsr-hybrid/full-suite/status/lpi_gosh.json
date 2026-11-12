@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_gosh",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_gosh/lpi_gosh.mtx",
+  "matrix_sha256": "aaeba50b9cd43f60e1e710020172f4b1da471ec7b11ba4566acb202cd7ccdf8f",
+  "index_nnz": 99953,
+  "index_rows": 3792,
+  "elapsed_s": 1.222,
+  "returncode": 0,
+  "status": "ok"
+}

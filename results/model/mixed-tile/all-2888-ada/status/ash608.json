@@ -1,0 +1,15 @@
+{
+  "dataset": "ash608",
+  "matrix_sha256": "3fe48b559727c19b980587b5a217a39a7dfae1323eb7e824087c3360958c8654",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.413,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "swang2",
+  "matrix_sha256": "db31391ba6d3c76fc844172e744b82acab86bbb8ac8408bbe428e3d126fa1159",
+  "index_nnz": 20841,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.226,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

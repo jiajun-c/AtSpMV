@@ -1,0 +1,17 @@
+{
+  "dataset": "uk-2005",
+  "file_bytes": 16451551195,
+  "file_mtime_ns": 1425877105000000000,
+  "structure": {
+    "dataset": "uk-2005",
+    "rows": "39459925",
+    "columns": "39459925",
+    "nnz": "936364282",
+    "longest_row": "21049533",
+    "longest_row_nnz": "5213",
+    "ratio": "5.56727771468e-06",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 88.59
+}

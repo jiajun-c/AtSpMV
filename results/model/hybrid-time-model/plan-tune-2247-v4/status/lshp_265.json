@@ -1,0 +1,19 @@
+{
+  "dataset": "lshp_265",
+  "matrix_sha256": "aac5d603a5984e1daf5f4b55214b32de3edf1e85a68d4b107e154c349e45f176",
+  "index_nnz": 1753,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.884,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

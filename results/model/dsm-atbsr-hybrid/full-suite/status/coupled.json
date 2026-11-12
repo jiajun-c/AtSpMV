@@ -1,0 +1,10 @@
+{
+  "dataset": "coupled",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/coupled/coupled.mtx",
+  "matrix_sha256": "de32de1a9c42ebb31f49d7a1d5530913c47fc2458cad77413e6219017290b275",
+  "index_nnz": 98523,
+  "index_rows": 11341,
+  "elapsed_s": 1.221,
+  "returncode": 0,
+  "status": "ok"
+}

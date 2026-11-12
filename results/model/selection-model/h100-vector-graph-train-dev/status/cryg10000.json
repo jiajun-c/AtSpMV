@@ -1,0 +1,17 @@
+{
+  "dataset": "cryg10000",
+  "matrix_sha256": "507e3e86b91bcee9ebbe6c4e47edee8a5a5b4462784dc4527ba337f0a367cd2e",
+  "index_nnz": 49699,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.291,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

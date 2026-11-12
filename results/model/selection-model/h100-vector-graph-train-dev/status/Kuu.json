@@ -1,0 +1,17 @@
+{
+  "dataset": "Kuu",
+  "matrix_sha256": "a20d162eccbd9edbd10b863941cccf6bfb45ac15358b554c549a01870bd82737",
+  "index_nnz": 340200,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.506,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

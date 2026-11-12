@@ -1,0 +1,15 @@
+{
+  "dataset": "Lin",
+  "matrix_sha256": "56f7347e6369942ba0a8af1261fb1ef8e1641611b6cf54b582dd8608d2b12cc2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.996,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

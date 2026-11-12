@@ -1,0 +1,17 @@
+{
+  "dataset": "ldoor",
+  "matrix_sha256": "be4de4434c508038652ff7401cf5413cfbda3e4f3476928ab2831655cb0f2969",
+  "index_nnz": 46522475,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 171.388,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

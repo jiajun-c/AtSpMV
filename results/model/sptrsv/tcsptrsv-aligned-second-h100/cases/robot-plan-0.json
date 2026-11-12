@@ -1,0 +1,9 @@
+{
+  "name": "robot",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,default,cusparse,128,455,-1,5187.159,32.38399887,9.992007222e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,default-host,cusparse,128,455,-1,5187.159,40.21053,9.992007222e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,model,cached,128,455,28,1833.142,22.81920052,3.774758284e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/robot-L.mtx,model-host,cached,128,455,28,1833.142,29.76809,3.774758284e-15\n",
+  "stderr": ""
+}

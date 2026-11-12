@@ -1,0 +1,9 @@
+{
+  "name": "mycielskian10",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/mycielskian10-L.mtx --------------\nsuccess open file\ninput matrix A: ( 768, 768 ) nnz = 39132\nloadfile time    = 0.01734 sec\nnnzL = 39132\ntime_for_csc2CompressTile = 2.84 ms\ntime_cuda_solve = 0.481020 ms, Mflops = 162.70\nVALIDATION finite=1 max_error=2.9420910152566648e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

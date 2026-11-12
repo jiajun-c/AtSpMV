@@ -1,0 +1,10 @@
+{
+  "dataset": "us04",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/us04/us04.mtx",
+  "matrix_sha256": "cd847e9c7f74e25622746b83cfbd2778c9a53c5ba0ad303ec52aa31730d24943",
+  "index_nnz": 297538,
+  "index_rows": 163,
+  "elapsed_s": 1.876,
+  "returncode": 0,
+  "status": "ok"
+}

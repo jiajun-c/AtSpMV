@@ -1,0 +1,10 @@
+{
+  "dataset": "model5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/model5/model5.mtx",
+  "matrix_sha256": "2d7ac48c5531c73a1ce1c43cef387ef4c2b6f1c47701ee32b1bb150345e8f4f1",
+  "index_nnz": 89925,
+  "index_rows": 1888,
+  "elapsed_s": 1.115,
+  "returncode": 0,
+  "status": "ok"
+}

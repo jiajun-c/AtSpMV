@@ -1,0 +1,10 @@
+{
+  "dataset": "delaunay_n16",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/delaunay_n16/delaunay_n16.mtx",
+  "matrix_sha256": "9121afaad16bfb8508aead4277c732a8e87add44b0e152ca8459bc3d92e2f691",
+  "index_nnz": 393150,
+  "index_rows": 65536,
+  "elapsed_s": 1.188,
+  "returncode": 0,
+  "status": "ok"
+}

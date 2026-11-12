@@ -1,0 +1,10 @@
+{
+  "dataset": "mesh2em5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mesh2em5/mesh2em5.mtx",
+  "matrix_sha256": "d21478291c861bf71521547d5c1a0c7ec0d231bcceeba2443620c8abff9267ba",
+  "index_nnz": 2018,
+  "index_rows": 306,
+  "elapsed_s": 0.684,
+  "returncode": 0,
+  "status": "ok"
+}

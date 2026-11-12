@@ -1,0 +1,22 @@
+{
+  "selection": "levels >=32, n/levels <=4, n<=4000, CSR cache bytes <= max_bytes",
+  "max_bytes": 225000,
+  "names": [
+    "fs_760_3",
+    "Chebyshev2",
+    "nos1",
+    "cage",
+    "gre_185",
+    "ck104",
+    "pivtol",
+    "Ecoli_10NN",
+    "tumorAntiAngiogenesis_3",
+    "lund_a",
+    "epb0",
+    "nos2",
+    "cavity01",
+    "dermatology_5NN",
+    "Trefethen_150",
+    "lshp_265"
+  ]
+}

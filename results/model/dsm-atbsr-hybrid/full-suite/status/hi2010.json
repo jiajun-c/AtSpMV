@@ -1,0 +1,10 @@
+{
+  "dataset": "hi2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hi2010/hi2010.mtx",
+  "matrix_sha256": "6fda84c5a5026e33e1a1e1c3299317f9055c9a6879a215ba0ed6d4feb4f26320",
+  "index_nnz": 124126,
+  "index_rows": 25016,
+  "elapsed_s": 1.236,
+  "returncode": 0,
+  "status": "ok"
+}

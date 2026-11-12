@@ -1,0 +1,17 @@
+{
+  "dataset": "Goodwin_095",
+  "matrix_sha256": "0d622d8558d6d63788925737e192319668216f60c1881b4180605b6bc23f1861",
+  "index_nnz": 3226066,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.846,
+  "gpu_after": {
+    "utilization_percent": 14,
+    "free_memory_mib": 81079
+  }
+}

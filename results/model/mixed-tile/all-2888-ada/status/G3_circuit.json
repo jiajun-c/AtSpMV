@@ -1,0 +1,15 @@
+{
+  "dataset": "G3_circuit",
+  "matrix_sha256": "ccaf9972ebe3f24731cec7295f281bdca59f31cb084663ef1011f0194a26a101",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.239,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

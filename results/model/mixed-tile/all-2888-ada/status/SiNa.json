@@ -1,0 +1,15 @@
+{
+  "dataset": "SiNa",
+  "matrix_sha256": "4bdb1a360058b7f75c5eb59cb24013942b44cafe1be5ccf18968dd08c1acbb4b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.032,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

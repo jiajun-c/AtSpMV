@@ -1,0 +1,15 @@
+{
+  "dataset": "celegansneural",
+  "matrix_sha256": "5c670ed95f3d004e8eb87be594a9f832cda11560dc2f04490b8fdbeb74a221b8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.019,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

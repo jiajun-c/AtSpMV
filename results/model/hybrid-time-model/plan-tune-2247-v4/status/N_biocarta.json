@@ -1,0 +1,19 @@
+{
+  "dataset": "N_biocarta",
+  "matrix_sha256": "c186ecf944a3bbca63b669b459413b15b6e0cd8706bfcb79efc7d8853b87059e",
+  "index_nnz": 4335,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.856,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

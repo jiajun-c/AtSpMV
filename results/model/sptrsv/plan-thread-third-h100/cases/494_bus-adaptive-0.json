@@ -1,0 +1,8 @@
+{
+  "name": "494_bus",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,default,cusparse,494,1563,-1,2264.224,58.01920319,2.664535259e-15,2.550937012e-17,8.617253178e-17,0\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,default-host,cusparse,494,1563,-1,2264.224,63.894265,2.664535259e-15,2.550937012e-17,8.617253178e-17,0\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,model,cached,494,1563,54,1201.573,41.80799866,1.33226763e-15,3.508102758e-17,9.245610671e-17,512\nresults/model/sptrsv/ilu-expanded-h100/factors/494_bus-L.mtx,model-host,cached,494,1563,54,1201.573,47.459165,1.33226763e-15,3.508102758e-17,9.245610671e-17,512\n",
+  "stderr": ""
+}

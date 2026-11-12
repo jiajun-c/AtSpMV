@@ -1,0 +1,10 @@
+{
+  "dataset": "iprob",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/iprob/iprob.mtx",
+  "matrix_sha256": "7f3995d41be115478d3d9ed48bb65058d5b30912028023f5aa9d2dad0a4d32bf",
+  "index_nnz": 9000,
+  "index_rows": 3001,
+  "elapsed_s": 1.333,
+  "returncode": 0,
+  "status": "ok"
+}

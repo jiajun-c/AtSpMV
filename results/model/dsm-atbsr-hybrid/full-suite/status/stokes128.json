@@ -1,0 +1,10 @@
+{
+  "dataset": "stokes128",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stokes128/stokes128.mtx",
+  "matrix_sha256": "be0fc8dc7374681350d912ee16db43a8a79e38f0d89b694e31588fddb62575fd",
+  "index_nnz": 558594,
+  "index_rows": 49666,
+  "elapsed_s": 0.615,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "nsir",
+  "matrix_sha256": "3b4587cdfd9b475f7b77250db039a0922efc2108a8501d579deb5887fc4fd8e8",
+  "index_nnz": 154939,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.782,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "internet",
+  "matrix_sha256": "2ae0de8462c9106b9720c91cb935c7a0c60243df7681bb804a882e159421a4dc",
+  "index_nnz": 207214,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.785,
+  "gpu_after": {
+    "utilization_percent": 26,
+    "free_memory_mib": 81079
+  }
+}

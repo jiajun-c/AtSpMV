@@ -1,0 +1,7 @@
+{
+  "matrix": "dataset16mfeatkarhunen_10NN",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/dataset16mfeatkarhunen_10NN-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.5480909496545792e-06
+}

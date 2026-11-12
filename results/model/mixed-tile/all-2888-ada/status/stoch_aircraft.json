@@ -1,0 +1,15 @@
+{
+  "dataset": "stoch_aircraft",
+  "matrix_sha256": "2077ac97b611f26ce9aa058615a2e957cd654aacbad48fc03cc25b334df479a1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.877,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

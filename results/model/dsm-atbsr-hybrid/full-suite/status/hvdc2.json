@@ -1,0 +1,10 @@
+{
+  "dataset": "hvdc2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hvdc2/hvdc2.mtx",
+  "matrix_sha256": "b07262798ef0a4e16e71bcfc867ca8feacb1465bbfe96e4e68f619086c325be5",
+  "index_nnz": 1347273,
+  "index_rows": 189860,
+  "elapsed_s": 1.177,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mice_10NN",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mice_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1077, 1077 ) nnz = 31219\nloadfile time    = 0.01540 sec\nnnzL = 31230\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.88 ms\ntime_cuda_solve = 0.428370 ms, Mflops = 145.81\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.69801980198019797 expected=0.69801980198019797 b=0.69801980198019797\nsample i=2 got=0.79702970297029707 expected=0.79702970297029707 b=0.79702970297029707\nsample i=3 got=0.89603960396039606 expected=0.89603960396039606 b=0.89603960396039606\nsample i=4 got=0.71782178217821779 expected=0.71782178217821779 b=0.71782178217821779\nsample i=5 got=1.004950495049505 expected=1.004950495049505 b=1.004950495049505\nsample i=6 got=1.3712871287128712 expected=1.3712871287128712 b=1.3712871287128712\nsample i=7 got=1.2029702970297029 expected=1.2029702970297029 b=1.2029702970297029\nVALIDATION finite=1 max_error=29.808982832320012 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

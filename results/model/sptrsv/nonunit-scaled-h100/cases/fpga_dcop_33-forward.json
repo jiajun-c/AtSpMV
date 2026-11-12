@@ -1,0 +1,7 @@
+{
+  "name": "fpga_dcop_33",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_dcop_33-L.mtx,default,cusparse,1220,2937,-1,3567,29.24160004,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_dcop_33-L.mtx,default-host,cusparse,1220,2937,-1,3567,37.129965,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_dcop_33-L.mtx,model,cached,1220,2937,18,8203.684,18.31040001,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_dcop_33-L.mtx,model-host,cached,1220,2937,18,8203.684,25.295905,1.776356839e-15\n",
+  "stderr": ""
+}

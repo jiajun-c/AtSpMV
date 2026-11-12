@@ -1,0 +1,19 @@
+{
+  "dataset": "grid2_dual",
+  "matrix_sha256": "da449f5224f6bbc10c9e9a8d4f87bfb747776f1c64707122d87e3f8580c75d3b",
+  "index_nnz": 12224,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.926,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

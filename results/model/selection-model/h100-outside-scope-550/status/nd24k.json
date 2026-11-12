@@ -1,0 +1,17 @@
+{
+  "dataset": "nd24k",
+  "matrix_sha256": "bc27a2c946f94af8983f273220c5a61ecd623caaf36071e2fabf6faf8c35e625",
+  "index_nnz": 28715634,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 32.324,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

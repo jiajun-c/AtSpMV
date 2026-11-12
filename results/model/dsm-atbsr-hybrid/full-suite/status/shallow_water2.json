@@ -1,0 +1,10 @@
+{
+  "dataset": "shallow_water2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/shallow_water2/shallow_water2.mtx",
+  "matrix_sha256": "059b5bfc151870597397aca7c4427182680e06bdf1159b034955864ea76205b9",
+  "index_nnz": 327680,
+  "index_rows": 81920,
+  "elapsed_s": 0.665,
+  "returncode": 0,
+  "status": "ok"
+}

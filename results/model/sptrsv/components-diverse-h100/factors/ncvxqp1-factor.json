@@ -1,0 +1,13 @@
+{
+  "matrix": "ncvxqp1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ncvxqp1/ncvxqp1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 12111,
+  "columns": 12111,
+  "original_nnz": 73963,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.4440604660194367
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "finan512",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/finan512/finan512.mtx",
+  "matrix_sha256": "0803c595b03aac11cdfb47348b9b24da1c5491e809ac78bc664ba5f06bd3bfcd",
+  "index_nnz": 596992,
+  "index_rows": 74752,
+  "elapsed_s": 0.646,
+  "returncode": 0,
+  "status": "ok"
+}

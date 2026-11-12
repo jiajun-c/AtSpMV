@@ -1,0 +1,19 @@
+{
+  "dataset": "t2dah_a",
+  "matrix_sha256": "f01b69bed99d148acf345438e5308c922c8cf6b4667a31a6252a3fe5922522bf",
+  "index_nnz": 176117,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.815,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

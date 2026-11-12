@@ -1,0 +1,7 @@
+{
+  "name": "sherman5",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/sherman5-L.mtx,model,cusparse,3312,48157,665,6764.948,643.7919922,9.103828802e-15,4.03866903e-17,1.374715531e-16,0\nresults/model/sptrsv/components-independent-h100/factors/sherman5-L.mtx,model-host,cusparse,3312,48157,665,6764.948,649.70644,9.103828802e-15,4.03866903e-17,1.374715531e-16,0\nresults/model/sptrsv/components-independent-h100/factors/sherman5-L.mtx,default,cusparse,3312,48157,-1,6651.371,643.3023682,9.103828802e-15,4.03866903e-17,1.374715531e-16,0\nresults/model/sptrsv/components-independent-h100/factors/sherman5-L.mtx,default-host,cusparse,3312,48157,-1,6651.371,648.96388,9.103828802e-15,4.03866903e-17,1.374715531e-16,0\n",
+  "stderr": ""
+}

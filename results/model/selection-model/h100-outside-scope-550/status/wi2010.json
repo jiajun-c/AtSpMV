@@ -1,0 +1,17 @@
+{
+  "dataset": "wi2010",
+  "matrix_sha256": "a42d15f6e35c0ea6c38b820b92c9f5970b0e182177c8922a7b820feb618fc60d",
+  "index_nnz": 1209404,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 82.144,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

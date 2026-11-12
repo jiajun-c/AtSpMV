@@ -1,0 +1,9 @@
+{
+  "name": "semeion_10NN",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/semeion_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1600, 1600 ) nnz = 48712\nloadfile time    = 0.02345 sec\nnnzL = 48712\ntime_for_csc2CompressTile = 4.39 ms\ntime_cuda_solve = 0.635850 ms, Mflops = 153.22\nVALIDATION finite=1 max_error=2.1760371282653068e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

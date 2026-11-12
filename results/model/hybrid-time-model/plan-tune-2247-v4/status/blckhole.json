@@ -1,0 +1,19 @@
+{
+  "dataset": "blckhole",
+  "matrix_sha256": "18de5646f203e908356c9ac9c4f86de2b302e407c0308fc4645d6385796cc266",
+  "index_nnz": 14872,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.84,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "illc1033",
+  "matrix_sha256": "53278dc5cd5864deab78dfdfd8e997597c545a55816c6ae94f729ca19cb16ffe",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.04,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

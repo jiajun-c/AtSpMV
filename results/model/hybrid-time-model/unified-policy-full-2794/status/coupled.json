@@ -1,0 +1,17 @@
+{
+  "dataset": "coupled",
+  "matrix_sha256": "de32de1a9c42ebb31f49d7a1d5530913c47fc2458cad77413e6219017290b275",
+  "index_nnz": 98523,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.28,
+  "gpu_after": {
+    "utilization_percent": 26,
+    "free_memory_mib": 81079
+  }
+}

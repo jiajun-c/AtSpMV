@@ -1,0 +1,9 @@
+{
+  "name": "spiral",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/spiral-L.mtx,default,cusparse,1440,17011,-1,6108.957,287.2608032,8.770761895e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/spiral-L.mtx,default-host,cusparse,1440,17011,-1,6108.957,294.878985,8.770761895e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/spiral-L.mtx,model,cusparse,1440,17011,357,4601.734,286.6687927,8.770761895e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/spiral-L.mtx,model-host,cusparse,1440,17011,357,4601.734,294.26845,8.770761895e-15\n",
+  "stderr": ""
+}

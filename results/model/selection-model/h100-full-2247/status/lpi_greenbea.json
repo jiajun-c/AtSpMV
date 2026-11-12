@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_greenbea",
+  "matrix_sha256": "e26012fd2e8ab936163994e866f169b7f3f6f57dc547ce6e43bbc3cc571a1b70",
+  "index_nnz": 31074,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.557,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

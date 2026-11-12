@@ -1,0 +1,22 @@
+{
+  "note": "Post-hoc 2% margin on previously evaluated sample; actual Plan execution, warm anchor, independent timings; not a blind threshold evaluation.",
+  "index_sha256": "cf3b53bbb71187b5c3f1a4203098a9eca56d9c0acf602051d60c81e05ca96b38",
+  "provenance_sha256": {
+    "atspmvprod.h": "afa8cf87e56b40da666128919d898e710fc9ff6eb3c026e216c8f10e4045f73b",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "analyze_plan_selection.py": "76c86b1fa8ed5c3c05659a8ceff671a3a452c6a5b224c9dae912de9182b254d7",
+    "analyze_plan_amortization.py": "22a5218a5da2e91841aedd3542a303a365db40bc7aa47827b9560de2c1156cf8",
+    "audit_vector_model_replay.py": "feffda7646452638bd32d39bff7817ead35cadb6af7ca3d1d5374810b4673724",
+    "atspmvProduct.cu": "d95f035fdec8527195eb57fde141abb1a0af89310ab79bae1fa5dc84f89c5fb4",
+    "spmvPlan.cu": "31beb1f3bd6ec2663bd4c1ba70927384b42b16ef527dad6ad7d2cb94c143b94d",
+    "spmv_hybrid_validation.cu": "c2570e24d638e9e9c5a00d7ca09c6274ee2e9f8e137ba37def1208a24cb0f41d",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "tileSelector.cuh": "e3a2882fa8d6da1eade9de045bd139ef7be9ad37c488024fcc346e49f66dbd3c",
+    "benchmark_plan_selection.py": "dafeddb0a57a0031a156cffbc36e2b0bff1571637c8859cf645b7b98c361bdea",
+    "spmvPlan.h": "e22ef301cb1645789b4a3f5335f86eb57427dc4cde94ab0029e87aab1f42e13a",
+    "audit_plan_sweep.py": "18e21d9eb878fb4a983fd4a8333d7fbdd7bc5e55e88dc836c195abb0ed952eba",
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "run_priority_vector_holdout.py": "3ac5bbbdd808bf59f629542b869d725dbcd30120873f20d85af2cdab9c3e294e",
+    "spmv_hybrid_validation": "c93c49522998411dae282e933ded0a2193098297ab96da2c789e9895e3aac29a"
+  }
+}

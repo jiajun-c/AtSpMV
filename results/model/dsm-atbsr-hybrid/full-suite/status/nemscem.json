@@ -1,0 +1,10 @@
+{
+  "dataset": "nemscem",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nemscem/nemscem.mtx",
+  "matrix_sha256": "9db5454dbf8c49028c4c42cf52ed5e2f8f776e21dc0233361398dd360833ebfd",
+  "index_nnz": 3840,
+  "index_rows": 651,
+  "elapsed_s": 2.762,
+  "returncode": 0,
+  "status": "ok"
+}

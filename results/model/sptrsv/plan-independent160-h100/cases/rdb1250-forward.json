@@ -1,0 +1,7 @@
+{
+  "name": "rdb1250",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,default,cusparse,1250,13160,-1,3175.698,195.9136047,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,default-host,cusparse,1250,13160,-1,3175.698,203.584915,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,model,cusparse,1250,13160,128,3263.703,195.8432007,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,model-host,cusparse,1250,13160,128,3263.703,203.849265,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\n",
+  "stderr": ""
+}

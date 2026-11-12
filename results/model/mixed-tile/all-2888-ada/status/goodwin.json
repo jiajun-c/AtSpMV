@@ -1,0 +1,15 @@
+{
+  "dataset": "goodwin",
+  "matrix_sha256": "32297df14ac0cafd741443b2243cfed6aef618bf20a89ea36cf0699dee043b4f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 37.807,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

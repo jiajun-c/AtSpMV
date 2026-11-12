@@ -1,0 +1,31 @@
+{
+  "dataset": "shipsec1",
+  "status": "ok",
+  "matrix_sha256": "ffdfc3f871712191ffcc459e0de2b62ffba0e2ca30cf5c0db4e34264c5a4b6a6",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/shipsec1/shipsec1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/shipsec1-0.csv",
+        "20261127",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.95200456911698
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/shipsec1/shipsec1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/shipsec1-1.csv",
+        "20261128",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.9459210971836
+    }
+  ]
+}

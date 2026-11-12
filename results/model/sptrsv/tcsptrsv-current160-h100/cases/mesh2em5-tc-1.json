@@ -1,0 +1,9 @@
+{
+  "name": "mesh2em5",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mesh2em5-L.mtx --------------\nsuccess open file\ninput matrix A: ( 320, 320 ) nnz = 2410\nloadfile time    = 0.00133 sec\nnnzL = 2410\ntime_for_csc2CompressTile = 2.57 ms\ntime_cuda_solve = 0.174510 ms, Mflops = 27.62\nVALIDATION finite=1 max_error=4.4408920985006262e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

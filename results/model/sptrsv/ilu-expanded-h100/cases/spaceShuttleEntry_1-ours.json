@@ -1,0 +1,7 @@
+{
+  "name": "spaceShuttleEntry_1",
+  "implementation": "ours",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-expanded-h100/factors/spaceShuttleEntry_1-L.mtx,560,8898,237,cusparse,28756.891,235.3375912,9.325873407e-15,2.202835574e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/spaceShuttleEntry_1-L.mtx,560,8898,237,cusparse-host,28756.891,243.088245,9.325873407e-15,2.202835574e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "tumorAntiAngiogenesis_4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tumorAntiAngiogenesis_4/tumorAntiAngiogenesis_4.mtx",
+  "matrix_sha256": "48c826bad97553b5d180c370c29e050f878cdde66647d82d45d8f6d20d38cdad",
+  "index_nnz": 4593,
+  "index_rows": 455,
+  "elapsed_s": 1.258,
+  "returncode": 0,
+  "status": "ok"
+}

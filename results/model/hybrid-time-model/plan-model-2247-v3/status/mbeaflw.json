@@ -1,0 +1,19 @@
+{
+  "dataset": "mbeaflw",
+  "matrix_sha256": "104d9b61dccf37f45c3c2a40c3bf03237f2eb4016b0264e9b1d3939db33e5421",
+  "index_nnz": 49920,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.842,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_grow7",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_grow7/lp_grow7.mtx",
+  "matrix_sha256": "b61bef736881093ec108bbbddbf230e75f17ff0f1d9690fb732cd4a72faff7d1",
+  "index_nnz": 2612,
+  "index_rows": 140,
+  "elapsed_s": 0.636,
+  "returncode": 0,
+  "status": "ok"
+}

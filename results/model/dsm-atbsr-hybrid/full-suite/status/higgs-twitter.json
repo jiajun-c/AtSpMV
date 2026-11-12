@@ -1,0 +1,10 @@
+{
+  "dataset": "higgs-twitter",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/higgs-twitter/higgs-twitter.mtx",
+  "matrix_sha256": "14c4f71b1e4e26dfd2cc3843867344d2951f8418ac0db5ba9c2d8fb949c115ce",
+  "index_nnz": 14855842,
+  "index_rows": 456626,
+  "elapsed_s": 6.475,
+  "returncode": 0,
+  "status": "ok"
+}

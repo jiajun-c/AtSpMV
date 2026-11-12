@@ -1,0 +1,9 @@
+{
+  "name": "bp_0",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/bp_0-L.mtx --------------\nsuccess open file\ninput matrix A: ( 822, 822 ) nnz = 1496\nloadfile time    = 0.00062 sec\nnnzL = 1506\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 2.54 ms\ntime_cuda_solve = 0.073000 ms, Mflops = 41.26\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.86633663366336633 expected=0.86633663366336633 b=0.86633663366336633\nsample i=2 got=1.2326732673267327 expected=1.2326732673267327 b=1.2326732673267327\nsample i=3 got=0.59900990099009899 expected=0.59900990099009899 b=0.59900990099009899\nsample i=4 got=0.96534653465346532 expected=0.96534653465346532 b=0.96534653465346532\nsample i=5 got=1.3316831683168315 expected=1.3316831683168315 b=1.3316831683168315\nsample i=6 got=0.69801980198019797 expected=0.69801980198019797 b=0.69801980198019797\nsample i=7 got=1.0643564356435644 expected=1.0643564356435644 b=1.0643564356435644\nVALIDATION finite=1 max_error=1.8873791418627661e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "viscoplastic1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/viscoplastic1/viscoplastic1.mtx",
+  "matrix_sha256": "d593fd87b755a74c045010be77b4531031f860244ff70ba36da137fe23b90885",
+  "index_nnz": 61166,
+  "index_rows": 4326,
+  "elapsed_s": 0.571,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Goodwin_017",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Goodwin_017-L.mtx,default,cusparse,3328,200136,-1,26327.264,1646.006348,1.336708522e-13\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Goodwin_017-L.mtx,default-host,cusparse,3328,200136,-1,26327.264,1654.844715,1.336708522e-13\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Goodwin_017-L.mtx,model,cusparse,3328,200136,1762,24031.102,1645.887939,1.336708522e-13\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Goodwin_017-L.mtx,model-host,cusparse,3328,200136,1762,24031.102,1655.945615,1.336708522e-13\n",
+  "stderr": ""
+}

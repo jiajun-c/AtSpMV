@@ -1,0 +1,17 @@
+{
+  "dataset": "Tina_AskCog",
+  "matrix_sha256": "7fafbf31fdede9fd3aaf0a83c6aba0db7bfa8eb8a2c3a1f45e7a127856ba6f1d",
+  "index_nnz": 36,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.448,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

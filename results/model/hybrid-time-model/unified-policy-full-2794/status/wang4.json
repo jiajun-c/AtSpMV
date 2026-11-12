@@ -1,0 +1,17 @@
+{
+  "dataset": "wang4",
+  "matrix_sha256": "9275e75b300c34c912a3a64995c64e9d6fb7e4720fd8a7c619bf06d05828c8d7",
+  "index_nnz": 177196,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.198,
+  "gpu_after": {
+    "utilization_percent": 10,
+    "free_memory_mib": 81079
+  }
+}

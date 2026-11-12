@@ -1,0 +1,17 @@
+{
+  "dataset": "ck104",
+  "matrix_sha256": "1c4059ba0965b9d34c85957c539bc1959b9c801bbbae9592350d1c6797b49923",
+  "index_nnz": 992,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.707,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

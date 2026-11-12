@@ -1,0 +1,17 @@
+{
+  "dataset": "bloweybq",
+  "matrix_sha256": "8cde3216bab4dd754b1bb6d4c47671f595b2b206c179187fd179c3d15668e343",
+  "index_nnz": 69991,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.765,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

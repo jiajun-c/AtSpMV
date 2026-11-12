@@ -1,0 +1,9 @@
+{
+  "name": "lung1",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/lung1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1664, 1664 ) nnz = 4194\nloadfile time    = 0.00177 sec\nnnzL = 4194\ntime_for_csc2CompressTile = 2.55 ms\ntime_cuda_solve = 1.769040 ms, Mflops = 4.74\nVALIDATION finite=1 max_error=3.3306690738754696e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

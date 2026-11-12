@@ -1,0 +1,15 @@
+{
+  "dataset": "Stanford",
+  "matrix_sha256": "91cda3cf1dc847286028f209bd546fa42dcf5fb28564f6c9bd78b6accdec3f73",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.126,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  }
+}

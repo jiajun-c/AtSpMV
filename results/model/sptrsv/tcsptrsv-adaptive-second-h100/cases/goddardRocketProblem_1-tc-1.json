@@ -1,0 +1,9 @@
+{
+  "name": "goddardRocketProblem_1",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/goddardRocketProblem_1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 832, 832 ) nnz = 19577\nloadfile time    = 0.00955 sec\nnnzL = 19577\ntime_for_csc2CompressTile = 2.79 ms\ntime_cuda_solve = 0.239050 ms, Mflops = 163.79\nVALIDATION finite=1 max_error=2.8643754035329039e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

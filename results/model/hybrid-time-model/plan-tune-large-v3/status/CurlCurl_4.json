@@ -1,0 +1,19 @@
+{
+  "dataset": "CurlCurl_4",
+  "matrix_sha256": "7f212e8b5123e3e0eee9b8d0ad24aa68e56e598fc08a5ac105e2943549991f27",
+  "index_nnz": 26515867,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 62.683,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "xenon2",
+  "matrix_sha256": "90355b03aa285a09e512cdc7b490911b56bea575adb8c29fabb2544e84b96e61",
+  "index_nnz": 3866688,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 68.904,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

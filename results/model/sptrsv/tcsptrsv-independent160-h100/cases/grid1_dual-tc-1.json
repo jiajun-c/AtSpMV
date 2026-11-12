@@ -1,0 +1,9 @@
+{
+  "name": "grid1_dual",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/grid1_dual-L.mtx --------------\nsuccess open file\ninput matrix A: ( 224, 224 ) nnz = 868\nloadfile time    = 0.00040 sec\nnnzL = 868\ntime_for_csc2CompressTile = 1.90 ms\ntime_cuda_solve = 0.090960 ms, Mflops = 19.09\nVALIDATION finite=1 max_error=4.8849813083506888e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

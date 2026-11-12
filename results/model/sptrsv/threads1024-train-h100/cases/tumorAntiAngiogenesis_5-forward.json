@@ -1,0 +1,7 @@
+{
+  "name": "tumorAntiAngiogenesis_5",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cusparse,28339.927,131.1200023,3.119726699e-14,2.726193528e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cusparse-host,28339.927,139.219515,3.119726699e-14,2.726193528e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cached-tiles-512,285.749,84.25279856,4.996003611e-14,3.433763659e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cached-tiles-host-512,285.749,91.09771,4.996003611e-14,3.433763659e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cached-tiles-1024,285.749,85.92000008,4.996003611e-14,3.433763659e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,cached-tiles-host-1024,285.749,92.62675,4.996003611e-14,3.433763659e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/tumorAntiAngiogenesis_5-L.mtx,460,9905,103,selector-cached,285.749,84.2592001,4.996003611e-14,3.433763659e-17\n",
+  "stderr": ""
+}

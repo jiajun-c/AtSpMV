@@ -1,0 +1,7 @@
+{
+  "name": "tomography",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/tomography-L.mtx,500,32874,196,cusparse,30474.619,159.2319965,6.061817714e-14,1.975497035e-17\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/tomography-L.mtx,500,32874,196,cusparse-host,30474.619,166.351785,6.061817714e-14,1.975497035e-17\nresults/model/sptrsv/csr-narrow-pilot-h100/factors/tomography-L.mtx,500,32874,196,selector-cusparse,801.034,159.2607975,6.061817714e-14,1.975497035e-17\n",
+  "stderr": "cached_csr_skipped_shared_bytes=407280\n"
+}

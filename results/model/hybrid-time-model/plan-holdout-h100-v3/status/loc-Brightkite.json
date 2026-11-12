@@ -1,0 +1,19 @@
+{
+  "dataset": "loc-Brightkite",
+  "matrix_sha256": "990f78f37bcaee2361f1a525a2d8e1ad80eb15927ee29951296b2ce3c48e4b47",
+  "index_nnz": 428156,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.025,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

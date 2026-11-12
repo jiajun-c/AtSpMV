@@ -1,0 +1,15 @@
+{
+  "dataset": "d_dyn",
+  "matrix_sha256": "a5f56f00e62785f644a0ab82eae015a37421b36600c24c76c955ecc054c8ebfd",
+  "gpu_before": {
+    "utilization_percent": 23,
+    "free_memory_mib": 48505
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.686,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 48505
+  }
+}

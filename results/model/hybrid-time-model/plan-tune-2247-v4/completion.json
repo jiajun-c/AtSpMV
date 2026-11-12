@@ -1,0 +1,36 @@
+{
+  "suite_complete": true,
+  "status_counts": {
+    "ok": 2247
+  },
+  "failures": [],
+  "audit_problems": [],
+  "selection": "auto_tuned",
+  "metrics": {
+    "speedup_vs_default": {
+      "geomean": 1.2010351051684331,
+      "median": 1.211886314628079,
+      "wins": 2153,
+      "cases": 2247
+    },
+    "speedup_vs_cusparse": {
+      "geomean": 1.6495727474556952,
+      "median": 1.7572468684652112,
+      "wins": 2210,
+      "cases": 2247
+    },
+    "speedup_vs_best_baseline": {
+      "geomean": 1.1919678748491755,
+      "median": 1.202279813664508,
+      "wins": 2122,
+      "cases": 2247
+    },
+    "speedup_vs_extended_baseline": {
+      "geomean": 1.1160450049328898,
+      "median": 1.1282226695583155,
+      "wins": 2074,
+      "cases": 2247
+    }
+  },
+  "note": "Completed status includes recorded failures; inspect failures and sample scope. Shared-GPU polling cannot exclude every interference event."
+}

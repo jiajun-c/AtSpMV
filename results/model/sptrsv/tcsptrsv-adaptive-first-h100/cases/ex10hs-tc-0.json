@@ -1,0 +1,9 @@
+{
+  "name": "ex10hs",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/ex10hs-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2560, 2560 ) nnz = 64109\nloadfile time    = 0.03143 sec\nnnzL = 64109\ntime_for_csc2CompressTile = 4.04 ms\ntime_cuda_solve = 1.284140 ms, Mflops = 99.85\nVALIDATION finite=1 max_error=3.5527136788005009e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

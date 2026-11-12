@@ -1,0 +1,8 @@
+{
+  "name": "ck104",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/ck104-L.mtx,model,cached-csr,104,512,48,1189.665,25.89119911,3.330669074e-15,3.146070123e-17,7.167333025e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/ck104-L.mtx,model-host,cached-csr,104,512,48,1189.665,32.79131,3.330669074e-15,3.146070123e-17,7.167333025e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/ck104-L.mtx,default,cusparse,104,512,-1,2317.804,57.55519867,3.330669074e-15,3.146070123e-17,7.167333025e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/ck104-L.mtx,default-host,cusparse,104,512,-1,2317.804,65.51998,3.330669074e-15,3.146070123e-17,7.167333025e-17,0\n",
+  "stderr": ""
+}

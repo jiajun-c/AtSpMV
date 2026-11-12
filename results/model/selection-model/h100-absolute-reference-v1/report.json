@@ -1,0 +1,31 @@
+{
+  "method": "Exploratory absolute default-AtBSR warm Graph reference; frozen group split inherited from vector model. Labels are medians per construction order, geometrically combined. No production update. Timings include internal Graph event nodes and may differ with device, allocation, cache and host contention.",
+  "source_metadata_sha256": "ff75241df2a4dd098c2a4de24478d654bebc6c43b40733d81713ae12e888e463",
+  "features_sha256": "8d43d907699595061304671e92f8498ae70dc900a0433977bdfac95681de1db6",
+  "training_data_sha256": "fc7f4dd99081321474e8667012a14599aa872d1c787e316428a9639c2f3c45c4",
+  "model_sha256": "c71e00219d4d82227d1534cf5896394ee396ceaa8c2c8f9cab57146d7b94a0de",
+  "sklearn_version": "1.6.0",
+  "metrics": {
+    "train": {
+      "cases": 1010,
+      "mape": 0.02472494585723901,
+      "median_ape": 0.013695848278425071,
+      "over_20pct": 4,
+      "geomean_predicted_over_actual": 1.0
+    },
+    "dev": {
+      "cases": 411,
+      "mape": 0.06509312275450488,
+      "median_ape": 0.052653633716228776,
+      "over_20pct": 13,
+      "geomean_predicted_over_actual": 0.9773714539974927
+    },
+    "holdout": {
+      "cases": 225,
+      "mape": 0.06182952214833738,
+      "median_ape": 0.042693209540623056,
+      "over_20pct": 9,
+      "geomean_predicted_over_actual": 0.9891460850131055
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "bmwcra_1",
+  "matrix_sha256": "e427c5ee45ffcb75a661b924761aacc7b12fd5d64ccde97b8f741b05731fc790",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.166,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

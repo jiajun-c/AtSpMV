@@ -1,0 +1,17 @@
+{
+  "dataset": "email-Eu-core",
+  "matrix_sha256": "6b21fadb0e1222c1564e562af7d35e350d497b0ceb0b86d2044b70fda84eafff",
+  "index_nnz": 25571,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.558,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

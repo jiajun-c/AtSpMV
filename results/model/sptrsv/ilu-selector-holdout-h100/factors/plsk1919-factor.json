@@ -1,0 +1,13 @@
+{
+  "matrix": "plsk1919",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/plsk1919/plsk1919.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1919,
+  "columns": 1919,
+  "original_nnz": 9662,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03070647898130119
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "ny2010",
+  "matrix_sha256": "5e7141a7bf1e413ce2118f43b5881781a2a3905dd44e2d89b4dad6cda6dd5d03",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.028,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "delf",
+  "matrix_sha256": "9a19f23cb773864375368edb13a07ecbe763c9cb81ced8494b283553d102a353",
+  "index_nnz": 15397,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.226,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "troll",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/troll/troll.mtx",
+  "matrix_sha256": "10be94cd5d1880a8681e24464a5cc27ed7b9e75687027e22524569759762d90a",
+  "index_nnz": 11985111,
+  "index_rows": 213453,
+  "elapsed_s": 3.977,
+  "returncode": 0,
+  "status": "ok"
+}

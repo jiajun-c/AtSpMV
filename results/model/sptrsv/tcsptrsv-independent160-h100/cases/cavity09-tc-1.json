@@ -1,0 +1,9 @@
+{
+  "name": "cavity09",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/cavity09-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1184, 1184 ) nnz = 42936\nloadfile time    = 0.02093 sec\nnnzL = 42936\ntime_for_csc2CompressTile = 2.85 ms\ntime_cuda_solve = 0.437910 ms, Mflops = 196.10\nVALIDATION finite=1 max_error=1.6653345369377348e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

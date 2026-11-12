@@ -1,0 +1,15 @@
+{
+  "dataset": "oscil_dcop_53",
+  "matrix_sha256": "6ba3cdd40d3cb9f0d11feb1a1e6756934ffbeacdc8348a63d383f6a8e05a3fce",
+  "gpu_before": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.697,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "scircuit",
+  "matrix_sha256": "7224052d8c289a07e0b9295d4c884a963322a7e745a86f853cd1893a8110ed34",
+  "index_nnz": 958936,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.459,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

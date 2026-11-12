@@ -1,0 +1,10 @@
+{
+  "dataset": "epb1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/epb1/epb1.mtx",
+  "matrix_sha256": "41fcbb7f4491fd1e6489ab45078e53c629c9e170213ac55fba83199bb4cd0c88",
+  "index_nnz": 95053,
+  "index_rows": 14734,
+  "elapsed_s": 1.27,
+  "returncode": 0,
+  "status": "ok"
+}

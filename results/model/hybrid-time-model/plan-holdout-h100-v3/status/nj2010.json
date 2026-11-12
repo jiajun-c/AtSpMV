@@ -1,0 +1,19 @@
+{
+  "dataset": "nj2010",
+  "matrix_sha256": "668130e6f42a12efad8ffe41ebfa4d67dbc64c29b06201e453376eec7fce1dbc",
+  "index_nnz": 829912,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.656,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

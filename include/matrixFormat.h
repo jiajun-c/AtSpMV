@@ -1,6 +1,8 @@
 #ifndef MATRIX_FORMAT_H
 #define MATRIX_FORMAT_H
 
+#include "kernelConfig.h"
+
 #include "common.h"
 #include <fstream>
 
@@ -49,6 +51,10 @@ template <typename VAL_TYPE, typename IDX_TYPE>
 class AtBsr {
 private:
 public:
+    atspmv::KernelConfig kernelConfig{};
+    bool modelCalibrated = false;
+    int modelResidentWarps = 0;
+    double predictedTimeUs = 0.0; // SpMV kernel estimate; excludes conversion/transfers.
     int OptimLevel; // 对于矩阵的优化级别
     VAL_TYPE *blcVal;
     IDX_TYPE *blcIdx; // 索引信息，在Level0下存储块的起始index，其他信息自行计算

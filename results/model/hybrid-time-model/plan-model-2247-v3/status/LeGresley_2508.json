@@ -1,0 +1,19 @@
+{
+  "dataset": "LeGresley_2508",
+  "matrix_sha256": "532eda18050043d09a5f8a08c6b81c3ee5d3e6779f7c12ef41c92af1fd43b567",
+  "index_nnz": 16727,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.994,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

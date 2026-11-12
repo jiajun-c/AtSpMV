@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_stocfor1",
+  "matrix_sha256": "595e19de76f873dd1c8a465a5147dc89a9e98ea9025b67caf4a98d0cff4956cb",
+  "index_nnz": 501,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.826,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

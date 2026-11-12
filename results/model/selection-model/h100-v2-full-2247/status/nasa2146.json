@@ -1,0 +1,17 @@
+{
+  "dataset": "nasa2146",
+  "matrix_sha256": "3d4c739a0fcc5b8f8a9afd96a2efa03e2f6efe7aa7a09c8b38edbec02a18f14a",
+  "index_nnz": 72250,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.719,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_degen2",
+  "matrix_sha256": "fdd82125f425dc12b94a31f875d525bb25347b7c955d320217ff05f735cff281",
+  "index_nnz": 4201,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.175,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

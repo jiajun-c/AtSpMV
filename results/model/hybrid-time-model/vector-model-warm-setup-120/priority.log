@@ -1,0 +1,59 @@
+PAUSED sweep runner; waiting for its current child to finish
+RUNNING independent vector holdout
+RESUMED sweep runner
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "selected_backends": {
+    "atbsr": 23,
+    "csr_vector": 90,
+    "csr_two_stage": 3,
+    "csr_dsm": 2,
+    "hybrid_dsm_atbsr": 2
+  },
+  "selection": "auto_vector_model",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. Default AtBSR is constructed first in both orders; the two model plans swap relative order after this anchor.",
+  "speedup_vs_default": {
+    "geomean": 1.1467582794136932,
+    "median": 1.1789953225618839,
+    "wins": 102,
+    "cases": 120
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.5669380544781624,
+    "median": 1.6897583939586882,
+    "wins": 119,
+    "cases": 120
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.140859634759954,
+    "median": 1.160273877327942,
+    "wins": 101,
+    "cases": 120
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.0718443999615654,
+    "median": 1.0962835711639984,
+    "wins": 91,
+    "cases": 120
+  },
+  "speedup_vs_auto_model": {
+    "geomean": 1.1040920683763076,
+    "median": 1.1121128676048144,
+    "wins": 96,
+    "cases": 120
+  }
+}
+HOLDOUT complete_success= True

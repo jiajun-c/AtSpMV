@@ -1,0 +1,17 @@
+{
+  "dataset": "cage14",
+  "matrix_sha256": "d8066f49823aea1f6d9ec3f1b9fce72aa94de4f4fa0c5b7cc38ecb546a64d8fc",
+  "index_nnz": 27130349,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 83.725,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

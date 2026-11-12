@@ -1,0 +1,10 @@
+{
+  "dataset": "uk-2002",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/uk-2002/uk-2002.mtx",
+  "matrix_sha256": "91678dd609a4f16e5ce828f2573806756eba214aaf3207751408a083d95026d6",
+  "index_nnz": 298113762,
+  "index_rows": 18520486,
+  "elapsed_s": 95.826,
+  "returncode": 0,
+  "status": "ok"
+}

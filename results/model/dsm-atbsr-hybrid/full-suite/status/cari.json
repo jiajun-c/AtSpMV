@@ -1,0 +1,10 @@
+{
+  "dataset": "cari",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cari/cari.mtx",
+  "matrix_sha256": "09738bfd9110d1810a43da8ae15452fb89603640172653e9a6219c62a9eddfee",
+  "index_nnz": 152800,
+  "index_rows": 400,
+  "elapsed_s": 1.437,
+  "returncode": 0,
+  "status": "ok"
+}

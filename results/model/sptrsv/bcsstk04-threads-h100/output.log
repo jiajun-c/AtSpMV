@@ -1,0 +1,41 @@
+WAIT GPU busy [{'pid': 507965, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 507965, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 508466, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 508466, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 509237, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 509237, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 509237, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 509237, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 510289, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 510289, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 510289, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 510289, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 511138, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 511138, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 511138, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 511138, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 512019, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 512019, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 512019, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 512019, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 514144, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 514144, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 514144, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 514144, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 515217, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 515217, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 515217, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 515217, 'name': '/tmp/h100-full-study/bench-checked'}]
+WAIT GPU busy [{'pid': 516640, 'name': '/tmp/h100-full-study/bench-shared-validation'}]
+WAIT GPU busy [{'pid': 516839, 'name': '/tmp/h100-full-study/bench-residency'}]
+WAIT GPU busy [{'pid': 517064, 'name': '/tmp/h100-full-study/bench-residency'}]
+matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cusparse,28861.086,96.3424027,1.021405183e-14,1.421790491e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cusparse-host,28861.086,103.49271,1.021405183e-14,1.421790491e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-128,216.775,107.7728033,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-host-128,216.775,114.25733,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-256,216.775,101.1391997,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-host-256,216.775,107.47776,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-512,216.775,100.3903985,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-host-512,216.775,106.713995,8.881784197e-15,1.339764117e-17
+results/model/sptrsv/nonunit-scaled-h100/factors/bcsstk04-L.mtx,132,3641,128,selector-cached,216.775,100.383997,8.881784197e-15,1.339764117e-17

@@ -1,0 +1,10 @@
+{
+  "dataset": "SciMet",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/SciMet/SciMet.mtx",
+  "matrix_sha256": "108aa41c5fd1e0a8ab0e675ca43fbafaa6064b633cf447f45ed057d5b7583bcd",
+  "index_nnz": 10413,
+  "index_rows": 3084,
+  "elapsed_s": 0.574,
+  "returncode": 0,
+  "status": "ok"
+}

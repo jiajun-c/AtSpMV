@@ -1,0 +1,15 @@
+{
+  "dataset": "mono_500Hz",
+  "matrix_sha256": "6998a9b360615a43295f1b6effb1305a16c6091044c110c2d59fface33d3ee6a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.318,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

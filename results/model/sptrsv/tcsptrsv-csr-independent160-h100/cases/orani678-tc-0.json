@@ -1,0 +1,9 @@
+{
+  "name": "orani678",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orani678-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2544, 2544 ) nnz = 76866\nloadfile time    = 0.03799 sec\nnnzL = 76866\ntime_for_csc2CompressTile = 3.94 ms\ntime_cuda_solve = 0.278860 ms, Mflops = 551.29\nVALIDATION finite=1 max_error=1.9095836023552692e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

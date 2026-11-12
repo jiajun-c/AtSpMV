@@ -1,0 +1,10 @@
+{
+  "dataset": "dw8192",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dw8192/dw8192.mtx",
+  "matrix_sha256": "29ed7a2b63536f4b37f842154fc4720ebe830dd6b2bef8fb3a3988c1702a4fdb",
+  "index_nnz": 41746,
+  "index_rows": 8192,
+  "elapsed_s": 0.571,
+  "returncode": 0,
+  "status": "ok"
+}

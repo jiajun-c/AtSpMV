@@ -1,0 +1,5 @@
+RUN direct
+RUN memcheck
+RUN synccheck
+RUN racecheck
+COMPLETE

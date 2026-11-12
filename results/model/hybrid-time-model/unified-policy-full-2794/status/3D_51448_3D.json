@@ -1,0 +1,17 @@
+{
+  "dataset": "3D_51448_3D",
+  "matrix_sha256": "9e0184e2a73e8640775db96e39cc89876df6ace8c9b0d6c7dd2ebca77d2b62bc",
+  "index_nnz": 1056610,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.791,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

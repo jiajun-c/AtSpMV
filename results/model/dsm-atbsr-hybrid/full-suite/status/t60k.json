@@ -1,0 +1,10 @@
+{
+  "dataset": "t60k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t60k/t60k.mtx",
+  "matrix_sha256": "e4893c9485d457a4f62dc1213f9b26436fb64755ab2bf20eff0b24c4d8341445",
+  "index_nnz": 178880,
+  "index_rows": 60005,
+  "elapsed_s": 1.421,
+  "returncode": 0,
+  "status": "ok"
+}

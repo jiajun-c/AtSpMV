@@ -1,0 +1,9 @@
+{
+  "name": "hangGlider_2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/hangGlider_2-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1648, 1648 ) nnz = 17326\nloadfile time    = 0.00832 sec\nnnzL = 17326\ntime_for_csc2CompressTile = 2.38 ms\ntime_cuda_solve = 1.120710 ms, Mflops = 30.92\nVALIDATION finite=1 max_error=1.1102230246251565e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

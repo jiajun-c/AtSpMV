@@ -1,0 +1,19 @@
+{
+  "dataset": "Ragusa18",
+  "matrix_sha256": "3dbef4863a2c8f3af0057be8c23cf14ceff065ff3806ecd72bdf2c4aa3945f7e",
+  "index_nnz": 64,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.385,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

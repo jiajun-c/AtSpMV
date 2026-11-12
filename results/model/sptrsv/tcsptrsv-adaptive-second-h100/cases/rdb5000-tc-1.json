@@ -1,0 +1,9 @@
+{
+  "name": "rdb5000",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb5000-L.mtx --------------\nsuccess open file\ninput matrix A: ( 5008, 5008 ) nnz = 52563\nloadfile time    = 0.02222 sec\nnnzL = 52563\ntime_for_csc2CompressTile = 2.11 ms\ntime_cuda_solve = 0.662090 ms, Mflops = 158.78\nVALIDATION finite=1 max_error=2.3536728122053319e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

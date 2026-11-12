@@ -1,0 +1,10 @@
+{
+  "dataset": "gams60am",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gams60am/gams60am.mtx",
+  "matrix_sha256": "c174f9ce7d27076d05497af07b9e34eef5fca96668773dac5766a805e61d2d21",
+  "index_nnz": 2607,
+  "index_rows": 714,
+  "elapsed_s": 1.254,
+  "returncode": 0,
+  "status": "ok"
+}

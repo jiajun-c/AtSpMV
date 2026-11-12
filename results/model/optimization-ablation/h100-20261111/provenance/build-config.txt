@@ -1,0 +1,10 @@
+ATSPMV_BUILD_DSM_EXPERIMENT:BOOL=ON
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_CUDA_ARCHITECTURES:UNINITIALIZED=90
+CMAKE_CUDA_COMPILER:STRING=/usr/local/cuda-12.6/bin/nvcc
+CMAKE_CXX_COMPILER:STRING=/usr/bin/g++-11
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Tue_Oct_29_23:50:19_PDT_2024
+Cuda compilation tools, release 12.6, V12.6.85
+Build cuda_12.6.r12.6/compiler.35059454_0

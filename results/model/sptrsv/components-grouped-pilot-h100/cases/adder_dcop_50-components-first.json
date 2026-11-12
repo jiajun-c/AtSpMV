@@ -1,0 +1,7 @@
+{
+  "name": "adder_dcop_50",
+  "order": "components-first",
+  "returncode": 1,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/components-grouped-pilot-h100/factors/adder_dcop_50-L.mtx,1813,3867,8,cusparse,29668.186,18.41599941,1.181277298e-13,6.729365445e-18\nresults/model/sptrsv/components-grouped-pilot-h100/factors/adder_dcop_50-L.mtx,1813,3867,8,cusparse-host,29668.186,25.98634,1.181277298e-13,6.729365445e-18\nresults/model/sptrsv/components-grouped-pilot-h100/factors/adder_dcop_50-L.mtx,1813,3867,8,cached-components-256,885.226,17.40799993,1.181277298e-13,6.543471372e-18\nresults/model/sptrsv/components-grouped-pilot-h100/factors/adder_dcop_50-L.mtx,1813,3867,8,cached-components-512,885.226,13.28960061,1.181277298e-13,6.543471372e-18\n",
+  "stderr": "cudaGetLastError(): invalid argument\n"
+}

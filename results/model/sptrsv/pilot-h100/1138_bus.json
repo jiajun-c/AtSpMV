@@ -1,0 +1,6 @@
+{
+  "name": "1138_bus",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,cusparse,23097.167,41.48800075,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,packed-adaptive,136.019,51.38559937,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,1,21.805,58.44799876,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,2,21.805,49.98399913,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,4,21.805,44.68800128,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,8,21.805,42.86080003,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,16,21.805,44.48960125,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,32,21.805,45.63840032,2.220446049e-16\n/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx,1138,2596,21,adaptive,21.805,51.00799799,2.220446049e-16\n",
+  "stderr": "packed_slots=4352,strict_lower_nnz=1458,packing_us=114.214\n"
+}

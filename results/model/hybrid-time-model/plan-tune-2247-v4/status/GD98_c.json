@@ -1,0 +1,19 @@
+{
+  "dataset": "GD98_c",
+  "matrix_sha256": "aaed98aef4bdb1ea4430e3db59e5e2611792ea46ff00d7d8cd3f1613a9137197",
+  "index_nnz": 336,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.828,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

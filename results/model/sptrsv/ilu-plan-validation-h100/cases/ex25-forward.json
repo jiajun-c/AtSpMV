@@ -1,0 +1,7 @@
+{
+  "name": "ex25",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,default,cusparse,848,32950,-1,6195.162,530.3295898,1.199040867e-14\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex25-L.mtx,model,cusparse,848,32950,542,6121.999,529.8720093,1.199040867e-14\n",
+  "stderr": ""
+}

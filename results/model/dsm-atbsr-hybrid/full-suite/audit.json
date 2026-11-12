@@ -1,0 +1,32 @@
+{
+  "manifest_total": 2798,
+  "status_counts": {
+    "ok": 2794,
+    "error": 1,
+    "missing": 3
+  },
+  "sweep_problems": [],
+  "targeted": {
+    "crossover-confirmation": {
+      "complete": true,
+      "cases": 32,
+      "runs": 96,
+      "failures": [],
+      "problems": []
+    },
+    "medium-tail-confirmation": {
+      "complete": true,
+      "cases": 24,
+      "runs": 72,
+      "failures": [],
+      "problems": []
+    },
+    "large-wins-confirmation": {
+      "complete": true,
+      "cases": 8,
+      "runs": 24,
+      "failures": [],
+      "problems": []
+    }
+  }
+}

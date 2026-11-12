@@ -1,0 +1,15 @@
+{
+  "dataset": "mesh_deform",
+  "matrix_sha256": "2eb562a0ae815343e7cb460727fc7752bf2ae5342bfb24fee3b9634cde0c60d2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.338,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

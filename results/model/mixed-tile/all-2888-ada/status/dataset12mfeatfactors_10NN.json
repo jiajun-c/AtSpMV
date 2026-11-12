@@ -1,0 +1,15 @@
+{
+  "dataset": "dataset12mfeatfactors_10NN",
+  "matrix_sha256": "4687fcd3af975b363046c11695153606be4d2e0127198b720585736cc8330546",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.037,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 48508
+  }
+}

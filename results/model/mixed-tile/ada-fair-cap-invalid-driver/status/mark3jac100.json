@@ -1,0 +1,15 @@
+{
+  "dataset": "mark3jac100",
+  "matrix_sha256": "d5e9d772d1fb581c7d63e202e308866fd2b37c553adc3c54338bda0fb81281a9",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": -11,
+  "elapsed_s": 0.738,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

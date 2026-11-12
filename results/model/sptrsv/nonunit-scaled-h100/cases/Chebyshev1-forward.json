@@ -1,0 +1,7 @@
+{
+  "name": "Chebyshev1",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/Chebyshev1-L.mtx,default,cusparse,261,959,-1,3016.596,172.8063965,4.662936703e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/Chebyshev1-L.mtx,default-host,cusparse,261,959,-1,3016.596,181.429555,4.662936703e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/Chebyshev1-L.mtx,model,cached,261,959,237,1608.522,139.8239899,4.662936703e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/Chebyshev1-L.mtx,model-host,cached,261,959,237,1608.522,147.254395,4.662936703e-15\n",
+  "stderr": ""
+}

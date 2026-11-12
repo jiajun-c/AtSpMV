@@ -1,0 +1,32 @@
+{
+  "dataset": "coater1",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "864363ab0b51ebf10905ec8a6c65b91ab344d38812ae4cfc511ad177780be8b0",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/coater1/coater1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/coater1-0.csv",
+        "20261299",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.5023639518767595
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/coater1/coater1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/coater1-1.csv",
+        "20261300",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0024579630699009
+    }
+  ]
+}

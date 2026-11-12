@@ -1,0 +1,9 @@
+{
+  "name": "bcsstm21",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm21-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3600, 3600 ) nnz = 3600\nloadfile time    = 0.00068 sec\nnnzL = 3600\ntime_for_csc2CompressTile = 1.88 ms\ntime_cuda_solve = 0.036670 ms, Mflops = 196.35\nVALIDATION finite=1 max_error=0 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

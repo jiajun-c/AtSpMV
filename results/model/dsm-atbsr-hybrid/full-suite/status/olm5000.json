@@ -1,0 +1,10 @@
+{
+  "dataset": "olm5000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/olm5000/olm5000.mtx",
+  "matrix_sha256": "ede5778f23ba8d3fe7d773801fde6d506987697b1b40b8c996a2d06e2fc859f0",
+  "index_nnz": 19996,
+  "index_rows": 5000,
+  "elapsed_s": 1.174,
+  "returncode": 0,
+  "status": "ok"
+}

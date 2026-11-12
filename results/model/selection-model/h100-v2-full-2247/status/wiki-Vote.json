@@ -1,0 +1,17 @@
+{
+  "dataset": "wiki-Vote",
+  "matrix_sha256": "c28b16ffed623c7f220cd4b8feab92edfca5b481ebc663db3e75bd1d19a8eec3",
+  "index_nnz": 103689,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.755,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

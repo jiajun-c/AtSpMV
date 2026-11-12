@@ -1,0 +1,17 @@
+{
+  "dataset": "torsion1",
+  "matrix_sha256": "690f1060abbdb76444c753a212e522052c4a35a328fe0787da5bcaeb9acfc91f",
+  "index_nnz": 197608,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.929,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

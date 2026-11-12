@@ -1,0 +1,13 @@
+{
+  "matrix": "crack",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/crack/crack.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 10240,
+  "columns": 10240,
+  "original_nnz": 60760,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.11470618518069386
+}

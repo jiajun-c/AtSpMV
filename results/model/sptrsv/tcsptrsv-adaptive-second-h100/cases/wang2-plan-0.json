@@ -1,0 +1,9 @@
+{
+  "name": "wang2",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,default,cusparse,2912,35153,-1,3390.374,246.6752014,1.33226763e-15,5.061288806e-17,1.43672306e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,default-host,cusparse,2912,35153,-1,3390.374,252.92077,1.33226763e-15,5.061288806e-17,1.43672306e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,model,cusparse,2912,35153,154,3506.141,246.8512115,1.33226763e-15,5.061288806e-17,1.43672306e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,model-host,cusparse,2912,35153,154,3506.141,253.71533,1.33226763e-15,5.061288806e-17,1.43672306e-16,0\n",
+  "stderr": ""
+}

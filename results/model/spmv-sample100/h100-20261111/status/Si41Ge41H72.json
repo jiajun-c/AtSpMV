@@ -1,0 +1,32 @@
+{
+  "dataset": "Si41Ge41H72",
+  "status": "ok",
+  "matrix_sha256": "6b8680f7fd26c9a1630c1ffcee875b1a2e113914aa5a117bf114635f09ce017f",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Si41Ge41H72/Si41Ge41H72.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Si41Ge41H72-0.csv",
+        "20261195",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 48.518002927070484
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Si41Ge41H72/Si41Ge41H72.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Si41Ge41H72-1.csv",
+        "20261196",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 49.73704758891836
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

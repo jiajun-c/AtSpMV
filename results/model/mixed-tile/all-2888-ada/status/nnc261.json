@@ -1,0 +1,15 @@
+{
+  "dataset": "nnc261",
+  "matrix_sha256": "244bdd798d1e8ac1fa9c07e2d80aee37565f400cf8a5e38980955237b9420f67",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.279,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

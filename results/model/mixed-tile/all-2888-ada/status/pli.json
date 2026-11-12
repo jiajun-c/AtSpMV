@@ -1,0 +1,15 @@
+{
+  "dataset": "pli",
+  "matrix_sha256": "ffd25d03dcf93c1125e3a5241ab0a68ff1cb475c1a29247062b5b03abf3170dc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.913,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

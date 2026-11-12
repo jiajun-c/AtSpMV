@@ -1,0 +1,10 @@
+{
+  "dataset": "pli",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pli/pli.mtx",
+  "matrix_sha256": "ffd25d03dcf93c1125e3a5241ab0a68ff1cb475c1a29247062b5b03abf3170dc",
+  "index_nnz": 1350309,
+  "index_rows": 22695,
+  "elapsed_s": 1.371,
+  "returncode": 0,
+  "status": "ok"
+}

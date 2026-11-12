@@ -1,0 +1,10 @@
+{
+  "dataset": "t2d_q9",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t2d_q9/t2d_q9.mtx",
+  "matrix_sha256": "72819aa64069489052bff304ec98046f44d198aec5d43578f1aeab8b0439857e",
+  "index_nnz": 87025,
+  "index_rows": 9801,
+  "elapsed_s": 1.316,
+  "returncode": 0,
+  "status": "ok"
+}

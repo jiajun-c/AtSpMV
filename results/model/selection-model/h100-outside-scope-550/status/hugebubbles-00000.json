@@ -1,0 +1,17 @@
+{
+  "dataset": "hugebubbles-00000",
+  "matrix_sha256": "adcd57f7f8bad084ddf0569897084ea262099e1332486e7c130df8e39a31fda5",
+  "index_nnz": 54940162,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 794.477,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

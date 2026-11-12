@@ -1,0 +1,19 @@
+{
+  "dataset": "LFAT5000",
+  "matrix_sha256": "fcd9be9fa0bcf626d06cf61ebc65e36e51a398b523551a912680e2f861be7771",
+  "index_nnz": 79966,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.68,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

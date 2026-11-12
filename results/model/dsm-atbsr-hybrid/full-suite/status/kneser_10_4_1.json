@@ -1,0 +1,10 @@
+{
+  "dataset": "kneser_10_4_1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/kneser_10_4_1/kneser_10_4_1.mtx",
+  "matrix_sha256": "8dc31c018612d96c6cedf2f01104e43553e43ac2eb929c7cfa4076ea6e61ba01",
+  "index_nnz": 992252,
+  "index_rows": 349651,
+  "elapsed_s": 1.234,
+  "returncode": 0,
+  "status": "ok"
+}

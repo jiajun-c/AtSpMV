@@ -1,0 +1,10 @@
+{
+  "dataset": "wang2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wang2/wang2.mtx",
+  "matrix_sha256": "4d19413eca21d3355f2f36e26b35ff37f5ea115165ce778829c16bafab8def1c",
+  "index_nnz": 19093,
+  "index_rows": 2903,
+  "elapsed_s": 1.358,
+  "returncode": 0,
+  "status": "ok"
+}

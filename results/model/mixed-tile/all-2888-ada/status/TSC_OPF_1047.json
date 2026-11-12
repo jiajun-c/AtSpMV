@@ -1,0 +1,15 @@
+{
+  "dataset": "TSC_OPF_1047",
+  "matrix_sha256": "478cc90f56261ea4afb71d771e496d39e4ba67045d7f61b4eb90443ad808b707",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.89,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

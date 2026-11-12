@@ -1,0 +1,17 @@
+{
+  "dataset": "jazz",
+  "matrix_sha256": "f8539f84b99c350685ddaddd74984b6f5db5f47128ff775858da60da20d09925",
+  "index_nnz": 5484,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.208,
+  "gpu_after": {
+    "utilization_percent": 14,
+    "free_memory_mib": 81079
+  }
+}

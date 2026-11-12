@@ -1,0 +1,17 @@
+{
+  "dataset": "lesmis",
+  "matrix_sha256": "47fe4f41bcc02c4567326852779117ed96672934b921aa16faeed390d3c9acee",
+  "index_nnz": 508,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.504,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

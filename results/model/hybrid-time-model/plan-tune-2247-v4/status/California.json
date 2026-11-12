@@ -1,0 +1,19 @@
+{
+  "dataset": "California",
+  "matrix_sha256": "f4cc8b87947acdf3fcec429086571228fe15b16e0dec42d2b3fdd9ebc516052a",
+  "index_nnz": 16150,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.821,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

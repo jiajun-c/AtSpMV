@@ -1,0 +1,15 @@
+{
+  "dataset": "seymourl",
+  "matrix_sha256": "0dedb395b90c0a332e5b249ac4e26bfc300c22d8ecb6a8f9d3faf1709100ad4b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.516,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

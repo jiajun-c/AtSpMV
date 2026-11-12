@@ -1,0 +1,7 @@
+{
+  "name": "cavity15",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/cavity15-L.mtx,model,cusparse,2597,130660,1676,18414.249,1275.222412,6.350475701e-14,2.239872482e-17,9.632878254e-17,0\nresults/model/sptrsv/components-independent-h100/factors/cavity15-L.mtx,model-host,cusparse,2597,130660,1676,18414.249,1284.1923,6.350475701e-14,2.239872482e-17,9.632878254e-17,0\nresults/model/sptrsv/components-independent-h100/factors/cavity15-L.mtx,default,cusparse,2597,130660,-1,21433.485,1275.113525,6.350475701e-14,2.239872482e-17,9.632878254e-17,0\nresults/model/sptrsv/components-independent-h100/factors/cavity15-L.mtx,default-host,cusparse,2597,130660,-1,21433.485,1291.80858,6.350475701e-14,2.239872482e-17,9.632878254e-17,0\n",
+  "stderr": ""
+}

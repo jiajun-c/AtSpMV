@@ -1,0 +1,9 @@
+{
+  "name": "adder_dcop_48",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=8.0024875614981283e-13 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.048000000 ms\n",
+  "stderr": ""
+}

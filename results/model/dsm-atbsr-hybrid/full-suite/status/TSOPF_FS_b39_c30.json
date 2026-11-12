@@ -1,0 +1,10 @@
+{
+  "dataset": "TSOPF_FS_b39_c30",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_FS_b39_c30/TSOPF_FS_b39_c30.mtx",
+  "matrix_sha256": "05282c8aeaa0b5846a0c863e6e1f7addca0e4c9aa20413b197f6955202581989",
+  "index_nnz": 3121160,
+  "index_rows": 120216,
+  "elapsed_s": 2.52,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "GAP-urand",
+  "file_bytes": 47074534776,
+  "file_mtime_ns": 1571713233000000000,
+  "structure": {
+    "dataset": "GAP-urand",
+    "rows": "134217728",
+    "columns": "134217728",
+    "nnz": "4294966740",
+    "longest_row": "57337431",
+    "longest_row_nnz": "68",
+    "ratio": "1.5832485818e-08",
+    "status": "ok"
+  },
+  "status": "unsupported_int32_nnz",
+  "elapsed_s": 404.78
+}

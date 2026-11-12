@@ -1,0 +1,13 @@
+{
+  "matrix": "ash292",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ash292/ash292.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 292,
+  "columns": 292,
+  "original_nnz": 2208,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.02522706286981702
+}

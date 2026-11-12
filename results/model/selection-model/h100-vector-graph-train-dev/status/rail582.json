@@ -1,0 +1,17 @@
+{
+  "dataset": "rail582",
+  "matrix_sha256": "7e84631464825450aaf9361675b87a8533b6dd1cf18303f07291dfbd80bed6d6",
+  "index_nnz": 402290,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.517,
+  "gpu_after": {
+    "utilization_percent": 26,
+    "free_memory_mib": 81079
+  }
+}

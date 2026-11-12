@@ -1,0 +1,15 @@
+{
+  "dataset": "har_10NN",
+  "matrix_sha256": "edc62a0b8f84e67ee3f60880a59ce734958a574c2ced97a6a09624fc3df1f07b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.477,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

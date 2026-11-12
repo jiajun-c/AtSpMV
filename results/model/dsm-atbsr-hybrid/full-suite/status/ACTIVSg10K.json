@@ -1,0 +1,10 @@
+{
+  "dataset": "ACTIVSg10K",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ACTIVSg10K/ACTIVSg10K.mtx",
+  "matrix_sha256": "f8a6265a68a27f5692c6296f80293a0e1054d52021f9b3f18fc312f1f186796b",
+  "index_nnz": 137736,
+  "index_rows": 20000,
+  "elapsed_s": 1.238,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "3dtube",
+  "matrix_sha256": "8ac6788df051e67ea6b104b439d538633f2a7ad0ca591ebab692a715797cb4c6",
+  "index_nnz": 3213618,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 97.507,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

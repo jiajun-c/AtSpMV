@@ -1,0 +1,10 @@
+{
+  "dataset": "mri1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mri1/mri1.mtx",
+  "matrix_sha256": "2c24a67c745b9971fb4370f77f6369e72074f3bc8cdba31eac65cfb4e232d5af",
+  "index_nnz": 589824,
+  "index_rows": 65536,
+  "elapsed_s": 1.274,
+  "returncode": 0,
+  "status": "ok"
+}

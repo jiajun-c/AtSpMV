@@ -1,0 +1,10 @@
+{
+  "dataset": "optdigits_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/optdigits_10NN/optdigits_10NN.mtx",
+  "matrix_sha256": "96faaf1c947ec5aadcc18b682c7babc4345d9c77024f849ea368c1378835f890",
+  "index_nnz": 79650,
+  "index_rows": 5620,
+  "elapsed_s": 1.434,
+  "returncode": 0,
+  "status": "ok"
+}

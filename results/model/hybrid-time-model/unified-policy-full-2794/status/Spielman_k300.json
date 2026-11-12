@@ -1,0 +1,17 @@
+{
+  "dataset": "Spielman_k300",
+  "matrix_sha256": "11bfc4eaaa059a9a4154f822eeb29d92c3b2720869b33b576103cb7997fd8d49",
+  "index_nnz": 27226204,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 204.291,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

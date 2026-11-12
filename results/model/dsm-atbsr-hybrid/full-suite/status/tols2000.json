@@ -1,0 +1,10 @@
+{
+  "dataset": "tols2000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tols2000/tols2000.mtx",
+  "matrix_sha256": "2afcae488e3d021e0f4e2ce3ac411e271e7dd0298c8166fc0e986ad635b8953a",
+  "index_nnz": 5184,
+  "index_rows": 2000,
+  "elapsed_s": 1.258,
+  "returncode": 0,
+  "status": "ok"
+}

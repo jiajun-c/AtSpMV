@@ -1,0 +1,13 @@
+{
+  "matrix": "reorientation_4",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/reorientation_4/reorientation_4.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2717,
+  "columns": 2717,
+  "original_nnz": 33630,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.06200184300541878
+}

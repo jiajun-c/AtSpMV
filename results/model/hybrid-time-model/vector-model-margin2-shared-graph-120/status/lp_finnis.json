@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_finnis",
+  "matrix_sha256": "f4aa0ece84830dfe2494aa38b339f626f12848520f9152c42ceeabef2733a0da",
+  "index_nnz": 2760,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.411,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

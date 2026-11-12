@@ -1,0 +1,17 @@
+{
+  "dataset": "twotone",
+  "matrix_sha256": "9d5ffb1f79a8f3dbee39b86282bb4ba82e04e879b4a5484cc5fb49e7c7d34260",
+  "index_nnz": 1224224,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 51.458,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

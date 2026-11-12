@@ -1,0 +1,8 @@
+{
+  "name": "mcca",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,default,cusparse,180,1723,-1,2516.409,80.55999756,1.33226763e-15,3.319905036e-17,1.010937876e-16,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,default-host,cusparse,180,1723,-1,2516.409,91.13845,1.33226763e-15,3.319905036e-17,1.010937876e-16,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,model,cached,180,1723,92,1485.968,69.37919617,1.33226763e-15,2.847185333e-17,1.010937876e-16,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,model-host,cached,180,1723,92,1485.968,76.832775,1.33226763e-15,2.847185333e-17,1.010937876e-16,512\n",
+  "stderr": ""
+}

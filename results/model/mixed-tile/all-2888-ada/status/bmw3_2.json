@@ -1,0 +1,15 @@
+{
+  "dataset": "bmw3_2",
+  "matrix_sha256": "f323d640cdbcb1fe68a786f46818da4b490e3a6e4f3fd3169e814735f0011a65",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.656,
+  "gpu_after": {
+    "utilization_percent": 78,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "wing_nodal",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wing_nodal/wing_nodal.mtx",
+  "matrix_sha256": "f71f24aba51b248670ee788b3efb774a1a028ae1693e9cc3a76b24992cd24abc",
+  "index_nnz": 150976,
+  "index_rows": 10937,
+  "elapsed_s": 0.616,
+  "returncode": 0,
+  "status": "ok"
+}

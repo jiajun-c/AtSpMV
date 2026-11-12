@@ -1,0 +1,9 @@
+{
+  "name": "ex8",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex8-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3104, 3104 ) nnz = 247788\nloadfile time    = 0.12353 sec\nnnzL = 247788\ntime_for_csc2CompressTile = 3.83 ms\ntime_cuda_solve = 1.368300 ms, Mflops = 362.18\nVALIDATION finite=1 max_error=2.8881341762598822e-12 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cca",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cca/cca.mtx",
+  "matrix_sha256": "6845c6002baaf709b7026e1a71e3eea013769beb73138a5f1abe5d2a6c6ae894",
+  "index_nnz": 139264,
+  "index_rows": 49152,
+  "elapsed_s": 1.241,
+  "returncode": 0,
+  "status": "ok"
+}

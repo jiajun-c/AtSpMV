@@ -1,0 +1,23 @@
+{
+  "purpose": "Probe sensitivity to identical CSR/X/Y copies; does not reproduce Plan construction allocation history.",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "trials_per_combination": 31,
+  "calls_per_graph": 8,
+  "seeds": [
+    20261028,
+    20261029
+  ],
+  "exe_and_source_sha256": {
+    "cusparse_buffer_probe": "30367d2d3787999a8057282b9d580a358acedd9391704b7f11038788e817a414",
+    "cusparse_buffer_probe.cu": "39118ea21ba41e0a84fd64609cb78b8812a729caec8fbfe9321121f7c9039edc",
+    "run_on_idle_gpu.py": "ed6455af458fa2cb8d3a138a6d1ebfef760136d5032f2860bbb54577844e219a",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "analyze_cusparse_buffers.py": "6c617fafe5d22bb6c2acbcf3aebad6ae54c8184e3f327f5f62e4251175ece8bc"
+  },
+  "matrix_sha256": {
+    "sgpf5y6": "917908e1e85908c183324c51c10c96fccf29377ea53be6cef3b0124f00695120",
+    "nemeth20": "e419bdecd0680457fa6d27fc37cc89eb7e21522a68134396892d60e6bd261e1e",
+    "smallworld": "664de2f80df75a5c7facd12a211acf5de8ed27f87e76654e2acf8a3d016db7aa",
+    "TSOPF_RS_b162_c4": "492b7c54659cb58033ce5deef4b91bb07aefabadda47f55ad03b2948d0e601e5"
+  }
+}

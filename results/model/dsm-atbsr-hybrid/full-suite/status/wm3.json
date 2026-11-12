@@ -1,0 +1,10 @@
+{
+  "dataset": "wm3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wm3/wm3.mtx",
+  "matrix_sha256": "9cbf3450e6ecad9cde31f3c4937319bdc2d61cc75977f76b7cd93b58ca958865",
+  "index_nnz": 2948,
+  "index_rows": 207,
+  "elapsed_s": 0.766,
+  "returncode": 0,
+  "status": "ok"
+}

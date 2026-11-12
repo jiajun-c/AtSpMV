@@ -1,0 +1,17 @@
+{
+  "dataset": "G32",
+  "matrix_sha256": "0b25c3043438184b1888df6956c8eb720560a47423f17a2fb3e8f414c9bfdda7",
+  "index_nnz": 8000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.493,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

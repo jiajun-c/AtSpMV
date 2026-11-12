@@ -1,0 +1,15 @@
+{
+  "dataset": "dwg961b",
+  "matrix_sha256": "9ca38872ccea1b9843f94f959c9b92e0c6947dc9bb3101a6c1939b0528e3f49e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.361,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "pde2961",
+  "matrix_sha256": "4c1dc15b4161fb94678ad86bcac31ab3df404528ec2552daac9dca99d8c3554f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.443,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

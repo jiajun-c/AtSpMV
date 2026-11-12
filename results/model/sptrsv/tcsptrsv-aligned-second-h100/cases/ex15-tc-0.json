@@ -1,0 +1,9 @@
+{
+  "name": "ex15",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/ex15-L.mtx --------------\nsuccess open file\ninput matrix A: ( 6880, 6880 ) nnz = 233817\nloadfile time    = 0.09038 sec\nnnzL = 233817\ntime_for_csc2CompressTile = 2.64 ms\ntime_cuda_solve = 2.679200 ms, Mflops = 174.54\nVALIDATION finite=1 max_error=5.0692783304384648e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "patents_main",
+  "matrix_sha256": "24cde05c7d2ecaec3bc4e21590fb0592c3ddceedd6fad936996b98de88d9e817",
+  "index_nnz": 560943,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.462,
+  "gpu_after": {
+    "utilization_percent": 42,
+    "free_memory_mib": 81079
+  }
+}

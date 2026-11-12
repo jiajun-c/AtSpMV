@@ -1,0 +1,10 @@
+{
+  "dataset": "rosen1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rosen1/rosen1.mtx",
+  "matrix_sha256": "536f7a3033d51813b51bc2e81f59c0f730c69d168a9b222ce9883c394f03086a",
+  "index_nnz": 23794,
+  "index_rows": 520,
+  "elapsed_s": 1.145,
+  "returncode": 0,
+  "status": "ok"
+}

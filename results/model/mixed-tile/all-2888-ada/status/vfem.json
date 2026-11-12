@@ -1,0 +1,15 @@
+{
+  "dataset": "vfem",
+  "matrix_sha256": "0760d26c105af4b597f53135407f966768860ab5bae859f27ed067b2682b0a19",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.421,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

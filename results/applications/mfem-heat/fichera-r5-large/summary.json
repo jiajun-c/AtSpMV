@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "cusparse": {
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0,
+      "max_field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "median_evolution_s": 32.42668594,
+      "median_application_s": 78.229039481,
+      "median_plan_s": 1.6877746194999999,
+      "ratio_of_median_application_times": 1.0,
+      "ratio_of_median_evolution_times": 1.0
+    },
+    "atbsr": {
+      "evolution_speedup": 0.9510963743269318,
+      "application_speedup": 0.9500040350228686,
+      "process_wall_speedup": 0.9492470083893778,
+      "max_field_relative_error": 4.605557109938076e-14,
+      "same_cg_iterations": true,
+      "median_evolution_s": 34.0939524455,
+      "median_application_s": 82.34766304499999,
+      "median_plan_s": 1.7996039984999999,
+      "ratio_of_median_application_times": 0.9499849368919029,
+      "ratio_of_median_evolution_times": 0.9510978814156215
+    }
+  },
+  "comparisons": [
+    {
+      "round": 0,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 0,
+      "backend": "atbsr",
+      "field_relative_error": 4.605557109938076e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 0.9502820246263651,
+      "application_speedup": 0.9344323194157728,
+      "process_wall_speedup": 0.9329574694026169
+    },
+    {
+      "round": 1,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 1,
+      "backend": "atbsr",
+      "field_relative_error": 4.605557109938076e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 0.9519114218892044,
+      "application_speedup": 0.9658352432886728,
+      "process_wall_speedup": 0.9658209645002881
+    }
+  ]
+}

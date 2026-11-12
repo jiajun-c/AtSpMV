@@ -1,0 +1,8 @@
+{
+  "name": "pores_2",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,model,cusparse,1224,16874,374,4948.591,307.785614,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,model-host,cusparse,1224,16874,374,4948.591,314.992695,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,default,cusparse,1224,16874,-1,5045.583,307.9487915,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,default-host,cusparse,1224,16874,-1,5045.583,314.59544,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n",
+  "stderr": ""
+}

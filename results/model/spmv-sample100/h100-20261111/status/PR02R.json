@@ -1,0 +1,32 @@
+{
+  "dataset": "PR02R",
+  "status": "ok",
+  "matrix_sha256": "a6c84631556a9629c7c99acefa0ec1a78984e22ddbaccc0c3e3ada9b3ed37a1a",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/PR02R/PR02R.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/PR02R-0.csv",
+        "20261171",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.5523674620781094
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/PR02R/PR02R.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/PR02R-1.csv",
+        "20261172",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.951079776044935
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

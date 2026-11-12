@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_bandm",
+  "matrix_sha256": "a914a9939869e07639c7d4c8cc0411d1f395de118c19b0c2f77b2d9455f56d6f",
+  "index_nnz": 2494,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.066,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

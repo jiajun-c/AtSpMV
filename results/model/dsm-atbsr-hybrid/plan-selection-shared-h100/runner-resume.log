@@ -1,0 +1,33 @@
+DONE new cases 8
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "selected_backends": {
+    "hybrid_dsm_atbsr": 15,
+    "atbsr": 40,
+    "csr_dsm": 8,
+    "cusparse": 9,
+    "csr_two_stage": 8
+  },
+  "method": "Actual tuned selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.1508497279237124,
+    "median": 1.1106469044869893,
+    "wins": 63,
+    "cases": 80
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.310085630733327,
+    "median": 1.2971590822270826,
+    "wins": 77,
+    "cases": 80
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1052874338449399,
+    "median": 1.078012804028908,
+    "wins": 60,
+    "cases": 80
+  }
+}

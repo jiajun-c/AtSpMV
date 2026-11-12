@@ -1,0 +1,7 @@
+{
+  "name": "adder_dcop_66",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cusparse,26513.506,18.49920005,8.002487561e-13,3.8942006e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cusparse-host,26513.506,26.037045,8.002487561e-13,3.8942006e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-128,102.19,26.52480006,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-host-128,102.19,33.085165,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-256,102.19,17.67680049,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-host-256,102.19,24.18118,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-512,102.19,13.49759996,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,cached-tiles-host-512,102.19,20.148325,8.002487561e-13,3.94988507e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,1813,3863,8,selector-cached,102.19,13.49440068,8.002487561e-13,3.94988507e-17\n",
+  "stderr": ""
+}

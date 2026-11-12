@@ -1,0 +1,17 @@
+{
+  "dataset": "graham1",
+  "matrix_sha256": "5bf7b4b5bc38317e29cb9be3b7cd1e3d9ada256aa1e5ae14aa17f8e77960d2bd",
+  "index_nnz": 335504,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.259,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status_counts": {
+    "ok": 25
+  },
+  "valid_pairs": 25,
+  "adaptive_1024": 11,
+  "geomean_fixed_over_adaptive": 1.0221401594781934,
+  "wins_gt_5pct": 5,
+  "losses_gt_5pct": 0
+}

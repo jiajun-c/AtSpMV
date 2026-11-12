@@ -1,0 +1,17 @@
+{
+  "dataset": "wikipedia-20061104",
+  "matrix_sha256": "a86bc93858c4db1bca68b84f5b84be066073a21484b8b750083d20964c4c51c0",
+  "index_nnz": 39383235,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 132.35,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

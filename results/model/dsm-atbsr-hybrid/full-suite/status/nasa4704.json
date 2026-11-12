@@ -1,0 +1,10 @@
+{
+  "dataset": "nasa4704",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nasa4704/nasa4704.mtx",
+  "matrix_sha256": "20ad7ce634e138660a367adf7a61541ae9d475359a97d94cac4410374812e784",
+  "index_nnz": 104756,
+  "index_rows": 4704,
+  "elapsed_s": 1.312,
+  "returncode": 0,
+  "status": "ok"
+}

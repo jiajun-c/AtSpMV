@@ -1,0 +1,10 @@
+{
+  "dataset": "mnist_test_norm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mnist_test_norm_10NN/mnist_test_norm_10NN.mtx",
+  "matrix_sha256": "e6d65acddb6c8fc9e8918808a46b7cd9ba28629ac3782578b784f2b125080965",
+  "index_nnz": 145600,
+  "index_rows": 10000,
+  "elapsed_s": 0.913,
+  "returncode": 0,
+  "status": "ok"
+}

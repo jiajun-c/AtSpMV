@@ -1,0 +1,15 @@
+{
+  "dataset": "G19",
+  "matrix_sha256": "6e68159a1b61de0857a6e1e041da1f0feb3d8037ccc8c5ca0fb2cf15b6018524",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.045,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "mycielskian16",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mycielskian16/mycielskian16.mtx",
+  "matrix_sha256": "5217c5c61b1836671a79d03a0cb7d039e217ba622aa16b6b8e50058cc7254e06",
+  "index_nnz": 33382480,
+  "index_rows": 49151,
+  "elapsed_s": 10.18,
+  "returncode": 0,
+  "status": "ok"
+}

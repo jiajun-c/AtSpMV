@@ -1,0 +1,10 @@
+{
+  "dataset": "lpl2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpl2/lpl2.mtx",
+  "matrix_sha256": "2f8049866f2fa3d82117b124b6c812d3ffd693eb89b077fa7e3b828e5b763068",
+  "index_nnz": 32232,
+  "index_rows": 3294,
+  "elapsed_s": 1.145,
+  "returncode": 0,
+  "status": "ok"
+}

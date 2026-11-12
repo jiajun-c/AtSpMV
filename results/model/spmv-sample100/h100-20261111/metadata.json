@@ -1,0 +1,15 @@
+{
+  "gpu_monitor": "nvml",
+  "manifest_sha256": "97128ad1ff3f0a7eb3268cd4a0b838d0022c6087a7770b5549f750cec59d65ac",
+  "exe_sha256": "4a836ff96a72d3887d1839dd81a674703dcd78cf0c3a678ab93f2d7171ce273b",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "timeout": 600,
+  "prefetch": 2,
+  "warps": 4,
+  "cap": 8,
+  "cta_reduce": 0,
+  "persist_x": false,
+  "pad_x_to_columns": 32767,
+  "measurement": "FP64 warm Graph internal events, 8 SpMVs/batch, 3 warmup rounds, randomized interleaving, two reversed construction orders; setup excluded"
+}

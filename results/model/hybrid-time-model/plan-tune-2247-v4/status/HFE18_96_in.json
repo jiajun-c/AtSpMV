@@ -1,0 +1,19 @@
+{
+  "dataset": "HFE18_96_in",
+  "matrix_sha256": "ac2e4c4d8202a3974e9e5019474cc70a7d5e7e19b46f13c76cc61989c373b528",
+  "index_nnz": 933343,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.967,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

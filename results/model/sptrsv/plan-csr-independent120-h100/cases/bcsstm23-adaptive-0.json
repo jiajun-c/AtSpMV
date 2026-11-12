@@ -1,0 +1,8 @@
+{
+  "name": "bcsstm23",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstm23-L.mtx,default,cusparse,3134,3134,-1,3716.793,5.619199753,0,0,0,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstm23-L.mtx,default-host,cusparse,3134,3134,-1,3716.793,12.54694,0,0,0,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstm23-L.mtx,model,cusparse,3134,3134,1,4215.992,5.552000046,0,0,0,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstm23-L.mtx,model-host,cusparse,3134,3134,1,4215.992,12.362975,0,0,0,0\n",
+  "stderr": ""
+}

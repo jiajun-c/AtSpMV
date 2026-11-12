@@ -1,0 +1,17 @@
+{
+  "dataset": "bundle_adj",
+  "matrix_sha256": "5e8896cc70c3d5dae3365a87d292533c527fab89dc6340892760044fc7144001",
+  "index_nnz": 20208051,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 70.689,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

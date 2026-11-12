@@ -1,0 +1,10 @@
+{
+  "dataset": "preferentialAttachment",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/preferentialAttachment/preferentialAttachment.mtx",
+  "matrix_sha256": "9578e46c7068db6df79768632d469279d1a20d17cc039066d3a7b2915d858804",
+  "index_nnz": 999970,
+  "index_rows": 100000,
+  "elapsed_s": 1.29,
+  "returncode": 0,
+  "status": "ok"
+}

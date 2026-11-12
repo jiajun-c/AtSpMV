@@ -1,0 +1,8 @@
+WAIT GPU busy [{'pid': 2703234, 'name': 'results/model/hybrid-time-model/shared-row-sort-h100/provenance/previous'}]
+WAIT GPU busy [{'pid': 2722485, 'name': 'results/model/hybrid-time-model/shared-row-sort-h100/provenance/current'}]
+tuned auto -> atbsr, candidates=40, setup_us=126335
+tuned atbsr -> atbsr, candidates=12, setup_us=51123.8
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=1463.64
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=1133.05
+tuned cusparse -> cusparse, candidates=1, setup_us=1840.03
+PASS: 944 direct/graph/reference checks; dsm_available=1

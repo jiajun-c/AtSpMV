@@ -1,0 +1,7 @@
+{
+  "name": "rajat04",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rajat04-L.mtx,default,cusparse,1041,10768,-1,3376.807,200.2048035,1.421085472e-14,3.962447251e-17,9.907751673e-17,0\nresults/model/sptrsv/components-independent-h100/factors/rajat04-L.mtx,default-host,cusparse,1041,10768,-1,3376.807,207.13432,1.421085472e-14,3.962447251e-17,9.907751673e-17,0\nresults/model/sptrsv/components-independent-h100/factors/rajat04-L.mtx,model,cusparse,1041,10768,174,9369.449,200.0576019,1.421085472e-14,3.962447251e-17,9.907751673e-17,0\nresults/model/sptrsv/components-independent-h100/factors/rajat04-L.mtx,model-host,cusparse,1041,10768,174,9369.449,207.3485,1.421085472e-14,3.962447251e-17,9.907751673e-17,0\n",
+  "stderr": ""
+}

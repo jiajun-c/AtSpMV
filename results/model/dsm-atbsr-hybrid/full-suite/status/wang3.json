@@ -1,0 +1,10 @@
+{
+  "dataset": "wang3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wang3/wang3.mtx",
+  "matrix_sha256": "d85e67415f640fb91146770b1e8445ac2fa211f8a45a819d36da5331868ec6a6",
+  "index_nnz": 177168,
+  "index_rows": 26064,
+  "elapsed_s": 1.397,
+  "returncode": 0,
+  "status": "ok"
+}

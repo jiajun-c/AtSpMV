@@ -1,0 +1,8 @@
+{
+  "name": "Olivetti_norm_10NN",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/Olivetti_norm_10NN-L.mtx,model,cusparse,400,12905,203,3995.718,200.4640045,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Olivetti_norm_10NN-L.mtx,model-host,cusparse,400,12905,203,3995.718,208.2225,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Olivetti_norm_10NN-L.mtx,default,cusparse,400,12905,-1,4714.13,200.4832001,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Olivetti_norm_10NN-L.mtx,default-host,cusparse,400,12905,-1,4714.13,208.25855,7.66053887e-14,3.539016584e-17,1.143886963e-16,0\n",
+  "stderr": ""
+}

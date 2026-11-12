@@ -1,0 +1,17 @@
+{
+  "dataset": "crystk01",
+  "matrix_sha256": "e7689b534992c2abc44c9b2a66c21553cf6b02134fc7aa8b9680ccd0b2df6a17",
+  "index_nnz": 315891,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.652,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

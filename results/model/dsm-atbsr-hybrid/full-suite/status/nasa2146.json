@@ -1,0 +1,10 @@
+{
+  "dataset": "nasa2146",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nasa2146/nasa2146.mtx",
+  "matrix_sha256": "3d4c739a0fcc5b8f8a9afd96a2efa03e2f6efe7aa7a09c8b38edbec02a18f14a",
+  "index_nnz": 72250,
+  "index_rows": 2146,
+  "elapsed_s": 0.897,
+  "returncode": 0,
+  "status": "ok"
+}

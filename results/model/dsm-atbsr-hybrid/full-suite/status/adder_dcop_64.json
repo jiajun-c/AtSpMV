@@ -1,0 +1,10 @@
+{
+  "dataset": "adder_dcop_64",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_64/adder_dcop_64.mtx",
+  "matrix_sha256": "da1b6691239879100cff39076cf2d77a2c3f48fff2bc6fdc8cde81643c55c504",
+  "index_nnz": 11246,
+  "index_rows": 1813,
+  "elapsed_s": 1.924,
+  "returncode": 0,
+  "status": "ok"
+}

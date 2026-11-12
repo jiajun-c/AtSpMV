@@ -1,0 +1,17 @@
+{
+  "dataset": "ca-AstroPh",
+  "matrix_sha256": "ea9ba2bde498bb854010a221fcae7174fd3c4dd2131a920325f308967d88274a",
+  "index_nnz": 396160,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.823,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

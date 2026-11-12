@@ -1,0 +1,13 @@
+{
+  "matrix": "GD01_a",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/GD01_a/GD01_a.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 311,
+  "columns": 311,
+  "original_nnz": 645,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.014034022111445665
+}

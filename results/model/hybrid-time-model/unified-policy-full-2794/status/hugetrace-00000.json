@@ -1,0 +1,17 @@
+{
+  "dataset": "hugetrace-00000",
+  "matrix_sha256": "7a6017a19bb9be76a67d11c59e4232b321979ebccbb4b8c6529230a28ab72327",
+  "index_nnz": 13758266,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 101.169,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

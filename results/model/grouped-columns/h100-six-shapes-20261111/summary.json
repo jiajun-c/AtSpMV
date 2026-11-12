@@ -1,0 +1,7 @@
+{
+  "requested": 24,
+  "successful": 24,
+  "failures": [],
+  "candidate_pairs": 408,
+  "scope": "Same predeclared prior24 sample, six ordinary shapes with grouped columns on/off and original automatic AtBSR choice, fixed depth2. Balanced and int16 fallbacks retained; not a blind sample."
+}

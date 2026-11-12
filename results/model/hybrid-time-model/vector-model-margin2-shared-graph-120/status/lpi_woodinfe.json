@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_woodinfe",
+  "matrix_sha256": "2b71f7dad8170700ee5e79fe92cad0c9e4e148cda05f186746fa4acf6ee6766a",
+  "index_nnz": 140,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.249,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

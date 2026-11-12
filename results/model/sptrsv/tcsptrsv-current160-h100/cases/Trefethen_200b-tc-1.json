@@ -1,0 +1,9 @@
+{
+  "name": "Trefethen_200b",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Trefethen_200b-L.mtx --------------\nsuccess open file\ninput matrix A: ( 208, 208 ) nnz = 5650\nloadfile time    = 0.00290 sec\nnnzL = 5650\ntime_for_csc2CompressTile = 2.80 ms\ntime_cuda_solve = 0.147720 ms, Mflops = 76.50\nVALIDATION finite=1 max_error=6.6613381477509392e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

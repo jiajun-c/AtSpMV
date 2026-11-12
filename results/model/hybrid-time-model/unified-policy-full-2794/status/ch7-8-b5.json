@@ -1,0 +1,17 @@
+{
+  "dataset": "ch7-8-b5",
+  "matrix_sha256": "500510969f46e5c6003b2412fda31954d5f33fd4791140028300e7cf4b42d97d",
+  "index_nnz": 846720,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.381,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "human_gene1",
+  "matrix_sha256": "5c035d8398baf2045367e3d77b12bc367a6f3e4ef9e8e202849de480b0ce120f",
+  "index_nnz": 24669643,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 29.307,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

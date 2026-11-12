@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_bnl1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_bnl1/lp_bnl1.mtx",
+  "matrix_sha256": "36224309085a5a68b4574803bf77cc6511d792dc7601ac77581524b0f2ff60d6",
+  "index_nnz": 5532,
+  "index_rows": 643,
+  "elapsed_s": 0.961,
+  "returncode": 0,
+  "status": "ok"
+}

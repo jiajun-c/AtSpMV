@@ -1,0 +1,10 @@
+BENCH_ORDER,baseline_first
+PLAN_PREP,atbsr,15261010.403999999
+PLAN_PREP,auto_vector_model_v2,18478.139999999999
+PLAN_PREP,hybrid_dsm_atbsr,31618.417000000001
+TIMING_MODE,internal_graph_events
+BENCH_ORDER,candidate_first
+PLAN_PREP,atbsr,15227494.838
+PLAN_PREP,hybrid_dsm_atbsr,7566.4859999999999
+PLAN_PREP,auto_vector_model_v2,5788.4359999999997
+TIMING_MODE,internal_graph_events

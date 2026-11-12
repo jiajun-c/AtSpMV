@@ -1,0 +1,15 @@
+{
+  "dataset": "aft02",
+  "matrix_sha256": "261ea4a1aff685b55259813e5772bb46a0134c1f99d8fe3630600fb85f1331c0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.447,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

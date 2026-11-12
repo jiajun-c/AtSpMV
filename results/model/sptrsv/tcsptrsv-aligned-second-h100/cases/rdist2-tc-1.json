@@ -1,0 +1,9 @@
+{
+  "name": "rdist2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdist2-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3200, 3200 ) nnz = 66803\nloadfile time    = 0.02670 sec\nnnzL = 66803\ntime_for_csc2CompressTile = 2.02 ms\ntime_cuda_solve = 1.364120 ms, Mflops = 97.94\nVALIDATION finite=1 max_error=1.4321877017664519e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "G54",
+  "matrix_sha256": "0c0794647a175d6b6e9fe81e7ab0d2d091ae33cd5473f5c7742464aef48365d1",
+  "index_nnz": 11832,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 17.08,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

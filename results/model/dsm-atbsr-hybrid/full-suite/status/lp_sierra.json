@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_sierra",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_sierra/lp_sierra.mtx",
+  "matrix_sha256": "e76e709df77f4ce6f6b2980fb6381dd74f6962c4d8d3a51841be768edf0b1587",
+  "index_nnz": 8001,
+  "index_rows": 1227,
+  "elapsed_s": 0.595,
+  "returncode": 0,
+  "status": "ok"
+}

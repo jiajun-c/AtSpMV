@@ -1,0 +1,172 @@
+diff --git a/recblock-sptrsv/main.cu b/recblock-sptrsv/main.cu
+index a9257a6..d2573f4 100644
+--- a/recblock-sptrsv/main.cu
++++ b/recblock-sptrsv/main.cu
+@@ -163,7 +163,7 @@ int main(int argc,  char ** argv)
+                 if (csrColIdxA[j] < i)
+                 {
+                     csrColIdxTR[nnz_pointer] = csrColIdxA[j];
+-                    csrValTR[nnz_pointer] = rand() % 10 + 1; //csrValA[j]; 
++                    csrValTR[nnz_pointer] = csrValA[j]; 
+                     nnz_pointer++;
+                 }
+             }
+@@ -189,7 +189,7 @@ int main(int argc,  char ** argv)
+                 if (csrColIdxA[j] > i)
+                 {
+                     csrColIdxTR[nnz_pointer] = csrColIdxA[j];
+-                    csrValTR[nnz_pointer] = rand() % 10 + 1; //csrValA[j]; 
++                    csrValTR[nnz_pointer] = csrValA[j]; 
+                     nnz_pointer++;
+                 }
+             }
+@@ -212,7 +212,7 @@ int main(int argc,  char ** argv)
+     VALUE_TYPE *x  =  (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * n * rhs);
+     for (int i = 0; i < n * rhs; i++)
+     {
+-        x_ref[i] = rand() % 10 + 1;
++        x_ref[i] = 0.5 + ((i * 37LL) % 101) / 101.0;
+     }
+ 
+     VALUE_TYPE *b  =  (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * m * rhs);
+diff --git a/recblock-sptrsv/recblocking_calculate.h b/recblock-sptrsv/recblocking_calculate.h
+index 19be11e..45481cb 100644
+--- a/recblock-sptrsv/recblocking_calculate.h
++++ b/recblock-sptrsv/recblocking_calculate.h
+@@ -37,6 +37,8 @@ void L_calculate(SpMV_block *mv_blk,
+     for (int re = 0; re < BENCH_REPEAT; re++)
+     {
+         cudaMemcpy(b_t, b_perm, rhs * m * sizeof(VALUE_TYPE), cudaMemcpyDeviceToDevice);
++        // Poison the previous output before each timed solve.
++        cudaMemset(x_t, 0, rhs * m * sizeof(VALUE_TYPE));
+ 
+         int b_offset = 0;
+         int x_offset = 0;
+@@ -95,6 +97,14 @@ void L_calculate(SpMV_block *mv_blk,
+                 }
+                 else if (trsv_blk[tri_index].method == 3)
+                 {
++                    // Restore per-solve state: the executor consumes indegrees,
++                    // partial sums, and the row assignment counter.
++                    cudaMemset(trsv_blk[tri_index].d_graphInDegree, 0, trsv_blk[tri_index].m * sizeof(int));
++                    cudaMemset(trsv_blk[tri_index].d_left_sum, 0, trsv_blk[tri_index].m * sizeof(VALUE_TYPE));
++                    cudaMemset(trsv_blk[tri_index].d_id_extractor, 0, sizeof(int));
++                    int athreads = 128;
++                    int ablocks = (trsv_blk[tri_index].nnzTR + athreads - 1) / athreads;
++                    sptrsv_syncfree_csc_cuda_analyser<<<ablocks, athreads>>>(&d_recblock_Index[index_offset[i]], trsv_blk[tri_index].m, trsv_blk[tri_index].nnzTR, trsv_blk[tri_index].d_graphInDegree);
+                     sptrsv_syncfree_warpvec_csc_cuda_executor<<<trsv_blk[tri_index].num_blocks, trsv_blk[tri_index].num_threads>>>(&d_recblock_Ptr[ptr_offset[i] - 1], &d_recblock_Index[index_offset[i]], &d_recblock_Val[index_offset[i]],
+                                                                                                                                    trsv_blk[tri_index].d_graphInDegree, trsv_blk[tri_index].d_left_sum,
+                                                                                                                                    trsv_blk[tri_index].m, trsv_blk[tri_index].substitution, &b_t[b_offset], &x_t[x_offset], trsv_blk[tri_index].d_while_profiler,
+@@ -194,6 +204,8 @@ void U_calculate(SpMV_block *mv_blk,
+     for (int re = 0; re < BENCH_REPEAT; re++)
+     {
+         cudaMemcpy(b_t, b_perm, rhs * m * sizeof(VALUE_TYPE), cudaMemcpyDeviceToDevice);
++        // Poison the previous output before each timed solve.
++        cudaMemset(x_t, 0, rhs * m * sizeof(VALUE_TYPE));
+         int b_offset = m;
+         int x_offset = m;
+         int tri_index = 0;
+@@ -254,6 +266,14 @@ void U_calculate(SpMV_block *mv_blk,
+                 }
+                 else if (trsv_blk[tri_index].method == 3)
+                 {
++                    // Restore per-solve state: the executor consumes indegrees,
++                    // partial sums, and the row assignment counter.
++                    cudaMemset(trsv_blk[tri_index].d_graphInDegree, 0, trsv_blk[tri_index].m * sizeof(int));
++                    cudaMemset(trsv_blk[tri_index].d_left_sum, 0, trsv_blk[tri_index].m * sizeof(VALUE_TYPE));
++                    cudaMemset(trsv_blk[tri_index].d_id_extractor, 0, sizeof(int));
++                    int athreads = 128;
++                    int ablocks = (trsv_blk[tri_index].nnzTR + athreads - 1) / athreads;
++                    sptrsv_syncfree_csc_cuda_analyser<<<ablocks, athreads>>>(&d_recblock_Index[index_offset[i]], trsv_blk[tri_index].m, trsv_blk[tri_index].nnzTR, trsv_blk[tri_index].d_graphInDegree);
+                     sptrsv_syncfree_warpvec_csc_cuda_executor<<<trsv_blk[tri_index].num_blocks, trsv_blk[tri_index].num_threads>>>(&d_recblock_Ptr[ptr_offset[i] - 1], &d_recblock_Index[index_offset[i]], &d_recblock_Val[index_offset[i]],
+                                                                                                                                    trsv_blk[tri_index].d_graphInDegree, trsv_blk[tri_index].d_left_sum,
+                                                                                                                                    trsv_blk[tri_index].m, trsv_blk[tri_index].substitution, &b_t[b_offset], &x_t[x_offset], trsv_blk[tri_index].d_while_profiler,
+diff --git a/recblock-sptrsv/recblocking_solver_cuda.h b/recblock-sptrsv/recblocking_solver_cuda.h
+index 2b4ba69..fa56bc6 100644
+--- a/recblock-sptrsv/recblocking_solver_cuda.h
++++ b/recblock-sptrsv/recblocking_solver_cuda.h
+@@ -85,10 +85,12 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+         // ----------------levelset_reordering_colrow_csc-----------------
+         int *d_levelItem;
+         cudaMalloc((void **)&d_levelItem, m * sizeof(int));
++        fprintf(stderr,"stage reorder start\n");
+         levelset_reordering_colrow_csc_cuda(d_cscColPtrTR, d_cscRowIdxTR, d_cscValTR,
+                                             d_cscColPtrTR_new, d_cscRowIdxTR_new, d_cscValTR_new,
+                                             d_levelItem, m, n, nnzTR, substitution);
+ 
++        fprintf(stderr,"stage reorder done\n");
+         // ---------------------reorder end----------------------
+         mat_preprocessing_cuda(d_cscColPtrTR_new, d_cscRowIdxTR_new, d_cscValTR_new, m, n,
+                                lv, loc_off, tmp_off, blk_m, blk_n, d_blk_nnz, subtri_upbound,
+@@ -111,6 +113,7 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+                 dcsr_size += blk_m[i];
+             }
+         }
++        fprintf(stderr,"stage preprocessing done\n");
+         // ---------------------get_recblock_size end--------------------------
+ 
+         cudaMalloc((void **)&d_recblock_Ptr, ptr_size * sizeof(int));
+@@ -352,6 +355,7 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+                         num_threads = WARP_PER_BLOCK * WARP_SIZE;
+                         num_blocks = ceil((double)blk_m[blk_count] / (double)(num_threads / WARP_SIZE));
+                         (trsv_blk[trsv_count]).method = 3;
++                        (trsv_blk[trsv_count]).nnzTR = blk_nnz[blk_count];
+                         (trsv_blk[trsv_count]).num_threads = num_threads;
+                         (trsv_blk[trsv_count]).num_blocks = num_blocks;
+                         (trsv_blk[trsv_count]).m = blk_m[blk_count];
+@@ -590,6 +594,7 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+         levelset_reordering_vecb_cuda<<<num_blocks, num_threads>>>(d_b, d_b_perm, d_levelItem, m);
+ 
+         cudaDeviceSynchronize();
++        fprintf(stderr,"stage solve start method=%d\n",trsv_blk[0].method);
+         int rhs = 1;
+         L_calculate(mv_blk, trsv_blk, sum_block, blk_m, blk_n, loc_off, tmp_off,
+                     m, rhs, d_x, d_b, d_b_perm, d_recblock_Ptr, d_recblock_Index, d_recblock_dcsr_rowidx,
+@@ -597,6 +602,7 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+ 
+         VALUE_TYPE *d_x_perm;
+         cudaMalloc((void **)(&d_x_perm), sizeof(VALUE_TYPE) * n);
++        fprintf(stderr,"stage calculate done\n");
+         cudaMemcpy(d_x_perm, d_x, rhs * n * sizeof(VALUE_TYPE), cudaMemcpyDeviceToDevice);
+         num_threads = WARP_PER_BLOCK * WARP_SIZE;
+         num_blocks = ceil((double)n / (double)num_threads);
+@@ -892,6 +898,7 @@ void recblocking_solver_cuda(int *d_cscColPtrTR,
+                         num_threads = WARP_PER_BLOCK * WARP_SIZE;
+                         num_blocks = ceil((double)blk_m[blk_count] / (double)(num_threads / WARP_SIZE));
+                         (trsv_blk[trsv_count]).method = 3;
++                        (trsv_blk[trsv_count]).nnzTR = blk_nnz[blk_count];
+                         (trsv_blk[trsv_count]).num_threads = num_threads;
+                         (trsv_blk[trsv_count]).num_blocks = num_blocks;
+                         (trsv_blk[trsv_count]).m = blk_m[blk_count];
+diff --git a/recblock-sptrsv/sptrsv-double b/recblock-sptrsv/sptrsv-double
+old mode 100644
+new mode 100755
+index e570f38..ebf1faf
+Binary files a/recblock-sptrsv/sptrsv-double and b/recblock-sptrsv/sptrsv-double differ
+diff --git a/recblock-sptrsv/utils_cuda.h b/recblock-sptrsv/utils_cuda.h
+index 7f7a4ec..f84bc10 100644
+--- a/recblock-sptrsv/utils_cuda.h
++++ b/recblock-sptrsv/utils_cuda.h
+@@ -54,6 +54,9 @@ __global__ void findlevel_cu(int *cscColPtr,
+         int lvi = 1;
+         while (levelPtr[lvi] != m)
+         {
++            if (levelPtr[lvi] == levelPtr[lvi - 1] || lvi >= m) {
++                printf("findlevel stalled: m=%d level=%d processed=%d\n", m, lvi, levelPtr[lvi]); nlevel[0] = -1; return;
++            }
+             for (int i = levelPtr[lvi - 1]; i < levelPtr[lvi]; i++)
+             {
+                 int node = levelItem[i];
+diff --git a/recblock-sptrsv/utils_sptrsv_cuda.h b/recblock-sptrsv/utils_sptrsv_cuda.h
+index 9140a99..a5c88fa 100644
+--- a/recblock-sptrsv/utils_sptrsv_cuda.h
++++ b/recblock-sptrsv/utils_sptrsv_cuda.h
+@@ -89,7 +89,7 @@ __global__ void sptrsv_syncfree_warpvec_csc_cuda_executor(const int *d_cscColPtr
+     do
+     {
+         __threadfence_block();
+-    } while (d_graphInDegree[perm_id] != 1);
++    } while (((volatile int*)d_graphInDegree)[perm_id] != 1);
+ 
+     VALUE_TYPE xi = d_left_sum[perm_id];
+     xi = (valb - xi) * coef;

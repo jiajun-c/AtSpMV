@@ -1,0 +1,19 @@
+{
+  "dataset": "car4",
+  "matrix_sha256": "6ea5ce3d4d0d0a52d6f65219a46b88edc182ffded67b5e9a3132cbf4c1ec5e1b",
+  "index_nnz": 63724,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.451,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

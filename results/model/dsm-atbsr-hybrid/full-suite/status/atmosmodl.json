@@ -1,0 +1,10 @@
+{
+  "dataset": "atmosmodl",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/atmosmodl/atmosmodl.mtx",
+  "matrix_sha256": "97c526810bffd9d4169bef06471a0c7c9c21cfc89e43eb4e4eea8afe46629d1d",
+  "index_nnz": 10319760,
+  "index_rows": 1489752,
+  "elapsed_s": 4.57,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "Median warm Graph time per CSR/X/Y allocation combination; effects are geometric means of paired ratios over the other two factors. Two allocations per factor, one allocation history per process; cannot isolate why addresses matter.",
+  "runs": [
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/ada-sgpf5y6.csv",
+      "trials_per_combination": 21,
+      "median_us": {
+        "000": 10.88000011,
+        "001": 11.00800037,
+        "010": 10.88000011,
+        "011": 10.88000011,
+        "100": 10.88000011,
+        "101": 10.88000011,
+        "110": 11.00800037,
+        "111": 10.88000011
+      },
+      "max_over_min": 1.0117647296604668,
+      "buffer_1_over_0": {
+        "matrix": 1.0,
+        "x": 1.0,
+        "y": 1.0
+      }
+    }
+  ]
+}

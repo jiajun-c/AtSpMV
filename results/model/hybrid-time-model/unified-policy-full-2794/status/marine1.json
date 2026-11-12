@@ -1,0 +1,17 @@
+{
+  "dataset": "marine1",
+  "matrix_sha256": "045ff0840b84078cb365e8bd865ab58c5048fd7c5a83550090e95e8b95edbf79",
+  "index_nnz": 6226538,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.822,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

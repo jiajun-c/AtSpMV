@@ -1,0 +1,101 @@
+{
+  "gpu_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 70 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 98 %, 36842 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 77027 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 4 MiB\n",
+  "cuda_visible_devices": "3",
+  "exe": "/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation",
+  "exe_sha256": "445fd7f9d7503ba4c0f5de1121ee039c779c05db88f746e01892f6e5411baeda",
+  "sources": {
+    "bench/spmv_hybrid_validation.cu": "8ed2326f3d462bf4430138f382d013476b7bd77ee4bfe26f59f816b93e1fedce",
+    "src/spmvPlan.cu": "356a5a9abe6d8c8eac121123ee2c5c362365ede2bfccd6db99ddcd15edd0167e",
+    "src/spmvPlanDsm.cu": "a10bc1b9ab7e4713676c0d0c7d935ab40b91f44cdf3bfd43c64c7586eddb2395",
+    "include/spmvPlan.h": "98b86fc234b8fadcebed410d40543d407ad93c59b1689c915a2cc012adc34fd6",
+    "include/detail/spmvPlanDsm.h": "b6b63876950df27c97de7e165db4a6ff0b4c59505b30cd2466a37eeefa35024a",
+    "include/dsmLongRow.cuh": "ced8adb26029196fe378d9b10099ef8ca502489d9c1b7ea2c568fdc33e2cf48b",
+    "src/atspmvProduct.cu": "abeec5b087861c23949669649d1ee2e78944b88fe3f2821eab20624351e12f8e",
+    "scripts/analysis/benchmark_dsm_atbsr_hybrid.py": "129bf34a33ed056f1aba92814e327feea12d10f5e8f2a6648cb0621d35adc0fa"
+  },
+  "inputs": {
+    "a5esindl": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/a5esindl/a5esindl.mtx",
+      "sha256": "72b795de223a904fdb00e40a97bcafd88d08d1328633734587988295bfaf6d5c"
+    },
+    "boyd1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/boyd1/boyd1.mtx",
+      "sha256": "abb54c90be3238903658073918777fb759890ea22cc5a6014681c71a87a44abc"
+    },
+    "blockqp1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/blockqp1/blockqp1.mtx",
+      "sha256": "15985e19d4d640ff00a9fb922ed10619114afd9b65b508a1213dc278e4b41e29"
+    },
+    "lowThrust_4": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lowThrust_4/lowThrust_4.mtx",
+      "sha256": "308e03923b1fa039782fa15a2602d6aa6f999fed8a8cba00b23d1f9106764681"
+    },
+    "bloweya": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bloweya/bloweya.mtx",
+      "sha256": "dbea7ce090aa63231d4773e253f7bc35ca6587f72b67b6a3842071f0ca2e2641"
+    },
+    "brainpc2": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/brainpc2/brainpc2.mtx",
+      "sha256": "990fac4b86d531f92c31934ed821af91c8e18bf4953f81db3aae6746635c45ba"
+    },
+    "dc1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/dc1/dc1.mtx",
+      "sha256": "18c203271ac0286d29489e04b1bcc5f45acf9e397dce7f559628272bb53b930f"
+    },
+    "lp_osa_30": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx",
+      "sha256": "01fcc847421fc17f3f07e5f38457f8f3d36575d4e94f3c44f7d7505c1fcd2668"
+    },
+    "connectus": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/connectus/connectus.mtx",
+      "sha256": "083ccf0991ad44c188a8ba336f5de59e1e51f51afad678c620456722b098cc7c"
+    }
+  },
+  "configs": {
+    "a5esindl": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/a5esindl-configs.csv",
+      "sha256": "d469d5523c0ab23bb4ea506bc90606e59f5b647303eabb54165f03651e81e7dd"
+    },
+    "boyd1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/boyd1-configs.csv",
+      "sha256": "516ece1aae1513a03ad54959cabbe754aff76d3c5702281f9c179268f2d9e050"
+    },
+    "blockqp1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/blockqp1-configs.csv",
+      "sha256": "f33441bfcd605f3581ffeab3c50004691403e16c062f1f04ad570dc5d0bfb061"
+    },
+    "lowThrust_4": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/lowThrust_4-configs.csv",
+      "sha256": "4f5ca2599fe7d15ae71c49a4ade448d071c8903b5edb7097ffa22aa27cb33777"
+    },
+    "bloweya": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/bloweya-configs.csv",
+      "sha256": "fcb2d6a057b69f456d360288f2e6f2e07150188e2daace0e42d8cba7edc97d86"
+    },
+    "brainpc2": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/brainpc2-configs.csv",
+      "sha256": "2fe2903931cb3a372294b564bce77006a207cd42e0c613e0296b130ccc676eeb"
+    },
+    "dc1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/dc1-configs.csv",
+      "sha256": "2b448d5ce565afb08b80d92db0414f2b4dd481a9c97d65928a963fd18cb6187a"
+    },
+    "lp_osa_30": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/lp_osa_30-configs.csv",
+      "sha256": "20c32429437a9d3972e661c57bfee95d0f913a2608de10951cbb143649949e75"
+    },
+    "connectus": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/validation/connectus-configs.csv",
+      "sha256": "7f17c0955aeb58bc872699e45477439663e8dca2d8d72a6424f6a2fea3b75e5f"
+    }
+  },
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "trials": 21,
+  "method": "Fixed exploratory shortlist; direct correctness with two nonuniform x vectors and poisoned y, plus CUDA Graph correctness. Three warmup and randomly interleaved timed batches; 8 calls per graph, warm graph before every timed graph, cudaEvent time per call. Setup, preprocessing and graph creation excluded.",
+  "selection": "Per dataset, take the median trial for each frozen configuration and seed, then median across seeds. Report best measured configuration in each backend and best measured non-hybrid. Exploratory, not an independent holdout.",
+  "gpu_after": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 99 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 100 %, 36842 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 78447 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 48 %, 4 MiB\n"
+}

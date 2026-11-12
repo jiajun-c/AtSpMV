@@ -1,0 +1,9 @@
+{
+  "name": "nasa1824",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/nasa1824-L.mtx,default,cusparse,1824,92922,-1,9386.128,573.4367676,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/nasa1824-L.mtx,default-host,cusparse,1824,92922,-1,9386.128,580.02019,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/nasa1824-L.mtx,model,cusparse,1824,92922,542,9276.598,573.9520264,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/nasa1824-L.mtx,model-host,cusparse,1824,92922,542,9276.598,580.098365,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\n",
+  "stderr": ""
+}

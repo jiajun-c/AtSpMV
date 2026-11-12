@@ -1,0 +1,10 @@
+{
+  "dataset": "cegb3306",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cegb3306/cegb3306.mtx",
+  "matrix_sha256": "aeee93f733aa1fd69e748f4304c6534e84aad2740b99039ef463293a17218d7e",
+  "index_nnz": 74916,
+  "index_rows": 3306,
+  "elapsed_s": 1.271,
+  "returncode": 0,
+  "status": "ok"
+}

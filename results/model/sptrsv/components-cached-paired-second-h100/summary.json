@@ -1,0 +1,9 @@
+{
+  "status_counts": {
+    "ok": 7
+  },
+  "valid_pairs": 7,
+  "geomean_baseline_over_components": 1.1197059460677419,
+  "wins_gt_5pct": 6,
+  "losses_gt_5pct": 1
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "la2010",
+  "matrix_sha256": "8ee4b3aa155d8d950ff8b36b7c10ecb76f22a1347c4468b1b54da4eb3670184b",
+  "index_nnz": 980634,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.029,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

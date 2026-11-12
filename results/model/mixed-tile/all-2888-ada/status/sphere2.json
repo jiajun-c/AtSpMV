@@ -1,0 +1,15 @@
+{
+  "dataset": "sphere2",
+  "matrix_sha256": "4176da8257cd6e1430712e4cfccc822e4380c2e756d8f2f766fae25393772711",
+  "gpu_before": {
+    "utilization_percent": 18,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.537,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

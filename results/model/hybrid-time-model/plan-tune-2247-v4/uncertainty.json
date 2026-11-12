@@ -1,0 +1,43 @@
+{
+  "matrices": 2247,
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "failures": [],
+  "complete_success": true,
+  "groups": 974,
+  "iterations": 5000,
+  "seed": 20261028,
+  "caveat": "Approximate bootstrap using name-based groups. Matrix families may be misidentified, sampling need not represent SuiteSparse, and shared-GPU/timing bias is not captured.",
+  "metrics": {
+    "speedup_vs_default": {
+      "point": 1.2010351051684331,
+      "ci95": [
+        1.1914275418101121,
+        1.2107573394520583
+      ]
+    },
+    "speedup_vs_cusparse": {
+      "point": 1.6495727474556952,
+      "ci95": [
+        1.5979087241401408,
+        1.6990467657331654
+      ]
+    },
+    "speedup_vs_best_baseline": {
+      "point": 1.1919678748491755,
+      "ci95": [
+        1.1817252050625857,
+        1.2020747050194016
+      ]
+    },
+    "speedup_vs_extended_baseline": {
+      "point": 1.1160450049328898,
+      "ci95": [
+        1.1069217588795108,
+        1.1238159016091853
+      ]
+    }
+  }
+}

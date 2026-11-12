@@ -1,0 +1,8 @@
+{
+  "name": "oscil_dcop_32",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/oscil_dcop_32-L.mtx,default,cusparse,430,1094,-1,2231.894,35.76639938,3.108624469e-15,4.535527115e-17,8.214772803e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/oscil_dcop_32-L.mtx,default-host,cusparse,430,1094,-1,2231.894,42.990255,3.108624469e-15,4.535527115e-17,8.214772803e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/oscil_dcop_32-L.mtx,model,cached,430,1094,25,1292.919,21.05279922,3.108624469e-15,4.535527115e-17,7.905684914e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/oscil_dcop_32-L.mtx,model-host,cached,430,1094,25,1292.919,27.767465,3.108624469e-15,4.535527115e-17,7.905684914e-17,512\n",
+  "stderr": ""
+}

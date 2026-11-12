@@ -1,0 +1,7 @@
+{
+  "name": "robot",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cusparse,32104.989,32.20799863,9.992007222e-16,1.121668649e-16\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cusparse-host,32104.989,39.491355,9.992007222e-16,1.121668649e-16\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cached-tiles-512,54.029,22.87359983,3.774758284e-15,1.646622678e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cached-tiles-host-512,54.029,29.407705,3.774758284e-15,1.646622678e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cached-tiles-1024,54.029,23.79200011,3.774758284e-15,1.646622678e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,cached-tiles-host-1024,54.029,30.3087,3.774758284e-15,1.646622678e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,120,447,28,selector-cached,54.029,22.86079973,3.774758284e-15,1.646622678e-17\n",
+  "stderr": ""
+}

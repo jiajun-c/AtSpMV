@@ -1,0 +1,10 @@
+{
+  "dataset": "flowmeter5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/flowmeter5/flowmeter5.mtx",
+  "matrix_sha256": "3c5787ad93ab65c3fd975341f06a93d197a9d6322b2bbbd59c560ff2b0730bfd",
+  "index_nnz": 67391,
+  "index_rows": 9669,
+  "elapsed_s": 1.352,
+  "returncode": 0,
+  "status": "ok"
+}

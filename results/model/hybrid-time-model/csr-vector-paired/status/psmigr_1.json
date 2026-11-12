@@ -1,0 +1,19 @@
+{
+  "dataset": "psmigr_1",
+  "matrix_sha256": "70c8dc7fdf5aedeb99dca8375f7ec2de648a93742a4c62fac70844d047f7c106",
+  "index_nnz": 543162,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.832,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 8161
+  }
+}

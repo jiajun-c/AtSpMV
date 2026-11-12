@@ -1,0 +1,15 @@
+{
+  "dataset": "bone010",
+  "matrix_sha256": "132e1dc408baf487ea2328ad21462c70d7be05856d4b486c71e0ddf58b7c4ac1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 55.239,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

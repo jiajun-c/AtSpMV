@@ -1,0 +1,266 @@
+{
+  "analyzed_cases": 1638,
+  "matched_cases": 1638,
+  "missing_features": [],
+  "method": "Per-case counterbalanced warm Graph speedup against the fastest of six fixed nonhybrid candidates, grouped by matrix structure and selected backend. Sample is an incomplete randomized prefix; groups can be small and post-selection. Setup excluded.",
+  "groups": {
+    "long_rows": {
+      "1%-10% rows >=1024": {
+        "cases": 6,
+        "geomean_speedup": 0.9899688049981417,
+        "median_speedup": 0.9868451159868682,
+        "p10_speedup": 0.9593229924324438,
+        "wins": 2,
+        "minimum_speedup": 0.9593229924324438,
+        "worst_dataset": "lp_osa_14"
+      },
+      "<1% rows >=1024": {
+        "cases": 185,
+        "geomean_speedup": 1.0244392369671644,
+        "median_speedup": 1.0087985091506668,
+        "p10_speedup": 0.9893237651159822,
+        "wins": 116,
+        "minimum_speedup": 0.964369153888497,
+        "worst_dataset": "vsp_model1_crew1_cr42_south31"
+      },
+      ">=10% rows >=1024": {
+        "cases": 11,
+        "geomean_speedup": 0.9979882123319204,
+        "median_speedup": 0.995528433564788,
+        "p10_speedup": 0.9831957156950992,
+        "wins": 4,
+        "minimum_speedup": 0.9791739613464966,
+        "worst_dataset": "kl02"
+      },
+      "no rows >=1024": {
+        "cases": 1436,
+        "geomean_speedup": 1.1299069679324945,
+        "median_speedup": 1.1335998032855468,
+        "p10_speedup": 1.035506804158205,
+        "wins": 1391,
+        "minimum_speedup": 0.8786836528312686,
+        "worst_dataset": "sgpf5y6"
+      }
+    },
+    "nnz": {
+      "100k-1M": {
+        "cases": 459,
+        "geomean_speedup": 1.085039022484609,
+        "median_speedup": 1.0713937650039649,
+        "p10_speedup": 0.9925929290796486,
+        "wins": 380,
+        "minimum_speedup": 0.8786836528312686,
+        "worst_dataset": "sgpf5y6"
+      },
+      "10k-100k": {
+        "cases": 556,
+        "geomean_speedup": 1.1222549307878462,
+        "median_speedup": 1.1287445744234315,
+        "p10_speedup": 1.0098694549683325,
+        "wins": 521,
+        "minimum_speedup": 0.9830067270503539,
+        "worst_dataset": "freeFlyingRobot_2"
+      },
+      "<10k": {
+        "cases": 623,
+        "geomean_speedup": 1.1337029493156845,
+        "median_speedup": 1.1365644241397925,
+        "p10_speedup": 1.0996938371466611,
+        "wins": 612,
+        "minimum_speedup": 0.970798925905748,
+        "worst_dataset": "G17"
+      }
+    },
+    "selection": {
+      "atbsr": {
+        "cases": 293,
+        "geomean_speedup": 1.0694999771402858,
+        "median_speedup": 1.0181169411040403,
+        "p10_speedup": 0.9927767140185569,
+        "wins": 225,
+        "minimum_speedup": 0.9658692990732578,
+        "worst_dataset": "nemswrld"
+      },
+      "atbsr|csr_dsm": {
+        "cases": 1,
+        "geomean_speedup": 1.0077061778521879,
+        "median_speedup": 1.0077061778521879,
+        "p10_speedup": 1.0077061778521879,
+        "wins": 1,
+        "minimum_speedup": 1.0077061778521879,
+        "worst_dataset": "tumorAntiAngiogenesis_3"
+      },
+      "atbsr|csr_two_stage": {
+        "cases": 2,
+        "geomean_speedup": 1.025973091745852,
+        "median_speedup": 1.0259734520322201,
+        "p10_speedup": 1.0251136332328679,
+        "wins": 2,
+        "minimum_speedup": 1.0251136332328679,
+        "worst_dataset": "jan99jac020"
+      },
+      "atbsr|csr_vector": {
+        "cases": 17,
+        "geomean_speedup": 1.0750967420315183,
+        "median_speedup": 1.0639823239989998,
+        "p10_speedup": 1.0130772379839057,
+        "wins": 17,
+        "minimum_speedup": 1.0026882779287465,
+        "worst_dataset": "p2p-Gnutella30"
+      },
+      "atbsr|cusparse": {
+        "cases": 3,
+        "geomean_speedup": 0.9978702155977428,
+        "median_speedup": 0.9955289547490113,
+        "p10_speedup": 0.9925929290796486,
+        "wins": 1,
+        "minimum_speedup": 0.9925929290796486,
+        "worst_dataset": "mult_dcop_01"
+      },
+      "atbsr|hybrid_dsm_atbsr": {
+        "cases": 2,
+        "geomean_speedup": 1.1728437017802902,
+        "median_speedup": 1.1730613201972473,
+        "p10_speedup": 1.1504668045526372,
+        "wins": 2,
+        "minimum_speedup": 1.1504668045526372,
+        "worst_dataset": "nemspmm1"
+      },
+      "csr_dsm": {
+        "cases": 79,
+        "geomean_speedup": 1.0109292987869614,
+        "median_speedup": 1.0110389205873531,
+        "p10_speedup": 0.9932418919566732,
+        "wins": 52,
+        "minimum_speedup": 0.9861033826532527,
+        "worst_dataset": "spaceShuttleEntry_4"
+      },
+      "csr_dsm_vector|hybrid_dsm_atbsr": {
+        "cases": 2,
+        "geomean_speedup": 1.1520086691540612,
+        "median_speedup": 1.1520392976298064,
+        "p10_speedup": 1.14363873352574,
+        "wins": 2,
+        "minimum_speedup": 1.14363873352574,
+        "worst_dataset": "kineticBatchReactor_5"
+      },
+      "csr_dsm|atbsr": {
+        "cases": 1,
+        "geomean_speedup": 0.995528433564788,
+        "median_speedup": 0.995528433564788,
+        "p10_speedup": 0.995528433564788,
+        "wins": 0,
+        "minimum_speedup": 0.995528433564788,
+        "worst_dataset": "lp_wood1p"
+      },
+      "csr_dsm|hybrid_dsm_atbsr": {
+        "cases": 2,
+        "geomean_speedup": 1.041660717166163,
+        "median_speedup": 1.0416607926032893,
+        "p10_speedup": 1.0412643587652644,
+        "wins": 2,
+        "minimum_speedup": 1.0412643587652644,
+        "worst_dataset": "adder_dcop_17"
+      },
+      "csr_two_stage": {
+        "cases": 8,
+        "geomean_speedup": 1.050726702938022,
+        "median_speedup": 1.0441688532299394,
+        "p10_speedup": 1.0053684418276045,
+        "wins": 8,
+        "minimum_speedup": 1.0053684418276045,
+        "worst_dataset": "G52"
+      },
+      "csr_two_stage|csr_vector": {
+        "cases": 5,
+        "geomean_speedup": 1.0467553021958451,
+        "median_speedup": 1.0489481321998775,
+        "p10_speedup": 1.0177872179396161,
+        "wins": 5,
+        "minimum_speedup": 1.0177872179396161,
+        "worst_dataset": "vsp_p0291_seymourl_iiasa"
+      },
+      "csr_vector": {
+        "cases": 1077,
+        "geomean_speedup": 1.1391755570317363,
+        "median_speedup": 1.1360794812897206,
+        "p10_speedup": 1.0797733737573378,
+        "wins": 1075,
+        "minimum_speedup": 0.9915212688373889,
+        "worst_dataset": "Pres_Poisson"
+      },
+      "csr_vector|atbsr": {
+        "cases": 11,
+        "geomean_speedup": 1.052734883068347,
+        "median_speedup": 1.0245239494859626,
+        "p10_speedup": 0.9955010898260781,
+        "wins": 8,
+        "minimum_speedup": 0.9891720227682879,
+        "worst_dataset": "LeGresley_87936"
+      },
+      "csr_vector|csr_two_stage": {
+        "cases": 3,
+        "geomean_speedup": 1.0587162950857842,
+        "median_speedup": 1.0771276061177295,
+        "p10_speedup": 1.0206258107520485,
+        "wins": 3,
+        "minimum_speedup": 1.0206258107520485,
+        "worst_dataset": "tumorAntiAngiogenesis_1"
+      },
+      "cusparse": {
+        "cases": 21,
+        "geomean_speedup": 0.9822156039914974,
+        "median_speedup": 0.9885031528688281,
+        "p10_speedup": 0.9745145649197757,
+        "wins": 3,
+        "minimum_speedup": 0.8786836528312686,
+        "worst_dataset": "sgpf5y6"
+      },
+      "cusparse|atbsr": {
+        "cases": 4,
+        "geomean_speedup": 0.979179830155699,
+        "median_speedup": 0.9783501961649095,
+        "p10_speedup": 0.964369153888497,
+        "wins": 0,
+        "minimum_speedup": 0.964369153888497,
+        "worst_dataset": "vsp_model1_crew1_cr42_south31"
+      },
+      "hybrid_dsm_atbsr": {
+        "cases": 102,
+        "geomean_speedup": 1.1665332283205658,
+        "median_speedup": 1.157811154990878,
+        "p10_speedup": 1.0735976729133587,
+        "wins": 102,
+        "minimum_speedup": 1.04767747579785,
+        "worst_dataset": "fxm4_6"
+      },
+      "hybrid_dsm_atbsr|atbsr": {
+        "cases": 2,
+        "geomean_speedup": 1.0633648591923661,
+        "median_speedup": 1.0636698849241366,
+        "p10_speedup": 1.0381983256996679,
+        "wins": 2,
+        "minimum_speedup": 1.0381983256996679,
+        "worst_dataset": "hangGlider_1"
+      },
+      "hybrid_dsm_atbsr|csr_dsm": {
+        "cases": 2,
+        "geomean_speedup": 1.0286976939246673,
+        "median_speedup": 1.0287882749648478,
+        "p10_speedup": 1.0151365637454146,
+        "wins": 2,
+        "minimum_speedup": 1.0151365637454146,
+        "worst_dataset": "tumorAntiAngiogenesis_2"
+      },
+      "hybrid_dsm_atbsr|csr_dsm_vector": {
+        "cases": 1,
+        "geomean_speedup": 1.1421956995734226,
+        "median_speedup": 1.1421956995734226,
+        "p10_speedup": 1.1421956995734226,
+        "wins": 1,
+        "minimum_speedup": 1.1421956995734226,
+        "worst_dataset": "kineticBatchReactor_6"
+      }
+    }
+  }
+}

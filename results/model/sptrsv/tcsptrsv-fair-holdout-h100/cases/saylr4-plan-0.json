@@ -1,0 +1,9 @@
+{
+  "name": "saylr4",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,default,cusparse,3564,36978,-1,3676.958,328.7391968,2.664535259e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,default-host,cusparse,3564,36978,-1,3676.958,335.09094,2.664535259e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,model,cusparse,3564,36978,181,3751.766,328.2431946,2.664535259e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/saylr4-L.mtx,model-host,cusparse,3564,36978,181,3751.766,335.098815,2.664535259e-15\n",
+  "stderr": ""
+}

@@ -1,0 +1,113 @@
+fpga_dcop_14 0 fixed 0
+fpga_dcop_14 0 adaptive 0
+fpga_dcop_14 1 adaptive 0
+fpga_dcop_14 1 fixed 0
+oscil_dcop_32 0 fixed 0
+oscil_dcop_32 0 adaptive 0
+oscil_dcop_32 1 adaptive 0
+oscil_dcop_32 1 fixed 0
+lshp_406 0 fixed 0
+lshp_406 0 adaptive 0
+lshp_406 1 adaptive 0
+lshp_406 1 fixed 0
+dw256A 0 fixed 0
+dw256A 0 adaptive 0
+dw256A 1 adaptive 0
+dw256A 1 fixed 0
+fpga_dcop_04 0 fixed 0
+fpga_dcop_04 0 adaptive 0
+fpga_dcop_04 1 adaptive 0
+fpga_dcop_04 1 fixed 0
+oscil_dcop_48 0 fixed 0
+oscil_dcop_48 0 adaptive 0
+oscil_dcop_48 1 adaptive 0
+oscil_dcop_48 1 fixed 0
+adder_dcop_17 0 fixed 0
+adder_dcop_17 0 adaptive 0
+adder_dcop_17 1 adaptive 0
+adder_dcop_17 1 fixed 0
+fpga_dcop_50 0 fixed 0
+fpga_dcop_50 0 adaptive 0
+fpga_dcop_50 1 adaptive 0
+fpga_dcop_50 1 fixed 0
+robot 0 fixed 0
+robot 0 adaptive 0
+robot 1 adaptive 0
+robot 1 fixed 0
+arc130 0 fixed 0
+arc130 0 adaptive 0
+RETRY due to external GPU use [{'pid': 578668, 'name': '[No data]'}]
+arc130 1 adaptive 0
+arc130 1 fixed 0
+fpga_dcop_29 0 fixed 0
+fpga_dcop_29 0 adaptive 0
+fpga_dcop_29 1 adaptive 0
+fpga_dcop_29 1 fixed 0
+fpga_dcop_33 0 fixed 0
+fpga_dcop_33 0 adaptive 0
+fpga_dcop_33 1 adaptive 0
+fpga_dcop_33 1 fixed 0
+cdde2 0 fixed 0
+cdde2 0 adaptive 0
+cdde2 1 adaptive 0
+cdde2 1 fixed 0
+oscil_dcop_42 0 fixed 0
+oscil_dcop_42 0 adaptive 0
+oscil_dcop_42 1 adaptive 0
+oscil_dcop_42 1 fixed 0
+oscil_dcop_24 0 fixed 0
+oscil_dcop_24 0 adaptive 0
+oscil_dcop_24 1 adaptive 0
+oscil_dcop_24 1 fixed 0
+fpga_dcop_05 0 fixed 0
+fpga_dcop_05 0 adaptive 0
+fpga_dcop_05 1 adaptive 0
+fpga_dcop_05 1 fixed 0
+adder_dcop_50 0 fixed 0
+adder_dcop_50 0 adaptive 0
+adder_dcop_50 1 adaptive 0
+adder_dcop_50 1 fixed 0
+adder_dcop_36 0 fixed 0
+adder_dcop_36 0 adaptive 0
+adder_dcop_36 1 adaptive 0
+adder_dcop_36 1 fixed 0
+bcsstk04 0 fixed 0
+bcsstk04 0 adaptive 0
+bcsstk04 1 adaptive 0
+bcsstk04 1 fixed 0
+Chebyshev1 0 fixed 0
+Chebyshev1 0 adaptive 0
+Chebyshev1 1 adaptive 0
+Chebyshev1 1 fixed 0
+oscil_dcop_16 0 fixed 0
+oscil_dcop_16 0 adaptive 0
+oscil_dcop_16 1 adaptive 0
+oscil_dcop_16 1 fixed 0
+adder_dcop_66 0 fixed 0
+adder_dcop_66 0 adaptive 0
+adder_dcop_66 1 adaptive 0
+adder_dcop_66 1 fixed 0
+olm100 0 fixed 0
+olm100 0 adaptive 0
+olm100 1 adaptive 0
+olm100 1 fixed 0
+fpga_trans_01 0 fixed 0
+fpga_trans_01 0 adaptive 0
+fpga_trans_01 1 adaptive 0
+fpga_trans_01 1 fixed 0
+adder_dcop_19 0 fixed 0
+RETRY due to external GPU use [{'pid': 586465, 'name': '[No data]'}]
+adder_dcop_19 0 adaptive 0
+adder_dcop_19 1 adaptive 0
+adder_dcop_19 1 fixed 0
+{
+  "status_counts": {
+    "ok": 25
+  },
+  "valid_pairs": 25,
+  "adaptive_1024": 11,
+  "geomean_fixed_over_adaptive": 1.0221401594781934,
+  "wins_gt_5pct": 5,
+  "losses_gt_5pct": 0
+}
+runner_exit=0

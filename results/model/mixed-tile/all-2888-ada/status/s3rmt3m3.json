@@ -1,0 +1,15 @@
+{
+  "dataset": "s3rmt3m3",
+  "matrix_sha256": "dad2e75d12c7ae8d6cd96fca5bccbe2bf7e7fd67652e6b3ced89502678a8917e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.956,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "exe": "/tmp/atspmv-mfem-heat-r6-frozen",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/fichera-mixed.mesh",
+  "output": "results/applications/mfem-heat/fichera-r3-linear",
+  "refine": 3,
+  "order": 2,
+  "steps": 20,
+  "dt": 0.01,
+  "alpha": 0.0,
+  "backends": "cusparse,atbsr,mixed",
+  "rounds": 1,
+  "timeout": 900,
+  "executable_sha256": "bbd952e1b73b2c361da00bc593a8769a266ccbc405ab3aa3bcf44a43e05d1f7f"
+}

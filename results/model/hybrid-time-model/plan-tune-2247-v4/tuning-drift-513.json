@@ -1,0 +1,51 @@
+{
+  "records": 5130,
+  "candidates": {
+    "atbsr_m1_balanced": {
+      "observations": 1026,
+      "geomean_ratio": 0.9881882044245338,
+      "median_ratio": 0.9894946850425355,
+      "p10_ratio": 0.973684210659615,
+      "p90_ratio": 1.0011078367769957,
+      "above_1_10": 0,
+      "below_0_90": 0
+    },
+    "atbsr_m8": {
+      "observations": 1026,
+      "geomean_ratio": 0.992473167238012,
+      "median_ratio": 0.9925852033210969,
+      "p10_ratio": 0.9753747319688493,
+      "p90_ratio": 1.0083915636426801,
+      "above_1_10": 0,
+      "below_0_90": 0
+    },
+    "csr_dsm_fixed": {
+      "observations": 1026,
+      "geomean_ratio": 1.0101115964937102,
+      "median_ratio": 1.007513107352497,
+      "p10_ratio": 0.9942446443114901,
+      "p90_ratio": 1.0308942587592107,
+      "above_1_10": 0,
+      "below_0_90": 0
+    },
+    "csr_two_stage_fixed": {
+      "observations": 1026,
+      "geomean_ratio": 0.998381974050642,
+      "median_ratio": 1.0000000000021352,
+      "p10_ratio": 0.9835617306475856,
+      "p90_ratio": 1.0102899602652646,
+      "above_1_10": 0,
+      "below_0_90": 0
+    },
+    "cusparse": {
+      "observations": 1026,
+      "geomean_ratio": 1.0140641178275438,
+      "median_ratio": 1.001875327527984,
+      "p10_ratio": 0.9886578688936648,
+      "p90_ratio": 1.057345424561102,
+      "above_1_10": 41,
+      "below_0_90": 0
+    }
+  },
+  "method": "Independent fixed candidate median divided by initialization median, per construction order; same named configuration, not necessarily same allocation or input/output buffers. Warm Graph; shared-device polling cannot exclude all interference. Sample is incomplete and was used in development."
+}

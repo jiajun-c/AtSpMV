@@ -1,0 +1,15 @@
+{
+  "dataset": "south31",
+  "matrix_sha256": "9e33b4cec4e4ebb1feb72b8adaf63adfaa6bd2a38d4bb0df96ef95f551489014",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.619,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_brandy",
+  "matrix_sha256": "ad5152fda5c4c9166dae508aa3f5a395995052adeb62c7ba04ad727461542c87",
+  "index_nnz": 2202,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.373,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

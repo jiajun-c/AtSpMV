@@ -1,0 +1,10 @@
+{
+  "dataset": "t2dal_bci",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t2dal_bci/t2dal_bci.mtx",
+  "matrix_sha256": "ec4939560ae1d0e1f3862c395b79a0982c6a87ca13d11b548120ba01cb1034e4",
+  "index_nnz": 37465,
+  "index_rows": 4257,
+  "elapsed_s": 1.253,
+  "returncode": 0,
+  "status": "ok"
+}

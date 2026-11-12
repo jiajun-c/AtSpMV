@@ -1,0 +1,8 @@
+{
+  "name": "dwt_310",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,model,cached-csr,310,1749,108,2299.854,63.72799683,7.105427358e-14,4.669372503e-17,7.254160064e-17,256\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,model-host,cached-csr,310,1749,108,2299.854,69.26921,7.105427358e-14,4.669372503e-17,7.254160064e-17,256\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,default,cusparse,310,1749,-1,2548.525,88.1088028,7.105427358e-14,4.669372503e-17,7.254160064e-17,0\nresults/model/sptrsv/components-independent-h100/factors/dwt_310-L.mtx,default-host,cusparse,310,1749,-1,2548.525,94.1921,7.105427358e-14,4.669372503e-17,7.254160064e-17,0\n",
+  "stderr": ""
+}

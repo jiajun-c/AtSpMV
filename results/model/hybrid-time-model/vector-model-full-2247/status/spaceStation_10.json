@@ -1,0 +1,17 @@
+{
+  "dataset": "spaceStation_10",
+  "matrix_sha256": "cef5370dd829e8e108dc5404f173268721bdc6cb42a9d6b2636b3178f46828fa",
+  "index_nnz": 17478,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.153,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

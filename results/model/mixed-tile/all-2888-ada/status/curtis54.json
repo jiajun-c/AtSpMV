@@ -1,0 +1,15 @@
+{
+  "dataset": "curtis54",
+  "matrix_sha256": "4b9cd6b5c13f68b9ebb3648ac346f1e39ea2dc5b2ce1e898aec4fc15de281b9b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.544,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  }
+}

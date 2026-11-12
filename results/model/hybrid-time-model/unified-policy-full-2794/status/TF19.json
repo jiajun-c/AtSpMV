@@ -1,0 +1,17 @@
+{
+  "dataset": "TF19",
+  "matrix_sha256": "37848ef6c0e7d294d303dc5ec717da144835f826f3864efd9900308a1709cfe9",
+  "index_nnz": 4370721,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.975,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

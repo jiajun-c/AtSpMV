@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_scagr25",
+  "matrix_sha256": "e1142e389955056b08da9a6ef4b736d11dff59101ef87a6114237f04822acfe9",
+  "gpu_before": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.569,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

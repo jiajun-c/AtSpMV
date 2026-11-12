@@ -1,0 +1,7 @@
+{
+  "name": "fpga_dcop_09",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cusparse,25729.543,43.11360121,8.881784197e-16,3.26933342e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cusparse-host,25729.543,50.81673,8.881784197e-16,3.26933342e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cached-tiles-512,126.099,24.7360006,1.554312234e-15,2.150439412e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cached-tiles-host-512,126.099,31.078975,1.554312234e-15,2.150439412e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cached-tiles-1024,126.099,24.55680072,1.554312234e-15,2.150439412e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,cached-tiles-host-1024,126.099,30.92791,1.554312234e-15,2.150439412e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/fpga_dcop_09-L.mtx,1220,3253,26,selector-cached,126.099,24.75520074,1.554312234e-15,2.150439412e-17\n",
+  "stderr": ""
+}

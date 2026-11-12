@@ -1,0 +1,7 @@
+{
+  "name": "adder_dcop_19",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_19-L.mtx,default,cusparse,1813,4031,-1,6576.378,20.83200073,4.59188243e-13\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_19-L.mtx,model,cached,1813,4031,9,1541.153,14.62720013,4.59188243e-13\n",
+  "stderr": ""
+}

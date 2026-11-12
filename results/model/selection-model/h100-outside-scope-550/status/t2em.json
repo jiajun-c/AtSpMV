@@ -1,0 +1,17 @@
+{
+  "dataset": "t2em",
+  "matrix_sha256": "22086b6f3e3836adfba8ee35505d5a0b1156293c9b4806109b3cb549996725e8",
+  "index_nnz": 4590832,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 41.704,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

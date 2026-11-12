@@ -1,0 +1,14 @@
+{
+  "matrix": "jpwh_991",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/jpwh_991/jpwh_991.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 991,
+  "columns": 991,
+  "original_nnz": 6027,
+  "factor_L_nnz": 10989,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03661741781979799
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "bips07_1998",
+  "matrix_sha256": "6022c18ac7a890c404339cad978fa63504a7b63565a8cdf5795ef33136ef2764",
+  "index_nnz": 62198,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.729,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

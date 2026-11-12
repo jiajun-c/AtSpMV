@@ -1,0 +1,10 @@
+{
+  "dataset": "enron",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/enron/enron.mtx",
+  "matrix_sha256": "4162437033c1235e4d4e89702e0caf0954b26c9817aee0feb53c436d2218abd2",
+  "index_nnz": 276143,
+  "index_rows": 69244,
+  "elapsed_s": 1.277,
+  "returncode": 0,
+  "status": "ok"
+}

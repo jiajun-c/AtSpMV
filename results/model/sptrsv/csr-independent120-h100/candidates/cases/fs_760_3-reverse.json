@@ -1,0 +1,7 @@
+{
+  "name": "fs_760_3",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-independent120-h100/factors/fs_760_3-L.mtx,760,9132,244,cusparse,27868.312,216.2111998,2.142730438e-14,3.255607146e-17\nresults/model/sptrsv/csr-independent120-h100/factors/fs_760_3-L.mtx,760,9132,244,cusparse-host,27868.312,223.92087,2.142730438e-14,3.255607146e-17\nresults/model/sptrsv/csr-independent120-h100/factors/fs_760_3-L.mtx,760,9132,244,cached-csr-32-256,38.703,146.8479991,2.142730438e-14,3.255607146e-17\nresults/model/sptrsv/csr-independent120-h100/factors/fs_760_3-L.mtx,760,9132,244,cached-csr-32-512,38.703,136.9375944,2.142730438e-14,3.255607146e-17\nresults/model/sptrsv/csr-independent120-h100/factors/fs_760_3-L.mtx,760,9132,244,selector-cusparse,442.343,216.179204,2.142730438e-14,3.255607146e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "qa8fm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/qa8fm/qa8fm.mtx",
+  "matrix_sha256": "5a04ec09978644b70dc435c175b7cee61e408718af20240fac5ceca71a63ccde",
+  "index_nnz": 1660579,
+  "index_rows": 66127,
+  "elapsed_s": 2.619,
+  "returncode": 0,
+  "status": "ok"
+}

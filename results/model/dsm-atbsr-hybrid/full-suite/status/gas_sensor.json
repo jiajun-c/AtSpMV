@@ -1,0 +1,10 @@
+{
+  "dataset": "gas_sensor",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gas_sensor/gas_sensor.mtx",
+  "matrix_sha256": "f09cb100579072d74b1e59e63949cdb367753f3fecea462bf215caa393251475",
+  "index_nnz": 1703365,
+  "index_rows": 66917,
+  "elapsed_s": 1.157,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "e40r0100",
+  "matrix_sha256": "f802c2983d31e04de004879fd97b8ef789c1d65e2e29af021ed0acb25b7d951b",
+  "index_nnz": 553562,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.029,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

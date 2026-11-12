@@ -1,0 +1,63 @@
+662_bus forward 0
+662_bus reverse 0
+685_bus forward 0
+685_bus reverse 0
+bp_1600 forward 0
+bp_1600 reverse 0
+cdde5 forward 0
+cdde5 reverse 0
+1138_bus forward 0
+1138_bus reverse 0
+gre_343 forward 0
+gre_343 reverse 0
+lshp_265 forward 0
+lshp_265 reverse 0
+dermatology_5NN forward 0
+dermatology_5NN reverse 0
+cavity01 forward 0
+cavity01 reverse 0
+tumorAntiAngiogenesis_3 forward 0
+tumorAntiAngiogenesis_3 reverse 0
+Chebyshev2 forward 0
+Chebyshev2 reverse 0
+nos1 forward 0
+nos1 reverse 0
+G3 forward 0
+G3 reverse 0
+bcsstk15 forward 0
+bcsstk15 reverse 0
+bcsstm23 forward 0
+bcsstm23 reverse 0
+c-20 forward 0
+c-20 reverse 0
+garon1 forward 0
+garon1 reverse 0
+G7 forward 0
+G7 reverse 0
+runner_exit=0
+{
+  "status_counts": {
+    "ok": 18
+  },
+  "valid_pairs": 18,
+  "by_backend": {
+    "cached": {
+      "count": 6,
+      "default_median_us": 2562.867,
+      "model_median_us": 1189.233375,
+      "geomean_default_over_model": 2.0665008581917457
+    },
+    "cached-csr": {
+      "count": 6,
+      "default_median_us": 2828.55075,
+      "model_median_us": 1008.107125,
+      "geomean_default_over_model": 3.1735156771960655
+    },
+    "cusparse": {
+      "count": 6,
+      "default_median_us": 11553.733499999998,
+      "model_median_us": 11685.43475,
+      "geomean_default_over_model": 0.9925097620652434
+    }
+  }
+}

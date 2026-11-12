@@ -1,0 +1,17 @@
+{
+  "dataset": "Roget",
+  "matrix_sha256": "13197da5b50f9c2defcfe3f0b558611bb8187584c2f27b194aece12c9f4ca332",
+  "index_nnz": 5075,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.438,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "method": "Median warm Graph time per CSR/X/Y allocation combination; effects are geometric means of paired ratios over the other two factors. Two allocations per factor, one allocation history per process; cannot isolate why addresses matter.",
+  "runs": [
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-TSOPF_RS_b162_c4-20261028.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 6.915999889,
+        "001": 6.947999954,
+        "010": 6.903999805,
+        "011": 6.903999805,
+        "100": 6.915999889,
+        "101": 6.907999992,
+        "110": 6.940000057,
+        "111": 6.936000347
+      },
+      "max_over_min": 1.0063731387953017,
+      "buffer_1_over_0": {
+        "matrix": 1.001013397774349,
+        "x": 0.9998549652398313,
+        "y": 1.0007208607245717
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-TSOPF_RS_b162_c4-20261029.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 6.907999992,
+        "001": 6.940000057,
+        "010": 6.895999908,
+        "011": 6.900000095,
+        "100": 6.903999805,
+        "101": 6.903999805,
+        "110": 6.924000263,
+        "111": 6.927999973
+      },
+      "max_over_min": 1.0063805321326869,
+      "buffer_1_over_0": {
+        "matrix": 1.0005806201156353,
+        "x": 0.9997110405370201,
+        "y": 1.0014457994171009
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-nemeth20-20261028.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 7.307999611,
+        "001": 7.319999695,
+        "010": 7.296000004,
+        "011": 7.311999798,
+        "100": 7.28399992,
+        "101": 7.271999836,
+        "110": 7.311999798,
+        "111": 7.335999966
+      },
+      "max_over_min": 1.0088008981632766,
+      "buffer_1_over_0": {
+        "matrix": 0.9989003776810835,
+        "x": 1.0024686019659332,
+        "y": 1.0013657721834601
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-nemeth20-20261029.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 7.315999985,
+        "001": 7.335999966,
+        "010": 7.296000004,
+        "011": 7.328000069,
+        "100": 7.288000107,
+        "101": 7.276000023,
+        "110": 7.319999695,
+        "111": 7.340000153
+      },
+      "max_over_min": 1.0087960596203533,
+      "buffer_1_over_0": {
+        "matrix": 0.9982198960997319,
+        "x": 1.0023302464717894,
+        "y": 1.002048858961716
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-sgpf5y6-20261028.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 8.531999588,
+        "001": 8.579999924,
+        "010": 8.531999588,
+        "011": 8.519999504,
+        "100": 8.49200058,
+        "101": 8.515999794,
+        "110": 8.484000206,
+        "111": 8.515999794
+      },
+      "max_over_min": 1.0113153837422242,
+      "buffer_1_over_0": {
+        "matrix": 0.9954360533266493,
+        "x": 0.9980119355298018,
+        "y": 1.0027010049552405
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-sgpf5y6-20261029.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 8.5,
+        "001": 8.555999756,
+        "010": 8.49200058,
+        "011": 8.49200058,
+        "100": 8.468000412,
+        "101": 8.5,
+        "110": 8.463999748,
+        "111": 8.49200058
+      },
+      "max_over_min": 1.0108695664861922,
+      "buffer_1_over_0": {
+        "matrix": 0.9965955265132562,
+        "x": 0.9975370854989726,
+        "y": 1.0034161035206077
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-smallworld-20261028.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 8.940000534,
+        "001": 8.976000786,
+        "010": 8.968000412,
+        "011": 8.907999992,
+        "100": 8.960000038,
+        "101": 8.952000618,
+        "110": 8.976000786,
+        "111": 8.956000328
+      },
+      "max_over_min": 1.0076336769264784,
+      "buffer_1_over_0": {
+        "matrix": 1.0014567794506264,
+        "x": 0.9994384815551941,
+        "y": 0.9985465353158388
+      }
+    },
+    {
+      "file": "results/model/hybrid-time-model/cusparse-buffer-probe/h100-smallworld-20261029.csv",
+      "trials_per_combination": 31,
+      "median_us": {
+        "000": 8.984000206,
+        "001": 9.019999504,
+        "010": 9.00799942,
+        "011": 8.956000328,
+        "100": 9.0,
+        "101": 9.00799942,
+        "110": 9.00399971,
+        "111": 8.991999626
+      },
+      "max_over_min": 1.0071459550754942,
+      "buffer_1_over_0": {
+        "matrix": 1.0010043702724016,
+        "x": 0.9985544909979641,
+        "y": 0.9994412954999753
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_dfl001",
+  "matrix_sha256": "4e9b113874fc81c0a1f27e8d5368d0b36a1b4172c462ee8d8259a6f0338cf8a6",
+  "index_nnz": 35632,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.036,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

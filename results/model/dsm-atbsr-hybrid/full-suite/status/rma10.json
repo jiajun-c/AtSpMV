@@ -1,0 +1,10 @@
+{
+  "dataset": "rma10",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rma10/rma10.mtx",
+  "matrix_sha256": "d1b1c0acf2b2864040c69afbe34dc9415273c497206b75662bf3c1eb687e8a56",
+  "index_nnz": 2374001,
+  "index_rows": 46835,
+  "elapsed_s": 1.891,
+  "returncode": 0,
+  "status": "ok"
+}

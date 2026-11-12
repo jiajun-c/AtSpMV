@@ -1,0 +1,10 @@
+{
+  "dataset": "bcircuit",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bcircuit/bcircuit.mtx",
+  "matrix_sha256": "0c2c3460a4529ca0d44599c2722793110ea5bfc7178c240bcf5d53e19a81720f",
+  "index_nnz": 375558,
+  "index_rows": 68902,
+  "elapsed_s": 1.166,
+  "returncode": 0,
+  "status": "ok"
+}

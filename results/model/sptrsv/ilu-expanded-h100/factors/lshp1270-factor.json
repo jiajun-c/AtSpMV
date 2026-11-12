@@ -1,0 +1,13 @@
+{
+  "matrix": "lshp1270",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lshp1270/lshp1270.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1270,
+  "columns": 1270,
+  "original_nnz": 8668,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.028867042856290936
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "west1505",
+  "matrix_sha256": "9974754529e8066bdd2de0fd372252eda36cdec7bf1fc3c161b09718531c17bd",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.609,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

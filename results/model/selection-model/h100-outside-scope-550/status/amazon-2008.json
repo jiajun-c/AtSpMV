@@ -1,0 +1,17 @@
+{
+  "dataset": "amazon-2008",
+  "matrix_sha256": "77d94e28b8556791e06f1fcdec85cb9582396427f738a99c6a4e6b8a6bfa7779",
+  "index_nnz": 5158388,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 66.807,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

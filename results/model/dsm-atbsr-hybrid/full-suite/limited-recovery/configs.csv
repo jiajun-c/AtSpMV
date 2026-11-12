@@ -1,0 +1,7 @@
+atbsr,-1,-1,8,128,1,1024
+atbsr,3,0,8,128,1,1024
+csr_dsm,-1,-1,8,256,1,1024
+csr_two_stage,-1,-1,8,256,1,1024
+hybrid_dsm_atbsr,3,0,8,256,1,1024
+hybrid_dsm_atbsr,5,0,8,256,1,1024
+hybrid_dsm_atbsr,5,0,8,128,1,4096

@@ -1,0 +1,9 @@
+{
+  "name": "bayer10",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bayer10-L.mtx --------------\nsuccess open file\ninput matrix A: ( 13440, 13440 ) nnz = 75131\nloadfile time    = 0.02947 sec\nnnzL = 75131\ntime_for_csc2CompressTile = 2.26 ms\ntime_cuda_solve = 1.183480 ms, Mflops = 126.97\nVALIDATION finite=1 max_error=1.2434497875801753e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

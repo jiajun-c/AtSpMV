@@ -1,10 +1,14 @@
+#pragma once
+
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <chrono>
 #include <set>
 #include <map>
-// #define DEBUG
 
 #define CHECK_CUDA(func)                                                       \
 {                                                                              \
@@ -39,4 +43,4 @@ do                                                                              
         printf("     Error text:%s\n", cudaGetErrorString(error_code));         \
         exit(1);                                                                \
     }                                                                           \
-}while(0)    
+}while(0)

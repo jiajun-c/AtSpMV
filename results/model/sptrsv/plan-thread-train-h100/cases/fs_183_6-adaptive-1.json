@@ -1,0 +1,8 @@
+{
+  "name": "fs_183_6",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,model,cached,183,1211,55,2084.255,43.13920212,1.776356839e-15,2.611711593e-17,9.512871474e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,model-host,cached,183,1211,55,2084.255,49.09672,1.776356839e-15,2.611711593e-17,9.512871474e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,default,cusparse,183,1211,-1,2706.763,48.15679932,5.329070518e-15,1.921157342e-17,9.556984626e-17,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,default-host,cusparse,183,1211,-1,2706.763,54.426085,5.329070518e-15,1.921157342e-17,9.556984626e-17,0\n",
+  "stderr": ""
+}

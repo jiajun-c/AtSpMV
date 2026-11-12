@@ -1,0 +1,17 @@
+{
+  "dataset": "kneser_8_3_1",
+  "matrix_sha256": "87e70473e5f2dc54d2d71c8a426e9e12bac0857a25b577c768827bb04fbe2e3c",
+  "index_nnz": 47042,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.618,
+  "gpu_after": {
+    "utilization_percent": 39,
+    "free_memory_mib": 81079
+  }
+}

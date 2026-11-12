@@ -1,0 +1,10 @@
+{
+  "matrix": "linverse",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/linverse-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 11999,
+  "nnz": 42479,
+  "min_abs_diagonal": 0.06921381696935434,
+  "max_abs_diagonal": 68.83061311802987,
+  "elapsed_s": 0.0349370779003948
+}

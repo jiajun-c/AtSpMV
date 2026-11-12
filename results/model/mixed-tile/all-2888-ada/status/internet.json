@@ -1,0 +1,15 @@
+{
+  "dataset": "internet",
+  "matrix_sha256": "2ae0de8462c9106b9720c91cb935c7a0c60243df7681bb804a882e159421a4dc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.134,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

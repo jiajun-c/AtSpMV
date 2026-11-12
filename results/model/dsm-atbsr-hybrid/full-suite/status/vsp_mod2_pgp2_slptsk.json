@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_mod2_pgp2_slptsk",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_mod2_pgp2_slptsk/vsp_mod2_pgp2_slptsk.mtx",
+  "matrix_sha256": "dc12dcb6414760317ab52251fb67e81d42388556614afa01c121ac227e2b5373",
+  "index_nnz": 778736,
+  "index_rows": 101364,
+  "elapsed_s": 1.337,
+  "returncode": 0,
+  "status": "ok"
+}

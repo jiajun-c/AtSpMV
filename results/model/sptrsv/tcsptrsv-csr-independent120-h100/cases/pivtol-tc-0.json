@@ -1,0 +1,9 @@
+{
+  "name": "pivtol",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/pivtol-L.mtx --------------\nsuccess open file\ninput matrix A: ( 112, 112 ) nnz = 224\nloadfile time    = 0.00019 sec\nnnzL = 224\ntime_for_csc2CompressTile = 1.82 ms\ntime_cuda_solve = 0.125580 ms, Mflops = 3.57\nVALIDATION finite=1 max_error=2.2204460492503131e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

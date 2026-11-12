@@ -1,0 +1,9 @@
+{
+  "name": "cavity06",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/cavity06-L.mtx,default,cusparse,1182,45000,-1,10165.466,825.0656128,2.819966483e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/cavity06-L.mtx,default-host,cusparse,1182,45000,-1,10165.466,834.46475,2.819966483e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/cavity06-L.mtx,model,cusparse,1182,45000,905,10168.743,825.1359863,2.819966483e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/cavity06-L.mtx,model-host,cusparse,1182,45000,905,10168.743,833.483985,2.819966483e-14\n",
+  "stderr": ""
+}

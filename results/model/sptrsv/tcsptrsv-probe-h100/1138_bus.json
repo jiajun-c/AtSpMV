@@ -1,0 +1,6 @@
+{
+  "name": "1138_bus",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-factor-pilot/1138_bus-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1138, 1138 ) nnz = 3751\nloadfile time    = 0.00164 sec\nnnzL = 3765\ntime_for_csc2CompressTile = 2.35 ms\ntime_cuda_solve = 0.13 ms, Mflops = 58.99\nVALIDATION finite=1 max_error=0.97642266949557133 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cavity15",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cavity15/cavity15.mtx",
+  "matrix_sha256": "5dc0b995f943275dd22d95c23642c493fb73e636721fb5352de14851332031c5",
+  "index_nnz": 76367,
+  "index_rows": 2597,
+  "elapsed_s": 1.254,
+  "returncode": 0,
+  "status": "ok"
+}

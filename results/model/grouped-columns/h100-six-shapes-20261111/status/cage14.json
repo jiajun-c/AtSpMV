@@ -1,0 +1,31 @@
+{
+  "dataset": "cage14",
+  "status": "ok",
+  "matrix_sha256": "d8066f49823aea1f6d9ec3f1b9fce72aa94de4f4fa0c5b7cc38ecb546a64d8fc",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cage14/cage14.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/cage14-0.csv",
+        "20261151",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 7.8833655919879675
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cage14/cage14.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/cage14-1.csv",
+        "20261152",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 7.766611612169072
+    }
+  ]
+}

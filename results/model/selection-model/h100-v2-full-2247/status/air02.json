@@ -1,0 +1,17 @@
+{
+  "dataset": "air02",
+  "matrix_sha256": "704200d59adb3c63d519a4a436cc65881a62fafa96839932f5313bb885ced05e",
+  "index_nnz": 61555,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 65.673,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

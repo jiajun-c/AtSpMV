@@ -1,0 +1,15 @@
+{
+  "dataset": "M20PI_n1",
+  "matrix_sha256": "753e0891ebdde6efbf95a671358fb96ff27027490211601cc562300610f5c289",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.854,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

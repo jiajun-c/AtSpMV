@@ -1,0 +1,15 @@
+{
+  "dataset": "wiki-talk-temporal",
+  "matrix_sha256": "a2d3845eee4421e83d740e31b0ca5a2ac564581d18647c55b44736e495094bb2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 21.471,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

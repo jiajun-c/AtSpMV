@@ -1,0 +1,10 @@
+{
+  "dataset": "circuit5M_dc",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/circuit5M_dc/circuit5M_dc.mtx",
+  "matrix_sha256": "435d665495cdc1e7e6afb8e4d61cab905c479d6b0820d2a7f52d5bfb7b65d42e",
+  "index_nnz": 19194193,
+  "index_rows": 3523317,
+  "elapsed_s": 8.587,
+  "returncode": 0,
+  "status": "ok"
+}

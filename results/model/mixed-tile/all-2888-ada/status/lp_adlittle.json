@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_adlittle",
+  "matrix_sha256": "8c344d3afdf5cabc7d44560c1d1eaefcd4ec85a4258bd948b1e751896377338b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.669,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  }
+}

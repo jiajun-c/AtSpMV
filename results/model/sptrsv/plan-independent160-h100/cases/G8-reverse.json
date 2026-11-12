@@ -1,0 +1,7 @@
+{
+  "name": "G8",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/G8-L.mtx,model,cusparse,800,93554,636,14756.668,525.3983765,4.538813769e-12,1.471808477e-17,7.281889689e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G8-L.mtx,model-host,cusparse,800,93554,636,14756.668,532.43171,4.538813769e-12,1.471808477e-17,7.281889689e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G8-L.mtx,default,cusparse,800,93554,-1,11993.591,525.46875,4.538813769e-12,1.471808477e-17,7.281889689e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G8-L.mtx,default-host,cusparse,800,93554,-1,11993.591,532.47192,4.538813769e-12,1.471808477e-17,7.281889689e-17,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "orbitRaising_2",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/orbitRaising_2-L.mtx,model,cached,739,8505,148,1410.96,118.6208038,2.386979503e-14,2.441624088e-17,1.275882442e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/orbitRaising_2-L.mtx,model-host,cached,739,8505,148,1410.96,124.410715,2.386979503e-14,2.441624088e-17,1.275882442e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/orbitRaising_2-L.mtx,default,cusparse,739,8505,-1,2922.792,152.5248108,3.275157923e-14,2.578848721e-17,1.275882442e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/orbitRaising_2-L.mtx,default-host,cusparse,739,8505,-1,2922.792,158.618285,3.275157923e-14,2.578848721e-17,1.275882442e-16,0\n",
+  "stderr": ""
+}

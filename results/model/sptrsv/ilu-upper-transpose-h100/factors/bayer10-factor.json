@@ -1,0 +1,10 @@
+{
+  "matrix": "bayer10",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/bayer10-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 13436,
+  "nnz": 87524,
+  "min_abs_diagonal": 5.550837112499996e-10,
+  "max_abs_diagonal": 999.9999999999818,
+  "elapsed_s": 0.0820938590914011
+}

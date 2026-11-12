@@ -1,0 +1,7 @@
+{
+  "name": "Ecoli_10NN",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-independent120-h100/factors/Ecoli_10NN-L.mtx,336,10687,280,cusparse,28671.883,213.9039993,4.04121181e-14,2.674375264e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Ecoli_10NN-L.mtx,336,10687,280,cusparse-host,28671.883,222.25828,4.04121181e-14,2.674375264e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Ecoli_10NN-L.mtx,336,10687,280,cached-csr-32-256,25.205,148.9727974,4.04121181e-14,2.674375264e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Ecoli_10NN-L.mtx,336,10687,280,cached-csr-32-512,25.205,147.884798,4.04121181e-14,2.674375264e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Ecoli_10NN-L.mtx,336,10687,280,selector-cusparse,468.244,214.192009,4.04121181e-14,2.674375264e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_bore3d",
+  "matrix_sha256": "9033c98d4ec10c5bc233ac587cdf254f31a8857ce6f59a1ec33845f62e705d80",
+  "index_nnz": 1448,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.245,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

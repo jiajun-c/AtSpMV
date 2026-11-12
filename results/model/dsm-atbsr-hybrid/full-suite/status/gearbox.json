@@ -1,0 +1,10 @@
+{
+  "dataset": "gearbox",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gearbox/gearbox.mtx",
+  "matrix_sha256": "302aecc8e0bdda802ade6d4f90947eb228fd87cb773933e512a981345f0bdac6",
+  "index_nnz": 9080404,
+  "index_rows": 153746,
+  "elapsed_s": 4.004,
+  "returncode": 0,
+  "status": "ok"
+}

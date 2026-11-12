@@ -1,0 +1,7 @@
+{
+  "name": "grid1_dual",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/grid1_dual-L.mtx,default,cusparse,224,868,-1,3378.916,40.08959961,3.552713679e-15,2.735863961e-17,4.53977836e-17,0\nresults/model/sptrsv/components-independent-h100/factors/grid1_dual-L.mtx,default-host,cusparse,224,868,-1,3378.916,47.81426,3.552713679e-15,2.735863961e-17,4.53977836e-17,0\nresults/model/sptrsv/components-independent-h100/factors/grid1_dual-L.mtx,model,cached,224,868,26,1284.66,21.74080086,3.996802889e-15,3.197847312e-17,5.909234143e-17,512\nresults/model/sptrsv/components-independent-h100/factors/grid1_dual-L.mtx,model-host,cached,224,868,26,1284.66,28.46642,3.996802889e-15,3.197847312e-17,5.909234143e-17,512\n",
+  "stderr": ""
+}

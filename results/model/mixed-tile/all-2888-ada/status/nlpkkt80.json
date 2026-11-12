@@ -1,0 +1,15 @@
+{
+  "dataset": "nlpkkt80",
+  "matrix_sha256": "f51148568eae65c1ed4bfdf2c6cf5e1f47b5ab2bb77e476c9fb3af19ffc408b2",
+  "gpu_before": {
+    "utilization_percent": 98,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.378,
+  "gpu_after": {
+    "utilization_percent": 98,
+    "free_memory_mib": 48508
+  }
+}

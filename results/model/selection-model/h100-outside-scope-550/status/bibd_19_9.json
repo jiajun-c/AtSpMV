@@ -1,0 +1,17 @@
+{
+  "dataset": "bibd_19_9",
+  "matrix_sha256": "61566572c51e1b98e0146c03f35be52ec61d85191e042ecbea9e5d668c45a814",
+  "index_nnz": 3325608,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 23.275,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

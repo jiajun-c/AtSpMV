@@ -1,0 +1,19 @@
+{
+  "dataset": "S20PI_n",
+  "matrix_sha256": "8dc2cdbe952695ae20f77470dde436d4f9a69654b72b60be0ad1c8cc13873376",
+  "index_nnz": 2881,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.439,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

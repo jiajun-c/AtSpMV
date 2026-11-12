@@ -1,0 +1,17 @@
+{
+  "dataset": "Ill_Stokes",
+  "matrix_sha256": "16e8b97aae4985194f5972bc2169c52437676f20fb4fe62033999d1b29acc72a",
+  "index_nnz": 191368,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.931,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

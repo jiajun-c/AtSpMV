@@ -1,0 +1,72 @@
+{
+  "cases": 120,
+  "manifest_total": 120,
+  "first": "auto_vector_model",
+  "second": "auto_vector_model_2pct",
+  "method": "Ratio of timed labels, per order, with paired geometric mean. Matching configurations execute the same Plan and Graph. Timing differences show measurement sensitivity and do not alone prove a cause.",
+  "groups": {
+    "different_config": {
+      "cases": 7,
+      "geomean_ratio": 0.9958697487738345,
+      "median_ratio": 1.00503692086005,
+      "min_ratio": 0.8840621738435315,
+      "max_ratio": 1.1646449934797836
+    },
+    "same_config": {
+      "cases": 113,
+      "geomean_ratio": 0.9998640111954505,
+      "median_ratio": 1.0,
+      "min_ratio": 0.9892497782355691,
+      "max_ratio": 1.0131938481552052
+    },
+    "same_config/backend/atbsr": {
+      "cases": 23,
+      "geomean_ratio": 0.9995640563722998,
+      "median_ratio": 1.0,
+      "min_ratio": 0.9892497782355691,
+      "max_ratio": 1.0032714025336849
+    },
+    "same_config/backend/csr_dsm": {
+      "cases": 2,
+      "geomean_ratio": 0.9997211138331299,
+      "median_ratio": 0.9997211530364245,
+      "min_ratio": 0.9994411803157592,
+      "max_ratio": 1.0000011257570898
+    },
+    "same_config/backend/csr_two_stage": {
+      "cases": 3,
+      "geomean_ratio": 1.0009422912655035,
+      "median_ratio": 1.0,
+      "min_ratio": 0.9976452763878912,
+      "max_ratio": 1.0051964983010289
+    },
+    "same_config/backend/csr_vector": {
+      "cases": 83,
+      "geomean_ratio": 0.9999140225690575,
+      "median_ratio": 1.0,
+      "min_ratio": 0.9904118876345894,
+      "max_ratio": 1.0131938481552052
+    },
+    "same_config/backend/hybrid_dsm_atbsr": {
+      "cases": 2,
+      "geomean_ratio": 0.9997649529636536,
+      "median_ratio": 0.9997649805872083,
+      "min_ratio": 0.9995299611744166,
+      "max_ratio": 1.0
+    },
+    "same_config/baseline_first": {
+      "cases": 113,
+      "geomean_ratio": 0.9999587119648221,
+      "median_ratio": 1.0,
+      "min_ratio": 0.9823608679421156,
+      "max_ratio": 1.0116279962930463
+    },
+    "same_config/selection_first": {
+      "cases": 113,
+      "geomean_ratio": 0.9997693193946852,
+      "median_ratio": 1.0,
+      "min_ratio": 0.976604255408138,
+      "max_ratio": 1.0204678211725409
+    }
+  }
+}

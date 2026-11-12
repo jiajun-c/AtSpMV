@@ -1,0 +1,17 @@
+{
+  "dataset": "delaunay_n12",
+  "matrix_sha256": "f66512efaacb705c51721df88104de52628c3770d5beb60d5330b9f320ad75db",
+  "index_nnz": 24528,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.168,
+  "gpu_after": {
+    "utilization_percent": 9,
+    "free_memory_mib": 81079
+  }
+}

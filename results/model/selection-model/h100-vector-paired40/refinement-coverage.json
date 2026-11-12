@@ -1,0 +1,25 @@
+{
+  "manifest_total": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "scope": "Retrospective coverage of initialization medians in two orders; no independent remeasurement, measured margin, or Plan setup costs.",
+  "fastest_candidate_backend_per_order": {
+    "hybrid_dsm_atbsr": 7,
+    "csr_vector": 56,
+    "mixed_tile": 6,
+    "atbsr": 11
+  },
+  "vector_over_tuning_best": {
+    "cases": 40,
+    "geomean": 1.3501307988120494,
+    "within_5pct": 29,
+    "over_10pct_slower": 10
+  },
+  "vector_or_mixed_over_tuning_best": {
+    "cases": 40,
+    "geomean": 1.0188164615817543,
+    "within_5pct": 34,
+    "over_10pct_slower": 3
+  }
+}

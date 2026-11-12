@@ -1,0 +1,14 @@
+{
+  "index_sha256": "7c474584b199a32b83f764227c2edf2f0b0164187821dea14bbab6dfe9eccc8b",
+  "exe_sha256": "5eddc6facc26435c3a38bbcb4f288d058076e73cfefc6344ae9fb444d725a2e0",
+  "config_sha256": "d5dacfaed1e2e68e3ee380d137eedd7a0ac4a22f2d4ad045d23ddbd4a130c7e2",
+  "runner_sha256": "ba051b4051bb9049d2e273a597795924c88debc1714ae0b6ad598661ec5332bb",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "seed": 20261028,
+  "trials": 9,
+  "timeout_s": 900,
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "method": "Actual Auto+tune selected before independent interleaved warm Graph timings; compare default AtBSR and preprocessed cuSPARSE CSR_ALG1. Each candidate checked with two nonuniform vectors and a graph against CPU long-double reference. Preparation excluded."
+}

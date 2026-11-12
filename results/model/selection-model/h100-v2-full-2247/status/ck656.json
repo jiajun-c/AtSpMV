@@ -1,0 +1,17 @@
+{
+  "dataset": "ck656",
+  "matrix_sha256": "2dc2bbaa6985b8871f1a314abbc9808b9a6bc8b8e0af7fd4a6058fe87b8cf0ad",
+  "index_nnz": 3884,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 17.995,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

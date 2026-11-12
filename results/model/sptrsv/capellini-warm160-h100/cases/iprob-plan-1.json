@@ -1,0 +1,9 @@
+{
+  "name": "iprob",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iprob-L.mtx,default,cusparse,3008,5329,-1,6916.092,25.12960052,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iprob-L.mtx,default-host,cusparse,3008,5329,-1,6916.092,33.121755,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iprob-L.mtx,model,cusparse,3008,5329,4,2557.364,25.23840141,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iprob-L.mtx,model-host,cusparse,3008,5329,4,2557.364,33.017855,1.00630615e-12,2.290921966e-16,2.880057193e-16,0\n",
+  "stderr": ""
+}

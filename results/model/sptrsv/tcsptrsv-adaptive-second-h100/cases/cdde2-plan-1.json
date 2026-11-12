@@ -1,0 +1,9 @@
+{
+  "name": "cdde2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,default,cusparse,976,7320,-1,2756.76,128.1696014,1.776356839e-15,5.558562646e-17,9.64010307e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,default-host,cusparse,976,7320,-1,2756.76,134.2322,1.776356839e-15,5.558562646e-17,9.64010307e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,model,cached,976,7320,104,1527.619,84.57279968,1.776356839e-15,6.049513538e-17,9.64010307e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/cdde2-L.mtx,model-host,cached,976,7320,104,1527.619,90.254005,1.776356839e-15,6.049513538e-17,9.64010307e-17,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "reorientation_6",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/reorientation_6/reorientation_6.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3006,
+  "columns": 3006,
+  "original_nnz": 37342,
+  "factor_L_nnz": 72015,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.17353368690237403
+}

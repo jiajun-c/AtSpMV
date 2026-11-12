@@ -1,0 +1,17 @@
+{
+  "dataset": "Reuters911",
+  "matrix_sha256": "d5dd8facd63ca987fe2837c644c0b15fd57f0da438b3314ab4f38820369da384",
+  "index_nnz": 296076,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.901,
+  "gpu_after": {
+    "utilization_percent": 18,
+    "free_memory_mib": 81079
+  }
+}

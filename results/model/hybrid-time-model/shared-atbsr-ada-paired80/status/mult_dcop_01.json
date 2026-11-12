@@ -1,0 +1,17 @@
+{
+  "dataset": "mult_dcop_01",
+  "matrix_sha256": "86f433e1e69c4d800bdb6c348c7ddccc7b8ed53d10287cc600b69db8f0934619",
+  "index_nnz": 193276,
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.705,
+  "gpu_after": {
+    "utilization_percent": 99,
+    "free_memory_mib": 48508
+  }
+}

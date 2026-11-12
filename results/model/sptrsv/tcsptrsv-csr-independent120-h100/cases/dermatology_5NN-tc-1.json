@@ -1,0 +1,9 @@
+{
+  "name": "dermatology_5NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/dermatology_5NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 368, 368 ) nnz = 3472\nloadfile time    = 0.00172 sec\nnnzL = 3472\ntime_for_csc2CompressTile = 2.77 ms\ntime_cuda_solve = 0.281470 ms, Mflops = 24.67\nVALIDATION finite=1 max_error=2.1427304375265521e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

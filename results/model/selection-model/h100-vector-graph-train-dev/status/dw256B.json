@@ -1,0 +1,17 @@
+{
+  "dataset": "dw256B",
+  "matrix_sha256": "33b34b6856dd3ee0ce2b39dbd4c34ec0819e47d8ec70590a026a5c666cf006c6",
+  "index_nnz": 2500,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.211,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

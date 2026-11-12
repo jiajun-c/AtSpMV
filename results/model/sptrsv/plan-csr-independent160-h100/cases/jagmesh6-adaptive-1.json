@@ -1,0 +1,8 @@
+{
+  "name": "jagmesh6",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/jagmesh6-L.mtx,model,cached-csr,1377,13416,505,1632.42,268.2655945,4.237721285e-13,1.948529251e-17,1.050254011e-16,256\nresults/model/sptrsv/components-independent-h100/factors/jagmesh6-L.mtx,model-host,cached-csr,1377,13416,505,1632.42,274.40355,4.237721285e-13,1.948529251e-17,1.050254011e-16,256\nresults/model/sptrsv/components-independent-h100/factors/jagmesh6-L.mtx,default,cusparse,1377,13416,-1,4889.626,528.755188,4.237721285e-13,1.948529251e-17,1.050254011e-16,0\nresults/model/sptrsv/components-independent-h100/factors/jagmesh6-L.mtx,default-host,cusparse,1377,13416,-1,4889.626,535.25205,4.237721285e-13,1.948529251e-17,1.050254011e-16,0\n",
+  "stderr": ""
+}

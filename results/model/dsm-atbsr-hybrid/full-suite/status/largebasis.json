@@ -1,0 +1,10 @@
+{
+  "dataset": "largebasis",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/largebasis/largebasis.mtx",
+  "matrix_sha256": "26f96ce4d992af1cb801827fd5961c18187ede5f5c6bac7df968491dd2a6c25b",
+  "index_nnz": 5560100,
+  "index_rows": 440020,
+  "elapsed_s": 3.27,
+  "returncode": 0,
+  "status": "ok"
+}

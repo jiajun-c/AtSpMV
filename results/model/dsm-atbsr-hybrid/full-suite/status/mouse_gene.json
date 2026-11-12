@@ -1,0 +1,10 @@
+{
+  "dataset": "mouse_gene",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mouse_gene/mouse_gene.mtx",
+  "matrix_sha256": "c00f8bf0a79b7b5f78e6bf4b0f35497901f21f2685c511b94764419d8b7a8e75",
+  "index_nnz": 28967291,
+  "index_rows": 45101,
+  "elapsed_s": 8.449,
+  "returncode": 0,
+  "status": "ok"
+}

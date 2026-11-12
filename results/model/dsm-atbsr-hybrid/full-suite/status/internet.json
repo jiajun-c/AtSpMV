@@ -1,0 +1,10 @@
+{
+  "dataset": "internet",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/internet/internet.mtx",
+  "matrix_sha256": "2ae0de8462c9106b9720c91cb935c7a0c60243df7681bb804a882e159421a4dc",
+  "index_nnz": 207214,
+  "index_rows": 124651,
+  "elapsed_s": 0.589,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "G53",
+  "matrix_sha256": "73d8e4b046f50d4a3478d9a330e425696be831e846a93cc1d0a98a60d9acea44",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.167,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

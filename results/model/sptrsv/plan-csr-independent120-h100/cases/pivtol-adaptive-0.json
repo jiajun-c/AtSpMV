@@ -1,0 +1,8 @@
+{
+  "name": "pivtol",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/pivtol-L.mtx,default,cusparse,102,214,-1,2492.369,45.79199982,2.220446049e-16,2.184162449e-17,4.650426566e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/pivtol-L.mtx,default-host,cusparse,102,214,-1,2492.369,52.873425,2.220446049e-16,2.184162449e-17,4.650426566e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/pivtol-L.mtx,model,cached-csr,102,214,57,3042.788,29.93920135,2.220446049e-16,2.184162449e-17,4.650426566e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/pivtol-L.mtx,model-host,cached-csr,102,214,57,3042.788,36.06743,2.220446049e-16,2.184162449e-17,4.650426566e-17,256\n",
+  "stderr": ""
+}

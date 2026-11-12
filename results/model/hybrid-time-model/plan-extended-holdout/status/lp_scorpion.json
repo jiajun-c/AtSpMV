@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_scorpion",
+  "matrix_sha256": "dcba1982f60920f3e30ef3daaab1735e2ee2ad8e318a39a11c3b7c770b1e0798",
+  "index_nnz": 1534,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.166,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 8161
+  }
+}

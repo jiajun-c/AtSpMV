@@ -1,0 +1,9 @@
+{
+  "name": "Trefethen_2000",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Trefethen_2000-L.mtx,default,cusparse,2000,45069,-1,7548.905,741.0751953,4.440892099e-16,2.644276037e-17,5.593386651e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Trefethen_2000-L.mtx,default-host,cusparse,2000,45069,-1,7548.905,747.998155,4.440892099e-16,2.644276037e-17,5.593386651e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Trefethen_2000-L.mtx,model,cusparse,2000,45069,682,7576.487,741.0463867,4.440892099e-16,2.644276037e-17,5.593386651e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Trefethen_2000-L.mtx,model-host,cusparse,2000,45069,682,7576.487,747.837365,4.440892099e-16,2.644276037e-17,5.593386651e-17,0\n",
+  "stderr": ""
+}

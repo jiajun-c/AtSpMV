@@ -1,0 +1,49 @@
+{
+  "cases": 120,
+  "manifest_total": 120,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 102,
+  "median_break_even_calls": null,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution. The default AtBSR setup is the first-use anchor and is not compared; model-to-model scenarios remain available.",
+  "baseline_setup_comparison_valid": false,
+  "versus_auto_model": {
+    "median_model_minus_selected_setup_us": -176.10375,
+    "reuse_scenarios": {
+      "1": {
+        "cases": 120,
+        "geomean_speedup": 0.9642527951516225,
+        "wins": 41
+      },
+      "10": {
+        "cases": 120,
+        "geomean_speedup": 0.9653417626158459,
+        "wins": 41
+      },
+      "100": {
+        "cases": 120,
+        "geomean_speedup": 0.9753250225214927,
+        "wins": 42
+      },
+      "1000": {
+        "cases": 120,
+        "geomean_speedup": 1.0285184370232598,
+        "wins": 77
+      },
+      "10000": {
+        "cases": 120,
+        "geomean_speedup": 1.0892211141348103,
+        "wins": 92
+      },
+      "100000": {
+        "cases": 120,
+        "geomean_speedup": 1.102553768680803,
+        "wins": 96
+      },
+      "1000000": {
+        "cases": 120,
+        "geomean_speedup": 1.1039438807992143,
+        "wins": 96
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "orsirr_2",
+  "matrix_sha256": "a568a5938eaa3371a0b7d1214261f7c891fc42100b59d4643b0eb5d09230f11a",
+  "index_nnz": 5970,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.876,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

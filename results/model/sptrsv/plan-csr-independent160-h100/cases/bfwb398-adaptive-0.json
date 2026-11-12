@@ -1,0 +1,8 @@
+{
+  "name": "bfwb398",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/bfwb398-L.mtx,default,cusparse,398,4294,-1,2621.543,125.9392014,4.440892099e-16,4.160807459e-17,8.032600775e-17,0\nresults/model/sptrsv/components-independent-h100/factors/bfwb398-L.mtx,default-host,cusparse,398,4294,-1,2621.543,132.143525,4.440892099e-16,4.160807459e-17,8.032600775e-17,0\nresults/model/sptrsv/components-independent-h100/factors/bfwb398-L.mtx,model,cached-csr,398,4294,118,1202.695,67.93599701,4.440892099e-16,4.160807459e-17,8.032600775e-17,256\nresults/model/sptrsv/components-independent-h100/factors/bfwb398-L.mtx,model-host,cached-csr,398,4294,118,1202.695,73.53545,4.440892099e-16,4.160807459e-17,8.032600775e-17,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,117 @@
+{
+  "manifest_total": 2888,
+  "status_counts": {
+    "ok": 2772,
+    "error": 66,
+    "pending": 50
+  },
+  "complete": false,
+  "method": "Per-matrix geometric mean across opposite construction orders. Best fixed is the minimum measured median of 24 single-shape/mode/cap candidates per order, an optimistic measured baseline. Memory counts final packed arrays and metadata, not input CSR, temporary allocations, setup or Graph. Samples with failures remain in status counts. Warm GPU Graph excludes setup.",
+  "speedup_vs_fastest_fixed": {
+    "geomean": 0.5943982648531665,
+    "median": 0.727272719815341,
+    "min": 0.009234625616961806,
+    "max": 1.3719886937239893,
+    "cases": 2772,
+    "above_one": 78
+  },
+  "specialized_vs_fastest_fixed": {
+    "geomean": 0.6012810201621401,
+    "median": 0.7359800550071133,
+    "min": 0.009400676745228473,
+    "max": 1.36082759395726,
+    "cases": 2772,
+    "above_one": 90
+  },
+  "balanced4_vs_fastest_fixed": {
+    "geomean": 0.7253460467024858,
+    "median": 0.7560219048657706,
+    "min": 0.04350066470311999,
+    "max": 2.972504738422201,
+    "cases": 2772,
+    "above_one": 137
+  },
+  "balanced8_vs_fastest_fixed": {
+    "geomean": 0.728444262119869,
+    "median": 0.7727272801846591,
+    "min": 0.0914559328671434,
+    "max": 3.787361463235636,
+    "cases": 2772,
+    "above_one": 240
+  },
+  "balanced16_vs_fastest_fixed": {
+    "geomean": 0.69567765591294,
+    "median": 0.7164728601052256,
+    "min": 0.21961758262507866,
+    "max": 4.070269962232989,
+    "cases": 2772,
+    "above_one": 235
+  },
+  "best_mixed_vs_fastest_fixed": {
+    "geomean": 0.8693025871012845,
+    "median": 0.8897564854614344,
+    "min": 0.21961758262507866,
+    "max": 4.070269962232989,
+    "cases": 2772,
+    "above_one": 379
+  },
+  "best_mixed_vs_default": {
+    "geomean": 0.9198446572229122,
+    "median": 0.9496572750543153,
+    "min": 0.26240045057706596,
+    "max": 4.226152665063448,
+    "cases": 2772,
+    "above_one": 852
+  },
+  "specialized_vs_dynamic": {
+    "geomean": 1.0115793664213908,
+    "median": 1.0,
+    "min": 0.9574270946665147,
+    "max": 1.1115981819308276,
+    "cases": 2772,
+    "above_one": 1302
+  },
+  "speedup_vs_default": {
+    "geomean": 0.6289571390911448,
+    "median": 0.7500000281982423,
+    "min": 0.011033587993444137,
+    "max": 3.6066003275450353,
+    "cases": 2772,
+    "above_one": 246
+  },
+  "mixed_bytes_vs_fastest_fixed": {
+    "geomean": 0.6445088177589878,
+    "median": 0.7766343785374344,
+    "min": 0.09515333098343322,
+    "max": 1.0118912289098958,
+    "cases": 2772,
+    "above_one": 220
+  },
+  "balanced8_bytes_vs_fastest_fixed": {
+    "geomean": 0.6458668707014003,
+    "median": 0.7795697983004357,
+    "min": 0.09522382798731054,
+    "max": 1.0086709543511805,
+    "cases": 2772,
+    "above_one": 306
+  },
+  "best_mixed_bytes_vs_fastest_fixed": {
+    "geomean": 0.6464224721241355,
+    "median": 0.783744775116657,
+    "min": 0.09515333098343322,
+    "max": 1.0118912289098958,
+    "cases": 2772,
+    "above_one": 274
+  },
+  "mixed_slots_vs_fewest_fixed": {
+    "geomean": 0.9121257566354781,
+    "median": 0.9809925941667859,
+    "min": 0.25066666666666665,
+    "max": 1.0,
+    "cases": 2772,
+    "above_one": 0
+  },
+  "storage_slot_strictly_lower_cases": 2508,
+  "mixed_faster_cases": 78,
+  "specialized_faster_cases": 90
+}

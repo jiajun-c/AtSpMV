@@ -1,0 +1,7 @@
+{
+  "name": "nos2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-independent120-h100/factors/nos2-L.mtx,957,2865,626,cusparse,30344.4,457.9743862,4.773959006e-15,3.535242676e-17\nresults/model/sptrsv/csr-independent120-h100/factors/nos2-L.mtx,957,2865,626,cusparse-host,30344.4,466.78047,4.773959006e-15,3.535242676e-17\nresults/model/sptrsv/csr-independent120-h100/factors/nos2-L.mtx,957,2865,626,cached-csr-32-256,15.441,301.0207891,4.773959006e-15,3.535242676e-17\nresults/model/sptrsv/csr-independent120-h100/factors/nos2-L.mtx,957,2865,626,cached-csr-32-512,15.441,306.2752008,4.773959006e-15,3.535242676e-17\nresults/model/sptrsv/csr-independent120-h100/factors/nos2-L.mtx,957,2865,626,selector-cusparse,913.17,458.1600189,4.773959006e-15,3.535242676e-17\n",
+  "stderr": ""
+}

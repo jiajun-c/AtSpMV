@@ -1,0 +1,6 @@
+{
+  "name": "Trefethen_300",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/Trefethen_300-L.mtx --------------\nsuccess open file\ninput matrix A: ( 300, 300 ) nnz = 10511\nloadfile time    = 0.00543 sec\nnnzL = 10515\nCSC col6 row=6 val=1\nCSC col6 row=8 val=0.1111111111111111\nCSC col6 row=10 val=-0.1111111111111111\ntime_for_csc2CompressTile = 2.13 ms\ntime_cuda_solve = 0.210380 ms, Mflops = 99.96\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=1.193069306930693 expected=1.193069306930693 b=1.193069306930693\nsample i=2 got=1.4009900990099009 expected=1.4009900990099009 b=1.4009900990099009\nsample i=3 got=0.76732673267326734 expected=0.76732673267326734 b=0.76732673267326734\nsample i=4 got=1.1336633663366338 expected=1.1336633663366338 b=1.1336633663366338\nsample i=5 got=0.5 expected=0.5 b=0.5\nsample i=6 got=0.86633663366336622 expected=0.86633663366336633 b=1.1163366336633662\nsample i=7 got=0.55940594059405946 expected=0.55940594059405946 b=0.56000637809125664\nVALIDATION finite=1 max_error=0.2100548054280329 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

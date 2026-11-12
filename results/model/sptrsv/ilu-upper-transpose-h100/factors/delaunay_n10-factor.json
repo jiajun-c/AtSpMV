@@ -1,0 +1,7 @@
+{
+  "matrix": "delaunay_n10",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/delaunay_n10-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.0579824447631836e-06
+}

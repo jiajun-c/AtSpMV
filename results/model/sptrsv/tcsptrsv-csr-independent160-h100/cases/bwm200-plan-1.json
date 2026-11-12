@@ -1,0 +1,9 @@
+{
+  "name": "bwm200",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bwm200-L.mtx,default,cusparse,208,605,-1,2884.344,144.8992004,0,4.044158836e-17,7.304777066e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bwm200-L.mtx,default-host,cusparse,208,605,-1,2884.344,152.32813,0,4.044158836e-17,7.304777066e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bwm200-L.mtx,model,cached-csr,208,605,200,1344.482,97.14559937,0,4.044158836e-17,7.304777066e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bwm200-L.mtx,model-host,cached-csr,208,605,200,1344.482,104.12301,0,4.044158836e-17,7.304777066e-17,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "pfinan512",
+  "matrix_sha256": "19a9ad7220934a56f63a38dbc0d766aaf00fc96463913cfb0c130c2a6a1acf33",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.611,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

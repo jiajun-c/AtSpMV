@@ -1,0 +1,10 @@
+{
+  "dataset": "Trec14",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Trec14/Trec14.mtx",
+  "matrix_sha256": "c858d607b16989ee03120d0b1bb02e2d74ee4cc23c705307c6fe79ce55a740d4",
+  "index_nnz": 2872265,
+  "index_rows": 3159,
+  "elapsed_s": 1.796,
+  "returncode": 0,
+  "status": "ok"
+}

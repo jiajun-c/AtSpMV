@@ -1,0 +1,57 @@
+WAIT GPU busy [{'pid': 877592, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+10/80 adder_dcop_60: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+WAIT GPU busy [{'pid': 880247, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 880247, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 880247, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 880247, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 880247, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT shared GPU utilization/memory {'utilization_percent': 39, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+20/80 west0381: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 28, 'free_memory_mib': 8161}
+30/80 lp_share2b: ok, new=30
+WAIT shared GPU utilization/memory {'utilization_percent': 6, 'free_memory_mib': 8161}
+40/80 football: ok, new=40
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+50/80 reorientation_7: ok, new=50
+WAIT shared GPU utilization/memory {'utilization_percent': 2, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 5, 'free_memory_mib': 8161}
+WAIT shared GPU utilization/memory {'utilization_percent': 4, 'free_memory_mib': 8161}
+60/80 beacxc: ok, new=60
+70/80 ckt11752_tr_0: ok, new=70
+RETRY due to external GPU use rajat25 [{'pid': 894484, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 72,
+    "pending": 8
+  },
+  "selected_backends": {
+    "hybrid_dsm_atbsr": 14,
+    "atbsr": 36,
+    "csr_dsm": 8,
+    "cusparse": 7,
+    "csr_two_stage": 7
+  },
+  "method": "Actual tuned selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.1499709903964344,
+    "median": 1.102990217937241,
+    "wins": 56,
+    "cases": 72
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.3148489589970465,
+    "median": 1.3086062133756489,
+    "wins": 70,
+    "cases": 72
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1116989390740877,
+    "median": 1.0919794862358825,
+    "wins": 54,
+    "cases": 72
+  }
+}

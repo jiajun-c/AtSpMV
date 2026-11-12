@@ -1,0 +1,19 @@
+{
+  "cases": 12,
+  "seeds_per_case": 3,
+  "runs": 36,
+  "direct_and_graph_candidate_checks_each": 1086,
+  "max_abs_error": 5.224813637e-14,
+  "source_sha256": "cb2fb21227fc38fdd6f0a5c4de0dfba3f90a6c881eb7dbebe955146c9714c2cd",
+  "executable_sha256": "1438511910780d000d137a5a4c216b7e9818548abef3ae95f9612c80b0335708",
+  "ctest": "passed",
+  "sanitizers": {
+    "shape": [
+      2049,
+      33
+    ],
+    "memcheck": "0 errors",
+    "racecheck": "0 hazards",
+    "synccheck": "0 errors"
+  }
+}

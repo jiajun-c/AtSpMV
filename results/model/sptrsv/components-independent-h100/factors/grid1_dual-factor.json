@@ -1,0 +1,14 @@
+{
+  "matrix": "grid1_dual",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/grid1_dual/grid1_dual.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 224,
+  "columns": 224,
+  "original_nnz": 840,
+  "factor_L_nnz": 868,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.02680044900625944
+}

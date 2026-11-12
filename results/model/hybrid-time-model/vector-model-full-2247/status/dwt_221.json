@@ -1,0 +1,17 @@
+{
+  "dataset": "dwt_221",
+  "matrix_sha256": "4269757aa6296bb946d3749004376db14dba85f398f85d4e9f032312a0e96c6e",
+  "index_nnz": 1629,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.246,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

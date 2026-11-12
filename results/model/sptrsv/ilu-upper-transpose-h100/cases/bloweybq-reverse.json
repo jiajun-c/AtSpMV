@@ -1,0 +1,7 @@
+{
+  "name": "bloweybq",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bloweybq-L.mtx,model,cusparse,10001,30003,-1,40157.693,7059.353516,0.001471042327\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bloweybq-L.mtx,model-host,cusparse,10001,30003,-1,40157.693,7070.468535,0.001471042327\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bloweybq-L.mtx,default,cusparse,10001,30003,-1,40347.826,7059.919922,0.001471042327\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bloweybq-L.mtx,default-host,cusparse,10001,30003,-1,40347.826,7070.38389,0.001471042327\n",
+  "stderr": ""
+}

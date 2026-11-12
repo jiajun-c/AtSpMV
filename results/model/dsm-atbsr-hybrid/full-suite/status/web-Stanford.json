@@ -1,0 +1,10 @@
+{
+  "dataset": "web-Stanford",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/web-Stanford/web-Stanford.mtx",
+  "matrix_sha256": "a514e9693666e9d063b3f0b3535f45706f31e524239194750785af737f8ad090",
+  "index_nnz": 2312497,
+  "index_rows": 281903,
+  "elapsed_s": 2.07,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "gre_216b",
+  "matrix_sha256": "9b8cbb1ea3eb37bd2a633040b27714358d880cd1e13b11f358be0432f156bae8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.46,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

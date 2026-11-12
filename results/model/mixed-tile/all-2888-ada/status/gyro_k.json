@@ -1,0 +1,15 @@
+{
+  "dataset": "gyro_k",
+  "matrix_sha256": "417199fab26706ecb32114f418d345bd9b1611bc4ce0f55693be4e4359c58bc5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.361,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "LargeRegFile",
+  "matrix_sha256": "346db0888d20277784ec0daf571e834919b244eddde55e447d35758ce46e4897",
+  "index_nnz": 4944201,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 45.788,
+  "gpu_after": {
+    "utilization_percent": 61,
+    "free_memory_mib": 81079
+  }
+}

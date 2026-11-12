@@ -1,0 +1,17 @@
+{
+  "dataset": "soc-Pokec",
+  "matrix_sha256": "b141720ebf661b73048d5a091bde299d57c8d7b804f7102a3ca17e0ba1452451",
+  "index_nnz": 30622564,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 233.778,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

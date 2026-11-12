@@ -1,0 +1,17 @@
+{
+  "dataset": "baxter",
+  "matrix_sha256": "93f5f0d26b5dff69510653296afab32300c7ec38d123f1ee4db7774fcb30facf",
+  "index_nnz": 111576,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.231,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "str_400",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/str_400-L.mtx --------------\nsuccess open file\ninput matrix A: ( 368, 368 ) nnz = 2189\nloadfile time    = 0.00104 sec\nnnzL = 2189\ntime_for_csc2CompressTile = 2.65 ms\ntime_cuda_solve = 0.135130 ms, Mflops = 32.40\nVALIDATION finite=1 max_error=1.6653345369377348e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

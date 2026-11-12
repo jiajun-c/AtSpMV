@@ -1,0 +1,17 @@
+{
+  "dataset": "thermal",
+  "matrix_sha256": "cb6cc3ef891df86c0523ac0ae534140541d1038bf27822a31498d424dfa51e67",
+  "index_nnz": 66528,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.023,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "bcsstm20",
+  "matrix_sha256": "3a91d9ce418222015c57f546407a3fd74146fa4ae51de705a2eda5a82772e4e4",
+  "index_nnz": 485,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.684,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "ibm32",
+  "matrix_sha256": "98a166927fb28b925837da2b0f641dee30a504f786ee527460492f2335e8cf39",
+  "index_nnz": 126,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.082,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "cuda_visible_devices": "3",
+  "executable": "/tmp/atspmv-dsm-sm90-build/dsm_pagerank_bench",
+  "executable_sha256": "48ecf3b1cefcf461692066c47a75e9c22555c2a7fbf12b7d0b1d74a2f765cd6d",
+  "sources": {
+    "src/dsmPageRank.cu": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+    "bench/dsm_pagerank_bench.cu": "d12f4f9176c3597b1ee6895782f4e8329fc8c82de0d04fd24d6732f3ecc3b70a"
+  },
+  "inputs": {
+    "/staff/chengjiajun/workspace/database/suitsparse/netscience/netscience.mtx": "ea8aceaaaa5840d82f2c98df348bf95f081daea6263beba54fccc8c2fc28da1d",
+    "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx": "715cf95785e2ec7742221a60c9330f413a2d319cd9dd0bb34500b30206121588"
+  },
+  "iterations": [
+    100
+  ],
+  "seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "timing": "CUDA events around one graph containing the complete solve; initial copy/staging and final store included; setup excluded; 3 warmup and 15 randomized interleaved measurement batches",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB], driver_version\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB, 580.178.04\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB, 580.178.04\n"
+}

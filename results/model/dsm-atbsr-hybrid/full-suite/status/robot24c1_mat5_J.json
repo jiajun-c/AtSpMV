@@ -1,0 +1,10 @@
+{
+  "dataset": "robot24c1_mat5_J",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/robot24c1_mat5_J/robot24c1_mat5_J.mtx",
+  "matrix_sha256": "a9b5d6246d344b300fa419e2c2dadd526ed4229bc69687dd24e906e60330a70c",
+  "index_nnz": 15118,
+  "index_rows": 302,
+  "elapsed_s": 0.585,
+  "returncode": 0,
+  "status": "ok"
+}

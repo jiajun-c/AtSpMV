@@ -1,0 +1,17 @@
+{
+  "dataset": "G37",
+  "matrix_sha256": "4bdc498108ecc0232221b35c4cfc374df40d36516550ae4b5960e2e3c095fa59",
+  "index_nnz": 23570,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.365,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lpi_ceria3d",
+  "matrix_sha256": "c4b07ae750231ca517a1601ef352c3051792c2b106f37f6db5ab7c29599b3288",
+  "index_nnz": 21178,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.438,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

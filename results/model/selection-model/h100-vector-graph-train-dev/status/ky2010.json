@@ -1,0 +1,17 @@
+{
+  "dataset": "ky2010",
+  "matrix_sha256": "b79885cab6344437b4f48dfa713f8262149cdef3fbe5e1f2331943008d6e2f92",
+  "index_nnz": 787778,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.371,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

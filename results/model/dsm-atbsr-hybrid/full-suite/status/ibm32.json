@@ -1,0 +1,10 @@
+{
+  "dataset": "ibm32",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ibm32/ibm32.mtx",
+  "matrix_sha256": "98a166927fb28b925837da2b0f641dee30a504f786ee527460492f2335e8cf39",
+  "index_nnz": 126,
+  "index_rows": 32,
+  "elapsed_s": 1.238,
+  "returncode": 0,
+  "status": "ok"
+}

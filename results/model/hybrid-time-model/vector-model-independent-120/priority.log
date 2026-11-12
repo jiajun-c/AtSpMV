@@ -1,0 +1,91 @@
+PAUSED sweep runner; waiting for its current child to finish
+RUNNING independent vector holdout
+RESUMED sweep runner
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "imported_records": 0,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "selected_backends": {
+    "atbsr": 87,
+    "csr_two_stage": 7,
+    "csr_dsm": 24,
+    "hybrid_dsm_atbsr": 2
+  },
+  "selection": "auto_model",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.0442819662127942,
+    "median": 1.0027160588546513,
+    "wins": 80,
+    "cases": 120
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.418952344043553,
+    "median": 1.457736232845407,
+    "wins": 112,
+    "cases": 120
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.0387211698580312,
+    "median": 1.0020247841268644,
+    "wins": 75,
+    "cases": 120
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 0.9695399001598153,
+    "median": 0.9884480644033244,
+    "wins": 28,
+    "cases": 120
+  },
+  "speedup_best_vector_vs_extended": {
+    "geomean": 0.9046695904757582,
+    "median": 1.0962244131301666,
+    "wins": 91,
+    "cases": 120
+  },
+  "speedup_oracle_extended_plus_vector": {
+    "geomean": 1.0915933204320967,
+    "median": 1.0962244131301666,
+    "wins": 91,
+    "cases": 120
+  }
+}
+{
+  "method": "Preselected ExtraTrees model trained on frozen tuning-time labels; selects one vector width only if its predicted ratio beats the existing model prediction. Independently measured warm Graph timing in both Plan-construction orders. Limited fixed baseline; setup excluded; approximate family grouping.",
+  "manifest_total": 120,
+  "status_counts": {
+    "ok": 120
+  },
+  "training_families": 423,
+  "sklearn_version": "1.6.0",
+  "training_sha256": "1e3f94c842db67b33be1103facf3b083fbfc3e64d5faf08f84aaee2f3f973e6c",
+  "features_sha256": "7354e6e877aa7701d5d4d07cc0355d9f2d604e9a3ec95e2aa278fb0ab2bb3f29",
+  "references_sha256": "6da6f54994d176b1a1d9b52943c280182344cfa18c43312cb49851bdb14db59e",
+  "selected_vector": 90,
+  "regressions_vs_model": 7,
+  "test_family_disjoint": true,
+  "complete_success": true,
+  "cases": 120,
+  "speedup_vs_model": {
+    "geomean": 1.1076499045003068,
+    "median": 1.1102188993691784,
+    "wins": 83
+  },
+  "speedup_vs_fixed_oracle": {
+    "geomean": 1.0739107778212564,
+    "median": 1.090584238049389,
+    "wins": 97
+  }
+}
+HOLDOUT complete_success= True

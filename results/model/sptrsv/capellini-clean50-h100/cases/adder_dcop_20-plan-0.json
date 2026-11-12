@@ -1,0 +1,9 @@
+{
+  "name": "adder_dcop_20",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx,default,cusparse,1824,4047,-1,2325.432,19.26079941,1.33226763e-14,1.480651516e-17,1.003706406e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx,default-host,cusparse,1824,4047,-1,2325.432,27.114175,1.33226763e-14,1.480651516e-17,1.003706406e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx,model,cached,1824,4047,9,1454.589,13.19040108,1.33226763e-14,1.707964998e-17,1.003706406e-16,1024\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/adder_dcop_20-L.mtx,model-host,cached,1824,4047,9,1454.589,20.2431,1.33226763e-14,1.707964998e-17,1.003706406e-16,1024\n",
+  "stderr": ""
+}

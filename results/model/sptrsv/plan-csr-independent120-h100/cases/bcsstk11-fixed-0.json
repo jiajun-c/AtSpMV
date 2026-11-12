@@ -1,0 +1,8 @@
+{
+  "name": "bcsstk11",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstk11-L.mtx,default,cusparse,1473,51909,-1,8810.48,727.1328125,1.132427485e-13,2.930158306e-17,1.649017686e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstk11-L.mtx,default-host,cusparse,1473,51909,-1,8810.48,734.70482,1.132427485e-13,2.930158306e-17,1.649017686e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstk11-L.mtx,model,cusparse,1473,51909,843,8795.654,727.0592041,1.132427485e-13,2.930158306e-17,1.649017686e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/bcsstk11-L.mtx,model-host,cusparse,1473,51909,843,8795.654,734.430135,1.132427485e-13,2.930158306e-17,1.649017686e-16,0\n",
+  "stderr": ""
+}

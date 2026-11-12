@@ -1,0 +1,10 @@
+{
+  "dataset": "init_adder1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/init_adder1/init_adder1.mtx",
+  "matrix_sha256": "c5ded3cfabc4f811ea68799105adabdf0f3eb453af098201c938cce3475ea78b",
+  "index_nnz": 11156,
+  "index_rows": 1813,
+  "elapsed_s": 1.254,
+  "returncode": 0,
+  "status": "ok"
+}

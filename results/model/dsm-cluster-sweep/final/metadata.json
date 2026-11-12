@@ -1,0 +1,23 @@
+{
+  "source_sha256": "368cc7024da5f0f189aea324c72ff322428a78253a3ee67e6fb5aa2be2fd8bb0",
+  "script_sha256": "ac29cedf961998245ff7bebd7d66726408888dcd6404990d84006f2cfd9219e7",
+  "binary": "/tmp/atspmv-dsm-sm90-build/dsm_cluster_sweep",
+  "binary_sha256": "00107312c1d9237c4f7140870b83de8e8e2f8525f31a0e22e91bee0725ef78c7",
+  "cuda_visible_devices": "3",
+  "iterations": [
+    1024,
+    2048
+  ],
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "trials": 15,
+  "method": "32 calls per CUDA graph; 3 warmup rounds and randomly interleaved candidates each round; p10/median/p90 from trials. Clock64 samples refer to the last graph node; cudaEvent time is per graph node.",
+  "timing_limits": "Dependent loops report cycles/iteration including dependent-address or value arithmetic. Single atomic includes clock/branch/issue and need not await atomic completion. Returnless RED clock is not completion latency. DSM round times mbarrier transaction and rank0 combine after initial cluster.sync; event time includes initialization. Atomic_plain kernels have no cluster barrier. Independent output addresses are 128 bytes apart. All hot caches; no clocks locked.",
+  "validation": "Every candidate checked via direct launch and graph replay. Each kernel opts into nonportable size 16 and is tested for active-cluster occupancy before use. Number of distinct physical SM IDs from final graph node is recorded.",
+  "cluster_size": "2/4/8/16; 16 is nonportable and omitted explicitly if any tested kernel cannot run it. Remote peer is rank 1 or last rank. Single cluster per kernel; occupancy numbers are CUDA API maxima, not achieved occupancy.",
+  "fixed16": "dsm_async_fixed16 keeps 16 warp partials per cluster, with 256/128/64/32 threads per CTA at cluster 2/4/8/16. The broadcast still sends to all C CTAs.",
+  "runs": 6
+}

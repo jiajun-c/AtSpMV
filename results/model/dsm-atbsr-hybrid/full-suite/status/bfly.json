@@ -1,0 +1,10 @@
+{
+  "dataset": "bfly",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bfly/bfly.mtx",
+  "matrix_sha256": "886aa8573a09675723849105ac5d5335aeb64a064f5693972ebdae90d3db3286",
+  "index_nnz": 196608,
+  "index_rows": 49152,
+  "elapsed_s": 0.751,
+  "returncode": 0,
+  "status": "ok"
+}

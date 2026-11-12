@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_barth5_1Ksep_50in_5Kout",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_barth5_1Ksep_50in_5Kout/vsp_barth5_1Ksep_50in_5Kout.mtx",
+  "matrix_sha256": "afa8cecfd5256d9b11e30bbca0b464b44d764510e3f47dc8579792e3433f6326",
+  "index_nnz": 203610,
+  "index_rows": 32212,
+  "elapsed_s": 1.338,
+  "returncode": 0,
+  "status": "ok"
+}

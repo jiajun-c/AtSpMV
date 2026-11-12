@@ -1,0 +1,17 @@
+{
+  "dataset": "g7jac020sc",
+  "matrix_sha256": "3249633d3a8017074d910a1933ede5fd9825ba718b176fb038b794d85b7cc12a",
+  "index_nnz": 45465,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.814,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

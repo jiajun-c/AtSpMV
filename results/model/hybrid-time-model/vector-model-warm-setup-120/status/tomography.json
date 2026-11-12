@@ -1,0 +1,17 @@
+{
+  "dataset": "tomography",
+  "matrix_sha256": "9e2a351da1114ab72ab6f1207df5057dea7733cbf4ad95545d18d1ec5611dcb8",
+  "index_nnz": 28726,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.735,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

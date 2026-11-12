@@ -1,0 +1,14 @@
+{
+  "matrix": "wang2",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/wang2/wang2.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2903,
+  "columns": 2903,
+  "original_nnz": 19093,
+  "factor_L_nnz": 35144,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.08624820597469807
+}

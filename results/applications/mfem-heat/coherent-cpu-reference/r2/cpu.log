@@ -1,0 +1,15 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 2
+   --order 2
+   --ode-solver 21
+   --t-final 0.029999999999999999
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+Number of temperature unknowns: 1361
+step 3, t = 0.029999999999999999
+

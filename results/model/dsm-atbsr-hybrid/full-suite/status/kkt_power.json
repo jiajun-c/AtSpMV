@@ -1,0 +1,10 @@
+{
+  "dataset": "kkt_power",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/kkt_power/kkt_power.mtx",
+  "matrix_sha256": "18822d14e5d0febe943cad7dc9b7e036b2a9592d6e1a3f2a231ede79b895d628",
+  "index_nnz": 14612663,
+  "index_rows": 2063494,
+  "elapsed_s": 6.867,
+  "returncode": 0,
+  "status": "ok"
+}

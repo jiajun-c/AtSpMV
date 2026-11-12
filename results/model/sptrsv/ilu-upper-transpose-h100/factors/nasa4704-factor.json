@@ -1,0 +1,7 @@
+{
+  "matrix": "nasa4704",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/nasa4704-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 7.278285920619965e-07
+}

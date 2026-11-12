@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_grow22",
+  "matrix_sha256": "54b12d3a0270d4702f2d8543570d1fd87758863068e5b5276b4b17182805bcf8",
+  "index_nnz": 8252,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.966,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

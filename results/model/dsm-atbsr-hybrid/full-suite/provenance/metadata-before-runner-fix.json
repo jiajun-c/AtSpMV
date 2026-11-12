@@ -1,0 +1,23 @@
+{
+  "index_path": "/staff/chengjiajun/workspace/AtSpmv/results/analysis/longest_row_ratio.csv",
+  "index_sha256": "255b00e427ce3cdd7e8f4f3fcb56f119fa91d9c6b53b5ec0e617522072db5fb0",
+  "exe": "/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation",
+  "exe_sha256": "445fd7f9d7503ba4c0f5de1121ee039c779c05db88f746e01892f6e5411baeda",
+  "config_sha256": "07b673fdd85ddc7839ef7e945880e1dbc32a593f00fec9020c38968ecfd24fed",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "physical_gpu_index": 3,
+  "seed": 202610271,
+  "trials": 9,
+  "timeout_s": 300,
+  "candidates": "Fixed predeclared configs, plus cuSPARSE CSR_ALG1. Each candidate verified against long-double reference for two inputs and once by graph. 3 warmup batches, 9 interleaved trials of 8 graph calls, warm before every timed graph.",
+  "order": "Ascending indexed nnz; includes missing inputs and no size cutoff; failures are retained separately. Best-of-fixed shortlist, not best-of-all configurations.",
+  "sources": {
+    "bench/spmv_hybrid_validation.cu": "8ed2326f3d462bf4430138f382d013476b7bd77ee4bfe26f59f816b93e1fedce",
+    "src/spmvPlan.cu": "356a5a9abe6d8c8eac121123ee2c5c362365ede2bfccd6db99ddcd15edd0167e",
+    "src/spmvPlanDsm.cu": "a10bc1b9ab7e4713676c0d0c7d935ab40b91f44cdf3bfd43c64c7586eddb2395",
+    "include/spmvPlan.h": "98b86fc234b8fadcebed410d40543d407ad93c59b1689c915a2cc012adc34fd6",
+    "include/dsmLongRow.cuh": "ced8adb26029196fe378d9b10099ef8ca502489d9c1b7ea2c568fdc33e2cf48b",
+    "src/atspmvProduct.cu": "abeec5b087861c23949669649d1ee2e78944b88fe3f2821eab20624351e12f8e",
+    "scripts/analysis/benchmark_dsm_atbsr_full.py": "eeed9a4c9a8a957709416b35de7b15be71b87739b793f10ad9476b2139af5f4b"
+  }
+}

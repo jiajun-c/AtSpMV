@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_greenbea",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_greenbea/lp_greenbea.mtx",
+  "matrix_sha256": "00aab0854274c954233f4f227c00095505da76533e3440d711804628fcf23daf",
+  "index_nnz": 31070,
+  "index_rows": 2392,
+  "elapsed_s": 1.275,
+  "returncode": 0,
+  "status": "ok"
+}

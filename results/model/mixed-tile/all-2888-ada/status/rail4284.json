@@ -1,0 +1,15 @@
+{
+  "dataset": "rail4284",
+  "matrix_sha256": "dadc00a9c6c48cdd8285fbc7273a99a9e282e74ae6ec2c9d6fdac56a3c6e816f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 19.216,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

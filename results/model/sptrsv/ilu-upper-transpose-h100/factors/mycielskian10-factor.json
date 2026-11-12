@@ -1,0 +1,10 @@
+{
+  "matrix": "mycielskian10",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/mycielskian10-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 767,
+  "nnz": 95589,
+  "min_abs_diagonal": 0.3333333333333327,
+  "max_abs_diagonal": 59.32696177946641,
+  "elapsed_s": 0.05160130304284394
+}

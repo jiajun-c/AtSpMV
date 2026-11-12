@@ -1,0 +1,15 @@
+{
+  "dataset": "adder_dcop_66",
+  "matrix_sha256": "a166b9313abd877e621d270c1d7d969a3268ed350ffddf0af2ee54b235498662",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.02,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

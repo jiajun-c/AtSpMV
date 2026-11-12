@@ -1,0 +1,10 @@
+{
+  "dataset": "fpga_dcop_44",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fpga_dcop_44/fpga_dcop_44.mtx",
+  "matrix_sha256": "ecbecc06fd79900499ea22bc75e3c79715cb44e7c653ba4f3961d7b7f4e7d4ec",
+  "index_nnz": 5892,
+  "index_rows": 1220,
+  "elapsed_s": 1.311,
+  "returncode": 0,
+  "status": "ok"
+}

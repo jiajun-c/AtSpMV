@@ -1,0 +1,31 @@
+{
+  "seed": 8721,
+  "selection": "square, 100<=n<=4000, n<=nnz<=80000, 24 sampled from existing H100 index; excludes previous five",
+  "candidates": 811,
+  "names": [
+    "bcsstk03",
+    "G5",
+    "G51",
+    "G26",
+    "adder_dcop_40",
+    "adder_dcop_43",
+    "mesh3em5",
+    "lshp3025",
+    "cavity13",
+    "bp_1200",
+    "mycielskian8",
+    "reorientation_2",
+    "lshp1270",
+    "nos3",
+    "g7jac010",
+    "dwt_221",
+    "adder_dcop_08",
+    "cdde4",
+    "lhr02",
+    "spaceShuttleEntry_1",
+    "494_bus",
+    "bcsstm09",
+    "ex6",
+    "fpga_dcop_09"
+  ]
+}

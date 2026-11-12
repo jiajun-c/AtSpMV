@@ -1,0 +1,15 @@
+{
+  "exe": "/tmp/atspmv-mfem-apps/apps/mfem/mfem_heat",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "results/applications/mfem-heat/star-r5-nonlinear",
+  "refine": 5,
+  "order": 2,
+  "steps": 20,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "cusparse,atbsr,mixed",
+  "rounds": 2,
+  "timeout": 900,
+  "rebuild_values": false,
+  "executable_sha256": "d5c2edaa86803cc0aabec6c66789b00c497ecefa073b7bfc782aa216a0c50f2e"
+}

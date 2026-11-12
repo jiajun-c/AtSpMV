@@ -1,0 +1,26 @@
+RUN plan-test
+RUN a0nsdsil-auto-optimized-0
+RUN t60k-auto-optimized-0
+RUN ccc-auto-baseline-2
+RUN t60k-auto-optimized-1
+RUN c-53-auto-baseline-0
+RUN c-53-auto-optimized-1
+RUN ccc-auto-optimized-2
+RUN a0nsdsil-auto-optimized-1
+RUN c-53-auto-optimized-2
+RUN t60k-auto-baseline-2
+RUN t60k-auto-optimized-2
+RUN a0nsdsil-auto-baseline-0
+RUN c-53-auto-optimized-0
+RUN c-53-auto-baseline-2
+RUN ccc-auto-baseline-0
+RUN t60k-auto-baseline-1
+RUN ccc-auto-optimized-0
+RUN c-53-auto-baseline-1
+RUN a0nsdsil-auto-baseline-2
+RUN a0nsdsil-auto-baseline-1
+RUN t60k-auto-baseline-0
+RUN a0nsdsil-auto-optimized-2
+RUN ccc-auto-baseline-1
+RUN ccc-auto-optimized-1
+COMPLETE

@@ -1,0 +1,19 @@
+{
+  "dataset": "europe_osm",
+  "matrix_sha256": "0f792726710d13913f9335d80c2d15d2d6ef347b15d4dd6139c9f9e950d45f26",
+  "index_nnz": 108109320,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 17.384,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 81079
+  }
+}

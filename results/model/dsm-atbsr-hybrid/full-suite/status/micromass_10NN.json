@@ -1,0 +1,10 @@
+{
+  "dataset": "micromass_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/micromass_10NN/micromass_10NN.mtx",
+  "matrix_sha256": "ecfa2e70f17ea3cd4f3cafc41845fc774df9b5804e674b365ddfab0766ec0898",
+  "index_nnz": 9668,
+  "index_rows": 571,
+  "elapsed_s": 1.311,
+  "returncode": 0,
+  "status": "ok"
+}

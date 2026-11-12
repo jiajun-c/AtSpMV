@@ -1,0 +1,17 @@
+{
+  "dataset": "Ge87H76",
+  "matrix_sha256": "2a1f1c8b18b3492630af53b317588c5297873d23899c3b4f2730633a5b17aaf5",
+  "index_nnz": 7892195,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 14.186,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

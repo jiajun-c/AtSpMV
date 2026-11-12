@@ -1,0 +1,7 @@
+{
+  "name": "oscil_dcop_48",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_48-L.mtx,model,cached,430,1036,14,1236.005,13.59679985,1.520293124e+11\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_48-L.mtx,model-host,cached,430,1036,14,1236.005,19.800225,1.520293124e+11\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_48-L.mtx,default,cusparse,430,1036,-1,2066.544,24.98240089,1.520293123e+11\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_48-L.mtx,default-host,cusparse,430,1036,-1,2066.544,31.430135,1.520293123e+11\n",
+  "stderr": ""
+}

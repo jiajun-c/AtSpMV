@@ -1,0 +1,13 @@
+{
+  "matrix": "cegb3306",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/cegb3306/cegb3306.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3306,
+  "columns": 3306,
+  "original_nnz": 74916,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.04395049810409546
+}

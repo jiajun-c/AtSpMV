@@ -1,0 +1,7 @@
+{
+  "name": "ex36",
+  "implementation": "ours",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex36-L.mtx,3079,112397,1197,cusparse,33792.639,1408.902359,2.653433029e-14,3.426735031e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex36-L.mtx,3079,112397,1197,cusparse-host,33792.639,1417.131005,2.653433029e-14,3.426735031e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex36-L.mtx,3079,112397,1197,selector-cusparse,2225.935,1408.921623,2.653433029e-14,3.426735031e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "dw256B",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/dw256B-L.mtx,model,cached,512,2880,62,1286.328,49.15840149,2.220446049e-16,3.659799061e-17,5.73995146e-17,512\nresults/model/sptrsv/components-independent-h100/factors/dw256B-L.mtx,model-host,cached,512,2880,62,1286.328,54.862425,2.220446049e-16,3.659799061e-17,5.73995146e-17,512\nresults/model/sptrsv/components-independent-h100/factors/dw256B-L.mtx,default,cusparse,512,2880,-1,2324.903,84.22399902,2.220446049e-16,3.659799061e-17,5.73995146e-17,0\nresults/model/sptrsv/components-independent-h100/factors/dw256B-L.mtx,default-host,cusparse,512,2880,-1,2324.903,90.38514,2.220446049e-16,3.659799061e-17,5.73995146e-17,0\n",
+  "stderr": ""
+}

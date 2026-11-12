@@ -1,0 +1,17 @@
+{
+  "dataset": "goddardRocketProblem_1",
+  "matrix_sha256": "3bf042347df0213c14bca346138f8b9e29103a888bdf791f16a9d9447991ff4f",
+  "index_nnz": 8498,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.259,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

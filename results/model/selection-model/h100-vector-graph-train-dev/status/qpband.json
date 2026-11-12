@@ -1,0 +1,17 @@
+{
+  "dataset": "qpband",
+  "matrix_sha256": "9c6f90c925775c65629fde27b6a6e7f22e10b60496b5f474c444fb5184698489",
+  "index_nnz": 45000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.262,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

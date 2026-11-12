@@ -1,0 +1,10 @@
+{
+  "dataset": "roadNet-CA",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/roadNet-CA/roadNet-CA.mtx",
+  "matrix_sha256": "5f8e7c5be130933982c7d0116167c622e946e24f6d07e31d3739a24dc95131f7",
+  "index_nnz": 5533214,
+  "index_rows": 1971281,
+  "elapsed_s": 3.459,
+  "returncode": 0,
+  "status": "ok"
+}

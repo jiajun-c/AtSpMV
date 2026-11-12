@@ -1,0 +1,12 @@
+Quack: A Quirky Assortment of CuTe Kernels
+Copyright (c) 2025, Tri Dao.
+https://github.com/Dao-AILab/quack
+Reference commit: 77a750c0d9548d4a6e23c0f64062d61b3ea420ff
+
+include/dsmLongRow.cuh adapts the asynchronous DSM reduction protocol from
+quack/reduce.py (cluster_reduce), quack/utils.py (store_shared_remote), and
+quack/reduction_base.py (_initialize_cluster). Changes: CUDA C++/PTX rather
+than CuTe-DSL, FP64 arithmetic, CSR dot products, grouped row tasks, optional
+short-row fusion, and a synchronous pull-based control. Quack is not a
+runtime dependency. The accompanying LICENSE is the upstream Apache-2.0
+license, not a license declaration for the rest of this repository.

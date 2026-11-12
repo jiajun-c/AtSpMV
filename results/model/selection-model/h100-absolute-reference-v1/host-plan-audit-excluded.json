@@ -1,0 +1,7 @@
+{
+  "split": "not_in_training_table",
+  "cases": 56,
+  "max_relative_error": 0.0,
+  "issues": [],
+  "scope": "Host-only comparison on hash-verified real matrices; GPU integration is tested separately."
+}

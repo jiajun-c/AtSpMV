@@ -1,0 +1,9 @@
+{
+  "name": "lshp_265",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/lshp_265-L.mtx --------------\nsuccess open file\ninput matrix A: ( 272, 272 ) nnz = 3132\nloadfile time    = 0.00141 sec\nnnzL = 3132\ntime_for_csc2CompressTile = 2.14 ms\ntime_cuda_solve = 0.177520 ms, Mflops = 35.29\nVALIDATION finite=1 max_error=2.3980817331903381e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "adder_trans_02",
+  "matrix_sha256": "0c08b3aa306c9cf698acf52f61942d42cea78630ff39b7d57c524352e307c30a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.655,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

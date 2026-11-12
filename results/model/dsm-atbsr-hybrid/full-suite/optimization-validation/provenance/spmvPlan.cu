@@ -1,0 +1,376 @@
+#include "spmvPlan.h"
+#include "atspmvprod.h"
+#ifdef ATSPMV_PLAN_HAS_DSM
+#include "detail/spmvPlanDsm.h"
+#endif
+#include <algorithm>
+#include <chrono>
+#include <climits>
+#include <numeric>
+#include <random>
+#include <stdexcept>
+#include <map>
+
+namespace atspmv {
+namespace {
+void check(cudaError_t e) { if(e!=cudaSuccess) throw std::runtime_error(cudaGetErrorString(e)); }
+struct Buffer {
+    void* p = nullptr;
+    ~Buffer() { if(p) cudaFree(p); }
+    Buffer() = default;
+    Buffer(const Buffer&) = delete;
+    Buffer& operator=(const Buffer&) = delete;
+    void allocate(size_t bytes) { check(cudaMalloc(&p,std::max(size_t(1),bytes))); }
+    template<class T> T* get() const { return static_cast<T*>(p); }
+};
+struct Partition {
+    Buffer longs, shorts;
+    int nl = 0, ns = 0;
+};
+struct PackedOwner {
+    AtBsr<double,int32_t> value;
+    ~PackedOwner() {
+        for(void* p:{static_cast<void*>(value.blcVal),static_cast<void*>(value.blcIdx),
+                    static_cast<void*>(value.blcIdxInt16),static_cast<void*>(value.blcPtr),
+                    static_cast<void*>(value.recorder),static_cast<void*>(value.targetRowByWarp),
+                    static_cast<void*>(value.warpBlcPtr)}) if(p) cudaFree(p);
+    }
+};
+struct Candidate {
+    SpmvCandidateTiming description;
+    std::shared_ptr<PackedOwner> packed = std::make_shared<PackedOwner>();
+    std::unique_ptr<Partition> partition;
+    Buffer scratch;
+    cudaGraph_t graph = nullptr;
+    cudaGraphExec_t executable = nullptr;
+    std::vector<double> samples;
+    ~Candidate() {
+        if(executable) cudaGraphExecDestroy(executable);
+        if(graph) cudaGraphDestroy(graph);
+    }
+};
+// Same row/chunk assignment as the DSM backend, compiled for the normal
+// architecture. One partial per CTA/row, followed by a separate gather.
+template<int Rows>
+__global__ void partialRows(const int* ptr,const int* col,const double* a,
+                            const double* x,double* y,double* scratch,
+                            const int* longs,int nl,const int* shorts,int ns,int parts) {
+    const int long_blocks=((nl+Rows-1)/Rows)*parts;
+    const int lane=threadIdx.x%32;
+    if(blockIdx.x>=long_blocks) {
+        int t=(blockIdx.x-long_blocks)*(blockDim.x/32)+threadIdx.x/32;
+        int row=t<ns?shorts[t]:0;
+        double sum=0;
+        if(t<ns)for(int j=ptr[row]+lane;j<ptr[row+1];j+=32)sum+=a[j]*x[col[j]];
+        for(int d=16;d;d/=2)sum+=__shfl_down_sync(0xffffffff,sum,d);
+        if(t<ns&&lane==0)y[row]=sum;
+        return;
+    }
+    __shared__ double sums[Rows][32];
+    const int width=blockDim.x/Rows, local=threadIdx.x/width;
+    const int task=blockIdx.x/parts*Rows+local, part=blockIdx.x%parts;
+    const int tid=threadIdx.x%width, warp=tid/32;
+    const int row=task<nl?longs[task]:0;
+    const int begin=task<nl?ptr[row]:0, length=task<nl?ptr[row+1]-begin:0;
+    const int first=begin+(long long)length*part/parts, last=begin+(long long)length*(part+1)/parts;
+    double sum=0;
+    for(int j=first+tid;j<last;j+=width)sum+=a[j]*x[col[j]];
+    for(int d=16;d;d/=2)sum+=__shfl_down_sync(0xffffffff,sum,d);
+    if(lane==0)sums[local][warp]=sum;
+    __syncthreads();
+    if(warp==0) {
+        sum=lane<width/32?sums[local][lane]:0;
+        for(int d=16;d;d/=2)sum+=__shfl_down_sync(0xffffffff,sum,d);
+        if(lane==0&&task<nl)scratch[task*parts+part]=sum;
+    }
+}
+__global__ void finishRows(const double* scratch,double* y,const int* rows,int n,int parts) {
+    int task=(blockIdx.x*blockDim.x+threadIdx.x)/32, lane=threadIdx.x%32;
+    double sum=task<n&&lane<parts?scratch[task*parts+lane]:0;
+    for(int d=16;d;d/=2)sum+=__shfl_down_sync(0xffffffff,sum,d);
+    if(task<n&&lane==0)y[rows[task]]=sum;
+}
+void validate(const LongRowConfig& c) {
+    if((c.parts!=2&&c.parts!=4&&c.parts!=8&&c.parts!=16&&c.parts!=32)||
+       (c.threads!=128&&c.threads!=256&&c.threads!=512&&c.threads!=1024)||
+       (c.rows_per_group!=1&&c.rows_per_group!=4&&c.rows_per_group!=8)||
+       c.threads/c.rows_per_group<32||c.threshold<0)
+        throw std::invalid_argument("invalid long-row configuration");
+}
+std::vector<LongRowConfig> shortlist() {
+    std::vector<LongRowConfig> result;
+    for(int threshold:{1024,4096})for(auto c:std::vector<LongRowConfig>{
+        {8,128,1,0},{8,256,1,0},{4,256,1,0},{8,512,4,0},
+        {8,128,4,0},{16,128,4,0},{32,128,1,0},
+        {16,512,8,0},{32,256,4,0},{32,512,4,0},{32,256,8,0},{8,1024,8,0}}) {
+        c.threshold=threshold;result.push_back(c);
+    }
+    result.push_back({2,256,1,0});
+    return result;
+}
+}
+struct SpmvPlanState {
+    SpmvPlanInfo info;
+    CSRMatrix<double,int32_t> csr;
+    std::unique_ptr<Buffer> ptr, col, val;
+    std::unique_ptr<Candidate> chosen;
+    SpmvPlanState() {
+        // CSRMatrix's legacy constructor initializes pointers only. Do not
+        // leave optional metadata indeterminate in the plan-owned descriptor.
+        csr.nnz=csr.nrows=csr.ncols=csr.FixLen=csr.minLen=csr.maxLen=csr.nonzeroRows=0;
+        csr.useFixLen=csr.useColInt16=false;csr.stand=csr.avg_nnz=0;
+    }
+    ~SpmvPlanState() {
+        int previous=-1;cudaGetDevice(&previous);
+        if(info.device>=0&&previous!=info.device)cudaSetDevice(info.device);
+        chosen.reset();ptr.reset();col.reset();val.reset();
+        if(previous>=0&&previous!=info.device)cudaSetDevice(previous);
+    }
+};
+namespace {
+void launch(SpmvPlanState& s,Candidate& c,const double* x,double* y,cudaStream_t stream) {
+    auto& a=s.csr;
+    if(!a.nrows)return;
+    if(!a.nnz) {check(cudaMemsetAsync(y,0,size_t(a.nrows)*sizeof(double),stream));return;}
+    if(c.description.backend==SpmvBackend::AtBsr) {
+        AtSpmvProduct(c.packed->value,const_cast<double*>(x),y,1,0,stream);
+    } else {
+        const auto cfg=c.description.long_rows;
+        auto& p=*c.partition;
+        if(c.description.backend==SpmvBackend::HybridDsmAtBsr) {
+#ifdef ATSPMV_PLAN_HAS_DSM
+            detail::launchPlanHybrid(a,c.packed->value,x,y,p.longs.get<int>(),p.nl,p.shorts.get<int>(),p.ns,cfg,stream);
+#else
+            throw std::logic_error("DSM backend not built");
+#endif
+        } else if(c.description.backend==SpmvBackend::CsrDsm) {
+#ifdef ATSPMV_PLAN_HAS_DSM
+            detail::launchPlanDsm(a,x,y,p.longs.get<int>(),p.nl,p.shorts.get<int>(),p.ns,cfg,stream);
+#else
+            throw std::logic_error("DSM backend not built");
+#endif
+        } else {
+            int blocks=((p.nl+cfg.rows_per_group-1)/cfg.rows_per_group)*cfg.parts+
+                       (p.ns+cfg.threads/32-1)/(cfg.threads/32);
+#define PARTIAL(G) partialRows<G><<<blocks,cfg.threads,0,stream>>>(a.row_ptr,a.col_idx,a.val,x,y,c.scratch.get<double>(),p.longs.get<int>(),p.nl,p.shorts.get<int>(),p.ns,cfg.parts)
+            switch(cfg.rows_per_group) {case 1:PARTIAL(1);break;case 4:PARTIAL(4);break;case 8:PARTIAL(8);break;}
+#undef PARTIAL
+            if(p.nl)finishRows<<<(p.nl+7)/8,256,0,stream>>>(c.scratch.get<double>(),y,p.longs.get<int>(),p.nl,cfg.parts);
+        }
+    }
+    check(cudaGetLastError());
+}
+}
+SpmvPlan::SpmvPlan() = default;
+SpmvPlan::~SpmvPlan() = default;
+SpmvPlan::SpmvPlan(SpmvPlan&&) noexcept = default;
+SpmvPlan& SpmvPlan::operator=(SpmvPlan&&) noexcept = default;
+const SpmvPlanInfo& SpmvPlan::info() const {
+    if(!state_)throw std::logic_error("empty or moved-from SpmvPlan");
+    return state_->info;
+}
+const char* spmvBackendName(SpmvBackend b) {
+    switch(b) {case SpmvBackend::Auto:return "auto";case SpmvBackend::AtBsr:return "atbsr";
+    case SpmvBackend::CsrDsm:return "csr_dsm";case SpmvBackend::CsrTwoStage:return "csr_two_stage";
+    case SpmvBackend::HybridDsmAtBsr:return "hybrid_dsm_atbsr";}
+    return "invalid";
+}
+SpmvPlan makeSpmvPlan(const CSRMatrix<double,int32_t>& input,const SpmvPlanOptions& o,cudaStream_t stream) {
+    const auto started=std::chrono::steady_clock::now();
+    if(o.backend!=SpmvBackend::Auto&&o.backend!=SpmvBackend::AtBsr&&o.backend!=SpmvBackend::CsrDsm&&o.backend!=SpmvBackend::CsrTwoStage&&o.backend!=SpmvBackend::HybridDsmAtBsr)
+        throw std::invalid_argument("unknown SpMV backend");
+    if(o.tile_index < -1||o.tile_index>5||o.balanced < -1||o.balanced>1||
+       o.warmup_batches<0||o.warmup_batches>100||o.measurement_batches<1||o.measurement_batches>100||o.calls_per_batch<1||o.calls_per_batch>1024)
+        throw std::invalid_argument("invalid plan options");
+    validate(o.long_rows);for(const auto& cfg:o.tuning_long_rows)validate(cfg);
+    if(input.nrows<0||input.nrows>INT_MAX-1024||input.ncols<0||input.nnz<0||
+       !input.row_ptr||(input.nnz&&(!input.val||!input.col_idx||!input.ncols)))
+        throw std::invalid_argument("invalid CSR dimensions or pointers");
+    cudaStreamCaptureStatus capture;check(cudaStreamIsCapturing(stream,&capture));
+    if(capture!=cudaStreamCaptureStatusNone)throw std::invalid_argument("plan construction must be outside capture");
+    check(cudaStreamSynchronize(stream));
+    SpmvPlan plan;plan.state_=std::make_unique<SpmvPlanState>();auto& s=*plan.state_;
+    check(cudaGetDevice(&s.info.device));
+#ifdef ATSPMV_PLAN_HAS_DSM
+    int supported=0;check(cudaDeviceGetAttribute(&supported,cudaDevAttrClusterLaunch,s.info.device));
+    s.info.dsm_available=supported!=0;
+#endif
+    if((o.backend==SpmvBackend::CsrDsm||o.backend==SpmvBackend::HybridDsmAtBsr)&&!s.info.dsm_available)
+        throw std::invalid_argument("DSM requires an enabled SM90 backend and cluster-capable device");
+    if(!o.tune&&(o.backend==SpmvBackend::CsrDsm||o.backend==SpmvBackend::HybridDsmAtBsr)&&o.long_rows.parts>8)
+        throw std::invalid_argument("DSM supports cluster sizes 2, 4, 8");
+    if(o.backend==SpmvBackend::HybridDsmAtBsr&&o.balanced==1)
+        throw std::invalid_argument("hybrid short rows currently require unbalanced AtBSR");
+    std::vector<int> ptr(size_t(input.nrows)+1),cols(input.nnz);
+    check(cudaMemcpy(ptr.data(),input.row_ptr,ptr.size()*sizeof(int),cudaMemcpyDeviceToHost));
+    if(ptr.front()!=0||ptr.back()!=input.nnz||!std::is_sorted(ptr.begin(),ptr.end()))
+        throw std::invalid_argument("invalid CSR offsets");
+    if(input.nnz)check(cudaMemcpy(cols.data(),input.col_idx,cols.size()*sizeof(int),cudaMemcpyDeviceToHost));
+    for(int c:cols)if(c<0||c>=input.ncols)throw std::invalid_argument("CSR column out of range");
+    s.info.rows=s.csr.nrows=input.nrows;s.info.cols=s.csr.ncols=input.ncols;s.info.nnz=s.csr.nnz=input.nnz;
+    s.ptr=std::make_unique<Buffer>();s.col=std::make_unique<Buffer>();s.val=std::make_unique<Buffer>();
+    s.ptr->allocate(ptr.size()*sizeof(int));s.col->allocate(cols.size()*sizeof(int));s.val->allocate(size_t(input.nnz)*sizeof(double));
+    s.csr.row_ptr=s.ptr->get<int>();s.csr.col_idx=s.col->get<int>();s.csr.val=s.val->get<double>();
+    check(cudaMemcpy(s.csr.row_ptr,ptr.data(),ptr.size()*sizeof(int),cudaMemcpyHostToDevice));
+    if(input.nnz) {
+        check(cudaMemcpy(s.csr.col_idx,cols.data(),cols.size()*sizeof(int),cudaMemcpyHostToDevice));
+        check(cudaMemcpy(s.csr.val,input.val,size_t(input.nnz)*sizeof(double),cudaMemcpyDeviceToDevice));
+    }
+    std::vector<std::unique_ptr<Candidate>> candidates;
+    std::vector<double> host_values;
+    // The short-row packing depends on the partition threshold and tile, not
+    // on DSM group/thread/cluster choices. Share it across tuning candidates.
+    std::map<std::pair<int,int>,std::shared_ptr<PackedOwner>> hybrid_packing;
+    auto add=[&](SpmvBackend backend,int tile,int balance,LongRowConfig cfg) {
+        if((backend==SpmvBackend::CsrDsm||backend==SpmvBackend::HybridDsmAtBsr)&&(!s.info.dsm_available||cfg.parts>8))return;
+        auto c=std::make_unique<Candidate>();c->description.backend=backend;c->description.long_rows=cfg;
+        if(backend==SpmvBackend::AtBsr) {
+            CSRToAtBSRProduct(s.csr,c->packed->value,tile,balance);
+            int index=0;while((1<<index)!=c->packed->value.TILE_M)++index;
+            c->description.tile_index=index;c->description.balanced=c->packed->value.useBalance;
+        } else {
+            c->partition=std::make_unique<Partition>();auto& p=*c->partition;
+            std::vector<int> longs,shorts;
+            for(int row=0;row<input.nrows;++row)(ptr[row+1]-ptr[row]>=cfg.threshold?longs:shorts).push_back(row);
+            std::stable_sort(longs.begin(),longs.end(),[&](int a,int b){return ptr[a+1]-ptr[a]>ptr[b+1]-ptr[b];});
+            p.nl=longs.size();p.ns=shorts.size();
+            if((static_cast<long long>(p.nl)+cfg.rows_per_group)*cfg.parts+p.ns>INT_MAX)
+                throw std::invalid_argument("long-row work exceeds 32-bit indexing");
+            p.longs.allocate(longs.size()*sizeof(int));p.shorts.allocate(shorts.size()*sizeof(int));
+            if(p.nl)check(cudaMemcpy(p.longs.p,longs.data(),longs.size()*sizeof(int),cudaMemcpyHostToDevice));
+            if(p.ns)check(cudaMemcpy(p.shorts.p,shorts.data(),shorts.size()*sizeof(int),cudaMemcpyHostToDevice));
+            if(backend==SpmvBackend::CsrTwoStage)c->scratch.allocate(size_t(p.nl)*cfg.parts*sizeof(double));
+            if(backend==SpmvBackend::HybridDsmAtBsr) {
+              // Thresholds with the same number of long rows select the same nested set.
+              const auto key=std::make_pair(p.nl,tile);
+              auto found=hybrid_packing.find(key);
+              if(found!=hybrid_packing.end())c->packed=found->second;
+              else {
+                if(host_values.empty()&&input.nnz) {host_values.resize(input.nnz);check(cudaMemcpy(host_values.data(),input.val,size_t(input.nnz)*sizeof(double),cudaMemcpyDeviceToHost));}
+                std::vector<int> shortptr(1,0),shortcols;std::vector<double> shortvals;
+                for(int row:shorts) {
+                    shortcols.insert(shortcols.end(),cols.begin()+ptr[row],cols.begin()+ptr[row+1]);
+                    shortvals.insert(shortvals.end(),host_values.begin()+ptr[row],host_values.begin()+ptr[row+1]);
+                    shortptr.push_back(static_cast<int>(shortcols.size()));
+                }
+                Buffer dptr,dcols,dvals;dptr.allocate(shortptr.size()*sizeof(int));dcols.allocate(shortcols.size()*sizeof(int));dvals.allocate(shortvals.size()*sizeof(double));
+                check(cudaMemcpy(dptr.p,shortptr.data(),shortptr.size()*sizeof(int),cudaMemcpyHostToDevice));
+                if(!shortcols.empty()) {check(cudaMemcpy(dcols.p,shortcols.data(),shortcols.size()*sizeof(int),cudaMemcpyHostToDevice));check(cudaMemcpy(dvals.p,shortvals.data(),shortvals.size()*sizeof(double),cudaMemcpyHostToDevice));}
+                CSRMatrix<double,int32_t> shortcsr{};shortcsr.nrows=p.ns;shortcsr.ncols=input.ncols;shortcsr.nnz=shortcols.size();
+                shortcsr.row_ptr=dptr.get<int>();shortcsr.col_idx=dcols.get<int>();shortcsr.val=dvals.get<double>();
+                CSRToAtBSRProduct(shortcsr,c->packed->value,tile,0);
+                if(shortcsr.nnz) {
+                    std::vector<int> recorder(p.ns);check(cudaMemcpy(recorder.data(),c->packed->value.recorder,recorder.size()*sizeof(int),cudaMemcpyDeviceToHost));
+                    for(auto& row:recorder)row=shorts.at(row);
+                    check(cudaMemcpy(c->packed->value.recorder,recorder.data(),recorder.size()*sizeof(int),cudaMemcpyHostToDevice));
+                } else c->packed->value.brow=0;
+                hybrid_packing.emplace(key,c->packed);
+              }
+                int index=0;while((1<<index)!=c->packed->value.TILE_M)++index;
+                c->description.tile_index=index;c->description.balanced=0;
+            }
+        }
+        candidates.push_back(std::move(c));
+    };
+    if(!o.tune||!input.nnz) {
+        add(o.backend==SpmvBackend::Auto?SpmvBackend::AtBsr:o.backend,o.tile_index,o.balanced,o.long_rows);
+    } else {
+        if(o.backend==SpmvBackend::Auto||o.backend==SpmvBackend::AtBsr)
+            for(int t=0;t<6;++t)for(int b=0;b<2;++b)
+                if((o.tile_index<0||t==o.tile_index)&&(o.balanced<0||b==o.balanced))add(SpmvBackend::AtBsr,t,b,{});
+        const auto configs=o.tuning_long_rows.empty()?shortlist():o.tuning_long_rows;
+        for(auto backend:{SpmvBackend::CsrDsm,SpmvBackend::CsrTwoStage})
+            if(o.backend==SpmvBackend::Auto||o.backend==backend)for(auto cfg:configs)add(backend,-1,-1,cfg);
+        if((o.backend==SpmvBackend::Auto||o.backend==SpmvBackend::HybridDsmAtBsr)&&o.balanced!=1&&s.info.dsm_available)
+            {
+            auto hybrid_configs=configs;
+            if(o.tuning_long_rows.empty()) {
+                hybrid_configs.push_back({4,256,4,128});
+                hybrid_configs.push_back({4,256,4,256});
+            }
+            int max_row_length=0;
+            for(int row=0;row<input.nrows;++row)max_row_length=std::max(max_row_length,ptr[row+1]-ptr[row]);
+            for(auto cfg:hybrid_configs)if(cfg.parts<=8)for(int tile=0;tile<6;++tile)
+                if((o.backend!=SpmvBackend::Auto||cfg.threshold<=max_row_length)&&
+                   (o.tile_index<0||o.tile_index==tile))add(SpmvBackend::HybridDsmAtBsr,tile,0,cfg);
+        }
+    }
+    if(candidates.empty())throw std::invalid_argument("no supported tuning candidates");
+    size_t winner=0;
+    if(o.tune&&input.nnz) {
+        // Legacy/default streams cannot be captured. Use a private stream for
+        // all measurement, after synchronizing the caller's input stream above.
+        struct TuningStream {
+            cudaStream_t value=nullptr;
+            ~TuningStream() { if(value)cudaStreamDestroy(value); }
+        } tuning;
+        check(cudaStreamCreateWithFlags(&tuning.value,cudaStreamNonBlocking));
+        Buffer x,y;x.allocate(size_t(input.ncols)*sizeof(double));y.allocate(size_t(input.nrows)*sizeof(double));
+        std::vector<double> host_x(input.ncols);
+        for(int i=0;i<input.ncols;++i)host_x[i]=((i*23LL)%97-48)/61.;
+        check(cudaMemcpy(x.p,host_x.data(),host_x.size()*sizeof(double),cudaMemcpyHostToDevice));
+        for(auto& c:candidates) {
+            launch(s,*c,x.get<double>(),y.get<double>(),tuning.value);check(cudaStreamSynchronize(tuning.value));
+            check(cudaStreamBeginCapture(tuning.value,cudaStreamCaptureModeThreadLocal));
+            try {
+                for(int k=0;k<o.calls_per_batch;++k)launch(s,*c,x.get<double>(),y.get<double>(),tuning.value);
+                check(cudaStreamEndCapture(tuning.value,&c->graph));
+            } catch(...) {
+                cudaStreamCaptureStatus status;
+                if(cudaStreamIsCapturing(tuning.value,&status)==cudaSuccess&&status!=cudaStreamCaptureStatusNone) {
+                    cudaGraph_t abandoned=nullptr;cudaStreamEndCapture(tuning.value,&abandoned);
+                    if(abandoned)cudaGraphDestroy(abandoned);
+                }
+                throw;
+            }
+            check(cudaGraphInstantiate(&c->executable,c->graph,nullptr,nullptr,0));
+        }
+        struct Events {cudaEvent_t start=nullptr,stop=nullptr;~Events(){if(start)cudaEventDestroy(start);if(stop)cudaEventDestroy(stop);}} events;
+        check(cudaEventCreate(&events.start));check(cudaEventCreate(&events.stop));
+        std::vector<size_t> order(candidates.size());std::iota(order.begin(),order.end(),0);std::mt19937 random(20261027);
+        for(int batch=-o.warmup_batches;batch<o.measurement_batches;++batch) {
+            std::shuffle(order.begin(),order.end(),random);
+            for(size_t i:order) {
+                auto& c=*candidates[i];
+                check(cudaGraphLaunch(c.executable,tuning.value)); // Warm this candidate's working set.
+                check(cudaEventRecord(events.start,tuning.value));check(cudaGraphLaunch(c.executable,tuning.value));
+                check(cudaEventRecord(events.stop,tuning.value));check(cudaEventSynchronize(events.stop));
+                float ms;check(cudaEventElapsedTime(&ms,events.start,events.stop));
+                if(batch>=0)c.samples.push_back(ms*1000./o.calls_per_batch);
+            }
+        }
+        for(size_t i=0;i<candidates.size();++i) {
+            auto& c=*candidates[i];std::sort(c.samples.begin(),c.samples.end());
+            c.description.median_us=(c.samples[(c.samples.size()-1)/2]+c.samples[c.samples.size()/2])/2;
+            s.info.timings.push_back(c.description);
+            if(c.description.median_us<candidates[winner]->description.median_us)winner=i;
+        }
+        s.info.measured=true;
+        // Captured graphs reference private tuning X/Y; destroy them before
+        // freeing those buffers. Execution uses direct launches on the winner.
+        for(auto& c:candidates) {
+            check(cudaGraphExecDestroy(c->executable));c->executable=nullptr;
+            check(cudaGraphDestroy(c->graph));c->graph=nullptr;
+        }
+    }
+    s.chosen=std::move(candidates[winner]);candidates.clear();
+    const auto& chosen=s.chosen->description;
+    s.info.backend=chosen.backend;s.info.tile_index=chosen.tile_index;s.info.balanced=chosen.balanced;s.info.long_rows=chosen.long_rows;
+    if(s.info.backend==SpmvBackend::AtBsr) {s.ptr.reset();s.col.reset();s.val.reset();s.csr.row_ptr=nullptr;s.csr.col_idx=nullptr;s.csr.val=nullptr;}
+    s.info.setup_us=std::chrono::duration<double,std::micro>(std::chrono::steady_clock::now()-started).count();
+    return plan;
+}
+void executeSpmv(const SpmvPlan& plan,const double* x,double* y,cudaStream_t stream) {
+    if(!plan.state_)throw std::logic_error("empty or moved-from SpmvPlan");
+    auto& s=*plan.state_;int device;check(cudaGetDevice(&device));
+    if(device!=s.info.device)throw std::invalid_argument("SpmvPlan used on a different CUDA device");
+    if(!s.info.rows)return;
+    if(!y||(s.info.nnz&&!x))throw std::invalid_argument("null SpMV vector");
+    if(x) {
+        const auto xp=reinterpret_cast<uintptr_t>(x),yp=reinterpret_cast<uintptr_t>(y);
+        if(xp<yp+size_t(s.info.rows)*sizeof(double)&&yp<xp+size_t(s.info.cols)*sizeof(double))
+            throw std::invalid_argument("overlapping SpMV vectors");
+    }
+    launch(s,*s.chosen,x,y,stream);
+}
+} // namespace atspmv

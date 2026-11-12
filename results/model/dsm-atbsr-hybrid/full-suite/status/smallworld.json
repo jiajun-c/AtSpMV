@@ -1,0 +1,10 @@
+{
+  "dataset": "smallworld",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/smallworld/smallworld.mtx",
+  "matrix_sha256": "664de2f80df75a5c7facd12a211acf5de8ed27f87e76654e2acf8a3d016db7aa",
+  "index_nnz": 999996,
+  "index_rows": 100000,
+  "elapsed_s": 1.562,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,109 @@
+{
+  "manifest_total": 2248,
+  "status_counts": {
+    "ok": 2248
+  },
+  "selected_backends": {
+    "csr_vector": 1454,
+    "atbsr": 383,
+    "hybrid_dsm_atbsr|csr_two_stage": 1,
+    "hybrid_dsm_atbsr": 157,
+    "csr_dsm": 41,
+    "csr_vector|csr_two_stage": 10,
+    "cusparse|atbsr": 6,
+    "hybrid_dsm_atbsr|csr_dsm": 50,
+    "atbsr|csr_vector": 15,
+    "csr_vector|atbsr": 34,
+    "csr_dsm|hybrid_dsm_atbsr": 3,
+    "csr_two_stage|csr_vector": 4,
+    "cusparse": 15,
+    "csr_two_stage|atbsr": 2,
+    "atbsr|csr_two_stage": 1,
+    "atbsr|hybrid_dsm_atbsr": 2,
+    "csr_two_stage": 11,
+    "cusparse|mixed_tile": 5,
+    "hybrid_dsm_atbsr|atbsr": 8,
+    "mixed_tile": 29,
+    "csr_two_stage|hybrid_dsm_atbsr": 2,
+    "atbsr|cusparse": 1,
+    "cusparse|csr_dsm": 2,
+    "mixed_tile|atbsr": 3,
+    "csr_dsm_vector": 1,
+    "cusparse|hybrid_dsm_atbsr": 1,
+    "mixed_tile|csr_vector": 1,
+    "csr_vector|csr_dsm": 1,
+    "csr_dsm|csr_dsm_vector": 1,
+    "csr_vector|hybrid_dsm_atbsr": 1,
+    "atbsr|mixed_tile": 1,
+    "csr_dsm_vector|hybrid_dsm_atbsr": 1,
+    "mixed_tile|cusparse": 1
+  },
+  "selection": "auto_tuned_mixed",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. Default AtBSR is constructed first in both orders; the two model plans swap relative order after this anchor. Model labels with identical resolved configurations execute the same Plan instance. Those labels also execute the same Graph executable. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.2073276831597541,
+    "median": 1.2063773380390963,
+    "wins": 2184,
+    "cases": 2248
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.63307346762493,
+    "median": 1.698717655629708,
+    "wins": 2231,
+    "cases": 2248
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1994439618058426,
+    "median": 1.2016020522116162,
+    "wins": 2169,
+    "cases": 2248
+  },
+  "speedup_vs_full_tune": {
+    "geomean": 1.0011485521948302,
+    "median": 0.9986527824890833,
+    "wins": 1044,
+    "cases": 2248
+  },
+  "speedup_vs_auto_model": {
+    "geomean": 1.1390477241917192,
+    "median": 1.1276841049543642,
+    "wins": 2130,
+    "cases": 2248
+  },
+  "speedup_vector_vs_auto_model": {
+    "geomean": 1.1039946722757674,
+    "median": 1.1109234503365952,
+    "wins": 1784,
+    "cases": 2248
+  },
+  "speedup_vs_vector_model": {
+    "geomean": 1.0317511060480877,
+    "median": 1.0114219608013402,
+    "wins": 1375,
+    "cases": 2248
+  },
+  "speedup_v2_vs_vector_model": {
+    "geomean": 1.0070192263794961,
+    "median": 1.0,
+    "wins": 1023,
+    "cases": 2248
+  },
+  "speedup_vs_vector_model_v2": {
+    "geomean": 1.0245594910412081,
+    "median": 1.0062069400004932,
+    "wins": 1293,
+    "cases": 2248
+  },
+  "speedup_refined_vs_vector_model": {
+    "geomean": 1.0158376763141566,
+    "median": 1.0010549748945818,
+    "wins": 1254,
+    "cases": 2248
+  },
+  "speedup_vs_refined_model": {
+    "geomean": 1.0156653273500065,
+    "median": 1.0040784794369757,
+    "wins": 1204,
+    "cases": 2248
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "hollywood-2009",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hollywood-2009/hollywood-2009.mtx",
+  "matrix_sha256": "87017bef56cfe87d543646a01dff56cd51b3ccb239900888b536b1b0f83c47c6",
+  "index_nnz": 113891327,
+  "index_rows": 1139905,
+  "elapsed_s": 31.775,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "waveguide3D",
+  "matrix_sha256": "1faf29f323a2c4583a6372d61d2c281d9d74fbc4cd0694141e04eeed47371c42",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.537,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "appu",
+  "matrix_sha256": "f677a0793629811f0f24e5c00d628632ebcd282eab728939cd3fafb5a03a20ba",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.401,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

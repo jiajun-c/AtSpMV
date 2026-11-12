@@ -1,0 +1,17 @@
+{
+  "dataset": "nsct",
+  "matrix_sha256": "8749737fc0cd8a3d11c71742bd2c2a34ade2472572147db5f49276144f8641d1",
+  "index_nnz": 697738,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.556,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

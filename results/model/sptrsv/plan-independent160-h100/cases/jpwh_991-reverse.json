@@ -1,0 +1,7 @@
+{
+  "name": "jpwh_991",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/jpwh_991-L.mtx,model,cusparse,991,10989,159,3228.756,193.7440033,1.776356839e-15,3.497520561e-17,1.018411503e-16,0\nresults/model/sptrsv/components-independent-h100/factors/jpwh_991-L.mtx,model-host,cusparse,991,10989,159,3228.756,199.609915,1.776356839e-15,3.497520561e-17,1.018411503e-16,0\nresults/model/sptrsv/components-independent-h100/factors/jpwh_991-L.mtx,default,cusparse,991,10989,-1,3139.092,193.5072021,1.776356839e-15,3.497520561e-17,1.018411503e-16,0\nresults/model/sptrsv/components-independent-h100/factors/jpwh_991-L.mtx,default-host,cusparse,991,10989,-1,3139.092,199.48207,1.776356839e-15,3.497520561e-17,1.018411503e-16,0\n",
+  "stderr": ""
+}

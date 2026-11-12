@@ -1,0 +1,10 @@
+{
+  "dataset": "bibd_20_10",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bibd_20_10/bibd_20_10.mtx",
+  "matrix_sha256": "74d326072417b8f9f82a2f5a76b52226f00f4d19dedde7bd6dbf94e7635abe61",
+  "index_nnz": 8314020,
+  "index_rows": 190,
+  "elapsed_s": 3.16,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "kmer_V1r",
+  "file_bytes": 4412691374,
+  "file_mtime_ns": 1531515785000000000,
+  "structure": {
+    "dataset": "kmer_V1r",
+    "rows": "214005017",
+    "columns": "214005017",
+    "nnz": "465410904",
+    "longest_row": "2",
+    "longest_row_nnz": "8",
+    "ratio": "1.71891116672e-08",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 30.78
+}

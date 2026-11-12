@@ -1,0 +1,8 @@
+ce8012a25ba90db87b7f4d0e8795f04b7bfa58b99e88d3712ff89f2863571118  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/analyze_cusparse_spmm_cores.py
+20b86ea90ebe48d754c7c4a68c15c936231d4b6f3af4a439f2d387219d3ae4e3  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/benchmark_cusparse_spmm_cores.py
+c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/benchmark_dsm_atbsr_full.py
+7e15909e0d5828350167f57574c3da07cf439a50a939534aed23d12765827de4  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/cusparse_spmm_core_compare
+c1ca1bf93d1ad824b47e5a55309b7295a7bec97bc2421e7553f507d471ddc505  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/cusparse_spmm_core_compare.cu
+69385e37fb515d1235779aacbee9ebf2b2a246f99c019d7c43096b9ba1073d70  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/profile_cusparse_spmm_cores.py
+71182d65711375b3a7bb3caaa01e2065859633b33859c9b7a9dc0816da0f30cb  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/run_on_idle_gpu.py
+e4322b2ea17997f9134f8009d4ab50e63227e655c515de56da053d441f51678a  results/model/cusparse-spmm-core-compare/h100-exact-one-v1/provenance/run_spmm_exact_one.sh

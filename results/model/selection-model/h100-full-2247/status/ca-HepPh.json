@@ -1,0 +1,17 @@
+{
+  "dataset": "ca-HepPh",
+  "matrix_sha256": "dce0f34d245a8906c890d1f44e75a37720c9e3f1d13f6fb11bf09996e8378e75",
+  "index_nnz": 237010,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.049,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

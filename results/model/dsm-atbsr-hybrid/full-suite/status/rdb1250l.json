@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb1250l",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb1250l/rdb1250l.mtx",
+  "matrix_sha256": "f88dc760c5b64981b9afc47d4ab40fe4dd1262349569173e96fccd731691900d",
+  "index_nnz": 7300,
+  "index_rows": 1250,
+  "elapsed_s": 1.295,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "bcsstm19",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm19-L.mtx,default,cusparse,832,832,-1,2060.551,5.782400131,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm19-L.mtx,default-host,cusparse,832,832,-1,2060.551,12.377035,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm19-L.mtx,model,cusparse,832,832,1,2006.593,5.78880024,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstm19-L.mtx,model-host,cusparse,832,832,1,2006.593,12.166835,0\n",
+  "stderr": ""
+}

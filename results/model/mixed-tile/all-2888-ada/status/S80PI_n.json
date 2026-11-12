@@ -1,0 +1,15 @@
+{
+  "dataset": "S80PI_n",
+  "matrix_sha256": "43d4bb6c15c5b4a08fe3dc17ade55986b4e7473ae423e108452954f64f40cd13",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.981,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

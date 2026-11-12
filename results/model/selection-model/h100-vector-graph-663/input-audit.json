@@ -1,0 +1,8 @@
+{
+  "manifest_cases": 663,
+  "status_counts": {
+    "ok": 663
+  },
+  "problems": [],
+  "method": "Compare recorded input SHA-256 and successful status against the original v2 run. This checks matrix identity, not numerical correctness or measurement interference."
+}

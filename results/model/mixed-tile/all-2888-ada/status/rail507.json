@@ -1,0 +1,15 @@
+{
+  "dataset": "rail507",
+  "matrix_sha256": "8991bb0104be94fa59901cb6ecdc983ad20d548bb5a716aec03c3c2a17a32dbe",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.185,
+  "gpu_after": {
+    "utilization_percent": 23,
+    "free_memory_mib": 48508
+  }
+}

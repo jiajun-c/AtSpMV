@@ -1,0 +1,14 @@
+{
+  "matrix": "fpga_dcop_05",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/fpga_dcop_05/fpga_dcop_05.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1220,
+  "columns": 1220,
+  "original_nnz": 5852,
+  "factor_L_nnz": 3349,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.05590252298861742
+}

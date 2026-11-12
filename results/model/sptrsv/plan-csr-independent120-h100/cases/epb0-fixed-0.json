@@ -1,0 +1,8 @@
+{
+  "name": "epb0",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/epb0-L.mtx,default,cusparse,1794,8662,-1,6687.574,879.7120361,3.375077995e-14,6.721784041e-17,1.244803524e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/epb0-L.mtx,default-host,cusparse,1794,8662,-1,6687.574,889.56961,3.375077995e-14,6.721784041e-17,1.244803524e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/epb0-L.mtx,model,cusparse,1794,8662,1197,6915.652,877.4144287,3.375077995e-14,6.721784041e-17,1.244803524e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/epb0-L.mtx,model-host,cusparse,1794,8662,1197,6915.652,887.853465,3.375077995e-14,6.721784041e-17,1.244803524e-16,0\n",
+  "stderr": ""
+}

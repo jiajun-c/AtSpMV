@@ -1,0 +1,15 @@
+{
+  "dataset": "t2dal_e",
+  "matrix_sha256": "dfaa822ca3a99057c6228d379e0725afe1ceb36256bdc0a3181b0f95e8b9f0f2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.119,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

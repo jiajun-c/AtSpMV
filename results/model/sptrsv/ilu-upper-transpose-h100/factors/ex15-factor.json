@@ -1,0 +1,10 @@
+{
+  "matrix": "ex15",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/ex15-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 6867,
+  "nnz": 218117,
+  "min_abs_diagonal": 0.008951477958184064,
+  "max_abs_diagonal": 1240167453.904459,
+  "elapsed_s": 0.08219692995771766
+}

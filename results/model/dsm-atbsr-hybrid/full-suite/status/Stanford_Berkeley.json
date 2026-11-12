@@ -1,0 +1,10 @@
+{
+  "dataset": "Stanford_Berkeley",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Stanford_Berkeley/Stanford_Berkeley.mtx",
+  "matrix_sha256": "0bad4f02a6bbfeac33693a85a534d95ec2bcdd3122ed2d6fa34c3d542ea21f94",
+  "index_nnz": 7583376,
+  "index_rows": 683446,
+  "elapsed_s": 4.954,
+  "returncode": 0,
+  "status": "ok"
+}

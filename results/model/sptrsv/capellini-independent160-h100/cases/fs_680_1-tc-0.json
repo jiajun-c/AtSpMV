@@ -1,0 +1,9 @@
+{
+  "name": "fs_680_1",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=1.1102230246251565e-16 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.191520000 ms\n",
+  "stderr": ""
+}

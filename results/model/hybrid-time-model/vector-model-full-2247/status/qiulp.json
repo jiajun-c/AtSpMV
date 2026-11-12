@@ -1,0 +1,17 @@
+{
+  "dataset": "qiulp",
+  "matrix_sha256": "3f2e5967cfb280d661d1d355f18c15e79b5f9a92d4e8385f72b1f27894af90d2",
+  "index_nnz": 4492,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.17,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "cavity13",
+  "matrix_sha256": "1018907dda581cd10c884c4c053cbbc204d9e768479f244fe0e7bf72fa10ac1b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.879,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

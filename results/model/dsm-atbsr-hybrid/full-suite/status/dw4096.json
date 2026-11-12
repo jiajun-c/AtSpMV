@@ -1,0 +1,10 @@
+{
+  "dataset": "dw4096",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dw4096/dw4096.mtx",
+  "matrix_sha256": "a3f437eeecee36f74c1ee8391954ab18f4832b1e071d351cf8c1204c2142ca20",
+  "index_nnz": 41746,
+  "index_rows": 8192,
+  "elapsed_s": 1.311,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dw256A",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/dw256A-L.mtx --------------\nsuccess open file\ninput matrix A: ( 512, 512 ) nnz = 4239\nloadfile time    = 0.00165 sec\nnnzL = 4239\ntime_for_csc2CompressTile = 6.46 ms\ntime_cuda_solve = 0.193460 ms, Mflops = 43.82\nVALIDATION finite=1 max_error=2.19824158875781e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

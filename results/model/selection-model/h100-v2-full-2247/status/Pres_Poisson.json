@@ -1,0 +1,17 @@
+{
+  "dataset": "Pres_Poisson",
+  "matrix_sha256": "9b59afe7fe7875e4eae1e40596c6c5933963636f4f172762c645c9c73cee6162",
+  "index_nnz": 715804,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.941,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

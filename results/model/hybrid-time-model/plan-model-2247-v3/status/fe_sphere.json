@@ -1,0 +1,19 @@
+{
+  "dataset": "fe_sphere",
+  "matrix_sha256": "c1080e954820bdf7c7b3a4655384deeb280938a6d22ab941b859a703acb68794",
+  "index_nnz": 98304,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.257,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

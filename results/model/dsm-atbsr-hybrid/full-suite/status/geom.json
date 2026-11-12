@@ -1,0 +1,10 @@
+{
+  "dataset": "geom",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/geom/geom.mtx",
+  "matrix_sha256": "065263c46172962f6d8e91c3114ea00fda9d8768dfc114a849ff515892457f48",
+  "index_nnz": 23796,
+  "index_rows": 7343,
+  "elapsed_s": 1.253,
+  "returncode": 0,
+  "status": "ok"
+}

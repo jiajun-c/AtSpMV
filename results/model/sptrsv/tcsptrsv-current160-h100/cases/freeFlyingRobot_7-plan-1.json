@@ -1,0 +1,9 @@
+{
+  "name": "freeFlyingRobot_7",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/freeFlyingRobot_7-L.mtx,default,cusparse,3920,55768,-1,6380.02,477.5487976,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/freeFlyingRobot_7-L.mtx,default-host,cusparse,3920,55768,-1,6380.02,484.494435,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/freeFlyingRobot_7-L.mtx,model,cusparse,3920,55768,472,6356.04,479.3824158,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/freeFlyingRobot_7-L.mtx,model-host,cusparse,3920,55768,472,6356.04,485.4135,1.021405183e-13,4.368827175e-17,1.306548869e-16,0\n",
+  "stderr": ""
+}

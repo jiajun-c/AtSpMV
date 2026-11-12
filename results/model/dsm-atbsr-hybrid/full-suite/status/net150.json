@@ -1,0 +1,10 @@
+{
+  "dataset": "net150",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/net150/net150.mtx",
+  "matrix_sha256": "27d30f31e8964cd0a95c69079af6045d02466131077fecaf77999035586e1723",
+  "index_nnz": 3121200,
+  "index_rows": 43520,
+  "elapsed_s": 2.243,
+  "returncode": 0,
+  "status": "ok"
+}

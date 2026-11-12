@@ -1,0 +1,17 @@
+{
+  "dataset": "mawi_201512020130",
+  "file_bytes": 2721539655,
+  "file_mtime_ns": 1531513571000000000,
+  "structure": {
+    "dataset": "mawi_201512020130",
+    "rows": "128568730",
+    "columns": "128568730",
+    "nnz": "270234840",
+    "longest_row": "58782752",
+    "longest_row_nnz": "119191841",
+    "ratio": "0.441067632138",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 17.52
+}

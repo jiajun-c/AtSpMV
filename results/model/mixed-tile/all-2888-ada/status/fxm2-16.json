@@ -1,0 +1,15 @@
+{
+  "dataset": "fxm2-16",
+  "matrix_sha256": "ff7ab3dcb31938701f9d0aa88c209108d104622d2e8cc898fc413c2032d22d72",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.266,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

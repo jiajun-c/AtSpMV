@@ -1,0 +1,7 @@
+========= COMPUTE-SANITIZER
+tuned auto -> atbsr, candidates=29, setup_us=119330
+tuned atbsr -> atbsr, candidates=12, setup_us=176368
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=3830.12
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=4410.88
+PASS: 280 direct/graph/reference checks; dsm_available=1
+========= ERROR SUMMARY: 0 errors

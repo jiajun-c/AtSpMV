@@ -1,0 +1,10 @@
+{
+  "dataset": "ca-CondMat",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ca-CondMat/ca-CondMat.mtx",
+  "matrix_sha256": "93bd8cafb06eddebf3b0b25fd8a1fadab20f0a0690d95d0ca16ecd5b3317830c",
+  "index_nnz": 186936,
+  "index_rows": 23133,
+  "elapsed_s": 1.207,
+  "returncode": 0,
+  "status": "ok"
+}

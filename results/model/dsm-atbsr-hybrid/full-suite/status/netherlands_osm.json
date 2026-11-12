@@ -1,0 +1,10 @@
+{
+  "dataset": "netherlands_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/netherlands_osm/netherlands_osm.mtx",
+  "matrix_sha256": "7084e2f634518805c1a72494c2a1cc018d79420aee037ab0743bb6755857e797",
+  "index_nnz": 4882476,
+  "index_rows": 2216688,
+  "elapsed_s": 3.829,
+  "returncode": 0,
+  "status": "ok"
+}

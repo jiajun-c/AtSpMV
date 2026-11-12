@@ -1,0 +1,2 @@
+8ffafa18e60c2a787ca0095443b5c53b4088ccb9fb7c25159a796fc41ccbbcd4  results/model/cusparse-spmm-core-compare/h100-synthetic-v1/provenance/profile_cusparse_spmm_cores.py
+9694efabc2539a77d09a66ee8362586dbb0b019789837944db92ae9224121c58  results/model/cusparse-spmm-core-compare/h100-synthetic-v1/provenance/run_spmm_instruction_profile.sh

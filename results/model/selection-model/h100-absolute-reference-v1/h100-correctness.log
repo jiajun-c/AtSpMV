@@ -1,0 +1,7 @@
+tuned auto -> atbsr, candidates=40, setup_us=169618
+tuned atbsr -> atbsr, candidates=12, setup_us=72503.3
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=1697.16
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=1273.8
+tuned cusparse -> cusparse, candidates=1, setup_us=3050.76
+PASS: 948 direct/graph/reference checks; dsm_available=1
+absolute reference correctness exit code: 0

@@ -1,0 +1,9 @@
+{
+  "name": "lung1",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,default,cusparse,1650,4180,-1,3871.376,449.4624023,2.220446049e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,default-host,cusparse,1650,4180,-1,3871.376,455.115045,2.220446049e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,model,cusparse,1650,4180,467,3850.752,448.447998,2.220446049e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/lung1-L.mtx,model-host,cusparse,1650,4180,467,3850.752,454.52041,2.220446049e-16\n",
+  "stderr": ""
+}

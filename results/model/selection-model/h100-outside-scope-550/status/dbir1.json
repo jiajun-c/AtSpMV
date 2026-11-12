@@ -1,0 +1,17 @@
+{
+  "dataset": "dbir1",
+  "matrix_sha256": "5eadcbfb55ffd73adba7aa03e933e5f5337264c926df51fd03466678153c8f15",
+  "index_nnz": 1077025,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.48,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

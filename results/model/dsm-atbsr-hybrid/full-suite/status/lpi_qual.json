@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_qual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_qual/lpi_qual.mtx",
+  "matrix_sha256": "195e2e19664ebf88fb0eeb25e882934fb05e176d7c0b867752a7610caa57dbde",
+  "index_nnz": 1646,
+  "index_rows": 323,
+  "elapsed_s": 0.82,
+  "returncode": 0,
+  "status": "ok"
+}

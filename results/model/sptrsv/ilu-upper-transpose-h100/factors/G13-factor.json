@@ -1,0 +1,7 @@
+{
+  "matrix": "G13",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/G13-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.277076080441475e-06
+}

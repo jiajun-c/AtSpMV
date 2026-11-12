@@ -1,0 +1,15 @@
+{
+  "dataset": "stomach",
+  "matrix_sha256": "8a54b133513ed6fde0c41da76cddabe5f912a9e90e50dc061ecff91d06b22a31",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.252,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 48508
+  }
+}

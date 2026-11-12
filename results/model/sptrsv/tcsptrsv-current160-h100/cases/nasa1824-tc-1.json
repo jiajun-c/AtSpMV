@@ -1,0 +1,9 @@
+{
+  "name": "nasa1824",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/nasa1824-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1824, 1824 ) nnz = 92922\nloadfile time    = 0.04727 sec\nnnzL = 92922\ntime_for_csc2CompressTile = 3.93 ms\ntime_cuda_solve = 0.663250 ms, Mflops = 280.20\nVALIDATION finite=1 max_error=2.120525977034049e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

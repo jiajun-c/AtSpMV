@@ -1,0 +1,17 @@
+{
+  "dataset": "Ga41As41H72",
+  "matrix_sha256": "0464283a47b95af2b679af54ab543f30d44fa184d936e49b63995a1a80f741ce",
+  "index_nnz": 18488476,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 27.969,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

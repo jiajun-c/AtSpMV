@@ -1,0 +1,15 @@
+{
+  "dataset": "helm3d01",
+  "matrix_sha256": "4c8fb182e7fa5a2f6a1b538178a2d9ddb6a33c820d12492275fe5a9f11045ba1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.918,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

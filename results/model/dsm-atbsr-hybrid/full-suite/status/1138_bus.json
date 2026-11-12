@@ -1,0 +1,10 @@
+{
+  "dataset": "1138_bus",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/1138_bus/1138_bus.mtx",
+  "matrix_sha256": "91af071985d646ea6f0b478db765444a232a7dd79cab55b1c264b292137207ae",
+  "index_nnz": 4054,
+  "index_rows": 1138,
+  "elapsed_s": 1.325,
+  "returncode": 0,
+  "status": "ok"
+}

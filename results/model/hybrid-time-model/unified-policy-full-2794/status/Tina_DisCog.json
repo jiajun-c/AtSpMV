@@ -1,0 +1,17 @@
+{
+  "dataset": "Tina_DisCog",
+  "matrix_sha256": "e2a695526d55041d5331c7ac189d53c567689f78768413c5a03a222aa44637c3",
+  "index_nnz": 48,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.244,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

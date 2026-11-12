@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "successful_matrices": 9,
+  "raw_timings": 6840,
+  "full_vector_checks": 2280,
+  "verified": "manifest candidate IDs in both orders, nine trials each, matrix hash, frozen binary/runner hash, zero process exit codes and no recorded interference"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "stufe",
+  "matrix_sha256": "19ea792fb076f5f21f7fb2fa757263777d95019d44dcd9a024861b893bca08d4",
+  "index_nnz": 3736,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.023,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

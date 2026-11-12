@@ -1,0 +1,9 @@
+{
+  "name": "fpga_dcop_28",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=9.9920072216264089e-16 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.047690000 ms\n",
+  "stderr": ""
+}

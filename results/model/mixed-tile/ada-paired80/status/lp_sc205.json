@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_sc205",
+  "matrix_sha256": "2c30794a7cf65dc556d69da87e14152bd5a5b975975a846058e61670221c94bf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.738,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

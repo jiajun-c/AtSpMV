@@ -1,0 +1,14 @@
+{
+  "matrix": "c-18",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/c-18/c-18.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2169,
+  "columns": 2169,
+  "original_nnz": 15145,
+  "factor_L_nnz": 28205,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04479837790131569
+}

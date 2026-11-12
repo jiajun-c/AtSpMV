@@ -1,0 +1,9 @@
+{
+  "name": "bcsstk04",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/bcsstk04-L.mtx --------------\nsuccess open file\ninput matrix A: ( 144, 144 ) nnz = 3653\nloadfile time    = 0.00178 sec\nnnzL = 3653\ntime_for_csc2CompressTile = 6.05 ms\ntime_cuda_solve = 0.110810 ms, Mflops = 65.93\nVALIDATION finite=1 max_error=1.1546319456101628e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

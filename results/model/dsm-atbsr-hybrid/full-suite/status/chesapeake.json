@@ -1,0 +1,10 @@
+{
+  "dataset": "chesapeake",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/chesapeake/chesapeake.mtx",
+  "matrix_sha256": "b93dfd5ef4bfabe7a528f83289aa84ea9e5d3ff5fd7a25547e2ec9e6a3c6fb57",
+  "index_nnz": 340,
+  "index_rows": 39,
+  "elapsed_s": 1.308,
+  "returncode": 0,
+  "status": "ok"
+}

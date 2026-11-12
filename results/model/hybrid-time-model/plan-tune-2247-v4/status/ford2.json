@@ -1,0 +1,19 @@
+{
+  "dataset": "ford2",
+  "matrix_sha256": "0565a78c5b5aa0be0d4b0a3d69a34938dcf96bc95e224d24937f0d1f4a6011bb",
+  "index_nnz": 544688,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.04,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

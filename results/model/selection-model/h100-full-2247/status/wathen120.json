@@ -1,0 +1,17 @@
+{
+  "dataset": "wathen120",
+  "matrix_sha256": "85a0de813428e4c10d9122398ae364b586a1fbe286fe9ee0b4a077f5026955ba",
+  "index_nnz": 565761,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.88,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

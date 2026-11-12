@@ -1,0 +1,10 @@
+{
+  "dataset": "ASIC_320k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ASIC_320k/ASIC_320k.mtx",
+  "matrix_sha256": "5c03d1a655a4cd3293baf2559f4871df3b0aeabf907cb682bc741d1d0c55af81",
+  "index_nnz": 2635364,
+  "index_rows": 321821,
+  "elapsed_s": 4.614,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "vsp_c-60_data_cti_cs4",
+  "status": "ok",
+  "matrix_sha256": "6726ccb4887ff4a0d13740bc2ca9f716895a8c7105a8f77c9aa1ace4e4499a9e",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/vsp_c-60_data_cti_cs4/vsp_c-60_data_cti_cs4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/vsp_c-60_data_cti_cs4-0.csv",
+        "20261193",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 16.40105986292474
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/vsp_c-60_data_cti_cs4/vsp_c-60_data_cti_cs4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/vsp_c-60_data_cti_cs4-1.csv",
+        "20261194",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 16.23133916594088
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

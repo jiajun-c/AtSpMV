@@ -1,0 +1,17 @@
+{
+  "dataset": "beause",
+  "matrix_sha256": "31352725a89ac3b31a40c4b87bb96e45e80e179aeb0201d5e7db668db2016b4b",
+  "index_nnz": 44551,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.721,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

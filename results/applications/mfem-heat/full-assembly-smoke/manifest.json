@@ -1,0 +1,18 @@
+{
+  "exe": "/tmp/atspmv-mfem-apps/apps/mfem/mfem_heat",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "results/applications/mfem-heat/full-assembly-smoke",
+  "refine": 2,
+  "order": 2,
+  "steps": 3,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "cusparse,mfem,atbsr,mixed",
+  "rounds": 1,
+  "timeout": 900,
+  "rebuild_values": false,
+  "prefetch": 0,
+  "warps": 4,
+  "gpu_assembly": true,
+  "executable_sha256": "7bb56138131ab2b28b5fc781f6bae6f47020e8398ce6b785887324bb523ede90"
+}

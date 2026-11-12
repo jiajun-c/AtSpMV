@@ -1,0 +1,7 @@
+{
+  "name": "nos3",
+  "implementation": "ours",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-expanded-h100/factors/nos3-L.mtx,960,33404,482,cusparse,30321.211,578.6687851,5.551115123e-15,2.753700394e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/nos3-L.mtx,960,33404,482,cusparse-host,30321.211,586.40726,5.551115123e-15,2.753700394e-17\n",
+  "stderr": ""
+}

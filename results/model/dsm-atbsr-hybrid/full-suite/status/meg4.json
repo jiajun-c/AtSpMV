@@ -1,0 +1,10 @@
+{
+  "dataset": "meg4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/meg4/meg4.mtx",
+  "matrix_sha256": "e7df7b18d953ff04b8a47d830166effa1aaf4271afb3aa1224861b813e2be69a",
+  "index_nnz": 46842,
+  "index_rows": 5860,
+  "elapsed_s": 1.258,
+  "returncode": 0,
+  "status": "ok"
+}

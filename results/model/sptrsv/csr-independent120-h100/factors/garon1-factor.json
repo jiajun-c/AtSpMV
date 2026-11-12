@@ -1,0 +1,14 @@
+{
+  "matrix": "garon1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/garon1/garon1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3175,
+  "columns": 3175,
+  "original_nnz": 88927,
+  "factor_L_nnz": 210737,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.19274938805028796
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "LF10000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/LF10000/LF10000.mtx",
+  "matrix_sha256": "acffc973e60ce6b76cf549594e15b21f289fb866652f516e507cba4ddfece767",
+  "index_nnz": 99982,
+  "index_rows": 19998,
+  "elapsed_s": 1.229,
+  "returncode": 0,
+  "status": "ok"
+}

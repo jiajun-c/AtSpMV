@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_finnis",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_finnis/lp_finnis.mtx",
+  "matrix_sha256": "f4aa0ece84830dfe2494aa38b339f626f12848520f9152c42ceeabef2733a0da",
+  "index_nnz": 2760,
+  "index_rows": 497,
+  "elapsed_s": 1.295,
+  "returncode": 0,
+  "status": "ok"
+}

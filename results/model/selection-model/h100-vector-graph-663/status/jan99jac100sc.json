@@ -1,0 +1,17 @@
+{
+  "dataset": "jan99jac100sc",
+  "matrix_sha256": "0529617200f865ada4ef6c2a6b754006a4504c8b9b4255173cce0e700737e116",
+  "index_nnz": 215862,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.665,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

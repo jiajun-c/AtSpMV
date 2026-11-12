@@ -1,0 +1,10 @@
+{
+  "dataset": "road_central",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/road_central/road_central.mtx",
+  "matrix_sha256": "43fd76019778455edb42184fbac8142e1b540a3d51885f76f87c54157b38e22b",
+  "index_nnz": 33866826,
+  "index_rows": 14081816,
+  "elapsed_s": 21.433,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,44 @@
+========= COMPUTE-SANITIZER
+CHECK dsm_pull G=1 T=128 C=2 cutoff=0
+CHECK dsm_async G=1 T=128 C=2 cutoff=0
+CHECK dsm_pull G=1 T=128 C=8 cutoff=0
+CHECK dsm_async G=1 T=128 C=8 cutoff=0
+CHECK dsm_pull G=1 T=1024 C=2 cutoff=0
+CHECK dsm_async G=1 T=1024 C=2 cutoff=0
+CHECK dsm_pull G=1 T=1024 C=8 cutoff=0
+CHECK dsm_async G=1 T=1024 C=8 cutoff=0
+CHECK dsm_pull G=4 T=128 C=2 cutoff=0
+CHECK dsm_async G=4 T=128 C=2 cutoff=0
+CHECK dsm_pull G=4 T=128 C=8 cutoff=0
+CHECK dsm_async G=4 T=128 C=8 cutoff=0
+CHECK dsm_pull G=4 T=1024 C=2 cutoff=0
+CHECK dsm_async G=4 T=1024 C=2 cutoff=0
+CHECK dsm_pull G=4 T=1024 C=8 cutoff=0
+CHECK dsm_async G=4 T=1024 C=8 cutoff=0
+CHECK dsm_pull G=8 T=1024 C=2 cutoff=0
+CHECK dsm_async G=8 T=1024 C=2 cutoff=0
+CHECK dsm_pull G=8 T=1024 C=8 cutoff=0
+CHECK dsm_async G=8 T=1024 C=8 cutoff=0
+CHECK dsm_pull G=1 T=128 C=2 cutoff=1024
+CHECK dsm_async G=1 T=128 C=2 cutoff=1024
+CHECK dsm_pull G=1 T=128 C=8 cutoff=1024
+CHECK dsm_async G=1 T=128 C=8 cutoff=1024
+CHECK dsm_pull G=1 T=1024 C=2 cutoff=1024
+CHECK dsm_async G=1 T=1024 C=2 cutoff=1024
+CHECK dsm_pull G=1 T=1024 C=8 cutoff=1024
+CHECK dsm_async G=1 T=1024 C=8 cutoff=1024
+CHECK dsm_pull G=4 T=128 C=2 cutoff=1024
+CHECK dsm_async G=4 T=128 C=2 cutoff=1024
+CHECK dsm_pull G=4 T=128 C=8 cutoff=1024
+CHECK dsm_async G=4 T=128 C=8 cutoff=1024
+CHECK dsm_pull G=4 T=1024 C=2 cutoff=1024
+CHECK dsm_async G=4 T=1024 C=2 cutoff=1024
+CHECK dsm_pull G=4 T=1024 C=8 cutoff=1024
+CHECK dsm_async G=4 T=1024 C=8 cutoff=1024
+CHECK dsm_pull G=8 T=1024 C=2 cutoff=1024
+CHECK dsm_async G=8 T=1024 C=2 cutoff=1024
+CHECK dsm_pull G=8 T=1024 C=8 cutoff=1024
+CHECK dsm_async G=8 T=1024 C=8 cutoff=1024
+CHECK cusparse G=1 T=0 C=0 cutoff=0
+PASS: 41 CSR long-row candidates, two X vectors, direct + graph each
+========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)

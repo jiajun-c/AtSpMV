@@ -1,0 +1,37 @@
+{
+  "matrices": 80,
+  "groups": 63,
+  "iterations": 5000,
+  "seed": 20261028,
+  "caveat": "Approximate bootstrap using name-based groups. Matrix families may be misidentified, sampling need not represent SuiteSparse, and shared-GPU/timing bias is not captured.",
+  "metrics": {
+    "speedup_vs_default": {
+      "point": 1.207242880131104,
+      "ci95": [
+        1.1753874783569058,
+        1.240136878616593
+      ]
+    },
+    "speedup_vs_cusparse": {
+      "point": 1.6708988573684656,
+      "ci95": [
+        1.5571322416826496,
+        1.773483494851146
+      ]
+    },
+    "speedup_vs_best_baseline": {
+      "point": 1.1923251343925783,
+      "ci95": [
+        1.1614027917652059,
+        1.222760964258368
+      ]
+    },
+    "speedup_vs_extended_baseline": {
+      "point": 1.1238721659217548,
+      "ci95": [
+        1.1017729388759059,
+        1.144098936134295
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "la2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/la2010/la2010.mtx",
+  "matrix_sha256": "8ee4b3aa155d8d950ff8b36b7c10ecb76f22a1347c4468b1b54da4eb3670184b",
+  "index_nnz": 980634,
+  "index_rows": 204447,
+  "elapsed_s": 1.321,
+  "returncode": 0,
+  "status": "ok"
+}

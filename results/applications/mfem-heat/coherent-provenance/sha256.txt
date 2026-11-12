@@ -1,0 +1,6 @@
+5026aaeacd4fba0a68b6263ef75838961961bf9710acb729419fa6322be12190  /tmp/atspmv-mfem-coherent
+6848899bb296eb3856cdd86b06d919346b582651b886060191ab6aee8b9d9c0b  /tmp/atspmv-mfem-cpu-oracle/ex16
+0b96e18bf1419b6818d04709e0b08f334a0dc352b2cb91257ee0914bad91d612  apps/mfem/heat.cpp
+2c0fe2a9da256f0c2fb59a4c142de5214c79a37e02946a8bf73448816db0c62f  apps/mfem/spmvOperator.hpp
+bf4775ba01c8abce86988a6e14f7a85c839d7f2960cf8bc9411ca8d4a9da3988  apps/mfem/sparseSum.cu
+e3fc9b0ea7dd3083fff2ffff5ce5361e70c869c557d86d955afe82b4f31980d8  apps/mfem/sparseSum.hpp

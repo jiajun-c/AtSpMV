@@ -1,0 +1,10 @@
+{
+  "dataset": "eu-2005",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/eu-2005/eu-2005.mtx",
+  "matrix_sha256": "47fed467576de04f49dd366bbd08ae7fe8dc0180bad17af00d27af606aefeca6",
+  "index_nnz": 19235140,
+  "index_rows": 862664,
+  "elapsed_s": 7.898,
+  "returncode": 0,
+  "status": "ok"
+}

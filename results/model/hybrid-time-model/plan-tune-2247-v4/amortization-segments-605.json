@@ -1,0 +1,100 @@
+{
+  "cases": 605,
+  "selection": "auto_tuned",
+  "method": "Per-order Plan setup plus N independent warm Graph GPU calls, compared to default AtBSR; per-case paired geometric mean before group aggregation. Setup excludes input loading, caller allocations, Graph creation and CPU launch overhead. Grouped by nnz; incomplete sample is not a full-suite result.",
+  "groups": {
+    "100k-1M": {
+      "cases": 165,
+      "median_selection_setup_ms": 422.0823295,
+      "median_default_setup_ms": 9.9258695,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.015163062150227878,
+          "wins": 0
+        },
+        "100": {
+          "geomean_speedup": 0.016883901428842666,
+          "wins": 0
+        },
+        "1000": {
+          "geomean_speedup": 0.029841194041508826,
+          "wins": 0
+        },
+        "10000": {
+          "geomean_speedup": 0.12385351014816082,
+          "wins": 0
+        },
+        "100000": {
+          "geomean_speedup": 0.5579554137013509,
+          "wins": 7
+        },
+        "1000000": {
+          "geomean_speedup": 1.031266943303326,
+          "wins": 86
+        }
+      }
+    },
+    "10k-100k": {
+      "cases": 203,
+      "median_selection_setup_ms": 163.0679385,
+      "median_default_setup_ms": 8.9157365,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.03235953835588514,
+          "wins": 0
+        },
+        "100": {
+          "geomean_speedup": 0.03642161766751692,
+          "wins": 0
+        },
+        "1000": {
+          "geomean_speedup": 0.06487511597198203,
+          "wins": 0
+        },
+        "10000": {
+          "geomean_speedup": 0.24110817199967582,
+          "wins": 0
+        },
+        "100000": {
+          "geomean_speedup": 0.8180515517622615,
+          "wins": 26
+        },
+        "1000000": {
+          "geomean_speedup": 1.187246522794728,
+          "wins": 190
+        }
+      }
+    },
+    "<10k": {
+      "cases": 237,
+      "median_selection_setup_ms": 79.169422,
+      "median_default_setup_ms": 8.7171875,
+      "reuse_scenarios": {
+        "1": {
+          "geomean_speedup": 0.05444189383275472,
+          "wins": 0
+        },
+        "100": {
+          "geomean_speedup": 0.06010331651120795,
+          "wins": 0
+        },
+        "1000": {
+          "geomean_speedup": 0.0999404003615747,
+          "wins": 0
+        },
+        "10000": {
+          "geomean_speedup": 0.3214983869859966,
+          "wins": 0
+        },
+        "100000": {
+          "geomean_speedup": 0.8765046468265384,
+          "wins": 13
+        },
+        "1000000": {
+          "geomean_speedup": 1.1381712337051813,
+          "wins": 228
+        }
+      }
+    }
+  }
+}

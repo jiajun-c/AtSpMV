@@ -1,0 +1,8 @@
+{
+  "name": "garon1",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/garon1-L.mtx,model,cusparse,3175,210737,1389,22232.509,1374.476807,4.418687638e-14,2.824626701e-17,1.201894992e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/garon1-L.mtx,model-host,cusparse,3175,210737,1389,22232.509,1382.56086,4.418687638e-14,2.824626701e-17,1.201894992e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/garon1-L.mtx,default,cusparse,3175,210737,-1,21309.99,1374.419189,4.418687638e-14,2.824626701e-17,1.201894992e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/garon1-L.mtx,default-host,cusparse,3175,210737,-1,21309.99,1387.11371,4.418687638e-14,2.824626701e-17,1.201894992e-16,0\n",
+  "stderr": ""
+}

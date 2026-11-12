@@ -1,0 +1,17 @@
+{
+  "dataset": "boyd1",
+  "matrix_sha256": "abb54c90be3238903658073918777fb759890ea22cc5a6014681c71a87a44abc",
+  "index_nnz": 1211231,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 22.295,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "lund_a",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lund_a/lund_a.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 147,
+  "columns": 147,
+  "original_nnz": 2449,
+  "factor_L_nnz": 2563,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.035777345998212695
+}

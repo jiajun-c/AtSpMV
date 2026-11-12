@@ -1,0 +1,19 @@
+{
+  "dataset": "Franz10",
+  "matrix_sha256": "53f82c5745fa3b6d8624b819ac0159f6be842a225a95dac8ec67f4619089e99a",
+  "index_nnz": 97508,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.616,
+  "gpu_after": {
+    "utilization_percent": 98,
+    "free_memory_mib": 8161
+  }
+}

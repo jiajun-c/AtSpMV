@@ -1,0 +1,10 @@
+{
+  "dataset": "radiation",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/radiation/radiation.mtx",
+  "matrix_sha256": "4b02800f089c234027dd2734dc557b92781bdcd1678e653083e5c1ea7d4374dc",
+  "index_nnz": 7637688,
+  "index_rows": 223104,
+  "elapsed_s": 4.599,
+  "returncode": 0,
+  "status": "ok"
+}

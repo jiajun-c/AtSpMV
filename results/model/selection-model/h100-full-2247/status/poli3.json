@@ -1,0 +1,17 @@
+{
+  "dataset": "poli3",
+  "matrix_sha256": "b13eb855e1ed73a66b069dfa593216e9deba4712369e5749f3cbe2c88a61ecaa",
+  "index_nnz": 37849,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.924,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

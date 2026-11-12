@@ -1,0 +1,17 @@
+{
+  "dataset": "eurqsa",
+  "matrix_sha256": "b29b8f1f4943c263f853177c0bef47dbc4a214701756d7c41eb118439257484c",
+  "index_nnz": 46142,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 64.707,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

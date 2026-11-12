@@ -1,0 +1,15 @@
+{
+  "dataset": "lpi_forest6",
+  "matrix_sha256": "4281f5ade867f6b07abf13b16a8b50cddaccdd4c24fc21d73a7025b8af6d95a4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48505
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.18,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

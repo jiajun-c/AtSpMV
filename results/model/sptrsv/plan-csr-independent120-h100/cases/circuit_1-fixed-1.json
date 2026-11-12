@@ -1,0 +1,8 @@
+{
+  "name": "circuit_1",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/circuit_1-L.mtx,model,cusparse,2624,49076,907,8992.288,701.5999756,2.219668893e-12,3.513300839e-17,9.995788029e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/circuit_1-L.mtx,model-host,cusparse,2624,49076,907,8992.288,710.02086,2.219668893e-12,3.513300839e-17,9.995788029e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/circuit_1-L.mtx,default,cusparse,2624,49076,-1,8795.901,701.8847656,2.219668893e-12,3.513300839e-17,9.995788029e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/circuit_1-L.mtx,default-host,cusparse,2624,49076,-1,8795.901,709.282275,2.219668893e-12,3.513300839e-17,9.995788029e-17,0\n",
+  "stderr": ""
+}

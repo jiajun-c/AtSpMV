@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_standmps",
+  "matrix_sha256": "77605100d9ed49ced189557107de1d872e6845fdf386581716eb1cbf8348e682",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.265,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

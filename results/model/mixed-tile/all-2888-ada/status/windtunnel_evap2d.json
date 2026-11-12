@@ -1,0 +1,15 @@
+{
+  "dataset": "windtunnel_evap2d",
+  "matrix_sha256": "6f2765086695c11a154ecf2e3668b435c75207a8df9b1123eaf9b23e67d4054e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.435,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

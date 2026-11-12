@@ -1,0 +1,11 @@
+{
+  "manifest_count": 160,
+  "status_counts": {
+    "factor_missing": 56,
+    "ok": 104
+  },
+  "valid_pairs": 104,
+  "plan_wins": 86,
+  "geomean_tc_over_plan": 1.718736372699309,
+  "caveat": "locally modified TC-SpTRSV and Plan CUDA 12.6; identical unit-diagonal factors padded to 16; synchronized host timing includes per-solve state, excludes preprocessing; two rounds, invalid omitted"
+}

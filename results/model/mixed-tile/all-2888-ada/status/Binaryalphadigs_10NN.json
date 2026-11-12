@@ -1,0 +1,15 @@
+{
+  "dataset": "Binaryalphadigs_10NN",
+  "matrix_sha256": "0b5dc64f80eb32300933f33c846b716ccf5c20a32193640d79351f942223b2f9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.867,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "3Dspectralwave",
+  "matrix_sha256": "3e1c7624dd4d7cd9bd93c17003d0bd7347ee794314fe30bab46ef67068cc6df0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.43,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "bauru5727",
+  "matrix_sha256": "24a7a98889e9069252327a28cd5d9eb85d08a2179bcbf2dbc8ab1759341ebbbf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.554,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "rows": [
+    {
+      "dataset": "neos3",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 6480,
+      "first_pass_ratio": 1.8132326676830839,
+      "nonhybrid_us": 17.86400005,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "5/1/8/128/1/1024",
+      "old_hybrid_us": 10.80000028,
+      "old_hybrid_config": "5/0/8/256/1/1024",
+      "new_hybrid_us": 20.71199939,
+      "new_hybrid_config": "3/0/4/256/4/128",
+      "best_hybrid_us": 10.80000028,
+      "old_speedup": 1.6540740358203028,
+      "new_speedup": 1.6540740358203028,
+      "old_vs_new_hybrid": 0.5214368770797845,
+      "new_us_per_seed": [
+        20.71199939,
+        20.78000084,
+        20.70399933
+      ],
+      "old_us_per_seed": [
+        10.88399999,
+        10.80000028,
+        10.70799958
+      ],
+      "nonhybrid_us_per_seed": [
+        17.79999956,
+        17.86400005,
+        17.97199994
+      ]
+    },
+    {
+      "dataset": "3dtube",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 2364,
+      "first_pass_ratio": 1.470686337301485,
+      "nonhybrid_us": 17.38799922,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "5/1/8/128/1/1024",
+      "old_hybrid_us": 14.39199969,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 12.94799987,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 12.94799987,
+      "old_speedup": 1.2081711780526032,
+      "new_speedup": 1.3429100551883153,
+      "old_vs_new_hybrid": 1.111523002355421,
+      "new_us_per_seed": [
+        12.94799987,
+        12.91599963,
+        12.98800018
+      ],
+      "old_us_per_seed": [
+        14.51199967,
+        14.39199969,
+        14.38399963
+      ],
+      "nonhybrid_us_per_seed": [
+        17.38799922,
+        17.35600084,
+        17.52799936
+      ]
+    },
+    {
+      "dataset": "matrix_9",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 4057,
+      "first_pass_ratio": 1.3874104151569775,
+      "nonhybrid_us": 10.18400025,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "5/1/8/128/1/1024",
+      "old_hybrid_us": 7.799999788,
+      "old_hybrid_config": "5/0/8/256/1/1024",
+      "new_hybrid_us": 9.895999916,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 7.799999788,
+      "old_speedup": 1.305641093178963,
+      "new_speedup": 1.305641093178963,
+      "old_vs_new_hybrid": 0.7881972366823533,
+      "new_us_per_seed": [
+        9.920000099,
+        9.891999885,
+        9.895999916
+      ],
+      "old_us_per_seed": [
+        7.799999788,
+        7.807999849,
+        7.799999788
+      ],
+      "nonhybrid_us_per_seed": [
+        10.18400025,
+        10.18400025,
+        10.20000037
+      ]
+    },
+    {
+      "dataset": "nasasrb",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 276,
+      "first_pass_ratio": 1.2962551990031568,
+      "nonhybrid_us": 11.92799956,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "4/1/8/128/1/1024",
+      "old_hybrid_us": 14.58800025,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 9.792000055,
+      "new_hybrid_config": "3/0/4/256/4/128",
+      "best_hybrid_us": 9.792000055,
+      "old_speedup": 0.8176583051539227,
+      "new_speedup": 1.2181372031252504,
+      "old_vs_new_hybrid": 1.4897875988625082,
+      "new_us_per_seed": [
+        9.779999964,
+        9.792000055,
+        9.851999581
+      ],
+      "old_us_per_seed": [
+        14.64799978,
+        14.5159997,
+        14.58800025
+      ],
+      "nonhybrid_us_per_seed": [
+        11.92799956,
+        11.99200004,
+        11.91200037
+      ]
+    },
+    {
+      "dataset": "power9",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 3744,
+      "first_pass_ratio": 1.2452121968065175,
+      "nonhybrid_us": 13.45600002,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "-1/-1/8/128/1/1024",
+      "old_hybrid_us": 10.71999967,
+      "old_hybrid_config": "5/0/8/256/1/1024",
+      "new_hybrid_us": 15.44000022,
+      "new_hybrid_config": "3/0/4/256/4/128",
+      "best_hybrid_us": 10.71999967,
+      "old_speedup": 1.2552239211029752,
+      "new_speedup": 1.2552239211029752,
+      "old_vs_new_hybrid": 0.6943004868687754,
+      "new_us_per_seed": [
+        15.44000022,
+        15.54400008,
+        15.38399979
+      ],
+      "old_us_per_seed": [
+        10.71999967,
+        10.69200039,
+        10.78000013
+      ],
+      "nonhybrid_us_per_seed": [
+        13.43999989,
+        13.50400038,
+        13.45600002
+      ]
+    },
+    {
+      "dataset": "stat96v2",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 3232,
+      "first_pass_ratio": 1.1597926539768617,
+      "nonhybrid_us": 21.7840001,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "4/1/8/128/1/1024",
+      "old_hybrid_us": 19.36000027,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 19.94000003,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 19.36000027,
+      "old_speedup": 1.1252066010430897,
+      "new_speedup": 1.1252066010430897,
+      "old_vs_new_hybrid": 0.9709127502945144,
+      "new_us_per_seed": [
+        19.94000003,
+        19.92399991,
+        20.02000064
+      ],
+      "old_us_per_seed": [
+        19.35200021,
+        19.36000027,
+        19.38799955
+      ],
+      "nonhybrid_us_per_seed": [
+        21.79599926,
+        21.66800015,
+        21.7840001
+      ]
+    },
+    {
+      "dataset": "boyd1",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 93261,
+      "first_pass_ratio": 1.1280331352799127,
+      "nonhybrid_us": 14.11600038,
+      "nonhybrid_backend": "cusparse",
+      "nonhybrid_config": "CSR_ALG1",
+      "old_hybrid_us": 12.53200043,
+      "old_hybrid_config": "5/0/8/256/1/1024",
+      "new_hybrid_us": 50.86399987,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 12.53200043,
+      "old_speedup": 1.1263964168248914,
+      "new_speedup": 1.1263964168248914,
+      "old_vs_new_hybrid": 0.2463825193069701,
+      "new_us_per_seed": [
+        50.5839996,
+        50.86399987,
+        50.89199916
+      ],
+      "old_us_per_seed": [
+        12.53200043,
+        12.53600046,
+        12.52400037
+      ],
+      "nonhybrid_us_per_seed": [
+        14.10400029,
+        14.11600038,
+        14.13199957
+      ]
+    },
+    {
+      "dataset": "oilpan",
+      "reason": "large-matrix wins",
+      "max_row_nnz": 70,
+      "first_pass_ratio": 1.071519656569472,
+      "nonhybrid_us": 26.53999999,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 25.24000034,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 26.65200084,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 25.24000034,
+      "old_speedup": 1.0515055321904958,
+      "new_speedup": 1.0515055321904958,
+      "old_vs_new_hybrid": 0.9470208443832543,
+      "new_us_per_seed": [
+        26.65200084,
+        26.68399923,
+        26.59199946
+      ],
+      "old_us_per_seed": [
+        25.24000034,
+        25.19199997,
+        25.30400082
+      ],
+      "nonhybrid_us_per_seed": [
+        26.53999999,
+        26.54399909,
+        26.48000047
+      ]
+    }
+  ],
+  "failures": [],
+  "notes": "Ratios use median over seed medians, with the best fixed configuration chosen after retest. Crossover cases were selected from the full pass and are not a random holdout; optimization changes group/threads/tile as well as threshold."
+}

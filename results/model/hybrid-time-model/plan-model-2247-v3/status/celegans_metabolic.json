@@ -1,0 +1,19 @@
+{
+  "dataset": "celegans_metabolic",
+  "matrix_sha256": "6f573fdf4a6ff4ba3191d4db8ce5193c6d18edac67ca55599ff2dc689a7ae61a",
+  "index_nnz": 4065,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.675,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "abtaha2",
+  "matrix_sha256": "6cbbd8508bd7f179d6a344222cfb7efeb706895cc5851c67d943b7ed05fa0542",
+  "index_nnz": 137228,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.149,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

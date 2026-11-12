@@ -1,0 +1,19 @@
+{
+  "dataset": "G21",
+  "matrix_sha256": "ea4a0957a2984a3a8f69e4a2463996d391854fa6a1d0d7ad4e4d8b6593fe05d1",
+  "index_nnz": 9334,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.668,
+  "gpu_after": {
+    "utilization_percent": 64,
+    "free_memory_mib": 81079
+  }
+}

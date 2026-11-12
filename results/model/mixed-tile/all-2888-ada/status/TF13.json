@@ -1,0 +1,15 @@
+{
+  "dataset": "TF13",
+  "matrix_sha256": "2cdbd3d74cd3a9e126778935c9413c33e3046af07ab4f9a8f4d7ce846408e2f7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.729,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

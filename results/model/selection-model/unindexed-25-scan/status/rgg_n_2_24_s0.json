@@ -1,0 +1,17 @@
+{
+  "dataset": "rgg_n_2_24_s0",
+  "file_bytes": 2210504057,
+  "file_mtime_ns": 1302455113000000000,
+  "structure": {
+    "dataset": "rgg_n_2_24_s0",
+    "rows": "16777216",
+    "columns": "16777216",
+    "nnz": "265114400",
+    "longest_row": "2421853",
+    "longest_row_nnz": "40",
+    "ratio": "1.50878262365e-07",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 14.98
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "flickr",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/flickr/flickr.mtx",
+  "matrix_sha256": "200120fbc4aae9431fc232b7bc2ae0a2490409996cedee608b293fdf58f345de",
+  "index_nnz": 9837214,
+  "index_rows": 820878,
+  "elapsed_s": 6.807,
+  "returncode": 0,
+  "status": "ok"
+}

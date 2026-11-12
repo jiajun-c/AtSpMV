@@ -1,0 +1,17 @@
+{
+  "dataset": "rajat26",
+  "matrix_sha256": "41176d4e3df795e4abe48652592d156e6ffc1749e8c73dc56aefb832923933bf",
+  "index_nnz": 249302,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.264,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

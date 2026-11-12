@@ -1,0 +1,17 @@
+{
+  "dataset": "cz2548",
+  "matrix_sha256": "e811023a77460339420c28b60e51a74770f782f0cd0a5d613061629dc1691f4e",
+  "index_nnz": 25674,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.013,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

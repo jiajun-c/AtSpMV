@@ -1,0 +1,7 @@
+{
+  "name": "linverse",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/linverse-L.mtx,model,cusparse,11999,53590,-1,43266.34,8199.878906,1.110223025e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/linverse-L.mtx,model-host,cusparse,11999,53590,-1,43266.34,8208.760925,1.110223025e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/linverse-L.mtx,default,cusparse,11999,53590,-1,43813.03,8200.047852,1.110223025e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/linverse-L.mtx,default-host,cusparse,11999,53590,-1,43813.03,8209.68976,1.110223025e-14\n",
+  "stderr": ""
+}

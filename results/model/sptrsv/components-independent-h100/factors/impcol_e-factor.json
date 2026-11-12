@@ -1,0 +1,14 @@
+{
+  "matrix": "impcol_e",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/impcol_e/impcol_e.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 225,
+  "columns": 225,
+  "original_nnz": 1308,
+  "factor_L_nnz": 659,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.0382609989028424
+}

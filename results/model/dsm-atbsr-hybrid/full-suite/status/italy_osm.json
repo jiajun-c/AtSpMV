@@ -1,0 +1,10 @@
+{
+  "dataset": "italy_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/italy_osm/italy_osm.mtx",
+  "matrix_sha256": "e44b39d671a415cef853e11638d0d5017d580b4e4d18ff861999795a930b2421",
+  "index_nnz": 14027956,
+  "index_rows": 6686493,
+  "elapsed_s": 9.621,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,11 @@
+{
+  "status_counts": {
+    "ok": 20
+  },
+  "128_geomean_vs_512": 0.6931403286188061,
+  "128_wins_gt_5pct": 0,
+  "128_losses_gt_5pct": 20,
+  "256_geomean_vs_512": 0.8829576799946922,
+  "256_wins_gt_5pct": 0,
+  "256_losses_gt_5pct": 11
+}

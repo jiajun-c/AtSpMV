@@ -1,0 +1,9 @@
+{
+  "name": "rbsb480",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rbsb480-L.mtx,default,cusparse,480,27058,-1,7547.452,297.9615784,8.437694987e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rbsb480-L.mtx,default-host,cusparse,480,27058,-1,7547.452,305.632195,8.437694987e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rbsb480-L.mtx,model,cusparse,480,27058,350,6425.909,297.9039917,8.437694987e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rbsb480-L.mtx,model-host,cusparse,480,27058,350,6425.909,305.300365,8.437694987e-14\n",
+  "stderr": ""
+}

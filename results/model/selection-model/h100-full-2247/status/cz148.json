@@ -1,0 +1,17 @@
+{
+  "dataset": "cz148",
+  "matrix_sha256": "7b318a439c48c6b95513f4d0cf79d2b4f9aed076ace41c70d67a76b1dbc644c8",
+  "index_nnz": 1527,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.032,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

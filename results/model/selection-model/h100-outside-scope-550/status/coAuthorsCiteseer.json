@@ -1,0 +1,17 @@
+{
+  "dataset": "coAuthorsCiteseer",
+  "matrix_sha256": "77be499ad53a227cbeb5e06cb0beed75f023fc06132338b1fcfae8bf0cbad207",
+  "index_nnz": 1628268,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 16.111,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

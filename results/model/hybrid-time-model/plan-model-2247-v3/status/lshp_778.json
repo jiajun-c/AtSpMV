@@ -1,0 +1,19 @@
+{
+  "dataset": "lshp_778",
+  "matrix_sha256": "169ad9471a6ddf228e07e1883f1b7c6b02f0f6409390614765ca22e3d4b480ad",
+  "index_nnz": 5272,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.332,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

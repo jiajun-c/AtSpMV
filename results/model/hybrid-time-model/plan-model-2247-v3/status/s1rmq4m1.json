@@ -1,0 +1,19 @@
+{
+  "dataset": "s1rmq4m1",
+  "matrix_sha256": "dc0214d3a640d5953ef20fda62f5de4e066e1ea9dc68287ee8c10b96ba877eea",
+  "index_nnz": 281111,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.576,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

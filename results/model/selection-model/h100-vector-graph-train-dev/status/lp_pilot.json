@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_pilot",
+  "matrix_sha256": "845d26b15d6df2bc9e08092dc40462d103a4fffb814fcb095c7484b3da19d1ca",
+  "index_nnz": 44375,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.334,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

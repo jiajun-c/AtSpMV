@@ -1,0 +1,15 @@
+{
+  "dataset": "sc205-2r",
+  "matrix_sha256": "d246fa797b803da6c28306eb6a53ce943e785f8475ee40d613f1e747c78e3898",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.294,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "barrier2-9",
+  "matrix_sha256": "28f453683f541dba6291d088070bba878856d1d90e74dbe5baba91a2f17d40a0",
+  "index_nnz": 3897557,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 22.163,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

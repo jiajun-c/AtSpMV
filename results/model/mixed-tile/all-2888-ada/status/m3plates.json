@@ -1,0 +1,15 @@
+{
+  "dataset": "m3plates",
+  "matrix_sha256": "18abb8d9b553b7c994fc368e58c26e7c082aa6f997189a4cfef87a2e09a3da22",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.636,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  }
+}

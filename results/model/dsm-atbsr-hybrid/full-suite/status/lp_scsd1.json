@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_scsd1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_scsd1/lp_scsd1.mtx",
+  "matrix_sha256": "778fe31f5247bb93ac4300789b79e0c77dd699b1761b64c9735e556f706382ea",
+  "index_nnz": 2388,
+  "index_rows": 77,
+  "elapsed_s": 1.119,
+  "returncode": 0,
+  "status": "ok"
+}

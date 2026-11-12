@@ -1,0 +1,7 @@
+{
+  "matrix": "grid2",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/grid2-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.126900315284729e-06
+}

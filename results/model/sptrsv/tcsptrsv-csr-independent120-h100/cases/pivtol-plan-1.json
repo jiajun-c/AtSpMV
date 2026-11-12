@@ -1,0 +1,9 @@
+{
+  "name": "pivtol",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/pivtol-L.mtx,default,cusparse,112,224,-1,2679.2,46.34880066,2.220446049e-16,2.184162449e-17,4.650426566e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/pivtol-L.mtx,default-host,cusparse,112,224,-1,2679.2,52.713425,2.220446049e-16,2.184162449e-17,4.650426566e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/pivtol-L.mtx,model,cached-csr,112,224,57,1410.017,30.21439934,2.220446049e-16,2.184162449e-17,4.650426566e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/pivtol-L.mtx,model-host,cached-csr,112,224,57,1410.017,36.12758,2.220446049e-16,2.184162449e-17,4.650426566e-17,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "amazon-2008",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/amazon-2008/amazon-2008.mtx",
+  "matrix_sha256": "77d94e28b8556791e06f1fcdec85cb9582396427f738a99c6a4e6b8a6bfa7779",
+  "index_nnz": 5158388,
+  "index_rows": 735323,
+  "elapsed_s": 2.493,
+  "returncode": 0,
+  "status": "ok"
+}

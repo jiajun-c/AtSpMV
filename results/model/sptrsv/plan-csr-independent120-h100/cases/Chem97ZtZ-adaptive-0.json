@@ -1,0 +1,8 @@
+{
+  "name": "Chem97ZtZ",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/Chem97ZtZ-L.mtx,default,cusparse,2541,12631,-1,2297.469,43.22879791,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/Chem97ZtZ-L.mtx,default-host,cusparse,2541,12631,-1,2297.469,50.98732,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/Chem97ZtZ-L.mtx,model,cusparse,2541,12631,23,2334.781,43.16479874,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/Chem97ZtZ-L.mtx,model-host,cusparse,2541,12631,23,2334.781,51.061875,4.440892099e-16,2.523005478e-17,7.360036242e-17,0\n",
+  "stderr": ""
+}

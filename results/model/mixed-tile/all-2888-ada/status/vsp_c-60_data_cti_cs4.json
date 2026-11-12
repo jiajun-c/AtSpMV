@@ -1,0 +1,15 @@
+{
+  "dataset": "vsp_c-60_data_cti_cs4",
+  "matrix_sha256": "6726ccb4887ff4a0d13740bc2ca9f716895a8c7105a8f77c9aa1ace4e4499a9e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.13,
+  "gpu_after": {
+    "utilization_percent": 41,
+    "free_memory_mib": 48508
+  }
+}

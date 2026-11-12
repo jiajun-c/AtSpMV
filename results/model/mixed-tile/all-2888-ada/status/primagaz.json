@@ -1,0 +1,15 @@
+{
+  "dataset": "primagaz",
+  "matrix_sha256": "646ac59b075059730298f425b4a6f68bb3c893b1d1ee3eb8ac99462c9649fe6e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.47,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

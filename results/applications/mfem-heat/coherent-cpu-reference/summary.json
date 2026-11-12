@@ -1,0 +1,50 @@
+[
+  {
+    "refine": 2,
+    "backend": "cusparse",
+    "dofs": 1361,
+    "relative_max_error": 9.042981331049053e-16
+  },
+  {
+    "refine": 2,
+    "backend": "mfem",
+    "dofs": 1361,
+    "relative_max_error": 9.042981331049053e-16
+  },
+  {
+    "refine": 2,
+    "backend": "atbsr",
+    "dofs": 1361,
+    "relative_max_error": 1.2434099330192447e-15
+  },
+  {
+    "refine": 2,
+    "backend": "mixed",
+    "dofs": 1361,
+    "relative_max_error": 1.0173353997430184e-15
+  },
+  {
+    "refine": 4,
+    "backend": "cusparse",
+    "dofs": 20801,
+    "relative_max_error": 4.518372036058962e-15
+  },
+  {
+    "refine": 4,
+    "backend": "mfem",
+    "dofs": 20801,
+    "relative_max_error": 4.518372036058962e-15
+  },
+  {
+    "refine": 4,
+    "backend": "atbsr",
+    "dofs": 20801,
+    "relative_max_error": 5.422046443270754e-15
+  },
+  {
+    "refine": 4,
+    "backend": "mixed",
+    "dofs": 20801,
+    "relative_max_error": 4.405412735157488e-15
+  }
+]

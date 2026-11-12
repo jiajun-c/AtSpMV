@@ -1,0 +1,19 @@
+{
+  "dataset": "p6000",
+  "matrix_sha256": "ff01b2983704ef34bc44d1ff6c54a485ce9a27219dfe11314020ca658bfdcb70",
+  "index_nnz": 19826,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.185,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  }
+}

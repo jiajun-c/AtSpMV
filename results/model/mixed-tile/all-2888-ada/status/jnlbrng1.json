@@ -1,0 +1,15 @@
+{
+  "dataset": "jnlbrng1",
+  "matrix_sha256": "bf510bb167d3ef89bb042c2e32bc99318e16146687c01f1621c299966e23fa92",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.351,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

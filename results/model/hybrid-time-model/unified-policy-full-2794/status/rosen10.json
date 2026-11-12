@@ -1,0 +1,17 @@
+{
+  "dataset": "rosen10",
+  "matrix_sha256": "3fbf3240cf419a6ee19a2c15db02af315701fbb32fd537a7659481a6e100c32c",
+  "index_nnz": 64192,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.78,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

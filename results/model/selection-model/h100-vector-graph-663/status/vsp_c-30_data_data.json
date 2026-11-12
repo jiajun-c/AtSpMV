@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_c-30_data_data",
+  "matrix_sha256": "4c530a3f983d14da08256bf389ad2700315c1421fbed9b5f61870a7c01fc3e31",
+  "index_nnz": 124368,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.444,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

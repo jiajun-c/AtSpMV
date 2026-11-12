@@ -1,0 +1,15 @@
+{
+  "dataset": "epb2",
+  "matrix_sha256": "087c0c280c3038e2d011172797fccfdc874bdfa92352975535c8e63626a44563",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.145,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

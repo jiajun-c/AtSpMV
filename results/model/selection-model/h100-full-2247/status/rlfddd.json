@@ -1,0 +1,17 @@
+{
+  "dataset": "rlfddd",
+  "matrix_sha256": "c1bcc8cd5c885d41710828c7f3d8add580a6de66dee5a6a7c9e9ef309af373be",
+  "index_nnz": 264627,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.187,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "nug08-3rd",
+  "matrix_sha256": "08e8b4f1e0e2525530929b6a425defe9b8e977494bf6654e666ff9e071b61063",
+  "index_nnz": 148416,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.689,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

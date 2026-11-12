@@ -1,0 +1,15 @@
+{
+  "dataset": "wave",
+  "matrix_sha256": "e8cbccd85d2372c538bae18199b3b046889c62ed61457cd53dbab5b2a72a92e0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.9,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

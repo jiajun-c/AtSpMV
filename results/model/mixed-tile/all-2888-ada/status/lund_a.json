@@ -1,0 +1,15 @@
+{
+  "dataset": "lund_a",
+  "matrix_sha256": "17be285fb4fc08c71cf042cf1a76b16c5fb3e142a14e5172979e51c5002a78ac",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.843,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

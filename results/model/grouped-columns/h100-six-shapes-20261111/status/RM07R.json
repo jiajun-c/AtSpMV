@@ -1,0 +1,31 @@
+{
+  "dataset": "RM07R",
+  "status": "ok",
+  "matrix_sha256": "686635d3d2cc88dec0981cc7d94636a00a7eb390615069c41368ecce4765e02b",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/RM07R/RM07R.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/RM07R-0.csv",
+        "20261157",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 9.067071341909468
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/RM07R/RM07R.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/RM07R-1.csv",
+        "20261158",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 9.058191536925733
+    }
+  ]
+}

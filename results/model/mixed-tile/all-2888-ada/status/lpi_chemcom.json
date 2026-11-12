@@ -1,0 +1,15 @@
+{
+  "dataset": "lpi_chemcom",
+  "matrix_sha256": "25d4f70990f455537dc6c1db8a668626d8dbedf32df23b446b8361e6d721bbb5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.813,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

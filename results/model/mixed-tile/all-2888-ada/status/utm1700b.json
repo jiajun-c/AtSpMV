@@ -1,0 +1,15 @@
+{
+  "dataset": "utm1700b",
+  "matrix_sha256": "e6a1dde53c3d85d18535e0c0dd3040673c8577d5e93adb9dd7067e7d13cf71f3",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.928,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

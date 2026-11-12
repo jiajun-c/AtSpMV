@@ -1,0 +1,7 @@
+{
+  "name": "bcsstk04",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstk04-L.mtx,default,cusparse,132,3277,-1,2913.413,96.96320343,3.834710327e-13\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstk04-L.mtx,default-host,cusparse,132,3277,-1,2913.413,104.592775,3.834710327e-13\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstk04-L.mtx,model,cached,132,3277,130,1437.064,99.79840088,1.296740493e-13\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/bcsstk04-L.mtx,model-host,cached,132,3277,130,1437.064,106.58534,1.296740493e-13\n",
+  "stderr": ""
+}

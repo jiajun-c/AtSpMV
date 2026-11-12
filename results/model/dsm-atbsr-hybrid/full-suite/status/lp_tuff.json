@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_tuff",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_tuff/lp_tuff.mtx",
+  "matrix_sha256": "cf25716b08c51f0edc7affbf50683105285d896828f5d83ac7225962d973ecb8",
+  "index_nnz": 4561,
+  "index_rows": 333,
+  "elapsed_s": 1.143,
+  "returncode": 0,
+  "status": "ok"
+}

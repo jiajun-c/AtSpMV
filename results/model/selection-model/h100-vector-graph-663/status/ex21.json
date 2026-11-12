@@ -1,0 +1,17 @@
+{
+  "dataset": "ex21",
+  "matrix_sha256": "c8413efa9b5915df4aafe7cbd30f84f0eaa4f7edec69be80353d81ab56f42e6a",
+  "index_nnz": 19144,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.92,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

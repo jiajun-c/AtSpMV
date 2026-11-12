@@ -1,0 +1,10 @@
+{
+  "dataset": "nsct",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nsct/nsct.mtx",
+  "matrix_sha256": "8749737fc0cd8a3d11c71742bd2c2a34ade2472572147db5f49276144f8641d1",
+  "index_nnz": 697738,
+  "index_rows": 23003,
+  "elapsed_s": 1.495,
+  "returncode": 0,
+  "status": "ok"
+}

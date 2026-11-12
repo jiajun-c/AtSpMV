@@ -1,0 +1,17 @@
+{
+  "dataset": "EternityII_Etilde",
+  "matrix_sha256": "3d445d9b17f055caf0d1c277b3b7752a54d04fcdae48750e9c89e9ad128cac3b",
+  "index_nnz": 1170516,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.888,
+  "gpu_after": {
+    "utilization_percent": 13,
+    "free_memory_mib": 81079
+  }
+}

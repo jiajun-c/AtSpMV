@@ -1,0 +1,17 @@
+{
+  "dataset": "3D_28984_Tetra",
+  "matrix_sha256": "5cd2f7c69eb513e4d52f5979d51b23b394dcedf66dd44ed5644ff7500fc5d1f9",
+  "index_nnz": 599170,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.77,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

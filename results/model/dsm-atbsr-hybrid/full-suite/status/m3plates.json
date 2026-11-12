@@ -1,0 +1,10 @@
+{
+  "dataset": "m3plates",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/m3plates/m3plates.mtx",
+  "matrix_sha256": "18abb8d9b553b7c994fc368e58c26e7c082aa6f997189a4cfef87a2e09a3da22",
+  "index_nnz": 6639,
+  "index_rows": 11107,
+  "elapsed_s": 1.198,
+  "returncode": 0,
+  "status": "ok"
+}

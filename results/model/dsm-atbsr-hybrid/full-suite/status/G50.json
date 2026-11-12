@@ -1,0 +1,10 @@
+{
+  "dataset": "G50",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G50/G50.mtx",
+  "matrix_sha256": "0506bc393a41c4165e01f8dcf4f76a3bc16ec35b9e5c4d67590df483e248ae44",
+  "index_nnz": 12000,
+  "index_rows": 3000,
+  "elapsed_s": 1.168,
+  "returncode": 0,
+  "status": "ok"
+}

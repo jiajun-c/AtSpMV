@@ -1,0 +1,17 @@
+{
+  "dataset": "dermatology_5NN",
+  "matrix_sha256": "179062703a49759f890c775f9dccae4f642692dbbd480f8525bfdd34da1975ae",
+  "index_nnz": 2440,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.192,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

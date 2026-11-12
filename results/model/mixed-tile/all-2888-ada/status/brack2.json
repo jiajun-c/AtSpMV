@@ -1,0 +1,15 @@
+{
+  "dataset": "brack2",
+  "matrix_sha256": "f7603e1e95611c5d134f6d0da99901f577cd0b9c751a3d2cd2422546aab06005",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.233,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

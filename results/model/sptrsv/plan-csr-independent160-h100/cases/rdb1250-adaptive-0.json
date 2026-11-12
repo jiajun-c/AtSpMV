@@ -1,0 +1,8 @@
+{
+  "name": "rdb1250",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,default,cusparse,1250,13160,-1,3112.517,195.433609,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,default-host,cusparse,1250,13160,-1,3112.517,202.15405,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,model,cusparse,1250,13160,128,3275.83,195.4272003,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb1250-L.mtx,model-host,cusparse,1250,13160,128,3275.83,201.938765,5.773159728e-15,4.219740701e-17,1.311174274e-16,0\n",
+  "stderr": ""
+}

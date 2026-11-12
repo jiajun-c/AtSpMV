@@ -1,0 +1,10 @@
+{
+  "dataset": "aug3d",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/aug3d/aug3d.mtx",
+  "matrix_sha256": "5a5b4004c43c170833805b74acd9b3c4aed389a49062b497552b369c9046a20f",
+  "index_nnz": 69984,
+  "index_rows": 24300,
+  "elapsed_s": 0.684,
+  "returncode": 0,
+  "status": "ok"
+}

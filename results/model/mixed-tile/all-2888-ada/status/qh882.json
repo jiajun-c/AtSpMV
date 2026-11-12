@@ -1,0 +1,15 @@
+{
+  "dataset": "qh882",
+  "matrix_sha256": "ccd678e57956a34802638fa766fcb61fc80d8a7fc167dd932b9bebb114079464",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.216,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

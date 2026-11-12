@@ -1,0 +1,17 @@
+{
+  "dataset": "sx-mathoverflow",
+  "matrix_sha256": "7f52586e4aff5a9a2f29eba4af1a81c5880046ef55499d5b612c0a8fee8ff8ab",
+  "index_nnz": 239978,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.731,
+  "gpu_after": {
+    "utilization_percent": 82,
+    "free_memory_mib": 81079
+  }
+}

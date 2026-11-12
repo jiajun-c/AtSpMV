@@ -1,0 +1,15 @@
+{
+  "dataset": "barrier2-2",
+  "matrix_sha256": "bd4eb9f44164b1ecf429643ac95ed14e2d2f49023774ae7c635b9dff7cd054ae",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.693,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "in2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/in2010/in2010.mtx",
+  "matrix_sha256": "838a6fcd00836daf4fee030337407a6cf26254d1fc04eeb52c1e29dac150cad5",
+  "index_nnz": 1281716,
+  "index_rows": 267071,
+  "elapsed_s": 1.755,
+  "returncode": 0,
+  "status": "ok"
+}

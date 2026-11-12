@@ -1,0 +1,19 @@
+{
+  "dataset": "f855_mat9_I",
+  "matrix_sha256": "24f233e82524e9b1b6bd0c91fd2e11d83e3a39e0d238b666715773e58220d4f3",
+  "index_nnz": 171214,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.286,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

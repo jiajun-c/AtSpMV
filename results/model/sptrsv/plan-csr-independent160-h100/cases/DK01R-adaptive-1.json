@@ -1,0 +1,8 @@
+{
+  "name": "DK01R",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/DK01R-L.mtx,model,cached-csr,903,6976,566,1652.087,274.8863831,4.884981308e-15,3.495277044e-17,1.103628212e-16,256\nresults/model/sptrsv/components-independent-h100/factors/DK01R-L.mtx,model-host,cached-csr,903,6976,566,1652.087,281.75826,4.884981308e-15,3.495277044e-17,1.103628212e-16,256\nresults/model/sptrsv/components-independent-h100/factors/DK01R-L.mtx,default,cusparse,903,6976,-1,4693.966,517.5136108,4.884981308e-15,3.495277044e-17,1.103628212e-16,0\nresults/model/sptrsv/components-independent-h100/factors/DK01R-L.mtx,default-host,cusparse,903,6976,-1,4693.966,525.257605,4.884981308e-15,3.495277044e-17,1.103628212e-16,0\n",
+  "stderr": ""
+}

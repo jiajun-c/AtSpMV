@@ -1,0 +1,19 @@
+{
+  "dataset": "G49",
+  "matrix_sha256": "342e2e063d36800aaabb234d60c30a9543a8dc49c709d175dddaa6899107bf86",
+  "index_nnz": 12000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.886,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

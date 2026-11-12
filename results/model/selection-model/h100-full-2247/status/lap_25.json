@@ -1,0 +1,17 @@
+{
+  "dataset": "lap_25",
+  "matrix_sha256": "dfcfeb7cc2d1aa3d63be81b37ed462acb86f6bde5d8a7eaa5eb80fec2896dbb2",
+  "index_nnz": 169,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.597,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

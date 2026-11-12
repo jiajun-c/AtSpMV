@@ -1,0 +1,14 @@
+{
+  "matrix": "can_161",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/can_161/can_161.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 161,
+  "columns": 161,
+  "original_nnz": 1377,
+  "factor_L_nnz": 646,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.023617895087227225
+}

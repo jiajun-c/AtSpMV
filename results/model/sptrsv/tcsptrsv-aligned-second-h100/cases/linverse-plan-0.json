@@ -1,0 +1,9 @@
+{
+  "name": "linverse",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/linverse-L.mtx,default,cusparse,12000,53591,-1,42959.543,8186.685059,1.110223025e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/linverse-L.mtx,default-host,cusparse,12000,53591,-1,42959.543,8198.714445,1.110223025e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/linverse-L.mtx,model,cusparse,12000,53591,-1,43000.675,8191.859375,1.110223025e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/linverse-L.mtx,model-host,cusparse,12000,53591,-1,43000.675,8201.29009,1.110223025e-14\n",
+  "stderr": ""
+}

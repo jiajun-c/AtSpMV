@@ -1,0 +1,32 @@
+{
+  "dataset": "bmw7st_1",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "4a4a76e27df20dedde25851eb0960c22f366be79c6ff4b83ebffd43ae3b7daba",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bmw7st_1/bmw7st_1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/bmw7st_1-0.csv",
+        "20261243",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.0807797638699412
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bmw7st_1/bmw7st_1.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/bmw7st_1-1.csv",
+        "20261244",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.507836092961952
+    }
+  ]
+}

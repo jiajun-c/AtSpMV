@@ -1,0 +1,10 @@
+{
+  "dataset": "xenon1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/xenon1/xenon1.mtx",
+  "matrix_sha256": "882fa260306bdc888141c615d2bc82be7da5d5c5c5d5b8dcd32ae885c06476d9",
+  "index_nnz": 1181120,
+  "index_rows": 48600,
+  "elapsed_s": 1.805,
+  "returncode": 0,
+  "status": "ok"
+}

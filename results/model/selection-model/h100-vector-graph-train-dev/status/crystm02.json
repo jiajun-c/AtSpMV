@@ -1,0 +1,17 @@
+{
+  "dataset": "crystm02",
+  "matrix_sha256": "9c9eb720189e2088a0c0774ab270bfcb3360c8d7d69a0e680db1596a1e7e5d09",
+  "index_nnz": 322905,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.27,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "dolphins",
+  "matrix_sha256": "1ad619d33495fe5dc3c951469e6eae8b28ba788316b6183db86d45e50dfa1e5e",
+  "index_nnz": 318,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.591,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

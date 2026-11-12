@@ -1,0 +1,9 @@
+{
+  "name": "fpga_dcop_04",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_dcop_04-L.mtx,default,cusparse,1232,3557,-1,2259.249,41.45599747,5.773159728e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_dcop_04-L.mtx,default-host,cusparse,1232,3557,-1,2259.249,49.213945,5.773159728e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_dcop_04-L.mtx,model,cached,1232,3557,25,1427.266,24.16959953,5.773159728e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_dcop_04-L.mtx,model-host,cached,1232,3557,25,1427.266,31.53754,5.773159728e-15\n",
+  "stderr": ""
+}

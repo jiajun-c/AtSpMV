@@ -1,0 +1,7 @@
+{
+  "name": "mycielskian11",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/mycielskian11-L.mtx,default,cusparse,1535,175797,-1,22274.748,1114.812744,9.869882689e-14,1.420709801e-17,8.581970271e-17,0\nresults/model/sptrsv/components-independent-h100/factors/mycielskian11-L.mtx,default-host,cusparse,1535,175797,-1,22274.748,1123.09489,9.869882689e-14,1.420709801e-17,8.581970271e-17,0\nresults/model/sptrsv/components-independent-h100/factors/mycielskian11-L.mtx,model,cusparse,1535,175797,1443,21747.885,1114.617676,9.869882689e-14,1.420709801e-17,8.581970271e-17,0\nresults/model/sptrsv/components-independent-h100/factors/mycielskian11-L.mtx,model-host,cusparse,1535,175797,1443,21747.885,1122.534495,9.869882689e-14,1.420709801e-17,8.581970271e-17,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "ex15",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ex15/ex15.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 6867,
+  "columns": 6867,
+  "original_nnz": 98671,
+  "factor_L_nnz": 233804,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.16702300100587308
+}

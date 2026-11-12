@@ -1,0 +1,14 @@
+{
+  "matrix": "mhda416",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mhda416/mhda416.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 416,
+  "columns": 416,
+  "original_nnz": 8562,
+  "factor_L_nnz": 12202,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.09262430015951395
+}

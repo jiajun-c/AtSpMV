@@ -1,0 +1,10 @@
+{
+  "dataset": "fl2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fl2010/fl2010.mtx",
+  "matrix_sha256": "9ce294bf7741df4b9552ea458e6932ae8d4573b2cffee12b9ab59f673e1ce941",
+  "index_nnz": 2346294,
+  "index_rows": 484481,
+  "elapsed_s": 2.136,
+  "returncode": 0,
+  "status": "ok"
+}

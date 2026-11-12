@@ -1,0 +1,17 @@
+{
+  "dataset": "usroads",
+  "matrix_sha256": "de17f0a3223284b0c768edba7d16fd12a402c1e32618077145acad4e1b012e26",
+  "index_nnz": 330870,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.265,
+  "gpu_after": {
+    "utilization_percent": 16,
+    "free_memory_mib": 81079
+  }
+}

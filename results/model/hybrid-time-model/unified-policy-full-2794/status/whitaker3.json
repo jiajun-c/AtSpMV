@@ -1,0 +1,17 @@
+{
+  "dataset": "whitaker3",
+  "matrix_sha256": "a1d71cb9272a66fd6f4265f168931028192e651d7923d5d104116e3de9cb9467",
+  "index_nnz": 57978,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.184,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

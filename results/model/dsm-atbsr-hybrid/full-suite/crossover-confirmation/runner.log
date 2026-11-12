@@ -1,0 +1,162 @@
+WAIT full-suite successful=1094, required=2000
+WAIT full-suite successful=1147, required=2000
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 94, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 35, in main
+    print(f'WAIT full-suite successful={ok}, required={a.minimum}',flush=True);time.sleep(60)
+                                                                               ^^^^^^^^^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 27, in interrupt
+    def interrupt(s,f):raise KeyboardInterrupt('signal '+str(s))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: signal 15
+WAIT full-suite successful=1194, required=2000
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 105, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 35, in main
+    print(f'WAIT full-suite successful={ok}, required={a.minimum}',flush=True);time.sleep(60)
+                                                                               ^^^^^^^^^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 27, in interrupt
+    def interrupt(s,f):raise KeyboardInterrupt('signal '+str(s))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: signal 15
+WAIT full-suite successful=1229, required=2000
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 121, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 35, in main
+    print(f'WAIT full-suite successful={ok}, required={a.minimum}',flush=True);time.sleep(60)
+                                                                               ^^^^^^^^^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 27, in interrupt
+    def interrupt(s,f):raise KeyboardInterrupt('signal '+str(s))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: signal 15
+WAIT full-suite successful=1261, required=2000
+WAIT full-suite successful=1310, required=2000
+WAIT full-suite successful=1363, required=2000
+WAIT full-suite successful=1411, required=2000
+WAIT full-suite successful=1463, required=2000
+WAIT full-suite successful=1513, required=2000
+WAIT full-suite successful=1563, required=2000
+WAIT full-suite successful=1613, required=2000
+WAIT full-suite successful=1661, required=2000
+WAIT full-suite successful=1709, required=2000
+WAIT full-suite successful=1750, required=2000
+WAIT full-suite successful=1797, required=2000
+WAIT full-suite successful=1843, required=2000
+WAIT full-suite successful=1888, required=2000
+WAIT full-suite successful=1929, required=2000
+WAIT full-suite successful=1973, required=2000
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 127, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 67, in main
+    wait_idle()
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 66, in wait_idle
+    time.sleep(3)
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_crossovers.py", line 27, in interrupt
+    def interrupt(s,f):raise KeyboardInterrupt('signal '+str(s))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: signal 15
+RUN a0nsdsil 202610281
+RUN a0nsdsil 202610282
+RUN a0nsdsil 202610283
+RUN a5esindl 202610281
+RUN a5esindl 202610282
+RUN a5esindl 202610283
+RUN a2nnsnsl 202610281
+RUN a2nnsnsl 202610282
+RUN a2nnsnsl 202610283
+RUN lowThrust_4 202610281
+RUN lowThrust_4 202610282
+RUN lowThrust_4 202610283
+RUN kineticBatchReactor_6 202610281
+RUN kineticBatchReactor_6 202610282
+RUN kineticBatchReactor_6 202610283
+RUN bloweybl 202610281
+RUN bloweybl 202610282
+RUN bloweybl 202610283
+RUN kineticBatchReactor_8 202610281
+RUN kineticBatchReactor_8 202610282
+RUN kineticBatchReactor_8 202610283
+RUN kineticBatchReactor_5 202610281
+RUN kineticBatchReactor_5 202610282
+RUN kineticBatchReactor_5 202610283
+RUN lowThrust_12 202610281
+RUN lowThrust_12 202610282
+RUN lowThrust_12 202610283
+RUN lowThrust_13 202610281
+RUN lowThrust_13 202610282
+RUN lowThrust_13 202610283
+RUN lowThrust_7 202610281
+RUN lowThrust_7 202610282
+RUN lowThrust_7 202610283
+RUN lowThrust_10 202610281
+RUN lowThrust_10 202610282
+RUN lowThrust_10 202610283
+RUN TSOPF_FS_b9_c6 202610281
+RUN TSOPF_FS_b9_c6 202610282
+RUN TSOPF_FS_b9_c6 202610283
+RUN reorientation_5 202610281
+RUN reorientation_5 202610282
+RUN reorientation_5 202610283
+RUN lowThrust_11 202610281
+RUN lowThrust_11 202610282
+RUN lowThrust_11 202610283
+RUN reorientation_3 202610281
+RUN reorientation_3 202610282
+RUN reorientation_3 202610283
+RUN ccc 202610281
+RUN ccc 202610282
+RUN ccc 202610283
+RUN cvxqp3 202610281
+RUN cvxqp3 202610282
+RUN cvxqp3 202610283
+RUN Pd 202610281
+RUN Pd 202610282
+RUN Pd 202610283
+RUN cca 202610281
+RUN cca 202610282
+RUN cca 202610283
+RUN Franz11 202610281
+RUN Franz11 202610282
+RUN Franz11 202610283
+RUN abtaha2 202610281
+RUN abtaha2 202610282
+RUN abtaha2 202610283
+RUN chipcool0 202610281
+RUN chipcool0 202610282
+RUN chipcool0 202610283
+RUN lp_nug20 202610281
+RUN lp_nug20 202610282
+RUN lp_nug20 202610283
+RUN scfxm1-2b 202610281
+RUN scfxm1-2b 202610282
+RUN scfxm1-2b 202610283
+RUN copter1 202610281
+RUN copter1 202610282
+RUN copter1 202610283
+RUN delaunay_n16 202610281
+RUN delaunay_n16 202610282
+RUN delaunay_n16 202610283
+RUN Franz1 202610281
+RUN Franz1 202610282
+RUN Franz1 202610283
+RUN shock-9 202610281
+RUN shock-9 202610282
+RUN shock-9 202610283
+RUN dtoc 202610281
+RUN dtoc 202610282
+RUN dtoc 202610283
+RUN wang3 202610281
+RUN wang3 202610282
+RUN wang3 202610283
+RUN psse0 202610281
+RUN psse0 202610282
+RUN psse0 202610283
+COMPLETE

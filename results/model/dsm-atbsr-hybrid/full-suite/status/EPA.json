@@ -1,0 +1,10 @@
+{
+  "dataset": "EPA",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/EPA/EPA.mtx",
+  "matrix_sha256": "1d5a961c729277ef42478354e8fc93716b6e5aa7d36f5323ab6c900a1d56bb60",
+  "index_nnz": 8965,
+  "index_rows": 4772,
+  "elapsed_s": 1.195,
+  "returncode": 0,
+  "status": "ok"
+}

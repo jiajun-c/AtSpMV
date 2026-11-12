@@ -1,0 +1,7 @@
+{
+  "name": "circuit204",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/circuit204-L.mtx,default,cusparse,1020,7141,-1,2845.668,110.3616028,1.315614284e-13,9.229356158e-17,1.101836589e-16,0\nresults/model/sptrsv/components-independent-h100/factors/circuit204-L.mtx,default-host,cusparse,1020,7141,-1,2845.668,116.659485,1.315614284e-13,9.229356158e-17,1.101836589e-16,0\nresults/model/sptrsv/components-independent-h100/factors/circuit204-L.mtx,model,cached,1020,7141,121,1511.383,97.69920349,1.084687895e-13,9.229356158e-17,1.153250828e-16,512\nresults/model/sptrsv/components-independent-h100/factors/circuit204-L.mtx,model-host,cached,1020,7141,121,1511.383,103.38166,1.084687895e-13,9.229356158e-17,1.153250828e-16,512\n",
+  "stderr": ""
+}

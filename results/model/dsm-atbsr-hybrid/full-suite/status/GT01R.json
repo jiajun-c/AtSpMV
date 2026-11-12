@@ -1,0 +1,10 @@
+{
+  "dataset": "GT01R",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/GT01R/GT01R.mtx",
+  "matrix_sha256": "12b54c2d63fdf8abc0a6de5375854eb4e455a662ab1df74076e9fd9eaf86a67d",
+  "index_nnz": 430909,
+  "index_rows": 7980,
+  "elapsed_s": 1.226,
+  "returncode": 0,
+  "status": "ok"
+}

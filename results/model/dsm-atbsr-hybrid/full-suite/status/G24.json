@@ -1,0 +1,10 @@
+{
+  "dataset": "G24",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G24/G24.mtx",
+  "matrix_sha256": "226c3d37d35b13deaa86f0dd9b738d2ed7770c0bf95436ec722122ced83b6d9b",
+  "index_nnz": 39980,
+  "index_rows": 2000,
+  "elapsed_s": 1.375,
+  "returncode": 0,
+  "status": "ok"
+}

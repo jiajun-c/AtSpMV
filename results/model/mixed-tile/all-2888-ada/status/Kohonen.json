@@ -1,0 +1,15 @@
+{
+  "dataset": "Kohonen",
+  "matrix_sha256": "cc91ceecdcc1ba805b8583f7639a4db18721c3d71bc7cc3102a3893acfc5d2bf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.443,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "spiral",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/spiral-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1434,
+  "nnz": 15073,
+  "min_abs_diagonal": 0.005184905017013547,
+  "max_abs_diagonal": 883.0080192241443,
+  "elapsed_s": 0.017851753160357475
+}

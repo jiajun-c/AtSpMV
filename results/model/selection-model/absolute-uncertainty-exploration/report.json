@@ -1,0 +1,72 @@
+{
+  "method": "Retrospective threshold chosen on development matrices only; tree log-time spread is a heuristic, not a confidence interval. Holdout and excluded groups have already been inspected and remain small. Existing analytic reference and learned reference share device timing noise; no Plan behavior is changed.",
+  "evaluation_sha256": "9d6b37d94a9640640b9350d5e99b698a386c4bf2f3a40bd50f6a9e7b600d4e1a",
+  "model_sha256": "c71e00219d4d82227d1534cf5896394ee396ceaa8c2c8f9cab57146d7b94a0de",
+  "threshold_log_std": 0.18,
+  "metrics": {
+    "dev": {
+      "learned_only": {
+        "cases": 106,
+        "mape": 0.07528132522101474,
+        "max_ape": 0.41801246046298646,
+        "over_20pct": 5,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 106,
+        "mape": 0.07064775131006609,
+        "max_ape": 0.3368846412070883,
+        "over_20pct": 3,
+        "fallbacks": 2
+      }
+    },
+    "holdout": {
+      "learned_only": {
+        "cases": 53,
+        "mape": 0.07389715018045687,
+        "max_ape": 0.5235730436510811,
+        "over_20pct": 1,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 53,
+        "mape": 0.06658394830966169,
+        "max_ape": 0.18089775826403803,
+        "over_20pct": 0,
+        "fallbacks": 1
+      }
+    },
+    "not_in_training_table": {
+      "learned_only": {
+        "cases": 73,
+        "mape": 0.05648645345873183,
+        "max_ape": 0.4677756022748554,
+        "over_20pct": 2,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 73,
+        "mape": 0.053002281783407566,
+        "max_ape": 0.3005971260014531,
+        "over_20pct": 2,
+        "fallbacks": 2
+      }
+    },
+    "train": {
+      "learned_only": {
+        "cases": 270,
+        "mape": 0.0310458519755758,
+        "max_ape": 0.16714051652232664,
+        "over_20pct": 0,
+        "fallbacks": 0
+      },
+      "selected_gate": {
+        "cases": 270,
+        "mape": 0.031007593172978926,
+        "max_ape": 0.16714051652232664,
+        "over_20pct": 0,
+        "fallbacks": 1
+      }
+    }
+  }
+}

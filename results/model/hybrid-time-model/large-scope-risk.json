@@ -1,0 +1,16 @@
+{
+  "large_cases": 547,
+  "in_scope_count": 2247,
+  "historical_large_default_vs_fixed_best": {
+    "geomean": 0.7250997561145675,
+    "median": 0.8783809740114377,
+    "minimum": 0.13753312496635892,
+    "below_0_9": 296
+  },
+  "required_in_scope_geomean_for_combined_one_if_historical_large_ratio_held": 1.0813945291874831,
+  "inputs": {
+    "large_index_sha256": "d036ceed70b801eb1ecbcff8d0b03de4e3919f1d7d1e2c1de13e568aa649cef1",
+    "historical_analysis_sha256": "3e6efab23a03ab464c8547a5cf27d045fa73093b285f14e2bf5599b8e19c7a2d"
+  },
+  "method": "Historical warm-Graph fixed-candidate timings; ratio best measured nonhybrid/default AtBSR. The required in-scope value is only an algebraic scenario, not a forecast: historical data predates counterbalanced construction, current code, and independent large-case remeasurement."
+}

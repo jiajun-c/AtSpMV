@@ -1,0 +1,15 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 3035103 (/tmp/atspmv-dsm-sm90-build/mixed_tile_bench)
+==PROF== Disconnected from process 3035103
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3035103","mixed_tile_bench","127.0.0.1","beta_vecY_prod(double *, double, int)","1","13","(128, 1, 1)","(235, 1, 1)","0","8.9","Command line profiler metrics","dram__bytes_read.sum","byte","0"
+"0","3035103","mixed_tile_bench","127.0.0.1","beta_vecY_prod(double *, double, int)","1","13","(128, 1, 1)","(235, 1, 1)","0","8.9","Command line profiler metrics","dram__bytes_write.sum","byte","0"
+"0","3035103","mixed_tile_bench","127.0.0.1","beta_vecY_prod(double *, double, int)","1","13","(128, 1, 1)","(235, 1, 1)","0","8.9","Command line profiler metrics","gpu__time_duration.sum","ns","1696"
+"0","3035103","mixed_tile_bench","127.0.0.1","beta_vecY_prod(double *, double, int)","1","13","(128, 1, 1)","(235, 1, 1)","0","8.9","Command line profiler metrics","lts__t_sectors.sum","sector","9894"
+"0","3035103","mixed_tile_bench","127.0.0.1","beta_vecY_prod(double *, double, int)","1","13","(128, 1, 1)","(235, 1, 1)","0","8.9","Command line profiler metrics","smsp__inst_executed.sum","inst","13144"
+"1","3035103","mixed_tile_bench","127.0.0.1","void TcSPMVKernel8x4Bal<short>(int *, int *, T1 *, double *, int, int, double *, double *, int *)","1","13","(128, 1, 1)","(1016, 1, 1)","0","8.9","Command line profiler metrics","dram__bytes_read.sum","byte","0"
+"1","3035103","mixed_tile_bench","127.0.0.1","void TcSPMVKernel8x4Bal<short>(int *, int *, T1 *, double *, int, int, double *, double *, int *)","1","13","(128, 1, 1)","(1016, 1, 1)","0","8.9","Command line profiler metrics","dram__bytes_write.sum","byte","19840"
+"1","3035103","mixed_tile_bench","127.0.0.1","void TcSPMVKernel8x4Bal<short>(int *, int *, T1 *, double *, int, int, double *, double *, int *)","1","13","(128, 1, 1)","(1016, 1, 1)","0","8.9","Command line profiler metrics","gpu__time_duration.sum","ns","3712"
+"1","3035103","mixed_tile_bench","127.0.0.1","void TcSPMVKernel8x4Bal<short>(int *, int *, T1 *, double *, int, int, double *, double *, int *)","1","13","(128, 1, 1)","(1016, 1, 1)","0","8.9","Command line profiler metrics","lts__t_sectors.sum","sector","108319"
+"1","3035103","mixed_tile_bench","127.0.0.1","void TcSPMVKernel8x4Bal<short>(int *, int *, T1 *, double *, int, int, double *, double *, int *)","1","13","(128, 1, 1)","(1016, 1, 1)","0","8.9","Command line profiler metrics","smsp__inst_executed.sum","inst","347245"

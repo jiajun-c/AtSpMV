@@ -1,0 +1,15 @@
+{
+  "dataset": "spaceStation_4",
+  "matrix_sha256": "e8181aaa02ad470b1a859740a8fa3b1d60b81484f3f9ce9853773abae33d6f50",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.027,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

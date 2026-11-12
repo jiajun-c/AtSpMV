@@ -1,0 +1,31 @@
+{
+  "dataset": "msdoor",
+  "status": "ok",
+  "matrix_sha256": "1382f14191b819bfd730fe7cc3818157f89c0fdf105c68dc489f1cdb6ac24650",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/msdoor/msdoor.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/msdoor-0.csv",
+        "20261153",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 6.482551150023937
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/msdoor/msdoor.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/msdoor-1.csv",
+        "20261154",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 5.37734414706938
+    }
+  ]
+}

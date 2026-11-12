@@ -1,0 +1,8 @@
+{
+  "name": "gre_185",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/gre_185-L.mtx,default,cusparse,185,1855,-1,2334.88,73.7375946,9.325873407e-15,2.841120331e-17,1.017467419e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/gre_185-L.mtx,default-host,cusparse,185,1855,-1,2334.88,81.96956,9.325873407e-15,2.841120331e-17,1.017467419e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/gre_185-L.mtx,model,cached-csr,185,1855,64,1331.415,36.65280151,9.325873407e-15,2.841120331e-17,1.017467419e-16,256\nresults/model/sptrsv/csr-independent120-h100/factors/gre_185-L.mtx,model-host,cached-csr,185,1855,64,1331.415,43.27509,9.325873407e-15,2.841120331e-17,1.017467419e-16,256\n",
+  "stderr": ""
+}

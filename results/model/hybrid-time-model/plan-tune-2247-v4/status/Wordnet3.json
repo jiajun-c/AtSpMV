@@ -1,0 +1,19 @@
+{
+  "dataset": "Wordnet3",
+  "matrix_sha256": "4020e99ec1e759596864ffd14bb2989f5cde8a0e48951b0aee76e01a21807017",
+  "index_nnz": 132964,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.413,
+  "gpu_after": {
+    "utilization_percent": 17,
+    "free_memory_mib": 81076
+  }
+}

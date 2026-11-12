@@ -1,0 +1,17 @@
+{
+  "dataset": "stat96v1",
+  "matrix_sha256": "4df83a6dec1b455a3fb0f6693f6d38335dab13d0ebecac920a42e43da3852b21",
+  "index_nnz": 588798,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.326,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

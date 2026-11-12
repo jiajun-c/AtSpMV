@@ -1,0 +1,10 @@
+{
+  "dataset": "aft01",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/aft01/aft01.mtx",
+  "matrix_sha256": "6a36e951b9cc28ac8edb8f706ac06345572fe06f696c4ea77a7355724ce39c76",
+  "index_nnz": 125567,
+  "index_rows": 8205,
+  "elapsed_s": 0.708,
+  "returncode": 0,
+  "status": "ok"
+}

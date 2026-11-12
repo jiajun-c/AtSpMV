@@ -1,0 +1,7 @@
+{
+  "name": "oscil_dcop_24",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/oscil_dcop_24-L.mtx,default,cusparse,430,1132,-1,2151.503,36.7071991,5.107025913e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/oscil_dcop_24-L.mtx,default-host,cusparse,430,1132,-1,2151.503,43.447605,5.107025913e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/oscil_dcop_24-L.mtx,model,cached,430,1132,24,1231.601,20.49279976,5.107025913e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/oscil_dcop_24-L.mtx,model-host,cached,430,1132,24,1231.601,26.735675,5.107025913e-15\n",
+  "stderr": ""
+}

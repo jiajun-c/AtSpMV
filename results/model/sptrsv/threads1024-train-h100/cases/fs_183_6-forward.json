@@ -1,0 +1,7 @@
+{
+  "name": "fs_183_6",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cusparse,31934.81,47.97439873,5.329070518e-15,1.921157342e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cusparse-host,31934.81,54.803955,5.329070518e-15,1.921157342e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cached-tiles-512,79.417,42.9663986,1.776356839e-15,2.611711593e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cached-tiles-host-512,79.417,48.91604,1.776356839e-15,2.611711593e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cached-tiles-1024,79.417,44.59199905,1.776356839e-15,2.611711593e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,cached-tiles-host-1024,79.417,50.330055,1.776356839e-15,2.611711593e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/fs_183_6-L.mtx,183,1211,55,selector-cached,79.417,42.97919869,1.776356839e-15,2.611711593e-17\n",
+  "stderr": ""
+}

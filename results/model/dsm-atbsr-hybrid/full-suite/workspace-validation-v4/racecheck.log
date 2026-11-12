@@ -1,0 +1,7 @@
+========= COMPUTE-SANITIZER
+tuned auto -> atbsr, candidates=29, setup_us=1.0413e+07
+tuned atbsr -> atbsr, candidates=12, setup_us=4.56302e+06
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=527054
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=391600
+PASS: 280 direct/graph/reference checks; dsm_available=1
+========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)

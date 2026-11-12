@@ -1,0 +1,15 @@
+{
+  "dataset": "rajat14",
+  "matrix_sha256": "31506628f2615755ecf045cf62e598c60a97f2cf9f6768ac61fb6f33f83dae7d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.642,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

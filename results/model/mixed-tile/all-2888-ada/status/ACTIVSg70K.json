@@ -1,0 +1,15 @@
+{
+  "dataset": "ACTIVSg70K",
+  "matrix_sha256": "8430210f15b8cfa61df463d261ae36639ba693d57423bd9c76dbd151ea453058",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.145,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

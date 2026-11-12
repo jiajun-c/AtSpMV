@@ -1,0 +1,10 @@
+{
+  "dataset": "whitaker3_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/whitaker3_dual/whitaker3_dual.mtx",
+  "matrix_sha256": "4521c87ab22ebfbda3369fe0833210fb29ad98777fc908dbd177f3b61382317a",
+  "index_nnz": 57162,
+  "index_rows": 19190,
+  "elapsed_s": 1.199,
+  "returncode": 0,
+  "status": "ok"
+}

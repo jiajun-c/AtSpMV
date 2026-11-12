@@ -1,0 +1,9 @@
+{
+  "name": "orbitRaising_3",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orbitRaising_3-L.mtx,default,cusparse,768,8312,-1,2813.232,136.1312103,1.298960939e-14,3.288648859e-17,1.378708157e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orbitRaising_3-L.mtx,default-host,cusparse,768,8312,-1,2813.232,143.14628,1.298960939e-14,3.288648859e-17,1.378708157e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orbitRaising_3-L.mtx,model,cached,768,8312,133,1453.957,107.0144043,7.993605777e-15,3.219531493e-17,9.758076234e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/orbitRaising_3-L.mtx,model-host,cached,768,8312,133,1453.957,113.472635,7.993605777e-15,3.219531493e-17,9.758076234e-17,512\n",
+  "stderr": ""
+}

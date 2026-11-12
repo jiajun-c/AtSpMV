@@ -1,0 +1,91 @@
+west2021 0 fixed 0
+west2021 0 adaptive 0
+west2021 1 adaptive 0
+west2021 1 fixed 0
+shl_0 0 fixed 0
+shl_0 0 adaptive 0
+shl_0 1 adaptive 0
+shl_0 1 fixed 0
+str_400 0 fixed 0
+str_400 0 adaptive 0
+str_400 1 adaptive 0
+str_400 1 fixed 0
+fpga_dcop_39 0 fixed 0
+fpga_dcop_39 0 adaptive 0
+fpga_dcop_39 1 adaptive 0
+fpga_dcop_39 1 fixed 0
+adder_dcop_46 0 fixed 0
+adder_dcop_46 0 adaptive 0
+adder_dcop_46 1 adaptive 0
+adder_dcop_46 1 fixed 0
+adder_dcop_04 0 fixed 0
+adder_dcop_04 0 adaptive 0
+adder_dcop_04 1 adaptive 0
+adder_dcop_04 1 fixed 0
+fpga_dcop_28 0 fixed 0
+fpga_dcop_28 0 adaptive 0
+fpga_dcop_28 1 adaptive 0
+fpga_dcop_28 1 fixed 0
+oscil_dcop_27 0 fixed 0
+oscil_dcop_27 0 adaptive 0
+oscil_dcop_27 1 adaptive 0
+oscil_dcop_27 1 fixed 0
+fpga_dcop_34 0 fixed 0
+fpga_dcop_34 0 adaptive 0
+fpga_dcop_34 1 adaptive 0
+fpga_dcop_34 1 fixed 0
+adder_dcop_20 0 fixed 0
+adder_dcop_20 0 adaptive 0
+adder_dcop_20 1 adaptive 0
+adder_dcop_20 1 fixed 0
+adder_dcop_55 0 fixed 0
+adder_dcop_55 0 adaptive 0
+adder_dcop_55 1 adaptive 0
+adder_dcop_55 1 fixed 0
+Glass_10NN 0 fixed 0
+Glass_10NN 0 adaptive 0
+Glass_10NN 1 adaptive 0
+Glass_10NN 1 fixed 0
+dwt_234 0 fixed 0
+dwt_234 0 adaptive 0
+dwt_234 1 adaptive 0
+dwt_234 1 fixed 0
+mcca 0 fixed 0
+mcca 0 adaptive 0
+mcca 1 adaptive 0
+mcca 1 fixed 0
+fpga_dcop_22 0 fixed 0
+fpga_dcop_22 0 adaptive 0
+fpga_dcop_22 1 adaptive 0
+fpga_dcop_22 1 fixed 0
+bp_0 0 fixed 0
+bp_0 0 adaptive 0
+bp_0 1 adaptive 0
+bp_0 1 fixed 0
+tumorAntiAngiogenesis_5 0 fixed 0
+tumorAntiAngiogenesis_5 0 adaptive 0
+tumorAntiAngiogenesis_5 1 adaptive 0
+tumorAntiAngiogenesis_5 1 fixed 0
+adder_dcop_48 0 fixed 0
+adder_dcop_48 0 adaptive 0
+adder_dcop_48 1 adaptive 0
+adder_dcop_48 1 fixed 0
+mhda416 0 fixed 0
+mhda416 0 adaptive 0
+mhda416 1 adaptive 0
+mhda416 1 fixed 0
+fs_183_6 0 fixed 0
+fs_183_6 0 adaptive 0
+fs_183_6 1 adaptive 0
+fs_183_6 1 fixed 0
+{
+  "status_counts": {
+    "ok": 20
+  },
+  "valid_pairs": 20,
+  "adaptive_1024": 11,
+  "geomean_fixed_over_adaptive": 1.0319992002821388,
+  "wins_gt_5pct": 6,
+  "losses_gt_5pct": 0
+}
+runner_exit=0

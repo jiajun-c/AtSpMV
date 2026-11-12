@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_woodw",
+  "matrix_sha256": "5bed4a4535b50ceb63d1c7ba9c9cc92973087b0a9a0bc7cc76c02b19322692c9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.524,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

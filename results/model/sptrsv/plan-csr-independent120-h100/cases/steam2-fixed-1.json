@@ -1,0 +1,8 @@
+{
+  "name": "steam2",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/steam2-L.mtx,model,cached,600,3464,110,1278.359,79.31520081,8.881784197e-16,6.02929901e-17,7.105159112e-17,512\nresults/model/sptrsv/csr-independent120-h100/factors/steam2-L.mtx,model-host,cached,600,3464,110,1278.359,84.877615,8.881784197e-16,6.02929901e-17,7.105159112e-17,512\nresults/model/sptrsv/csr-independent120-h100/factors/steam2-L.mtx,default,cusparse,600,3464,-1,3305.038,145.1743927,8.881784197e-16,6.02929901e-17,7.92920328e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/steam2-L.mtx,default-host,cusparse,600,3464,-1,3305.038,151.44354,8.881784197e-16,6.02929901e-17,7.92920328e-17,0\n",
+  "stderr": ""
+}

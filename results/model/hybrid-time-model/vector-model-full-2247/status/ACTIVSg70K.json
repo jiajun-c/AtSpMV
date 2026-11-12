@@ -1,0 +1,17 @@
+{
+  "dataset": "ACTIVSg70K",
+  "matrix_sha256": "8430210f15b8cfa61df463d261ae36639ba693d57423bd9c76dbd151ea453058",
+  "index_nnz": 238627,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.635,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "mhda416",
+  "matrix_sha256": "1ea4f77d875a56287db54818dd27f34451e14dc74e4c73c9b9390fd802b2646c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.598,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

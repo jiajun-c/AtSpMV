@@ -1,0 +1,9 @@
+{
+  "name": "olm2000",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=7.3341333006737841e-13 reference_scale=1.4900990099009901\ntime_cuda_solve = 2.211190000 ms\n",
+  "stderr": ""
+}

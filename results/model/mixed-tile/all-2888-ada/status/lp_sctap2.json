@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_sctap2",
+  "matrix_sha256": "60447f24db82a7544ab8f71a9f5d2ba5e41ccc9c50591713e319e69ed97bbaca",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.782,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

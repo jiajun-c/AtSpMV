@@ -1,0 +1,10 @@
+{
+  "dataset": "onera_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/onera_dual/onera_dual.mtx",
+  "matrix_sha256": "0f386e296924ec6aaac52f7268766ea67cd29e2836e7bb246e235cd1c5525e3e",
+  "index_nnz": 419201,
+  "index_rows": 85567,
+  "elapsed_s": 1.227,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "airfoil1_dual",
+  "matrix_sha256": "88618178d17a127a6de0e9f751b2afedf49ea570b276e8080c75f1b32b9d620d",
+  "index_nnz": 23626,
+  "gpu_before": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.924,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

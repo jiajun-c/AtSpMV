@@ -1,0 +1,10 @@
+{
+  "dataset": "windtunnel_evap2d",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/windtunnel_evap2d/windtunnel_evap2d.mtx",
+  "matrix_sha256": "6f2765086695c11a154ecf2e3668b435c75207a8df9b1123eaf9b23e67d4054e",
+  "index_nnz": 233468,
+  "index_rows": 8256,
+  "elapsed_s": 1.335,
+  "returncode": 0,
+  "status": "ok"
+}

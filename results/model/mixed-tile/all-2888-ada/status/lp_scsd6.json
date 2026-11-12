@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_scsd6",
+  "matrix_sha256": "42bc800c122b8e3fdf892cb218c201011b32164e1728ac18b7fa3d57c07fcfcf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.122,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "psse2",
+  "matrix_sha256": "c593dbd767ce81e6549f3065d5b2c945bffed5b333b0af8d5d5d92524b479a3f",
+  "index_nnz": 115262,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.473,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

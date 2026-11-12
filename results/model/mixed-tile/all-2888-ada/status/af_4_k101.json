@@ -1,0 +1,15 @@
+{
+  "dataset": "af_4_k101",
+  "matrix_sha256": "8f6340eaa55cf1f6644b78e492e8f3dd65f378a0de804c46ef7653a96b7af6f8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 14.484,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

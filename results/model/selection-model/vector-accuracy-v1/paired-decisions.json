@@ -1,0 +1,3006 @@
+{
+  "csr-vector-paired": [
+    {
+      "dataset": "L-9",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.1345032808150952,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1345032808150952,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "plantstexture_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1299242708147388,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1299242708147388,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "GD96_a",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1318493937228005,
+          "regret": 1.0008707075986454
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.132834903590437,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Si2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1352681810376273,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1352681810376273,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "N_reactome",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_ganges",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1474457565319949,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1474457565319949,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "air04",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0620248066206548,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0620248066206548,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cis-n4c6-b1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1096292532989425,
+          "regret": 1.0432493833865688
+        },
+        "extended_deep": {
+          "selected": "csr_vec2",
+          "speedup": 1.1576200342918204,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "rw5151",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.1373431945264654,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1373431945264654,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "robot24c1_mat5",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1422422667254797,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1422422667254797,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_scorpion",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1954177695923747,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1954177695923747,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "shermanACb",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "psmigr_2",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_sc205",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2696712599786868,
+          "regret": 1.0134751491666394
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2696712599786868,
+          "regret": 1.0134751491666394
+        }
+      }
+    },
+    {
+      "dataset": "orsirr_1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2313821502957898,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2313821502957898,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cegb3024",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0674596769663272,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0674596769663272,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "dwb512",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1448640350092611,
+          "regret": 1.0018569718484251
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1448640350092611,
+          "regret": 1.0018569718484251
+        }
+      }
+    },
+    {
+      "dataset": "data",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2197046181438236,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2197046181438236,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n4c6-b15",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1495160162413307,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1495160162413307,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_sctap2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1332254337946435,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1332254337946435,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ibm32",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1250327025330078,
+          "regret": 1.008784952054948
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1250327025330078,
+          "regret": 1.008784952054948
+        }
+      }
+    },
+    {
+      "dataset": "n4c5-b7",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3000561692911448,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3000561692911448,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Franz1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2515034314566196,
+          "regret": 1.0219610724965444
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2515034314566196,
+          "regret": 1.0219610724965444
+        }
+      }
+    },
+    {
+      "dataset": "tumorAntiAngiogenesis_7",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0912567910696542,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0912567910696542
+        }
+      }
+    },
+    {
+      "dataset": "descriptor_xingo6u",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 0.9395417670178812,
+          "regret": 1.0643486379259266
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 0.9395417670178812,
+          "regret": 1.0643486379259266
+        }
+      }
+    },
+    {
+      "dataset": "mark3jac100",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.0429164003036209,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.0429164003036209,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "shallow_water1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 0.9739150522331045,
+          "regret": 1.0267835964821417
+        },
+        "extended_deep": {
+          "selected": "csr_vec1",
+          "speedup": 0.9701228910803299,
+          "regret": 1.0307972414571094
+        }
+      }
+    },
+    {
+      "dataset": "M40PI_n1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1993418796930984,
+          "regret": 1.0054397387418712
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1993418796930984,
+          "regret": 1.0054397387418712
+        }
+      }
+    },
+    {
+      "dataset": "psmigr_1",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "garon2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.4726412195309089,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.4726412195309089,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "spiral",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.1233721342188685
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.1233721342188685
+        }
+      }
+    },
+    {
+      "dataset": "nasa4704",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0375833149238736
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0375833149238736,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "sctap1-2b",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.094764994367947
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.094764994367947,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Trec11",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0113087045663585,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0113087045663585,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cz5108",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1443770644855142,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1443770644855142,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n4c5-b11",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1222030262991793,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1222030262991793,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "spaceStation_6",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.07615490008822,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.07615490008822,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n2c6-b4",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.273903254523831,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.273903254523831,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_shell",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 0.7203325542504807,
+          "regret": 1.388247683794492
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n2c6-b10",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1241659920548226,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1241659920548226,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "c-64b",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "juba40k",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 0.9261935120688293,
+          "regret": 1.0796879776951902
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "g7jac060sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1283127864866946,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1283127864866946,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ch3-3-b2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1307698896952145,
+          "regret": 1.0099110630870183
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1307698896952145,
+          "regret": 1.0099110630870183
+        }
+      }
+    },
+    {
+      "dataset": "Franz2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.295255818765195,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.295255818765195,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ch8-8-b3",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 0.9146004233775816,
+          "regret": 1.106741631539284
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0122263647754246
+        }
+      }
+    },
+    {
+      "dataset": "Trec9",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.138970635076689,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.138970635076689,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cnae9_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0776645679376242,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0776645679376242
+        }
+      }
+    },
+    {
+      "dataset": "hcircuit",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n2c6-b7",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2978216132072955,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2978216132072955,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "reorientation_7",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n2c6-b8",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.149182850079559,
+          "regret": 1.0193509530792784
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.167317599823161,
+          "regret": 1.003514924874276
+        }
+      }
+    },
+    {
+      "dataset": "impcol_e",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2705442665036937,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2705442665036937,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "nj2010",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.1319741411820547
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1319741411820547,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_ken_13",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "scrs8-2b",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1723663674755442,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1723663674755442,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mult_dcop_01",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "soc-Slashdot0902",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mark3jac040sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1244384451226768,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1244384451226768,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "diag",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.111467615627325,
+          "regret": 1.0228919080790388
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1369112301170943,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "kineticBatchReactor_8",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cis-n4c6-b13",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.4649244747955084,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.4649244747955084,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n4c5-b8",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1640373832180508,
+          "regret": 1.0238829559928961
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1918380368155337,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n4c5-b4",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2603959506637947,
+          "regret": 1.0062195135220768
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2603959506637947,
+          "regret": 1.0062195135220768
+        }
+      }
+    },
+    {
+      "dataset": "airfoil1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2758109044893042,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2758109044893042,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n4c6-b2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1203874250225154,
+          "regret": 1.0102657388788086
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1203874250225154,
+          "regret": 1.0102657388788086
+        }
+      }
+    },
+    {
+      "dataset": "bfwb398",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2805563018158637,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2805563018158637,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "3elt",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.29493522299092,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.29493522299092,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cis-n4c6-b14",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1489125310837924,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1489125310837924,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mycielskian5",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2184193584098113,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2184193584098113,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "GL7d12",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.191244554709399,
+          "regret": 1.0083567146235282
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.191244554709399,
+          "regret": 1.0083567146235282
+        }
+      }
+    },
+    {
+      "dataset": "Franz6",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3591041301655515,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3591041301655515,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "HTC_336_4438",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mark3jac060",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.146453149343818,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.146453149343818,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mbeause",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "n2c6-b9",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1478598165924754,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1478598165924754,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cis-n4c6-b2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1176189854581382,
+          "regret": 1.0083300948586111
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1176189854581382,
+          "regret": 1.0083300948586111
+        }
+      }
+    },
+    {
+      "dataset": "ch8-8-b1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1027334776275952,
+          "regret": 1.0651245096008473
+        },
+        "extended_deep": {
+          "selected": "csr_vec2",
+          "speedup": 1.1745484545785296,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "trans4",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "chem_master1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 1.0288321392460342,
+          "regret": 1.0303274672140457
+        },
+        "extended_deep": {
+          "selected": "csr_vec1",
+          "speedup": 0.9832855044065195,
+          "regret": 1.07805312644935
+        }
+      }
+    }
+  ],
+  "vector-model-independent-120": [
+    {
+      "dataset": "vsp_model1_crew1_cr42_south31",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "fe_sphere",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.2716326492850214,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2352525421660399,
+          "regret": 1.029451554137414
+        }
+      }
+    },
+    {
+      "dataset": "nug08-3rd",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.1340541096322823,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1340541096322823,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "sd2010",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1851096423772625,
+          "regret": 1.083051232089953
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1851096423772625,
+          "regret": 1.083051232089953
+        }
+      }
+    },
+    {
+      "dataset": "sit100",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3046820229008955,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3046820229008955,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ri2010",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1120644487655762,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1120644487655762,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "aft01",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2058709613657626,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1550900140983211,
+          "regret": 1.0439627619039555
+        }
+      }
+    },
+    {
+      "dataset": "rdb2048_noL",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.12661872988098,
+          "regret": 1.0145198213998394
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.12661872988098,
+          "regret": 1.0145198213998394
+        }
+      }
+    },
+    {
+      "dataset": "helm3d01",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1320925548961036,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1320925548961036,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Tina_AskCal",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.138858860190546,
+          "regret": 1.0111621595974976
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.138858860190546,
+          "regret": 1.0111621595974976
+        }
+      }
+    },
+    {
+      "dataset": "jan99jac100sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 0.8657920755490168,
+          "regret": 1.1550117265347795
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lop163",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1306973148123753,
+          "regret": 1.011561109975069
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1306973148123753,
+          "regret": 1.011561109975069
+        }
+      }
+    },
+    {
+      "dataset": "jendrec1",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.117370779407878
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.117370779407878,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "SmaGri",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 0.8441311019562612,
+          "regret": 1.1846501066984916
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "c-66b",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_afiro",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.29020321858934,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.29020321858934,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_bgetam",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.126539488995516,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.126539488995516,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_cycle",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1381539834016432,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1381539834016432,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "685_bus",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1788368584378637,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1788368584378637,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "sx-askubuntu",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_bgdbg1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.207660520671561,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.207660520671561,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp22",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.057564003696203
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 0.9816192571121165,
+          "regret": 1.0773668059523536
+        }
+      }
+    },
+    {
+      "dataset": "geom",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0579336695151025,
+          "regret": 1.0011567471985887
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.0567028150113675,
+          "regret": 1.0023229012711705
+        }
+      }
+    },
+    {
+      "dataset": "big_dual",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 1.2698624399297425,
+          "regret": 1.0078432714183885
+        },
+        "extended_deep": {
+          "selected": "csr_vec2",
+          "speedup": 1.2698624399297425,
+          "regret": 1.0078432714183885
+        }
+      }
+    },
+    {
+      "dataset": "lp_czprob",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0435415323689698,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0435415323689698,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "t2dal_e",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec1",
+          "speedup": 1.1813993209678781,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec1",
+          "speedup": 1.1813993209678781,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mhd3200b",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2240433310426708,
+          "regret": 1.0149854216060614
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2240433310426708,
+          "regret": 1.0149854216060614
+        }
+      }
+    },
+    {
+      "dataset": "Reuters911",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "pwt",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.1321674050304489,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.1321674050304489,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "176bit",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1209159670566995,
+          "regret": 1.0099628896921473
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1209159670566995,
+          "regret": 1.0099628896921473
+        }
+      }
+    },
+    {
+      "dataset": "vsp_befref_fxm_2_4_air02",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "small",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1394378062128718,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1394378062128718,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "NotreDame_www",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.0224287096125089,
+          "regret": 1.0081058543702353
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.0224287096125089,
+          "regret": 1.0081058543702353
+        }
+      }
+    },
+    {
+      "dataset": "seymourl",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.182884520119764,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.182884520119764,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_chemcom",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.269766020472583,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.269766020472583,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "TSOPF_RS_b9_c6",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.252296632165565,
+          "regret": 1.0257691264888544
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.252296632165565,
+          "regret": 1.0257691264888544
+        }
+      }
+    },
+    {
+      "dataset": "mesh3em5",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.3123352602358336,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.3123352602358336,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mesh2e1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.3043172695323144,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.3043172695323144,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "c-62ghs",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "nopss_11k",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1969192980690804,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.1969192980690804,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "torsion1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 1.0200834943381258,
+          "regret": 1.044668895835765
+        },
+        "extended_deep": {
+          "selected": "csr_vec1",
+          "speedup": 1.0656494976904989,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_cre_a",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 0.9989566900019674,
+          "regret": 1.0040733083683067
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 0.9989566900019674,
+          "regret": 1.0040733083683067
+        }
+      }
+    },
+    {
+      "dataset": "lp_vtp_base",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1542985772845467,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1542985772845467,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_standgub",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mhd3200a",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1239440498364102,
+          "regret": 1.013795931750534
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1239440498364102,
+          "regret": 1.013795931750534
+        }
+      }
+    },
+    {
+      "dataset": "Spectro_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1305818572102067,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1305818572102067,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_d2q06c",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0655410105898602
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0655410105898602,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "bloweybq",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "vsp_c-30_data_data",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Sieber",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "g7jac140sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.0955041404534678,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.0955041404534678,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "sc205-2r",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 1.2275783279874424,
+          "regret": 1.0119407253616113
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.235690993665581,
+          "regret": 1.0052970443499054
+        }
+      }
+    },
+    {
+      "dataset": "g7jac160sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 0.9851660359234712,
+          "regret": 1.0150573238780243
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 0.9851660359234712,
+          "regret": 1.0150573238780243
+        }
+      }
+    },
+    {
+      "dataset": "curtis54",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.278618864092373,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.278618864092373,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "pcb1000",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_ship04s",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1053969253655689,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1053969253655689,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "slptsk",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0951164673765288,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0951164673765288,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Baumann",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ford1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2227403558840144,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2227403558840144,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "g7jac080sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.010157372806265,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.010157372806265
+        }
+      }
+    },
+    {
+      "dataset": "preferentialAttachment",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "klein-b1",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.101207922089436,
+          "regret": 1.0536054683255798
+        },
+        "extended_deep": {
+          "selected": "csr_vec1",
+          "speedup": 1.1566373255414832,
+          "regret": 1.0031136492449864
+        }
+      }
+    },
+    {
+      "dataset": "Andrews",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0188635674135882
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 0.9662631138475566,
+          "regret": 1.05443698803381
+        }
+      }
+    },
+    {
+      "dataset": "FX_March2010",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "gas11",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2222761945592475,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2222761945592475,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "662_bus",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.2390267584994585,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2390267584994585,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "har_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.373931498197627,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.373931498197627,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "nmos3",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1083733499727808,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1083733499727808,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "image_interp",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.088258188965232
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.088258188965232
+        }
+      }
+    },
+    {
+      "dataset": "t2dal_bci",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3344743889925947,
+          "regret": 1.024936301640451
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3344743889925947,
+          "regret": 1.024936301640451
+        }
+      }
+    },
+    {
+      "dataset": "zeros_nopss_13k",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.0125124964625662,
+          "regret": 1.0056515429955237
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.0125124964625662,
+          "regret": 1.0056515429955237
+        }
+      }
+    },
+    {
+      "dataset": "fpga_trans_01",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1297081393587347,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1297081393587347,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_brandy",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "aircraft",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2635652273077849,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2635652273077849,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ca-CondMat",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mk13-b5",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "pesa",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2498522104681549,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2498522104681549,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "d_dyn",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2559027634664919,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2559027634664919,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Ragusa16",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.196265980870726,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.196265980870726,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "struct4",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0834861569974408,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0834861569974408,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "pf2177",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1595750939565175,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1595750939565175,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "vt2010",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.0503718761199323,
+          "regret": 1.065237959264422
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.0503718761199323,
+          "regret": 1.065237959264422
+        }
+      }
+    },
+    {
+      "dataset": "k49_norm_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0008254294444885
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0008254294444885
+        }
+      }
+    },
+    {
+      "dataset": "fe_tooth",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 0.9776182085290536,
+          "regret": 1.022894204788414
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 0.9776182085290536,
+          "regret": 1.022894204788414
+        }
+      }
+    },
+    {
+      "dataset": "lp_scrs8",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0891337768286016,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0891337768286016,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "stokes64s",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3575890672336615,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3575890672336615,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "cari",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0236036720470625,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0236036720470625,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "hi2010",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1835879522826585,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1835879522826585,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "rat",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.1256060324143986,
+          "regret": 1.083903485796475
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.2200483021675068,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "nemscem",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0173377711345124
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0173377711345124
+        }
+      }
+    },
+    {
+      "dataset": "scfxm1-2r",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.0067396802326931,
+          "regret": 1.1929119718718406
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.2009518171080082,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "extr1b",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1722231422586666,
+          "regret": 1.0507746704424459
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.2317423859918588,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "f855_mat9",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0746868275191528
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0746868275191528,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_woodinfe",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.1310936583166444,
+          "regret": 1.0098137381516068
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.1310936583166444,
+          "regret": 1.0098137381516068
+        }
+      }
+    },
+    {
+      "dataset": "dictionary28",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.04641645387078,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.04641645387078,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_pilot4i",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0859760171443666,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0859760171443666,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ss1",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Pd",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3112237826126636,
+          "regret": 1.0388505318891748
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3112237826126636,
+          "regret": 1.0388505318891748
+        }
+      }
+    },
+    {
+      "dataset": "scagr7-2r",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.3256235164407673,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.3256235164407673,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "bloweya",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ASIC_100k",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "mesh_deform",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec2",
+          "speedup": 0.8565728558160248,
+          "regret": 1.1674430180808584
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "t2dah_e",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.3261128834344638,
+          "regret": 1.004582672241257
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3261128834344638,
+          "regret": 1.004582672241257
+        }
+      }
+    },
+    {
+      "dataset": "Stranke94",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.14919805202216,
+          "regret": 1.0039604417084218
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.14919805202216,
+          "regret": 1.0039604417084218
+        }
+      }
+    },
+    {
+      "dataset": "gre_216b",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.289685824579994,
+          "regret": 1.0124466090317006
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.289685824579994,
+          "regret": 1.0124466090317006
+        }
+      }
+    },
+    {
+      "dataset": "lp_e226",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 0.9130317673596978,
+          "regret": 1.0952521431886173
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lpi_mondou2",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.174326849680135,
+          "regret": 1.0300910306983122
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.174326849680135,
+          "regret": 1.0300910306983122
+        }
+      }
+    },
+    {
+      "dataset": "g7jac020sc",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.0485159462536051,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.0485159462536051,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "lp_finnis",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.134074987960758,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.134074987960758,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Olivetti_norm_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.07877964881882,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.07877964881882,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "scagr7-2b",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec8",
+          "speedup": 1.2157137940168967,
+          "regret": 1.0053950258489737
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.2157137940168967,
+          "regret": 1.0053950258489737
+        }
+      }
+    },
+    {
+      "dataset": "poli",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1191843295213655,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1191843295213655,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "indianpines_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec16",
+          "speedup": 1.48087642426872,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec16",
+          "speedup": 1.48087642426872,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "tomography",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.079716018830243,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.079716018830243,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "rdist3a",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1003063318318032,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1003063318318032,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "ACTIVSg2000",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.122501505652584,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.122501505652584,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "bodyy4",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec4",
+          "speedup": 1.3293817385521498,
+          "regret": 1.0458838644362733
+        },
+        "extended_deep": {
+          "selected": "csr_vec8",
+          "speedup": 1.3903789100279342,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "pfinan512",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.170413819217782
+        },
+        "extended_deep": {
+          "selected": "csr_vec4",
+          "speedup": 1.170413819217782,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "vsp_bump2_e18_aa01_model1_crew1",
+      "predictions": {
+        "deployed": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "auto_model",
+          "speedup": 1.0,
+          "regret": 1.0
+        }
+      }
+    },
+    {
+      "dataset": "Vehicle_10NN",
+      "predictions": {
+        "deployed": {
+          "selected": "csr_vec32",
+          "speedup": 1.1042228876433413,
+          "regret": 1.0
+        },
+        "extended_deep": {
+          "selected": "csr_vec32",
+          "speedup": 1.1042228876433413,
+          "regret": 1.0
+        }
+      }
+    }
+  ]
+}

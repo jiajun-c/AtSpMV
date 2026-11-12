@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "src/dsmSpmv.cu": "f86c140da05b7c2f74ceeac08c755b39a38636619c982acb91327494a0052b87",
+    "include/dsmSpmv.h": "66b37aaa82d76f7a63c84c02be651ae2968617d5685bbcb4558f6ae69bc1c07a",
+    "bench/dsm_spmv_bench.cu": "79344b3f33078fb87133de03f3b1769db1153fa00b34873dece90d2952b0ebe9"
+  },
+  "executable": "/tmp/atspmv-dsm-sm90-build/dsm_spmv_bench",
+  "executable_sha256": "eeffa652dc82672274d0f5ea42b67999cceed5d400b334fec3a9fc5cb6d741df",
+  "inputs": {
+    "/staff/chengjiajun/workspace/database/suitsparse/appu/appu.mtx": "f677a0793629811f0f24e5c00d628632ebcd282eab728939cd3fafb5a03a20ba",
+    "/staff/chengjiajun/workspace/database/suitsparse/Wordnet3/Wordnet3.mtx": "4020e99ec1e759596864ffd14bb2989f5cde8a0e48951b0aee76e01a21807017",
+    "/staff/chengjiajun/workspace/database/suitsparse/trdheim/trdheim.mtx": "80020d5871904f2a1d7866f6f596b10aca6cc3ad85dec918a12ba28d0c41208e",
+    "/staff/chengjiajun/workspace/database/suitsparse/exdata_1/exdata_1.mtx": "079171c55f81fa0ca73e94886fc0403124436a86c842fcd9b2f6df5523283c22",
+    "/staff/chengjiajun/workspace/database/suitsparse/cant/cant.mtx": "67556f4af0534ba28c283d788530fada209f3994d448dbc189ef40b91e87486d",
+    "/staff/chengjiajun/workspace/database/suitsparse/la2010/la2010.mtx": "8ee4b3aa155d8d950ff8b36b7c10ecb76f22a1347c4468b1b54da4eb3670184b"
+  },
+  "seeds": [
+    202610281,
+    202610282,
+    202610283
+  ],
+  "cuda_visible_devices": "3",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 94 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB\n",
+  "timing": "Warm graph of 64 independent y=A*x calls, each restaging X; includes clearing/staging/synchronization. 11 measured interleaved batches, 2 warmup batches. Packing and plan setup excluded.",
+  "selection": "Best measured configuration per kind (six shapes, two balancing modes, C=1/2/4/8); not an online selector"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "dwb512",
+  "matrix_sha256": "d3bf0a63a229cb0b3fedc2edbfa7ff9ac78ca2837b8e5d74d8aa8e9764e0cee0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.804,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

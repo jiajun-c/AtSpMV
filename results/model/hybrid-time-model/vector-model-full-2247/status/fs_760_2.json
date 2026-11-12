@@ -1,0 +1,17 @@
+{
+  "dataset": "fs_760_2",
+  "matrix_sha256": "8a30f97648d760ee5c423c1489647e73d676a9b5b50d4e012b38a3d702d59f00",
+  "index_nnz": 5976,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.878,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

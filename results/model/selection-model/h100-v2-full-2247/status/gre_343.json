@@ -1,0 +1,17 @@
+{
+  "dataset": "gre_343",
+  "matrix_sha256": "e9f5ddac0ae2ce8c9ced905dd209fb685f71786c4d4e66faf233451a632a4e38",
+  "index_nnz": 1435,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.135,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

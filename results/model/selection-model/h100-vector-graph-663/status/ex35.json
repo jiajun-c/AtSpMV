@@ -1,0 +1,17 @@
+{
+  "dataset": "ex35",
+  "matrix_sha256": "211081a8f09a44def9daafc5ea9561bd05adfac466fcd62f0c562371bd56a64d",
+  "index_nnz": 228208,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.878,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

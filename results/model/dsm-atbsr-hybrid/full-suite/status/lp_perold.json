@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_perold",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_perold/lp_perold.mtx",
+  "matrix_sha256": "3bd0c707dd20e64af68d201ce1485f0e385581adfad0d2cd0d62cce18fff51f8",
+  "index_nnz": 6148,
+  "index_rows": 625,
+  "elapsed_s": 1.209,
+  "returncode": 0,
+  "status": "ok"
+}

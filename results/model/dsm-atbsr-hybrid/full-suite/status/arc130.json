@@ -1,0 +1,10 @@
+{
+  "dataset": "arc130",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/arc130/arc130.mtx",
+  "matrix_sha256": "74c8b64b64d920c78c395cf461c2f440f4be3ea36c1ce23c8b34a3d75eb1ad25",
+  "index_nnz": 1282,
+  "index_rows": 130,
+  "elapsed_s": 1.304,
+  "returncode": 0,
+  "status": "ok"
+}

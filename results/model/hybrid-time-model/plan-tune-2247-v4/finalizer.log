@@ -1,0 +1,164 @@
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "imported_records": 13,
+  "failures": [],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}
+{
+  "cases": 2247,
+  "blocks_checked": 4494,
+  "problems": [],
+  "scope": "Checks logged medians and 5% selection gate; does not independently validate GPU timing or numerical accuracy."
+}
+{"cases": 2247, "candidate_rows": 327310, "blocks_per_case": 2, "note": "Initialization measurements; selected-candidate bias and device interference apply. Not independent test timing."}
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "selected_backends": {
+    "csr_vector": 1463,
+    "atbsr": 410,
+    "csr_vector|atbsr": 17,
+    "csr_dsm": 105,
+    "csr_dsm|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr": 145,
+    "hybrid_dsm_atbsr|atbsr": 4,
+    "atbsr|csr_vector": 21,
+    "cusparse": 28,
+    "atbsr|csr_dsm": 1,
+    "csr_two_stage": 13,
+    "atbsr|csr_two_stage": 2,
+    "cusparse|atbsr": 8,
+    "atbsr|cusparse": 4,
+    "csr_two_stage|csr_vector": 5,
+    "csr_vector|csr_two_stage": 4,
+    "atbsr|hybrid_dsm_atbsr": 6,
+    "csr_dsm|atbsr": 1,
+    "hybrid_dsm_atbsr|csr_dsm_vector": 1,
+    "csr_dsm_vector|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr|csr_dsm": 3,
+    "csr_two_stage|atbsr": 1,
+    "csr_vector|csr_dsm": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.2010351051684331,
+    "median": 1.211886314628079,
+    "wins": 2153,
+    "cases": 2247
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6495727474556952,
+    "median": 1.7572468684652112,
+    "wins": 2210,
+    "cases": 2247
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1919678748491755,
+    "median": 1.202279813664508,
+    "wins": 2122,
+    "cases": 2247
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1160450049328898,
+    "median": 1.1282226695583155,
+    "wins": 2074,
+    "cases": 2247
+  }
+}
+{
+  "cases": 2247,
+  "manifest_total": 2247,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 2152,
+  "median_break_even_calls": 236132.5,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "baseline_setup_comparison_valid": true,
+  "reuse_scenarios": {
+    "1": {
+      "cases": 2247,
+      "geomean_speedup": 0.0314090044341126,
+      "wins": 3
+    },
+    "10": {
+      "cases": 2247,
+      "geomean_speedup": 0.03174467660791025,
+      "wins": 4
+    },
+    "100": {
+      "cases": 2247,
+      "geomean_speedup": 0.034954297724310336,
+      "wins": 4
+    },
+    "1000": {
+      "cases": 2247,
+      "geomean_speedup": 0.06031662151492259,
+      "wins": 5
+    },
+    "10000": {
+      "cases": 2247,
+      "geomean_speedup": 0.21870237344356416,
+      "wins": 5
+    },
+    "100000": {
+      "cases": 2247,
+      "geomean_speedup": 0.7472685782586111,
+      "wins": 135
+    },
+    "1000000": {
+      "cases": 2247,
+      "geomean_speedup": 1.1228855610476032,
+      "wins": 1896
+    }
+  }
+}
+{
+  "matrices": 2247,
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "failures": [],
+  "complete_success": true,
+  "groups": 974,
+  "iterations": 5000,
+  "seed": 20261028,
+  "caveat": "Approximate bootstrap using name-based groups. Matrix families may be misidentified, sampling need not represent SuiteSparse, and shared-GPU/timing bias is not captured.",
+  "metrics": {
+    "speedup_vs_default": {
+      "point": 1.2010351051684331,
+      "ci95": [
+        1.1914275418101121,
+        1.2107573394520583
+      ]
+    },
+    "speedup_vs_cusparse": {
+      "point": 1.6495727474556952,
+      "ci95": [
+        1.5979087241401408,
+        1.6990467657331654
+      ]
+    },
+    "speedup_vs_best_baseline": {
+      "point": 1.1919678748491755,
+      "ci95": [
+        1.1817252050625857,
+        1.2020747050194016
+      ]
+    },
+    "speedup_vs_extended_baseline": {
+      "point": 1.1160450049328898,
+      "ci95": [
+        1.1069217588795108,
+        1.1238159016091853
+      ]
+    }
+  }
+}
+FINALIZED {'ok': 2247}

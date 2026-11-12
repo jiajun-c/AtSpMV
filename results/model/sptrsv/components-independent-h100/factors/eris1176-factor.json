@@ -1,0 +1,13 @@
+{
+  "matrix": "eris1176",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/eris1176/eris1176.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1176,
+  "columns": 1176,
+  "original_nnz": 18552,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.027274978114292026
+}

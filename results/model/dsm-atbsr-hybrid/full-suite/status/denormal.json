@@ -1,0 +1,10 @@
+{
+  "dataset": "denormal",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/denormal/denormal.mtx",
+  "matrix_sha256": "f6ceec1a99c444eb44a650c4513c80a8b763290366f2e3f37437ff199713d9ff",
+  "index_nnz": 1156224,
+  "index_rows": 89400,
+  "elapsed_s": 1.371,
+  "returncode": 0,
+  "status": "ok"
+}

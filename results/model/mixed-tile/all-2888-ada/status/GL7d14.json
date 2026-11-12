@@ -1,0 +1,15 @@
+{
+  "dataset": "GL7d14",
+  "matrix_sha256": "33d1f654b58b6e51e1fdebd7bb8124741a9fc237d513bbbe73824a33a316bf36",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.231,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

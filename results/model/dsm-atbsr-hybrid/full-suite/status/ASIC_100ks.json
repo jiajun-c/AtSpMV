@@ -1,0 +1,10 @@
+{
+  "dataset": "ASIC_100ks",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ASIC_100ks/ASIC_100ks.mtx",
+  "matrix_sha256": "3f9fe74bddc736aa790e00d235cbf2681ee02958f5e63d4a52181ec5c0bd5cd5",
+  "index_nnz": 578890,
+  "index_rows": 99190,
+  "elapsed_s": 1.25,
+  "returncode": 0,
+  "status": "ok"
+}

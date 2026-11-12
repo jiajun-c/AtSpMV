@@ -1,0 +1,72 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 6
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend tuned
+   --solution /tmp/atspmv-heat-field-2zecf_d8/temperature.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 328961
+plan rows=328961 nnz=5248001 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=43.412
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=41.196
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=81.292003
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=47.400001
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=45.095999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=45.308001
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=53.247999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=82.011998
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=99.040002
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=110.164
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=42.252
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=41.632
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=44.904001
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.864001
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.540001
+plan rows=328961 nnz=5247969 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=43.572001
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=41.503999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=81.915997
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=47.58
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=44.388
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=45.58
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=52.655999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=81.664003
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=98.623998
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=110.916
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=42.396002
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=41.772
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=45.04
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.848
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.512002
+plan rows=328961 nnz=5248001 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=44.039998
+candidate backend=cusparse tile=-1 balanced=-1 vector_width=0 median_us=41.88
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=1 median_us=81.912003
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=2 median_us=47.387999
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=4 median_us=45.008
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=8 median_us=46.115998
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=16 median_us=53.608
+candidate backend=csr_vector tile=-1 balanced=-1 vector_width=32 median_us=82.376003
+candidate backend=csr_two_stage tile=-1 balanced=-1 vector_width=0 median_us=99.28
+candidate backend=csr_dsm tile=-1 balanced=-1 vector_width=0 median_us=110.668
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=42.443998
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=41.776001
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=44.240002
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.471999
+candidate backend=mixed_tile tile=-1 balanced=-1 vector_width=0 median_us=43.464001
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"tuned","dofs":328961,"steps":20,"nnz":5248001,"initialization_s":3.85522345,"evolution_s":1.860615229,"total_s":5.7158391460000004,"plan_s":0.70897176800000006,"plans":3,"spmv_calls":13156,"linear_solves":20,"cg_iterations":13136,"sum":383245.18379476381,"l2":668.71074992080742,"mass_relative_error":5.7017423807925139e-09,"initial_energy":7.1109739060228634,"final_energy":6.4661814868895737}
+
+STDERR

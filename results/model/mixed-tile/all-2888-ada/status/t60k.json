@@ -1,0 +1,15 @@
+{
+  "dataset": "t60k",
+  "matrix_sha256": "e4893c9485d457a4f62dc1213f9b26436fb64755ab2bf20eff0b24c4d8341445",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.085,
+  "gpu_after": {
+    "utilization_percent": 12,
+    "free_memory_mib": 48508
+  }
+}

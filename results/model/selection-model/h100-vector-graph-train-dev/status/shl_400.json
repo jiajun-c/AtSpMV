@@ -1,0 +1,17 @@
+{
+  "dataset": "shl_400",
+  "matrix_sha256": "42a28ea2250d379b3fb50a4f585959a20c659b4de53f9df7668a354a9bebe629",
+  "index_nnz": 1712,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.213,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "net25",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/net25/net25.mtx",
+  "matrix_sha256": "240432183d0e31c446b73cc2348297db1f1934e26bbca8c207ae0857a6903f21",
+  "index_nnz": 401200,
+  "index_rows": 9520,
+  "elapsed_s": 1.283,
+  "returncode": 0,
+  "status": "ok"
+}

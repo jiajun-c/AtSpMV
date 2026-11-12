@@ -1,0 +1,15 @@
+{
+  "dataset": "GL6_D_10",
+  "matrix_sha256": "cbf9cc36af28eb0dfd2584b4ee8a034bcd0cf1a4fd611b235f0cb525ec197989",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.483,
+  "gpu_after": {
+    "utilization_percent": 21,
+    "free_memory_mib": 48508
+  }
+}

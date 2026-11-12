@@ -1,0 +1,6 @@
+WAIT [(303144, '/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation')]
+RUN direct
+RUN memcheck
+RUN synccheck
+RUN racecheck
+COMPLETE

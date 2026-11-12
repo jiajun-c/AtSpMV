@@ -1,0 +1,15 @@
+{
+  "dataset": "cont1_l",
+  "matrix_sha256": "a60166a10df8f3a1ccd76224c0cd6e55928bd45a11ff93111e196568d0199a50",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.732,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

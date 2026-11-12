@@ -1,0 +1,29 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 4
+   --order 2
+   --ode-solver 21
+   --t-final 0.03
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend cusparse
+   --solution /staff/chengjiajun/workspace/AtSpmv/results/applications/mfem-heat/native-optimization/cpu-reference/r4/cusparse.bin
+   --dump-implicit-matrix 
+   --no-persist-x
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --bulk-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 20801
+plan rows=20801 nnz=328961 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=20801 nnz=328961 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=20801 nnz=328961 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+step 3, t = 0.03
+APP_RESULT {"backend":"cusparse","dofs":20801,"steps":3,"nnz":328961,"initialization_s":0.49242476400000001,"evolution_s":0.036529428000000003,"total_s":0.52895425900000004,"plan_s":0.013640003000000001,"plans":3,"value_updates":5,"linear_s":0.017322594,"parameter_s":0.023730553000000001,"implicit_setup_s":0.0096844189999999997,"implicit_updates":2,"spmv_calls":333,"linear_solves":3,"cg_iterations":330,"sum":24189.5212112462,"l2":172.33318668574205,"mass_relative_error":4.4790426230101565e-09,"initial_energy":7.1109081175223707,"final_energy":6.821064830368865}
+

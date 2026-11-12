@@ -1,0 +1,15 @@
+{
+  "dataset": "kmnist_norm_10NN",
+  "matrix_sha256": "92f9716da0b0727b8cf2e95835b8232dba256db3ef9bbff46c22e0bbfe18dd64",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.204,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

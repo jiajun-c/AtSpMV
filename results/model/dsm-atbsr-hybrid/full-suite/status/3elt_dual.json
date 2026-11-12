@@ -1,0 +1,10 @@
+{
+  "dataset": "3elt_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/3elt_dual/3elt_dual.mtx",
+  "matrix_sha256": "bb8ff687fbf4a611138284e54b90f4855f845dce8d1b38f4a7eec5dff9de1e1a",
+  "index_nnz": 26556,
+  "index_rows": 9000,
+  "elapsed_s": 0.801,
+  "returncode": 0,
+  "status": "ok"
+}

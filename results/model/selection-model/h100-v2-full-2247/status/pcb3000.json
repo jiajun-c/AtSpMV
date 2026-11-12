@@ -1,0 +1,17 @@
+{
+  "dataset": "pcb3000",
+  "matrix_sha256": "5acc5c7e7e143391df4c1943ead8378a4762736f543023fb639fbc906a9518d7",
+  "index_nnz": 57479,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 39.874,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "celegansneural",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/celegansneural/celegansneural.mtx",
+  "matrix_sha256": "5c670ed95f3d004e8eb87be594a9f832cda11560dc2f04490b8fdbeb74a221b8",
+  "index_nnz": 2345,
+  "index_rows": 297,
+  "elapsed_s": 0.57,
+  "returncode": 0,
+  "status": "ok"
+}

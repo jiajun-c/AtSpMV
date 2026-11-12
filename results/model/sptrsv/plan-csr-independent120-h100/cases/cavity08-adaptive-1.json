@@ -1,0 +1,8 @@
+{
+  "name": "cavity08",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/cavity08-L.mtx,model,cusparse,1182,45033,847,9662.559,638.6752319,7.66053887e-14,1.819154483e-17,1.123482519e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/cavity08-L.mtx,model-host,cusparse,1182,45033,847,9662.559,644.477915,7.66053887e-14,1.819154483e-17,1.123482519e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/cavity08-L.mtx,default,cusparse,1182,45033,-1,10093.862,638.6400146,7.66053887e-14,1.819154483e-17,1.123482519e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/cavity08-L.mtx,default-host,cusparse,1182,45033,-1,10093.862,644.742835,7.66053887e-14,1.819154483e-17,1.123482519e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "OPF_3754",
+  "matrix_sha256": "c94d28c71cb314e075b0285875f0872bb8cc9097f88af7099d7fe71d1b41b000",
+  "index_nnz": 158273,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.234,
+  "gpu_after": {
+    "utilization_percent": 15,
+    "free_memory_mib": 81079
+  }
+}

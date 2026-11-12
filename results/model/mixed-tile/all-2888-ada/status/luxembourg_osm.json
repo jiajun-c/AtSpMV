@@ -1,0 +1,15 @@
+{
+  "dataset": "luxembourg_osm",
+  "matrix_sha256": "3920e27dcdc7a4cfcf24b5e7c092584c54b7a71e8db042623d9c66741b2c0184",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.326,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

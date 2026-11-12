@@ -1,0 +1,15 @@
+{
+  "dataset": "g7jac200",
+  "matrix_sha256": "6103b2cd96398baa67845b2792bf47e8f943e2b58258ce7f41a67de4b460f1bc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.203,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

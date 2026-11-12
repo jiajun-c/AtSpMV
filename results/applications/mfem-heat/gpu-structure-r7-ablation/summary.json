@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "cusparse": {
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0,
+      "max_field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "median_evolution_s": 19.885289092500003,
+      "median_application_s": 21.4709381495,
+      "median_plan_s": 3.740933788,
+      "median_linear_s": 8.016577208,
+      "median_parameter_s": 3.8856287194999997,
+      "median_implicit_setup_s": 8.160309444500001,
+      "ratio_of_median_application_times": 1.0,
+      "ratio_of_median_evolution_times": 1.0
+    },
+    "atbsr": {
+      "evolution_speedup": 0.9849427450592598,
+      "application_speedup": 0.9924438493871277,
+      "process_wall_speedup": 0.9912992667884607,
+      "max_field_relative_error": 9.888137186574844e-14,
+      "same_cg_iterations": true,
+      "median_evolution_s": 20.190356418500002,
+      "median_application_s": 21.635363587,
+      "median_plan_s": 4.012754777,
+      "median_linear_s": 8.285608007,
+      "median_parameter_s": 4.003107418499999,
+      "median_implicit_setup_s": 8.088320742,
+      "ratio_of_median_application_times": 0.9924001537187571,
+      "ratio_of_median_evolution_times": 0.9848904437506376
+    }
+  },
+  "comparisons": [
+    {
+      "round": 0,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 0,
+      "backend": "atbsr",
+      "field_relative_error": 9.888137186574844e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 0.9951963499801508,
+      "application_speedup": 0.9985191049431758,
+      "process_wall_speedup": 0.9957456690807441
+    },
+    {
+      "round": 1,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 1,
+      "backend": "atbsr",
+      "field_relative_error": 9.888137186574844e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 0.9747947840285176,
+      "application_speedup": 0.9864055573001695,
+      "process_wall_speedup": 0.9868727194591048
+    }
+  ]
+}

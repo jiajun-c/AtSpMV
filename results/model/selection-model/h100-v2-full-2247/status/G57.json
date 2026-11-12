@@ -1,0 +1,17 @@
+{
+  "dataset": "G57",
+  "matrix_sha256": "27c4418e217e82c3d293ba506a2c4c2b4b5a07631a266fc27f9cf526a64b50b2",
+  "index_nnz": 20000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.682,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

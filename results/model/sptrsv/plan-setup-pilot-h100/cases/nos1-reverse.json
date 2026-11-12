@@ -1,0 +1,7 @@
+{
+  "name": "nos1",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/nos1-L.mtx,default,cusparse,2567.7425,2540.956,2615.863,9.9495,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/nos1-L.mtx,model,cached-csr,979.4225,943.603,1004.387,9.276,12\n",
+  "stderr": ""
+}

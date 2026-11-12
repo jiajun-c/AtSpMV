@@ -1,0 +1,233 @@
+[
+  {
+    "matrix": "rbsb480",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 775.1680017,
+    "global_c8_us": 720.6400037,
+    "best_global_us": 711.04002,
+    "local_shared_c1_us": 1068.928003,
+    "best_fused_graph_us": 288.4159982,
+    "cusparse_graph_us": 478.2400131
+  },
+  {
+    "matrix": "rbsb480",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 775.488019,
+    "global_c8_us": 720.3199863,
+    "best_global_us": 711.2640142,
+    "local_shared_c1_us": 1068.511963,
+    "best_fused_graph_us": 288.5439992,
+    "cusparse_graph_us": 477.6639938
+  },
+  {
+    "matrix": "rbsb480",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 775.3279805,
+    "global_c8_us": 720.960021,
+    "best_global_us": 711.1999989,
+    "local_shared_c1_us": 1068.287969,
+    "best_fused_graph_us": 288.4480059,
+    "cusparse_graph_us": 478.0479968
+  },
+  {
+    "matrix": "lund_a",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 124.9919981,
+    "global_c8_us": 111.1359969,
+    "best_global_us": 108.3199978,
+    "local_shared_c1_us": 180.1600009,
+    "best_fused_graph_us": 188.5440052,
+    "cusparse_graph_us": 465.6319916
+  },
+  {
+    "matrix": "lund_a",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 124.5760024,
+    "global_c8_us": 111.0400036,
+    "best_global_us": 107.8720018,
+    "local_shared_c1_us": 180.0960004,
+    "best_fused_graph_us": 187.7440065,
+    "cusparse_graph_us": 464.1279876
+  },
+  {
+    "matrix": "lund_a",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 124.7999966,
+    "global_c8_us": 111.1359969,
+    "best_global_us": 108.1599966,
+    "local_shared_c1_us": 180.1600009,
+    "best_fused_graph_us": 188.2559955,
+    "cusparse_graph_us": 465.3120041
+  },
+  {
+    "matrix": "soc-sign-bitcoin-alpha",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 1612.800002,
+    "global_c8_us": 1822.656035,
+    "best_global_us": 1822.656035,
+    "local_shared_c1_us": 7465.055943,
+    "best_fused_graph_us": 1007.359982,
+    "cusparse_graph_us": 1244.735956
+  },
+  {
+    "matrix": "soc-sign-bitcoin-alpha",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 1614.207983,
+    "global_c8_us": 1824.767947,
+    "best_global_us": 1824.767947,
+    "local_shared_c1_us": 7467.775822,
+    "best_fused_graph_us": 1008.191943,
+    "cusparse_graph_us": 1244.192004
+  },
+  {
+    "matrix": "soc-sign-bitcoin-alpha",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 1614.143968,
+    "global_c8_us": 1821.920037,
+    "best_global_us": 1821.920037,
+    "local_shared_c1_us": 7439.199924,
+    "best_fused_graph_us": 1007.007957,
+    "cusparse_graph_us": 1244.992018
+  },
+  {
+    "matrix": "odepa400",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 100.7359996,
+    "global_c8_us": 115.2959988,
+    "best_global_us": 115.2959988,
+    "local_shared_c1_us": 196.863994,
+    "best_fused_graph_us": 175.6480038,
+    "cusparse_graph_us": 474.6879935
+  },
+  {
+    "matrix": "odepa400",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 100.5119979,
+    "global_c8_us": 114.8480028,
+    "best_global_us": 114.8480028,
+    "local_shared_c1_us": 196.5440065,
+    "best_fused_graph_us": 175.1359999,
+    "cusparse_graph_us": 472.9599953
+  },
+  {
+    "matrix": "odepa400",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 100.7679999,
+    "global_c8_us": 115.2319983,
+    "best_global_us": 115.2319983,
+    "local_shared_c1_us": 197.1520036,
+    "best_fused_graph_us": 175.8079976,
+    "cusparse_graph_us": 475.1360118
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 492.5119877,
+    "global_c8_us": 649.9519944,
+    "best_global_us": 649.9519944,
+    "local_shared_c1_us": 2583.935976,
+    "best_fused_graph_us": 672.7679968,
+    "cusparse_graph_us": 981.151998
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 492.2879934,
+    "global_c8_us": 651.1679888,
+    "best_global_us": 651.1679888,
+    "local_shared_c1_us": 2590.784073,
+    "best_fused_graph_us": 672.0640063,
+    "cusparse_graph_us": 980.0959826
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 492.6080108,
+    "global_c8_us": 650.3999829,
+    "best_global_us": 650.3999829,
+    "local_shared_c1_us": 2608.351946,
+    "best_fused_graph_us": 672.1919775,
+    "cusparse_graph_us": 980.256021
+  },
+  {
+    "matrix": "sphere3",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 100.1600027,
+    "global_c8_us": 111.8720025,
+    "best_global_us": 111.8720025,
+    "local_shared_c1_us": 197.3440051,
+    "best_fused_graph_us": 189.7920072,
+    "cusparse_graph_us": 453.8879991
+  },
+  {
+    "matrix": "sphere3",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 100.3199965,
+    "global_c8_us": 111.9680032,
+    "best_global_us": 111.9680032,
+    "local_shared_c1_us": 197.3440051,
+    "best_fused_graph_us": 189.9839938,
+    "cusparse_graph_us": 454.400003
+  },
+  {
+    "matrix": "sphere3",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 100.4159972,
+    "global_c8_us": 112.127997,
+    "best_global_us": 112.127997,
+    "local_shared_c1_us": 197.5679994,
+    "best_fused_graph_us": 190.3679967,
+    "cusparse_graph_us": 455.4879963
+  },
+  {
+    "matrix": "email-Eu-core",
+    "iterations": 100,
+    "seed": 20261105,
+    "dsm_c8_us": 1593.760014,
+    "global_c8_us": 929.8560023,
+    "best_global_us": 929.8560023,
+    "local_shared_c1_us": 5854.847908,
+    "best_fused_graph_us": 589.1199708,
+    "cusparse_graph_us": 775.8079767
+  },
+  {
+    "matrix": "email-Eu-core",
+    "iterations": 100,
+    "seed": 20261106,
+    "dsm_c8_us": 1593.536019,
+    "global_c8_us": 928.7040234,
+    "best_global_us": 928.7040234,
+    "local_shared_c1_us": 5850.527763,
+    "best_fused_graph_us": 588.8640285,
+    "cusparse_graph_us": 777.0239711
+  },
+  {
+    "matrix": "email-Eu-core",
+    "iterations": 100,
+    "seed": 20261107,
+    "dsm_c8_us": 1593.888044,
+    "global_c8_us": 928.4480214,
+    "best_global_us": 928.4480214,
+    "local_shared_c1_us": 5853.983879,
+    "best_fused_graph_us": 589.0240073,
+    "cusparse_graph_us": 776.1920094
+  }
+]

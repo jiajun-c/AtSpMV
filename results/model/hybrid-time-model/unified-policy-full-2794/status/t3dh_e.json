@@ -1,0 +1,17 @@
+{
+  "dataset": "t3dh_e",
+  "matrix_sha256": "a8701d10f7e1cef12b783e946952766f74ad8337e686d1e1f0bb083d97c6b1c9",
+  "index_nnz": 4352105,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.225,
+  "gpu_after": {
+    "utilization_percent": 33,
+    "free_memory_mib": 81079
+  }
+}

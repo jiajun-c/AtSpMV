@@ -1,0 +1,30 @@
+{
+  "method": "Retrospective replay of independently timed existing candidates; cluster bootstrap samples approximate name-based families with replacement, preserving all matrices in each sampled family. These samples were already inspected; intervals do not account for tuning, timing noise, other model overlap, or family misclassification.",
+  "decisions_sha256": "92b082acb0a736aaf7bc9b30e581cf300157d3d028cdc3e566df4d8553b1e9f9",
+  "seed": 20261029,
+  "bootstrap_samples": 5000,
+  "datasets": {
+    "csr-vector-paired": {
+      "matrices": 80,
+      "approximate_families": 63,
+      "geomean_v2_speedup_vs_v1": 1.0088169859777247,
+      "bootstrap_95pct_interval": [
+        1.0000860920543397,
+        1.0204033445994065
+      ],
+      "v2_faster_5pct": 6,
+      "v2_slower_5pct": 2
+    },
+    "vector-model-independent-120": {
+      "matrices": 120,
+      "approximate_families": 120,
+      "geomean_v2_speedup_vs_v1": 1.0107049544996836,
+      "bootstrap_95pct_interval": [
+        1.0044292307835347,
+        1.0180732181322214
+      ],
+      "v2_faster_5pct": 12,
+      "v2_slower_5pct": 0
+    }
+  }
+}

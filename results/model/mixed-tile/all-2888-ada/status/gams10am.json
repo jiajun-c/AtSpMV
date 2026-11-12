@@ -1,0 +1,15 @@
+{
+  "dataset": "gams10am",
+  "matrix_sha256": "aacb9af58f6d0cc00ab98d37d0bfe85280e5daeced8a02a25119cf8da45baf1e",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.342,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

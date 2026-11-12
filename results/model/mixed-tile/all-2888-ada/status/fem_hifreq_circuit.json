@@ -1,0 +1,15 @@
+{
+  "dataset": "fem_hifreq_circuit",
+  "matrix_sha256": "758c51147e3b42425c7d7017786bc1ffdf9e13835319d28547c305383181c19c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.334,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

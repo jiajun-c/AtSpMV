@@ -1,0 +1,19 @@
+{
+  "dataset": "adder_dcop_44",
+  "matrix_sha256": "b3e2c3f1c8dba807d9907e1120264ff1d88ded5a063e4a08d83182fccb0fc199",
+  "index_nnz": 11245,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.254,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

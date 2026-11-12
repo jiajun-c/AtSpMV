@@ -1,0 +1,339 @@
+#!/usr/bin/env python3
+"""Measure actual tuned Plan selection against default AtBSR and cuSPARSE.
+
+The manifest is randomized before any observations. A foreign GPU process
+invalidates the current measurement and causes a retry after an idle grace.
+"""
+import argparse
+import csv
+import hashlib
+import json
+import os
+from pathlib import Path
+import random
+import signal
+import subprocess
+import time
+
+from benchmark_dsm_atbsr_full import apps, sha, write_json
+
+def reversed_plan_order(lines, warm_anchor):
+    return ([lines[0]]+list(reversed(lines[1:]))) if warm_anchor else list(reversed(lines))
+
+
+def gpu_state(index):
+    line = subprocess.check_output(['nvidia-smi', '-i', str(index), '--query-gpu=utilization.gpu,memory.free', '--format=csv,noheader,nounits'], text=True).strip()
+    util, free = (int(x.strip()) for x in line.split(','))
+    return {'utilization_percent': util, 'free_memory_mib': free}
+
+
+def recently_active_resident(nvml, device, allowed, seconds=3):
+    """Use per-process samples so our last kernel is not mistaken for a resident."""
+    try:
+        samples=nvml.nvmlDeviceGetProcessUtilization(device,int((time.time()-seconds)*1000000))
+    except nvml.NVMLError_NotFound:
+        return []
+    return [{'pid':x.pid,'sm':x.smUtil,'mem':x.memUtil,'timestamp':x.timeStamp}
+            for x in samples if x.pid in allowed and (x.smUtil or x.memUtil)]
+
+
+def shared_gpu_requires_wait(state,resident,grace,monitor_resident):
+    return bool(resident or (state and state['free_memory_mib']<1024) or
+                (state and state['utilization_percent'] and (grace or not monitor_resident)))
+
+
+def extended_baseline_minimum_bytes(row):
+    """Lower bound with input CSR, three packed AtBSRs and two CSR plans.
+
+    Excludes padding, extra tuning candidates and temporary workspace, so
+    passing this bound does not guarantee that the full benchmark will fit.
+    """
+    rows=int(row['rows']);cols=int(row['columns']);nnz=int(row['nnz'])
+    index_bytes=2 if cols<32767 else 4
+    return 12*nnz+3*(8+index_bytes)*nnz+2*12*nnz+3*4*(rows+1)+8*(rows+cols)
+
+
+def fallback_tuning_minimum_bytes(row, shared_atbsr=False):
+    """Additional bound for exhaustive fallback on the H100 benchmark.
+
+    Count six or twelve packed arrays (depending on storage sharing) only
+    when the maximum row length proves every tile shape fits the 32-bit
+    packed-slot limit. Baseline-first keeps baseline Plans alive during tuning.
+    """
+    rows=int(row['rows']); cols=int(row['columns']); nnz=int(row['nnz'])
+    maximum=int(row['longest_row_nnz'])
+    base=extended_baseline_minimum_bytes(row)
+    if nnz<=1000000 and rows<=349651 and cols<=1785345:
+        return base
+    for m in (1,2,4,8,16,32):
+        k=32//m
+        if ((rows+m-1)//m)*((maximum+k-1)//k)*32 > 2147483647:
+            return base
+    index_bytes=2 if cols<32767 else 4
+    return base+12*nnz+4*(rows+1)+(6 if shared_atbsr else 12)*(8+index_bytes)*nnz
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--exe', type=Path, required=True)
+    p.add_argument('--index', type=Path, required=True)
+    p.add_argument('--matrix-root', type=Path, required=True)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--gpu-index', type=int, required=True)
+    p.add_argument('--allow-pid', type=int, action='append', default=[], help='Explicitly authorized resident GPU process; results are shared-device measurements')
+    p.add_argument('--monitor-resident', action='store_true', help='Discard cases when NVML reports SM or memory activity for an allowed resident process')
+    p.add_argument('--selection', choices=('auto_tuned','auto_tuned_shared','auto_fast_tuned','auto_tuned_mixed','auto_model','auto_vector_model','auto_vector_model_2pct','auto_model_fallback_tuned'), default='auto_tuned')
+    p.add_argument('--counterbalance', action='store_true', help='Repeat each case with reversed Plan construction order')
+    p.add_argument('--extended-baselines', action='store_true', help='Also time the fixed AtBSR and CSR baselines used by the prior full sweep')
+    p.add_argument('--vector-candidates', action='store_true', help='Also measure six CSR vector widths')
+    p.add_argument('--compare-full-tune', action='store_true', help='Measure full Auto tuning alongside fast Auto tuning')
+    p.add_argument('--compare-auto-model', action='store_true', help='Measure existing model alongside vector-augmented model')
+    p.add_argument('--compare-vector-model', action='store_true', help='Also measure the vector-augmented model alongside mixed tuning')
+    p.add_argument('--compare-refined-model', action='store_true', help='Also measure bounded model-guided tuning')
+    p.add_argument('--compare-ungated-vector', action='store_true', help='Measure the zero-margin vector model alongside the 2% variant')
+    p.add_argument('--warm-setup-anchor', action='store_true', help='Construct default AtBSR first in both orders before comparing the two model plans')
+    p.add_argument('--alias-identical-models', action='store_true', help='Execute one shared Plan for model labels resolving to identical configs')
+    p.add_argument('--alias-identical-graphs', action='store_true', help='Execute the same Graph instance for aliased Plans')
+    p.add_argument('--internal-graph-events', action='store_true', help='Record timing events within the captured Graph')
+    p.add_argument('--share-atbsr-tuning-storage', action='store_true', help='Experimentally share packed data for normal and balanced tuning candidates')
+    p.add_argument('--retry-shared-storage-on-oom', action='store_true', help='Retry full tuning once with shared AtBSR storage after a CUDA allocation failure')
+    p.add_argument('--defer-memory-infeasible', action='store_true', help='Defer matrices whose provable input and baseline memory lower bound exceeds available GPU memory')
+    p.add_argument('--seed', type=int, default=20261028)
+    p.add_argument('--trials', type=int, default=9)
+    p.add_argument('--timeout', type=int, default=900)
+    p.add_argument('--limit', type=int, default=0)
+    a = p.parse_args()
+    if a.vector_candidates and not a.extended_baselines:
+        p.error('--vector-candidates requires --extended-baselines')
+    if a.compare_full_tune and a.selection not in ('auto_fast_tuned','auto_tuned_shared','auto_tuned_mixed'):
+        p.error('--compare-full-tune requires a fast, shared, or mixed tuned selection')
+    if a.compare_full_tune and a.share_atbsr_tuning_storage:
+        p.error('--compare-full-tune needs unshared auto_tuned as control')
+    if a.compare_auto_model and a.selection not in ('auto_vector_model','auto_vector_model_2pct','auto_tuned_mixed'):
+        p.error('--compare-auto-model requires a vector model or mixed tuned selection')
+    if a.compare_vector_model and (a.selection!='auto_tuned_mixed' or not a.compare_auto_model):
+        p.error('--compare-vector-model requires mixed tuning and --compare-auto-model')
+    if a.compare_refined_model and (not a.compare_vector_model or a.selection!='auto_tuned_mixed'):
+        p.error('--compare-refined-model requires mixed tuning and --compare-vector-model')
+    if a.compare_ungated_vector and a.selection!='auto_vector_model_2pct':
+        p.error('--compare-ungated-vector requires --selection auto_vector_model_2pct')
+    if a.warm_setup_anchor and not (a.compare_auto_model and a.counterbalance):
+        p.error('--warm-setup-anchor requires --compare-auto-model and --counterbalance')
+    if a.alias_identical_models and not a.compare_auto_model:
+        p.error('--alias-identical-models requires --compare-auto-model')
+    if a.alias_identical_graphs and not a.alias_identical_models:
+        p.error('--alias-identical-graphs requires --alias-identical-models')
+    if a.defer_memory_infeasible and not a.extended_baselines:
+        p.error('--defer-memory-infeasible requires --extended-baselines')
+    out = a.output
+    for d in (out, out/'raw', out/'status'):
+        d.mkdir(parents=True, exist_ok=True)
+    configs = out/'configs.csv'
+    lines=['atbsr,-1,-1,8,128,1,1024']
+    if a.extended_baselines:
+        lines.extend(['atbsr_m8,3,0,8,128,1,1024','atbsr_m1_balanced,0,1,8,128,1,1024',
+                      'csr_dsm_fixed,-1,-1,8,256,1,1024','csr_two_stage_fixed,-1,-1,8,256,1,1024'])
+    if a.vector_candidates:
+        lines.extend(f'csr_vec{width},-1,-1,{width},128,1,1024' for width in (1,2,4,8,16,32))
+    if a.compare_full_tune:lines.append('auto_tuned,-1,-1,8,128,1,1024')
+    if a.compare_auto_model:lines.append('auto_model,-1,-1,8,128,1,1024')
+    if a.compare_vector_model:lines.append('auto_vector_model,-1,-1,8,128,1,1024')
+    if a.compare_refined_model:lines.append('auto_model_refined,-1,-1,8,128,1,1024')
+    if a.compare_ungated_vector:lines.append('auto_vector_model,-1,-1,8,128,1,1024')
+    lines.append(f'{a.selection},-1,-1,8,128,1,1024')
+    expected_config = '\n'.join(lines)+'\n'
+    if configs.exists() and configs.read_text() != expected_config:
+        raise RuntimeError('configuration mismatch')
+    configs.write_text(expected_config)
+    reverse_configs = out/'configs-reversed.csv'
+    if a.counterbalance:
+        reverse_lines=reversed_plan_order(lines,a.warm_setup_anchor)
+        reverse = '\n'.join(reverse_lines)+'\n'
+        if reverse_configs.exists() and reverse_configs.read_text() != reverse:
+            raise RuntimeError('reversed configuration mismatch')
+        reverse_configs.write_text(reverse)
+    uuid = subprocess.check_output(['nvidia-smi', '-i', str(a.gpu_index), '--query-gpu=uuid', '--format=csv,noheader'], text=True).strip()
+    rows = list(csv.DictReader(a.index.open()))
+    if len({r['dataset'] for r in rows}) != len(rows) or any(Path(r['dataset']).name != r['dataset'] for r in rows):
+        raise ValueError('duplicate or invalid dataset names')
+    random.Random(a.seed).shuffle(rows)
+    if a.defer_memory_infeasible:
+        saved_manifest=a.output/'manifest.json'
+        if saved_manifest.exists():
+            previous=json.loads(saved_manifest.read_text())
+            if {r['dataset'] for r in previous}!={r['dataset'] for r in rows}:raise RuntimeError('saved manifest mismatch')
+            rows=previous
+        else:
+            initial_free=gpu_state(a.gpu_index)['free_memory_mib']*1024*1024
+            # Process initially feasible cases first without imposing a size
+            # cutoff; order within each class remains randomized.
+            bound=(lambda row:fallback_tuning_minimum_bytes(row,a.share_atbsr_tuning_storage or a.retry_shared_storage_on_oom)) if a.selection=='auto_model_fallback_tuned' and a.counterbalance else extended_baseline_minimum_bytes
+            rows.sort(key=lambda r:bound(r)>initial_free if r['status']=='ok' and r['nnz'] else False)
+    meta = {'index_sha256': sha(a.index), 'exe_sha256': sha(a.exe), 'config_sha256': sha(configs),
+            'runner_sha256': sha(Path(__file__)), 'gpu_uuid': uuid, 'seed': a.seed, 'trials': a.trials, 'timeout_s': a.timeout, 'allowed_gpu_pids': sorted(a.allow_pid), 'monitor_resident': a.monitor_resident, 'selection':a.selection,
+            'counterbalance':a.counterbalance, 'extended_baselines':a.extended_baselines, 'vector_candidates':a.vector_candidates, 'compare_full_tune':a.compare_full_tune, 'compare_auto_model':a.compare_auto_model, 'compare_vector_model':a.compare_vector_model, 'compare_refined_model':a.compare_refined_model, 'compare_ungated_vector':a.compare_ungated_vector, 'warm_setup_anchor':a.warm_setup_anchor, 'alias_identical_models':a.alias_identical_models, 'alias_identical_graphs':a.alias_identical_graphs, 'internal_graph_events':a.internal_graph_events, 'reverse_config_sha256':sha(reverse_configs) if a.counterbalance else None,
+            'defer_memory_infeasible':a.defer_memory_infeasible, 'share_atbsr_tuning_storage':a.share_atbsr_tuning_storage, 'retry_shared_storage_on_oom':a.retry_shared_storage_on_oom,
+            'idle_policy':'30s GPU-wide idle at startup/after interference; otherwise use per-process resident activity, foreign process detection and memory reserve. Polling cannot rule out short or non-compute interference.',
+            'method': 'Actual Plan selection before independent interleaved warm Graph timings; compare default AtBSR and preprocessed cuSPARSE CSR_ALG1. Each candidate checked with two nonuniform vectors and a graph against CPU long-double reference. Preparation excluded.'}
+    if (out/'metadata.json').exists():
+        if json.loads((out/'metadata.json').read_text()) != meta:
+            raise RuntimeError('metadata mismatch; use a fresh output directory')
+    else:
+        write_json(out/'metadata.json', meta)
+        write_json(out/'manifest.json', rows)
+    env = os.environ.copy()
+    env['CUDA_VISIBLE_DEVICES'] = str(a.gpu_index)
+    if a.alias_identical_models:env['ATSPMV_BENCH_ALIAS_IDENTICAL_MODELS']='1'
+    else:env.pop('ATSPMV_BENCH_ALIAS_IDENTICAL_MODELS',None)
+    if a.alias_identical_graphs:env['ATSPMV_BENCH_ALIAS_IDENTICAL_GRAPHS']='1'
+    else:env.pop('ATSPMV_BENCH_ALIAS_IDENTICAL_GRAPHS',None)
+    if a.internal_graph_events:env['ATSPMV_BENCH_INTERNAL_GRAPH_EVENTS']='1'
+    else:env.pop('ATSPMV_BENCH_INTERNAL_GRAPH_EVENTS',None)
+    if a.share_atbsr_tuning_storage:env['ATSPMV_BENCH_SHARE_ATBSR_PACKING']='1'
+    else:env.pop('ATSPMV_BENCH_SHARE_ATBSR_PACKING',None)
+    if a.retry_shared_storage_on_oom:env['ATSPMV_BENCH_RETRY_SHARED_ON_OOM']='1'
+    else:env.pop('ATSPMV_BENCH_RETRY_SHARED_ON_OOM',None)
+    if a.monitor_resident:
+        import pynvml
+        pynvml.nvmlInit()
+        nvml_device = pynvml.nvmlDeviceGetHandleByIndex(a.gpu_index)
+    count = 0
+    grace = True
+    for index, row in enumerate(rows):
+        name = row['dataset']
+        status = out/'status'/f'{name}.json'
+        if status.exists():
+            continue
+        matrix = a.matrix_root/name/(name+'.mtx')
+        if row['status'] != 'ok' or not matrix.is_file():
+            write_json(status, {'dataset': name, 'status': 'missing', 'path': str(matrix)})
+            continue
+        bound=(lambda row:fallback_tuning_minimum_bytes(row,a.share_atbsr_tuning_storage or a.retry_shared_storage_on_oom)) if a.selection=='auto_model_fallback_tuned' and a.counterbalance else extended_baseline_minimum_bytes
+        minimum_bytes=bound(row) if a.defer_memory_infeasible else 0
+        idle_since = None
+        while True:
+            foreign = [x for x in apps(uuid) if x['pid'] not in a.allow_pid]
+            if foreign:
+                grace = True
+                idle_since = None
+                print('WAIT GPU busy', foreign, flush=True)
+                time.sleep(15)
+                continue
+            state = gpu_state(a.gpu_index) if a.allow_pid else None
+            if minimum_bytes and state is None:state=gpu_state(a.gpu_index)
+            if minimum_bytes and state['free_memory_mib']*1024*1024<minimum_bytes:
+                idle_since=None;grace=True
+                print('WAIT proven memory lower bound',name,'need_mib',round(minimum_bytes/1024**2),'free_mib',state['free_memory_mib'],flush=True)
+                time.sleep(30)
+                continue
+            # GPU-wide utilization can include this runner's just-completed
+            # kernels. Once the initial grace has passed, use per-process
+            # samples for authorized residents; continue to reject all other
+            # compute processes and require a memory reserve.
+            try:
+                resident = recently_active_resident(pynvml,nvml_device,a.allow_pid) if a.monitor_resident else []
+            except Exception as e:
+                resident = [{'pid':-1,'name':'NVML monitor error: '+str(e)}]
+            if shared_gpu_requires_wait(state,resident,grace,a.monitor_resident):
+                idle_since = None
+                grace = True
+                print('WAIT shared GPU activity/memory', state, resident, flush=True)
+                time.sleep(5)
+                continue
+            if not grace:
+                break
+            if idle_since is None:
+                idle_since = time.monotonic()
+            if time.monotonic() - idle_since >= 30:
+                grace = False
+                break
+            time.sleep(5)
+        result = {'dataset': name, 'matrix_sha256': sha(matrix), 'index_nnz': int(row['nnz']), 'gpu_before': gpu_state(a.gpu_index), 'allowed_gpu_pids': sorted(a.allow_pid)}
+        tmp = out/'raw'/f'{name}.csv.tmp'
+        log = out/'raw'/f'{name}.log.tmp'
+        start = time.monotonic()
+        contested = False
+        timed_out = False
+        last_sample = int(time.time()*1000000)
+        def active_resident():
+            nonlocal last_sample
+            if not a.monitor_resident:
+                return []
+            try:
+                samples = pynvml.nvmlDeviceGetProcessUtilization(nvml_device, last_sample)
+            except pynvml.NVMLError_NotFound:
+                return []
+            if samples:
+                last_sample = max(x.timeStamp for x in samples)
+            return [{'pid': x.pid, 'sm': x.smUtil, 'mem': x.memUtil, 'timestamp': x.timeStamp} for x in samples if x.pid in a.allow_pid and (x.smUtil or x.memUtil)]
+        orders=[('baseline_first',configs)]
+        if a.counterbalance:
+            orders.append(('selection_first',reverse_configs))
+            if int(hashlib.sha256(f'{a.seed}:{name}'.encode()).hexdigest()[:2],16)%2:orders.reverse()
+        collected=[];rc=0
+        with log.open('w') as e:
+            for ordinal,(label,config) in enumerate(orders):
+                e.write(f'BENCH_ORDER,{label}\n');e.flush()
+                with tmp.open('w') as f:
+                    proc = subprocess.Popen([str(a.exe.resolve()), str(matrix.resolve()), str(config.resolve()), str(a.seed+ordinal), str(a.trials)], stdout=f, stderr=e, env=env, start_new_session=True)
+                    while proc.poll() is None:
+                        time.sleep(.5)
+                        try:
+                            foreign = [x for x in apps(uuid) if x['pid'] != proc.pid and x['pid'] not in a.allow_pid] + active_resident()
+                        except Exception:
+                            foreign = [{'pid': -1, 'name': 'GPU monitor error'}]
+                        if foreign or time.monotonic()-start > a.timeout:
+                            contested = bool(foreign)
+                            timed_out = not contested
+                            os.killpg(proc.pid, signal.SIGTERM)
+                            break
+                    try:
+                        rc = proc.wait(timeout=10)
+                    except subprocess.TimeoutExpired:
+                        os.killpg(proc.pid, signal.SIGKILL)
+                        rc = proc.wait()
+                if contested or rc!=0:break
+                with tmp.open() as f:
+                    part=list(csv.DictReader(f))
+                for record in part:record['order']=label
+                collected.extend(part)
+        if not contested and a.monitor_resident:
+            foreign = active_resident()
+            contested = bool(foreign)
+        if contested:
+            print('RETRY due to external GPU use', name, foreign, flush=True)
+            tmp.unlink(missing_ok=True)
+            log.unlink(missing_ok=True)
+            return 75  # wrapper restarts; discarded case remains pending
+        if rc==0:
+            with tmp.open('w',newline='') as f:
+                writer=csv.DictWriter(f,fieldnames=['backend','config','trial','us','order'])
+                writer.writeheader();writer.writerows(collected)
+        os.replace(tmp, out/'raw'/f'{name}.csv')
+        os.replace(log, out/'raw'/f'{name}.log')
+        result.update(status='timeout' if timed_out else ('ok' if rc == 0 else 'error'), returncode=rc, elapsed_s=round(time.monotonic()-start, 3), gpu_after=gpu_state(a.gpu_index))
+        if rc == 0:
+            with (out/'raw'/f'{name}.csv').open() as f:
+                records = list(csv.DictReader(f))
+            actual = {(r['backend'], int(r['trial']),r['order']) for r in records}
+            baseline_names=['atbsr','cusparse']+(['atbsr_m8','atbsr_m1_balanced','csr_dsm_fixed','csr_two_stage_fixed'] if a.extended_baselines else [])
+            if a.vector_candidates:baseline_names += [f'csr_vec{x}' for x in (1,2,4,8,16,32)]
+            if a.compare_full_tune:baseline_names.append('auto_tuned')
+            if a.compare_auto_model:baseline_names.append('auto_model')
+            if a.compare_vector_model:baseline_names.append('auto_vector_model')
+            if a.compare_refined_model:baseline_names.append('auto_model_refined')
+            if a.compare_ungated_vector:baseline_names.append('auto_vector_model')
+            expected = {(backend, trial,label) for label,_ in orders for backend in baseline_names+[a.selection] for trial in range(a.trials)}
+            if len(records) != len(expected) or actual != expected or any(not 0 < float(r['us']) < float('inf') for r in records):
+                result['status'] = 'invalid_output'
+        write_json(status, result)
+        count += 1
+        if count % 10 == 0 or result['status'] != 'ok':
+            print(f'{index+1}/{len(rows)} {name}: {result["status"]}, new={count}', flush=True)
+        if a.limit and count >= a.limit:
+            break
+    print('DONE new cases', count, flush=True)
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

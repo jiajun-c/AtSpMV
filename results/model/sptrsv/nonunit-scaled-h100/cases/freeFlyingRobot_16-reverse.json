@@ -1,0 +1,7 @@
+{
+  "name": "freeFlyingRobot_16",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/freeFlyingRobot_16-L.mtx,model,cusparse,6078,75923,-1,6650.116,543.5488281,1.976196984e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/freeFlyingRobot_16-L.mtx,model-host,cusparse,6078,75923,-1,6650.116,550.366455,1.976196984e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/freeFlyingRobot_16-L.mtx,default,cusparse,6078,75923,-1,6324.367,543.8815918,1.976196984e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/freeFlyingRobot_16-L.mtx,default-host,cusparse,6078,75923,-1,6324.367,550.44455,1.976196984e-14\n",
+  "stderr": ""
+}

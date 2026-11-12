@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_beaconfd",
+  "matrix_sha256": "f48b94e2dce6ea8b15c6764c9a0a2f38757715ab168bbcd7fc7d6adf12cfa116",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.895,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

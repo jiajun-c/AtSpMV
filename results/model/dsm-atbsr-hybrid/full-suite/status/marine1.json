@@ -1,0 +1,10 @@
+{
+  "dataset": "marine1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/marine1/marine1.mtx",
+  "matrix_sha256": "045ff0840b84078cb365e8bd865ab58c5048fd7c5a83550090e95e8b95edbf79",
+  "index_nnz": 6226538,
+  "index_rows": 400320,
+  "elapsed_s": 3.256,
+  "returncode": 0,
+  "status": "ok"
+}

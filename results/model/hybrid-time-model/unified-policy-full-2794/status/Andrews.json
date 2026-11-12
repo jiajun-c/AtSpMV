@@ -1,0 +1,17 @@
+{
+  "dataset": "Andrews",
+  "matrix_sha256": "be91d160b07d3d2950a3991845bd652f833c5eefef2f8d58285aa17f3ef606bb",
+  "index_nnz": 760154,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.271,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

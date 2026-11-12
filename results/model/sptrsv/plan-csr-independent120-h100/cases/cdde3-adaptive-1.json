@@ -1,0 +1,8 @@
+{
+  "name": "cdde3",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/cdde3-L.mtx,model,cached,961,7651,98,1869.554,80.95359802,8.881784197e-16,5.630756387e-17,1.021981126e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/cdde3-L.mtx,model-host,cached,961,7651,98,1869.554,86.775275,8.881784197e-16,5.630756387e-17,1.021981126e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/cdde3-L.mtx,default,cusparse,961,7651,-1,3805.173,142.4095917,8.881784197e-16,3.897160392e-17,1.059313347e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/cdde3-L.mtx,default-host,cusparse,961,7651,-1,3805.173,148.408205,8.881784197e-16,3.897160392e-17,1.059313347e-16,0\n",
+  "stderr": ""
+}

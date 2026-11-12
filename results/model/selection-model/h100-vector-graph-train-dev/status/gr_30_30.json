@@ -1,0 +1,17 @@
+{
+  "dataset": "gr_30_30",
+  "matrix_sha256": "f3eb41b3ae7349a00f034150d741293ca8cdb626d045476449bb1177e50c8a86",
+  "index_nnz": 7744,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.209,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

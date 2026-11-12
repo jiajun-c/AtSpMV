@@ -1,0 +1,15 @@
+{
+  "dataset": "ct20stif",
+  "matrix_sha256": "8cc830bbf60e20c934d059a07702a18f68e893ca35af63d42b7efe4c98d49912",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.683,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "cdde3",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/cdde3/cdde3.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 961,
+  "columns": 961,
+  "original_nnz": 4681,
+  "factor_L_nnz": 7651,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.0906174648553133
+}

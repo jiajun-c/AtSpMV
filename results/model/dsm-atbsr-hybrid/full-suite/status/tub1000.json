@@ -1,0 +1,10 @@
+{
+  "dataset": "tub1000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tub1000/tub1000.mtx",
+  "matrix_sha256": "a4d50693f3dc17326f5d265a510bea43e259a222061c0599ceac3a987c2814c1",
+  "index_nnz": 3996,
+  "index_rows": 1000,
+  "elapsed_s": 1.382,
+  "returncode": 0,
+  "status": "ok"
+}

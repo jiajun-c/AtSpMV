@@ -1,0 +1,17 @@
+{
+  "dataset": "flower_7_1",
+  "matrix_sha256": "da16849c8bd913d9ce8b83813c302b409219a21bb17245af5ae8196da8365788",
+  "index_nnz": 1178,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.281,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

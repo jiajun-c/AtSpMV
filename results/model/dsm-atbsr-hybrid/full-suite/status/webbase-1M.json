@@ -1,0 +1,10 @@
+{
+  "dataset": "webbase-1M",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/webbase-1M/webbase-1M.mtx",
+  "matrix_sha256": "2193ec714a68f5b8b036906001beaa77ec46adc7c39b19a626ad107d8989d264",
+  "index_nnz": 3105536,
+  "index_rows": 1000005,
+  "elapsed_s": 2.792,
+  "returncode": 0,
+  "status": "ok"
+}

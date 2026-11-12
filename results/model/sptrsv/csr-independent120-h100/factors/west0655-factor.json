@@ -1,0 +1,14 @@
+{
+  "matrix": "west0655",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/west0655/west0655.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 655,
+  "columns": 655,
+  "original_nnz": 2854,
+  "factor_L_nnz": 3445,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.030805258080363274
+}

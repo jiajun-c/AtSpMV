@@ -1,0 +1,7 @@
+{
+  "comparisons": 36,
+  "valid": 36,
+  "csr_more_than_5pct_faster": 12,
+  "ell_more_than_5pct_faster": 22,
+  "scope": "Synthetic FP16 inputs/FP32 accumulation and output; two plan orders, warm Graph; format conversion and setup excluded. CUDA/Tensor instructions require independent profiling."
+}

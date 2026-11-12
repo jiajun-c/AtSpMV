@@ -1,0 +1,17 @@
+{
+  "dataset": "shuttle_eddy",
+  "matrix_sha256": "e9a8361c6a23fd6f04ae3e9edde964fad81bde26847963efe00554253dac8253",
+  "index_nnz": 103599,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.164,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

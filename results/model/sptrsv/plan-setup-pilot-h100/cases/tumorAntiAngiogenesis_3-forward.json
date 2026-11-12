@@ -1,0 +1,7 @@
+{
+  "name": "tumorAntiAngiogenesis_3",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/tumorAntiAngiogenesis_3-L.mtx,default,cusparse,2922.48,2845.801,7306.394,10.3425,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/tumorAntiAngiogenesis_3-L.mtx,model,cached-csr,1029.628,929.428,2952.621,9.7985,12\n",
+  "stderr": ""
+}

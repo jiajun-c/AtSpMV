@@ -1,0 +1,17 @@
+{
+  "dataset": "Dubcova2",
+  "matrix_sha256": "482a2b5d9c6d476d27acea201582d0b9ed56483907c12604e859b54209ec7d94",
+  "index_nnz": 1030225,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 98.192,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bcsstk04",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cusparse,31363.671,96.3967979,1.021405183e-14,3.740774724e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cusparse-host,31363.671,104.7062,1.021405183e-14,3.740774724e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-1024,220.11,104.2623997,8.881784197e-15,2.572088242e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-host-1024,220.11,111.40467,8.881784197e-15,2.572088242e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-512,220.11,100.4768014,8.881784197e-15,2.572088242e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,cached-tiles-host-512,220.11,107.744705,8.881784197e-15,2.572088242e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,132,3641,128,selector-cached,220.11,100.5247951,8.881784197e-15,2.572088242e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "G14",
+  "matrix_sha256": "05421d19c32f99332d034487b9a06c0a56bd46d3c5c5468527311eb35033e701",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.131,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

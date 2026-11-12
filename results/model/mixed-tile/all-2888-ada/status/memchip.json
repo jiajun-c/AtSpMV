@@ -1,0 +1,15 @@
+{
+  "dataset": "memchip",
+  "matrix_sha256": "fac6311b28f5baaf94540f4a4e5dd6d0dc01760e03e186d37a17e8c07968e19f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 18.976,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

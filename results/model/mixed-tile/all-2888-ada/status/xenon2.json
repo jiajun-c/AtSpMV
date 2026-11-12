@@ -1,0 +1,15 @@
+{
+  "dataset": "xenon2",
+  "matrix_sha256": "41ee9aab840c769f3e0be3c797deb6380401a7346416e7569ac0852d1520a372",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.366,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

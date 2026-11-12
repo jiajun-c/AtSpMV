@@ -1,0 +1,19 @@
+{
+  "dataset": "cz10228",
+  "matrix_sha256": "694971ced351f5d6673ac147b184857f414eef0a81e070889aed591cb65a0de5",
+  "index_nnz": 102876,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.793,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

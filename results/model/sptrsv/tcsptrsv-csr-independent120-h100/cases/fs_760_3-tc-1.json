@@ -1,0 +1,9 @@
+{
+  "name": "fs_760_3",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/fs_760_3-L.mtx --------------\nsuccess open file\ninput matrix A: ( 768, 768 ) nnz = 9140\nloadfile time    = 0.00441 sec\nnnzL = 9140\ntime_for_csc2CompressTile = 2.77 ms\ntime_cuda_solve = 0.250930 ms, Mflops = 72.85\nVALIDATION finite=1 max_error=2.1316282072803006e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

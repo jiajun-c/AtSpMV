@@ -1,0 +1,15 @@
+{
+  "dataset": "JP",
+  "matrix_sha256": "e2b82db85814325f42b83bf19bc5f46ce8f76ae8000ed9e146d67dfa4e0cf8cc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 13.475,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

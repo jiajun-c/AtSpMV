@@ -1,0 +1,17 @@
+{
+  "dataset": "2D_54019_highK",
+  "matrix_sha256": "7da5183c9e99c28b58d4bfbb3e978a5561b698dc5e7fea485b52312d8055136c",
+  "index_nnz": 996414,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.692,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

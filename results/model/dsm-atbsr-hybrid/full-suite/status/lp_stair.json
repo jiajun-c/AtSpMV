@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_stair",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_stair/lp_stair.mtx",
+  "matrix_sha256": "7dc38c144344f53628f4fa8431e98ee89710a40f9e8c58364dec5d5fc46037d1",
+  "index_nnz": 4003,
+  "index_rows": 356,
+  "elapsed_s": 0.617,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "G45",
+  "matrix_sha256": "f5ea39dc50fcb4bbe3e89aec1b164d320f9d4c6d41e0e7711d64223a95880821",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.13,
+  "gpu_after": {
+    "utilization_percent": 16,
+    "free_memory_mib": 48508
+  }
+}

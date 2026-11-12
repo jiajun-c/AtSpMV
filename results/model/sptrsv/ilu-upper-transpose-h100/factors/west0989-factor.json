@@ -1,0 +1,7 @@
+{
+  "matrix": "west0989",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/west0989-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 8.649658411741257e-07
+}

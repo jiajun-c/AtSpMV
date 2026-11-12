@@ -1,0 +1,15 @@
+{
+  "dataset": "ted_AB",
+  "matrix_sha256": "f40e7b66f0b060d2695a554d32fef52030f37ea41c38b0ea7a4af5d0b5940fb7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.498,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

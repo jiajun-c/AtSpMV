@@ -1,0 +1,17 @@
+{
+  "dataset": "G17",
+  "matrix_sha256": "b269a15051dfdb5b3132a08f49b175719d946dc496223db2c60c3bb627143712",
+  "index_nnz": 9334,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.627,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

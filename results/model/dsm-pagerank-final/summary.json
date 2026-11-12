@@ -1,0 +1,68 @@
+[
+  {
+    "matrix": "netscience",
+    "iterations": 100,
+    "seed": 20261111,
+    "dsm_c8_us": 376.2240112,
+    "global_c8_us": 420.4480052,
+    "best_global_us": 420.4480052,
+    "local_shared_c1_us": 1949.216008,
+    "best_fused_graph_us": 603.4560204,
+    "cusparse_graph_us": 897.1520066
+  },
+  {
+    "matrix": "netscience",
+    "iterations": 100,
+    "seed": 20261112,
+    "dsm_c8_us": 377.7279854,
+    "global_c8_us": 421.0560024,
+    "best_global_us": 421.0560024,
+    "local_shared_c1_us": 1948.608041,
+    "best_fused_graph_us": 604.3199897,
+    "cusparse_graph_us": 898.6560106
+  },
+  {
+    "matrix": "netscience",
+    "iterations": 100,
+    "seed": 20261113,
+    "dsm_c8_us": 376.767993,
+    "global_c8_us": 420.2240109,
+    "best_global_us": 420.2240109,
+    "local_shared_c1_us": 1941.472054,
+    "best_fused_graph_us": 603.392005,
+    "cusparse_graph_us": 897.2480297
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261111,
+    "dsm_c8_us": 492.2879934,
+    "global_c8_us": 650.3999829,
+    "best_global_us": 650.3999829,
+    "local_shared_c1_us": 2574.143887,
+    "best_fused_graph_us": 672.6400256,
+    "cusparse_graph_us": 980.799973
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261112,
+    "dsm_c8_us": 492.3200011,
+    "global_c8_us": 650.143981,
+    "best_global_us": 650.143981,
+    "local_shared_c1_us": 2584.352016,
+    "best_fused_graph_us": 672.2559929,
+    "cusparse_graph_us": 980.3199768
+  },
+  {
+    "matrix": "NotreDame_yeast",
+    "iterations": 100,
+    "seed": 20261113,
+    "dsm_c8_us": 492.5119877,
+    "global_c8_us": 649.4399905,
+    "best_global_us": 649.4399905,
+    "local_shared_c1_us": 2579.040051,
+    "best_fused_graph_us": 672.4479795,
+    "cusparse_graph_us": 980.0959826
+  }
+]

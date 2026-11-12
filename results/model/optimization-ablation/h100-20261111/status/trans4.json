@@ -1,0 +1,31 @@
+{
+  "dataset": "trans4",
+  "status": "ok",
+  "matrix_sha256": "483c4cfd42e940a97b1c263d695d0d11245cd74962a04601a592cec172c227ff",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/trans4/trans4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/trans4-0.csv",
+        "20261123",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 69.56988629302941
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/trans4/trans4.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/trans4-1.csv",
+        "20261124",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 69.96044194698334
+    }
+  ]
+}

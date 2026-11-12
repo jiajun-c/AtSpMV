@@ -1,0 +1,15 @@
+{
+  "dataset": "can_445",
+  "matrix_sha256": "6162a7fff03940927ee2af0edd80f0be1d913d98751c0466cbf7d26032ba02c4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.934,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

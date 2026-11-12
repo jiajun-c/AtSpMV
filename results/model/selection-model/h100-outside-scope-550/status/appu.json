@@ -1,0 +1,17 @@
+{
+  "dataset": "appu",
+  "matrix_sha256": "f677a0793629811f0f24e5c00d628632ebcd282eab728939cd3fafb5a03a20ba",
+  "index_nnz": 1853104,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 65.171,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

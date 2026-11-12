@@ -1,0 +1,15 @@
+{
+  "dataset": "cq5",
+  "matrix_sha256": "8805a8cc196115be929b68b87eca8da1d8f6e0ec92f18ab8531ea182ad699967",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.538,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

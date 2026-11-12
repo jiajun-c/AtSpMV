@@ -1,0 +1,15 @@
+{
+  "dataset": "bips07_2476",
+  "matrix_sha256": "f6958abc26acc00191f800bc51886998ac9ee954e7f2cb46a077f608faf0f6b4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.347,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

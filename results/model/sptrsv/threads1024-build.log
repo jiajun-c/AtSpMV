@@ -1,0 +1,8 @@
+[ 16%] Built target dragonbox_to_chars
+[ 50%] Built target ryu
+[ 75%] Built target atspmv_core_objects
+[ 83%] Built target atspmv_core
+Consolidate compiler generated dependencies of target sptrsv_level_bench
+[ 91%] Building CUDA object CMakeFiles/sptrsv_level_bench.dir/bench/sptrsv_level_bench.cu.o
+[100%] Linking CXX executable sptrsv_level_bench
+[100%] Built target sptrsv_level_bench

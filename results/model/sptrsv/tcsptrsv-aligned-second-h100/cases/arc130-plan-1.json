@@ -1,0 +1,9 @@
+{
+  "name": "arc130",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,default,cusparse,144,377,-1,2083.701,17.06559944,5.551115123e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,default-host,cusparse,144,377,-1,2083.701,23.355135,5.551115123e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,model,cached,144,377,15,1110.986,14.0223999,5.551115123e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx,model-host,cached,144,377,15,1110.986,19.97652,5.551115123e-15\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "exe_sha256": "624c0f756273c55ff0ecf39b3481a3d9aef15ee2765d2a151ebb379a3e445138",
+  "index_sha256": "d0c585eb17827b57e15119cdfacb3ee6da40e18acfaded3df71237e050af96cf",
+  "runner_sha256": "7efebc7d14601af5fbf86517c8fd170623bcab702c9613a5ed0d7041aa4efc71",
+  "trials": 9,
+  "seed": 20261028,
+  "timeout": 600,
+  "method": "Two separate processes with opposite construction order; 8 SpMVs per warm Graph and internal event nodes; random interleaved candidates. Includes shared-layout dynamic, specialized, and three balanced mixed kernels, default and 24 fixed AtBSR candidates. Check two input vectors directly and Graph against CPU long-double reference. Setup excluded. Foreign GPU detection is sampled."
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "EAT_RS",
+  "matrix_sha256": "f5f2846224b0afd1a81ba65df6f65a08724aff44de353ef3925f99de96347722",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.872,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

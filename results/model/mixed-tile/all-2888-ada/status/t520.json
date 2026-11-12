@@ -1,0 +1,15 @@
+{
+  "dataset": "t520",
+  "matrix_sha256": "53bc4951d923f506a8e305fba86ba2e5c7dd71fdda994939ede507f1f9ea402d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.471,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

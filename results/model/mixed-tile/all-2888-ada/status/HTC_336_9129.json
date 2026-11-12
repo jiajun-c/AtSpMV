@@ -1,0 +1,15 @@
+{
+  "dataset": "HTC_336_9129",
+  "matrix_sha256": "ed0694acdbd5de401ecabca6894ddcf2641383daef931ec89079cb7359658515",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.123,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

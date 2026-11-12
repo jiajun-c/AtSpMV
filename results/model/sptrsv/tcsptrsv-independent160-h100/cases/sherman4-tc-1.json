@@ -1,0 +1,9 @@
+{
+  "name": "sherman4",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/sherman4-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1104, 1104 ) nnz = 7639\nloadfile time    = 0.00342 sec\nnnzL = 7639\ntime_for_csc2CompressTile = 2.77 ms\ntime_cuda_solve = 0.255300 ms, Mflops = 59.84\nVALIDATION finite=1 max_error=2.1094237467877974e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

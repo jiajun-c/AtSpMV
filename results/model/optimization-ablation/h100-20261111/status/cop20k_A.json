@@ -1,0 +1,31 @@
+{
+  "dataset": "cop20k_A",
+  "status": "ok",
+  "matrix_sha256": "57ac0d3d29c51e39e4b669d78e5da81e34d66859581c1208c28295a69351728a",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cop20k_A/cop20k_A.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/cop20k_A-0.csv",
+        "20261117",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.8845501318573952
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cop20k_A/cop20k_A.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/cop20k_A-1.csv",
+        "20261118",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.9148345179855824
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "matrix": "email-Eu-core",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core/email-Eu-core.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1005,
+  "columns": 1005,
+  "original_nnz": 25571,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.022389979101717472
+}

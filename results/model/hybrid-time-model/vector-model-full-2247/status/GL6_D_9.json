@@ -1,0 +1,17 @@
+{
+  "dataset": "GL6_D_9",
+  "matrix_sha256": "cb586d4284bf76da125b6206e9a73173cc416341f7540ba01d819ad9ade986b5",
+  "index_nnz": 4349,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.011,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "BenElechi1",
+  "matrix_sha256": "e9146e18795ade006548fa2368c705075f922a86d21445a1fee25722c1247072",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.721,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "wiki-Talk",
+  "matrix_sha256": "6c7f3c21bba142109fee12d5304c90d80d29464e3c6167a06251ec8d1538f7e7",
+  "index_nnz": 5021410,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 84.718,
+  "gpu_after": {
+    "utilization_percent": 26,
+    "free_memory_mib": 81079
+  }
+}

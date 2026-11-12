@@ -1,0 +1,9 @@
+{
+  "name": "gre_343",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_343-L.mtx --------------\nsuccess open file\ninput matrix A: ( 352, 352 ) nnz = 2483\nloadfile time    = 0.00117 sec\nnnzL = 2483\ntime_for_csc2CompressTile = 2.94 ms\ntime_cuda_solve = 0.189980 ms, Mflops = 26.14\nVALIDATION finite=1 max_error=4.0967229608668276e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

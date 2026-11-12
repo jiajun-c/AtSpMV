@@ -1,0 +1,15 @@
+{
+  "dataset": "email-EuAll",
+  "matrix_sha256": "45b93a767f37105dee48d6ba0689a27b34458139239d1a309d4f5cc1e0834344",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.354,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

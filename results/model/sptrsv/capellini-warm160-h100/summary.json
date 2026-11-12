@@ -1,0 +1,12 @@
+{
+  "manifest_count": 160,
+  "status_counts": {
+    "factor_missing": 56,
+    "ok": 104
+  },
+  "valid_pairs": 104,
+  "plan_wins": 104,
+  "caveat": "locally adapted Capellini mix and Plan CUDA 12.6; identical padded unit-diagonal factors; synchronized host timing includes per-solve resets and excludes preprocessing; two rounds, invalid omitted; tc-named raw columns refer to Capellini",
+  "geomean_capellini_over_plan": 2.2726577737211664,
+  "capellini_warmup_solves": 5
+}

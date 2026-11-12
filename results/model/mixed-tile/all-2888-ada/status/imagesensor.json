@@ -1,0 +1,15 @@
+{
+  "dataset": "imagesensor",
+  "matrix_sha256": "55014f9feab4c7b29c2923f67cf64b053d427ab0af834056f03ba0447db8073e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.49,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

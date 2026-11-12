@@ -1,0 +1,10 @@
+{
+  "dataset": "va2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/va2010/va2010.mtx",
+  "matrix_sha256": "5ff26a3606fe61f92caeb2b3dc9da0e72aa0fe9af3471043a3a11cae6323583d",
+  "index_nnz": 1402128,
+  "index_rows": 285762,
+  "elapsed_s": 1.367,
+  "returncode": 0,
+  "status": "ok"
+}

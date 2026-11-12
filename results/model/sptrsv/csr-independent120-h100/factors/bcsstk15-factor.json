@@ -1,0 +1,14 @@
+{
+  "matrix": "bcsstk15",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/bcsstk15/bcsstk15.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3948,
+  "columns": 3948,
+  "original_nnz": 117816,
+  "factor_L_nnz": 285202,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.3227550161536783
+}

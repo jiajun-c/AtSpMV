@@ -1,0 +1,17 @@
+{
+  "dataset": "GlossGT",
+  "matrix_sha256": "bdd5f7a9dec58ceea16fa7c6006aa1b635be460fc3f79a47bcc8fb0fcb5bf373",
+  "index_nnz": 122,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.049,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

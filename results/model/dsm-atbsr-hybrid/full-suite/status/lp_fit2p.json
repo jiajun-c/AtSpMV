@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_fit2p",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_fit2p/lp_fit2p.mtx",
+  "matrix_sha256": "d2642ef31972aa20be48183dd7330ab3494c64b1d81c6d77fd8ff26a95d63f42",
+  "index_nnz": 50284,
+  "index_rows": 3000,
+  "elapsed_s": 0.692,
+  "returncode": 0,
+  "status": "ok"
+}

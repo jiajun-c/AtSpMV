@@ -1,0 +1,17 @@
+{
+  "dataset": "Queen_4147",
+  "matrix_sha256": "53e0813c865bdd1d03c3b7453dab7d061a4ca00ddd9494af33d06ae42fcf468a",
+  "index_nnz": 329499284,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 244.138,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

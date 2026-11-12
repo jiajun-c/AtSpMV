@@ -1,0 +1,17 @@
+{
+  "dataset": "Si34H36",
+  "matrix_sha256": "bbb2a085214bce367c8eab4c522b9042f914374cbb65ecb6d00e04fd828df655",
+  "index_nnz": 5156379,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.487,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

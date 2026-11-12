@@ -1,0 +1,7 @@
+{
+  "name": "Plants_10NN",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/Plants_10NN-L.mtx,default,cusparse,1600,51358,-1,6820.735,446.4064026,7.183142969e-14,2.165286182e-17,1.278225616e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Plants_10NN-L.mtx,default-host,cusparse,1600,51358,-1,6820.735,453.887235,7.183142969e-14,2.165286182e-17,1.278225616e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Plants_10NN-L.mtx,model,cusparse,1600,51358,427,6825.286,446.3359985,7.183142969e-14,2.165286182e-17,1.278225616e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Plants_10NN-L.mtx,model-host,cusparse,1600,51358,427,6825.286,454.13099,7.183142969e-14,2.165286182e-17,1.278225616e-16,0\n",
+  "stderr": ""
+}

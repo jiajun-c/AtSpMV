@@ -1,0 +1,56 @@
+[
+  {
+    "iterations": 1024,
+    "seed": 202610271,
+    "csv": "iter1024-seed202610271.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1485 MHz, 9501 MHz, 60, 269.72 W, 74 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 72.85 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1545 MHz, 1593 MHz, 63, 283.32 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 345 MHz, 1593 MHz, 33, 48.82 W, 0 %, 0 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2085 MHz, 9501 MHz, 64, 265.12 W, 88 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.71 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1485 MHz, 1593 MHz, 65, 339.06 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 34, 86.30 W, 0 %, 0 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  },
+  {
+    "iterations": 1024,
+    "seed": 202610272,
+    "csv": "iter1024-seed202610272.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1440 MHz, 9501 MHz, 64, 265.12 W, 88 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.04 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1515 MHz, 1593 MHz, 65, 345.03 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 34, 86.91 W, 0 %, 0 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2115 MHz, 9501 MHz, 63, 269.88 W, 67 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.75 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1560 MHz, 1593 MHz, 65, 323.00 W, 92 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 35, 86.02 W, 58 %, 4 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  },
+  {
+    "iterations": 1024,
+    "seed": 202610273,
+    "csv": "iter1024-seed202610273.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1395 MHz, 9501 MHz, 63, 269.88 W, 67 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.75 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1530 MHz, 1593 MHz, 64, 328.35 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 35, 86.02 W, 58 %, 4 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1395 MHz, 9501 MHz, 63, 268.23 W, 87 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2535 MHz, 10001 MHz, 35, 72.99 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 61, 194.20 W, 65 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 35, 86.23 W, 35 %, 4 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  },
+  {
+    "iterations": 2048,
+    "seed": 202610271,
+    "csv": "iter2048-seed202610271.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2580 MHz, 9501 MHz, 63, 268.23 W, 87 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2535 MHz, 10001 MHz, 35, 72.99 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1560 MHz, 1593 MHz, 62, 194.20 W, 82 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 35, 86.48 W, 35 %, 4 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1575 MHz, 9501 MHz, 60, 265.95 W, 98 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2475 MHz, 10001 MHz, 36, 66.88 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1740 MHz, 1593 MHz, 62, 340.34 W, 95 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 36, 86.50 W, 69 %, 4 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  },
+  {
+    "iterations": 2048,
+    "seed": 202610272,
+    "csv": "iter2048-seed202610272.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2025 MHz, 9501 MHz, 59, 267.16 W, 98 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 74.87 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1455 MHz, 1593 MHz, 62, 340.80 W, 95 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 36, 86.80 W, 0 %, 4 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1740 MHz, 9501 MHz, 63, 272.43 W, 100 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.14 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1485 MHz, 1593 MHz, 64, 345.22 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 36, 85.15 W, 100 %, 4 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  },
+  {
+    "iterations": 2048,
+    "seed": 202610273,
+    "csv": "iter2048-seed202610273.csv",
+    "gpu_before": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1350 MHz, 9501 MHz, 63, 272.43 W, 100 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 83.14 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1725 MHz, 1593 MHz, 63, 340.34 W, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 36, 85.35 W, 0 %, 4 MiB\n",
+    "gpu_after": "index, uuid, name, driver_version, clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu, power.draw [W], utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 580.178.04, 1365 MHz, 9501 MHz, 63, 265.97 W, 100 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 580.178.04, 2760 MHz, 10001 MHz, 36, 69.54 W, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 61, 200.58 W, 72 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 580.178.04, 1755 MHz, 1593 MHz, 36, 85.52 W, 2 %, 4 MiB\n",
+    "candidates": 128,
+    "cluster16_supported": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "dataset": "rotor1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rotor1/rotor1.mtx",
+  "matrix_sha256": "dfcc1b3232b134b149474945b7f26dee2c573324fbefca7e02f4df993a8dac42",
+  "index_nnz": 708,
+  "index_rows": 100,
+  "elapsed_s": 1.318,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "zenios",
+  "matrix_sha256": "c097cff8819212fff36fa738a8cd72dd9ceee977f3e07c24b18848fea30e6f31",
+  "index_nnz": 27191,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.424,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "method": "CPU structural descriptors after SciPy CSR duplicate coalescing and column sorting. A 64-byte x line assumes aligned FP64 x. Descriptors do not model actual AtBSR row order, hardware cache state, or performance causality.",
+  "cases": [
+    {
+      "dataset": "delaunay_n17",
+      "matrix_sha256": "b6f5470754d99199b2d51199e88b405024c9224f34c86c8bfbbb3732b58e9a9c",
+      "rows": 131072,
+      "cols": 131072,
+      "nnz_after_scipy_duplicate_coalescing": 786352,
+      "distinct_columns": 131072,
+      "distinct_64byte_x_lines": 16384,
+      "mean_nonempty_row_span": 55388.03544616699,
+      "median_nonempty_row_span": 58050.5,
+      "mean_within_row_sorted_column_gap": 11078.759476864852
+    },
+    {
+      "dataset": "smallworld",
+      "matrix_sha256": "664de2f80df75a5c7facd12a211acf5de8ed27f87e76654e2acf8a3d016db7aa",
+      "rows": 100000,
+      "cols": 100000,
+      "nnz_after_scipy_duplicate_coalescing": 999996,
+      "distinct_columns": 100000,
+      "distinct_64byte_x_lines": 12500,
+      "mean_nonempty_row_span": 43763.16342,
+      "median_nonempty_row_span": 45777.5,
+      "mean_within_row_sorted_column_gap": 4862.48421326317
+    },
+    {
+      "dataset": "ch7-8-b4",
+      "matrix_sha256": "c54a6d5f5a29a715cdb03b80e6b7d07ee443fd3a12ee2cbd232129b6cd46c005",
+      "rows": 141120,
+      "cols": 58800,
+      "nnz_after_scipy_duplicate_coalescing": 705600,
+      "distinct_columns": 58800,
+      "distinct_64byte_x_lines": 7350,
+      "mean_nonempty_row_span": 17336.19684665533,
+      "median_nonempty_row_span": 14911.0,
+      "mean_within_row_sorted_column_gap": 4333.7992116638325
+    },
+    {
+      "dataset": "G2_circuit",
+      "matrix_sha256": "cddcb9e6e489878da31359a0032cf9e98211a0b974b10daf1b17fe4bf26fa941",
+      "rows": 150102,
+      "cols": 150102,
+      "nnz_after_scipy_duplicate_coalescing": 726674,
+      "distinct_columns": 150102,
+      "distinct_64byte_x_lines": 18763,
+      "mean_nonempty_row_span": 14661.748264513464,
+      "median_nonempty_row_span": 397.0,
+      "mean_within_row_sorted_column_gap": 3816.709163816488
+    },
+    {
+      "dataset": "cont-300",
+      "matrix_sha256": "6db956d1b283e5056a3fac34fdf6a45d0da2449aa8076cd074e29c76ba5b4b1b",
+      "rows": 180895,
+      "cols": 180895,
+      "nnz_after_scipy_duplicate_coalescing": 988195,
+      "distinct_columns": 180895,
+      "distinct_64byte_x_lines": 22612,
+      "mean_nonempty_row_span": 46045.90873711269,
+      "median_nonempty_row_span": 67798.0,
+      "mean_within_row_sorted_column_gap": 10317.470291093769
+    },
+    {
+      "dataset": "kneser_10_4_1",
+      "matrix_sha256": "8dc31c018612d96c6cedf2f01104e43553e43ac2eb929c7cfa4076ea6e61ba01",
+      "rows": 349651,
+      "cols": 330751,
+      "nnz_after_scipy_duplicate_coalescing": 992252,
+      "distinct_columns": 330751,
+      "distinct_64byte_x_lines": 41344,
+      "mean_nonempty_row_span": 22789.968271219015,
+      "median_nonempty_row_span": 1.0,
+      "mean_within_row_sorted_column_gap": 12399.895961879922
+    },
+    {
+      "dataset": "rel8",
+      "matrix_sha256": "bcab606586694575f6938172b678a8856ea3fda4a2ea5eeb5d1bf34b6cb39d43",
+      "rows": 345688,
+      "cols": 12347,
+      "nnz_after_scipy_duplicate_coalescing": 821839,
+      "distinct_columns": 12345,
+      "distinct_64byte_x_lines": 1544,
+      "mean_nonempty_row_span": 2924.4618229470007,
+      "median_nonempty_row_span": 2669.0,
+      "mean_within_row_sorted_column_gap": 978.1602016242313
+    },
+    {
+      "dataset": "thermomech_TC",
+      "matrix_sha256": "d0c14679377b82e2dc97ceebe0cc325c7455fd812d61fc849233cfd13ff9a5ec",
+      "rows": 102158,
+      "cols": 102158,
+      "nnz_after_scipy_duplicate_coalescing": 711558,
+      "distinct_columns": 102158,
+      "distinct_64byte_x_lines": 12770,
+      "mean_nonempty_row_span": 45420.957878971785,
+      "median_nonempty_row_span": 45131.5,
+      "mean_within_row_sorted_column_gap": 7614.066388250739
+    },
+    {
+      "dataset": "thermomech_TK",
+      "matrix_sha256": "9f90384872e56c770aaf6c61ecf011742528d2974e7b93b53ff028e6513374c4",
+      "rows": 102158,
+      "cols": 102158,
+      "nnz_after_scipy_duplicate_coalescing": 711558,
+      "distinct_columns": 102158,
+      "distinct_64byte_x_lines": 12770,
+      "mean_nonempty_row_span": 45420.957878971785,
+      "median_nonempty_row_span": 45131.5,
+      "mean_within_row_sorted_column_gap": 7614.066388250739
+    },
+    {
+      "dataset": "uni_chimera_i4",
+      "matrix_sha256": "126864edaf57d7b52542c4fe19262500944294fd546bffa635cf15d881c20ba0",
+      "rows": 100000,
+      "cols": 100000,
+      "nnz_after_scipy_duplicate_coalescing": 814436,
+      "distinct_columns": 100000,
+      "distinct_64byte_x_lines": 12500,
+      "mean_nonempty_row_span": 74233.45586,
+      "median_nonempty_row_span": 79683.5,
+      "mean_within_row_sorted_column_gap": 10390.357689142205
+    }
+  ]
+}

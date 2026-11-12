@@ -1,0 +1,19 @@
+{
+  "dataset": "inlet",
+  "matrix_sha256": "be765fbbcd0eaf2f43ebe64d23de535a1abe569e98bb1aa6ec985a6268205fd9",
+  "index_nnz": 328323,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.688,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

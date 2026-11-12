@@ -1,0 +1,9 @@
+{
+  "name": "jagmesh6",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/jagmesh6-L.mtx,default,cusparse,1392,13431,-1,4778.544,519.1167603,4.237721285e-13,1.948529251e-17,1.050254011e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/jagmesh6-L.mtx,default-host,cusparse,1392,13431,-1,4778.544,525.71944,4.237721285e-13,1.948529251e-17,1.050254011e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/jagmesh6-L.mtx,model,cached-csr,1392,13431,505,1901.18,265.6640015,4.237721285e-13,1.948529251e-17,1.050254011e-16,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/jagmesh6-L.mtx,model-host,cached-csr,1392,13431,505,1901.18,271.90709,4.237721285e-13,1.948529251e-17,1.050254011e-16,256\n",
+  "stderr": ""
+}

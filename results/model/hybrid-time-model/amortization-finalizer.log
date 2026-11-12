@@ -1,0 +1,92 @@
+{
+  "cases": 2247,
+  "manifest_total": 2247,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 1501,
+  "median_break_even_calls": 10071,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "baseline_setup_comparison_valid": true,
+  "reuse_scenarios": {
+    "1": {
+      "cases": 2247,
+      "geomean_speedup": 0.6470329710702816,
+      "wins": 269
+    },
+    "10": {
+      "cases": 2247,
+      "geomean_speedup": 0.649953928606542,
+      "wins": 271
+    },
+    "100": {
+      "cases": 2247,
+      "geomean_speedup": 0.6760932124885729,
+      "wins": 276
+    },
+    "1000": {
+      "cases": 2247,
+      "geomean_speedup": 0.806690472083414,
+      "wins": 374
+    },
+    "10000": {
+      "cases": 2247,
+      "geomean_speedup": 0.9824130313058166,
+      "wins": 889
+    },
+    "100000": {
+      "cases": 2247,
+      "geomean_speedup": 1.0457818036428075,
+      "wins": 1205
+    },
+    "1000000": {
+      "cases": 2247,
+      "geomean_speedup": 1.0550450631002941,
+      "wins": 1425
+    }
+  }
+}
+{
+  "cases": 2247,
+  "manifest_total": 2247,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 2152,
+  "median_break_even_calls": 236132.5,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "baseline_setup_comparison_valid": true,
+  "reuse_scenarios": {
+    "1": {
+      "cases": 2247,
+      "geomean_speedup": 0.0314090044341126,
+      "wins": 3
+    },
+    "10": {
+      "cases": 2247,
+      "geomean_speedup": 0.03174467660791025,
+      "wins": 4
+    },
+    "100": {
+      "cases": 2247,
+      "geomean_speedup": 0.034954297724310336,
+      "wins": 4
+    },
+    "1000": {
+      "cases": 2247,
+      "geomean_speedup": 0.06031662151492259,
+      "wins": 5
+    },
+    "10000": {
+      "cases": 2247,
+      "geomean_speedup": 0.21870237344356416,
+      "wins": 5
+    },
+    "100000": {
+      "cases": 2247,
+      "geomean_speedup": 0.7472685782586111,
+      "wins": 135
+    },
+    "1000000": {
+      "cases": 2247,
+      "geomean_speedup": 1.1228855610476032,
+      "wins": 1896
+    }
+  }
+}

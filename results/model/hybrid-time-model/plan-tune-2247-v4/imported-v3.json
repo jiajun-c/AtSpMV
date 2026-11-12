@@ -1,0 +1,85 @@
+{
+  "note": "Completed unmodified records imported from v3; binary, candidate configs, seed and measurement protocol are unchanged. v4 changes only pre-case idle scheduling.",
+  "source": "results/model/hybrid-time-model/plan-tune-2247-v3",
+  "source_metadata_sha256": "34509e632a9e3d5c66bca5c0a86888309eec5f72d17c7340d5fdf947d8046ab2",
+  "cases": [
+    {
+      "dataset": "Trec5",
+      "status_sha256": "1a14fc4217e36f59ca627ab15828695c33b6e245955f6f572249aded335d4e64",
+      "raw_sha256": "c0cc967df1f78f6f4279741d82961fe31f4788222438e0ae225e306956b758a7",
+      "log_sha256": "bde310acafb30e0d19bfc63dc93c40a041ebff70365fc06a2790bfcd9eebcc57"
+    },
+    {
+      "dataset": "adder_dcop_17",
+      "status_sha256": "6fdcad437d4fef000149fee9e0e0712ee8fd74308956d85ada69a960d51349d4",
+      "raw_sha256": "945a4e72556f58079e424d2ac78a9666a93b909e6e60441569f028a1dac5203b",
+      "log_sha256": "a643dd0cb56a8d4f16f93135bf684107148e8a30f04476055a412f283f08cd72"
+    },
+    {
+      "dataset": "c-44",
+      "status_sha256": "5d3bd0638f914d35d427b2582b292710aa380d551251d50ab96ed0e2fafe1c26",
+      "raw_sha256": "89f4053e44361f8391be0ba5bb7c680c224e1fd8bdca3978eace6250dc9426b8",
+      "log_sha256": "76573d3c95a532d19c767c6a67e8881032af1a7f4f9bca67fe7ae0819c859712"
+    },
+    {
+      "dataset": "c-51",
+      "status_sha256": "8123d95f4a5379ceb2be7031a3d99979ed39f1bfe467b7e9aa36b331384e85f9",
+      "raw_sha256": "0f331a8540ec717bd30da9dce66df7e8880399189889126be0d8d8f534631000",
+      "log_sha256": "4e24ffc988f1c146eb8309422ac934940f2c29c318975259174a9087fa59d07c"
+    },
+    {
+      "dataset": "fxm2-16",
+      "status_sha256": "af0f1e004aab44e389b65cce22781ed648cdd7856b852f6b273940e2b731c1c9",
+      "raw_sha256": "dc161c8e97bcefa6afa90bbd238924ca65d090cc0e17b700bc1103c607516334",
+      "log_sha256": "386a9a1820443ef5446f2c0166d365f85fe67cfd2903e763f7e5ca7594a4155f"
+    },
+    {
+      "dataset": "lung2",
+      "status_sha256": "090a240d66595a4bff89d6a896a362fc1b43811e78a993f06fdcf628e4b05e76",
+      "raw_sha256": "a13b7e3b0d6b6b0f1616c3d337fe9720b28b6fb3ad47c43f0ee39d1e2b07b34e",
+      "log_sha256": "305e67ced8e0fc7dd45dae96ef58090f0a6d979cb0c7ba257e2de8a8c3f63840"
+    },
+    {
+      "dataset": "mark3jac100",
+      "status_sha256": "f9f2d7a7693ea26afff26f169ac0a59d89b8081e8ab2c6cd6413d5e9be2656c3",
+      "raw_sha256": "667d2fae0f27837ab58bbf1c8751f53360e5a9d3bde511c34d9af64b65a338e5",
+      "log_sha256": "08be20bf5427a397ef045dd3959fa9ba9c820885d56fdb1671efc9a207e8d997"
+    },
+    {
+      "dataset": "mhd4800a",
+      "status_sha256": "b256591f8a11dcd7ca5e4305df7ba99b38fa6884bac43aec1474b4810155c3a4",
+      "raw_sha256": "d5df3cb96b93460ec86cc93a901c369899c1a30fe4bc801f767fb8aa77368fe7",
+      "log_sha256": "a3fee988ed3d61331e3bb024c4ecb34714abb22e59a45e5bd5b139a1a9e54d06"
+    },
+    {
+      "dataset": "p6000",
+      "status_sha256": "4a89749dba56d0a4e383aa255071f76bf499e7f095e7bd0bc4250d642d20861d",
+      "raw_sha256": "7135f38b51630d8c6791014c486bfc373c2bd9349a992d074e1d3b13c730a4ee",
+      "log_sha256": "caecf102daf1c2c5fa3475efa0d1667087d258cc0b196741d362b1e77a8db6dc"
+    },
+    {
+      "dataset": "relat6",
+      "status_sha256": "04ae2d776867d93d08939a4b8ef40332b5cee4ccd7b8c830d19db8f172eb80ad",
+      "raw_sha256": "858b692058d5085e2e9abfe1a5ca93b757536bce1a3f8155b26baaca652699c5",
+      "log_sha256": "e8d23b77018d04fff01a92d04681656215a7e87cd9daad72885d955d873540e7"
+    },
+    {
+      "dataset": "tandem_dual",
+      "status_sha256": "f775c374c8df2b52eb4ccd088c507586448436eedefea7cb3dab5f7acb8ade79",
+      "raw_sha256": "9b92e70e9bf90e535ef4736ff42c8839b9d157a67f18c69f32e7e8023713387f",
+      "log_sha256": "859481fb740678940a08a24cedc08522655b5d5b9dae2ac9b3a3f9ae365c5a2b"
+    },
+    {
+      "dataset": "tumorAntiAngiogenesis_8",
+      "status_sha256": "249dadbba8c6596a5a7ef58191f5aa76aad2c744812d76c3e6019940e5cf1af4",
+      "raw_sha256": "47ecfa4147455b9695f32d733dc2e1ffdaa883d59ffe51815d91690aab9d4f3c",
+      "log_sha256": "0335a44ce495bb8059964d1d4d46d182421b76f100ee397aaf25be430c57c479"
+    },
+    {
+      "dataset": "west0067",
+      "status_sha256": "0497cfa8133c960a3f4fc7709533c1d5e50450444c8499bb7ff69ec7569419d7",
+      "raw_sha256": "5eb8512fc77ef9c8c8b5580725b10ba974d280d328dd98147e9d41def4a3cf84",
+      "log_sha256": "e892d2ec948eae5d2ce1a4b94f46d37b0a4e603144f47d65d99fc16835d650f6"
+    }
+  ]
+}

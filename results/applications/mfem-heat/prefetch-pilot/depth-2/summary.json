@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "cusparse": {
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0,
+      "max_field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "median_evolution_s": 1.620907191,
+      "median_application_s": 3.344602136,
+      "median_plan_s": 0.08325136799999999,
+      "ratio_of_median_application_times": 1.0,
+      "ratio_of_median_evolution_times": 1.0
+    },
+    "atbsr": {
+      "evolution_speedup": 0.9650538620224741,
+      "application_speedup": 0.857968236629904,
+      "process_wall_speedup": 0.8481350346747304,
+      "max_field_relative_error": 2.4625178609796616e-14,
+      "same_cg_iterations": true,
+      "median_evolution_s": 1.679602823,
+      "median_application_s": 3.898282003,
+      "median_plan_s": 0.086881883,
+      "ratio_of_median_application_times": 0.857968236629904,
+      "ratio_of_median_evolution_times": 0.9650538620224741
+    }
+  },
+  "comparisons": [
+    {
+      "round": 0,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 0,
+      "backend": "atbsr",
+      "field_relative_error": 2.4625178609796616e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 0.9650538620224741,
+      "application_speedup": 0.857968236629904,
+      "process_wall_speedup": 0.8481350346747304
+    }
+  ]
+}

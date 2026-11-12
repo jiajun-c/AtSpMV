@@ -1,0 +1,15 @@
+{
+  "dataset": "bips98_1142",
+  "matrix_sha256": "5a405b45bad475d6e20e911cef730757f099192a64211d3ac844589072f0a863",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.009,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

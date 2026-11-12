@@ -1,0 +1,9 @@
+{
+  "name": "mice_10NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mice_10NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1088, 1088 ) nnz = 31230\nloadfile time    = 0.01401 sec\nnnzL = 31230\ntime_for_csc2CompressTile = 2.24 ms\ntime_cuda_solve = 0.467110 ms, Mflops = 133.72\nVALIDATION finite=1 max_error=3.6415315207705135e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

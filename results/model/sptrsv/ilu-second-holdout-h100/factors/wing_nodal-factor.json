@@ -1,0 +1,13 @@
+{
+  "matrix": "wing_nodal",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/wing_nodal/wing_nodal.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 10937,
+  "columns": 10937,
+  "original_nnz": 150976,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.95709263603203
+}

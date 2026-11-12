@@ -1,0 +1,132 @@
+{
+  "method": "Excludes approximate families of two paired tests and both prior 40-case samples; hash-partitions remaining tuning logs into train/dev/holdout. Selects architecture on dev width regret, then evaluates frozen holdout and independently timed paired vector candidates. Existing non-vector model and some datasets may have historical overlap. No production update.",
+  "excluded_families": 206,
+  "split_counts": {
+    "train": 1130,
+    "dev": 455,
+    "holdout": 245
+  },
+  "family_counts": {
+    "train": 531,
+    "dev": 166,
+    "holdout": 71
+  },
+  "dataset_sha256": "8d43d907699595061304671e92f8498ae70dc900a0433977bdfac95681de1db6",
+  "selected_on_development": "extended_deep",
+  "tuning_label_evaluation": {
+    "original_features": {
+      "dev": {
+        "cases": 455,
+        "ratio_mape": 0.07944393914287678,
+        "log_rmse": 0.11306975941062393,
+        "width_regret_geomean": 1.0031249755618608,
+        "width_within_5pct": 450,
+        "width_over_10pct_slower": 1
+      },
+      "holdout": {
+        "cases": 245,
+        "ratio_mape": 0.0893410401798834,
+        "log_rmse": 0.12266026029727559,
+        "width_regret_geomean": 1.004637295109982,
+        "width_within_5pct": 239,
+        "width_over_10pct_slower": 4
+      }
+    },
+    "extended_shallow": {
+      "dev": {
+        "cases": 455,
+        "ratio_mape": 0.07645291563439982,
+        "log_rmse": 0.10769599282423095,
+        "width_regret_geomean": 1.0026114695068453,
+        "width_within_5pct": 449,
+        "width_over_10pct_slower": 0
+      },
+      "holdout": {
+        "cases": 245,
+        "ratio_mape": 0.08443396859492303,
+        "log_rmse": 0.11781239107430565,
+        "width_regret_geomean": 1.0023071974337947,
+        "width_within_5pct": 243,
+        "width_over_10pct_slower": 1
+      }
+    },
+    "extended_deep": {
+      "dev": {
+        "cases": 455,
+        "ratio_mape": 0.06688736470023876,
+        "log_rmse": 0.09775320471681909,
+        "width_regret_geomean": 1.0023161451140579,
+        "width_within_5pct": 450,
+        "width_over_10pct_slower": 0
+      },
+      "holdout": {
+        "cases": 245,
+        "ratio_mape": 0.07599603214551334,
+        "log_rmse": 0.10671698751568759,
+        "width_regret_geomean": 1.002206905450983,
+        "width_within_5pct": 242,
+        "width_over_10pct_slower": 1
+      }
+    },
+    "original_deep": {
+      "dev": {
+        "cases": 455,
+        "ratio_mape": 0.06930630236649954,
+        "log_rmse": 0.10072710144476499,
+        "width_regret_geomean": 1.002712014364044,
+        "width_within_5pct": 451,
+        "width_over_10pct_slower": 1
+      },
+      "holdout": {
+        "cases": 245,
+        "ratio_mape": 0.08009570157844731,
+        "log_rmse": 0.11087839347386211,
+        "width_regret_geomean": 1.0034954390046051,
+        "width_within_5pct": 240,
+        "width_over_10pct_slower": 4
+      }
+    }
+  },
+  "paired_evaluation": {
+    "csr-vector-paired": {
+      "deployed": {
+        "cases": 80,
+        "speedup_vs_base": 1.1114343139296525,
+        "regret_vs_vector_and_base_oracle": 1.0158527291118868,
+        "within_5pct_oracle": 72,
+        "over_10pct_slower": 4,
+        "selected_vector": 62,
+        "slower_than_base_5pct": 4
+      },
+      "extended_deep": {
+        "cases": 80,
+        "speedup_vs_base": 1.1212338146907324,
+        "regret_vs_vector_and_base_oracle": 1.00697425125861,
+        "within_5pct_oracle": 75,
+        "over_10pct_slower": 1,
+        "selected_vector": 60,
+        "slower_than_base_5pct": 1
+      }
+    },
+    "vector-model-independent-120": {
+      "deployed": {
+        "cases": 120,
+        "speedup_vs_base": 1.1076499045003068,
+        "regret_vs_vector_and_base_oracle": 1.0171137882923893,
+        "within_5pct_oracle": 104,
+        "over_10pct_slower": 6,
+        "selected_vector": 90,
+        "slower_than_base_5pct": 4
+      },
+      "extended_deep": {
+        "cases": 120,
+        "speedup_vs_base": 1.1195072463295617,
+        "regret_vs_vector_and_base_oracle": 1.0063409541668649,
+        "within_5pct_oracle": 115,
+        "over_10pct_slower": 0,
+        "selected_vector": 91,
+        "slower_than_base_5pct": 0
+      }
+    }
+  }
+}

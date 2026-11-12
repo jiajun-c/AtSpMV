@@ -1,0 +1,22 @@
+{
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "process_order": [
+    "previous",
+    "current",
+    "current",
+    "previous"
+  ],
+  "seed": 20261028,
+  "trials": 9,
+  "calls_per_graph": 8,
+  "method": "Previously selected examples; ABBA independent processes, two X vectors and Graph correctness checked by executable. Poll NVML for other compute processes every 250 ms. This does not exclude missed interference, clock shifts or allocation-history differences.",
+  "executables": {
+    "previous": "6ce64493dac2088664a663afdf6236f8db65009f63a7219101df2ec9ab47883b",
+    "current": "7e882bb010575534e831fe3d4fe217a213b7c7b26e29732c58199214192b221c"
+  },
+  "matrix_sha256": {
+    "a0nsdsil": "5503ea5b2a58c8bb96c234ed9230f32fb60a3269a122b5eabe8d211b32577665",
+    "shermanACb": "c93e8a51ad76b43bf20d9bd4ac300175c7328b80201bbad1ee023310f1e400ae",
+    "freeFlyingRobot_16": "5fa466c27eb87e45111bdaccc60e9484a206b93dc8b03d5518e3608f153fab70"
+  }
+}

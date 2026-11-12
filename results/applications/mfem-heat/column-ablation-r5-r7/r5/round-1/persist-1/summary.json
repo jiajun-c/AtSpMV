@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "atbsr-compressed": {
+      "evolution_speedup": 1.0258154298079412,
+      "application_speedup": 1.0447554403353803,
+      "process_wall_speedup": 1.0859287277940812,
+      "max_field_relative_error": 1.777204260581181e-14,
+      "same_cg_iterations": true,
+      "median_evolution_s": 1.900688091,
+      "median_application_s": 2.179615579,
+      "median_plan_s": 0.042775216,
+      "median_linear_s": 0.8981076749999997,
+      "median_parameter_s": 0.9279257979999994,
+      "median_implicit_setup_s": 0.09679813099999997,
+      "ratio_of_median_application_times": 1.0447554403353803,
+      "ratio_of_median_evolution_times": 1.0258154298079412
+    },
+    "cusparse": {
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0,
+      "max_field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "median_evolution_s": 1.949755171,
+      "median_application_s": 2.277165234,
+      "median_plan_s": 0.03912647000000004,
+      "median_linear_s": 0.9933901590000006,
+      "median_parameter_s": 0.9017380510000002,
+      "median_implicit_setup_s": 0.07423755800000002,
+      "ratio_of_median_application_times": 1.0,
+      "ratio_of_median_evolution_times": 1.0
+    },
+    "atbsr": {
+      "evolution_speedup": 1.1735460186196476,
+      "application_speedup": 1.0976809433007066,
+      "process_wall_speedup": 1.1072344850155367,
+      "max_field_relative_error": 1.777204260581181e-14,
+      "same_cg_iterations": true,
+      "median_evolution_s": 1.661421998,
+      "median_application_s": 2.074523793,
+      "median_plan_s": 0.04337222099999998,
+      "median_linear_s": 0.7902857930000001,
+      "median_parameter_s": 0.8347852600000003,
+      "median_implicit_setup_s": 0.064178726,
+      "ratio_of_median_application_times": 1.0976809433007066,
+      "ratio_of_median_evolution_times": 1.1735460186196476
+    }
+  },
+  "comparisons": [
+    {
+      "round": 0,
+      "backend": "atbsr-compressed",
+      "field_relative_error": 1.777204260581181e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0258154298079412,
+      "application_speedup": 1.0447554403353803,
+      "process_wall_speedup": 1.0859287277940812
+    },
+    {
+      "round": 0,
+      "backend": "cusparse",
+      "field_relative_error": 0.0,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.0,
+      "application_speedup": 1.0,
+      "process_wall_speedup": 1.0
+    },
+    {
+      "round": 0,
+      "backend": "atbsr",
+      "field_relative_error": 1.777204260581181e-14,
+      "same_cg_iterations": true,
+      "evolution_speedup": 1.1735460186196476,
+      "application_speedup": 1.0976809433007066,
+      "process_wall_speedup": 1.1072344850155367
+    }
+  ]
+}

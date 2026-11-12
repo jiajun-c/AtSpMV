@@ -1,0 +1,10 @@
+{
+  "matrix": "goddardRocketProblem_1",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/goddardRocketProblem_1-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 831,
+  "nnz": 21191,
+  "min_abs_diagonal": 7.216551180907258e-07,
+  "max_abs_diagonal": 1721279979.0587554,
+  "elapsed_s": 0.020119972061365843
+}

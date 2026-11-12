@@ -1,0 +1,15 @@
+{
+  "dataset": "G_n_pin_pout",
+  "matrix_sha256": "f6f3948b3dd70d87b9eba683c9d2c14a4bce718af7b6e13fd70f350605a94acc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.37,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

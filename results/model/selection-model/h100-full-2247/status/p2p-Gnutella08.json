@@ -1,0 +1,17 @@
+{
+  "dataset": "p2p-Gnutella08",
+  "matrix_sha256": "7853e42890fc2b1353dc5dc5846c04a7bedaedba84206f7ea5ee914d833ab4f1",
+  "index_nnz": 20777,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.453,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

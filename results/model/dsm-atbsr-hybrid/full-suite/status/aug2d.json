@@ -1,0 +1,10 @@
+{
+  "dataset": "aug2d",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/aug2d/aug2d.mtx",
+  "matrix_sha256": "f9d583814b8e41b7f7d1b6e9cc14232f042a7fa12b867d1540e072e4a3ec80ea",
+  "index_nnz": 76832,
+  "index_rows": 29008,
+  "elapsed_s": 0.641,
+  "returncode": 0,
+  "status": "ok"
+}

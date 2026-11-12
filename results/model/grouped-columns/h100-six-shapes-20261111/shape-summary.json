@@ -1,0 +1,72 @@
+{
+  "coverage": {
+    "requested": 24,
+    "successful": 24,
+    "failures": [],
+    "candidate_pairs": 408,
+    "scope": "Same predeclared prior24 sample, six ordinary shapes with grouped columns on/off and original automatic AtBSR choice, fixed depth2. Balanced and int16 fallbacks retained; not a blind sample."
+  },
+  "same_shape_active": {
+    "1x32": {
+      "n": 12,
+      "geomean": 1.0111092753414033,
+      "wins_over_1pct": 6,
+      "losses_over_1pct": 4
+    },
+    "2x16": {
+      "n": 13,
+      "geomean": 1.0796216974087465,
+      "wins_over_1pct": 9,
+      "losses_over_1pct": 3
+    },
+    "4x8": {
+      "n": 15,
+      "geomean": 1.1122014739787103,
+      "wins_over_1pct": 12,
+      "losses_over_1pct": 2
+    },
+    "8x4": {
+      "n": 18,
+      "geomean": 1.1326034329054713,
+      "wins_over_1pct": 13,
+      "losses_over_1pct": 5
+    },
+    "16x2": {
+      "n": 21,
+      "geomean": 1.1052599610774392,
+      "wins_over_1pct": 14,
+      "losses_over_1pct": 4
+    },
+    "32x1": {
+      "n": 21,
+      "geomean": 1.1124550959192476,
+      "wins_over_1pct": 17,
+      "losses_over_1pct": 4
+    }
+  },
+  "automatic_all": {
+    "n": 24,
+    "geomean": 1.087778226766171,
+    "wins_over_1pct": 15,
+    "losses_over_1pct": 3
+  },
+  "automatic_active": {
+    "n": 19,
+    "geomean": 1.1127857045238123,
+    "wins_over_1pct": 15,
+    "losses_over_1pct": 3
+  },
+  "automatic_vs_best_cusparse": {
+    "n": 24,
+    "geomean": 0.9438657711531984,
+    "wins_over_1pct": 11,
+    "losses_over_1pct": 13
+  },
+  "ordinary_six_shape_oracle": {
+    "n": 24,
+    "geomean": 1.1145472156072138,
+    "wins_over_1pct": 17,
+    "losses_over_1pct": 5
+  },
+  "note": "All ratios use paired process medians then geomean. Oracle is post-hoc best among six ordinary shapes only. Fallbacks excluded from per-shape active statistics, retained in automatic-all. No initialization cost included."
+}

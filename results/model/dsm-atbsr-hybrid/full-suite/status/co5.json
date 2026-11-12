@@ -1,0 +1,10 @@
+{
+  "dataset": "co5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/co5/co5.mtx",
+  "matrix_sha256": "2f3d6f2beb3bfd6545afd2ed1aa49fe9452673fc6cc002d12d4360b597356e69",
+  "index_nnz": 57993,
+  "index_rows": 5774,
+  "elapsed_s": 0.66,
+  "returncode": 0,
+  "status": "ok"
+}

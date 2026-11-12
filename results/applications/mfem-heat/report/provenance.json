@@ -1,0 +1,23 @@
+{
+  "repository_head": "ff881efaea598ed2cbc06918695270708dbf12be",
+  "mfem_commit": "a01719101027383954b69af1777dc828bf795d62",
+  "application_sha256": "5026aaeacd4fba0a68b6263ef75838961961bf9710acb729419fa6322be12190",
+  "source_sha256": {
+    "apps/mfem/heat.cpp": "0b96e18bf1419b6818d04709e0b08f334a0dc352b2cb91257ee0914bad91d612",
+    "apps/mfem/spmvOperator.hpp": "2c0fe2a9da256f0c2fb59a4c142de5214c79a37e02946a8bf73448816db0c62f",
+    "apps/mfem/sparseSum.cu": "bf4775ba01c8abce86988a6e14f7a85c839d7f2960cf8bc9411ca8d4a9da3988",
+    "apps/mfem/sparseSum.hpp": "e3fc9b0ea7dd3083fff2ffff5ce5361e70c869c557d86d955afe82b4f31980d8",
+    "include/spmvPlan.h": "329715c76cf2056dd70f808f5b7f4c54df069be8cb9e144dcfbd1fe0f59783e1",
+    "include/detail/planValueUpdate.cuh": "b42c113dfa997ea0be6150e085aaecbb1b069fb666f4ddde32f2babc02f5cb10",
+    "src/spmvPlan.cu": "1cb209fd50eaa783a75f247560f430399ab8ff011ad01c0aed94eee21c158a71",
+    "scripts/analysis/benchmark_mfem_heat.py": "0f8b3a78f675d90dbf954a06b375355e36652300cdb1b9113da49ba070b8e314",
+    "scripts/analysis/analyze_mfem_application.py": "009448a4568cd38d9003b973df4e3d9489770560b2f93ae06dec1e5c0ae9e3c5",
+    "scripts/analysis/validate_mfem_cpu_reference.py": "05db6edd9addf76a3bdaaa8578310276ba2bd04a6d7e2a93a91c4a42c20884d2"
+  },
+  "toolchain": "CUDA 12.6, GCC 11, Release, SM90; MFEM 4.8 serial FP64 CUDA",
+  "valid_cases": [
+    "coherent-r5",
+    "coherent-r7"
+  ],
+  "prior_batches_valid_for_physical_application_claims": false
+}

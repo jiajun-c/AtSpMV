@@ -1,0 +1,17 @@
+{
+  "dataset": "rdb800l",
+  "matrix_sha256": "650826a14369debf82dc52a56447eb94ad557310ca61ccbd042b4e52796202e6",
+  "index_nnz": 4640,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.221,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

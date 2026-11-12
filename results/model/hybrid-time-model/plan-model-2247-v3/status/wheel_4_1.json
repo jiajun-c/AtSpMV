@@ -1,0 +1,19 @@
+{
+  "dataset": "wheel_4_1",
+  "matrix_sha256": "16828bc4e09d3266d51e65c6157d019030ecbceee47bcd1925c1b36b463ceb8a",
+  "index_nnz": 122,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.952,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

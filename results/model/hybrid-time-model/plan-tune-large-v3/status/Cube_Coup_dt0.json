@@ -1,0 +1,19 @@
+{
+  "dataset": "Cube_Coup_dt0",
+  "matrix_sha256": "be8e9b914c2556fb611984f98ec06218de2e0af2908cdd9823f93083de203286",
+  "index_nnz": 127206144,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 110.61,
+  "gpu_after": {
+    "utilization_percent": 17,
+    "free_memory_mib": 81079
+  }
+}

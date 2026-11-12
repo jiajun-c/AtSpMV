@@ -1,0 +1,10 @@
+{
+  "dataset": "belgium_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/belgium_osm/belgium_osm.mtx",
+  "matrix_sha256": "38aa2db5ac873c7ba8aa30309dff65f1ab4ea071f7cd49953ddfa4b27ee5ac01",
+  "index_nnz": 3099940,
+  "index_rows": 1441295,
+  "elapsed_s": 4.05,
+  "returncode": 0,
+  "status": "ok"
+}

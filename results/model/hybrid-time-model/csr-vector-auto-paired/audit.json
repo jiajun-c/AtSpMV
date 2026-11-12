@@ -1,0 +1,5 @@
+{
+  "cases": 80,
+  "problems": [],
+  "scope": "status and timing schema only; benchmark checks numerical correctness separately; shared GPU sampling cannot exclude all interference"
+}

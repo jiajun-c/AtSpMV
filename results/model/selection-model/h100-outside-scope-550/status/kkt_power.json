@@ -1,0 +1,17 @@
+{
+  "dataset": "kkt_power",
+  "matrix_sha256": "18822d14e5d0febe943cad7dc9b7e036b2a9592d6e1a3f2a231ede79b895d628",
+  "index_nnz": 14612663,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 133.849,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

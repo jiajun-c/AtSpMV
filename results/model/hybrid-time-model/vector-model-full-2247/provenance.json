@@ -1,0 +1,24 @@
+{
+  "note": "2247-case integrated model; identical model configurations share Plan and Graph, with Graph-internal timing events. Training families overlap this suite. Follows prior queued tasks.",
+  "index_sha256": "7797379a962fe9c19c1159e2591c9119ba6d329ee3bd032cf37ef05a88e26c5d",
+  "provenance_sha256": {
+    "spmv_hybrid_validation": "ca753ed804bc1dd001c2bee819e589f526303dec882fa2302e2d10be93438776",
+    "benchmark_plan_selection.py": "22936555c884d043d158c4716591f869dd5d4eaff213dc9b9533a5cade1c5a84",
+    "export_vector_model.py": "139ea62f1066661d48bb7da5416ee455d02330945a2d9e893fc900456f9515aa",
+    "spmv_hybrid_validation.cu": "a161034f76c18fdcbd0a00511530b6a65c634842d822ff6825d851a2f84850fe",
+    "spmvPlan.cu": "31beb1f3bd6ec2663bd4c1ba70927384b42b16ef527dad6ad7d2cb94c143b94d",
+    "spmvPlan.h": "e22ef301cb1645789b4a3f5335f86eb57427dc4cde94ab0029e87aab1f42e13a",
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "atspmvprod.h": "afa8cf87e56b40da666128919d898e710fc9ff6eb3c026e216c8f10e4045f73b",
+    "dsmLongRow.cuh": "1c2f4bc8578aa5596f942a7f2e374d261008965007a3922f1d1ac44a6c976f9b",
+    "analyze_plan_selection.py": "09a5a10ad67c002a8b0f5c04be07b87fc5681ef66c9e53b0b3509cfff5a5e38b",
+    "audit_plan_sweep.py": "fc79ce48122cf0520869d6fabcc3d92e2aa96af2e6a38fc367e053991d814017",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "analyze_plan_amortization.py": "22a5218a5da2e91841aedd3542a303a365db40bc7aa47827b9560de2c1156cf8",
+    "atspmvProduct.cu": "d95f035fdec8527195eb57fde141abb1a0af89310ab79bae1fa5dc84f89c5fb4",
+    "spmvPlanDsm.cu": "fb5f5cf76e135179fffc26e6fdce9bc2f6c7100238073316a9c7635297504886",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "tileSelector.cuh": "e3a2882fa8d6da1eade9de045bd139ef7be9ad37c488024fcc346e49f66dbd3c",
+    "plan_speedup_uncertainty.py": "64a0c5eb227eac43cdc893678468cdccfdea00b03028bf121ddf68a67934900d"
+  }
+}

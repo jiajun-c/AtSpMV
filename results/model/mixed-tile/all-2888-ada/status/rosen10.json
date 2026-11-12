@@ -1,0 +1,15 @@
+{
+  "dataset": "rosen10",
+  "matrix_sha256": "3fbf3240cf419a6ee19a2c15db02af315701fbb32fd537a7659481a6e100c32c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.746,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

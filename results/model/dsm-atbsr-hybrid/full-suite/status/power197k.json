@@ -1,0 +1,10 @@
+{
+  "dataset": "power197k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/power197k/power197k.mtx",
+  "matrix_sha256": "d19a36065e025fd5c13f9525ff8d233c401acbb134650c571f5cb0d23867f8cf",
+  "index_nnz": 3698357,
+  "index_rows": 197156,
+  "elapsed_s": 2.353,
+  "returncode": 0,
+  "status": "ok"
+}

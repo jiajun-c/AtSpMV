@@ -1,0 +1,15 @@
+{
+  "dataset": "rat",
+  "matrix_sha256": "4ecd01c2b19a9b54920e93995c2eccb78670a4ab57fd1c0a62a394b4969adb50",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.211,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

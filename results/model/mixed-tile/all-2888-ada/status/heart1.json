@@ -1,0 +1,15 @@
+{
+  "dataset": "heart1",
+  "matrix_sha256": "d16713a75b5fc2acdd27ba4a66d5e5d90894f9b8df17f694cc20f1e0c67e7a1d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.55,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

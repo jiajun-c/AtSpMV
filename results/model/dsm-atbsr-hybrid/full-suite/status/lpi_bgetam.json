@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_bgetam",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_bgetam/lpi_bgetam.mtx",
+  "matrix_sha256": "b1fe3e99332587dc813101ba02b9e7c05ed5612027b703a6ae4cc9a53faad1a1",
+  "index_nnz": 2537,
+  "index_rows": 400,
+  "elapsed_s": 0.651,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,27 @@
+{
+  "gpu": "H100 PCIe, physical device 3, UUID GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "binary_sha256": "24bd6aec5431e38af3e55b8850e449157cb4363ed38955d3c5226a571df59885",
+  "benchmark_source_sha256": "6970e41c516a283c6639f01238b14a10fa673d0fbb11beddbad9ef5b5a7cb9ed",
+  "analysis_source_sha256": "4bd2d5766949e2291654392370bab641eab0c045c64e88bf3d063be93a42e26d",
+  "sass_sha256": "d6eb23392d93fdb937475994e64949e5b399f26c93064211cdb499246b0f2d0e",
+  "validation": "81 candidates direct and Graph, H100 CTest passed, Ada CTest skipped, CUDA13 memcheck/racecheck/synccheck passed, leak 0 bytes",
+  "profiling": "Nsight Compute 12.4 separate --check-only runs, --clock-control none --cache-control none; instrumented timings not used",
+  "l2_read_hits": 6080.0,
+  "l2_read_misses": 20.0,
+  "l2_read_hit_percent": 99.67213114754098,
+  "atomic_l2_counters": {
+    "lts__t_sectors_aperture_device_op_atom_lookup_hit.sum": 4096.0,
+    "lts__t_sectors_aperture_device_op_atom_lookup_miss.sum": 0.0
+  },
+  "remote_fp64_atomic_opcodes": {
+    "smsp__inst_executed_op_generic_atom_dot_alu_pred_on_any.sum": 4096.0,
+    "smsp__inst_executed_op_generic_atom_dot_cas_pred_on_any.sum": 4096.0,
+    "smsp__inst_executed_op_shared_atom_dot_cas_pred_on_any.sum": 0.0
+  },
+  "local_fp64_atomic_opcodes": {
+    "smsp__inst_executed_op_generic_atom_dot_alu_pred_on_any.sum": 4096.0,
+    "smsp__inst_executed_op_generic_atom_dot_cas_pred_on_any.sum": 0.0,
+    "smsp__inst_executed_op_shared_atom_dot_cas_pred_on_any.sum": 4096.0
+  },
+  "notes": "The L2 read counters apply to all device-read sectors of the sampled kernel. Remote/local generic FP64 atomic paths execute CAS; the SpMV DSM implementation instead uses asynchronous stores and an mbarrier. One RED clock window does not imply atomic completion."
+}

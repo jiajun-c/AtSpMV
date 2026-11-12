@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_grow15",
+  "matrix_sha256": "9b3eb83f478ce0a35dd2bcc7968bca023e720e64adee837d1ef75edcccf368ee",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.211,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

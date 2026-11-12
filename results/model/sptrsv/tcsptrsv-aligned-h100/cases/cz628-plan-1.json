@@ -1,0 +1,9 @@
+{
+  "name": "cz628",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx,default,cusparse,640,7851,-1,3195.683,243.6991882,2.997602166e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx,default-host,cusparse,640,7851,-1,3195.683,251.45129,2.997602166e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx,model,cusparse,640,7851,211,3421.922,243.7792053,2.997602166e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx,model-host,cusparse,640,7851,211,3421.922,251.366185,2.997602166e-15\n",
+  "stderr": ""
+}

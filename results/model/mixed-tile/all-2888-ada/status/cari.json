@@ -1,0 +1,15 @@
+{
+  "dataset": "cari",
+  "matrix_sha256": "09738bfd9110d1810a43da8ae15452fb89603640172653e9a6219c62a9eddfee",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.317,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

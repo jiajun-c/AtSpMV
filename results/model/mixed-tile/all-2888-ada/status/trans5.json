@@ -1,0 +1,15 @@
+{
+  "dataset": "trans5",
+  "matrix_sha256": "a5aa689c023ba50a7c5e7107384e18386ed7cd2dac0194133ffca4532c22cf84",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.342,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

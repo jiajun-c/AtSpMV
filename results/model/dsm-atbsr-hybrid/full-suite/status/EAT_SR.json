@@ -1,0 +1,10 @@
+{
+  "dataset": "EAT_SR",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/EAT_SR/EAT_SR.mtx",
+  "matrix_sha256": "c367ea7fe8bf20c86755eef0802e7872245a10a77828ce3c4d2b80179d378d27",
+  "index_nnz": 325589,
+  "index_rows": 23219,
+  "elapsed_s": 1.207,
+  "returncode": 0,
+  "status": "ok"
+}

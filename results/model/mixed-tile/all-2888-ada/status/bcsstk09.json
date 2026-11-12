@@ -1,0 +1,15 @@
+{
+  "dataset": "bcsstk09",
+  "matrix_sha256": "4b3b14048e25b31f2dc18d235d98c0820d0a3999c18dd57f00e7b79aa4bdf646",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.994,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

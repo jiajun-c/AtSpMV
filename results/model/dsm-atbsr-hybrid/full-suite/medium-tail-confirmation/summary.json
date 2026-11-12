@@ -1,0 +1,774 @@
+{
+  "rows": [
+    {
+      "dataset": "p010",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 1001,
+      "first_pass_ratio": 0.11451094455805765,
+      "nonhybrid_us": 4.492000211,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "-1/-1/8/128/1/1024",
+      "old_hybrid_us": 37.85200045,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.967999946,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 3.967999946,
+      "old_speedup": 0.11867272951488089,
+      "new_speedup": 1.1320565201943176,
+      "old_vs_new_hybrid": 9.539314759355594,
+      "new_us_per_seed": [
+        3.963999916,
+        3.967999946,
+        3.971999977
+      ],
+      "old_us_per_seed": [
+        37.85200045,
+        37.8200002,
+        38.49200159
+      ],
+      "nonhybrid_us_per_seed": [
+        4.492000211,
+        4.408000037,
+        4.503999837
+      ]
+    },
+    {
+      "dataset": "rosen8",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 976,
+      "first_pass_ratio": 0.11668545235809366,
+      "nonhybrid_us": 3.951999824,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 35.44399887,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.659999929,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 3.659999929,
+      "old_speedup": 0.11149982930805798,
+      "new_speedup": 1.0797813936241745,
+      "old_vs_new_hybrid": 9.684152884583295,
+      "new_us_per_seed": [
+        3.659999929,
+        3.652000101,
+        3.676000051
+      ],
+      "old_us_per_seed": [
+        35.44399887,
+        35.42000055,
+        35.44399887
+      ],
+      "nonhybrid_us_per_seed": [
+        3.963999916,
+        3.947999794,
+        3.951999824
+      ]
+    },
+    {
+      "dataset": "rosen1",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 976,
+      "first_pass_ratio": 0.12190693329560538,
+      "nonhybrid_us": 4.304000176,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "2/1/8/128/1/1024",
+      "old_hybrid_us": 35.19200161,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.655999899,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 3.655999899,
+      "old_speedup": 0.12230052225210727,
+      "new_speedup": 1.1772429690649724,
+      "old_vs_new_hybrid": 9.625821275220991,
+      "new_us_per_seed": [
+        3.648000071,
+        3.655999899,
+        3.66399996
+      ],
+      "old_us_per_seed": [
+        35.1639986,
+        35.19599885,
+        35.19200161
+      ],
+      "nonhybrid_us_per_seed": [
+        4.292000085,
+        4.304000176,
+        4.304000176
+      ]
+    },
+    {
+      "dataset": "lowThrust_2",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 898,
+      "first_pass_ratio": 0.12242673927265668,
+      "nonhybrid_us": 4.056000151,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 33.05999935,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.575999988,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 3.575999988,
+      "old_speedup": 0.1226860323879589,
+      "new_speedup": 1.134228233951549,
+      "old_vs_new_hybrid": 9.244966292209059,
+      "new_us_per_seed": [
+        3.567999927,
+        3.575999988,
+        3.575999988
+      ],
+      "old_us_per_seed": [
+        34.10400078,
+        33.05999935,
+        33.03999826
+      ],
+      "nonhybrid_us_per_seed": [
+        4.056000151,
+        4.056000151,
+        4.05200012
+      ]
+    },
+    {
+      "dataset": "freeFlyingRobot_9",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 957,
+      "first_pass_ratio": 0.12777265098217286,
+      "nonhybrid_us": 4.391999915,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "1/1/8/128/1/1024",
+      "old_hybrid_us": 34.43200141,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.676000051,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 3.676000051,
+      "old_speedup": 0.12755575438970687,
+      "new_speedup": 1.194776891748199,
+      "old_vs_new_hybrid": 9.366703191593617,
+      "new_us_per_seed": [
+        3.680000082,
+        3.672000021,
+        3.676000051
+      ],
+      "old_us_per_seed": [
+        34.36800092,
+        34.43200141,
+        34.54399854
+      ],
+      "nonhybrid_us_per_seed": [
+        4.391999915,
+        4.404000007,
+        4.379999824
+      ]
+    },
+    {
+      "dataset": "Chem97Zt",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 969,
+      "first_pass_ratio": 0.1280460763356295,
+      "nonhybrid_us": 4.739999771,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 35.83199903,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 4.991999827,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 4.991999827,
+      "old_speedup": 0.1322839891525862,
+      "new_speedup": 0.9495192178018479,
+      "old_vs_new_hybrid": 7.177884669826532,
+      "new_us_per_seed": [
+        4.987999797,
+        4.991999827,
+        4.991999827
+      ],
+      "old_us_per_seed": [
+        36.08800098,
+        35.81599891,
+        35.83199903
+      ],
+      "nonhybrid_us_per_seed": [
+        4.728000145,
+        4.751999862,
+        4.739999771
+      ]
+    },
+    {
+      "dataset": "freeFlyingRobot_8",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 881,
+      "first_pass_ratio": 0.1313448406368867,
+      "nonhybrid_us": 4.011999816,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 30.61199933,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.655999899,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 3.655999899,
+      "old_speedup": 0.13105971200215627,
+      "new_speedup": 1.0973741594187063,
+      "old_vs_new_hybrid": 8.373085387221451,
+      "new_us_per_seed": [
+        3.66399996,
+        3.64000001,
+        3.655999899
+      ],
+      "old_us_per_seed": [
+        30.56400083,
+        30.61199933,
+        30.63200042
+      ],
+      "nonhybrid_us_per_seed": [
+        4.011999816,
+        4.011999816,
+        4.015999846
+      ]
+    },
+    {
+      "dataset": "lp_standata",
+      "reason": "medium-row worst first pass",
+      "max_row_nnz": 745,
+      "first_pass_ratio": 0.13529248456024653,
+      "nonhybrid_us": 3.907999955,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 28.86399999,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.556000069,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 3.556000069,
+      "old_speedup": 0.1353935683326613,
+      "new_speedup": 1.0989875925674513,
+      "old_vs_new_hybrid": 8.116985216515191,
+      "new_us_per_seed": [
+        3.548000008,
+        3.556000069,
+        3.584000049
+      ],
+      "old_us_per_seed": [
+        28.86399999,
+        28.84799987,
+        28.95599976
+      ],
+      "nonhybrid_us_per_seed": [
+        3.903999925,
+        3.907999955,
+        3.920000046
+      ]
+    },
+    {
+      "dataset": "G54",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 136,
+      "first_pass_ratio": 0.44843570118385706,
+      "nonhybrid_us": 3.18400003,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/0/8/128/1/1024",
+      "old_hybrid_us": 6.723999977,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 4.356000107,
+      "new_hybrid_config": "2/0/4/256/4/256",
+      "best_hybrid_us": 4.356000107,
+      "old_speedup": 0.47352766818726,
+      "new_speedup": 0.7309458107871438,
+      "old_vs_new_hybrid": 1.5436179549662257,
+      "new_us_per_seed": [
+        4.356000107,
+        4.344000015,
+        4.368000198
+      ],
+      "old_us_per_seed": [
+        6.723999977,
+        6.715999916,
+        6.728000008
+      ],
+      "nonhybrid_us_per_seed": [
+        3.18400003,
+        3.188000061,
+        3.18
+      ]
+    },
+    {
+      "dataset": "r05",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 501,
+      "first_pass_ratio": 0.22151507595851874,
+      "nonhybrid_us": 4.207999911,
+      "nonhybrid_backend": "csr_dsm",
+      "nonhybrid_config": "-1/-1/4/256/4/128",
+      "old_hybrid_us": 20.17999999,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.971999977,
+      "new_hybrid_config": "3/0/4/256/4/128",
+      "best_hybrid_us": 3.971999977,
+      "old_speedup": 0.20852328607954573,
+      "new_speedup": 1.059415895107393,
+      "old_vs_new_hybrid": 5.0805639745349875,
+      "new_us_per_seed": [
+        3.976000007,
+        3.963999916,
+        3.971999977
+      ],
+      "old_us_per_seed": [
+        20.17999999,
+        19.74000037,
+        20.19199915
+      ],
+      "nonhybrid_us_per_seed": [
+        4.207999911,
+        4.211999942,
+        4.203999881
+      ]
+    },
+    {
+      "dataset": "Si10H16",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 393,
+      "first_pass_ratio": 0.43860066788698004,
+      "nonhybrid_us": 6.471999921,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "2/1/8/128/1/1024",
+      "old_hybrid_us": 17.20000058,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 8.084000088,
+      "new_hybrid_config": "2/0/4/256/4/256",
+      "best_hybrid_us": 8.084000088,
+      "old_speedup": 0.3762790524859389,
+      "new_speedup": 0.8005937469752289,
+      "old_vs_new_hybrid": 2.1276596230536806,
+      "new_us_per_seed": [
+        8.084000088,
+        8.088000119,
+        8.080000058
+      ],
+      "old_us_per_seed": [
+        16.82000048,
+        17.20000058,
+        17.26000011
+      ],
+      "nonhybrid_us_per_seed": [
+        6.455999799,
+        6.471999921,
+        6.523999851
+      ]
+    },
+    {
+      "dataset": "g7jac120",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 153,
+      "first_pass_ratio": 0.8890570182412846,
+      "nonhybrid_us": 5.696000066,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "4/1/8/128/1/1024",
+      "old_hybrid_us": 7.931999862,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 7.044000085,
+      "new_hybrid_config": "2/0/4/256/4/256",
+      "best_hybrid_us": 7.044000085,
+      "old_speedup": 0.7181039038197603,
+      "new_speedup": 0.8086314590099838,
+      "old_vs_new_hybrid": 1.1260647027661128,
+      "new_us_per_seed": [
+        7.048000116,
+        7.031999994,
+        7.044000085
+      ],
+      "old_us_per_seed": [
+        7.919999771,
+        7.931999862,
+        7.935999893
+      ],
+      "nonhybrid_us_per_seed": [
+        5.696000066,
+        5.704000127,
+        5.692000035
+      ]
+    },
+    {
+      "dataset": "c-26",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 438,
+      "first_pass_ratio": 0.2335329428258867,
+      "nonhybrid_us": 3.71599989,
+      "nonhybrid_backend": "csr_dsm",
+      "nonhybrid_config": "-1/-1/4/256/4/128",
+      "old_hybrid_us": 17.38400012,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.719999921,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 3.719999921,
+      "old_speedup": 0.21375977130400525,
+      "new_speedup": 0.9989247228266273,
+      "old_vs_new_hybrid": 4.673118411068913,
+      "new_us_per_seed": [
+        3.736000042,
+        3.719999921,
+        3.719999921
+      ],
+      "old_us_per_seed": [
+        17.38400012,
+        17.39200018,
+        17.37999916
+      ],
+      "nonhybrid_us_per_seed": [
+        3.71599989,
+        3.71599989,
+        3.708000062
+      ]
+    },
+    {
+      "dataset": "lp_d2q06c",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 144,
+      "first_pass_ratio": 0.5173210133077808,
+      "nonhybrid_us": 3.147999989,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/0/8/128/1/1024",
+      "old_hybrid_us": 6.887999829,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 4.871999845,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 4.871999845,
+      "old_speedup": 0.45702672287334056,
+      "new_speedup": 0.6461412334055605,
+      "old_vs_new_hybrid": 1.4137931133288038,
+      "new_us_per_seed": [
+        4.871999845,
+        4.875999875,
+        4.856000189
+      ],
+      "old_us_per_seed": [
+        6.887999829,
+        6.89599989,
+        6.819999777
+      ],
+      "nonhybrid_us_per_seed": [
+        3.128000069,
+        3.147999989,
+        3.15600005
+      ]
+    },
+    {
+      "dataset": "lowThrust_1",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 225,
+      "first_pass_ratio": 0.31329617288401035,
+      "nonhybrid_us": 3.167999908,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "-1/-1/8/128/1/1024",
+      "old_hybrid_us": 10.10799967,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.212000011,
+      "new_hybrid_config": "3/0/4/256/4/128",
+      "best_hybrid_us": 3.212000011,
+      "old_speedup": 0.31341511786970605,
+      "new_speedup": 0.986301337842679,
+      "old_vs_new_hybrid": 3.1469488279525413,
+      "new_us_per_seed": [
+        3.2279999,
+        3.20399995,
+        3.212000011
+      ],
+      "old_us_per_seed": [
+        10.11999976,
+        10.09999961,
+        10.10799967
+      ],
+      "nonhybrid_us_per_seed": [
+        3.171999939,
+        3.16000008,
+        3.167999908
+      ]
+    },
+    {
+      "dataset": "spaceStation_9",
+      "reason": "medium-row random from remainder",
+      "max_row_nnz": 154,
+      "first_pass_ratio": 0.35282153559184165,
+      "nonhybrid_us": 2.74799997,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "-1/-1/8/128/1/1024",
+      "old_hybrid_us": 7.903999649,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.316000104,
+      "new_hybrid_config": "2/0/4/256/4/128",
+      "best_hybrid_us": 3.316000104,
+      "old_speedup": 0.3476720764211663,
+      "new_speedup": 0.8287092532612297,
+      "old_vs_new_hybrid": 2.383594511793176,
+      "new_us_per_seed": [
+        3.316000104,
+        3.323999932,
+        3.295999952
+      ],
+      "old_us_per_seed": [
+        7.91199971,
+        7.903999649,
+        7.884000428
+      ],
+      "nonhybrid_us_per_seed": [
+        2.74799997,
+        2.74799997,
+        2.743999939
+      ]
+    },
+    {
+      "dataset": "air02",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 3729,
+      "first_pass_ratio": 0.10866158212081768,
+      "nonhybrid_us": 4.263999872,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 36.77999973,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 6.144000217,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 6.144000217,
+      "old_speedup": 0.1159325694209297,
+      "new_speedup": 0.6940103713215738,
+      "old_vs_new_hybrid": 5.986327869623511,
+      "new_us_per_seed": [
+        6.144000217,
+        6.159999873,
+        6.132000126
+      ],
+      "old_us_per_seed": [
+        36.77200153,
+        36.80799901,
+        36.77999973
+      ],
+      "nonhybrid_us_per_seed": [
+        4.267999902,
+        4.263999872,
+        4.248000216
+      ]
+    },
+    {
+      "dataset": "air03",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 3861,
+      "first_pass_ratio": 0.11288964317270753,
+      "nonhybrid_us": 4.571999889,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 37.06,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 6.444000173,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 6.444000173,
+      "old_speedup": 0.12336750914732864,
+      "new_speedup": 0.7094971704309418,
+      "old_vs_new_hybrid": 5.751086127414975,
+      "new_us_per_seed": [
+        6.440000143,
+        6.444000173,
+        6.451999769
+      ],
+      "old_us_per_seed": [
+        37.05599904,
+        37.06400096,
+        37.06
+      ],
+      "nonhybrid_us_per_seed": [
+        4.571999889,
+        4.563999828,
+        4.571999889
+      ]
+    },
+    {
+      "dataset": "lp_fit1d",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 1027,
+      "first_pass_ratio": 0.1135749705217796,
+      "nonhybrid_us": 4.031999968,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 35.56000069,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 4.399999976,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 4.399999976,
+      "old_speedup": 0.1133858236716474,
+      "new_speedup": 0.9163636340892561,
+      "old_vs_new_hybrid": 8.08181838271901,
+      "new_us_per_seed": [
+        4.412000068,
+        4.399999976,
+        4.391999915
+      ],
+      "old_us_per_seed": [
+        35.56000069,
+        35.56000069,
+        35.55599973
+      ],
+      "nonhybrid_us_per_seed": [
+        4.040000029,
+        4.023999907,
+        4.031999968
+      ]
+    },
+    {
+      "dataset": "Trec14",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 1837,
+      "first_pass_ratio": 0.12837370809594315,
+      "nonhybrid_us": 11.03200018,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/0/8/128/1/1024",
+      "old_hybrid_us": 93.38799864,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 25.92799999,
+      "new_hybrid_config": "2/0/4/256/4/128",
+      "best_hybrid_us": 25.92799999,
+      "old_speedup": 0.11813081274529817,
+      "new_speedup": 0.42548596822951484,
+      "old_vs_new_hybrid": 3.601820374730724,
+      "new_us_per_seed": [
+        25.61599948,
+        25.92799999,
+        26.07999928
+      ],
+      "old_us_per_seed": [
+        93.54799986,
+        92.94400364,
+        93.38799864
+      ],
+      "nonhybrid_us_per_seed": [
+        10.84399968,
+        11.03600021,
+        11.03200018
+      ]
+    },
+    {
+      "dataset": "dynamicSoaringProblem_7",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 1316,
+      "first_pass_ratio": 0.12838874286487525,
+      "nonhybrid_us": 4.019999877,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 31.32399917,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.860000055,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 3.860000055,
+      "old_speedup": 0.12833609958878056,
+      "new_speedup": 1.0414507304974636,
+      "old_vs_new_hybrid": 8.115025576081242,
+      "new_us_per_seed": [
+        3.868000116,
+        3.856000025,
+        3.860000055
+      ],
+      "old_us_per_seed": [
+        31.32399917,
+        31.31600097,
+        31.32399917
+      ],
+      "nonhybrid_us_per_seed": [
+        4.019999877,
+        4.00400022,
+        4.019999877
+      ]
+    },
+    {
+      "dataset": "us04",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 11625,
+      "first_pass_ratio": 0.13053929104937298,
+      "nonhybrid_us": 4.960000049,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 38.13600168,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 9.507999755,
+      "new_hybrid_config": "2/0/8/256/4/128",
+      "best_hybrid_us": 9.507999755,
+      "old_speedup": 0.13006083046197306,
+      "new_speedup": 0.5216659840984609,
+      "old_vs_new_hybrid": 4.010938437387455,
+      "new_us_per_seed": [
+        9.511999786,
+        9.507999755,
+        9.499999695
+      ],
+      "old_us_per_seed": [
+        38.13600168,
+        38.14399987,
+        38.12799975
+      ],
+      "nonhybrid_us_per_seed": [
+        4.960000049,
+        4.960000049,
+        4.947999958
+      ]
+    },
+    {
+      "dataset": "pcb3000",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 6085,
+      "first_pass_ratio": 0.1306187734290766,
+      "nonhybrid_us": 4.780000076,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "3/1/8/128/1/1024",
+      "old_hybrid_us": 35.40400043,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 7.244000211,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 7.244000211,
+      "old_speedup": 0.13501299338900724,
+      "new_speedup": 0.6598564241814322,
+      "old_vs_new_hybrid": 4.887354969459981,
+      "new_us_per_seed": [
+        7.240000181,
+        7.247999776,
+        7.244000211
+      ],
+      "old_us_per_seed": [
+        35.34799814,
+        35.40400043,
+        35.40800139
+      ],
+      "nonhybrid_us_per_seed": [
+        4.780000076,
+        4.743999802,
+        4.784000106
+      ]
+    },
+    {
+      "dataset": "kineticBatchReactor_2",
+      "reason": "long-row worst first pass",
+      "max_row_nnz": 1166,
+      "first_pass_ratio": 0.1309140543706477,
+      "nonhybrid_us": 4.207999911,
+      "nonhybrid_backend": "atbsr",
+      "nonhybrid_config": "0/1/8/128/1/1024",
+      "old_hybrid_us": 32.54000098,
+      "old_hybrid_config": "3/0/8/256/1/1024",
+      "new_hybrid_us": 3.936000168,
+      "new_hybrid_config": "3/0/8/256/4/128",
+      "best_hybrid_us": 3.936000168,
+      "old_speedup": 0.1293177561238045,
+      "new_speedup": 1.0691056228125648,
+      "old_vs_new_hybrid": 8.267276318876418,
+      "new_us_per_seed": [
+        3.947999794,
+        3.936000168,
+        3.932000138
+      ],
+      "old_us_per_seed": [
+        32.54000098,
+        32.55200014,
+        32.54000098
+      ],
+      "nonhybrid_us_per_seed": [
+        4.207999911,
+        4.207999911,
+        4.211999942
+      ]
+    }
+  ],
+  "failures": [],
+  "notes": "Ratios use median over seed medians, with the best fixed configuration chosen after retest. Crossover cases were selected from the full pass and are not a random holdout; optimization changes group/threads/tile as well as threshold."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "west2021",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx --------------\ninput matrix A: ( 2021, 2021 ) nnz = 5450\ncomputation usetime = 0.072 ms\nPerformance = 0.151 gflops\n\nx check passed! |x-xref|/|xref| = 1.46e-09\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=0\nstage calculate done\n"
+}

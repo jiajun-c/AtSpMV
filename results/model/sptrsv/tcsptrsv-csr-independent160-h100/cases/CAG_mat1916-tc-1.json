@@ -1,0 +1,9 @@
+{
+  "name": "CAG_mat1916",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/CAG_mat1916-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1920, 1920 ) nnz = 58503\nloadfile time    = 0.02580 sec\nnnzL = 58503\ntime_for_csc2CompressTile = 2.92 ms\ntime_cuda_solve = 0.453840 ms, Mflops = 257.81\nVALIDATION finite=1 max_error=8.3377749149349256e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

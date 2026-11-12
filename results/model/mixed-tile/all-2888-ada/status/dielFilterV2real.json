@@ -1,0 +1,15 @@
+{
+  "dataset": "dielFilterV2real",
+  "matrix_sha256": "b350814fbf5af396a9f9e364189156c06f1a1f0dde799c0e554a86f3b46ec699",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 38.969,
+  "gpu_after": {
+    "utilization_percent": 99,
+    "free_memory_mib": 48508
+  }
+}

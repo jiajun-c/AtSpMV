@@ -1,0 +1,13 @@
+{
+  "matrix": "lowThrust_1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lowThrust_1/lowThrust_1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 584,
+  "columns": 584,
+  "original_nnz": 6133,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.014339365065097809
+}

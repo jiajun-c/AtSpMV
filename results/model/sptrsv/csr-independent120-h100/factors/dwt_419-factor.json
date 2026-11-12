@@ -1,0 +1,13 @@
+{
+  "matrix": "dwt_419",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/dwt_419/dwt_419.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 419,
+  "columns": 419,
+  "original_nnz": 3563,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.029589656041935086
+}

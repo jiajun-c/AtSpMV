@@ -1,0 +1,7 @@
+{
+  "name": "fpga_trans_01",
+  "order": "components-first",
+  "returncode": 1,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/components-grouped-pilot-h100/factors/fpga_trans_01-L.mtx,1220,8184,132,cusparse,27605.316,149.5839953,1.33226763e-15,6.685658058e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/fpga_trans_01-L.mtx,1220,8184,132,cusparse-host,27605.316,157.19769,1.33226763e-15,6.685658058e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/fpga_trans_01-L.mtx,1220,8184,132,cached-components-256,724.506,109.9007964,1.33226763e-15,6.685658058e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/fpga_trans_01-L.mtx,1220,8184,132,cached-components-512,724.506,104.8575997,1.33226763e-15,6.685658058e-17\n",
+  "stderr": "cudaGetLastError(): invalid argument\n"
+}

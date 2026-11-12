@@ -1,0 +1,14 @@
+{
+  "matrix": "semeion_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/semeion_10NN/semeion_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1593,
+  "columns": 1593,
+  "original_nnz": 22226,
+  "factor_L_nnz": 48705,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.28453728393651545
+}

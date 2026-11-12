@@ -1,0 +1,15 @@
+{
+  "dataset": "neos3",
+  "matrix_sha256": "99e65921885bc9b1a7194576b2567dfb05760318c3fbf3b71c6b3df418f3d162",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.423,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

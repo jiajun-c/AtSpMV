@@ -1,0 +1,17 @@
+{
+  "dataset": "cfd2",
+  "matrix_sha256": "80faade5d176fce67517715f6e70b4de7046e666bf2251a0c52221e079aba844",
+  "index_nnz": 3087898,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.432,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

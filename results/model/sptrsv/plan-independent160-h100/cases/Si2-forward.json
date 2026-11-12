@@ -1,0 +1,7 @@
+{
+  "name": "Si2",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/Si2-L.mtx,default,cusparse,769,41445,-1,6743.844,429.7920227,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Si2-L.mtx,default-host,cusparse,769,41445,-1,6743.844,437.076115,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Si2-L.mtx,model,cusparse,769,41445,496,9664.673,429.8208313,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\nresults/model/sptrsv/components-independent-h100/factors/Si2-L.mtx,model-host,cusparse,769,41445,496,9664.673,438.095405,2.331468352e-15,6.793976675e-17,1.271422041e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Cities",
+  "matrix_sha256": "d00c21d3e6e06255a7f8386e9e4d6e97e366f42a8de03d5e4a969690170a61ce",
+  "index_nnz": 1342,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.221,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

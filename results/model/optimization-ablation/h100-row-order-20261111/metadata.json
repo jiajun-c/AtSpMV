@@ -1,0 +1,14 @@
+{
+  "manifest_sha256": "bef1b0aa1681f1e8622537624fd568125cd41bbfea2ceb6438cf112881032a90",
+  "exe_sha256": "273fe4699e17c36a575a29c806cef3efab9cf0f93ee2f1e88bb2e68107ec86e4",
+  "runner_sha256": "ccae158d1f645c764abeb4b85a35c9506ad211e383857a501c4c0488ac0d670b",
+  "gpu_uuid": "GPU-03411f7f-71f1-5320-6c4b-5f87c169733d",
+  "timeout": 600,
+  "prefetch": 2,
+  "warps": 4,
+  "cap": 8,
+  "cta_reduce": 0,
+  "persist_x": false,
+  "pad_x_to_columns": 32767,
+  "measurement": "FP64 warm Graph internal events, 8 SpMVs/batch, 3 warmup rounds, randomized interleaving, two reversed construction orders; setup excluded"
+}

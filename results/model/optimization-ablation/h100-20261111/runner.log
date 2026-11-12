@@ -1,0 +1,10 @@
+1/9 rajat09: ok
+2/9 poisson3Da: ok
+3/9 FEM_3D_thermal2: ok
+4/9 cop20k_A: ok
+5/9 mac_econ_fwd500: ok
+6/9 pwtk: ok
+7/9 trans4: ok
+8/9 webbase-1M: ok
+9/9 a5esindl: ok
+{"requested": 9, "successful": 9, "failures": [], "candidate_pairs": 380, "scope": "Purposeful mechanism ablation, nine previously inspected matrices; not a blind sample or all-dataset claim. Fixed configs, not autotuned winners."}

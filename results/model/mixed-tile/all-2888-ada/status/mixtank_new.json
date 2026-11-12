@@ -1,0 +1,15 @@
+{
+  "dataset": "mixtank_new",
+  "matrix_sha256": "12c989fcdee91d9ee4fa17698944b053796a8fa639d16f9005dd4c69947fa7d8",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.08,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  }
+}

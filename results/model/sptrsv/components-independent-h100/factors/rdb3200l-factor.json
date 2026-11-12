@@ -1,0 +1,13 @@
+{
+  "matrix": "rdb3200l",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/rdb3200l/rdb3200l.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3200,
+  "columns": 3200,
+  "original_nnz": 18880,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.04974926891736686
+}

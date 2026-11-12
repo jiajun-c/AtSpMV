@@ -1,0 +1,17 @@
+{
+  "dataset": "farm",
+  "matrix_sha256": "c6c96b2a2c6e1aff7d74219e50805ee0460fc7c9fb19065a9b53b6f14c7736c6",
+  "index_nnz": 41,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.18,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "soc-sign-bitcoin-alpha",
+  "matrix_sha256": "bce05d924bc704048062ba5e3b5b05343bfabcb3ddb1a8c400f94cbfc06031ae",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.336,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

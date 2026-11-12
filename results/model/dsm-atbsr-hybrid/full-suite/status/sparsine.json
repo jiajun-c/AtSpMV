@@ -1,0 +1,10 @@
+{
+  "dataset": "sparsine",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sparsine/sparsine.mtx",
+  "matrix_sha256": "03f0e9bb37ef00084e76379cc3283607f2966711f2b3687ae84191742b2f7bb5",
+  "index_nnz": 1548988,
+  "index_rows": 50000,
+  "elapsed_s": 1.974,
+  "returncode": 0,
+  "status": "ok"
+}

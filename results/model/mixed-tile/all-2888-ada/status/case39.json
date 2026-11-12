@@ -1,0 +1,15 @@
+{
+  "dataset": "case39",
+  "matrix_sha256": "d01aed95ce372774ab2c7f6729727aaa1f454b43e810140e2a0aa913bbb734b3",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.135,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "spiral",
+  "matrix_sha256": "789600335290cdef1e98adafdfc4e9e245477c0fb2562f88da708063c4679383",
+  "index_nnz": 18228,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.203,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  }
+}

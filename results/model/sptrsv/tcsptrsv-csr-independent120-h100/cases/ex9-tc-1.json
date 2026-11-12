@@ -1,0 +1,9 @@
+{
+  "name": "ex9",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex9-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3376, 3376 ) nnz = 237869\nloadfile time    = 0.08095 sec\nnnzL = 237869\ntime_for_csc2CompressTile = 4.38 ms\ntime_cuda_solve = 1.574720 ms, Mflops = 302.11\nVALIDATION finite=1 max_error=8.2001072598814062e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

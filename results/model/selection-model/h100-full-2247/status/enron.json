@@ -1,0 +1,17 @@
+{
+  "dataset": "enron",
+  "matrix_sha256": "4162437033c1235e4d4e89702e0caf0954b26c9817aee0feb53c436d2218abd2",
+  "index_nnz": 276143,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.634,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

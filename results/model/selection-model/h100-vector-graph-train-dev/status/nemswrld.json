@@ -1,0 +1,17 @@
+{
+  "dataset": "nemswrld",
+  "matrix_sha256": "f5f182ad3181010eb0efec154fc7152a575957ae85154693c7b6dd841017e47b",
+  "index_nnz": 192283,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.27,
+  "gpu_after": {
+    "utilization_percent": 38,
+    "free_memory_mib": 81079
+  }
+}

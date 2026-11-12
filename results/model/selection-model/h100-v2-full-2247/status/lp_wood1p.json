@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_wood1p",
+  "matrix_sha256": "26ea03a71a64d925953686129b75d45a3e8fbed37105c618a6d305e4024f450c",
+  "index_nnz": 70216,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.83,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

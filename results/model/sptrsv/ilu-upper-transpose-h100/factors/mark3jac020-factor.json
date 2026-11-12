@@ -1,0 +1,7 @@
+{
+  "matrix": "mark3jac020",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/mark3jac020-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.069856807589531e-06
+}

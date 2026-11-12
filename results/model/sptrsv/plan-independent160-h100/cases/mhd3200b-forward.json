@@ -1,0 +1,7 @@
+{
+  "name": "mhd3200b",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/mhd3200b-L.mtx,default,cusparse,3200,10758,-1,5422.689,906.9536133,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\nresults/model/sptrsv/components-independent-h100/factors/mhd3200b-L.mtx,default-host,cusparse,3200,10758,-1,5422.689,914.578045,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\nresults/model/sptrsv/components-independent-h100/factors/mhd3200b-L.mtx,model,cusparse,3200,10758,798,5905.683,907.1583862,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\nresults/model/sptrsv/components-independent-h100/factors/mhd3200b-L.mtx,model-host,cusparse,3200,10758,798,5905.683,914.56306,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\n",
+  "stderr": ""
+}

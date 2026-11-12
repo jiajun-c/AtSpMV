@@ -1,0 +1,5213 @@
+{
+  "scope": "Predeclared 100-matrix structural sample: 25 per nnz bin (1k-100k,100k-1m,1m-5m,5m-20m); each 13 short/12 long-row cases. Approximate name-family cap 3. Excludes previous24, no performance used for selection. Not a random full-library sample or training holdout.",
+  "trials": 9,
+  "gpu": 3,
+  "seed": 2026111101,
+  "inventory_sha256": "255b00e427ce3cdd7e8f4f3fcb56f119fa91d9c6b53b5ec0e617522072db5fb0",
+  "exclude_sha256": "69a738de99c959967e9777b65dc70c8e4804421475f4d15befb2a424591040b4",
+  "row_column_limit": 2000000,
+  "long_row_threshold": 1024,
+  "family_cap": 3,
+  "matrices": [
+    {
+      "dataset": "ns3Da",
+      "rows": "20414",
+      "columns": "20414",
+      "nnz": "1679599",
+      "longest_row": "164",
+      "longest_row_nnz": "306",
+      "ratio": "0.000182186343288",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ns3Da/ns3Da.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "nsDa",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "stat96v3",
+      "rows": "33841",
+      "columns": "1113780",
+      "nnz": "3317736",
+      "longest_row": "33841",
+      "longest_row_nnz": "3760",
+      "ratio": "0.00113330295117",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/stat96v3/stat96v3.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "statv",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rdb2048_noL",
+      "rows": "2048",
+      "columns": "2048",
+      "nnz": "12032",
+      "longest_row": "67",
+      "longest_row_nnz": "6",
+      "ratio": "0.000498670212766",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb2048_noL/rdb2048_noL.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "rdb_noL",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "para-9",
+      "rows": "155924",
+      "columns": "155924",
+      "nnz": "5416358",
+      "longest_row": "52996",
+      "longest_row_nnz": "6931",
+      "ratio": "0.00127964215069",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/para-9/para-9.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "para",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "tsyl201",
+      "rows": "20685",
+      "columns": "20685",
+      "nnz": "2454957",
+      "longest_row": "61",
+      "longest_row_nnz": "162",
+      "ratio": "6.59889358551e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/tsyl201/tsyl201.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "tsyl",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_RS_b678_c1",
+      "rows": "18696",
+      "columns": "18696",
+      "nnz": "4396289",
+      "longest_row": "10367",
+      "longest_row_nnz": "512",
+      "ratio": "0.000116461861356",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_RS_b678_c1/TSOPF_RS_b678_c1.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "TSOPF_RS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "para-10",
+      "rows": "155924",
+      "columns": "155924",
+      "nnz": "5416358",
+      "longest_row": "52996",
+      "longest_row_nnz": "6931",
+      "ratio": "0.00127964215069",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/para-10/para-10.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "para",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "bcsstm36",
+      "rows": "23052",
+      "columns": "23052",
+      "nnz": "320606",
+      "longest_row": "15430",
+      "longest_row_nnz": "103",
+      "ratio": "0.000321266601374",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bcsstm36/bcsstm36.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "bcsstm",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "sparsine",
+      "rows": "50000",
+      "columns": "50000",
+      "nnz": "1548988",
+      "longest_row": "10",
+      "longest_row_nnz": "56",
+      "ratio": "3.6152636431e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sparsine/sparsine.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "sparsine",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "kron_g500-logn17",
+      "rows": "131072",
+      "columns": "131072",
+      "nnz": "10228360",
+      "longest_row": "126063",
+      "longest_row_nnz": "29936",
+      "ratio": "0.00292676440798",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/kron_g500-logn17/kron_g500-logn17.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "kron_g-logn",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "net50",
+      "rows": "16320",
+      "columns": "16320",
+      "nnz": "945200",
+      "longest_row": "10881",
+      "longest_row_nnz": "139",
+      "ratio": "0.000147058823529",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/net50/net50.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "net",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "n4c5-b6",
+      "rows": "4735",
+      "columns": "4340",
+      "nnz": "33145",
+      "longest_row": "1",
+      "longest_row_nnz": "7",
+      "ratio": "0.000211193241816",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/n4c5-b6/n4c5-b6.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "nc-b",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rosen2",
+      "rows": "1032",
+      "columns": "3080",
+      "nnz": "47536",
+      "longest_row": "6",
+      "longest_row_nnz": "1947",
+      "ratio": "0.0409584315045",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rosen2/rosen2.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "rosen",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "std1_Jac3",
+      "rows": "21982",
+      "columns": "21982",
+      "nnz": "1455848",
+      "longest_row": "13136",
+      "longest_row_nnz": "1030",
+      "ratio": "0.000707491441414",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/std1_Jac3/std1_Jac3.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "std_Jac",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "af_2_k101",
+      "rows": "503625",
+      "columns": "503625",
+      "nnz": "17550675",
+      "longest_row": "856",
+      "longest_row_nnz": "35",
+      "ratio": "1.99422529333e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/af_2_k101/af_2_k101.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "af__k",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "celegans_metabolic",
+      "rows": "453",
+      "columns": "453",
+      "nnz": "4065",
+      "longest_row": "186",
+      "longest_row_nnz": "238",
+      "ratio": "0.0585485854859",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/celegans_metabolic/celegans_metabolic.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "celegans_metabolic",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "af_shell1",
+      "rows": "504855",
+      "columns": "504855",
+      "nnz": "17588875",
+      "longest_row": "196",
+      "longest_row_nnz": "40",
+      "ratio": "2.27416477745e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/af_shell1/af_shell1.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "af_shell",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "caidaRouterLevel",
+      "rows": "192244",
+      "columns": "192244",
+      "nnz": "1218132",
+      "longest_row": "1737",
+      "longest_row_nnz": "1071",
+      "ratio": "0.000879215060437",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/caidaRouterLevel/caidaRouterLevel.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "caidaRouterLevel",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "F2",
+      "rows": "71505",
+      "columns": "71505",
+      "nnz": "5294285",
+      "longest_row": "30394",
+      "longest_row_nnz": "345",
+      "ratio": "6.5164606741e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/F2/F2.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "F",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "shermanACd",
+      "rows": "6136",
+      "columns": "6136",
+      "nnz": "53329",
+      "longest_row": "362",
+      "longest_row_nnz": "5181",
+      "ratio": "0.097151643571",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shermanACd/shermanACd.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "shermanACd",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "degme",
+      "rows": "185501",
+      "columns": "659415",
+      "nnz": "8127528",
+      "longest_row": "185501",
+      "longest_row_nnz": "624079",
+      "ratio": "0.0767858320513",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/degme/degme.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "degme",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "lp_sctap1",
+      "rows": "300",
+      "columns": "660",
+      "nnz": "1872",
+      "longest_row": "32",
+      "longest_row_nnz": "23",
+      "ratio": "0.0122863247863",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_sctap1/lp_sctap1.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "lp_sctap",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "nemeth01",
+      "rows": "9506",
+      "columns": "9506",
+      "nnz": "725054",
+      "longest_row": "67",
+      "longest_row_nnz": "96",
+      "ratio": "0.000132403931293",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nemeth01/nemeth01.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "nemeth",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "mycielskian15",
+      "rows": "24575",
+      "columns": "24575",
+      "nnz": "11111110",
+      "longest_row": "24575",
+      "longest_row_nnz": "12287",
+      "ratio": "0.00110583011058",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mycielskian15/mycielskian15.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "mycielskian",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "gen4",
+      "rows": "1537",
+      "columns": "4298",
+      "nnz": "107103",
+      "longest_row": "1537",
+      "longest_row_nnz": "3073",
+      "ratio": "0.0286920067598",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gen4/gen4.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "gen",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "loc-Brightkite",
+      "rows": "58228",
+      "columns": "58228",
+      "nnz": "428156",
+      "longest_row": "41",
+      "longest_row_nnz": "1134",
+      "ratio": "0.00264856734461",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/loc-Brightkite/loc-Brightkite.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "loc-Brightkite",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rosen10",
+      "rows": "2056",
+      "columns": "6152",
+      "nnz": "64192",
+      "longest_row": "5",
+      "longest_row_nnz": "3886",
+      "ratio": "0.0605371385842",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rosen10/rosen10.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "rosen",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "para-8",
+      "rows": "155924",
+      "columns": "155924",
+      "nnz": "5416358",
+      "longest_row": "52996",
+      "longest_row_nnz": "6931",
+      "ratio": "0.00127964215069",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/para-8/para-8.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "para",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "af_shell8",
+      "rows": "504855",
+      "columns": "504855",
+      "nnz": "17588875",
+      "longest_row": "196",
+      "longest_row_nnz": "40",
+      "ratio": "2.27416477745e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/af_shell8/af_shell8.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "af_shell",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_RS_b2383_c1",
+      "rows": "38120",
+      "columns": "38120",
+      "nnz": "16171169",
+      "longest_row": "22098",
+      "longest_row_nnz": "983",
+      "ratio": "6.07871947909e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_RS_b2383_c1/TSOPF_RS_b2383_c1.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "TSOPF_RS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "PR02R",
+      "rows": "161070",
+      "columns": "161070",
+      "nnz": "8185136",
+      "longest_row": "911",
+      "longest_row_nnz": "92",
+      "ratio": "1.12398865456e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/PR02R/PR02R.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "PRR",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "saylr3",
+      "rows": "1000",
+      "columns": "1000",
+      "nnz": "3750",
+      "longest_row": "214",
+      "longest_row_nnz": "7",
+      "ratio": "0.00186666666667",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/saylr3/saylr3.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "saylr",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "bibd_22_8",
+      "rows": "231",
+      "columns": "319770",
+      "nnz": "8953560",
+      "longest_row": "1",
+      "longest_row_nnz": "38760",
+      "ratio": "0.004329004329",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bibd_22_8/bibd_22_8.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "bibd",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Trefethen_20000b",
+      "rows": "19999",
+      "columns": "19999",
+      "nnz": "554435",
+      "longest_row": "8193",
+      "longest_row_nnz": "29",
+      "ratio": "5.23055001939e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Trefethen_20000b/Trefethen_20000b.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "Trefethen_b",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "nsir",
+      "rows": "4453",
+      "columns": "10057",
+      "nnz": "154939",
+      "longest_row": "116",
+      "longest_row_nnz": "950",
+      "ratio": "0.00613144527846",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nsir/nsir.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "nsir",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "auto",
+      "rows": "448695",
+      "columns": "448695",
+      "nnz": "6629222",
+      "longest_row": "31189",
+      "longest_row_nnz": "37",
+      "ratio": "5.58134876159e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/auto/auto.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "auto",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "al2010",
+      "rows": "252266",
+      "columns": "252266",
+      "nnz": "1230482",
+      "longest_row": "20665",
+      "longest_row_nnz": "76",
+      "ratio": "6.17644142702e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/al2010/al2010.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "al",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "IG5-17",
+      "rows": "30162",
+      "columns": "27944",
+      "nnz": "1035008",
+      "longest_row": "402",
+      "longest_row_nnz": "120",
+      "ratio": "0.000115941132822",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/IG5-17/IG5-17.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "IG",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Goodwin_127",
+      "rows": "178437",
+      "columns": "178437",
+      "nnz": "5778545",
+      "longest_row": "3",
+      "longest_row_nnz": "62",
+      "ratio": "1.07293444976e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Goodwin_127/Goodwin_127.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "Goodwin",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "lp_osa_14",
+      "rows": "2337",
+      "columns": "54797",
+      "nnz": "317097",
+      "longest_row": "2336",
+      "longest_row_nnz": "38336",
+      "ratio": "0.120896760297",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_14/lp_osa_14.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "lp_osa",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Zhao2",
+      "rows": "33861",
+      "columns": "33861",
+      "nnz": "166453",
+      "longest_row": "10929",
+      "longest_row_nnz": "6",
+      "ratio": "3.60462112428e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Zhao2/Zhao2.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "Zhao",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "vsp_c-60_data_cti_cs4",
+      "rows": "85830",
+      "columns": "85830",
+      "nnz": "482160",
+      "longest_row": "43640",
+      "longest_row_nnz": "2207",
+      "ratio": "0.00457731873237",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_c-60_data_cti_cs4/vsp_c-60_data_cti_cs4.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "vsp_c-_data_cti_cs",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Si41Ge41H72",
+      "rows": "185639",
+      "columns": "185639",
+      "nnz": "15011265",
+      "longest_row": "131439",
+      "longest_row_nnz": "662",
+      "ratio": "4.41002140726e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Si41Ge41H72/Si41Ge41H72.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "SiGeH",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "neos3",
+      "rows": "512209",
+      "columns": "518832",
+      "nnz": "2055024",
+      "longest_row": "1",
+      "longest_row_nnz": "6480",
+      "ratio": "0.00315324784528",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/neos3/neos3.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "neos",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TEM152078",
+      "rows": "152078",
+      "columns": "152078",
+      "nnz": "6459326",
+      "longest_row": "55307",
+      "longest_row_nnz": "110",
+      "ratio": "1.70296405538e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TEM152078/TEM152078.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "TEM",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "torso1",
+      "rows": "116158",
+      "columns": "116158",
+      "nnz": "8516500",
+      "longest_row": "4161",
+      "longest_row_nnz": "3263",
+      "ratio": "0.00038313861328",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/torso1/torso1.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "torso",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "oilpan",
+      "rows": "73752",
+      "columns": "73752",
+      "nnz": "3597188",
+      "longest_row": "46670",
+      "longest_row_nnz": "70",
+      "ratio": "1.94596445891e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/oilpan/oilpan.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "oilpan",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "bibd_15_7",
+      "rows": "105",
+      "columns": "6435",
+      "nnz": "135135",
+      "longest_row": "1",
+      "longest_row_nnz": "1287",
+      "ratio": "0.00952380952381",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bibd_15_7/bibd_15_7.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "bibd",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "bibd_81_2",
+      "rows": "3240",
+      "columns": "3240",
+      "nnz": "3240",
+      "longest_row": "1",
+      "longest_row_nnz": "1",
+      "ratio": "0.000308641975309",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bibd_81_2/bibd_81_2.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "bibd",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rail516",
+      "rows": "516",
+      "columns": "47827",
+      "nnz": "315412",
+      "longest_row": "76",
+      "longest_row_nnz": "7806",
+      "ratio": "0.024748582806",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rail516/rail516.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "rail",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "dc3",
+      "rows": "116835",
+      "columns": "116835",
+      "nnz": "766396",
+      "longest_row": "90",
+      "longest_row_nnz": "114190",
+      "ratio": "0.148996080355",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/dc3/dc3.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "dc",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Chebyshev4",
+      "rows": "68121",
+      "columns": "68121",
+      "nnz": "5377761",
+      "longest_row": "1",
+      "longest_row_nnz": "68121",
+      "ratio": "0.0126671676186",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Chebyshev4/Chebyshev4.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "Chebyshev",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "darcy003",
+      "rows": "389874",
+      "columns": "389874",
+      "nnz": "2101242",
+      "longest_row": "1019",
+      "longest_row_nnz": "7",
+      "ratio": "3.33136307003e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/darcy003/darcy003.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "darcy",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Spectro_10NN",
+      "rows": "531",
+      "columns": "531",
+      "nnz": "7422",
+      "longest_row": "221",
+      "longest_row_nnz": "29",
+      "ratio": "0.00390730261385",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Spectro_10NN/Spectro_10NN.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "Spectro_NN",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_FS_b162_c4",
+      "rows": "40798",
+      "columns": "40798",
+      "nnz": "2398220",
+      "longest_row": "376",
+      "longest_row_nnz": "20054",
+      "ratio": "0.00836203517609",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_FS_b162_c4/TSOPF_FS_b162_c4.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "TSOPF_FS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "D6-6",
+      "rows": "120576",
+      "columns": "23740",
+      "nnz": "146880",
+      "longest_row": "298",
+      "longest_row_nnz": "6",
+      "ratio": "4.08496732026e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/D6-6/D6-6.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "D",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_FS_b162_c3",
+      "rows": "30798",
+      "columns": "30798",
+      "nnz": "1801300",
+      "longest_row": "376",
+      "longest_row_nnz": "15054",
+      "ratio": "0.00835729750736",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_FS_b162_c3/TSOPF_FS_b162_c3.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "TSOPF_FS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "majorbasis",
+      "rows": "160000",
+      "columns": "160000",
+      "nnz": "1750416",
+      "longest_row": "202",
+      "longest_row_nnz": "11",
+      "ratio": "6.28422043674e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/majorbasis/majorbasis.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "majorbasis",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rajat17",
+      "rows": "94294",
+      "columns": "94294",
+      "nnz": "641159",
+      "longest_row": "53120",
+      "longest_row_nnz": "28755",
+      "ratio": "0.0448484697244",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat17/rajat17.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "rajat",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rajat20",
+      "rows": "86916",
+      "columns": "86916",
+      "nnz": "605045",
+      "longest_row": "45632",
+      "longest_row_nnz": "29105",
+      "ratio": "0.0481038600435",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat20/rajat20.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "rajat",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "gemat1",
+      "rows": "4929",
+      "columns": "10595",
+      "nnz": "47369",
+      "longest_row": "4929",
+      "longest_row_nnz": "4928",
+      "ratio": "0.104034284025",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gemat1/gemat1.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "gemat",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "plddb",
+      "rows": "3069",
+      "columns": "5049",
+      "nnz": "10839",
+      "longest_row": "41",
+      "longest_row_nnz": "9",
+      "ratio": "0.000830334901744",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/plddb/plddb.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "plddb",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_RS_b2052_c1",
+      "rows": "25626",
+      "columns": "25626",
+      "nnz": "6761100",
+      "longest_row": "15288",
+      "longest_row_nnz": "635",
+      "ratio": "9.39196284628e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_RS_b2052_c1/TSOPF_RS_b2052_c1.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "TSOPF_RS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "dwt_162",
+      "rows": "162",
+      "columns": "162",
+      "nnz": "1182",
+      "longest_row": "13",
+      "longest_row_nnz": "9",
+      "ratio": "0.00761421319797",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/dwt_162/dwt_162.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "dwt",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "wikipedia-20051105",
+      "rows": "1634989",
+      "columns": "1634989",
+      "nnz": "19753078",
+      "longest_row": "216616",
+      "longest_row_nnz": "4970",
+      "ratio": "0.000251606357247",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wikipedia-20051105/wikipedia-20051105.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "wikipedia",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Maragal_5",
+      "rows": "4654",
+      "columns": "3320",
+      "nnz": "93091",
+      "longest_row": "126",
+      "longest_row_nnz": "1491",
+      "ratio": "0.0160165859213",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Maragal_5/Maragal_5.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "Maragal",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "bmw7st_1",
+      "rows": "141347",
+      "columns": "141347",
+      "nnz": "7339667",
+      "longest_row": "99506",
+      "longest_row_nnz": "435",
+      "ratio": "5.92669939931e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bmw7st_1/bmw7st_1.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "bmwst",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "c-72",
+      "rows": "84064",
+      "columns": "84064",
+      "nnz": "707558",
+      "longest_row": "84064",
+      "longest_row_nnz": "5172",
+      "ratio": "0.00730964811365",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-72/c-72.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "adder_dcop_03",
+      "rows": "1813",
+      "columns": "1813",
+      "nnz": "11148",
+      "longest_row": "1813",
+      "longest_row_nnz": "1310",
+      "ratio": "0.117509867241",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_03/adder_dcop_03.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "adder_dcop",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Raj1",
+      "rows": "263743",
+      "columns": "263743",
+      "nnz": "1302464",
+      "longest_row": "8",
+      "longest_row_nnz": "40468",
+      "ratio": "0.0310703405238",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Raj1/Raj1.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "Raj",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "pkustk04",
+      "rows": "55590",
+      "columns": "55590",
+      "nnz": "4218660",
+      "longest_row": "15160",
+      "longest_row_nnz": "4230",
+      "ratio": "0.00100268805735",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pkustk04/pkustk04.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "pkustk",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "nemeth26",
+      "rows": "9506",
+      "columns": "9506",
+      "nnz": "1511760",
+      "longest_row": "3527",
+      "longest_row_nnz": "193",
+      "ratio": "0.000127665767053",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nemeth26/nemeth26.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "nemeth",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "pkustk14",
+      "rows": "151926",
+      "columns": "151926",
+      "nnz": "14836504",
+      "longest_row": "898",
+      "longest_row_nnz": "333",
+      "ratio": "2.24446405973e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pkustk14/pkustk14.mtx",
+      "size_bin": 3,
+      "has_long_row": false,
+      "approximate_family": "pkustk",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "ch7-9-b3",
+      "rows": "105840",
+      "columns": "17640",
+      "nnz": "423360",
+      "longest_row": "1",
+      "longest_row_nnz": "4",
+      "ratio": "9.44822373394e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ch7-9-b3/ch7-9-b3.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "ch--b",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "c-54",
+      "rows": "31793",
+      "columns": "31793",
+      "nnz": "391693",
+      "longest_row": "783",
+      "longest_row_nnz": "1808",
+      "ratio": "0.00461585986985",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-54/c-54.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "thermomech_dK",
+      "rows": "204316",
+      "columns": "204316",
+      "nnz": "2846228",
+      "longest_row": "29363",
+      "longest_row_nnz": "20",
+      "ratio": "7.02684394925e-06",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/thermomech_dK/thermomech_dK.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "thermomech_dK",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "raefsky2",
+      "rows": "3242",
+      "columns": "3242",
+      "nnz": "294276",
+      "longest_row": "551",
+      "longest_row_nnz": "108",
+      "ratio": "0.000367002405905",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/raefsky2/raefsky2.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "raefsky",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "mycielskian14",
+      "rows": "12287",
+      "columns": "12287",
+      "nnz": "3695512",
+      "longest_row": "12287",
+      "longest_row_nnz": "6143",
+      "ratio": "0.00166228657896",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mycielskian14/mycielskian14.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "mycielskian",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "watt_2",
+      "rows": "1856",
+      "columns": "1856",
+      "nnz": "11550",
+      "longest_row": "1",
+      "longest_row_nnz": "128",
+      "ratio": "0.0110822510823",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/watt_2/watt_2.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "watt",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "IMDB",
+      "rows": "428440",
+      "columns": "896308",
+      "nnz": "3782463",
+      "longest_row": "109046",
+      "longest_row_nnz": "1334",
+      "ratio": "0.000352680250937",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/IMDB/IMDB.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "IMDB",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TF19",
+      "rows": "241029",
+      "columns": "317955",
+      "nnz": "4370721",
+      "longest_row": "208380",
+      "longest_row_nnz": "90",
+      "ratio": "2.05915683019e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TF19/TF19.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "TF",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "barrier2-11",
+      "rows": "115625",
+      "columns": "115625",
+      "nnz": "3897557",
+      "longest_row": "39297",
+      "longest_row_nnz": "8437",
+      "ratio": "0.00216468931692",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/barrier2-11/barrier2-11.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "barrier",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "adder_dcop_09",
+      "rows": "1813",
+      "columns": "1813",
+      "nnz": "11239",
+      "longest_row": "1813",
+      "longest_row_nnz": "1310",
+      "ratio": "0.11655841267",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_09/adder_dcop_09.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "adder_dcop",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "cz10228",
+      "rows": "10228",
+      "columns": "10228",
+      "nnz": "102876",
+      "longest_row": "1901",
+      "longest_row_nnz": "27",
+      "ratio": "0.000262451883821",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cz10228/cz10228.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "cz",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "brack2",
+      "rows": "62631",
+      "columns": "62631",
+      "nnz": "733118",
+      "longest_row": "60084",
+      "longest_row_nnz": "32",
+      "ratio": "4.3649180623e-05",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/brack2/brack2.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "brack",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "g7jac080sc",
+      "rows": "23670",
+      "columns": "23670",
+      "nnz": "293976",
+      "longest_row": "20",
+      "longest_row_nnz": "153",
+      "ratio": "0.000520450649033",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/g7jac080sc/g7jac080sc.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "gjacsc",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "rajat21",
+      "rows": "411676",
+      "columns": "411676",
+      "nnz": "1893370",
+      "longest_row": "166135",
+      "longest_row_nnz": "118689",
+      "ratio": "0.0626866381109",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat21/rajat21.mtx",
+      "size_bin": 2,
+      "has_long_row": true,
+      "approximate_family": "rajat",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "cavity26",
+      "rows": "4562",
+      "columns": "4562",
+      "nnz": "138187",
+      "longest_row": "322",
+      "longest_row_nnz": "62",
+      "ratio": "0.000448667385499",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cavity26/cavity26.mtx",
+      "size_bin": 1,
+      "has_long_row": false,
+      "approximate_family": "cavity",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "ncvxqp1",
+      "rows": "12111",
+      "columns": "12111",
+      "nnz": "73963",
+      "longest_row": "20",
+      "longest_row_nnz": "15",
+      "ratio": "0.000202804104755",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ncvxqp1/ncvxqp1.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "ncvxqp",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "as-22july06",
+      "rows": "22963",
+      "columns": "22963",
+      "nnz": "96872",
+      "longest_row": "4",
+      "longest_row_nnz": "2390",
+      "ratio": "0.0246717317698",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/as-22july06/as-22july06.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "as-july",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "msc23052",
+      "rows": "23052",
+      "columns": "23052",
+      "nnz": "1154814",
+      "longest_row": "22773",
+      "longest_row_nnz": "178",
+      "ratio": "0.000154137376235",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/msc23052/msc23052.mtx",
+      "size_bin": 2,
+      "has_long_row": false,
+      "approximate_family": "msc",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "freeFlyingRobot_14",
+      "rows": "5958",
+      "columns": "5958",
+      "nnz": "43298",
+      "longest_row": "5361",
+      "longest_row_nnz": "1193",
+      "ratio": "0.0275532357153",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/freeFlyingRobot_14/freeFlyingRobot_14.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "freeFlyingRobot",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "G4",
+      "rows": "800",
+      "columns": "800",
+      "nnz": "38352",
+      "longest_row": "798",
+      "longest_row_nnz": "75",
+      "ratio": "0.00195556946183",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/G4/G4.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "G",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "TSOPF_FS_b9_c1",
+      "rows": "2454",
+      "columns": "2454",
+      "nnz": "25032",
+      "longest_row": "26",
+      "longest_row_nnz": "1210",
+      "ratio": "0.0483381271972",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TSOPF_FS_b9_c1/TSOPF_FS_b9_c1.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "TSOPF_FS_b_c",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "coater1",
+      "rows": "1348",
+      "columns": "1348",
+      "nnz": "19457",
+      "longest_row": "990",
+      "longest_row_nnz": "55",
+      "ratio": "0.00282674615819",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/coater1/coater1.mtx",
+      "size_bin": 0,
+      "has_long_row": false,
+      "approximate_family": "coater",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "pkustk12",
+      "rows": "94653",
+      "columns": "94653",
+      "nnz": "7512317",
+      "longest_row": "70206",
+      "longest_row_nnz": "4146",
+      "ratio": "0.000551893643466",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pkustk12/pkustk12.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "pkustk",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "adder_dcop_32",
+      "rows": "1813",
+      "columns": "1813",
+      "nnz": "11246",
+      "longest_row": "1813",
+      "longest_row_nnz": "1310",
+      "ratio": "0.11648586164",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_32/adder_dcop_32.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "adder_dcop",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Lederberg",
+      "rows": "8843",
+      "columns": "8843",
+      "nnz": "41601",
+      "longest_row": "232",
+      "longest_row_nnz": "1098",
+      "ratio": "0.0263935963078",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Lederberg/Lederberg.mtx",
+      "size_bin": 0,
+      "has_long_row": true,
+      "approximate_family": "Lederberg",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "Stanford_Berkeley",
+      "rows": "683446",
+      "columns": "683446",
+      "nnz": "7583376",
+      "longest_row": "438238",
+      "longest_row_nnz": "83448",
+      "ratio": "0.0110040699551",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Stanford_Berkeley/Stanford_Berkeley.mtx",
+      "size_bin": 3,
+      "has_long_row": true,
+      "approximate_family": "Stanford_Berkeley",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    },
+    {
+      "dataset": "HTC_336_9129",
+      "rows": "226340",
+      "columns": "226340",
+      "nnz": "883422",
+      "longest_row": "134303",
+      "longest_row_nnz": "7394",
+      "ratio": "0.00836972590676",
+      "status": "ok",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/HTC_336_9129/HTC_336_9129.mtx",
+      "size_bin": 1,
+      "has_long_row": true,
+      "approximate_family": "HTC",
+      "configs": [
+        [
+          "atbsr_control",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "atbsr_grouped_model",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ],
+        [
+          "auto_refined_v2_grouped",
+          -1,
+          -1,
+          8,
+          128,
+          1,
+          1024
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_total": 547,
+  "status_counts": {
+    "ok": 117,
+    "error": 2,
+    "pending": 428
+  },
+  "imported_records": 0,
+  "failures": [
+    {
+      "dataset": "europe_osm",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "indochina-2004",
+      "status": "error",
+      "returncode": 1
+    }
+  ],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}

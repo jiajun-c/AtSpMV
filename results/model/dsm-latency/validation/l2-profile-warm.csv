@@ -1,0 +1,17 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 3827718 (/tmp/atspmv-dsm-sm90-build/dsm_latency_bench)
+==PROF== Disconnected from process 3827718
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Local Memory Spilling Requests","","0"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Local Memory Spilling Request Overhead","%","no data"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Memory Throughput","byte/s","785661.67"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Mem Busy","%","0.05"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Max Bandwidth","%","0.03"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L1/TEX Hit Rate","%","0"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L2 Persisting Size","byte","9830400"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L2 Compression Success Rate","%","0"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L2 Compression Ratio","%","0"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L2 Compression Input Sectors","sector","1929"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","L2 Hit Rate","%","91.50"
+"0","3827718","dsm_latency_bench","127.0.0.1","void chase<3>(const unsigned int *, unsigned long long *, unsigned int *, unsigned int *, int)","1","13","(128, 1, 1)","(2, 1, 1)","0","9.0","Memory Workload Analysis","Mem Pipes Busy","%","0.00"

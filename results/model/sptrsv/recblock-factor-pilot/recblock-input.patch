@@ -1,0 +1,31 @@
+diff --git a/recblock-sptrsv/main.cu b/recblock-sptrsv/main.cu
+index a9257a6..d2573f4 100644
+--- a/recblock-sptrsv/main.cu
++++ b/recblock-sptrsv/main.cu
+@@ -163,7 +163,7 @@ int main(int argc,  char ** argv)
+                 if (csrColIdxA[j] < i)
+                 {
+                     csrColIdxTR[nnz_pointer] = csrColIdxA[j];
+-                    csrValTR[nnz_pointer] = rand() % 10 + 1; //csrValA[j]; 
++                    csrValTR[nnz_pointer] = csrValA[j]; 
+                     nnz_pointer++;
+                 }
+             }
+@@ -189,7 +189,7 @@ int main(int argc,  char ** argv)
+                 if (csrColIdxA[j] > i)
+                 {
+                     csrColIdxTR[nnz_pointer] = csrColIdxA[j];
+-                    csrValTR[nnz_pointer] = rand() % 10 + 1; //csrValA[j]; 
++                    csrValTR[nnz_pointer] = csrValA[j]; 
+                     nnz_pointer++;
+                 }
+             }
+@@ -212,7 +212,7 @@ int main(int argc,  char ** argv)
+     VALUE_TYPE *x  =  (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * n * rhs);
+     for (int i = 0; i < n * rhs; i++)
+     {
+-        x_ref[i] = rand() % 10 + 1;
++        x_ref[i] = 0.5 + ((i * 37LL) % 101) / 101.0;
+     }
+ 
+     VALUE_TYPE *b  =  (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * m * rhs);

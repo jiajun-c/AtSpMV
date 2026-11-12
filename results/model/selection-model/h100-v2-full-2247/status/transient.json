@@ -1,0 +1,17 @@
+{
+  "dataset": "transient",
+  "matrix_sha256": "1040e734fbe1eabaca99d254f32962471ef9666f2a12508c9ad73d18b4c8f33a",
+  "index_nnz": 961790,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 40.283,
+  "gpu_after": {
+    "utilization_percent": 17,
+    "free_memory_mib": 81079
+  }
+}

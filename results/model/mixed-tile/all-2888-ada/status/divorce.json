@@ -1,0 +1,15 @@
+{
+  "dataset": "divorce",
+  "matrix_sha256": "714f621f265714f11b603858a7fd4a6c08d8fb11296d43f961489853b5ed2cad",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48505
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.701,
+  "gpu_after": {
+    "utilization_percent": 23,
+    "free_memory_mib": 48505
+  }
+}

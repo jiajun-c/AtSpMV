@@ -1,0 +1,349 @@
+{
+  "crossover": {
+    "c-53": {
+      "candidates": [
+        {
+          "backend": "atbsr",
+          "config": "3/1/8/128/1/1024",
+          "us": 5.508000031,
+          "per_seed_us": [
+            5.524000153,
+            5.49599994,
+            5.508000031
+          ]
+        },
+        {
+          "backend": "cusparse",
+          "config": "CSR_ALG1",
+          "us": 6.087999791,
+          "per_seed_us": [
+            6.107999943,
+            6.087999791,
+            6.087999791
+          ]
+        },
+        {
+          "backend": "atbsr",
+          "config": "2/1/8/128/1/1024",
+          "us": 6.372000091,
+          "per_seed_us": [
+            6.372000091,
+            6.372000091,
+            6.372000091
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "2/0/4/256/4/128",
+          "us": 8.031999692,
+          "per_seed_us": [
+            8.031999692,
+            8.031999692,
+            8.051999845
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "3/0/4/256/4/128",
+          "us": 8.067999966,
+          "per_seed_us": [
+            8.067999966,
+            8.067999966,
+            8.080000058
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "2/0/4/256/4/256",
+          "us": 8.143999614,
+          "per_seed_us": [
+            8.151999675,
+            8.143999614,
+            8.143999614
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "0/0/4/256/1/1024",
+          "us": 12.98800018,
+          "per_seed_us": [
+            12.96800002,
+            12.98800018,
+            13.00000027
+          ]
+        }
+      ]
+    },
+    "rajat20": {
+      "candidates": [
+        {
+          "backend": "cusparse",
+          "config": "CSR_ALG1",
+          "us": 7.807999849,
+          "per_seed_us": [
+            7.807999849,
+            7.792000193,
+            7.807999849
+          ]
+        },
+        {
+          "backend": "atbsr",
+          "config": "3/1/8/128/1/1024",
+          "us": 8.608000353,
+          "per_seed_us": [
+            8.608000353,
+            8.600000292,
+            8.608000353
+          ]
+        },
+        {
+          "backend": "atbsr",
+          "config": "2/1/8/128/1/1024",
+          "us": 9.523999877,
+          "per_seed_us": [
+            9.523999877,
+            9.539999999,
+            9.511999786
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "1/0/4/256/1/1024",
+          "us": 18.3199998,
+          "per_seed_us": [
+            18.3199998,
+            18.3160007,
+            18.33599992
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "2/0/4/256/4/256",
+          "us": 34.11199898,
+          "per_seed_us": [
+            34.11199898,
+            34.1640003,
+            34.09200162
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "2/0/4/256/4/128",
+          "us": 34.26000103,
+          "per_seed_us": [
+            34.24400091,
+            34.30400044,
+            34.26000103
+          ]
+        }
+      ]
+    },
+    "a0nsdsil": {
+      "candidates": [
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "5/0/8/128/1/1024",
+          "us": 4.220000003,
+          "per_seed_us": [
+            4.220000003,
+            4.215999972,
+            4.224000033
+          ]
+        },
+        {
+          "backend": "atbsr",
+          "config": "4/1/8/128/1/1024",
+          "us": 5.632000044,
+          "per_seed_us": [
+            5.619999953,
+            5.632000044,
+            5.652000196
+          ]
+        },
+        {
+          "backend": "atbsr",
+          "config": "3/1/8/128/1/1024",
+          "us": 6.047999952,
+          "per_seed_us": [
+            6.039999891,
+            6.051999982,
+            6.047999952
+          ]
+        },
+        {
+          "backend": "cusparse",
+          "config": "CSR_ALG1",
+          "us": 6.223999895,
+          "per_seed_us": [
+            6.248000078,
+            6.215999834,
+            6.223999895
+          ]
+        },
+        {
+          "backend": "hybrid_dsm_atbsr",
+          "config": "3/0/4/256/4/128",
+          "us": 9.696000256,
+          "per_seed_us": [
+            9.676000103,
+            9.712000377,
+            9.696000256
+          ]
+        }
+      ]
+    }
+  },
+  "automatic": {
+    "t60k": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 753135.292,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 3.26399994
+          },
+          {
+            "setup_us": 710727.297,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 3.26399994
+          },
+          {
+            "setup_us": 1024412.0,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 3.23199993
+          }
+        ],
+        "median_setup_us": 753135.292,
+        "median_best_candidate_us": 3.26399994
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 704649.422,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.26799997
+          },
+          {
+            "setup_us": 648348.957,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.272
+          },
+          {
+            "setup_us": 640757.377,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.24800005
+          }
+        ],
+        "median_setup_us": 648348.957,
+        "median_best_candidate_us": 3.26799997
+      }
+    },
+    "c-53": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 1393540.36,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 5.35999984
+          },
+          {
+            "setup_us": 1408787.82,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 5.34800021
+          },
+          {
+            "setup_us": 1390404.7,
+            "selected": "atbsr",
+            "candidates": 128,
+            "best_candidate_us": 5.3679999
+          }
+        ],
+        "median_setup_us": 1393540.36,
+        "median_best_candidate_us": 5.35999984
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 1511935.61,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.63200004
+          },
+          {
+            "setup_us": 1661966.1,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.58000011
+          },
+          {
+            "setup_us": 1487032.47,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.5999998
+          }
+        ],
+        "median_setup_us": 1511935.61,
+        "median_best_candidate_us": 5.5999998
+      }
+    },
+    "a0nsdsil": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 1126153.78,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.18000016
+          },
+          {
+            "setup_us": 1080408.7,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.19199979
+          },
+          {
+            "setup_us": 1608166.93,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.18000016
+          }
+        ],
+        "median_setup_us": 1126153.78,
+        "median_best_candidate_us": 4.18000016
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 1200499.65,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.20799991
+          },
+          {
+            "setup_us": 1057159.49,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.21599997
+          },
+          {
+            "setup_us": 1093887.3,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 128,
+            "best_candidate_us": 4.18400019
+          }
+        ],
+        "median_setup_us": 1093887.3,
+        "median_best_candidate_us": 4.20799991
+      }
+    }
+  },
+  "notes": "Fixed crossover candidates, 3 independent order seeds and 21 warm graph batches, using the optimized executable. Auto setup includes selection and is not included in per-call execution time. Best reported per dataset is within listed candidates only."
+}

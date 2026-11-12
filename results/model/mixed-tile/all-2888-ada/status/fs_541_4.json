@@ -1,0 +1,15 @@
+{
+  "dataset": "fs_541_4",
+  "matrix_sha256": "6a0951099ee90d0d13371f715f01826333cd4a41b448576d1241924dc1dc367b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.37,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

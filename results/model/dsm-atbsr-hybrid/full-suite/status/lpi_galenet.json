@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_galenet",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_galenet/lpi_galenet.mtx",
+  "matrix_sha256": "0510ad7d99521cbfe816c7d759b5a0df2c922046c9b67a5abff8e3ae272bad5c",
+  "index_nnz": 22,
+  "index_rows": 8,
+  "elapsed_s": 0.605,
+  "returncode": 0,
+  "status": "ok"
+}

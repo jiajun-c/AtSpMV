@@ -1,0 +1,7 @@
+{
+  "name": "shl_0",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/shl_0-L.mtx --------------\ninput matrix A: ( 663, 663 ) nnz = 1935\ncomputation usetime = 0.099 ms\nPerformance = 0.039 gflops\n\nx check passed! |x-xref|/|xref| = 1.54e-16\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=0\nstage calculate done\n"
+}

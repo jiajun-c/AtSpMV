@@ -1,0 +1,17 @@
+{
+  "dataset": "G2_circuit",
+  "matrix_sha256": "cddcb9e6e489878da31359a0032cf9e98211a0b974b10daf1b17fe4bf26fa941",
+  "index_nnz": 726674,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.735,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

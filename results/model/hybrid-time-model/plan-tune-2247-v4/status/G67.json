@@ -1,0 +1,19 @@
+{
+  "dataset": "G67",
+  "matrix_sha256": "3c44c4caa83fff1a96bee23c65443f256b2106ee7a5a628d2adb01b842adaf79",
+  "index_nnz": 40000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.423,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

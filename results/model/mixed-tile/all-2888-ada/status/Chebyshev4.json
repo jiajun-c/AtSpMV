@@ -1,0 +1,15 @@
+{
+  "dataset": "Chebyshev4",
+  "matrix_sha256": "724727529e5a5bb3d6bd5fdf99eeeedab6ee51fa8fc9294d32cd74a5ef5f52e1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.835,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

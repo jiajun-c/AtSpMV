@@ -1,0 +1,27 @@
+{
+  "cases": [
+    "lp_sc205",
+    "a0nsdsil",
+    "shermanACb"
+  ],
+  "selection": "hand-picked prior crossover/long-row cases",
+  "gpu": "H100 PCIe; shared-device activity not continuously monitored",
+  "runs_per_case": 2,
+  "plan_construction_orders": [
+    "forward",
+    "reverse"
+  ],
+  "seed": 20261028,
+  "trials_per_order": 21,
+  "calls_per_graph": 8,
+  "note": "GPU timing excludes preparation; setup time records Plan construction. Exploratory sample; not representative.",
+  "source_sha256": {
+    "src/spmvPlan.cu": "51b1c419f2d68a4fb69749ccd658a82c65c7fb5d24f44b2f2081b0c56827f7c7",
+    "src/spmvPlanDsm.cu": "fb5f5cf76e135179fffc26e6fdce9bc2f6c7100238073316a9c7635297504886",
+    "src/atspmvProduct.cu": "6dca88e2390a825332c795686573c8f77d08df0a24b9495855111da47351ff24",
+    "include/spmvPlan.h": "0ae4e57fd0f94dfd2b15286e86068cdd83c7edfb5ab4879aecc700f299e9b8af",
+    "include/dsmLongRow.cuh": "1c2f4bc8578aa5596f942a7f2e374d261008965007a3922f1d1ac44a6c976f9b",
+    "bench/spmv_hybrid_validation.cu": "8e7734cdce9710534592bf2fe8bf32b5f7437b8113f62a3357c148f03c87f45b"
+  },
+  "exe_sha256": "25986cfedbeb60d49293e6f71d634bae44beb2af9de1223ed8c9b00530d1d81e"
+}

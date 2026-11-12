@@ -1,0 +1,10 @@
+{
+  "dataset": "minsurfo",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/minsurfo/minsurfo.mtx",
+  "matrix_sha256": "96d88cf42609c306c59a4d2e520e5029d27dc2263422705c0b8a3160ba782371",
+  "index_nnz": 203622,
+  "index_rows": 40806,
+  "elapsed_s": 1.091,
+  "returncode": 0,
+  "status": "ok"
+}

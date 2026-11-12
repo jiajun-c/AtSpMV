@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_ship08s",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_ship08s/lp_ship08s.mtx",
+  "matrix_sha256": "83de23ccc53cf997328a0bdf084acb9d8aa73fa63f8810979db00b7514f697f4",
+  "index_nnz": 7194,
+  "index_rows": 778,
+  "elapsed_s": 0.66,
+  "returncode": 0,
+  "status": "ok"
+}

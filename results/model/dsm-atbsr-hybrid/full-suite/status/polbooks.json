@@ -1,0 +1,10 @@
+{
+  "dataset": "polbooks",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/polbooks/polbooks.mtx",
+  "matrix_sha256": "a5a578d912363643b03a3f2c059df4501ea6007af5b02fc3f9c01a5665633198",
+  "index_nnz": 882,
+  "index_rows": 105,
+  "elapsed_s": 1.264,
+  "returncode": 0,
+  "status": "ok"
+}

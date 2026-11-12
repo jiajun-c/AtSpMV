@@ -1,0 +1,10 @@
+{
+  "dataset": "yeast_30NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/yeast_30NN/yeast_30NN.mtx",
+  "matrix_sha256": "366eb643c4907cd4391c02bbcbd50a55403468340ee79d026d354044ae6dfe18",
+  "index_nnz": 62350,
+  "index_rows": 1484,
+  "elapsed_s": 0.787,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "mbeacxc",
+  "matrix_sha256": "17d8e59218efbfdce06e0cec33db890dc3c524865a74539ec0ac6e1f816eb893",
+  "index_nnz": 49920,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.773,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

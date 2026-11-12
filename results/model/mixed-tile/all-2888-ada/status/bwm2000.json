@@ -1,0 +1,15 @@
+{
+  "dataset": "bwm2000",
+  "matrix_sha256": "70bc9967b44d876e94b7c4069bcd3ba2476372aa7dd9706334124d7a480e284d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.932,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

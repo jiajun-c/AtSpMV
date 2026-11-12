@@ -1,0 +1,15 @@
+{
+  "dataset": "G56",
+  "matrix_sha256": "f5d5e86da3b3d471d60df0d0988594868ce86be7c5ad7cd244a65530c7991387",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.14,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

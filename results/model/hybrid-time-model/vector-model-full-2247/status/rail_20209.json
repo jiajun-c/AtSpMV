@@ -1,0 +1,17 @@
+{
+  "dataset": "rail_20209",
+  "matrix_sha256": "f82314dfb365ff7af0d52f3ffa52f4e17d538198b224bb199d97c2b4ba8eb59f",
+  "index_nnz": 139233,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.75,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "bmwcra_1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bmwcra_1/bmwcra_1.mtx",
+  "matrix_sha256": "e427c5ee45ffcb75a661b924761aacc7b12fd5d64ccde97b8f741b05731fc790",
+  "index_nnz": 10644002,
+  "index_rows": 148770,
+  "elapsed_s": 4.589,
+  "returncode": 0,
+  "status": "ok"
+}

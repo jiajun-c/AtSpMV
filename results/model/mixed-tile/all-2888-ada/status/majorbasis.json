@@ -1,0 +1,15 @@
+{
+  "dataset": "majorbasis",
+  "matrix_sha256": "28ec97e2dde0eb5f25eb5745d0e57e3384b778d6f4de091cf920e40c3b0bfa6c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.014,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dataset": "ns3Da",
+  "status": "ok",
+  "matrix_sha256": "2cc8b1e7d527dbafc228da475be6d427fb25e8b8bdfe5841d34091c3d1952af5",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/ns3Da/ns3Da.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/ns3Da-0.csv",
+        "20261111",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.2267701320815831
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/ns3Da/ns3Da.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/ns3Da-1.csv",
+        "20261112",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.1717357558663934
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

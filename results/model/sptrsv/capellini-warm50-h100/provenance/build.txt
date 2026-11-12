@@ -1,0 +1,7 @@
+Upstream: https://github.com/JiyaSu/CapelliniSpTRSV
+Commit: adc6cd51556adfad07ffd78d1af91052030b2230
+Compiler: /usr/local/cuda-12.6/bin/nvcc
+Flags: -std=c++17 -O3 -w -m64 -Xptxas -dlcm=cg -gencode=arch=compute_90,code=sm_90
+Precision: FP64
+BENCH_REPEAT: 100
+Local changes: capellini.patch

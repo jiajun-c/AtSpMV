@@ -1,0 +1,10 @@
+{
+  "dataset": "pde900",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pde900/pde900.mtx",
+  "matrix_sha256": "487e5ae338fa82d82261ca4c86c930772a624309e346635829c196a674fa95e2",
+  "index_nnz": 4380,
+  "index_rows": 900,
+  "elapsed_s": 1.267,
+  "returncode": 0,
+  "status": "ok"
+}

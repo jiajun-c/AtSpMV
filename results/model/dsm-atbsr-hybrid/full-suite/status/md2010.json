@@ -1,0 +1,10 @@
+{
+  "dataset": "md2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/md2010/md2010.mtx",
+  "matrix_sha256": "8250c3f13061cf5f875f2d79530c08c745e43651eaa19bd0a8397af527437947",
+  "index_nnz": 700378,
+  "index_rows": 145247,
+  "elapsed_s": 1.225,
+  "returncode": 0,
+  "status": "ok"
+}

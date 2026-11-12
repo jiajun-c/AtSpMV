@@ -1,0 +1,9 @@
+{
+  "name": "raefsky6",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/raefsky6-L.mtx,default,cusparse,3408,259450,-1,20192.758,848.8608398,4.796163466e-14,3.650466216e-17,1.334041571e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/raefsky6-L.mtx,default-host,cusparse,3408,259450,-1,20192.758,855.916455,4.796163466e-14,3.650466216e-17,1.334041571e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/raefsky6-L.mtx,model,cusparse,3408,259450,811,19410.636,848.5088501,4.796163466e-14,3.650466216e-17,1.334041571e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/raefsky6-L.mtx,model-host,cusparse,3408,259450,811,19410.636,856.143445,4.796163466e-14,3.650466216e-17,1.334041571e-16,0\n",
+  "stderr": ""
+}

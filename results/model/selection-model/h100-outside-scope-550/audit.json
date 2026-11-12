@@ -1,0 +1,73 @@
+{
+  "manifest_total": 561,
+  "status_counts": {
+    "ok": 549,
+    "error": 5,
+    "timeout": 7
+  },
+  "imported_records": 0,
+  "failures": [
+    {
+      "dataset": "uk-2002",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "GAP-road",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "mawi_201512012345",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "hugebubbles-00020",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "mawi_201512020000",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "Spielman_k400",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "Spielman_k500",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "Spielman_k600",
+      "status": "error",
+      "returncode": 1
+    },
+    {
+      "dataset": "europe_osm",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "road_usa",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "circuit5M",
+      "status": "timeout",
+      "returncode": -15
+    },
+    {
+      "dataset": "FullChip",
+      "status": "timeout",
+      "returncode": -15
+    }
+  ],
+  "problems": [],
+  "scope": "Checks status and recorded trials, not numerical results or unsampled GPU interference; benchmark independently performs numerical reference checks."
+}

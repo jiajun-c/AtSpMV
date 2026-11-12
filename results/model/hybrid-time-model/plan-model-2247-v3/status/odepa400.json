@@ -1,0 +1,19 @@
+{
+  "dataset": "odepa400",
+  "matrix_sha256": "d87dfd79f8a0e9ea8a595fe9f972d624ad75c128a93a24619de9d38d2a4d2b29",
+  "index_nnz": 1201,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.096,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

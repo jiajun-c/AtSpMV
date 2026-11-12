@@ -1,0 +1,10 @@
+{
+  "matrix": "Goodwin_013",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/Goodwin_013-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1965,
+  "nnz": 109440,
+  "min_abs_diagonal": 0.0004839385585163255,
+  "max_abs_diagonal": 1.6287125734075716,
+  "elapsed_s": 0.04006920102983713
+}

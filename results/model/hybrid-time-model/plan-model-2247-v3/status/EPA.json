@@ -1,0 +1,19 @@
+{
+  "dataset": "EPA",
+  "matrix_sha256": "1d5a961c729277ef42478354e8fc93716b6e5aa7d36f5323ab6c900a1d56bb60",
+  "index_nnz": 8965,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.891,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

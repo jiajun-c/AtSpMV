@@ -1,0 +1,10 @@
+{
+  "dataset": "poisson3Db",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/poisson3Db/poisson3Db.mtx",
+  "matrix_sha256": "8908bf8920734cb8a8572f232d5a1d690d307ec1cc799af497d69c19c0339c74",
+  "index_nnz": 2374949,
+  "index_rows": 85623,
+  "elapsed_s": 1.985,
+  "returncode": 0,
+  "status": "ok"
+}

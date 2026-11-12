@@ -1,0 +1,31 @@
+{
+  "dataset": "mac_econ_fwd500",
+  "status": "ok",
+  "matrix_sha256": "af42fcc1e72ef6c470ed247358cd7dd19dcf4d3e05acd354087717b66abc1684",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/mac_econ_fwd500/mac_econ_fwd500.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/mac_econ_fwd500-0.csv",
+        "20261119",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.1959132980555296
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/mac_econ_fwd500/mac_econ_fwd500.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/mac_econ_fwd500-1.csv",
+        "20261120",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.7732774431351572
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "dataset": "FEM_3D_thermal2",
+  "matrix_sha256": "9322bfb77f149dccd9fd314df4cc896c328a9f81b4499fe9172eb43c4fc286fb",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs.csv",
+        "20261125",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.9962633249815553,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs-reverse.csv",
+        "20261126",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.3960759891197085,
+      "reason": null
+    }
+  ]
+}

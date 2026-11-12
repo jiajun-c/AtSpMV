@@ -1,0 +1,28 @@
+{
+  "cuda_visible_devices": "3",
+  "executable": "/tmp/atspmv-dsm-sm90-build/dsm_pagerank_bench",
+  "executable_sha256": "3a589a5c2a9449aedf23907f71016f10cbeb8fd898d76592b8eb1342b5224fed",
+  "sources": {
+    "src/dsmPageRank.cu": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+    "bench/dsm_pagerank_bench.cu": "d12f4f9176c3597b1ee6895782f4e8329fc8c82de0d04fd24d6732f3ecc3b70a"
+  },
+  "inputs": {
+    "/staff/chengjiajun/workspace/database/suitsparse/rbsb480/rbsb480.mtx": "df930a7b0ad0b85fd3dd7ae1ea3e0c05c0c1c233e6ad386fe4a9e7c25ef2f784",
+    "/staff/chengjiajun/workspace/database/suitsparse/lund_a/lund_a.mtx": "17be285fb4fc08c71cf042cf1a76b16c5fb3e142a14e5172979e51c5002a78ac",
+    "/staff/chengjiajun/workspace/database/suitsparse/soc-sign-bitcoin-alpha/soc-sign-bitcoin-alpha.mtx": "bce05d924bc704048062ba5e3b5b05343bfabcb3ddb1a8c400f94cbfc06031ae",
+    "/staff/chengjiajun/workspace/database/suitsparse/odepa400/odepa400.mtx": "d87dfd79f8a0e9ea8a595fe9f972d624ad75c128a93a24619de9d38d2a4d2b29",
+    "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx": "715cf95785e2ec7742221a60c9330f413a2d319cd9dd0bb34500b30206121588",
+    "/staff/chengjiajun/workspace/database/suitsparse/sphere3/sphere3.mtx": "582311e910a2a409afdc1bde6f8ebb7647e8d2629db3879da2aa08203ba9e025",
+    "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core/email-Eu-core.mtx": "6b21fadb0e1222c1564e562af7d35e350d497b0ceb0b86d2044b70fda84eafff"
+  },
+  "iterations": [
+    100
+  ],
+  "seeds": [
+    20261105,
+    20261106,
+    20261107
+  ],
+  "timing": "CUDA events around one graph containing the complete solve; initial copy/staging and final store included; setup excluded; 3 warmup and 15 randomized interleaved measurement batches",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB], driver_version\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 0 %, 76989 MiB, 580.178.04\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB, 580.178.04\n"
+}

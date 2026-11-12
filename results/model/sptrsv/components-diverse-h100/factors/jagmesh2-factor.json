@@ -1,0 +1,13 @@
+{
+  "matrix": "jagmesh2",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/jagmesh2/jagmesh2.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1009,
+  "columns": 1009,
+  "original_nnz": 6865,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03425097092986107
+}

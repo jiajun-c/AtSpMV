@@ -1,0 +1,19 @@
+{
+  "dataset": "skirt",
+  "matrix_sha256": "d50473b0af40cc3e7aa165ef84eecc0f6dfa03a9a70e88346e8b22e9e4da0505",
+  "index_nnz": 196520,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.487,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

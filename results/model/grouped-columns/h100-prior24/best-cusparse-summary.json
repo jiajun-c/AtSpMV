@@ -1,0 +1,138 @@
+{
+  "groups": {
+    "all": {
+      "matrices": 24,
+      "geomean": 0.928828924330849,
+      "wins_over_1pct": 10,
+      "losses_over_1pct": 13
+    },
+    "grouped_model_active": {
+      "matrices": 16,
+      "geomean": 1.058048414742727,
+      "wins_over_1pct": 6,
+      "losses_over_1pct": 9
+    }
+  },
+  "per_matrix": [
+    {
+      "dataset": "rajat09",
+      "active": 0,
+      "model_vs_best_cusparse": 1.089847497660342
+    },
+    {
+      "dataset": "bcsstk17",
+      "active": 0,
+      "model_vs_best_cusparse": 1.1907886955732614
+    },
+    {
+      "dataset": "poisson3Da",
+      "active": 0,
+      "model_vs_best_cusparse": 1.090699696590564
+    },
+    {
+      "dataset": "pdb1HYS",
+      "active": 0,
+      "model_vs_best_cusparse": 0.706150870765938
+    },
+    {
+      "dataset": "rma10",
+      "active": 0,
+      "model_vs_best_cusparse": 1.375077649789272
+    },
+    {
+      "dataset": "cant",
+      "active": 1,
+      "model_vs_best_cusparse": 0.9536633211014554
+    },
+    {
+      "dataset": "consph",
+      "active": 1,
+      "model_vs_best_cusparse": 0.8986012919482259
+    },
+    {
+      "dataset": "FEM_3D_thermal2",
+      "active": 1,
+      "model_vs_best_cusparse": 1.9228969922462342
+    },
+    {
+      "dataset": "shipsec1",
+      "active": 1,
+      "model_vs_best_cusparse": 0.8991129237637171
+    },
+    {
+      "dataset": "cop20k_A",
+      "active": 1,
+      "model_vs_best_cusparse": 2.98201964482174
+    },
+    {
+      "dataset": "mac_econ_fwd500",
+      "active": 1,
+      "model_vs_best_cusparse": 0.9433214032610749
+    },
+    {
+      "dataset": "pwtk",
+      "active": 1,
+      "model_vs_best_cusparse": 0.8974402084138305
+    },
+    {
+      "dataset": "ohne2",
+      "active": 0,
+      "model_vs_best_cusparse": 0.12231416630026101
+    },
+    {
+      "dataset": "trans4",
+      "active": 0,
+      "model_vs_best_cusparse": 0.6381142228917693
+    },
+    {
+      "dataset": "webbase-1M",
+      "active": 0,
+      "model_vs_best_cusparse": 0.6424855449898894
+    },
+    {
+      "dataset": "amazon0312",
+      "active": 1,
+      "model_vs_best_cusparse": 1.0527369066827839
+    },
+    {
+      "dataset": "ecology2",
+      "active": 1,
+      "model_vs_best_cusparse": 0.9949156050514557
+    },
+    {
+      "dataset": "parabolic_fem",
+      "active": 1,
+      "model_vs_best_cusparse": 1.1529812821747347
+    },
+    {
+      "dataset": "thermal2",
+      "active": 1,
+      "model_vs_best_cusparse": 0.7741243567492192
+    },
+    {
+      "dataset": "G3_circuit",
+      "active": 1,
+      "model_vs_best_cusparse": 1.090945677549854
+    },
+    {
+      "dataset": "cage14",
+      "active": 1,
+      "model_vs_best_cusparse": 1.1402427729724947
+    },
+    {
+      "dataset": "msdoor",
+      "active": 1,
+      "model_vs_best_cusparse": 0.9853668396214197
+    },
+    {
+      "dataset": "F1",
+      "active": 1,
+      "model_vs_best_cusparse": 0.709215258829026
+    },
+    {
+      "dataset": "RM07R",
+      "active": 1,
+      "model_vs_best_cusparse": 0.8114560718240886
+    }
+  ]
+}

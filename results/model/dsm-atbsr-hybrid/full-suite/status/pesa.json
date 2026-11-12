@@ -1,0 +1,10 @@
+{
+  "dataset": "pesa",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pesa/pesa.mtx",
+  "matrix_sha256": "f57fd6e19a95306aae2ffb3c8f2c59ef65bc21afb92a39f50efdef0af1547ee9",
+  "index_nnz": 79566,
+  "index_rows": 11738,
+  "elapsed_s": 1.236,
+  "returncode": 0,
+  "status": "ok"
+}

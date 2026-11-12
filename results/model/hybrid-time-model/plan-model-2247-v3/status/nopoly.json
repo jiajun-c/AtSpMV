@@ -1,0 +1,19 @@
+{
+  "dataset": "nopoly",
+  "matrix_sha256": "f8b1803c0c99dd4161fa2a97579924006e09a34c463197d3fbb5b25a6a235dd7",
+  "index_nnz": 70842,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.868,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

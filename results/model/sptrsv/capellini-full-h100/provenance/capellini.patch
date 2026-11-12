@@ -1,0 +1,254 @@
+diff --git a/CUDA/mix/main.cu b/CUDA/mix/main.cu
+index 6bd4399..5c7c135 100644
+--- a/CUDA/mix/main.cu
++++ b/CUDA/mix/main.cu
+@@ -94,8 +94,7 @@ int main(int argc, char ** argv)
+     
+     //matrix_warp(m,n,nnzL,csrRowPtrL_tmp,csrColIdxL_tmp,csrValL_tmp,10);
+ 
+-    spts_syncfree_cuda_csr_wrt(csrRowPtrL_tmp, csrColIdxL_tmp, csrValL_tmp, m, n, nnzL,
+-                        &solve_time, &gflops, &bandwith, &pre_time, &warp_occupy, &element_occupy);
++
+ 
+     spts_syncfree_cuda_csr_wrt(csrRowPtrL_tmp, csrColIdxL_tmp, csrValL_tmp, m, n, nnzL,
+                         &solve_time, &gflops, &bandwith, &pre_time, &warp_occupy, &element_occupy);
+diff --git a/CUDA/mix/read_mtx.h b/CUDA/mix/read_mtx.h
+index 9d3ef13..216133f 100644
+--- a/CUDA/mix/read_mtx.h
++++ b/CUDA/mix/read_mtx.h
+@@ -228,7 +228,7 @@ void change2tran(int m, int nnzA,int *csrRowPtrA, int *csrColIdxA, VALUE_TYPE *c
+             if (csrColIdxA[j] < i)
+             {
+                 csrColIdxL_tmp[nnz_pointer] = csrColIdxA[j];
+-                csrValL_tmp[nnz_pointer] = 1;//csrValA[j];
++                csrValL_tmp[nnz_pointer] = csrValA[j];
+                 nnz_pointer++;
+             }
+             else
+@@ -262,7 +262,7 @@ void get_x_b(int m, int n, const int * csrRowPtrA, const int *csrColIdxA, const
+     VALUE_TYPE *x_ref = (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * n);
+     int i,j;
+     for ( i = 0; i < n; i++)
+-        x_ref[i] = 1;
++        x_ref[i] = 0.5 + (double)((i * 37LL) % 101) / 101.;
+     
+     VALUE_TYPE *b = (VALUE_TYPE *)malloc(sizeof(VALUE_TYPE) * m);
+     
+diff --git a/CUDA/mix/spts_syncfree_cuda_csr_wrt.h b/CUDA/mix/spts_syncfree_cuda_csr_wrt.h
+index 546ae1f..9116c78 100644
+--- a/CUDA/mix/spts_syncfree_cuda_csr_wrt.h
++++ b/CUDA/mix/spts_syncfree_cuda_csr_wrt.h
+@@ -3,6 +3,9 @@
+ 
+ #include "common.h"
+ #include <cuda_runtime.h>
++#include <cuda/atomic>
++#include <algorithm>
++#include <cmath>
+ #include <thrust/device_ptr.h>
+ #include <thrust/scan.h>
+ 
+@@ -29,111 +32,42 @@ void spts_syncfree_cuda_executor_csr_wrt(const int* __restrict__        d_csrRow
+                                      )
+ 
+ {
+-    const int global_id =atomicAdd(d_id_extractor, 1);
+-//    const int global_id = (begin + blockIdx.x) * blockDim.x + threadIdx.x;
+-//    if(blockIdx.x==0)
+-//        printf("%d\n",global_id);
+-    
+-   
+-    
+-    const int warp_id = global_id/WARP_SIZE;
+-    int row;
+-    
+-    if(warp_id>=(Len-1))
+-        return;
+-    
+-    const int lane_id = (WARP_SIZE - 1) & threadIdx.x;
+-    
+-    if(d_warp_num[warp_id+1]>(d_warp_num[warp_id]+1))
+-    {
+-        //thread
+-        row =d_warp_num[warp_id]+lane_id;
+-        if(row>=m)
+-            return;
+-        
+-        int col,j,i;
+-        VALUE_TYPE xi;
+-        VALUE_TYPE left_sum=0;
+-        i=row;
+-        j=d_csrRowPtr[i];
+-        
+-        while(j<d_csrRowPtr[i+1])
+-        {
+-            col=d_csrColIdx[j];
+-            while(d_get_value[col]==1)
+-                //if(d_get_value[col]==1)
+-            {
+-                left_sum+=d_csrVal[j]*d_x[col];
+-                j++;
+-                col=d_csrColIdx[j];
+-            }
+-            if(i==col)
+-            {
+-                xi = (d_b[i] - left_sum) / d_csrVal[d_csrRowPtr[i+1]-1];
+-                d_x[i] = xi;
+-                __threadfence();
+-                d_get_value[i]=1;
+-                j++;
+-            }
++    const int lane = threadIdx.x & 31;
++    int warp = 0;
++    if (lane == 0) warp = atomicAdd(d_id_extractor, 1);
++    warp = __shfl_sync(0xffffffff, warp, 0);
++    if (warp >= Len - 1) return;
++    const int first = d_warp_num[warp], end = d_warp_num[warp + 1];
++    if (end - first > 1) {
++        const int row = first + lane;
++        if (row >= end || row >= m) return;
++        VALUE_TYPE sum = 0;
++        for (int p = d_csrRowPtr[row]; p < d_csrRowPtr[row+1]-1; ++p) {
++            int col = d_csrColIdx[p];
++            cuda::atomic_ref<int,cuda::thread_scope_device> ready(d_get_value[col]);
++            while (ready.load(cuda::memory_order_acquire) != 1) {}
++            sum += d_csrVal[p] * d_x[col];
+         }
+-
+-    }
+-    else
+-    {
+-        //warp
+-        
+-        row = d_warp_num[warp_id];
+-        if(row>=m)
+-            return;
+-        
+-        int col,j;
+-        VALUE_TYPE xi,sum=0;
+-        for (j = d_csrRowPtr[row]  + lane_id; j < d_csrRowPtr[row+1]-1; j += WARP_SIZE)
+-        {
+-            
+-            col=d_csrColIdx[j];
+-            while(d_get_value[col]!=1)
+-            {
+-                __threadfence_block();
+-            }
+-            //        if(global_x_id==2197954)
+-            //            printf("%g\n",left_sum[local_warp_id]);
+-            sum += d_x[col] * d_csrVal[j];
+-            //        VALUE_TYPE  tmp=atomicAdd((VALUE_TYPE *)&left_sum[local_warp_id], d_x[col] * d_csrVal[j]);
+-            //        if(global_x_id==2197954)
+-            //            printf("%d %g %g %g %g\n",col,d_x[col],d_x[col] * d_csrVal[j],left_sum[local_warp_id],tmp);
++        d_x[row] = (d_b[row] - sum) / d_csrVal[d_csrRowPtr[row+1]-1];
++        cuda::atomic_ref<int,cuda::thread_scope_device> done(d_get_value[row]);
++        done.store(1, cuda::memory_order_release);
++    } else {
++        const int row = first;
++        if (row >= m) return;
++        VALUE_TYPE sum = 0;
++        for (int p = d_csrRowPtr[row]+lane; p < d_csrRowPtr[row+1]-1; p+=32) {
++            int col = d_csrColIdx[p];
++            cuda::atomic_ref<int,cuda::thread_scope_device> ready(d_get_value[col]);
++            while (ready.load(cuda::memory_order_acquire) != 1) {}
++            sum += d_csrVal[p] * d_x[col];
+         }
+-        
+-        for (int offset = WARP_SIZE/2; offset > 0; offset /= 2) {
+-            sum += __shfl_down(sum, offset);
++        for (int offset=16; offset>0; offset/=2) sum += __shfl_down_sync(0xffffffff, sum, offset);
++        if (lane == 0) {
++            d_x[row] = (d_b[row] - sum) / d_csrVal[d_csrRowPtr[row+1]-1];
++            cuda::atomic_ref<int,cuda::thread_scope_device> done(d_get_value[row]);
++            done.store(1, cuda::memory_order_release);
+         }
+-
+-        
+-        //atomicAdd((VALUE_TYPE *)&left_sum[local_warp_id], sum);
+-        
+-        if (!lane_id)
+-        {
+-            xi = (d_b[row] - sum) / d_csrVal[d_csrRowPtr[row+1]-1];
+-            d_x[row]=xi;
+-            __threadfence();
+-            d_get_value[row]=1;
+-            //        if(xi!=1)
+-            //            printf("%d %g %g %d\n",global_x_id,d_b[global_x_id],left_sum[local_warp_id],thread_in_warp[local_warp_id]);
+-            //        if(global_x_id==2197954)
+-            //            printf("%d %g\n",global_x_id,xi);
+-        }
+-        
+-        
+-        
+-        
+-//        d_x[row]=1;
+-//        d_get_value[row].value=1;
+-//        d_get_value[row].solve=1;
+     }
+-   
+-
+-    
+-
+ }
+     
+     
+@@ -254,6 +188,8 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+     //printf("num_threads=%d,num_blocks=%d,grid=%d\n",num_threads,num_blocks,num_blocks*num_threads);
+     int num_blocks2,k;
+     int times=0;
++    double reference_scale=1.;
++    for(int i=0;i<n;++i) reference_scale=std::max(reference_scale,(double)std::abs(x_ref[i]));
+     
+     int *d_id_extractor;
+     cudaMalloc((void **)&d_id_extractor, sizeof(int));
+@@ -261,12 +197,11 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+     for (i = 0; i < BENCH_REPEAT; i++)
+     {
+         
++        gettimeofday(&t1, NULL);
+         cudaMemset(d_get_value, 0, sizeof(int) * m);
+         cudaMemset(d_x, 0, sizeof(VALUE_TYPE) * m);
+         cudaMemset(d_id_extractor, 0, sizeof(int));
+         
+-        gettimeofday(&t1, NULL);
+-        
+         spts_syncfree_cuda_executor_csr_wrt<<< num_blocks, num_threads >>>
+         (d_csrRowPtrL, d_csrColIdx, d_csrValL,
+          d_get_value,m, nnzL, d_b, d_x ,0 ,d_warp_num,Len,d_id_extractor);
+@@ -296,9 +231,11 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+         
+         // validate x
+         int err_counter = 0;
++        double max_error = 0;
+         for (int i = 0; i < n; i++)
+         {
+-            if (abs(x_ref[i] - x[i]) > 0.01 * abs(x_ref[i]))
++            max_error = std::max(max_error, (double)std::abs(x_ref[i] - x[i]));
++            if (!std::isfinite(x[i]) || std::abs(x_ref[i] - x[i]) > 1e-10 * reference_scale)
+             {
+                 err_counter++;
+                 //printf("%g %d\n",x[i],i);
+@@ -307,6 +244,7 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+         
+         if (!err_counter)
+             times++;
++        if (i == BENCH_REPEAT - 1) printf("VALIDATION finite=%d max_error=%.17g reference_scale=%.17g\n", !err_counter, max_error, reference_scale);
+             //printf("cuda syncfree SpTS on L passed!\n");
+         
+     }
+@@ -319,6 +257,7 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+ //    printf("cuda syncfree SpTS solve used %4.2f ms, throughput is %4.2f gflops, the bandwidth is %4.2f GB/s\n",
+ //           time_cuda_solve, 2*nnzL/(1e6*time_cuda_solve),dataSize/(1e6*time_cuda_solve));
+     
++    printf("time_cuda_solve = %.9f ms\n", time_cuda_solve);
+     *solve_time_add=time_cuda_solve;
+     *gflops_add=2*nnzL/(1e6*time_cuda_solve);
+     *bandwith_add=dataSize/(1e6*time_cuda_solve);
+@@ -329,6 +268,7 @@ int spts_syncfree_cuda_csr_wrt(const int           *csrRowPtrL_tmp,
+         *solve_time_add=-1;
+         *gflops_add=0;
+         *bandwith_add=0;
++        exit(2);
+     }
+     
+ 

@@ -1,0 +1,10 @@
+{
+  "dataset": "fv2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fv2/fv2.mtx",
+  "matrix_sha256": "2c8688c8978e2be12e687dd244f1923e261ff075458facac0108d6f00c75ba35",
+  "index_nnz": 87025,
+  "index_rows": 9801,
+  "elapsed_s": 0.666,
+  "returncode": 0,
+  "status": "ok"
+}

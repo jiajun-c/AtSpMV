@@ -1,0 +1,10 @@
+{
+  "dataset": "Ecoli_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Ecoli_10NN/Ecoli_10NN.mtx",
+  "matrix_sha256": "218ad3d7de513a567df002b5bead4054f96f77063e1d1adc318abde817ece4af",
+  "index_nnz": 4560,
+  "index_rows": 336,
+  "elapsed_s": 0.683,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "status_counts": {
+    "ok": 663
+  },
+  "total": 663,
+  "cases": 663,
+  "method": "Same-run warm Graph timings in two construction orders; each width uses separate allocations. Input matrices were previously inspected and may share families with training. Graph model is experimental and setup is excluded.",
+  "graph_speedup_vs_v2": 1.0006418852053711,
+  "graph_speedup_vs_cusparse": 1.5519184726747484,
+  "v2_width_ratio_mape": 0.0874943283933926,
+  "graph_width_ratio_mape": 0.08654279530523655,
+  "graph_faster_5pct": 13,
+  "graph_slower_5pct": 9
+}

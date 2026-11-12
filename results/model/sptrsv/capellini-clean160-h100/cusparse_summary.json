@@ -1,0 +1,11 @@
+{
+  "status_counts": {
+    "factor_missing": 56,
+    "ok": 104
+  },
+  "valid_pairs": 104,
+  "geomean_cusparse_over_plan": 1.2454681103339258,
+  "plan_wins": 80,
+  "losses_gt_5pct": 0,
+  "note": "warm CUDA Graph solve, median of two process runs; gated by the source SOTA comparison; excludes factorization, Plan construction and Graph creation"
+}

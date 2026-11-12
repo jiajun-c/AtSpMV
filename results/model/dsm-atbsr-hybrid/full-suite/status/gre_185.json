@@ -1,0 +1,10 @@
+{
+  "dataset": "gre_185",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gre_185/gre_185.mtx",
+  "matrix_sha256": "655bbd57a6702414bc7740353d55808623eceaddea7e3656f18cae88b1423478",
+  "index_nnz": 1005,
+  "index_rows": 185,
+  "elapsed_s": 1.332,
+  "returncode": 0,
+  "status": "ok"
+}

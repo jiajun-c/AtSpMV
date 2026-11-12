@@ -1,0 +1,10 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 3871271 (/tmp/atspmv_dsm_hbm_latency)
+kind,cluster,peer,trial,cycles,iterations,segment
+cold_global,8,-1,0,1196960,4096,0
+==PROF== Disconnected from process 3871271
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","3871271","atspmv_dsm_hbm_latency","127.0.0.1","void measure<2>(const unsigned int *, const unsigned int *, const unsigned int *, unsigned int *, unsigned int, unsigned long long *, unsigned int *, unsigned int *, int, int)","1","13","(128, 1, 1)","(8, 1, 1)","0","9.0","Command line profiler metrics","dram__sectors_read.sum","sector","8800"
+"0","3871271","atspmv_dsm_hbm_latency","127.0.0.1","void measure<2>(const unsigned int *, const unsigned int *, const unsigned int *, unsigned int *, unsigned int, unsigned long long *, unsigned int *, unsigned int *, int, int)","1","13","(128, 1, 1)","(8, 1, 1)","0","9.0","Command line profiler metrics","lts__t_sectors_aperture_device_op_read_lookup_hit.sum","sector","3174"
+"0","3871271","atspmv_dsm_hbm_latency","127.0.0.1","void measure<2>(const unsigned int *, const unsigned int *, const unsigned int *, unsigned int *, unsigned int, unsigned long long *, unsigned int *, unsigned int *, int, int)","1","13","(128, 1, 1)","(8, 1, 1)","0","9.0","Command line profiler metrics","lts__t_sectors_aperture_device_op_read_lookup_miss.sum","sector","143"

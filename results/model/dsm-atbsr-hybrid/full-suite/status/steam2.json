@@ -1,0 +1,10 @@
+{
+  "dataset": "steam2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/steam2/steam2.mtx",
+  "matrix_sha256": "50a5c3f1244291ab8f7df21c9328b329e6f813b1b13f47e11695967e33e37f91",
+  "index_nnz": 13760,
+  "index_rows": 600,
+  "elapsed_s": 0.566,
+  "returncode": 0,
+  "status": "ok"
+}

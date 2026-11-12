@@ -1,3 +1,4 @@
+#include "detail/rowLengths.cuh"
 #include <thrust/device_vector.h>
 #include <thrust/transform.h>
 #include <thrust/sequence.h>
@@ -10,74 +11,12 @@
 #include "matrixFormat.h"
 #include "common.h"
 #include "ptx.h"
-// #define DEBUG 
+#include "tileSelector.cuh"
+#include "atspmvprod.h"
 
-__global__ void getTileDensityAndAtomKernel(int *row_len, int nrow, int* blockcount,int *atomTimes, int cap) {
-    int idx = blockIdx.x * blockDim.x + threadIdx.x;
-    if (idx < nrow) {
-        int block =  (row_len[idx] + 31)/32;
-        atomicAdd(&blockcount[0], block);
-        atomicAdd(&atomTimes[0], (block + cap - 1) / cap);
-    }
+static int tileResidentWarps(int index, bool balanced, bool int16);
 
-    if (idx*2 + 1 < (nrow+1)/2*2 ) {
-        int targetidx = min(idx*2+1, nrow-1);
-        int block =  (row_len[targetidx] + 15)/16;
-        atomicAdd(&blockcount[1], block);
-        atomicAdd(&atomTimes[1], (block + cap - 1) / cap);
-    }
-    if (idx*4 + 3 < (nrow+3)/4*4 ) {
-        int targetidx = min(idx*4+3, nrow-1);
-        int block =  (row_len[targetidx] + 7)/8;
-
-        atomicAdd(&blockcount[2], block);
-        atomicAdd(&atomTimes[2], (block + cap - 1) / cap);
-    }
-
-    if (idx*8 + 7 < (nrow+7)/8*8 ) {
-        int targetidx = min(idx*8+7, nrow-1);
-        int block = (row_len[targetidx]+3)/4;
-
-        atomicAdd(&blockcount[3], block);
-        atomicAdd(&atomTimes[3], (block + cap - 1) / cap);
-    }
-
-    if (idx*16 + 15 < (nrow+15)/16*16 ) {
-        int targetidx = min(idx*16+15, nrow-1);
-        int block = (row_len[targetidx]+1)/2;
-
-        atomicAdd(&blockcount[4], block);
-        atomicAdd(&atomTimes[4], (block + cap - 1) / cap);
-    }
-
-    if (idx*32 + 31 < (nrow+31)/32*32 ) {
-        int targetidx = min(idx*32+31, nrow-1);
-        int block = row_len[targetidx];
-        // printf("block = %d\n", block);
-        atomicAdd(&blockcount[5], block);
-        atomicAdd(&atomTimes[5], (block + cap - 1) / cap);
-    }
-}
-struct RowNNZCalculator {
-    const int32_t* row_ptr;
-    
-    RowNNZCalculator(const int32_t* _row_ptr) : row_ptr(_row_ptr) {}
-    
-    __host__ __device__
-    int32_t operator()(int32_t row_index) const {
-        return row_ptr[row_index + 1] - row_ptr[row_index];
-    }
-};
-
-template<typename T>
-struct sq_dev {
-    const double mean;
-    sq_dev(double m) : mean(m) {}
-    __host__ __device__ double operator()(const T& x) const {
-        double d = static_cast<double>(x) - mean;
-        return d * d;
-    }
-};
+using atspmv::detail::RowNNZCalculator;
 
 int getMaxPhyThread(int device) {
     cudaDeviceProp prop;
@@ -85,30 +24,6 @@ int getMaxPhyThread(int device) {
     size_t total_concurrent_threads = prop.multiProcessorCount * prop.maxThreadsPerMultiProcessor;
     return total_concurrent_threads;
 }
-pair<int, bool> selectTile(double scores[6], int noBalWarpCounts[6], int balWarpCounts[6], double MaxScore, int pyhThreads,int avg_nnz,bool bal) {
-    int targetTile = -1;
-    for (int i = 0; i < 6; i++) {
-        if (scores[i] == MaxScore) {
-            targetTile = i;
-            break;
-        }
-    }
-    int warp0 = bal ? balWarpCounts[0] : noBalWarpCounts[0];
-    if (warp0*32 <= pyhThreads) {
-        targetTile = 0;
-    }
-    int thread = bal?  balWarpCounts[targetTile] : noBalWarpCounts[targetTile];
-    int tile_m = 1<<targetTile;
-    int tile_k = 32/tile_m;
-    bool useBalance = false;
-    if (thread*32 < pyhThreads && avg_nnz > tile_k * 12) {
-        useBalance = true;
-    } else {
-        useBalance = bal;
-    }
-    return make_pair(targetTile, useBalance);
-}
-
 __global__ void getBlcPtrKernel(int *drow_len,int tile_m,int tile_k, int nrows, int* blc_ptr) {
     int idx = blockIdx.x * blockDim.x + threadIdx.x;
     if (idx >= (nrows + tile_m - 1)/tile_m) return;
@@ -139,7 +54,6 @@ __global__ void GetrowIdxbyWarp(int *rowPtrbyWarp, int *rowIdxbyWarp, int blc_ro
     }
 }
 
-
 __global__ void GetWarpBlcPtr(int *warpPtr,int *blcPtr, int* warpBlcPtr,int brow) {
     int rowid = threadIdx.x + blockIdx.x * blockDim.x;
     if (rowid >= brow) return;
@@ -148,7 +62,6 @@ __global__ void GetWarpBlcPtr(int *warpPtr,int *blcPtr, int* warpBlcPtr,int brow
     int warpCount = (end - start + 8 - 1) / 8;
 
     for (int j = 1; j <= warpCount; j++) {
-        int warpID = warpPtr[rowid] + j ;
         warpBlcPtr[warpPtr[rowid] + j] = min(end, start + j * 8);
     }
 }
@@ -158,29 +71,15 @@ __global__ void csr2AtBsrKernel(double* d_val,int *rowInx, int* d_colIdx,int* dr
     if (rowid >= nrows) return;
     int originrowid = rowid;
     rowid = rowInx[rowid];
-    // if (rowid == 32) {
-    //     printf("rowid %d %d\n", rowid, originrowid);
-    // }
     int bid = originrowid/tile_m;
     int pre = blc_ptr[bid];
-    // if (rowid == 32) {
-    //     for (int i = drow_ptr[rowid], j = 0; i < drow_ptr[rowid+1]; i++,j++) {
-    //         printf("d_val %d %f\n", i, d_val[i]);
-    //     }
-    // }
     for (int i = drow_ptr[rowid], j = 0; i < drow_ptr[rowid+1]; i++,j++) {
         int innerbid = j/tile_k;
         int inneridx = (originrowid%tile_m)*tile_k + j%tile_k;
-        blc_val[(pre + innerbid)*32 + inneridx] = d_val[i];
+        blc_val[(pre + innerbid )*32 + inneridx] = d_val[i];
         blc_idx[(pre + innerbid)*32 + inneridx] = IDX_TYPE(d_colIdx[i]);
     }
-    // if (rowid == 32) {
-    //     for (int i = pre*32;i < pre*32+32;i++) {
-    //         printf("blc_val %d %f\n", i, blc_val[i]);
-    //     }
-    // }
 }
-// 354
 
 template<typename IDX_TYPE>
 __global__ void  csr2AtBsrBalKernel(double* d_val,int* drow_index,int* d_colIdx,int* drow_ptr, int nrows, int warpCount,int* rowIdxbyWarp, int*blcPtr, int* warpBlcPtr,int tile_m,int tile_k,double* blc_val,IDX_TYPE* blc_idx) {
@@ -193,16 +92,10 @@ __global__ void  csr2AtBsrBalKernel(double* d_val,int* drow_index,int* d_colIdx,
     int csrrow = drow_index[targetRow];
     int csrStartIdx = drow_ptr[csrrow];
     int csrEndIdx = drow_ptr[csrrow+1];
-    // if (targetRow == 0) {
-    //     printf("warpId = %d, warpBlcPtr = %d warpBlcPtr+1=%d\n", warpId, warpBlcPtr[warpId],warpBlcPtr[warpId+1]);
-    // }
     int j = (warpBlcPtr[warpId] - blcPtr[targetRow/tile_m])*tile_k + laneId%tile_k;
     for (int i = warpBlcPtr[warpId]; i < warpBlcPtr[warpId+1]; i++,j += tile_k) {
         int csridx = csrStartIdx + j;
         int bsridx = i*32 + laneId;
-        // if (csridx < csrEndIdx && targetRow == 0) {
-        //     printf("val: %f\n", d_val[csridx]);
-        // }
         blc_val[bsridx] = csridx < csrEndIdx ? d_val[csridx]: 0;
         blc_idx[bsridx] = csridx < csrEndIdx ? IDX_TYPE(d_colIdx[csridx]) :-1;
     }
@@ -214,7 +107,6 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
     int *d_colIdx;
     int *d_rowPtr;
 #ifdef DEBUG
-    // printf("nrows = %d, nonzeroRows = %d\n", csrMat.nrows, csrMat.ncols)
 #endif
 
     CHECK(cudaMalloc((void**)&d_val, csrMat.nnz * sizeof(double)));
@@ -226,6 +118,7 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
     auto start = std::chrono::high_resolution_clock::now();
 
     // TODO
+    csrMat.useColInt16 = csrMat.ncols < INT16_MAX;
     atbsr.useColIdxInt16 = csrMat.useColInt16;
     int *drow_len, *drow_index;
     CHECK(cudaMalloc((void**)&drow_len, csrMat.nrows * sizeof(int)));
@@ -236,80 +129,26 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
         drow_len, drow_len + csrMat.nrows,  // 排序的键值
         drow_index                    // 对应的值随之重排
     );
-    thrust::sort(thrust::device, drow_len, drow_len + csrMat.nrows);
 #ifdef DEBUG
     printf("sort done\n");
 #endif
-    // int maxLen = -1, minLen = INT32_MAX;
-    // find the best tile size
-    int *d_blockcount;
-    int *d_warpCount;
-    int *h_blockcount;
-    int *h_warpCount;
-    h_warpCount = (int*)malloc(6 * sizeof(int));
-    h_blockcount = (int*)malloc(6 * sizeof(int));
-    cudaMalloc(&d_blockcount, 6 * sizeof(int));
-    cudaMemset(d_blockcount, 0, 6 * sizeof(int));
-    cudaMalloc(&d_warpCount, 6 * sizeof(int));
-    cudaMemset(d_warpCount, 0, 6 * sizeof(int));
-
-    getTileDensityAndAtomKernel<<<(csrMat.nrows + 256 - 1)/256, 256>>>(drow_len, csrMat.nrows, d_blockcount, d_warpCount, 8);
-    cudaDeviceSynchronize();
-    cudaMemcpy(h_blockcount, d_blockcount, 6 * sizeof(int), cudaMemcpyDeviceToHost);
-    cudaMemcpy(h_warpCount, d_warpCount, 6 * sizeof(int), cudaMemcpyDeviceToHost);
-
-    // double avg_nnz = double(csrMat.nnz)/csrMat.nrows;
-    // double sq_sum = thrust::transform_reduce(thrust::device, drow_len + csrMat.nrows, drow_len + csrMat.nrows, sq_dev<int>(avg_nnz),
-    //                                       0.0, thrust::plus<double>());
-    // double stand = sqrt(sq_sum/csrMat.nrows);
-    if (csrMat.stand > 12 || csrMat.maxLen/csrMat.avg_nnz > 2) {
-        atbsr.useBalance = 1;
-    }
-    int pyhThreads = getMaxPhyThread(0);
-    double densityArr[6], score[6], MaxScore = -1;
-    int balWarpCounts[6];
-    int noBalWarpCounts[6];
-    for (int i = 0; i < 6; i++) {
-        balWarpCounts[i] = h_warpCount[i];
-        noBalWarpCounts[i] = (csrMat.nrows + (1<<i) - 1)/(1<<i);
-        // printf("bal: %d noBal: %d\n", balWarpCounts[i], noBalWarpCounts[i]);
-    }
-
-    int m = 1;
-    for (int i = 0; i < 6; i++) {
-        // printf("tile %d block count = %d\n", i, h_blockcount[i]);
-        densityArr[i] = double(csrMat.nnz)/(h_blockcount[i]*32);
-        // printf("tile %d density = %.2f\n", i, densityArr[i]);
-        score[i] = densityArr[i]*0.9 - 0.1*double(balWarpCounts[i]*m/csrMat.nnz * atbsr.useBalance) - 0.01*(double(h_blockcount[i]*(5-i))/csrMat.nnz);
-        // printf("GPU %f %d %f h_blockcount:%d\n",densityArr[i], h_atomTimes[i]*m, score[i],h_blockcount[i]);
-        MaxScore = max(MaxScore, score[i]);
-        m *= 2;
-    }
-
-    int thread = 0;
-    int warpCount;
-    int blockCount;
-    // int atomTimes;
-    pair<int,bool>res = selectTile(score, noBalWarpCounts, balWarpCounts, MaxScore, pyhThreads, csrMat.avg_nnz, atbsr.useBalance);
-#ifdef DEBUG
-    printf("selectTile done\n");
-#endif
-    if (idx != -1) {
-        res.first = idx;
-        // printf("den:%f score:%f\n", densityArr[idx],score[idx]);
-    } else {
-        // printf("select: %d dens:%f  score:%f\n", res.first, densityArr[res.first],score[res.first]);
-    }
-    int tile_m = 1<<(res.first);
-
-    int tile_k = 32/tile_m;
-    atbsr.useBalance = res.second;
-    warpCount = atbsr.useBalance ? balWarpCounts[res.first] : noBalWarpCounts[res.first]; 
-    blockCount = h_blockcount[res.first];
+    const auto selection = atspmv::selectTileByTime(
+        drow_len, csrMat.nrows, atbsr.useColIdxInt16 ? 2 : 4,
+        tileResidentWarps, idx, -1, csrMat.ncols, csrMat.nnz);
+    const int selected = selection.best.tile_index;
+    const int tile_m = 1 << selected;
+    const int tile_k = 32 / tile_m;
+    atbsr.useBalance = selection.best.balanced;
+    atbsr.predictedTimeUs = selection.best.total_ns / 1000.0;
+    atbsr.modelCalibrated = selection.calibrated;
+    atbsr.modelResidentWarps = tileResidentWarps(selected, atbsr.useBalance, atbsr.useColIdxInt16);
+    const int warpCount = static_cast<int>(selection.best.warps);
+    const int blockCount = static_cast<int>(selection.stats[selected].tiles);
     // convert csr to atbsr
     int *blc_ptr;
     int brow = (csrMat.nrows + tile_m - 1)/tile_m;
     cudaMalloc(&blc_ptr, (brow+1)*sizeof(int));
+    cudaMemset(blc_ptr, 0, (brow+1)*sizeof(int));
     double *blc_val;
     int *blc_idx;
     int16_t* blc_idxint16;
@@ -331,25 +170,15 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
     if (atbsr.useBalance) {
         buffsize += (brow+1 + warpCount*2+1)*sizeof(int);
     }
-    // printf("atbsr size: %d\n",);
     getBlcPtrKernel<<<(brow + 255)/256 ,256>>>(drow_len, tile_m, tile_k, csrMat.nrows, blc_ptr);
     cudaDeviceSynchronize();
     thrust::exclusive_scan(thrust::device, blc_ptr, blc_ptr + (brow + 1), blc_ptr, 0);
-    // int *h_blcPtr = (int*)malloc((brow + 1)*sizeof(int));
-    // cudaMemcpy(h_blcPtr, blc_ptr, (brow + 1)*sizeof(int), cudaMemcpyDeviceToHost);
-    // for (int i = 0; i < brow; i++) {
-    //     printf("blc_ptr[%d]:%d\n", i, h_blcPtr[i]);
-    // }
     int *warpBlcPtr;
-    int *warpTargetRow;
     int *rowPtrbyWarp;
     int *rowIdxbyWarp;
-    // auto endselect = std::chrono::high_resolution_clock::now();
-    // auto duration = std::chrono::duration_cast<std::chrono::microseconds>(endselect - start);
-    // auto startBal = std::chrono::high_resolution_clock::now();
 
-    // printf("select time: %ld\n", duration.count());
     cudaMalloc(&rowPtrbyWarp, (brow+1)*sizeof(int));
+    cudaMemset(rowPtrbyWarp, 0, (brow+1)*sizeof(int));
     cudaMalloc(&rowIdxbyWarp, warpCount*sizeof(int));
     cudaMalloc(&warpBlcPtr, (warpCount+1)*sizeof(int));
     cudaMemset(warpBlcPtr, 0,  (warpCount+1)*sizeof(int));
@@ -364,26 +193,14 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
         GetrowIdxbyWarp<<<(brow + 255)/256 ,256>>>(rowPtrbyWarp, rowIdxbyWarp, brow, tile_m);
         GetWarpBlcPtr<<<(brow + 255)/256 ,256>>>(rowPtrbyWarp, blc_ptr, warpBlcPtr, brow);
         cudaDeviceSynchronize();
-        // auto now = std::chrono::high_resolution_clock::now();
-        // duration = std::chrono::duration_cast<std::chrono::microseconds>(now - startBal);
-        // printf("bal time: %ld\n", duration.count());
-        // auto now1 = std::chrono::high_resolution_clock::now();
 
 #ifdef DEBUG
     printf("GetWarpBlcPtr done\n");
 #endif
-        // if (atbsr.useColIdxInt16)
-        //     csr2AtBsrKernel<int16_t><<<(csrMat.nrows + 255)/256 ,256>>>(d_val, drow_index, d_colIdx,  d_rowPtr, brow, csrMat.nrows,tile_m,tile_k, blc_ptr,blc_val,blc_idxint16);
-        // else
-        //     csr2AtBsrKernel<int32_t><<<(csrMat.nrows + 255)/256 ,256>>>(d_val, drow_index, d_colIdx,  d_rowPtr, brow, csrMat.nrows,tile_m,tile_k, blc_ptr,blc_val,blc_idx);
         if (atbsr.useColIdxInt16)
             csr2AtBsrBalKernel<int16_t><<<(warpCount + 7)/8 ,256>>>(d_val, drow_index, d_colIdx,d_rowPtr, csrMat.nrows, warpCount, rowIdxbyWarp, blc_ptr, warpBlcPtr, tile_m, tile_k, blc_val, blc_idxint16);
-        else 
+        else
             csr2AtBsrBalKernel<int32_t><<<(warpCount + 7)/8 ,256>>>(d_val, drow_index, d_colIdx, d_rowPtr, csrMat.nrows, warpCount, rowIdxbyWarp, blc_ptr, warpBlcPtr, tile_m, tile_k, blc_val, blc_idx);
-    // cudaDeviceSynchronize();
-        // auto now2 = std::chrono::high_resolution_clock::now();
-        // duration = std::chrono::duration_cast<std::chrono::microseconds>(now2 - now1);
-        // printf("convert: %ld\n", duration.count());
     } else {
         if (atbsr.useColIdxInt16)
             csr2AtBsrKernel<int16_t><<<(csrMat.nrows + 255)/256 ,256>>>(d_val, drow_index, d_colIdx,  d_rowPtr, brow, csrMat.nrows,tile_m,tile_k, blc_ptr,blc_val,blc_idxint16);
@@ -408,8 +225,6 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
     auto end = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
     preTime = duration.count();
-    // int *drowLen;
-    // printf("atbsr preprocess time = %d ms\n", duration.count());
 
     atbsr.brow = brow;
     atbsr.nrows = csrMat.nrows;
@@ -430,17 +245,21 @@ __host__ int CSRToAtBSR(CSRMatrix<double, int32_t>&csrMat, AtBsr<double, int32_t
 
     cudaMemcpy(atbsr.recorderCPU, drow_index, sizeof(int)*atbsr.nrows, cudaMemcpyDeviceToHost);
 
+    cudaFree(drow_len);
+    cudaFree(rowPtrbyWarp);
+    cudaFree(d_val);
+    cudaFree(d_colIdx);
+    cudaFree(d_rowPtr);
+
     return 0;
 }
 #define WARP_CAPACITY 32
 
 template <typename IDX_TYPE>
-__global__ void spmv_fp64(int32_t *rowPtr, IDX_TYPE *colIdx, int32_t rows, int32_t nnz, double* values,double* x, double* outvalues) { 
+__global__ void spmv_fp64(int32_t *rowPtr, IDX_TYPE *colIdx, int32_t rows, int32_t nnz, double* values,double* x, double* outvalues) {
     int32_t tid = blockIdx.x * blockDim.x + threadIdx.x;
     if (tid >= rows) return;
     double tmp = 0.0;
-    // printf("rowPtr[tid]:%d rowPtr[tid+1]:%d\n", rowPtr[tid], rowPtr[tid+1]);
-    // int count = rowPtr[tid+1] - rowPtr[tid];
     #pragma unroll
     for (int32_t i = rowPtr[tid]; i < rowPtr[tid+1]; i++) {
         int32_t col = colIdx[i];
@@ -451,11 +270,10 @@ __global__ void spmv_fp64(int32_t *rowPtr, IDX_TYPE *colIdx, int32_t rows, int32
 }
 
 template <typename IDX_TYPE>
-__global__ void spmv_fp64_fixLen(int32_t fixLen, IDX_TYPE *colIdx, int32_t rows, int32_t nnz, double* values,double* x, double* outvalues) { 
+__global__ void spmv_fp64_fixLen(int32_t fixLen, IDX_TYPE *colIdx, int32_t rows, int32_t nnz, double* values,double* x, double* outvalues) {
     int32_t tid = blockIdx.x * blockDim.x + threadIdx.x;
     if (tid >= rows) return;
     double tmp = 0.0;
-    // int count = rowPtr[tid+1] - rowPtr[tid];
     #pragma unroll
     for (int32_t i =tid*fixLen; i < tid*fixLen + fixLen; i++) {
         int32_t col = colIdx[i];
@@ -481,17 +299,14 @@ int spmv_fp64_warpper(CSRMatrix<double, int32_t>&csr ,double* x, double* outvalu
 
     int32_t *d_rowPtr, *d_colIdx;
     cudaMalloc((void**)&d_rowPtr, sizeof(int32_t)*(rows+1));
-    cudaMalloc((void**)&d_colIdx, sizeof(int32_t)*nnz); 
+    cudaMalloc((void**)&d_colIdx, sizeof(int32_t)*nnz);
     cudaMemcpy(d_rowPtr, csr.row_ptr, sizeof(int32_t)*(rows+1), cudaMemcpyHostToDevice);
     cudaMemcpy(d_colIdx, csr.col_idx, sizeof(int32_t)*nnz, cudaMemcpyHostToDevice);
     int thread_num = 64;
     int block_num = (rows + thread_num - 1)/thread_num;
     CHECK(cudaGetLastError());
-    // printf("useColInt16:%d %d", csr.useColInt16,csr.useFixLen);
     if (!csr.useColInt16) {
-        // printf("use Int32\n");
         if (csr.useFixLen) {
-            // printf("use fixlen\n");
 
             for (int i = 0; i < warmup; i++) {
                 spmv_fp64_fixLen<int32_t><<<block_num, thread_num>>>(csr.FixLen, d_colIdx, rows, nnz, d_values, d_x, d_outvalues);
@@ -519,12 +334,13 @@ int spmv_fp64_warpper(CSRMatrix<double, int32_t>&csr ,double* x, double* outvalu
             auto eplapsed = end - start;
             avg_time = chrono::duration_cast<chrono::microseconds>(eplapsed).count() / repeat;
         }
-    } else { 
+    } else {
         int16_t *colIdx16 = (int16_t*)malloc(sizeof(int16_t)*nnz);
         for (int i = 0; i < nnz; i++) {
             colIdx16[i] = csr.col_idx[i];
         }
         cudaMemcpy(d_colIdx, colIdx16, sizeof(int16_t)*nnz, cudaMemcpyHostToDevice);
+        free(colIdx16);
         int16_t* d_colIdx16 = reinterpret_cast<int16_t*>(d_colIdx);
         if (csr.useFixLen) {
             for (int i = 0; i < warmup; i++) {
@@ -566,19 +382,12 @@ int spmv_fp64_warpper(CSRMatrix<double, int32_t>&csr ,double* x, double* outvalu
 }
 
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel1x32CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel1x32CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0 && warpId == 50) {
-    //     printf("warpBlcPtr %d %d targetRow %d\n", warpBlcPtr[warpId], warpBlcPtr[warpId + 1], warpTargetRow[warpId]);
-    // }
-    // #pragma unroll 4
-    // if (laneId == 0) {
-    //     printf("BlcPtr %d %d\n", BlcPtr[warpId], BlcPtr[warpId + 1]);
-    // }
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
         fragA = colIdx == -1 ? 0.0 : blcVal[i*32 + laneId];
@@ -586,8 +395,6 @@ __global__ void TcSPMVKernel1x32CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
         fragC += fragA * fragB;
 
     }
-    // printf("fragA %f fragB %f fragC %f\n", fragA, fragB, fragC);
-    // int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 2, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 4, 32);
@@ -607,21 +414,13 @@ __global__ void TcSPMVKernel1x32CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
     }
 }
 
-
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel2x16CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel2x16CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0 && warpId == 50) {
-    //     printf("warpBlcPtr %d %d targetRow %d\n", warpBlcPtr[warpId], warpBlcPtr[warpId + 1], warpTargetRow[warpId]);
-    // }
-    // #pragma unroll 4
-    // if (laneId == 0) {
-    //     printf("BlcPtr %d %d\n", BlcPtr[warpId], BlcPtr[warpId + 1]);
-    // }
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
         fragA = colIdx == -1 ? 0.0 : blcVal[i*32 + laneId];
@@ -629,8 +428,6 @@ __global__ void TcSPMVKernel2x16CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
         fragC += fragA * fragB;
 
     }
-    // printf("fragA %f fragB %f fragC %f\n", fragA, fragB, fragC);
-    // int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 2, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 4, 32);
@@ -646,30 +443,19 @@ __global__ void TcSPMVKernel2x16CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
     }
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel4x8CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel4x8CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0 && warpId == 50) {
-    //     printf("warpBlcPtr %d %d targetRow %d\n", warpBlcPtr[warpId], warpBlcPtr[warpId + 1], warpTargetRow[warpId]);
-    // }
-    // #pragma unroll 4
-    // if (laneId == 0) {
-    //     printf("BlcPtr %d %d\n", BlcPtr[warpId], BlcPtr[warpId + 1]);
-    // }
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
-        // if (colIdx < -1) {
-            // printf("colIdx %d\n", colIdx);
-        // }
         fragA = colIdx == -1 ? 0.0 : blcVal[i*32 + laneId];
         fragB = colIdx == -1 ? 0.0 : x[colIdx];
         fragC += fragA * fragB;
 
     }
-    // int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 2, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 4, 32);
@@ -686,15 +472,12 @@ __global__ void TcSPMVKernel4x8CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blc
 }
 
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel8x4CC(int32_t *blcPtr, IDX_TYPE *blcIdx, double *blcVal, int brows, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel8x4CC(int32_t *blcPtr, IDX_TYPE *blcIdx, double *blcVal, int brows, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= brows) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0) {
-    //     printf("warpID: %d  blockCount: %d\n", warpId, blcPtr[warpId + 1] - blcPtr[warpId]);
-    // }
     #pragma unroll 4
     for (int i = blcPtr[warpId]; i < blcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
@@ -702,9 +485,6 @@ __global__ void TcSPMVKernel8x4CC(int32_t *blcPtr, IDX_TYPE *blcIdx, double *blc
         fragB = colIdx == -1 ? 0.0 : x[colIdx];
         fragC += fragA * fragB;
     }
-        // if (warpId == 0)
-
-    // printf("colIdx %d fragA %f fragB %f fragC %f\n", 1, fragA, fragB, fragC);
 
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 2, 32);
@@ -720,19 +500,12 @@ __global__ void TcSPMVKernel8x4CC(int32_t *blcPtr, IDX_TYPE *blcIdx, double *blc
 
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel16x2CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel16x2CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0 && warpId == 50) {
-    //     printf("warpBlcPtr %d %d targetRow %d\n", warpBlcPtr[warpId], warpBlcPtr[warpId + 1], warpTargetRow[warpId]);
-    // }
-    // #pragma unroll 4
-    // if (laneId == 0) {
-    //     printf("BlcPtr %d %d\n", BlcPtr[warpId], BlcPtr[warpId + 1]);
-    // }
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
         fragA = colIdx == -1 ? 0.0 : blcVal[i*32 + laneId];
@@ -740,8 +513,6 @@ __global__ void TcSPMVKernel16x2CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
         fragC += fragA * fragB;
 
     }
-    // printf("fragA %f fragB %f fragC %f\n", fragA, fragB, fragC);
-    // int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     if (laneId  % 2 == 0) {
         int rowId = warpId*16 + laneId/2;
@@ -753,7 +524,7 @@ __global__ void TcSPMVKernel16x2CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
 }
 
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel32x1CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel32x1CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -776,7 +547,7 @@ __global__ void TcSPMVKernel32x1CC(int32_t *BlcPtr, IDX_TYPE *blcIdx, double *bl
     }
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel32x1Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel32x1Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -791,8 +562,6 @@ __global__ void TcSPMVKernel32x1Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
         fragA = colIdx == -1 ? 0.0 : blcVal[i*32 + laneId];
         fragB = colIdx == -1 ? 0.0 : x[colIdx];
         fragC += fragA * fragB;
-        // if (rowId == 0)
-        // printf("i:%d fragA:%f fragB %f fragC:%f tid:%d idx:%d\n",i, fragA, fragB,fragC, tid, i*32 + laneId);
     }
 
     if (rowId < nrows) {
@@ -801,16 +570,12 @@ __global__ void TcSPMVKernel32x1Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
     }
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel16x2Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel16x2Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
     int laneId = tid & 31;
     double fragA, fragB, fragC = 0.0;
-    // if (laneId == 0 && warpId == 50) {
-    //     printf("warpBlcPtr %d %d targetRow %d\n", warpBlcPtr[warpId], warpBlcPtr[warpId + 1], warpTargetRow[warpId]);
-    // }
-    // #pragma unroll 4
 
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
@@ -819,7 +584,6 @@ __global__ void TcSPMVKernel16x2Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
         fragC += fragA * fragB;
 
     }
-    // printf("fragA %f fragB %f fragC %f\n", fragA, fragB, fragC);
     int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     if (laneId  % 2 == 0) {
@@ -833,7 +597,7 @@ __global__ void TcSPMVKernel16x2Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
     }
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel8x4Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel8x4Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -859,7 +623,7 @@ __global__ void TcSPMVKernel8x4Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, 
     }
 }
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel4x8Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel4x8Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -883,9 +647,8 @@ __global__ void TcSPMVKernel4x8Bal(int32_t *warpTargetRow, int32_t *warpBlcPtr, 
     }
 }
 
-
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel2x16Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel2x16Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -898,7 +661,6 @@ __global__ void TcSPMVKernel2x16Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
         fragC += fragA * fragB;
 
     }
-    // printf("fragA %f fragB %f fragC %f\n", fragA, fragB, fragC);
     int warpRowId = warpTargetRow[warpId];
     fragC += __shfl_down_sync(0xffffffff, fragC, 1, 32);
     fragC += __shfl_down_sync(0xffffffff, fragC, 2, 32);
@@ -916,7 +678,7 @@ __global__ void TcSPMVKernel2x16Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
 }
 
 template<typename IDX_TYPE>
-__global__ void TcSPMVKernel1x32Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) { 
+__global__ void TcSPMVKernel1x32Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX_TYPE *blcIdx, double *blcVal, int warpCount, int nrows,  double *x, double *y) {
     int tid = blockIdx.x * blockDim.x + threadIdx.x;
     int warpId = tid >> 5;
     if (warpId >= warpCount) return;
@@ -924,7 +686,6 @@ __global__ void TcSPMVKernel1x32Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
     double fragA, fragB, fragC = 0.0;
 
     int warpRowId = warpTargetRow[warpId];
-
 
     for (int i = BlcPtr[warpId]; i < BlcPtr[warpId + 1]; i++) {
         int colIdx = blcIdx[i*32 + laneId];
@@ -949,6 +710,93 @@ __global__ void TcSPMVKernel1x32Bal(int32_t* warpTargetRow, int32_t *BlcPtr, IDX
         }
     }
 }
+
+static int tileResidentWarps(int index, bool balanced, bool int16) {
+    int blocks = 0;
+    switch (index) {
+    case 0:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel1x32Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel1x32Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel1x32CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel1x32CC<int32_t>, 128, 0));
+        }
+        break;
+    case 1:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel2x16Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel2x16Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel2x16CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel2x16CC<int32_t>, 128, 0));
+        }
+        break;
+    case 2:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel4x8Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel4x8Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel4x8CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel4x8CC<int32_t>, 128, 0));
+        }
+        break;
+    case 3:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel8x4Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel8x4Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel8x4CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel8x4CC<int32_t>, 128, 0));
+        }
+        break;
+    case 4:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel16x2Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel16x2Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel16x2CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel16x2CC<int32_t>, 128, 0));
+        }
+        break;
+    case 5:
+        if (balanced) {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel32x1Bal<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel32x1Bal<int32_t>, 128, 0));
+        } else {
+            if (int16)
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel32x1CC<int16_t>, 128, 0));
+            else
+                atspmv::modelCudaCheck(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&blocks, TcSPMVKernel32x1CC<int32_t>, 128, 0));
+        }
+        break;
+    default: throw std::invalid_argument("invalid tile index");
+    }
+    return blocks * atspmv::kWarpsPerBlock;
+}
+
 __global__ void beta_vecY(double *d_y, double beta, int row)
 {
     int rowid = threadIdx.x + blockDim.x * blockIdx.x;
@@ -959,10 +807,9 @@ __global__ void beta_vecY(double *d_y, double beta, int row)
 int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int repeat, double &avgTime) {
 
     int tile_m = atbsr.TILE_M;
-    int tile_k = atbsr.TILE_K;
 #ifdef DEBUG
     printf("AtSpmv\n");
-    printf("tile_m %d tile_k %d bal: %d int16:%d\n", tile_m, tile_k, atbsr.useBalance, atbsr.useColIdxInt16);
+    printf("tile_m %d tile_k %d bal: %d int16:%d\n", tile_m, atbsr.TILE_K, atbsr.useBalance, atbsr.useColIdxInt16);
 #endif
     double* d_x, *d_y;
     cudaMalloc((void**)&d_x, atbsr.ncols * sizeof(double));
@@ -977,181 +824,205 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
         if (tile_m == 1) {
             if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel1x32Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel1x32Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel1x32Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel1x32Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
         } else if (tile_m == 2) {
             if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel2x16Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel2x16Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel2x16Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel2x16Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
         } else if (tile_m == 4) {
            if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel4x8Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel4x8Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel4x8Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel4x8Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
         } else if (tile_m == 8) {
            if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel8x4Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel8x4Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel8x4Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
                     beta_vecY<<<(atbsr.nrows+127)/128, 128>>>(d_y, 1.0, atbsr.nrows);
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel8x4Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
         } else if (tile_m == 16) {
            if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel16x2Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel16x2Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel16x2Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel16x2Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
         } else if (tile_m == 32) {
            if (atbsr.useColIdxInt16) {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel32x1Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel32x1Bal<int16_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             } else {
                 for (int i = 0; i < warmup; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel32x1Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
                 auto start = std::chrono::high_resolution_clock::now();
                 for (int i = 0; i < repeat; i++) {
+                    cudaMemset(d_y, 0, atbsr.nrows * sizeof(double));
                     TcSPMVKernel32x1Bal<int32_t><<<gridSize, blockSize>>>(atbsr.targetRowByWarp ,atbsr.warpBlcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.warpCount, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
                 }
-                
-                auto end = std::chrono::high_resolution_clock::now(); 
+
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1169,8 +1040,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel1x32CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1183,8 +1054,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel1x32CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1198,8 +1069,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel2x16CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1212,8 +1083,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel2x16CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1227,8 +1098,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel4x8CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1241,8 +1112,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel4x8CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1256,8 +1127,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel8x4CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1270,8 +1141,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel8x4CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1285,8 +1156,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel16x2CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1299,8 +1170,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel16x2CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
@@ -1314,8 +1185,8 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel32x1CC<int16_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdxInt16, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
 
@@ -1328,15 +1199,15 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
                 for (int i = 0; i < repeat; i++) {
                     TcSPMVKernel32x1CC<int32_t><<<gridSize, blockSize>>>(atbsr.blcPtr, atbsr.blcIdx, atbsr.blcVal, atbsr.brow, atbsr.nrows, d_x, d_y);
                     cudaDeviceSynchronize();
-                }    
-                auto end = std::chrono::high_resolution_clock::now(); 
+                }
+                auto end = std::chrono::high_resolution_clock::now();
                 auto elapsed = end - start;
                 avgTime = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count() / repeat;
             }
-        } 
+        }
     }
     cudaDeviceSynchronize();
-    double *originY = (double*)malloc(atbsr.nrows * sizeof(double));    
+    double *originY = (double*)malloc(atbsr.nrows * sizeof(double));
     memset(originY, 0, atbsr.nrows * sizeof(double));
     cudaMemcpy(originY, d_y, atbsr.nrows * sizeof(double), cudaMemcpyDeviceToHost);
     CHECK(cudaGetLastError());
@@ -1353,6 +1224,9 @@ int AtSpmv(AtBsr<double, int32_t>& atbsr, double* x, double* y, int warmup, int 
 #ifdef DEBUG
     printf("end recorder\n");
 #endif
+    free(originY);
+    cudaFree(d_x);
+    cudaFree(d_y);
     return 0;
 }
 void blockInfo(CSRMatrix<double, int32_t>& csr, int TILE_SIZE) {
@@ -1364,7 +1238,7 @@ void blockInfo(CSRMatrix<double, int32_t>& csr, int TILE_SIZE) {
         int end = min(i + tile_m, csr.nrows);
         set<int> bset;
         for (int j = start; j < end; j++) {
-            for (int z = csr.row_ptr[j], y = 0; z < csr.row_ptr[j + 1]; z++) {
+            for (int z = csr.row_ptr[j]; z < csr.row_ptr[j + 1]; z++) {
                 bset.insert(csr.col_idx[z]/tile_k);
             }
         }
@@ -1373,9 +1247,63 @@ void blockInfo(CSRMatrix<double, int32_t>& csr, int TILE_SIZE) {
     printf(",%f", (double)csr.nnz/(TILE_SIZE*TILE_SIZE*blockCount));
 }
 
+// Experimental configurations share the product implementation so packing,
+// launch geometry and occupancy cannot diverge between the two public APIs.
+static void configuredHostSpmv(CSRMatrix<double, int32_t>& csr, double* x, double* y,
+                               int warmup, int repeat, double& time, double& pre,
+                               int64_t& bytes, int tile) {
+    if (repeat <= 0 || warmup < 0) throw std::invalid_argument("invalid iteration counts");
+    thrust::device_vector<int> ptr(csr.row_ptr, csr.row_ptr + csr.nrows + 1);
+    thrust::device_vector<int> col(csr.col_idx, csr.col_idx + csr.nnz);
+    thrust::device_vector<double> val(csr.val, csr.val + csr.nnz);
+    thrust::device_vector<double> dx(x, x + csr.ncols), dy(csr.nrows);
+    CSRMatrix<double, int32_t> device{};
+    device.nrows = csr.nrows; device.ncols = csr.ncols; device.nnz = csr.nnz;
+    device.row_ptr = thrust::raw_pointer_cast(ptr.data());
+    device.col_idx = thrust::raw_pointer_cast(col.data());
+    device.val = thrust::raw_pointer_cast(val.data());
+    AtBsr<double, int32_t> packed;
+    auto release = [&] {
+        cudaFree(packed.blcVal); cudaFree(packed.blcIdx); cudaFree(packed.blcIdxInt16);
+        cudaFree(packed.blcPtr); cudaFree(packed.recorder);
+        cudaFree(packed.targetRowByWarp); cudaFree(packed.warpBlcPtr);
+    };
+    try {
+        auto start = std::chrono::steady_clock::now();
+        CSRToAtBSRProduct(device, packed, tile);
+        pre = std::chrono::duration<double, std::micro>(std::chrono::steady_clock::now() - start).count();
+        bytes = int64_t(packed.blockCount) * 32 * (8 + (packed.useColIdxInt16 ? 2 : 4)) +
+                int64_t(packed.brow + 1 + packed.nrows) * sizeof(int);
+        if (packed.useBalance) bytes += (int64_t(packed.brow) + 2 + 2LL * packed.warpCount) * sizeof(int);
+        auto launch = [&] {
+            AtSpmvProduct(packed, thrust::raw_pointer_cast(dx.data()),
+                          thrust::raw_pointer_cast(dy.data()), 1.0, 0.0);
+            atspmv::modelCudaCheck(cudaDeviceSynchronize());
+        };
+        for (int i = 0; i < warmup; ++i) launch();
+        start = std::chrono::steady_clock::now();
+        for (int i = 0; i < repeat; ++i) launch();
+        time = std::chrono::duration<double, std::micro>(std::chrono::steady_clock::now() - start).count() / repeat;
+        atspmv::modelCudaCheck(cudaMemcpy(y, thrust::raw_pointer_cast(dy.data()),
+                                         csr.nrows * sizeof(double), cudaMemcpyDeviceToHost));
+    } catch (...) { release(); throw; }
+    release();
+}
+
 void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, int repeat, double& avg_time, double& pre_time,int64_t& buffsize, int idx=-1) {
-    int minLen;
-    int maxLen;
+    if (idx < -1 || idx > 5) throw std::invalid_argument("invalid forced tile");
+    if (csrMat.nnz == 0 || csrMat.nrows == 0) {
+        std::fill(y, y + csrMat.nrows, 0.0);
+        avg_time = pre_time = 0;
+        buffsize = 0;
+        return;
+    }
+    if (!atspmv::kernelConfigFromEnvironment().baseline()) {
+        configuredHostSpmv(csrMat, x, y, warmup, repeat, avg_time, pre_time, buffsize, idx);
+        return;
+    }
+    int minLen = INT32_MAX;
+    int maxLen = 0;
     int nonzeroRows = 0;
     for (int i = 0; i < csrMat.nrows; i++) {
         int len = csrMat.row_ptr[i+1] - csrMat.row_ptr[i];
@@ -1388,8 +1316,7 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
     csrMat.minLen = minLen;
     double stand = 0;
     double avg_nnz = double(csrMat.nnz) / nonzeroRows;
-    // printf("now\n");
-    for (int i = 0; i < nonzeroRows; i++) {
+    for (int i = 0; i < csrMat.nrows; i++) {
         int len = csrMat.row_ptr[i + 1] - csrMat.row_ptr[i];
         if (len == 0) continue;
         stand += (len - avg_nnz) * (len - avg_nnz);
@@ -1399,16 +1326,12 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
     csrMat.avg_nnz = avg_nnz;
     csrMat.nonzeroRows = nonzeroRows;
     int maxAvgRatio = maxLen / avg_nnz;
-    if (minLen == maxLen && nonzeroRows == csrMat.nrows) {
-        csrMat.FixLen = true;
-    }
-    if (csrMat.ncols < INT16_MAX) {
-        csrMat.useColInt16 = true;
-    }
-    // csrMat.useColInt16 = false;
-    // printf("stand %f avg_nnz %f maxAvgRatio %d\n", stand, avg_nnz, maxAvgRatio);
-    if (stand < 12 && avg_nnz < 8 && maxAvgRatio < 4) {
-        // printf("-1,-1,-1,-1,-1,");
+    csrMat.useFixLen = minLen == maxLen && nonzeroRows == csrMat.nrows;
+    csrMat.FixLen = csrMat.useFixLen ? maxLen : 0;
+    csrMat.useColInt16 = csrMat.ncols < INT16_MAX;
+    if (idx == -1 && stand < 12 && avg_nnz < 8 && maxAvgRatio < 4) {
+        pre_time = 0;
+        buffsize = 0;
         spmv_fp64_warpper(csrMat, x, y, warmup, repeat, avg_time);
         return;
     }
@@ -1416,11 +1339,6 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
     // CSR2A
     AtBsr<double, int32_t> atBsr;
     CSRToAtBSR(csrMat, atBsr, pre_time, idx, buffsize);
-    // for (int i = 2;i <= 8;i*=2) {
-    //     blockInfo(csrMat, i);
-    // }
-    //     // printf("\n");
-    // return;
     CHECK(cudaGetLastError());
     // atBsr.useBalance = false;
     AtSpmv(atBsr, x, y, warmup, repeat, avg_time);
@@ -1428,5 +1346,9 @@ void Spmv(CSRMatrix<double, int32_t>&csrMat, double* x, double* y, int warmup, i
     cudaFree(atBsr.blcIdxInt16);
     cudaFree(atBsr.blcVal);
     cudaFree(atBsr.blcPtr);
+    cudaFree(atBsr.recorder);
+    cudaFree(atBsr.targetRowByWarp);
+    cudaFree(atBsr.warpBlcPtr);
+    free(atBsr.recorderCPU);
     cudaDeviceSynchronize();
 }

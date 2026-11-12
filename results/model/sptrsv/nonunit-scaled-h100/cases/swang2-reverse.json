@@ -1,0 +1,7 @@
+{
+  "name": "swang2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/swang2-L.mtx,model,cusparse,3169,31403,187,3478.372,262.8223877,6.661338148e-16\nresults/model/sptrsv/nonunit-scaled-h100/factors/swang2-L.mtx,model-host,cusparse,3169,31403,187,3478.372,269.610795,6.661338148e-16\nresults/model/sptrsv/nonunit-scaled-h100/factors/swang2-L.mtx,default,cusparse,3169,31403,-1,3519.901,263.1583862,6.661338148e-16\nresults/model/sptrsv/nonunit-scaled-h100/factors/swang2-L.mtx,default-host,cusparse,3169,31403,-1,3519.901,269.726995,6.661338148e-16\n",
+  "stderr": ""
+}

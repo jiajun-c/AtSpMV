@@ -1,0 +1,15 @@
+{
+  "dataset": "lpi_reactor",
+  "matrix_sha256": "b85da533bb048a182d2dd585ab0f68bfd2b30a0fcfb15ec99a9a59c10b5fdad7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.055,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

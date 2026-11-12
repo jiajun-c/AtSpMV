@@ -1,0 +1,221 @@
+{
+  "source_sha256": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+  "checks": [
+    {
+      "n": 1,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 1,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 1,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 1,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 7,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 7,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 7,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 7,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 63,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 63,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 63,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 63,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 64,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 64,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 64,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 64,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 65,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 65,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 65,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 65,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 137,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 137,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 137,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 137,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 511,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 511,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 511,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 511,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 513,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 513,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 513,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 513,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    },
+    {
+      "n": 4097,
+      "iterations": 0,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=0\n"
+    },
+    {
+      "n": 4097,
+      "iterations": 1,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=1\n"
+    },
+    {
+      "n": 4097,
+      "iterations": 2,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=2\n"
+    },
+    {
+      "n": 4097,
+      "iterations": 7,
+      "exit_code": 0,
+      "output": "PASS: 12 direct and graph candidates, iterations=7\n"
+    }
+  ]
+}

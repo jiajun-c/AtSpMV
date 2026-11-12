@@ -1,0 +1,10 @@
+{
+  "matrix": "bloweybq",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/bloweybq-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 10001,
+  "nnz": 30003,
+  "min_abs_diagonal": 6.00265058732119e-12,
+  "max_abs_diagonal": 4999.500049990636,
+  "elapsed_s": 0.02517516491934657
+}

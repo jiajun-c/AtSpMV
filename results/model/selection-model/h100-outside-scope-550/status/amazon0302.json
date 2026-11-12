@@ -1,0 +1,17 @@
+{
+  "dataset": "amazon0302",
+  "matrix_sha256": "7e96bc8bfddc34ff15de98d35101f7902b1624cc7556012ab15e79050513f2e5",
+  "index_nnz": 1234877,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 67.111,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

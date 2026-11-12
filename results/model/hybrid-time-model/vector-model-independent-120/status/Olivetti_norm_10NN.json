@@ -1,0 +1,17 @@
+{
+  "dataset": "Olivetti_norm_10NN",
+  "matrix_sha256": "2369f771df3316389353f681360f3a44d73460f7cb7b95448d1a7f4d06075e97",
+  "index_nnz": 5656,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.986,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "sts4098",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sts4098/sts4098.mtx",
+  "matrix_sha256": "a697ce8282771cb53e0b89537d87b39a7a4889fba101dd987e2636377227dda6",
+  "index_nnz": 72356,
+  "index_rows": 4098,
+  "elapsed_s": 0.583,
+  "returncode": 0,
+  "status": "ok"
+}

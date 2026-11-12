@@ -1,0 +1,10 @@
+{
+  "matrix": "rajat06",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/rajat06-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 10922,
+  "nnz": 25736,
+  "min_abs_diagonal": 1.0,
+  "max_abs_diagonal": 1.0,
+  "elapsed_s": 0.03316587512381375
+}

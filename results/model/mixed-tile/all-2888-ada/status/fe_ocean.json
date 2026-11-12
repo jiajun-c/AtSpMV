@@ -1,0 +1,15 @@
+{
+  "dataset": "fe_ocean",
+  "matrix_sha256": "02b7f5fc5b612ffc3f8e7a87a7573cb72b2c5ccce6ab9e4ec4c9e2cd99112902",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.993,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

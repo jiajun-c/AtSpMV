@@ -1,0 +1,15 @@
+{
+  "dataset": "minsurfo",
+  "matrix_sha256": "96d88cf42609c306c59a4d2e520e5029d27dc2263422705c0b8a3160ba782371",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.69,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "cuda_visible_devices": "3",
+  "executable": "/tmp/atspmv-dsm-pr-no-csr-cache/dsm_pagerank_bench_no_csr_cache",
+  "executable_sha256": "d1a8befbd07bf253e56324191d42c397987a484f8e834f3ea0e853e4cb996e33",
+  "sources": {
+    "src/dsmPageRank.cu": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+    "bench/dsm_pagerank_bench.cu": "d12f4f9176c3597b1ee6895782f4e8329fc8c82de0d04fd24d6732f3ecc3b70a"
+  },
+  "inputs": {
+    "/staff/chengjiajun/workspace/database/suitsparse/netscience/netscience.mtx": "ea8aceaaaa5840d82f2c98df348bf95f081daea6263beba54fccc8c2fc28da1d",
+    "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx": "715cf95785e2ec7742221a60c9330f413a2d319cd9dd0bb34500b30206121588",
+    "/staff/chengjiajun/workspace/database/suitsparse/CSphd/CSphd.mtx": "08ede5ac6f5aafac9bc03be7b903c5151e40b8b62dad49e96e5af8b0561e7e25",
+    "/staff/chengjiajun/workspace/database/suitsparse/orsirr_2/orsirr_2.mtx": "a568a5938eaa3371a0b7d1214261f7c891fc42100b59d4643b0eb5d09230f11a",
+    "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core/email-Eu-core.mtx": "6b21fadb0e1222c1564e562af7d35e350d497b0ceb0b86d2044b70fda84eafff",
+    "/staff/chengjiajun/workspace/database/suitsparse/ca-GrQc/ca-GrQc.mtx": "02ccbab96413c682059b5db1bfd21b9c139c666a7c79ef0e1592810ef7ca9eae"
+  },
+  "iterations": [
+    100
+  ],
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "timing": "CUDA events around one graph containing the complete solve; initial copy/staging and final store included; setup excluded; 3 warmup and 15 randomized interleaved measurement batches",
+  "gpu_state_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB], driver_version\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB, 580.178.04\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB, 580.178.04\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB, 580.178.04\n",
+  "variant": {
+    "ablation": "Disable CSR register caching for both DSM and global; X storage unchanged",
+    "original_source_sha256": "826aa4514a36da04c6b1021833c87b833edbcc26b2077ff158ff6b898d2ff35e",
+    "modified_source_sha256": "592784b4984dfdf05b870305759e8936f3f1ed5b9322e17e65a1f784fb21bf08",
+    "executable_sha256": "d1a8befbd07bf253e56324191d42c397987a484f8e834f3ea0e853e4cb996e33",
+    "compile": [
+      "/usr/local/cuda-12.4/bin/nvcc",
+      "-ccbin=/usr/bin/g++-11",
+      "-DFMM_FROM_CHARS_DOUBLE_SUPPORTED",
+      "-DFMM_FROM_CHARS_INT_SUPPORTED",
+      "-DFMM_FROM_CHARS_LONG_DOUBLE_SUPPORTED",
+      "-DFMM_TO_CHARS_DOUBLE_SUPPORTED",
+      "-DFMM_TO_CHARS_INT_SUPPORTED",
+      "-DFMM_TO_CHARS_LONG_DOUBLE_SUPPORTED",
+      "-DFMM_USE_DRAGONBOX",
+      "-DFMM_USE_FAST_FLOAT",
+      "-DFMM_USE_RYU",
+      "-I/staff/chengjiajun/workspace/AtSpmv/include",
+      "-I/tmp/atspmv-cleanup-build/_deps/fast_matrix_market-src/include",
+      "-I/tmp/atspmv-cleanup-build/_deps/fast_matrix_market-src/dependencies/fast_float/include",
+      "-I/tmp/atspmv-cleanup-build/_deps/fast_matrix_market-src/dependencies/ryu",
+      "-isystem=/usr/local/cuda-12.4/include",
+      "-isystem=/tmp/atspmv-cleanup-build/_deps/fast_matrix_market-src/dependencies/dragonbox/include",
+      "-O3",
+      "-DNDEBUG",
+      "--generate-code=arch=compute_90,code=[compute_90,sm_90]",
+      "--extended-lambda",
+      "-Xcompiler=-fopenmp",
+      "-c",
+      "/tmp/atspmv-dsm-pr-no-csr-cache/dsmPageRank-no-csr-cache.cu",
+      "-o",
+      "/tmp/atspmv-dsm-pr-no-csr-cache/dsmPageRank-no-csr-cache.o"
+    ],
+    "link": [
+      "/usr/bin/g++-11",
+      "-O3",
+      "-DNDEBUG",
+      "CMakeFiles/dsm_pagerank_bench.dir/bench/dsm_pagerank_bench.cu.o",
+      "-o",
+      "/tmp/atspmv-dsm-pr-no-csr-cache/dsm_pagerank_bench_no_csr_cache",
+      "-L/usr/local/cuda-12.4/targets/x86_64-linux/lib/stubs",
+      "-L/usr/local/cuda-12.4/targets/x86_64-linux/lib",
+      "-Wl,-rpath,/usr/local/cuda-12.4/lib64",
+      "/tmp/atspmv-dsm-pr-no-csr-cache/dsmPageRank-no-csr-cache.o",
+      "libatspmv.a",
+      "/usr/local/cuda-12.4/lib64/libcudart.so",
+      "/usr/local/cuda-12.4/lib64/libcusparse.so",
+      "/usr/local/cuda-12.4/lib64/libcublas.so",
+      "/usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so",
+      "/usr/lib/x86_64-linux-gnu/libpthread.a",
+      "_deps/fast_matrix_market-build/dependencies/dragonbox/libdragonbox_to_chars.a",
+      "_deps/fast_matrix_market-build/dependencies/ryu/libryu.a",
+      "-lcudadevrt",
+      "-lcudart_static",
+      "-lrt",
+      "-lpthread",
+      "-ldl"
+    ],
+    "working_directory": "/tmp/atspmv-dsm-sm90-build"
+  }
+}

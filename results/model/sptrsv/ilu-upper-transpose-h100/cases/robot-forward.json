@@ -1,0 +1,7 @@
+{
+  "name": "robot",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/robot-L.mtx,default,cusparse,120,546,-1,2151.693,40.94719696,1.205726186e-09\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/robot-L.mtx,default-host,cusparse,120,546,-1,2151.693,48.73519,1.205726186e-09\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/robot-L.mtx,model,cached,120,546,32,1275.604,25.38880157,2.585514025e-10\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/robot-L.mtx,model-host,cached,120,546,32,1275.604,32.29974,2.585514025e-10\n",
+  "stderr": ""
+}

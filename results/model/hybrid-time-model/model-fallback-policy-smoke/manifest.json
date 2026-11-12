@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "nemeth24",
+    "rows": "9506",
+    "columns": "9506",
+    "nnz": "1506550",
+    "longest_row": "3527",
+    "longest_row_nnz": "193",
+    "ratio": "0.000128107264943",
+    "status": "ok"
+  },
+  {
+    "dataset": "685_bus",
+    "rows": "685",
+    "columns": "685",
+    "nnz": "3249",
+    "longest_row": "317",
+    "longest_row_nnz": "13",
+    "ratio": "0.00400123114805",
+    "status": "ok"
+  },
+  {
+    "dataset": "rajat24",
+    "rows": "358172",
+    "columns": "358172",
+    "nnz": "1948235",
+    "longest_row": "145857",
+    "longest_row_nnz": "105296",
+    "ratio": "0.0540468680626",
+    "status": "ok"
+  },
+  {
+    "dataset": "opt1",
+    "rows": "15449",
+    "columns": "15449",
+    "nnz": "1930655",
+    "longest_row": "2077",
+    "longest_row_nnz": "243",
+    "ratio": "0.000125864020242",
+    "status": "ok"
+  }
+]

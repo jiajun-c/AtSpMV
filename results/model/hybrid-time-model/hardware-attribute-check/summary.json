@@ -1,0 +1,43 @@
+{
+  "method": "CUDA 12.4 runtime: compare cudaDeviceProp fields with cudaDeviceGetAttribute for the same device; no GPU kernels launched.",
+  "units": [
+    "clock_khz",
+    "memory_clock_khz",
+    "memory_bus_bits",
+    "fp32_to_fp64_ratio"
+  ],
+  "observations": [
+    {
+      "gpu": "NVIDIA RTX 5880 Ada Generation",
+      "uuid": "GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c",
+      "properties": [
+        2460000,
+        10001000,
+        384,
+        64
+      ],
+      "attributes": [
+        2460000,
+        10001000,
+        384,
+        64
+      ]
+    },
+    {
+      "gpu": "NVIDIA H100 PCIe",
+      "uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+      "properties": [
+        1755000,
+        1593000,
+        5120,
+        2
+      ],
+      "attributes": [
+        1755000,
+        1593000,
+        5120,
+        2
+      ]
+    }
+  ]
+}

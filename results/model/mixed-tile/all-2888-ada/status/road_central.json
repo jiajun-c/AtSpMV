@@ -1,0 +1,15 @@
+{
+  "dataset": "road_central",
+  "matrix_sha256": "43fd76019778455edb42184fbac8142e1b540a3d51885f76f87c54157b38e22b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 101.581,
+  "gpu_after": {
+    "utilization_percent": 98,
+    "free_memory_mib": 48508
+  }
+}

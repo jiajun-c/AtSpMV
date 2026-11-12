@@ -1,0 +1,17 @@
+{
+  "dataset": "cit-HepPh",
+  "matrix_sha256": "ebc54ff9907b2b0970fc6456a2afc09c03ec03a7fa492b607aa4536a968e6438",
+  "index_nnz": 421578,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.284,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "tols1090",
+  "matrix_sha256": "5d3473bfcf750d74ba4e3a830a24175240f1983cd1a3fe542b3df8367a3509cc",
+  "index_nnz": 3546,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.924,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

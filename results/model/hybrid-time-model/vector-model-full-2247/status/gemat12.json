@@ -1,0 +1,17 @@
+{
+  "dataset": "gemat12",
+  "matrix_sha256": "49eb475fbf292d1e2a5773b8c32437d077518f2d23d14b1f0492e2fc3fc7c2a9",
+  "index_nnz": 33111,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.155,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

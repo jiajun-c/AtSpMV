@@ -1,0 +1,10 @@
+{
+  "dataset": "nasa1824",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nasa1824/nasa1824.mtx",
+  "matrix_sha256": "2b8928785b16908c7abee4927861fe604eeea6810efa772431ba6336806126ac",
+  "index_nnz": 39208,
+  "index_rows": 1824,
+  "elapsed_s": 1.242,
+  "returncode": 0,
+  "status": "ok"
+}

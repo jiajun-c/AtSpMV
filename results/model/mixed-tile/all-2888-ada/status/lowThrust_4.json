@@ -1,0 +1,15 @@
+{
+  "dataset": "lowThrust_4",
+  "matrix_sha256": "308e03923b1fa039782fa15a2602d6aa6f999fed8a8cba00b23d1f9106764681",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.208,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

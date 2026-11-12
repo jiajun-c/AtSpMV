@@ -1,0 +1,19 @@
+{
+  "dataset": "ramage02",
+  "matrix_sha256": "49c9c8931cb834cb51a1e2d47b46caab6088d74d10f8355b7820bf725977960a",
+  "index_nnz": 2866352,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.303,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

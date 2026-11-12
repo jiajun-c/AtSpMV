@@ -1,0 +1,19 @@
+{
+  "dataset": "benzene",
+  "matrix_sha256": "896fab3f162c082029682db9f3e5e21e48ebdb2c71ae7616997393f0d6c5d12b",
+  "index_nnz": 242669,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.829,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

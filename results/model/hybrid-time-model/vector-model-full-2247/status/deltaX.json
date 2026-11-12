@@ -1,0 +1,17 @@
+{
+  "dataset": "deltaX",
+  "matrix_sha256": "751c21c4cc5b95ac6b8c3d7a19e3e80f140d3f2ea2b162dc199c28ea5edd161c",
+  "index_nnz": 247424,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.631,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "t3dl",
+  "matrix_sha256": "de46839ad3420d8ec57b7964cee186dd50a33708c0ecad907ececa3e848592ed",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.911,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

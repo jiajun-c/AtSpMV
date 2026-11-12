@@ -1,0 +1,10 @@
+{
+  "dataset": "gre_216b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gre_216b/gre_216b.mtx",
+  "matrix_sha256": "9b8cbb1ea3eb37bd2a633040b27714358d880cd1e13b11f358be0432f156bae8",
+  "index_nnz": 876,
+  "index_rows": 216,
+  "elapsed_s": 0.57,
+  "returncode": 0,
+  "status": "ok"
+}

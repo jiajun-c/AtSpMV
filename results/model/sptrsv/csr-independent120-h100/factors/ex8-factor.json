@@ -1,0 +1,14 @@
+{
+  "matrix": "ex8",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ex8/ex8.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3096,
+  "columns": 3096,
+  "original_nnz": 106344,
+  "factor_L_nnz": 247780,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.2134497829247266
+}

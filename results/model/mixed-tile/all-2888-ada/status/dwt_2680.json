@@ -1,0 +1,15 @@
+{
+  "dataset": "dwt_2680",
+  "matrix_sha256": "69f704979c07b0062eaa604c2c36f9c9e1d54d284ceb3b5810266210a743e977",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.916,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

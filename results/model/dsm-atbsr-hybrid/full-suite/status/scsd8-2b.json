@@ -1,0 +1,10 @@
+{
+  "dataset": "scsd8-2b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/scsd8-2b/scsd8-2b.mtx",
+  "matrix_sha256": "1a64631e1daff443f309ec6d982d84a1ce76405f62ce1479e03b03a58adec068",
+  "index_nnz": 112770,
+  "index_rows": 5130,
+  "elapsed_s": 1.214,
+  "returncode": 0,
+  "status": "ok"
+}

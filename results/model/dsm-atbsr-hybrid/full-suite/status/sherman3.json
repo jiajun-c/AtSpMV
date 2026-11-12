@@ -1,0 +1,10 @@
+{
+  "dataset": "sherman3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sherman3/sherman3.mtx",
+  "matrix_sha256": "57d12deb23a2e4307650c5794ec92878433ce0ad433fda85e8b33c4acb3a57fa",
+  "index_nnz": 20033,
+  "index_rows": 5005,
+  "elapsed_s": 0.682,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,7 @@
+{
+  "matrix": "blckhole",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/blckhole-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.0679941624403e-06
+}

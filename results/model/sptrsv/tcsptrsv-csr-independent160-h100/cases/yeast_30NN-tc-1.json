@@ -1,0 +1,9 @@
+{
+  "name": "yeast_30NN",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/yeast_30NN-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1488, 1488 ) nnz = 154921\nloadfile time    = 0.05430 sec\nnnzL = 154921\ntime_for_csc2CompressTile = 3.29 ms\ntime_cuda_solve = 0.807400 ms, Mflops = 383.75\nVALIDATION finite=1 max_error=3.3613112293551239e-11 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

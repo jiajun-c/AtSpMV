@@ -1,0 +1,7 @@
+{
+  "name": "G19",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,default,cusparse,800,21698,-1,4205.922,282.764801,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,default-host,cusparse,800,21698,-1,4205.922,289.33149,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,model,cusparse,800,21698,238,4341.106,282.764801,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,model-host,cusparse,800,21698,238,4341.106,289.133895,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\n",
+  "stderr": ""
+}

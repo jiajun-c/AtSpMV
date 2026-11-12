@@ -1,0 +1,10 @@
+{
+  "dataset": "astro-ph",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/astro-ph/astro-ph.mtx",
+  "matrix_sha256": "2c8071aaa52fe0cf285f06fa454981b8629e0d7165f984c32242f9671af37f6f",
+  "index_nnz": 242502,
+  "index_rows": 16706,
+  "elapsed_s": 1.269,
+  "returncode": 0,
+  "status": "ok"
+}

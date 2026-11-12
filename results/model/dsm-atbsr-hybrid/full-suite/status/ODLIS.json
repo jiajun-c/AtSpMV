@@ -1,0 +1,10 @@
+{
+  "dataset": "ODLIS",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ODLIS/ODLIS.mtx",
+  "matrix_sha256": "a562ae721fd8d6aad42343873a81281cb72afa26043c2a44de02a73204d21b1f",
+  "index_nnz": 18246,
+  "index_rows": 2909,
+  "elapsed_s": 1.298,
+  "returncode": 0,
+  "status": "ok"
+}

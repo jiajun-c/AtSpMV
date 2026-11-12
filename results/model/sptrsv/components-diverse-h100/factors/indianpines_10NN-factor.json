@@ -1,0 +1,13 @@
+{
+  "matrix": "indianpines_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/indianpines_10NN/indianpines_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 9144,
+  "columns": 9144,
+  "original_nnz": 124656,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.4432127461768687
+}

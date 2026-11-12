@@ -1,0 +1,17 @@
+selected=mixed_tile, measured=1, setup_us=40911.501, dsm_available=1, vector_width=0, mixed_tile_cap=0, correct=1
+backend,tile_index,balanced,parts,threads,rows_per_group,threshold,median_us,vector_width,mixed_tile_cap
+atbsr,5,1,8,128,1,1024,4.5119999,0,0
+cusparse,-1,-1,8,128,1,1024,4.84000007,0,0
+csr_vector,-1,-1,8,128,1,1024,10.0480001,1,0
+csr_vector,-1,-1,8,128,1,1024,6.90399995,2,0
+csr_vector,-1,-1,8,128,1,1024,4.95600002,4,0
+csr_vector,-1,-1,8,128,1,1024,4.02799994,8,0
+csr_vector,-1,-1,8,128,1,1024,4.1720001,16,0
+csr_vector,-1,-1,8,128,1,1024,6.36400003,32,0
+csr_two_stage,-1,-1,8,256,1,1024,6.87200017,0,0
+csr_dsm,-1,-1,8,256,1,1024,7.52800005,0,0
+mixed_tile,-1,-1,8,128,1,1024,3.42800003,0,-1
+mixed_tile,-1,-1,8,128,1,1024,3.364,0,0
+mixed_tile,-1,-1,8,128,1,1024,4.72800015,0,4
+mixed_tile,-1,-1,8,128,1,1024,4.63199988,0,8
+mixed_tile,-1,-1,8,128,1,1024,4.67600022,0,16

@@ -1,0 +1,19 @@
+{
+  "dataset": "scrs8-2b",
+  "matrix_sha256": "a5fb5e20c1dd49de8f2b2a9b2bd78d5725cbe712a268209489bf465b4d8d24aa",
+  "index_nnz": 7367,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.706,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  }
+}

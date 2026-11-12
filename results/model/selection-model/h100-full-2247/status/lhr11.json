@@ -1,0 +1,17 @@
+{
+  "dataset": "lhr11",
+  "matrix_sha256": "4a3882c42a709bd9f53c7277f42c21af89505aef1014182e87e804808ad45610",
+  "index_nnz": 233741,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.334,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

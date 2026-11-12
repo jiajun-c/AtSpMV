@@ -1,0 +1,17 @@
+{
+  "dataset": "GT01R",
+  "matrix_sha256": "12b54c2d63fdf8abc0a6de5375854eb4e455a662ab1df74076e9fd9eaf86a67d",
+  "index_nnz": 430909,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.442,
+  "gpu_after": {
+    "utilization_percent": 50,
+    "free_memory_mib": 81079
+  }
+}

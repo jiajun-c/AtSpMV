@@ -1,0 +1,10 @@
+{
+  "dataset": "Reuters911",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Reuters911/Reuters911.mtx",
+  "matrix_sha256": "d5dd8facd63ca987fe2837c644c0b15fd57f0da438b3314ab4f38820369da384",
+  "index_nnz": 296076,
+  "index_rows": 13332,
+  "elapsed_s": 1.209,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "msc23052",
+  "matrix_sha256": "418fe7258ab5acc250f48f18a441fab3a72f9b53eda07c966b8debfa84a46f97",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.168,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ck656",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/ck656-L.mtx --------------\nsuccess open file\ninput matrix A: ( 656, 656 ) nnz = 2032\nloadfile time    = 0.00092 sec\nnnzL = 2032\ntime_for_csc2CompressTile = 1.88 ms\ntime_cuda_solve = 0.403780 ms, Mflops = 10.06\nVALIDATION finite=1 max_error=1.3322676295501878e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

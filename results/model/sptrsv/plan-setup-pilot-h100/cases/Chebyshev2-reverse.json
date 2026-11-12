@@ -1,0 +1,7 @@
+{
+  "name": "Chebyshev2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/Chebyshev2-L.mtx,default,cusparse,6219.7995,6139.409,6755.95,9.733,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/Chebyshev2-L.mtx,model,cached-csr,1023.7985,934.712,2088.696,9.066,12\n",
+  "stderr": ""
+}

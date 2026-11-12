@@ -1,0 +1,17 @@
+{
+  "dataset": "com-Orkut",
+  "file_bytes": 1769778101,
+  "file_mtime_ns": 1531430254000000000,
+  "structure": {
+    "dataset": "com-Orkut",
+    "rows": "3072441",
+    "columns": "3072441",
+    "nnz": "234370166",
+    "longest_row": "43608",
+    "longest_row_nnz": "33313",
+    "ratio": "0.000142138398281",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 13.98
+}

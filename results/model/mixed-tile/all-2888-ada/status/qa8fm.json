@@ -1,0 +1,15 @@
+{
+  "dataset": "qa8fm",
+  "matrix_sha256": "5a04ec09978644b70dc435c175b7cee61e408718af20240fac5ceca71a63ccde",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.068,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

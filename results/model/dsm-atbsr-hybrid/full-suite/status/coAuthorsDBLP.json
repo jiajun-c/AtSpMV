@@ -1,0 +1,10 @@
+{
+  "dataset": "coAuthorsDBLP",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/coAuthorsDBLP/coAuthorsDBLP.mtx",
+  "matrix_sha256": "fcbad8e2239d8f59c7806b577d9f4dca478b625d336a1cd389957044b8241442",
+  "index_nnz": 1955352,
+  "index_rows": 299067,
+  "elapsed_s": 3.498,
+  "returncode": 0,
+  "status": "ok"
+}

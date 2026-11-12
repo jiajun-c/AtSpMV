@@ -1,0 +1,63 @@
+{
+  "experiment": "Full x sharded across cluster shared memory, FP64 SpMV",
+  "scope": "Correctness only, explicitly no performance measurements",
+  "hardware": "NVIDIA H100 PCIe, physical device 2; concurrent workload present",
+  "compiler": "CUDA 12.4.131, g++ 11.4, Release; DSM library and test target SM90",
+  "default_enabled": false,
+  "storage_modes": [
+    "cluster global-memory control",
+    "local shared memory (cluster=1)",
+    "distributed shared memory (cluster=2/4/8)"
+  ],
+  "full_suite": {
+    "direct_checks": 704,
+    "graph_checks": 176,
+    "status": "passed"
+  },
+  "sanitizers": {
+    "memcheck": {
+      "direct_checks": 144,
+      "graph_checks": 36,
+      "errors": 0
+    },
+    "racecheck": {
+      "direct_checks": 144,
+      "graph_checks": 36,
+      "hazards": 0,
+      "errors": 0,
+      "warnings": 0
+    },
+    "synccheck": {
+      "direct_checks": 144,
+      "graph_checks": 36,
+      "errors": 0
+    }
+  },
+  "coverage": [
+    "all six tile shapes",
+    "normal and balanced modes",
+    "int16 and int32 indices",
+    "cluster sizes 1/2/4/8 where full x fits",
+    "x changes between launches",
+    "repeated overwrite calls with poisoned output",
+    "nondefault stream and CUDA Graph",
+    "empty rows and zero-row matrices",
+    "partial CTA and cluster tasks",
+    "grid-stride work with at most two clusters",
+    "cap4/warps2 and cap32/warps8",
+    "200003-double x (1600024 bytes), eight-CTA DSM",
+    "reject oversized x and invalid cluster size"
+  ],
+  "unsupported_hardware": "RTX 5880 Ada CTest correctly skips with exit code 77",
+  "performance": "Deferred until an idle H100 is available; no speedup claim",
+  "source_sha256": {
+    "include/dsmSpmv.h": "f527c9edb81bb197a5ecde399229c97073f0f6c1605809748f7f83e2fd5f88cc",
+    "src/dsmSpmv.cu": "d428160f97120558cf7be0f831faa1dc6d15a527105b8e7fbec866bbddf64faf",
+    "tests/dsm_spmv_test.cu": "bcc926cf6ed75b24af432591d65847fb01ee188c293703bf72c1da0e50921683"
+  },
+  "notes": [
+    "Each cluster stages a complete x copy on every kernel launch.",
+    "The packed matrix must outlive the plan and remain unchanged.",
+    "Sanitizer checks covered the same device kernels before a final host-only integer-overflow guard change."
+  ]
+}

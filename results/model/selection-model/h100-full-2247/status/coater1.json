@@ -1,0 +1,17 @@
+{
+  "dataset": "coater1",
+  "matrix_sha256": "864363ab0b51ebf10905ec8a6c65b91ab344d38812ae4cfc511ad177780be8b0",
+  "index_nnz": 19457,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.495,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

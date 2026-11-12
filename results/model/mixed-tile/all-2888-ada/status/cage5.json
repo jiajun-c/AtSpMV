@@ -1,0 +1,15 @@
+{
+  "dataset": "cage5",
+  "matrix_sha256": "4cd8072c262765e85907e6078ef777656ae73e5155167432c7d810b30ae657c6",
+  "gpu_before": {
+    "utilization_percent": 11,
+    "free_memory_mib": 48505
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.661,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48505
+  }
+}

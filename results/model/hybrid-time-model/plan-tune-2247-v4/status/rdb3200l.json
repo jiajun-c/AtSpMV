@@ -1,0 +1,19 @@
+{
+  "dataset": "rdb3200l",
+  "matrix_sha256": "51ff59aad94279cb2354e1eb4392d55bcfc4810eaa70b495aba9a17b789d11b2",
+  "index_nnz": 18880,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.367,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "G19",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,model,cusparse,800,21698,238,4401.504,283.776001,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,model-host,cusparse,800,21698,238,4401.504,292.281785,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,default,cusparse,800,21698,-1,4506.042,283.7695923,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\nresults/model/sptrsv/components-independent-h100/factors/G19-L.mtx,default-host,cusparse,800,21698,-1,4506.042,291.567095,6.794564911e-14,3.086966231e-17,1.099177125e-16,0\n",
+  "stderr": ""
+}

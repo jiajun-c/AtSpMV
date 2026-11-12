@@ -1,0 +1,10 @@
+{
+  "dataset": "stormG2_1000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stormG2_1000/stormG2_1000.mtx",
+  "matrix_sha256": "f94079f5def44afb32eb15d6acb0ff035b87ffa6b032f189cf6ee9f915f76c2d",
+  "index_nnz": 3459881,
+  "index_rows": 528185,
+  "elapsed_s": 2.426,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "kron_g500-logn16",
+  "matrix_sha256": "269b84f18b7c5f93db7e0f547f996ec3fa6b8e86b563932a06e6f02c92c4171e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.452,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

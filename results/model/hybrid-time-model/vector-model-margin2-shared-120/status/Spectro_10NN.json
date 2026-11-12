@@ -1,0 +1,17 @@
+{
+  "dataset": "Spectro_10NN",
+  "matrix_sha256": "e66d4b93d0197b77e52b932f44a8b8a20e64890277840c26ab2074960321fb30",
+  "index_nnz": 7422,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.606,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

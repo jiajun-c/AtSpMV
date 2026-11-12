@@ -1,0 +1,17 @@
+{
+  "dataset": "beacxc",
+  "matrix_sha256": "858663b464e4944c2922993f7940093b0398092f1558c5e92d313f89c7db9c45",
+  "index_nnz": 50409,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 97.594,
+  "gpu_after": {
+    "utilization_percent": 33,
+    "free_memory_mib": 81076
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "shermanACa",
+  "matrix_sha256": "b2acbd2c12b0146371cb7bcc9dbe5b855623d32d459bfedd32c872b6b59e7f86",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.115,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

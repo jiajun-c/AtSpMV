@@ -1,0 +1,42 @@
+fs_760_3 forward 0
+fs_760_3 reverse 0
+Chebyshev2 forward 0
+Chebyshev2 reverse 0
+nos1 forward 0
+nos1 reverse 0
+cage forward 0
+cage reverse 0
+gre_185 forward 0
+gre_185 reverse 0
+ck104 forward 0
+ck104 reverse 0
+pivtol forward 0
+pivtol reverse 0
+Ecoli_10NN forward 0
+Ecoli_10NN reverse 0
+tumorAntiAngiogenesis_3 forward 0
+tumorAntiAngiogenesis_3 reverse 0
+lund_a forward 0
+lund_a reverse 0
+epb0 forward 0
+epb0 reverse 0
+nos2 forward 0
+nos2 reverse 0
+cavity01 forward 0
+cavity01 reverse 0
+dermatology_5NN forward 0
+dermatology_5NN reverse 0
+Trefethen_150 forward 0
+Trefethen_150 reverse 0
+lshp_265 forward 0
+lshp_265 reverse 0
+{
+  "status_counts": {
+    "ok": 16
+  },
+  "valid_pairs": 16,
+  "geomean_baseline_over_csr": 1.4024807532578383,
+  "wins_gt_5pct": 16,
+  "losses_gt_5pct": 0
+}
+runner_exit=0

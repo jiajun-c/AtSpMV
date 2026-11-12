@@ -1,0 +1,17 @@
+{
+  "dataset": "bfly",
+  "matrix_sha256": "886aa8573a09675723849105ac5d5335aeb64a064f5693972ebdae90d3db3286",
+  "index_nnz": 196608,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.514,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

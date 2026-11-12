@@ -1,0 +1,23 @@
+{
+  "total": 2888,
+  "scope_counts": {
+    "within_calibration_scope": 2248,
+    "unsupported_complex": 49,
+    "unknown_structure": 30,
+    "outside_calibration_scope": 561
+  },
+  "sweep_coverage": {
+    "within_calibration_scope/included": 2247,
+    "unsupported_complex/not_included": 49,
+    "within_calibration_scope/not_included": 1,
+    "unknown_structure/not_included": 30,
+    "outside_calibration_scope/not_included": 561
+  },
+  "inputs": {
+    "results/model/mixed-tile/all-2888-ada/index.csv": "78ff9a18c8e3e44c74bcf8a03708eb1cbdbbcde29d0d13c3d077c57356e39949",
+    "results/model/selection-model/unknown-scope-audit/features-augmented.csv": "e6c5160938c7cf45d534183d5bed87cdcd9bcfd9af05baceec4ee0c1d26bcc88",
+    "results/model/selection-model/h100-full-2247/index.csv": "7797379a962fe9c19c1159e2591c9119ba6d329ee3bd032cf37ef05a88e26c5d",
+    "results/model/selection-model/unknown-scope-audit/alternate-structure.csv": "7500babc476daf4c9e6f1788e7b77817e1e5d29acad8e322187bc337e37a0f65"
+  },
+  "note": "Scope uses exact structural statistics when available; unknown is not assumed to be in scope. Hardware and kernel configuration must also match the model."
+}

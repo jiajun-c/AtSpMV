@@ -1,0 +1,10 @@
+{
+  "matrix": "dw256A",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/dw256A-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 512,
+  "nnz": 5589,
+  "min_abs_diagonal": 0.009382462008858714,
+  "max_abs_diagonal": 2.8169358901818797,
+  "elapsed_s": 0.01238687103614211
+}

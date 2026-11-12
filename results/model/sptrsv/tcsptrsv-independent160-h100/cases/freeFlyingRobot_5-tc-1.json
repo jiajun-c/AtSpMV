@@ -1,0 +1,9 @@
+{
+  "name": "freeFlyingRobot_5",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/freeFlyingRobot_5-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2880, 2880 ) nnz = 41878\nloadfile time    = 0.01954 sec\nnnzL = 41878\ntime_for_csc2CompressTile = 2.07 ms\ntime_cuda_solve = 0.381590 ms, Mflops = 219.49\nVALIDATION finite=1 max_error=6.4837024638109142e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

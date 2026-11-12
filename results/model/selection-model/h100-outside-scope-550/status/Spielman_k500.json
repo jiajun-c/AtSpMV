@@ -1,0 +1,17 @@
+{
+  "dataset": "Spielman_k500",
+  "matrix_sha256": "c5d332b313e4a0c2644c08076838a24fcf56f06efe122997650a0395eecc4b97",
+  "index_nnz": 125627004,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 45.085,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

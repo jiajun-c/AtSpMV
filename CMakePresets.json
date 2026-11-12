@@ -1,0 +1,52 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {"major": 3, "minor": 22, "patch": 0},
+  "configurePresets": [
+    {
+      "name": "core",
+      "displayName": "SpMV library only",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+        "ATSPMV_BUILD_BENCHMARKS": false,
+        "ATSPMV_BUILD_APPS": false,
+        "ATSPMV_BUILD_MFEM_APPS": false,
+        "ATSPMV_BUILD_DSM_EXPERIMENT": false,
+        "BUILD_TESTING": false
+      }
+    },
+    {
+      "name": "benchmarks",
+      "displayName": "SpMV benchmarks and correctness checks",
+      "inherits": "core",
+      "cacheVariables": {
+        "ATSPMV_BUILD_BENCHMARKS": true,
+        "BUILD_TESTING": true
+      }
+    },
+    {
+      "name": "hopper",
+      "displayName": "Hopper SpMV and DSM experiments",
+      "inherits": "benchmarks",
+      "cacheVariables": {
+        "CMAKE_CUDA_ARCHITECTURES": "90",
+        "ATSPMV_BUILD_DSM_EXPERIMENT": true
+      }
+    }
+  ],
+  "buildPresets": [
+    {"name": "core", "configurePreset": "core", "targets": ["atspmv_plan"]},
+    {
+      "name": "benchmarks",
+      "configurePreset": "benchmarks",
+      "targets": ["spmv_plan_bench", "spmv_hybrid_validation", "spmv_plan_test", "spmv_value_update_test", "tile_model_test"]
+    },
+    {
+      "name": "hopper",
+      "configurePreset": "hopper",
+      "targets": ["spmv_plan_bench", "spmv_hybrid_validation", "spmv_plan_test", "spmv_value_update_test", "dsm_long_row_bench"]
+    }
+  ]
+}

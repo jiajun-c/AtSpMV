@@ -1,0 +1,17 @@
+{
+  "dataset": "Lederberg",
+  "matrix_sha256": "976e52cc2cee3fddb50470f9db6b1fcaf8c96cab75103f361fd408d6422dbe74",
+  "index_nnz": 41601,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.529,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

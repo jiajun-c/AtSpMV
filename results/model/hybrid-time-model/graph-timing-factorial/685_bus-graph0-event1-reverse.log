@@ -1,0 +1,8 @@
+PLAN_PREP,atbsr,12752.084999999999
+PLAN_PREP,auto_vector_model_2pct,2387.9920000000002
+PLAN_PREP,auto_vector_model,2272.6439999999998
+PLAN_PREP,auto_model,2176.7570000000001
+PLAN_ALIAS,auto_vector_model_2pct,shared
+PLAN_ALIAS,auto_vector_model,owner
+PLAN_ALIAS,auto_model,owner
+TIMING_MODE,internal_graph_events

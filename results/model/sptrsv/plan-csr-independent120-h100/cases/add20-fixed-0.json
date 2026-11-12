@@ -1,0 +1,8 @@
+{
+  "name": "add20",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/add20-L.mtx,default,cusparse,2395,13640,-1,3560.713,191.0048065,2.442490654e-15,7.073289437e-17,1.244917941e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/add20-L.mtx,default-host,cusparse,2395,13640,-1,3560.713,198.093495,2.442490654e-15,7.073289437e-17,1.244917941e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/add20-L.mtx,model,cusparse,2395,13640,215,3675.632,190.9631958,2.442490654e-15,7.073289437e-17,1.244917941e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/add20-L.mtx,model-host,cusparse,2395,13640,215,3675.632,197.978375,2.442490654e-15,7.073289437e-17,1.244917941e-16,0\n",
+  "stderr": ""
+}

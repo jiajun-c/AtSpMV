@@ -1,0 +1,17 @@
+{
+  "dataset": "ohne2",
+  "matrix_sha256": "8ba827a5db2c88b60d57ac7d8ee1a47e74609432291fbdee938345cbbce9649d",
+  "index_nnz": 11063545,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 15.15,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

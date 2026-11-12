@@ -1,0 +1,47 @@
+{
+  "scope": "Retrospective initialization timings and oracle regular baseline; no new kernel is measured. The group split is approximate and other models may overlap. Model and 5% gate are exploratory, not blind or production-ready.",
+  "dataset_sha256": "198093249b90f54e3cf8b4c66e57a8df40fb59fd33b3ebeab95d723a4c1f2bd5",
+  "model_sha256": "2c14b7e052be7fe0e8f1692abdf4db3a5dc21db279dff0491b0fed6c736b1709",
+  "training_script_sha256": "ba82ea34479db0e03dd904774b20146962702213b343036204480078a0ea7497",
+  "features_sha256": "7354e6e877aa7701d5d4d07cc0355d9f2d604e9a3ec95e2aa278fb0ab2bb3f29",
+  "splits_sha256": "8d43d907699595061304671e92f8498ae70dc900a0433977bdfac95681de1db6",
+  "sklearn_version": "1.6.0",
+  "skipped": {
+    "no_medium_rows": 1466
+  },
+  "metrics": {
+    "train": {
+      "matrices": 254,
+      "candidate_mape": 0.02967497226535923,
+      "selected_hybrid": 55,
+      "geomean_chosen_over_oracle": 1.0083487252328798,
+      "within_5pct": 240,
+      "over_10pct": 7,
+      "geomean_chosen_vs_regular": 0.9694037821625041,
+      "chosen_faster_5pct": 53,
+      "chosen_slower_5pct": 0
+    },
+    "dev": {
+      "matrices": 72,
+      "candidate_mape": 0.07346427419194404,
+      "selected_hybrid": 11,
+      "geomean_chosen_over_oracle": 1.0074256119252856,
+      "within_5pct": 69,
+      "over_10pct": 2,
+      "geomean_chosen_vs_regular": 0.9860717349355407,
+      "chosen_faster_5pct": 9,
+      "chosen_slower_5pct": 0
+    },
+    "holdout": {
+      "matrices": 38,
+      "candidate_mape": 0.06653959696830127,
+      "selected_hybrid": 9,
+      "geomean_chosen_over_oracle": 1.0174404465558542,
+      "within_5pct": 32,
+      "over_10pct": 2,
+      "geomean_chosen_vs_regular": 0.9715185528644528,
+      "chosen_faster_5pct": 8,
+      "chosen_slower_5pct": 0
+    }
+  }
+}

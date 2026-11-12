@@ -1,0 +1,15 @@
+{
+  "dataset": "n2c6-b4",
+  "matrix_sha256": "e45c56ff1cc3ba179cdb76f1952d40efe78af63c82ee3c1a26bdc80bbad90279",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.264,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

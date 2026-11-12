@@ -1,0 +1,15 @@
+{
+  "dataset": "kleemin",
+  "matrix_sha256": "25eb4c74cfceb4b17788799303492b8ae862ff7cb4332a08c3198293f19cdc87",
+  "gpu_before": {
+    "utilization_percent": 18,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.529,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  }
+}

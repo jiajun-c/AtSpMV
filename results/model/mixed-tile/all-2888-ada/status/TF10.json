@@ -1,0 +1,15 @@
+{
+  "dataset": "TF10",
+  "matrix_sha256": "9aa2d28c18cc690716c3a849bc20adad8b94444347b34c59bf9e30f06172ec11",
+  "gpu_before": {
+    "utilization_percent": 19,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.256,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

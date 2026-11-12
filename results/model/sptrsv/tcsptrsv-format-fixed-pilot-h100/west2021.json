@@ -1,0 +1,6 @@
+{
+  "name": "west2021",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2021, 2021 ) nnz = 5450\nloadfile time    = 0.00236 sec\nnnzL = 5461\ntime_for_csc2CompressTile = 8.32 ms\ntime_cuda_solve = 0.104290 ms, Mflops = 104.73\nVALIDATION finite=1 max_error=1.7763568394002505e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

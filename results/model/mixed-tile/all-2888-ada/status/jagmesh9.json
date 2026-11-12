@@ -1,0 +1,15 @@
+{
+  "dataset": "jagmesh9",
+  "matrix_sha256": "e13139c8531c46c871026ac837db77054d27f5ec4e118ff52ed691aa1f1e8832",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.75,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 48508
+  }
+}

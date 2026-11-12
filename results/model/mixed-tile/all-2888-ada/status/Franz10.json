@@ -1,0 +1,15 @@
+{
+  "dataset": "Franz10",
+  "matrix_sha256": "53f82c5745fa3b6d8624b819ac0159f6be842a225a95dac8ec67f4619089e99a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.998,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "diag",
+  "matrix_sha256": "bc0a44ae8fe6951cda5eca2a2e8b8b4cfba232854ff439be5008ffb9a14ad331",
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": -11,
+  "elapsed_s": 0.729,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

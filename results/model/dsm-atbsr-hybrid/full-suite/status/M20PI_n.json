@@ -1,0 +1,11 @@
+{
+  "dataset": "M20PI_n",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/M20PI_n/M20PI_n.mtx",
+  "matrix_sha256": "8a092370dd214cc813cb322b6e48f318f4a0a5b97c46946b41c2eacac0e145df",
+  "index_nnz": 2881,
+  "index_rows": 1182,
+  "status": "ok",
+  "elapsed_s": 347.5,
+  "returncode": 0,
+  "note": "False timeout: runner was paused after benchmark subprocess exited, for separate profiling; return code and complete output verified."
+}

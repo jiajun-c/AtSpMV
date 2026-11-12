@@ -1,0 +1,19 @@
+{
+  "dataset": "lp_shell",
+  "matrix_sha256": "4377fa375a230b4a92f12a26cfc7fedd3e9303f379cf079757d6853f8afcc5a4",
+  "index_nnz": 3558,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 8161
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.19,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 8161
+  }
+}

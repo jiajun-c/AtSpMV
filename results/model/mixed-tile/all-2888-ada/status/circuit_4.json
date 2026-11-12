@@ -1,0 +1,15 @@
+{
+  "dataset": "circuit_4",
+  "matrix_sha256": "fe96401f10d7924cb83cde22b52ce05ed5dabdba6e87603f6c32634fac67dd1b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.985,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

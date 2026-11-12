@@ -1,0 +1,10 @@
+{
+  "dataset": "wiki-topcats",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-topcats/wiki-topcats.mtx",
+  "matrix_sha256": "94268db6fb9022d8d5df3b86248c3c370e32ba3e3d0839c1092cfc64f7eb49bc",
+  "index_nnz": 28511807,
+  "index_rows": 1791489,
+  "elapsed_s": 14.029,
+  "returncode": 0,
+  "status": "ok"
+}

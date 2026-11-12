@@ -1,0 +1,10 @@
+{
+  "dataset": "mk12-b5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mk12-b5/mk12-b5.mtx",
+  "matrix_sha256": "d233a39542c5423a73eb347b6bc8c42b928ac05faaf32332f825b704ba61400a",
+  "index_nnz": 62370,
+  "index_rows": 10395,
+  "elapsed_s": 0.553,
+  "returncode": 0,
+  "status": "ok"
+}

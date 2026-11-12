@@ -1,0 +1,17 @@
+{
+  "dataset": "circuit5M_dc",
+  "matrix_sha256": "435d665495cdc1e7e6afb8e4d61cab905c479d6b0820d2a7f52d5bfb7b65d42e",
+  "index_nnz": 19194193,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 156.562,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

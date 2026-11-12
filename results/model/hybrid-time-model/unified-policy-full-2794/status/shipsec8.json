@@ -1,0 +1,17 @@
+{
+  "dataset": "shipsec8",
+  "matrix_sha256": "ccdb550482026170d095f29a755583fed377e81b04cec470cb4aa273b7448859",
+  "index_nnz": 6653399,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.124,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

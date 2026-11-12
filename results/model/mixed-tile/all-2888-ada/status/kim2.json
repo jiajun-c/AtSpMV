@@ -1,0 +1,15 @@
+{
+  "dataset": "kim2",
+  "matrix_sha256": "efc9007cf443b2aac8d54b2b0988bb04b315df0698dc3f884257c718ab1ee073",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.494,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "karate",
+  "matrix_sha256": "074a23e758ebeddb766fb08f617ee4bc5debc8d2564287c3e1e24f5ccdb77813",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.577,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "nos1",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-factor-pilot/nos1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 237, 237 ) nnz = 705\nloadfile time    = 0.00039 sec\nnnzL = 708\nCSC col6 row=6 val=1\nCSC col6 row=8 val=-0.66666666666666674\ntime_for_csc2CompressTile = 2.66 ms\ntime_cuda_solve = 0.31 ms, Mflops = 4.57\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=1.4405940594059405 expected=1.4405940594059405 b=1.4405940594059405\nsample i=2 got=0.80693069306930698 expected=0.80693069306930698 b=0.80693069306930698\nsample i=3 got=1.3217821782178216 expected=1.3217821782178216 b=1.3217821782178216\nsample i=4 got=0.68811881188118806 expected=0.68811881188118806 b=0.68811881188118806\nsample i=5 got=1.0544554455445545 expected=1.0544554455445545 b=1.0544554455445545\nsample i=6 got=0.86633663366336633 expected=0.86633663366336633 b=0.61633663366336633\nsample i=7 got=1.1732673267326739 expected=1.1732673267326734 b=-4.3886138613861387\nVALIDATION finite=1 max_error=6.6613381477509392e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

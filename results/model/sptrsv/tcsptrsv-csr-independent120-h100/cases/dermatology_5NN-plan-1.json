@@ -1,0 +1,9 @@
+{
+  "name": "dermatology_5NN",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/dermatology_5NN-L.mtx,default,cusparse,368,3472,-1,2817.542,146.8160095,1.099120794e-14,7.406742181e-17,9.168572028e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/dermatology_5NN-L.mtx,default-host,cusparse,368,3472,-1,2817.542,152.934955,1.099120794e-14,7.406742181e-17,9.168572028e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/dermatology_5NN-L.mtx,model,cached-csr,368,3472,165,2420.843,89.06559753,1.099120794e-14,7.406742181e-17,9.168572028e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/dermatology_5NN-L.mtx,model-host,cached-csr,368,3472,165,2420.843,95.41957,1.099120794e-14,7.406742181e-17,9.168572028e-17,256\n",
+  "stderr": ""
+}

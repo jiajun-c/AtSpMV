@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb3200l",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb3200l/rdb3200l.mtx",
+  "matrix_sha256": "51ff59aad94279cb2354e1eb4392d55bcfc4810eaa70b495aba9a17b789d11b2",
+  "index_nnz": 18880,
+  "index_rows": 3200,
+  "elapsed_s": 0.605,
+  "returncode": 0,
+  "status": "ok"
+}

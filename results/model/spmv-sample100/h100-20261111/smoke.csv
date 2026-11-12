@@ -1,0 +1,15 @@
+backend,config,trial,us
+atbsr_control,resolved/5/0,0,17.44800061
+atbsr_control,resolved/5/0,1,22.09999971
+atbsr_grouped_model,-1/-1/8/128/1/1024,0,18.48400012
+atbsr_grouped_model,-1/-1/8/128/1/1024,1,18.37199926
+auto_refined_v2,csr_vector/-1/-1/8/128/1/1024/vw=8/mc=0,0,13.39999959
+auto_refined_v2,csr_vector/-1/-1/8/128/1/1024/vw=8/mc=0,1,13.41999974
+auto_refined_v2_grouped,csr_vector/-1/-1/8/128/1/1024/vw=8/mc=0,0,13.65199964
+auto_refined_v2_grouped,csr_vector/-1/-1/8/128/1/1024/vw=8/mc=0,1,13.66799977
+cusparse,CSR_ALG1,0,57.17600137
+cusparse,CSR_ALG1,1,56.87199906
+cusparse_default,cusparse_default,0,56.67600036
+cusparse_default,cusparse_default,1,56.51199818
+cusparse_alg2,cusparse_alg2,0,63.40800226
+cusparse_alg2,cusparse_alg2,1,64.19999897

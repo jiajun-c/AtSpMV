@@ -1,0 +1,66 @@
+{
+  "kernels": [
+    {
+      "refine": 5,
+      "persist_x": 0,
+      "cusparse": 11.15999985,
+      "atbsr-w4-d2": 7.460000038,
+      "compressed-w4": 15.88400078,
+      "compression_speedup": 0.46965497807032974
+    },
+    {
+      "refine": 5,
+      "persist_x": 1,
+      "cusparse": 11.18400002,
+      "atbsr-w4-d2": 7.512000084,
+      "compressed-w4": 15.90799904,
+      "compression_speedup": 0.4722152713934285
+    },
+    {
+      "refine": 7,
+      "persist_x": 0,
+      "cusparse": 156.0,
+      "atbsr-w4-d2": 170.9879913,
+      "compressed-w4": 160.0919952,
+      "compression_speedup": 1.0680608426822829
+    },
+    {
+      "refine": 7,
+      "persist_x": 1,
+      "cusparse": 155.8479919,
+      "atbsr-w4-d2": 152.9880066,
+      "compressed-w4": 145.9960022,
+      "compression_speedup": 1.0478917524770415
+    }
+  ],
+  "profiles": [
+    {
+      "refine": 5,
+      "backend": "atbsr",
+      "dram__bytes_read.sum": 16707584.0,
+      "lts__t_sector_hit_rate.pct": 32.69,
+      "smsp__inst_executed.sum": 768426.0
+    },
+    {
+      "refine": 5,
+      "backend": "atbsr-compressed",
+      "dram__bytes_read.sum": 13719808.0,
+      "lts__t_sector_hit_rate.pct": 41.06,
+      "smsp__inst_executed.sum": 1669373.0
+    },
+    {
+      "refine": 7,
+      "backend": "atbsr",
+      "dram__bytes_read.sum": 267958016.0,
+      "lts__t_sector_hit_rate.pct": 24.2,
+      "smsp__inst_executed.sum": 12257346.0
+    },
+    {
+      "refine": 7,
+      "backend": "atbsr-compressed",
+      "dram__bytes_read.sum": 225280768.0,
+      "lts__t_sector_hit_rate.pct": 30.02,
+      "smsp__inst_executed.sum": 25807289.0
+    }
+  ]
+}

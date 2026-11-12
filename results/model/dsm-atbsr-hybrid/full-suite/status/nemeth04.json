@@ -1,0 +1,10 @@
+{
+  "dataset": "nemeth04",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nemeth04/nemeth04.mtx",
+  "matrix_sha256": "3db635da2b2b2160edfbbab8592a73435ceabb7b0d8c744bff55fff3e24b88d7",
+  "index_nnz": 394808,
+  "index_rows": 9506,
+  "elapsed_s": 1.184,
+  "returncode": 0,
+  "status": "ok"
+}

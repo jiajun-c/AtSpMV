@@ -1,0 +1,15 @@
+{
+  "dataset": "coAuthorsDBLP",
+  "matrix_sha256": "fcbad8e2239d8f59c7806b577d9f4dca478b625d336a1cd389957044b8241442",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.202,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

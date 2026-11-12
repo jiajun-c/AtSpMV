@@ -1,0 +1,509 @@
+[
+  {
+    "case": "64-16384",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "64",
+      "16384",
+      "202610301"
+    ],
+    "csv": "64-16384-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 1.043856841e-13
+  },
+  {
+    "case": "64-16384",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "64",
+      "16384",
+      "202610302"
+    ],
+    "csv": "64-16384-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 1.043856841e-13
+  },
+  {
+    "case": "64-16384",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "64",
+      "16384",
+      "202610303"
+    ],
+    "csv": "64-16384-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 1.043856841e-13
+  },
+  {
+    "case": "32-32768",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "32",
+      "32768",
+      "202610301"
+    ],
+    "csv": "32-32768-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 1.910867298e-13
+  },
+  {
+    "case": "32-32768",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "32",
+      "32768",
+      "202610302"
+    ],
+    "csv": "32-32768-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 1.910867298e-13
+  },
+  {
+    "case": "32-32768",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "32",
+      "32768",
+      "202610303"
+    ],
+    "csv": "32-32768-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 1.910867298e-13
+  },
+  {
+    "case": "128-8192",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "8192",
+      "202610301"
+    ],
+    "csv": "128-8192-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 6.031460054e-14
+  },
+  {
+    "case": "128-8192",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "8192",
+      "202610302"
+    ],
+    "csv": "128-8192-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 5.948627008e-14
+  },
+  {
+    "case": "128-8192",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "8192",
+      "202610303"
+    ],
+    "csv": "128-8192-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 8.369954035e-14
+  },
+  {
+    "case": "128-16384",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "16384",
+      "202610301"
+    ],
+    "csv": "128-16384-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 1.043856841e-13
+  },
+  {
+    "case": "128-16384",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "16384",
+      "202610302"
+    ],
+    "csv": "128-16384-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 1.043856841e-13
+  },
+  {
+    "case": "128-16384",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "128",
+      "16384",
+      "202610303"
+    ],
+    "csv": "128-16384-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 1.125067921e-13
+  },
+  {
+    "case": "random-64-16384",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "random:64",
+      "16384",
+      "202610301"
+    ],
+    "csv": "random-64-16384-202610301.csv",
+    "candidates": 200,
+    "max_abs_error": 1.150789533e-13
+  },
+  {
+    "case": "random-64-16384",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "random:64",
+      "16384",
+      "202610302"
+    ],
+    "csv": "random-64-16384-202610302.csv",
+    "candidates": 200,
+    "max_abs_error": 1.823263762e-13
+  },
+  {
+    "case": "random-64-16384",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "random:64",
+      "16384",
+      "202610303"
+    ],
+    "csv": "random-64-16384-202610303.csv",
+    "candidates": 200,
+    "max_abs_error": 1.810626302e-13
+  },
+  {
+    "case": "mixed-137-16387",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "mixed:137",
+      "16387",
+      "202610301"
+    ],
+    "csv": "mixed-137-16387-202610301.csv",
+    "candidates": 387,
+    "max_abs_error": 1.069188141e-13
+  },
+  {
+    "case": "mixed-137-16387",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "mixed:137",
+      "16387",
+      "202610302"
+    ],
+    "csv": "mixed-137-16387-202610302.csv",
+    "candidates": 387,
+    "max_abs_error": 1.069188141e-13
+  },
+  {
+    "case": "mixed-137-16387",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "mixed:137",
+      "16387",
+      "202610303"
+    ],
+    "csv": "mixed-137-16387-202610303.csv",
+    "candidates": 387,
+    "max_abs_error": 1.069188141e-13
+  },
+  {
+    "case": "lp_osa_30",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "lp_osa_30-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 6.473460656e-12
+  },
+  {
+    "case": "lp_osa_30",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "lp_osa_30-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 6.473460656e-12
+  },
+  {
+    "case": "lp_osa_30",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_30/lp_osa_30.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "lp_osa_30-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 6.473460656e-12
+  },
+  {
+    "case": "lp_osa_60",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_60/lp_osa_60.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "lp_osa_60-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 1.001759786e-11
+  },
+  {
+    "case": "lp_osa_60",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_60/lp_osa_60.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "lp_osa_60-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 1.001759786e-11
+  },
+  {
+    "case": "lp_osa_60",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/lp_osa_60/lp_osa_60.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "lp_osa_60-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 1.001759786e-11
+  },
+  {
+    "case": "rail507",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "rail507-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 1.202232758e-13
+  },
+  {
+    "case": "rail507",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "rail507-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 1.202232758e-13
+  },
+  {
+    "case": "rail507",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "rail507-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 1.202232758e-13
+  },
+  {
+    "case": "rail582",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "rail582-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 2.289626821e-13
+  },
+  {
+    "case": "rail582",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "rail582-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 2.289626821e-13
+  },
+  {
+    "case": "rail582",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "rail582-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 2.289626821e-13
+  },
+  {
+    "case": "rail2586",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail2586/rail2586.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "rail2586-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 1.312276676e-12
+  },
+  {
+    "case": "rail2586",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail2586/rail2586.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "rail2586-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 1.312276676e-12
+  },
+  {
+    "case": "rail2586",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail2586/rail2586.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "rail2586-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 1.312276676e-12
+  },
+  {
+    "case": "rail4284",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail4284/rail4284.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "rail4284-202610301.csv",
+    "candidates": 574,
+    "max_abs_error": 7.957974557e-13
+  },
+  {
+    "case": "rail4284",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail4284/rail4284.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "rail4284-202610302.csv",
+    "candidates": 574,
+    "max_abs_error": 7.957974557e-13
+  },
+  {
+    "case": "rail4284",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/rail4284/rail4284.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "rail4284-202610303.csv",
+    "candidates": 574,
+    "max_abs_error": 7.957974557e-13
+  },
+  {
+    "case": "Stanford",
+    "seed": 202610301,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx",
+      "0",
+      "202610301"
+    ],
+    "csv": "Stanford-202610301.csv",
+    "candidates": 387,
+    "max_abs_error": 6.916411888e-13
+  },
+  {
+    "case": "Stanford",
+    "seed": 202610302,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx",
+      "0",
+      "202610302"
+    ],
+    "csv": "Stanford-202610302.csv",
+    "candidates": 387,
+    "max_abs_error": 6.916411888e-13
+  },
+  {
+    "case": "Stanford",
+    "seed": 202610303,
+    "command": [
+      "/tmp/atspmv-dsm-sm90-build/dsm_long_row_bench",
+      "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx",
+      "0",
+      "202610303"
+    ],
+    "csv": "Stanford-202610303.csv",
+    "candidates": 387,
+    "max_abs_error": 6.916411888e-13
+  }
+]

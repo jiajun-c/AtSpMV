@@ -1,0 +1,14 @@
+{
+  "matrix": "add20",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/add20/add20.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2395,
+  "columns": 2395,
+  "original_nnz": 17319,
+  "factor_L_nnz": 13640,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.045215087942779064
+}

@@ -1,0 +1,71 @@
+{
+  "method": "Retrospective replay after inspecting a holdout error. Neither dev nor holdout is an independent validation of this post-hoc guard.",
+  "splits": {
+    "train": {
+      "original": {
+        "matrices": 1448,
+        "geomean": 1.0553682365954102,
+        "selected": 600,
+        "slower": 32,
+        "hybrid_selected": 4,
+        "hybrid_slower": 0,
+        "long_row_dominated_candidates": 15,
+        "long_row_dominated_wins": 0
+      },
+      "guarded": {
+        "matrices": 1448,
+        "geomean": 1.0553682365954102,
+        "selected": 600,
+        "slower": 32,
+        "hybrid_selected": 4,
+        "hybrid_slower": 0,
+        "long_row_dominated_candidates": 15,
+        "long_row_dominated_wins": 0
+      }
+    },
+    "dev": {
+      "original": {
+        "matrices": 410,
+        "geomean": 1.0502738140456518,
+        "selected": 179,
+        "slower": 30,
+        "hybrid_selected": 2,
+        "hybrid_slower": 0,
+        "long_row_dominated_candidates": 9,
+        "long_row_dominated_wins": 0
+      },
+      "guarded": {
+        "matrices": 410,
+        "geomean": 1.0502738140456518,
+        "selected": 179,
+        "slower": 30,
+        "hybrid_selected": 2,
+        "hybrid_slower": 0,
+        "long_row_dominated_candidates": 9,
+        "long_row_dominated_wins": 0
+      }
+    },
+    "holdout": {
+      "original": {
+        "matrices": 389,
+        "geomean": 1.0331035711059182,
+        "selected": 135,
+        "slower": 30,
+        "hybrid_selected": 6,
+        "hybrid_slower": 3,
+        "long_row_dominated_candidates": 11,
+        "long_row_dominated_wins": 0
+      },
+      "guarded": {
+        "matrices": 389,
+        "geomean": 1.035761798666946,
+        "selected": 132,
+        "slower": 27,
+        "hybrid_selected": 3,
+        "hybrid_slower": 0,
+        "long_row_dominated_candidates": 11,
+        "long_row_dominated_wins": 0
+      }
+    }
+  }
+}

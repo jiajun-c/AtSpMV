@@ -1,0 +1,8 @@
+{
+  "name": "impcol_d",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/impcol_d-L.mtx,default,cusparse,425,806,-1,2111.57,22.73279953,1.776356839e-15,3.307086766e-17,8.423100506e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/impcol_d-L.mtx,default-host,cusparse,425,806,-1,2111.57,30.650425,1.776356839e-15,3.307086766e-17,8.423100506e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/impcol_d-L.mtx,model,cached,425,806,16,1327.671,15.14880085,1.776356839e-15,3.307086766e-17,8.423100506e-17,512\nresults/model/sptrsv/csr-independent120-h100/factors/impcol_d-L.mtx,model-host,cached,425,806,16,1327.671,22.230445,1.776356839e-15,3.307086766e-17,8.423100506e-17,512\n",
+  "stderr": ""
+}

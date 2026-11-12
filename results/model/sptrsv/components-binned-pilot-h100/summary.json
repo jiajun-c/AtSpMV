@@ -1,0 +1,12 @@
+{
+  "status_counts": {
+    "ok": 9
+  },
+  "valid_pairs": 9,
+  "bin128_vs_single_geomean": 0.7984749911867794,
+  "bin128_wins_gt_5pct": 0,
+  "bin128_losses_gt_5pct": 8,
+  "bin256_vs_single_geomean": 0.8038314466789405,
+  "bin256_wins_gt_5pct": 0,
+  "bin256_losses_gt_5pct": 8
+}

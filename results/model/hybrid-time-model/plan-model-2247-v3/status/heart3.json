@@ -1,0 +1,19 @@
+{
+  "dataset": "heart3",
+  "matrix_sha256": "e934a16af906d2eb72961d0a3daacc92cd43702870b3a02bbe1386b02c0def0f",
+  "index_nnz": 682797,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.627,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

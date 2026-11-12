@@ -1,0 +1,10 @@
+{
+  "dataset": "gr_30_30",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gr_30_30/gr_30_30.mtx",
+  "matrix_sha256": "f3eb41b3ae7349a00f034150d741293ca8cdb626d045476449bb1177e50c8a86",
+  "index_nnz": 7744,
+  "index_rows": 900,
+  "elapsed_s": 0.763,
+  "returncode": 0,
+  "status": "ok"
+}

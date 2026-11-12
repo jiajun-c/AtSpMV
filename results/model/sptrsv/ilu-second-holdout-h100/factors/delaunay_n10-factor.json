@@ -1,0 +1,13 @@
+{
+  "matrix": "delaunay_n10",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/delaunay_n10/delaunay_n10.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1024,
+  "columns": 1024,
+  "original_nnz": 6112,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.043064862955361605
+}

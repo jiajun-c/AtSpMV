@@ -1,0 +1,7 @@
+{
+  "name": "nos1",
+  "mode": "lv0",
+  "timeout_s": 15,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-factor-pilot/nos1-L.mtx --------------\ninput matrix A: ( 237, 237 ) nnz = 705\n",
+  "stderr": ""
+}

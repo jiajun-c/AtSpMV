@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_sctap2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_sctap2/lp_sctap2.mtx",
+  "matrix_sha256": "60447f24db82a7544ab8f71a9f5d2ba5e41ccc9c50591713e319e69ed97bbaca",
+  "index_nnz": 7334,
+  "index_rows": 1090,
+  "elapsed_s": 0.656,
+  "returncode": 0,
+  "status": "ok"
+}

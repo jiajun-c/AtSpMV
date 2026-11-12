@@ -1,0 +1,7 @@
+{
+  "name": "wang2",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/wang2-L.mtx,default,cusparse,2903,35144,-1,3427.962,247.6671906,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/wang2-L.mtx,default-host,cusparse,2903,35144,-1,3427.962,253.97667,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/wang2-L.mtx,model,cusparse,2903,35144,154,3471.253,247.1327972,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/wang2-L.mtx,model-host,cusparse,2903,35144,154,3471.253,253.81191,1.33226763e-15\n",
+  "stderr": ""
+}

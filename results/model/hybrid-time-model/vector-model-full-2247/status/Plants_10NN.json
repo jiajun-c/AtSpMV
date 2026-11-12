@@ -1,0 +1,17 @@
+{
+  "dataset": "Plants_10NN",
+  "matrix_sha256": "670fb1e58f0b39ee55166d36a8e1bb1e25aa0f82b47ee195f095430b8cdb142d",
+  "index_nnz": 21930,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.254,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

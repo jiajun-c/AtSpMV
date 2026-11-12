@@ -1,0 +1,9 @@
+{
+  "name": "G8",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=3.43969297489366e-12 reference_scale=1.4900990099009901\ntime_cuda_solve = 1.307770000 ms\n",
+  "stderr": ""
+}

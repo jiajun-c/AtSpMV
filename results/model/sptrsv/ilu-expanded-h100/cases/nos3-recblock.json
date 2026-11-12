@@ -1,0 +1,7 @@
+{
+  "name": "nos3",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-expanded-h100/factors/nos3-L.mtx --------------\ninput matrix A: ( 960, 960 ) nnz = 33404\ncomputation usetime = 0.628 ms\nPerformance = 0.106 gflops\n\nx check passed! |x-xref|/|xref| = 1.12e-16\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=3\nstage calculate done\n"
+}

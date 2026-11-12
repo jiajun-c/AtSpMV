@@ -1,0 +1,8 @@
+{
+  "name": "CAG_mat1916",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/CAG_mat1916-L.mtx,default,cusparse,1916,58499,-1,7334.743,331.2927856,3.685940442e-14,3.669763648e-17,1.022801076e-16,0\nresults/model/sptrsv/components-independent-h100/factors/CAG_mat1916-L.mtx,default-host,cusparse,1916,58499,-1,7334.743,337.49371,3.685940442e-14,3.669763648e-17,1.022801076e-16,0\nresults/model/sptrsv/components-independent-h100/factors/CAG_mat1916-L.mtx,model,cusparse,1916,58499,329,6617.38,331.1359863,3.685940442e-14,3.669763648e-17,1.022801076e-16,0\nresults/model/sptrsv/components-independent-h100/factors/CAG_mat1916-L.mtx,model-host,cusparse,1916,58499,329,6617.38,337.069905,3.685940442e-14,3.669763648e-17,1.022801076e-16,0\n",
+  "stderr": ""
+}

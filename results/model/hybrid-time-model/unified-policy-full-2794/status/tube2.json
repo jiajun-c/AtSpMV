@@ -1,0 +1,17 @@
+{
+  "dataset": "tube2",
+  "matrix_sha256": "009c37781232220128a4c518285e3d4b4b9a8aec53ea9288bed10d7f5b167c01",
+  "index_nnz": 897056,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.42,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "shl_0",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/shl_0-L.mtx,default,cusparse,663,1935,-1,2343.94,62.02880096,1.554312234e-14\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/shl_0-L.mtx,model,cached,663,1935,44,1537.454,34.41600037,1.554312234e-14\n",
+  "stderr": ""
+}

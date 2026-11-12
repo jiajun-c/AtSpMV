@@ -1,0 +1,15 @@
+{
+  "dataset": "delaunay_n13",
+  "matrix_sha256": "f5c2e63444870e28ab71fe4c2c3d066807047a2cd25034fa599c9bcad0ea5c1c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.851,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

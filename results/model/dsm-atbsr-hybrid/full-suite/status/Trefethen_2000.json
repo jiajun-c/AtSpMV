@@ -1,0 +1,10 @@
+{
+  "dataset": "Trefethen_2000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Trefethen_2000/Trefethen_2000.mtx",
+  "matrix_sha256": "7aade16e531a221360420ec95d7e63d92776a119b02e3a35858b07e69ccf2109",
+  "index_nnz": 41906,
+  "index_rows": 2000,
+  "elapsed_s": 1.188,
+  "returncode": 0,
+  "status": "ok"
+}

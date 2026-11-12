@@ -1,0 +1,31 @@
+ex13 0 plan 0
+ex13 0 tc 0
+ex13 1 tc 0
+ex13 1 plan 0
+Glass_10NN 0 plan 0
+Glass_10NN 0 tc 0
+Glass_10NN 1 tc 0
+Glass_10NN 1 plan 0
+west2021 0 plan 0
+west2021 0 tc 0
+west2021 1 tc 0
+west2021 1 plan 0
+fpga_dcop_28 0 plan 0
+fpga_dcop_28 0 tc 0
+fpga_dcop_28 1 tc 0
+fpga_dcop_28 1 plan 0
+adder_dcop_46 0 plan 0
+adder_dcop_46 0 tc 0
+adder_dcop_46 1 tc 0
+adder_dcop_46 1 plan 0
+{
+  "manifest_count": 5,
+  "status_counts": {
+    "ok": 5
+  },
+  "valid_pairs": 5,
+  "plan_wins": 5,
+  "caveat": "locally adapted Capellini mix and Plan CUDA 12.6; identical padded unit-diagonal factors; synchronized host timing includes per-solve resets and excludes preprocessing; two rounds, invalid omitted; tc-named raw columns refer to Capellini",
+  "geomean_capellini_over_plan": 2.7465937503710753
+}
+runner_exit=0

@@ -1,0 +1,15 @@
+{
+  "dataset": "cat_ears_4_4",
+  "matrix_sha256": "36d4f4342c5d784f7d04c264bc37f17ba3a94869bbb865e0c55b91f4ab2a715b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.408,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "gpu": "NVIDIA H100 PCIe, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "shared": "PID 632420 resident; not monitored continuously, exploratory only",
+  "method": "Two separately allocated identical default AtBSR plans, 51 randomized warm Graph batches, 8 calls/batch; each direction is a separate process. Second direction exchanges construction order.",
+  "exe_sha256": "95189f2d9773271d01c03f86eb572be665a8ec3be657dcca626aecc0d2488aec",
+  "seed_forward": 202610281,
+  "seed_reverse": 202610282
+}

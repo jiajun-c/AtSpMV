@@ -1,0 +1,10 @@
+{
+  "dataset": "indianpines_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/indianpines_10NN/indianpines_10NN.mtx",
+  "matrix_sha256": "f2c384c0ce2e7956740b076cd9976585b98240a020fd27976cfbc6de09d05a9e",
+  "index_nnz": 124656,
+  "index_rows": 9144,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

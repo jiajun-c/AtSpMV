@@ -1,0 +1,10 @@
+{
+  "dataset": "laser",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/laser/laser.mtx",
+  "matrix_sha256": "6efa2748afd46a427eb7339aba7d80ff8bc4348a98f0438e8d406d8a7778d8a1",
+  "index_nnz": 9000,
+  "index_rows": 3002,
+  "elapsed_s": 1.183,
+  "returncode": 0,
+  "status": "ok"
+}

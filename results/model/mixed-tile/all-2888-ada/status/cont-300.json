@@ -1,0 +1,15 @@
+{
+  "dataset": "cont-300",
+  "matrix_sha256": "6db956d1b283e5056a3fac34fdf6a45d0da2449aa8076cd074e29c76ba5b4b1b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.799,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "cegb3306",
+  "matrix_sha256": "aeee93f733aa1fd69e748f4304c6534e84aad2740b99039ef463293a17218d7e",
+  "index_nnz": 74916,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.304,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

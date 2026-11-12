@@ -1,0 +1,19 @@
+{
+  "dataset": "problem",
+  "matrix_sha256": "419c54baf53fa2011a24404cc0dabea21a550595992c6fa40bc83146380889d2",
+  "index_nnz": 86,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.912,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

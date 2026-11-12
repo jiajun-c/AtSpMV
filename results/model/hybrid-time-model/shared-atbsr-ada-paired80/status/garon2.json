@@ -1,0 +1,17 @@
+{
+  "dataset": "garon2",
+  "matrix_sha256": "1be0b41422e54c947e83fb3bb31c056bbe143786ee9f719ef735edeac5184b69",
+  "index_nnz": 390607,
+  "gpu_before": {
+    "utilization_percent": 67,
+    "free_memory_mib": 48508
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.769,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "as-Skitter",
+  "matrix_sha256": "b41eced8f3999baf7655920f30287a5bb221e42f60206a758ed8be7b7ae87c00",
+  "index_nnz": 22190596,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 147.688,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

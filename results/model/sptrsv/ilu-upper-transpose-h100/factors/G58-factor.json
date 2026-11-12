@@ -1,0 +1,7 @@
+{
+  "matrix": "G58",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/G58-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 1.051928848028183e-06
+}

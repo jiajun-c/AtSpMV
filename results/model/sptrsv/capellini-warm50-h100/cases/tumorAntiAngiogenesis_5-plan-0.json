@@ -1,0 +1,9 @@
+{
+  "name": "tumorAntiAngiogenesis_5",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx,default,cusparse,464,9909,-1,4367.83,130.5951996,3.119726699e-14,2.726193528e-17,1.415893093e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx,default-host,cusparse,464,9909,-1,4367.83,138.291655,3.119726699e-14,2.726193528e-17,1.415893093e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx,model,cached,464,9909,103,1641.571,83.7440033,4.996003611e-14,3.433763659e-17,1.026522328e-16,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx,model-host,cached,464,9909,103,1641.571,90.57407,4.996003611e-14,3.433763659e-17,1.026522328e-16,512\n",
+  "stderr": ""
+}

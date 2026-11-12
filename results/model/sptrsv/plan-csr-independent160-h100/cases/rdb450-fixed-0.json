@@ -1,0 +1,8 @@
+{
+  "name": "rdb450",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rdb450-L.mtx,default,cusparse,450,4889,-1,2610.098,120.8415985,1.665334537e-14,5.96976958e-17,1.133773194e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb450-L.mtx,default-host,cusparse,450,4889,-1,2610.098,127.197665,1.665334537e-14,5.96976958e-17,1.133773194e-16,0\nresults/model/sptrsv/components-independent-h100/factors/rdb450-L.mtx,model,cached,450,4889,81,2629.36,64.21440125,3.974598428e-14,4.430505463e-17,1.09296552e-16,512\nresults/model/sptrsv/components-independent-h100/factors/rdb450-L.mtx,model-host,cached,450,4889,81,2629.36,70.209915,3.974598428e-14,4.430505463e-17,1.09296552e-16,512\n",
+  "stderr": ""
+}

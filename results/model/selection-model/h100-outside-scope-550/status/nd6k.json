@@ -1,0 +1,17 @@
+{
+  "dataset": "nd6k",
+  "matrix_sha256": "89fe586cdfb8a24897f69d64924cf7229f55dfa1dfeab4ec2d6c9d724c569821",
+  "index_nnz": 6897316,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.766,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

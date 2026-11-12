@@ -1,0 +1,9 @@
+{
+  "name": "raefsky6",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/raefsky6-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3408, 3408 ) nnz = 259450\nloadfile time    = 0.09427 sec\nnnzL = 259450\ntime_for_csc2CompressTile = 4.01 ms\ntime_cuda_solve = 0.779420 ms, Mflops = 665.75\nVALIDATION finite=1 max_error=5.5844218138645374e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

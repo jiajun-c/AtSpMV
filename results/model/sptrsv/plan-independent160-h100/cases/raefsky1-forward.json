@@ -1,0 +1,7 @@
+{
+  "name": "raefsky1",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/raefsky1-L.mtx,default,cusparse,3242,694489,-1,58435.333,2115.43042,2.819966483e-14,4.258925513e-17,1.196434708e-16,0\nresults/model/sptrsv/components-independent-h100/factors/raefsky1-L.mtx,default-host,cusparse,3242,694489,-1,58435.333,2141.069435,2.819966483e-14,4.258925513e-17,1.196434708e-16,0\nresults/model/sptrsv/components-independent-h100/factors/raefsky1-L.mtx,model,cusparse,3242,694489,2110,55478.129,2122.508789,2.819966483e-14,4.258925513e-17,1.196434708e-16,0\nresults/model/sptrsv/components-independent-h100/factors/raefsky1-L.mtx,model-host,cusparse,3242,694489,2110,55478.129,2143.252555,2.819966483e-14,4.258925513e-17,1.196434708e-16,0\n",
+  "stderr": ""
+}

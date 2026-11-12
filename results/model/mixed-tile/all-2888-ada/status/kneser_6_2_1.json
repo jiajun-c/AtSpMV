@@ -1,0 +1,15 @@
+{
+  "dataset": "kneser_6_2_1",
+  "matrix_sha256": "de74870dfe875d032a6c8106166c366452d765db2939c94b37b1ece17595ad5d",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.401,
+  "gpu_after": {
+    "utilization_percent": 19,
+    "free_memory_mib": 48508
+  }
+}

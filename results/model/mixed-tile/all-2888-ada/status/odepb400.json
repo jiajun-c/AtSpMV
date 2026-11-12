@@ -1,0 +1,15 @@
+{
+  "dataset": "odepb400",
+  "matrix_sha256": "1e4baa38444dadd268cdf256e6180f99a3f4ec948b1de6943a744c612f887459",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.433,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

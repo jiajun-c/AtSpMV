@@ -1,0 +1,10 @@
+{
+  "dataset": "nasa2910",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nasa2910/nasa2910.mtx",
+  "matrix_sha256": "3200463adc27714dc66eb407ab136ab37ba925f33dca03fbb7592e19dd0ea313",
+  "index_nnz": 174296,
+  "index_rows": 2910,
+  "elapsed_s": 1.293,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sieber",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Sieber-L.mtx,default,cusparse,2304,7743,-1,2646.596,36.55039978,1.203481759e-13,3.503171034e-17,8.908296766e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Sieber-L.mtx,default-host,cusparse,2304,7743,-1,2646.596,42.59219,1.203481759e-13,3.503171034e-17,8.908296766e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Sieber-L.mtx,model,cached,2304,7743,29,1341.954,28.98880005,1.203481759e-13,3.258130573e-17,6.814765735e-17,1024\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/Sieber-L.mtx,model-host,cached,2304,7743,29,1341.954,34.64417,1.203481759e-13,3.258130573e-17,6.814765735e-17,1024\n",
+  "stderr": ""
+}

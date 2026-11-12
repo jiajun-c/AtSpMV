@@ -1,0 +1,15 @@
+{
+  "dataset": "italy_osm",
+  "matrix_sha256": "e44b39d671a415cef853e11638d0d5017d580b4e4d18ff861999795a930b2421",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 37.514,
+  "gpu_after": {
+    "utilization_percent": 98,
+    "free_memory_mib": 48508
+  }
+}

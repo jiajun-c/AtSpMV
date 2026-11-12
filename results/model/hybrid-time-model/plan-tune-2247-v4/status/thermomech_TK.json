@@ -1,0 +1,19 @@
+{
+  "dataset": "thermomech_TK",
+  "matrix_sha256": "9f90384872e56c770aaf6c61ecf011742528d2974e7b93b53ff028e6513374c4",
+  "index_nnz": 711558,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.448,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

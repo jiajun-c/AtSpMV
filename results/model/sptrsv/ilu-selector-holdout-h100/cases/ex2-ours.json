@@ -1,0 +1,7 @@
+{
+  "name": "ex2",
+  "implementation": "ours",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex2-L.mtx,441,22283,433,cusparse,25720.884,396.4927912,2.25375274e-14,3.377321913e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex2-L.mtx,441,22283,433,cusparse-host,25720.884,402.982725,2.25375274e-14,3.377321913e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/ex2-L.mtx,441,22283,433,selector-cusparse,511.323,396.4607954,2.25375274e-14,3.377321913e-17\n",
+  "stderr": ""
+}

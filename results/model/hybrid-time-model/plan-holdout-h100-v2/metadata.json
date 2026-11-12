@@ -1,0 +1,16 @@
+{
+  "index_sha256": "7a0289f93c4d358b1ff61e3a76239ab1424b0f3a1a93358838030db78c9245a0",
+  "exe_sha256": "fbebb957d7a2ba83f2ec54b8ae7db72e00825a4332abab5b5fd7c4d2e73833ca",
+  "config_sha256": "fbd6a535b24491b8f787561f2cf89e095a326c239cd6aea32904d7c2fd0c4158",
+  "runner_sha256": "1df6bd146bf68302de2bf583eda9194dc359927ddd7ca40ed4488796464a7ad7",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "seed": 20261028,
+  "trials": 9,
+  "timeout_s": 900,
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "monitor_resident": true,
+  "selection": "auto_model",
+  "method": "Actual Plan selection before independent interleaved warm Graph timings; compare default AtBSR and preprocessed cuSPARSE CSR_ALG1. Each candidate checked with two nonuniform vectors and a graph against CPU long-double reference. Preparation excluded."
+}

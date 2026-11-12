@@ -1,0 +1,8 @@
+{
+  "name": "iris_dataset_30NN",
+  "round": 0,
+  "mode": "narrow",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cusparse,28087.746,109.5679998,6.217248938e-14,2.1681732e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cusparse-host,28087.746,118.046045,6.217248938e-14,2.1681732e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-128,141.648,114.1664028,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-host-128,141.648,121.461525,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-256,141.648,109.6063972,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-host-256,141.648,116.96343,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-512,141.648,110.5344057,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,cached-tiles-host-512,141.648,117.71383,1.376676551e-14,2.700637429e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/iris_dataset_30NN-L.mtx,160,3989,145,selector-cached,141.648,110.4096055,1.376676551e-14,2.700637429e-17\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "lund_b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lund_b/lund_b.mtx",
+  "matrix_sha256": "d2c691c238d70954fa2406bc5152078ada3f71c0cfa27c2b0328e479bfd8b897",
+  "index_nnz": 2441,
+  "index_rows": 147,
+  "elapsed_s": 0.567,
+  "returncode": 0,
+  "status": "ok"
+}

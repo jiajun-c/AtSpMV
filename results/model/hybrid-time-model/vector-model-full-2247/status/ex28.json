@@ -1,0 +1,17 @@
+{
+  "dataset": "ex28",
+  "matrix_sha256": "d66d6d0ac433cfb1ac2c704cb8575aaf52c426712e528c1988cfc13f6b77d7fa",
+  "index_nnz": 77781,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.865,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

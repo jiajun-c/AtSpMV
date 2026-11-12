@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------
+PRECISION = 64-bit Double Precision
+Benchmark REPEAT = 200
+---------------------------------------------------------------------------------------------
+device_id = 0
+rhs = 1
+substitutionstr = -forward
+substitution = 0
+matstr = -mtx
+-------------- /staff/chengjiajun/workspace/database/suitsparse/08blocks/08blocks.mtx --------------
+input matrix A: ( 300, 300 ) nnz = 592
+computation usetime = 0.036 ms
+Performance = 0.033 gflops
+
+x check passed! |x-xref|/|xref| = 0.00e+00
+exit=0

@@ -1,0 +1,20 @@
+{
+  "note": "Post-hoc 2% gate comparison; identical model configurations execute a shared Plan. Prior test sample is not a blind gate evaluation.",
+  "index_sha256": "cf3b53bbb71187b5c3f1a4203098a9eca56d9c0acf602051d60c81e05ca96b38",
+  "provenance_sha256": {
+    "audit_vector_model_replay.py": "feffda7646452638bd32d39bff7817ead35cadb6af7ca3d1d5374810b4673724",
+    "spmv_hybrid_validation": "9d55047b08f206d763c5b45f70038c2cee19ca2e07dcd3b2e09f3514586b10d3",
+    "analyze_plan_amortization.py": "22a5218a5da2e91841aedd3542a303a365db40bc7aa47827b9560de2c1156cf8",
+    "run_priority_vector_holdout.py": "d40872512586628c8a7e555d74a132d8950866e66923f9331e921d57cda06460",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "audit_plan_sweep.py": "ded600e101bcb57e437d59bd41123d06462bc877699721b6341c4ce142584ef9",
+    "analyze_plan_selection.py": "0aae88c2d4170a13a974ab34dac31a22b18576f25e8848e603360fd1d3a28871",
+    "benchmark_plan_selection.py": "213e582edeeade52ec5c004d4cfc1053241042b2e69ee543e810135958b8ccdb",
+    "spmvPlan.h": "e22ef301cb1645789b4a3f5335f86eb57427dc4cde94ab0029e87aab1f42e13a",
+    "analyze_plan_allocation_bias.py": "229ba671df0d39f9cf5d19f0017750cd388d84a919f351a838b7fc5da5fb261f",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "spmv_hybrid_validation.cu": "4fad6290e1ff1319930846fc035618bd8d66b5e9545ad8c2f3659b59be01a039",
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "spmvPlan.cu": "31beb1f3bd6ec2663bd4c1ba70927384b42b16ef527dad6ad7d2cb94c143b94d"
+  }
+}

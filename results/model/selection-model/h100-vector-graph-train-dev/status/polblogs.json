@@ -1,0 +1,17 @@
+{
+  "dataset": "polblogs",
+  "matrix_sha256": "61c77cd98623a5dcbc07a918d22486590d8863677ae6e62f735a401512ff6653",
+  "index_nnz": 19025,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.218,
+  "gpu_after": {
+    "utilization_percent": 15,
+    "free_memory_mib": 81079
+  }
+}

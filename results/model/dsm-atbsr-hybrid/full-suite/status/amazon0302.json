@@ -1,0 +1,10 @@
+{
+  "dataset": "amazon0302",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/amazon0302/amazon0302.mtx",
+  "matrix_sha256": "7e96bc8bfddc34ff15de98d35101f7902b1624cc7556012ab15e79050513f2e5",
+  "index_nnz": 1234877,
+  "index_rows": 262111,
+  "elapsed_s": 1.179,
+  "returncode": 0,
+  "status": "ok"
+}

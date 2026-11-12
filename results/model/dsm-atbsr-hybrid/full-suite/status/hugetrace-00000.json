@@ -1,0 +1,10 @@
+{
+  "dataset": "hugetrace-00000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/hugetrace-00000/hugetrace-00000.mtx",
+  "matrix_sha256": "7a6017a19bb9be76a67d11c59e4232b321979ebccbb4b8c6529230a28ab72327",
+  "index_nnz": 13758266,
+  "index_rows": 4588484,
+  "elapsed_s": 9.788,
+  "returncode": 0,
+  "status": "ok"
+}

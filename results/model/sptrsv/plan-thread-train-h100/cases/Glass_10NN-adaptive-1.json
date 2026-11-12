@@ -1,0 +1,8 @@
+{
+  "name": "Glass_10NN",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/Glass_10NN-L.mtx,model,cached,214,5772,197,1600.375,149.6544037,1.953992523e-14,3.830662541e-17,7.829874007e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/Glass_10NN-L.mtx,model-host,cached,214,5772,197,1600.375,156.01572,1.953992523e-14,3.830662541e-17,7.829874007e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/Glass_10NN-L.mtx,default,cusparse,214,5772,-1,3175.994,149.6031952,1.687538997e-14,2.437057704e-17,8.867635993e-17,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/Glass_10NN-L.mtx,default-host,cusparse,214,5772,-1,3175.994,156.852325,1.687538997e-14,2.437057704e-17,8.867635993e-17,0\n",
+  "stderr": ""
+}

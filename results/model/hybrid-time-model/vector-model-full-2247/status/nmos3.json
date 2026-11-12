@@ -1,0 +1,17 @@
+{
+  "dataset": "nmos3",
+  "matrix_sha256": "3eb0f552db37ba67af9e11f58c299962199fec2d3997384b17093a9d86b16cb3",
+  "index_nnz": 386594,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.653,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "netz4504_dual",
+  "matrix_sha256": "37be4880a14c69580617c1117d83abc9b6c857c7633d3688490eac9d33a2bcbb",
+  "index_nnz": 2342,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.149,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_count": 80,
+  "status_counts": {
+    "factor_missing": 30,
+    "ok": 50
+  },
+  "cached": 25,
+  "fallback": 25,
+  "solve_geomean": 1.2949622901116145,
+  "cached_wins": 25,
+  "cached_slower_gt_5pct": 0,
+  "cached_setup_delta_median_us": -986.3339999999998,
+  "note": "median of two process runs, opposite constructor order; warm-library host setup and warm Graph solve. Does not include factorization or graph construction. Factorization failures retained."
+}

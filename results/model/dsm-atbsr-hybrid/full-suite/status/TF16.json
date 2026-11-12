@@ -1,0 +1,10 @@
+{
+  "dataset": "TF16",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TF16/TF16.mtx",
+  "matrix_sha256": "28b99467b43656ef41ce6daa2a8c9ab0f1fffda4d3927590cb4e75b4888189bb",
+  "index_nnz": 216173,
+  "index_rows": 15437,
+  "elapsed_s": 1.252,
+  "returncode": 0,
+  "status": "ok"
+}

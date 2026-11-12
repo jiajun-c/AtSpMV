@@ -1,0 +1,17 @@
+{
+  "dataset": "freeFlyingRobot_3",
+  "matrix_sha256": "9ac2b7a215d29eec39fd6b4009ba849fe53c22fd05c1bfd9cafacbc049356e8d",
+  "index_nnz": 12922,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.89,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "vsp_c-30_data_data",
+  "matrix_sha256": "4c530a3f983d14da08256bf389ad2700315c1421fbed9b5f61870a7c01fc3e31",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.482,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

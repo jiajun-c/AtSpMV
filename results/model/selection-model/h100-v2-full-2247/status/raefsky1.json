@@ -1,0 +1,17 @@
+{
+  "dataset": "raefsky1",
+  "matrix_sha256": "f7130d2a7177a94cd98870d84dbf7b71e392835dfdc4f670b2a5f23c933e4d92",
+  "index_nnz": 294276,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.459,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

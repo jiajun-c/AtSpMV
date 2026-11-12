@@ -1,0 +1,10 @@
+{
+  "matrix": "fpga_dcop_50",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_50-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1220,
+  "nnz": 3362,
+  "min_abs_diagonal": 2.779998453661392e-12,
+  "max_abs_diagonal": 1.0,
+  "elapsed_s": 0.011783514870330691
+}

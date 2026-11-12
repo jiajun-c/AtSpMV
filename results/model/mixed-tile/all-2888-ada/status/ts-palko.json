@@ -1,0 +1,15 @@
+{
+  "dataset": "ts-palko",
+  "matrix_sha256": "9f36dc74ed4b1a9f9edaa78d27cec9f376055af1993574e06720faf54c2ce935",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.742,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

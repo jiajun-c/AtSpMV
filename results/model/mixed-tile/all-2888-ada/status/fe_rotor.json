@@ -1,0 +1,15 @@
+{
+  "dataset": "fe_rotor",
+  "matrix_sha256": "0c5a3b017afefb4efb9a6be3b5c5208564508d23e83586ab8da3653c9f61b8e5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.354,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

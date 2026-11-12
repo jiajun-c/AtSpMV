@@ -1,0 +1,10 @@
+{
+  "dataset": "ukerbe1_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ukerbe1_dual/ukerbe1_dual.mtx",
+  "matrix_sha256": "a03744d7694faecf2c97038a6ff89d20c8980a065c6c6545358fd43364b6d337",
+  "index_nnz": 7076,
+  "index_rows": 1866,
+  "elapsed_s": 1.193,
+  "returncode": 0,
+  "status": "ok"
+}

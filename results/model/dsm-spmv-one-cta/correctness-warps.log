@@ -1,0 +1,10 @@
+Correctness only; no timing. Device: NVIDIA H100 PCIe
+ragged_int16 passed
+ragged_int32 passed
+partial_cta passed
+empty passed
+zero_rows passed
+large_x passed
+cap4_warps2 passed
+cap32_warps8 passed
+PASS: 3520 direct checks, 880 graph checks; capacity/configuration rejection passed

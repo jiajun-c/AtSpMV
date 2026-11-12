@@ -1,0 +1,8 @@
+{
+  "name": "Trefethen_150",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/Trefethen_150-L.mtx,model,cached-csr,150,4273,108,1371.876,58.87680054,2.220446049e-16,2.81814377e-17,5.320289075e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/Trefethen_150-L.mtx,model-host,cached-csr,150,4273,108,1371.876,66.6577,2.220446049e-16,2.81814377e-17,5.320289075e-17,256\nresults/model/sptrsv/csr-independent120-h100/factors/Trefethen_150-L.mtx,default,cusparse,150,4273,-1,2733.631,88.20800018,2.220446049e-16,2.81814377e-17,5.320289075e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/Trefethen_150-L.mtx,default-host,cusparse,150,4273,-1,2733.631,96.662275,2.220446049e-16,2.81814377e-17,5.320289075e-17,0\n",
+  "stderr": ""
+}

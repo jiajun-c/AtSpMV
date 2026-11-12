@@ -1,0 +1,47 @@
+{
+  "scope": "Existing uncached fallback: CSR/address caching and fixed-row unrolling removed together",
+  "comparison": [
+    {
+      "matrix": "CSphd",
+      "cached_dsm_c8_us": 331.9039941,
+      "cached_global_c8_us": 397.1199989,
+      "uncached_dsm_c8_us": 487.2959852,
+      "uncached_global_c8_us": 576.4480233
+    },
+    {
+      "matrix": "NotreDame_yeast",
+      "cached_dsm_c8_us": 495.4240024,
+      "cached_global_c8_us": 654.2400122,
+      "uncached_dsm_c8_us": 840.5439854,
+      "uncached_global_c8_us": 816.6400194
+    },
+    {
+      "matrix": "ca-GrQc",
+      "cached_dsm_c8_us": 2662.048101,
+      "cached_global_c8_us": 2158.976078,
+      "uncached_dsm_c8_us": 2663.615942,
+      "uncached_global_c8_us": 2159.071922
+    },
+    {
+      "matrix": "email-Eu-core",
+      "cached_dsm_c8_us": 1603.263974,
+      "cached_global_c8_us": 934.400022,
+      "uncached_dsm_c8_us": 2181.952,
+      "uncached_global_c8_us": 1657.376051
+    },
+    {
+      "matrix": "netscience",
+      "cached_dsm_c8_us": 378.4959912,
+      "cached_global_c8_us": 422.5600064,
+      "uncached_dsm_c8_us": 759.2319846,
+      "uncached_global_c8_us": 724.7359753
+    },
+    {
+      "matrix": "orsirr_2",
+      "cached_dsm_c8_us": 127.0399988,
+      "cached_global_c8_us": 152.4479985,
+      "uncached_dsm_c8_us": 350.1439989,
+      "uncached_global_c8_us": 356.543988
+    }
+  ]
+}

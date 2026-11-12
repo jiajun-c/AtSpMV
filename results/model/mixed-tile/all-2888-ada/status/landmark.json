@@ -1,0 +1,15 @@
+{
+  "dataset": "landmark",
+  "matrix_sha256": "29fb87018e59049a52314c847c5ac2a4eaa3b875f7cd8467621fe074fbbc298b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.28,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

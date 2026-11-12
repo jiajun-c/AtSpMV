@@ -1,0 +1,14 @@
+{
+  "matrix": "shermanACa",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/shermanACa/shermanACa.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3432,
+  "columns": 3432,
+  "original_nnz": 25220,
+  "factor_L_nnz": 39644,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04044977389276028
+}

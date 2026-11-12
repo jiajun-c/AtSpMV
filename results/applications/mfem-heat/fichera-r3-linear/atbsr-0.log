@@ -1,0 +1,27 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/fichera-mixed.mesh
+   --refine 3
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr
+   --solution /tmp/atspmv-heat-field-t3r38qyc/temperature.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 31161
+plan rows=31161 nnz=1495767 backend=atbsr tile=4 balanced=0 mixed_cap=0
+plan rows=31161 nnz=1495905 backend=atbsr tile=4 balanced=0 mixed_cap=0
+plan rows=31161 nnz=1495905 backend=atbsr tile=4 balanced=0 mixed_cap=0
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"atbsr","dofs":31161,"steps":20,"nnz":1495905,"initialization_s":1.415875145,"evolution_s":0.108084639,"total_s":1.5239599349999999,"plan_s":0.031723532000000006,"plans":3,"spmv_calls":1218,"linear_solves":20,"cg_iterations":1198,"sum":33164.55152281007,"l2":187.89820879702171,"mass_relative_error":1.7243735070897989e-09,"initial_energy":8.3588753100198367,"final_energy":7.9475256512698884}
+
+STDERR

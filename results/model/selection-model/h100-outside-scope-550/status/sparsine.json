@@ -1,0 +1,17 @@
+{
+  "dataset": "sparsine",
+  "matrix_sha256": "03f0e9bb37ef00084e76379cc3283607f2966711f2b3687ae84191742b2f7bb5",
+  "index_nnz": 1548988,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 34.124,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

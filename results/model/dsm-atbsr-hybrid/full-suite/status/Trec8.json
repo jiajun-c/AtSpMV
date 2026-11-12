@@ -1,0 +1,10 @@
+{
+  "dataset": "Trec8",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Trec8/Trec8.mtx",
+  "matrix_sha256": "42681d12cf28a02052a01597cc2fe2397ee6d736d089f26a7d290066923259ba",
+  "index_nnz": 549,
+  "index_rows": 23,
+  "elapsed_s": 0.995,
+  "returncode": 0,
+  "status": "ok"
+}

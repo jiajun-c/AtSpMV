@@ -1,0 +1,15 @@
+{
+  "dataset": "cond-mat-2003",
+  "matrix_sha256": "a9d27f1b4c2c57691886ce6a2b4887c37f2a86647ed998393f5f1098d3166164",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.173,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

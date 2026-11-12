@@ -1,0 +1,8 @@
+{
+  "name": "can_161",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/can_161-L.mtx,model,cached,161,646,28,1207.156,22.65600014,2.553512957e-15,2.386221504e-17,5.730793466e-17,512\nresults/model/sptrsv/components-independent-h100/factors/can_161-L.mtx,model-host,cached,161,646,28,1207.156,28.356455,2.553512957e-15,2.386221504e-17,5.730793466e-17,512\nresults/model/sptrsv/components-independent-h100/factors/can_161-L.mtx,default,cusparse,161,646,-1,3103.187,43.70240021,2.553512957e-15,2.386221504e-17,5.730793466e-17,0\nresults/model/sptrsv/components-independent-h100/factors/can_161-L.mtx,default-host,cusparse,161,646,-1,3103.187,49.700665,2.553512957e-15,2.386221504e-17,5.730793466e-17,0\n",
+  "stderr": ""
+}

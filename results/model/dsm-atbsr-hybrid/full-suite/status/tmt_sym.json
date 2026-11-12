@@ -1,0 +1,10 @@
+{
+  "dataset": "tmt_sym",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tmt_sym/tmt_sym.mtx",
+  "matrix_sha256": "1e4f5c92c73a7ea066dbbce6a8891fd2d67ffe50737686941ed4bdedc3bd4582",
+  "index_nnz": 5080961,
+  "index_rows": 726713,
+  "elapsed_s": 3.114,
+  "returncode": 0,
+  "status": "ok"
+}

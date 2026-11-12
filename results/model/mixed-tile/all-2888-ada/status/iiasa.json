@@ -1,0 +1,15 @@
+{
+  "dataset": "iiasa",
+  "matrix_sha256": "1856f571b842e56165eb5335d1d50cfba807236ebda959441e32ff40e58d2327",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.177,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

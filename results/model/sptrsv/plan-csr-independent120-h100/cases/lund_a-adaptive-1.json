@@ -1,0 +1,8 @@
+{
+  "name": "lund_a",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/lund_a-L.mtx,model,cached-csr,147,2563,118,1153.274,61.33119965,6.661338148e-15,5.296408502e-17,1.044061465e-16,256\nresults/model/sptrsv/csr-independent120-h100/factors/lund_a-L.mtx,model-host,cached-csr,147,2563,118,1153.274,67.279305,6.661338148e-15,5.296408502e-17,1.044061465e-16,256\nresults/model/sptrsv/csr-independent120-h100/factors/lund_a-L.mtx,default,cusparse,147,2563,-1,2630.853,92.00959778,6.661338148e-15,5.296408502e-17,1.044061465e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/lund_a-L.mtx,default-host,cusparse,147,2563,-1,2630.853,98.83929,6.661338148e-15,5.296408502e-17,1.044061465e-16,0\n",
+  "stderr": ""
+}

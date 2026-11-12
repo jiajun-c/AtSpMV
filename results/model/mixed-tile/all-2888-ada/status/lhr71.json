@@ -1,0 +1,15 @@
+{
+  "dataset": "lhr71",
+  "matrix_sha256": "0ad8e346ff8bbdb27de37878aa7b12f45d61d481329425a291bd6eee4ad966d2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.535,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

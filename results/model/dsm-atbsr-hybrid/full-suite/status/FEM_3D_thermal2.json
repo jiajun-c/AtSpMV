@@ -1,0 +1,10 @@
+{
+  "dataset": "FEM_3D_thermal2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/FEM_3D_thermal2/FEM_3D_thermal2.mtx",
+  "matrix_sha256": "9322bfb77f149dccd9fd314df4cc896c328a9f81b4499fe9172eb43c4fc286fb",
+  "index_nnz": 3489300,
+  "index_rows": 147900,
+  "elapsed_s": 3.187,
+  "returncode": 0,
+  "status": "ok"
+}

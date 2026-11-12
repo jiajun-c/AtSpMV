@@ -1,0 +1,7 @@
+{
+  "name": "sts4098",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/sts4098-L.mtx,model,cusparse,4098,163703,-1,10664.278,728.4351807,2.819966483e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/sts4098-L.mtx,default,cusparse,4098,163703,-1,9922.963,728.3520508,2.819966483e-14\n",
+  "stderr": ""
+}

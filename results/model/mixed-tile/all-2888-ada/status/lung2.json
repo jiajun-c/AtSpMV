@@ -1,0 +1,15 @@
+{
+  "dataset": "lung2",
+  "matrix_sha256": "4f5ef350d9fc4d0d76e114989d3ea4f983e42e51694d8062d903bc2e4a3e62be",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.369,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

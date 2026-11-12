@@ -1,0 +1,31 @@
+{
+  "dataset": "G3_circuit",
+  "status": "ok",
+  "matrix_sha256": "ccaf9972ebe3f24731cec7295f281bdca59f31cb084663ef1011f0194a26a101",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/G3_circuit/G3_circuit.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/G3_circuit-0.csv",
+        "20261149",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.0276072318665683
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/G3_circuit/G3_circuit.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/G3_circuit-1.csv",
+        "20261150",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.51478368206881
+    }
+  ]
+}

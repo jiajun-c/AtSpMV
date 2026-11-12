@@ -1,0 +1,10 @@
+{
+  "dataset": "psmigr_1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/psmigr_1/psmigr_1.mtx",
+  "matrix_sha256": "70c8dc7fdf5aedeb99dca8375f7ec2de648a93742a4c62fac70844d047f7c106",
+  "index_nnz": 543162,
+  "index_rows": 3140,
+  "elapsed_s": 1.224,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "L12_d4",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/selector-boundary-h100/factors/L12_d4.mtx,default,cusparse,3072,14336,-1,2236.367,27.92640114,2.220446049e-16\nresults/model/sptrsv/selector-boundary-h100/factors/L12_d4.mtx,model,cached,3072,14336,12,1399.519,25.7344017,2.220446049e-16\n",
+  "stderr": ""
+}

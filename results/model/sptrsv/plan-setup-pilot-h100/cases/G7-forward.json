@@ -1,0 +1,7 @@
+{
+  "name": "G7",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/G7-L.mtx,default,cusparse,11458.0265,11416.222,15753.288,73.2195,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/G7-L.mtx,model,cusparse,11531.624,11468.618,18335.292,74.7465,12\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "ex26",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ex26/ex26.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2163,
+  "columns": 2163,
+  "original_nnz": 94033,
+  "factor_L_nnz": 111020,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.09631391800940037
+}

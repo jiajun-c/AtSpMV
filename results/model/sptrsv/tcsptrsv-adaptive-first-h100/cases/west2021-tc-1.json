@@ -1,0 +1,9 @@
+{
+  "name": "west2021",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/west2021-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2032, 2032 ) nnz = 5461\nloadfile time    = 0.00226 sec\nnnzL = 5461\ntime_for_csc2CompressTile = 2.44 ms\ntime_cuda_solve = 0.097750 ms, Mflops = 111.73\nVALIDATION finite=1 max_error=1.3322676295501878e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

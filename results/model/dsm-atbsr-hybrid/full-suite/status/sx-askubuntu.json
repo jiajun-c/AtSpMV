@@ -1,0 +1,10 @@
+{
+  "dataset": "sx-askubuntu",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sx-askubuntu/sx-askubuntu.mtx",
+  "matrix_sha256": "ba69f3d31d5289a565db62fd81d7b74fddc3f3b689e5e0e56b391d9fdbd4691b",
+  "index_nnz": 596933,
+  "index_rows": 159316,
+  "elapsed_s": 1.92,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "netherlands_osm",
+  "matrix_sha256": "7084e2f634518805c1a72494c2a1cc018d79420aee037ab0743bb6755857e797",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.899,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "paused": [
+    {
+      "pid": 1190407,
+      "starttime": "57050097",
+      "cmd": "bash results/model/hybrid-time-model/shared-row-sort-h100/run-correctness-after.sh "
+    },
+    {
+      "pid": 2773055,
+      "starttime": "66044447",
+      "cmd": "python3 results/model/hybrid-time-model/shared-row-sort-h100/provenance/run_on_idle_gpu.py --gpu-index 3 bash -c target=$1; shift; exec \"$@\" > \"$target.tmp\" 2>&1 _ results/model/hybrid-time-model/shared-row-sort-h100/direct.log results/model/hybrid-time-model/shared-row-sort-h100/provenance/spmv_plan_test --quick "
+    },
+    {
+      "pid": 1195538,
+      "starttime": "57054841",
+      "cmd": "bash results/model/hybrid-time-model/shared-row-sort-paired80/run-after-correctness.sh "
+    },
+    {
+      "pid": 1207699,
+      "starttime": "57067481",
+      "cmd": "bash results/model/hybrid-time-model/short-row-cache-h100/run-after-paired.sh "
+    },
+    {
+      "pid": 1226134,
+      "starttime": "57100525",
+      "cmd": "bash results/model/hybrid-time-model/shared-tile-stats-paired80/run-after-short-cache.sh "
+    },
+    {
+      "pid": 1523024,
+      "starttime": "57417618",
+      "cmd": "bash results/model/hybrid-time-model/vector-model-full-2247/run-after-80.sh "
+    },
+    {
+      "pid": 1558352,
+      "starttime": "57456868",
+      "cmd": "bash results/model/hybrid-time-model/vector-model-full-2247/finalize-uncertainty.sh "
+    },
+    {
+      "pid": 1586677,
+      "starttime": "57500000",
+      "cmd": "bash results/model/hybrid-time-model/unified-policy-full-2794/run-after-vector-full.sh "
+    },
+    {
+      "pid": 1637761,
+      "starttime": "57557078",
+      "cmd": "bash results/model/hybrid-time-model/shared-atbsr-paired80/run-after-policy.sh "
+    }
+  ]
+}

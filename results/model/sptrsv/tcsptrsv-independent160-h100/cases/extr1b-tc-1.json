@@ -1,0 +1,9 @@
+{
+  "name": "extr1b",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/extr1b-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2848, 2848 ) nnz = 12992\nloadfile time    = 0.00582 sec\nnnzL = 12992\ntime_for_csc2CompressTile = 2.54 ms\ntime_cuda_solve = 0.877200 ms, Mflops = 29.62\nVALIDATION finite=1 max_error=1.2545520178264269e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

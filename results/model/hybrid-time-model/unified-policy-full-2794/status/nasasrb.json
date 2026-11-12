@@ -1,0 +1,17 @@
+{
+  "dataset": "nasasrb",
+  "matrix_sha256": "630b5acc0553168ff1f0a337b9549481e5550deef758ea6c75834e8d3aad4c6c",
+  "index_nnz": 2677324,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.583,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

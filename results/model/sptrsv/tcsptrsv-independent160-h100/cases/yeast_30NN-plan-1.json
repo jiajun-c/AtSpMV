@@ -1,0 +1,9 @@
+{
+  "name": "yeast_30NN",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/yeast_30NN-L.mtx,default,cusparse,1488,154921,-1,20093.918,920.1791992,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/yeast_30NN-L.mtx,default-host,cusparse,1488,154921,-1,20093.918,928.517055,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/yeast_30NN-L.mtx,model,cusparse,1488,154921,1040,19339.766,920.3392334,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/yeast_30NN-L.mtx,model-host,cusparse,1488,154921,1040,19339.766,927.793275,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\n",
+  "stderr": ""
+}

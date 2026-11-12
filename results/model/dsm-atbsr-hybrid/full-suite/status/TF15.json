@@ -1,0 +1,10 @@
+{
+  "dataset": "TF15",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/TF15/TF15.mtx",
+  "matrix_sha256": "717c9acfb7cfc9270d573c37d4327865e04cdeefab4ff09b1060f6dc43e1c6b1",
+  "index_nnz": 80057,
+  "index_rows": 6334,
+  "elapsed_s": 1.524,
+  "returncode": 0,
+  "status": "ok"
+}

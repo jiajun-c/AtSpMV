@@ -1,0 +1,9 @@
+{
+  "name": "ex26",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/ex26-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2176, 2176 ) nnz = 111033\nloadfile time    = 0.04257 sec\nnnzL = 111033\ntime_for_csc2CompressTile = 2.23 ms\ntime_cuda_solve = 1.027910 ms, Mflops = 216.04\nVALIDATION finite=1 max_error=7.3607786532647879e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

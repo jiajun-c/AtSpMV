@@ -1,0 +1,10 @@
+{
+  "dataset": "patents_main",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/patents_main/patents_main.mtx",
+  "matrix_sha256": "24cde05c7d2ecaec3bc4e21590fb0592c3ddceedd6fad936996b98de88d9e817",
+  "index_nnz": 560943,
+  "index_rows": 240547,
+  "elapsed_s": 1.378,
+  "returncode": 0,
+  "status": "ok"
+}

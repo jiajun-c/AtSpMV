@@ -1,0 +1,4 @@
+tuned auto -> atbsr, candidates=15, setup_us=357223
+tuned atbsr -> atbsr, candidates=12, setup_us=94056.1
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=2301.87
+PASS: 124 direct/graph/reference checks; dsm_available=0

@@ -1,0 +1,141 @@
+10/561 af_5_k101: ok, new=10
+20/561 para-7: ok, new=20
+30/561 exdata_1: ok, new=30
+RETRY due to external GPU use Zd_Jac6 [{'pid': 3121685, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3127224, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+RETRY due to external GPU use mycielskian13 [{'pid': 3214052, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3223708, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3237656, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3251363, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+RETRY due to external GPU use mycielskian13 [{'pid': 3270694, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3272851, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3278993, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3287759, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3290898, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3293166, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3310013, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3316524, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3326750, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3326750, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3334410, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3343247, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3343247, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3343247, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3359804, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3362772, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3376668, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3376668, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+RETRY due to external GPU use web-BerkStan [{'pid': 3464900, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3465394, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+RETRY due to external GPU use web-BerkStan [{'pid': 3499617, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3506353, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3508393, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3508393, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3521048, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3524757, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3532495, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3533898, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3545918, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3555332, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3558529, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3565481, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3569999, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3582259, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3588475, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3596645, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3602312, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3613186, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3619383, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3628286, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3635675, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3646403, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3646403, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3658329, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3658329, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3671214, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3671214, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3671214, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3671214, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3684626, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3684626, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3684626, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3704483, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3704483, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3724243, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3724243, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3724243, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3724243, 'name': '/staff/zhangyi/stencil-dsm-experiment/build-gate-x-gpu2/numeric-final-runner'}]
+WAIT GPU busy [{'pid': 3738115, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 3746991, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 3754905, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 3759847, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 3761984, 'name': '[No data]'}]
+47/561 IG5-18: ok, new=10
+57/561 power197k: ok, new=20
+67/561 gyro: ok, new=30
+70/561 uk-2002: error, new=33
+77/561 RM07R: ok, new=40
+87/561 troll: ok, new=50
+97/561 c-73b: ok, new=60
+102/561 GAP-road: timeout, new=65
+107/561 ML_Geer: ok, new=70
+117/561 barrier2-3: ok, new=80
+127/561 windtunnel_evap3d: ok, new=90
+137/561 para-4: ok, new=100
+RETRY due to external GPU use adaptive [{'pid': 3719949, 'name': 'bin/paired_ozakistencil_tc'}]
+RETRY due to external GPU use adaptive [{'pid': 3748729, 'name': 'bin/paired_ozakistencil_tc'}]
+154/561 ecology1: ok, new=10
+164/561 hugetric-00010: ok, new=20
+174/561 GL7d18: ok, new=30
+184/561 radiation: ok, new=40
+194/561 pds-90: ok, new=50
+204/561 StocF-1465: ok, new=60
+214/561 cage15: ok, new=70
+224/561 bibd_19_9: ok, new=80
+228/561 mawi_201512012345: error, new=84
+234/561 specular: ok, new=90
+244/561 TSOPF_FS_b300_c3: ok, new=100
+254/561 heart1: ok, new=110
+264/561 n4c6-b7: ok, new=120
+274/561 road_central: ok, new=130
+284/561 s3dkq4m2: ok, new=140
+294/561 in2010: ok, new=150
+300/561 hugebubbles-00020: timeout, new=156
+304/561 oh2010: ok, new=160
+309/561 mawi_201512020000: error, new=165
+314/561 vas_stokes_4M: ok, new=170
+324/561 c-big: ok, new=180
+334/561 thermal2: ok, new=190
+344/561 mosfet2: ok, new=200
+354/561 vsp_finan512_scagr7-2c_rlfddd: ok, new=210
+364/561 bcsstk32: ok, new=220
+369/561 Spielman_k400: timeout, new=225
+374/561 rgg_n_2_17_s0: ok, new=230
+384/561 ga2010: ok, new=240
+RETRY due to external GPU use hugetrace-00000 [{'pid': 3264062, 'name': 'python3'}]
+WAIT GPU busy [{'pid': 3264062, 'name': 'python3'}]
+395/561 Goodwin_127: ok, new=10
+402/561 Spielman_k500: error, new=17
+405/561 af_0_k101: ok, new=20
+415/561 dielFilterV3real: ok, new=30
+425/561 Hardesty1: ok, new=40
+435/561 pkustk04: ok, new=50
+438/561 Spielman_k600: error, new=53
+445/561 Ga41As41H72: ok, new=60
+455/561 smt: ok, new=70
+465/561 TSC_OPF_1047: ok, new=80
+475/561 pds-100: ok, new=90
+485/561 Zd_Jac2: ok, new=100
+493/561 europe_osm: timeout, new=108
+495/561 al2010: ok, new=110
+505/561 dgreen: ok, new=120
+508/561 road_usa: timeout, new=123
+515/561 matrix_9: ok, new=130
+525/561 crystk03: ok, new=140
+535/561 Ge87H76: ok, new=150
+545/561 mycielskian18: ok, new=160
+551/561 circuit5M: timeout, new=166
+555/561 ex11: ok, new=170
+559/561 FullChip: timeout, new=174
+DONE new cases 176
+runner exit code: 0

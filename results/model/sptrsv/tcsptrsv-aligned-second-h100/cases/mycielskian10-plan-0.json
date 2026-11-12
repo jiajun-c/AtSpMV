@@ -1,0 +1,9 @@
+{
+  "name": "mycielskian10",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/mycielskian10-L.mtx,default,cusparse,768,39132,-1,6799.991,422.8511963,5.40678613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/mycielskian10-L.mtx,default-host,cusparse,768,39132,-1,6799.991,429.399335,5.40678613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/mycielskian10-L.mtx,model,cusparse,768,39132,513,6816.082,422.8992004,5.40678613e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/mycielskian10-L.mtx,model-host,cusparse,768,39132,513,6816.082,429.10857,5.40678613e-14\n",
+  "stderr": ""
+}

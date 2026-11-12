@@ -1,0 +1,10 @@
+{
+  "dataset": "gen4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/gen4/gen4.mtx",
+  "matrix_sha256": "187ba97fed2ce09d2f042c67889c4491cdb027f8bb2a35a6f7ef74c1aa0d8038",
+  "index_nnz": 107103,
+  "index_rows": 1537,
+  "elapsed_s": 1.204,
+  "returncode": 0,
+  "status": "ok"
+}

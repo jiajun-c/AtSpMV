@@ -1,0 +1,15 @@
+{
+  "dataset": "great-britain_osm",
+  "matrix_sha256": "72cb2375ac3b81b47d9eee0f8c3b8be45d72198ede7f32cdedd7ad13a79df997",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 47.372,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "mice_10NN",
+  "matrix_sha256": "0afa46285aff3669bf9cd67f4a1ce2445bddc84e4fc76ed8197570d796095898",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.704,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

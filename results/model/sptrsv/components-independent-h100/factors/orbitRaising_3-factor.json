@@ -1,0 +1,14 @@
+{
+  "matrix": "orbitRaising_3",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/orbitRaising_3/orbitRaising_3.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 761,
+  "columns": 761,
+  "original_nnz": 6098,
+  "factor_L_nnz": 8305,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03442903608083725
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "lowThrust_13",
+  "matrix_sha256": "a1c2cd5e947a4cf3ea2653a9a53de81530a253e8f34a25ec25988327fc5374ff",
+  "index_nnz": 224897,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.312,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

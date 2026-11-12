@@ -1,0 +1,15 @@
+{
+  "dataset": "nos3",
+  "matrix_sha256": "87a0c2cb545a22df5426cfb2e43f19308a0dfafefdf17c095d10d19422de8215",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.024,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "aa4",
+  "matrix_sha256": "90809e2647089faa8acf6de37f62522090ea67542f241f2c0b799d88a8924930",
+  "index_nnz": 52121,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.001,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

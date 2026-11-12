@@ -1,0 +1,17 @@
+{
+  "dataset": "CSphd",
+  "matrix_sha256": "08ede5ac6f5aafac9bc03be7b903c5151e40b8b62dad49e96e5af8b0561e7e25",
+  "index_nnz": 1740,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.097,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

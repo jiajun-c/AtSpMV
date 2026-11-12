@@ -1,0 +1,9 @@
+{
+  "name": "ex36",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=2.4424906541753444e-14 reference_scale=1.4900990099009901\ntime_cuda_solve = 2.332820000 ms\n",
+  "stderr": ""
+}

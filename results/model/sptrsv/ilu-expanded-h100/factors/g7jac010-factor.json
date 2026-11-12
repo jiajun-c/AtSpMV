@@ -1,0 +1,13 @@
+{
+  "matrix": "g7jac010",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/g7jac010/g7jac010.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2880,
+  "columns": 2880,
+  "original_nnz": 19635,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.05011867103166878
+}

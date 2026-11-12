@@ -1,0 +1,10 @@
+{
+  "dataset": "msc01440",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/msc01440/msc01440.mtx",
+  "matrix_sha256": "78f41e204f8fd939dea19f53f40dbba1b6d1aa3380053a29c304ffab17f7db35",
+  "index_nnz": 46270,
+  "index_rows": 1440,
+  "elapsed_s": 1.247,
+  "returncode": 0,
+  "status": "ok"
+}

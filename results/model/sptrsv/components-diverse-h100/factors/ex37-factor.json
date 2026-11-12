@@ -1,0 +1,14 @@
+{
+  "matrix": "ex37",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ex37/ex37.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3565,
+  "columns": 3565,
+  "original_nnz": 67591,
+  "factor_L_nnz": 70006,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.1699698769953102
+}

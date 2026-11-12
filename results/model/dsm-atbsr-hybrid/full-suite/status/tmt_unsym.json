@@ -1,0 +1,10 @@
+{
+  "dataset": "tmt_unsym",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tmt_unsym/tmt_unsym.mtx",
+  "matrix_sha256": "1ae3017ab90076eea615535b8a0af7ea8d29cfb75009864cc46dea0ac08595dc",
+  "index_nnz": 4584801,
+  "index_rows": 917825,
+  "elapsed_s": 2.533,
+  "returncode": 0,
+  "status": "ok"
+}

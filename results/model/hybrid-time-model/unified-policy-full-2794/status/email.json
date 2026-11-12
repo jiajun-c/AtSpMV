@@ -1,0 +1,17 @@
+{
+  "dataset": "email",
+  "matrix_sha256": "90152067ca16e52704d28ae856cfc46753f9f42c8719c5d21645fb25f493b834",
+  "index_nnz": 10902,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.301,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

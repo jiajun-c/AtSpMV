@@ -1,0 +1,10 @@
+{
+  "dataset": "flower_4_1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/flower_4_1/flower_4_1.mtx",
+  "matrix_sha256": "4a0b0d4a6a169c7692ed8feacc6907c75e685b75f155ffc7f2718b53ea93218c",
+  "index_nnz": 386,
+  "index_rows": 121,
+  "elapsed_s": 0.684,
+  "returncode": 0,
+  "status": "ok"
+}

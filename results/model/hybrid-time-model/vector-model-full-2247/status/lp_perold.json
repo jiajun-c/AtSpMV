@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_perold",
+  "matrix_sha256": "3bd0c707dd20e64af68d201ce1485f0e385581adfad0d2cd0d62cce18fff51f8",
+  "index_nnz": 6148,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.791,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "adder_dcop_04",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_04/adder_dcop_04.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1813,
+  "columns": 1813,
+  "original_nnz": 11107,
+  "factor_L_nnz": 6346,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.026467656949535012
+}

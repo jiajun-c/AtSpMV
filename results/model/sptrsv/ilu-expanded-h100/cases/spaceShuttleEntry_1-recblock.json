@@ -1,0 +1,7 @@
+{
+  "name": "spaceShuttleEntry_1",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-expanded-h100/factors/spaceShuttleEntry_1-L.mtx --------------\ninput matrix A: ( 560, 560 ) nnz = 8898\ncomputation usetime = 0.326 ms\nPerformance = 0.055 gflops\n\nx check passed! |x-xref|/|xref| = 2.19e-16\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=2\nstage calculate done\n"
+}

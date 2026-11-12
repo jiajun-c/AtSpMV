@@ -1,0 +1,8 @@
+{
+  "name": "tumorAntiAngiogenesis_3",
+  "round": 0,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/tumorAntiAngiogenesis_3-L.mtx,default,cusparse,410,8153,-1,3203.088,147.3312073,5.528910663e-14,1.794368122e-17,9.882499626e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/tumorAntiAngiogenesis_3-L.mtx,default-host,cusparse,410,8153,-1,3203.088,155.122955,5.528910663e-14,1.794368122e-17,9.882499626e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/tumorAntiAngiogenesis_3-L.mtx,model,cached,410,8153,141,1832.186,112.5023956,5.351274979e-14,7.824579383e-17,1.106123519e-16,512\nresults/model/sptrsv/csr-independent120-h100/factors/tumorAntiAngiogenesis_3-L.mtx,model-host,cached,410,8153,141,1832.186,119.25757,5.351274979e-14,7.824579383e-17,1.106123519e-16,512\n",
+  "stderr": ""
+}

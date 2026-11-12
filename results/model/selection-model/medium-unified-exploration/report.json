@@ -1,0 +1,38 @@
+{
+  "scope": "Retrospective replay using the actual unified prediction gates; medium candidates use initialization medians, whereas default AtBSR uses separately timed warm Graph. Non-default baseline candidates also use tuning medians. Timing-source and allocation biases remain; no fresh Plan execution. Approximate family holdout and existing unified model may have data overlap.",
+  "source_dataset_sha256": "198093249b90f54e3cf8b4c66e57a8df40fb59fd33b3ebeab95d723a4c1f2bd5",
+  "vector_model_sha256": "437d8df5651ac2445177072db7aaed7e42bcd46e5cbdb51633e1c99fc4ed05f7",
+  "model_sha256": "278fa9e5b355fb25e6eed0bf2c4210c97e062c8646438d134dfec9e9e1f3709e",
+  "metrics": {
+    "train": {
+      "matrices": 254,
+      "selected_medium": 52,
+      "geomean_speedup_vs_existing": 1.045839499617713,
+      "faster_5pct": 52,
+      "slower_5pct": 0,
+      "old_over_restricted_oracle": 1.0680347946959043,
+      "new_over_restricted_oracle": 1.021222467774744,
+      "candidate_mape": 0.030246815386374498
+    },
+    "dev": {
+      "matrices": 72,
+      "selected_medium": 12,
+      "geomean_speedup_vs_existing": 1.038509811849249,
+      "faster_5pct": 12,
+      "slower_5pct": 0,
+      "old_over_restricted_oracle": 1.0631191982094015,
+      "new_over_restricted_oracle": 1.0236968260476336,
+      "candidate_mape": 0.07869716606239598
+    },
+    "holdout": {
+      "matrices": 38,
+      "selected_medium": 10,
+      "geomean_speedup_vs_existing": 1.057621314620088,
+      "faster_5pct": 10,
+      "slower_5pct": 0,
+      "old_over_restricted_oracle": 1.0926081252889823,
+      "new_over_restricted_oracle": 1.033080659575646,
+      "candidate_mape": 0.06227742276208062
+    }
+  }
+}

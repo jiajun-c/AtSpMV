@@ -1,0 +1,9 @@
+{
+  "name": "west2021",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,default,cusparse,2021,5450,-1,2165.006,47.42720032,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,default-host,cusparse,2021,5450,-1,2165.006,53.96528,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,model,cached,2021,5450,28,1305.274,31.28319931,8.881784197e-16\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/west2021-L.mtx,model-host,cached,2021,5450,28,1305.274,38.81319,8.881784197e-16\n",
+  "stderr": ""
+}

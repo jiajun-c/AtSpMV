@@ -1,0 +1,63 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 6
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr-tuned
+   --solution /tmp/atspmv-heat-field-naieb6nw/temperature.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 328961
+plan rows=328961 nnz=5248001 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=105.888
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=100.632
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=73.151998
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=62.936001
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=58.899999
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=52.983999
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=50.420001
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=47.851998
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=47.524001
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=43.795999
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=43.536
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=43.272
+plan rows=328961 nnz=5247969 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=106.232
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=100.708
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=73.495999
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=63.032001
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=58.940001
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=53.335998
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=49.692001
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=47.644001
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=47.499999
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=44.488002
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=43.432001
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=43.104
+plan rows=328961 nnz=5248001 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=105.936
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=100.756
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=73.307998
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=63.203998
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=59.092
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=53.084001
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=50.020002
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=47.784001
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=47.656
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=44.211999
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=43.471999
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=42.98
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"atbsr-tuned","dofs":328961,"steps":20,"nnz":5248001,"initialization_s":12.331187433,"evolution_s":1.7529398679999999,"total_s":14.084127606999999,"plan_s":0.43804055800000002,"plans":3,"spmv_calls":13156,"linear_solves":20,"cg_iterations":13136,"sum":383245.18379476201,"l2":668.71074992080423,"mass_relative_error":5.7017375719280314e-09,"initial_energy":7.1109739060228634,"final_energy":6.4661814868895116}
+
+STDERR

@@ -1,0 +1,10 @@
+{
+  "dataset": "iiasa",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/iiasa/iiasa.mtx",
+  "matrix_sha256": "1856f571b842e56165eb5335d1d50cfba807236ebda959441e32ff40e58d2327",
+  "index_nnz": 7317,
+  "index_rows": 669,
+  "elapsed_s": 1.176,
+  "returncode": 0,
+  "status": "ok"
+}

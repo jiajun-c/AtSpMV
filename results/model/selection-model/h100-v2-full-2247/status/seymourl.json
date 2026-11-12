@@ -1,0 +1,17 @@
+{
+  "dataset": "seymourl",
+  "matrix_sha256": "0dedb395b90c0a332e5b249ac4e26bfc300c22d8ecb6a8f9d3faf1709100ad4b",
+  "index_nnz": 38493,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.441,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

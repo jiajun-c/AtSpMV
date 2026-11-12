@@ -1,0 +1,15 @@
+{
+  "dataset": "Baumann",
+  "matrix_sha256": "fae201065c17b0a065b6743dc55a6d15d23ff0467a10e0a0ba647ca9275d3345",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.642,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

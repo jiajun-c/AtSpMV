@@ -1,0 +1,9 @@
+{
+  "name": "mhd3200b",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mhd3200b-L.mtx,default,cusparse,3200,10758,-1,5316.875,904.2271729,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mhd3200b-L.mtx,default-host,cusparse,3200,10758,-1,5316.875,910.2547,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mhd3200b-L.mtx,model,cusparse,3200,10758,798,5355.439,904.4416504,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/mhd3200b-L.mtx,model-host,cusparse,3200,10758,798,5355.439,910.95922,1.776356839e-15,4.090069063e-17,1.565730045e-16,0\n",
+  "stderr": ""
+}

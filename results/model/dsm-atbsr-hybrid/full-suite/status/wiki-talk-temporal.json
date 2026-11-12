@@ -1,0 +1,10 @@
+{
+  "dataset": "wiki-talk-temporal",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-talk-temporal/wiki-talk-temporal.mtx",
+  "matrix_sha256": "a2d3845eee4421e83d740e31b0ca5a2ac564581d18647c55b44736e495094bb2",
+  "index_nnz": 3309592,
+  "index_rows": 1140149,
+  "elapsed_s": 4.292,
+  "returncode": 0,
+  "status": "ok"
+}

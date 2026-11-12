@@ -1,0 +1,17 @@
+{
+  "dataset": "Muu",
+  "matrix_sha256": "42ae4d1c02a9876dfdd752d79dbf07ec5ab8ecb1db3952af75270a3eb9dd15c1",
+  "index_nnz": 170134,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.327,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  }
+}

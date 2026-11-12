@@ -1,0 +1,13 @@
+{
+  "matrix": "diag",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/diag/diag.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2559,
+  "columns": 2559,
+  "original_nnz": 8184,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.02523495489731431
+}

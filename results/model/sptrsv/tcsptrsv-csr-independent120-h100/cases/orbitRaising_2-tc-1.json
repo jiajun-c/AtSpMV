@@ -1,0 +1,9 @@
+{
+  "name": "orbitRaising_2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/orbitRaising_2-L.mtx --------------\nsuccess open file\ninput matrix A: ( 752, 752 ) nnz = 8518\nloadfile time    = 0.00292 sec\nnnzL = 8518\ntime_for_csc2CompressTile = 2.08 ms\ntime_cuda_solve = 0.264430 ms, Mflops = 64.43\nVALIDATION finite=1 max_error=2.3647750424515834e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

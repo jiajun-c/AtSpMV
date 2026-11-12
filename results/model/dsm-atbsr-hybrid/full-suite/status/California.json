@@ -1,0 +1,10 @@
+{
+  "dataset": "California",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/California/California.mtx",
+  "matrix_sha256": "f4cc8b87947acdf3fcec429086571228fe15b16e0dec42d2b3fdd9ebc516052a",
+  "index_nnz": 16150,
+  "index_rows": 9664,
+  "elapsed_s": 1.265,
+  "returncode": 0,
+  "status": "ok"
+}

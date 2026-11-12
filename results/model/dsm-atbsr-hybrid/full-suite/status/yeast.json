@@ -1,0 +1,10 @@
+{
+  "dataset": "yeast",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/yeast/yeast.mtx",
+  "matrix_sha256": "22a51331a985d1d3fac4e4c221500397281aca081748e6c5c86c7f579670037d",
+  "index_nnz": 13828,
+  "index_rows": 2361,
+  "elapsed_s": 0.769,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "mhda416",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mhda416-L.mtx,model,cached,416,12202,160,1759.451,131.2863922,3.996802889e-15,1.802854221e-17,7.073615871e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mhda416-L.mtx,model-host,cached,416,12202,160,1759.451,138.162805,3.996802889e-15,1.802854221e-17,7.073615871e-17,512\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mhda416-L.mtx,default,cusparse,416,12202,-1,3271.289,142.5919952,3.996802889e-15,1.802854221e-17,7.969025016e-17,0\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mhda416-L.mtx,default-host,cusparse,416,12202,-1,3271.289,149.988985,3.996802889e-15,1.802854221e-17,7.969025016e-17,0\n",
+  "stderr": ""
+}

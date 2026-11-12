@@ -1,0 +1,8 @@
+{
+  "name": "mcca",
+  "mode": "k2",
+  "round": 0,
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cusparse,19281.549,95.40159702,1.33226763e-15,3.319905036e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cusparse-host,19281.549,101.74231,1.33226763e-15,3.319905036e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-128,94.569,73.70240092,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-host-128,94.569,79.62758,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-256,94.569,69.65439916,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-host-256,94.569,75.41434,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-512,94.569,69.30879951,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,cached-tiles-host-512,94.569,75.172195,1.33226763e-15,2.847185333e-17\nresults/model/sptrsv/ilu-selector-holdout-h100/factors/mcca-L.mtx,180,1723,92,selector-cached,94.569,69.32479739,1.33226763e-15,2.847185333e-17\n",
+  "stderr": ""
+}

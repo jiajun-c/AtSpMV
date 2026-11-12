@@ -1,0 +1,46 @@
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "selected_backends": {
+    "csr_vector": 1622,
+    "atbsr": 381,
+    "csr_two_stage": 74,
+    "csr_dsm": 148,
+    "cusparse": 13,
+    "hybrid_dsm_atbsr": 9
+  },
+  "selection": "auto_vector_model",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. Default AtBSR is constructed first in both orders; the two model plans swap relative order after this anchor. Model labels with identical resolved configurations execute the same Plan instance. Those labels also execute the same Graph executable. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.1558021988645344,
+    "median": 1.158061369626029,
+    "wins": 1980,
+    "cases": 2247
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.586899372869013,
+    "median": 1.7238703974461926,
+    "wins": 2161,
+    "cases": 2247
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.147319315796052,
+    "median": 1.1458402743834544,
+    "wins": 1936,
+    "cases": 2247
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.0719838349117714,
+    "median": 1.0962570492258203,
+    "wins": 1794,
+    "cases": 2247
+  },
+  "speedup_vs_auto_model": {
+    "geomean": 1.0997363438609014,
+    "median": 1.1103300543517463,
+    "wins": 1791,
+    "cases": 2247
+  }
+}

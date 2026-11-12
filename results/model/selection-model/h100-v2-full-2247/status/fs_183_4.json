@@ -1,0 +1,17 @@
+{
+  "dataset": "fs_183_4",
+  "matrix_sha256": "1cf24dc9b036a18c8a6e58b1dcf736f4124a563eb47b01dd258d1fe884a2fb57",
+  "index_nnz": 1069,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.585,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

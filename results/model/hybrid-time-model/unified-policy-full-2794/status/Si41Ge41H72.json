@@ -1,0 +1,17 @@
+{
+  "dataset": "Si41Ge41H72",
+  "matrix_sha256": "6b8680f7fd26c9a1630c1ffcee875b1a2e113914aa5a117bf114635f09ce017f",
+  "index_nnz": 15011265,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 14.045,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "t2d_q9",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/t2d_q9-L.mtx,model,cusparse,9801,197889,-1,9157.402,619.1167603,2.220446049e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/t2d_q9-L.mtx,model-host,cusparse,9801,197889,-1,9157.402,624.930385,2.220446049e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/t2d_q9-L.mtx,default,cusparse,9801,197889,-1,8523.982,619.4655762,2.220446049e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/t2d_q9-L.mtx,default-host,cusparse,9801,197889,-1,8523.982,625.31936,2.220446049e-15\n",
+  "stderr": ""
+}

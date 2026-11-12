@@ -1,0 +1,5 @@
+{
+  "matrix": "results/model/sptrsv/ilu-upper-transpose-h100/factors/oscil_dcop_48-L.mtx",
+  "digits": 150,
+  "rounded_rhs_high_precision_forward_error": "159503553469.1238"
+}

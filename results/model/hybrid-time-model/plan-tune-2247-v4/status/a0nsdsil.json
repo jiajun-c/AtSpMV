@@ -1,0 +1,19 @@
+{
+  "dataset": "a0nsdsil",
+  "matrix_sha256": "5503ea5b2a58c8bb96c234ed9230f32fb60a3269a122b5eabe8d211b32577665",
+  "index_nnz": 355034,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.951,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

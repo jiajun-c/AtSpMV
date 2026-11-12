@@ -1,0 +1,31 @@
+{
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "device_index": 3,
+  "sources": {
+    "optimized_spmvPlan.cu": "5bac3fc0e75bc6276977ab1f2af7bd3b847d550ecf0a1734a9ef3ccb851a9e3a",
+    "optimized_plan_test.cu": "63527fbaeb93ed249217bf0130a585dea294d3e28c371f37dc1979070404dd89"
+  },
+  "executables": {
+    "/tmp/atspmv-dsm-sm90-build/spmv_plan_bench": "a26c484ed3b23d6b23423cb9852e53c704469577fa6d36c89ee3b214734a12a7",
+    "/tmp/atspmv-hybrid-optimization-build/spmv_plan_bench": "89ccf62efe96ed4329d17f6e7cbb8da4e6f7e952bde28b080a09155f1260b92d",
+    "/tmp/atspmv-hybrid-optimization-build/spmv_hybrid_validation": "1c3f1066ea3ab267921f33b87358d22d773d1843defaf0fa397451d4ce3bac5b",
+    "/tmp/atspmv-hybrid-optimization-build/spmv_plan_test": "5c30ec68df5f2b5257d05fabbfffb8dfbb1668e999cdc14d9ecaf49489320f9e"
+  },
+  "test_method": "Exclusive GPU, 30 seconds continuous idle before each externally interrupted run. Each configuration validates two nonuniform inputs and a graph against CPU long double; three randomized seeds, each 21 interleaved timed batches of 8 warm graph calls. No prep cost in CUDA events.",
+  "auto_method": "Alternating baseline/optimized automatic tuning runs; compare setup time and actual chosen backend and timing, not end-to-end inference.",
+  "inputs": {
+    "c-53": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-53/c-53.mtx",
+      "sha256": "5e4adb7a489f2f588ee92fe152def73a15af2b905d0a0f49621486ce1ed12044"
+    },
+    "rajat20": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat20/rajat20.mtx",
+      "sha256": "2b7eafb39ed6dddbe0d099293591d3feae9d916ca4f7cb71390c0880d517c9b3"
+    },
+    "a0nsdsil": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/a0nsdsil/a0nsdsil.mtx",
+      "sha256": "5503ea5b2a58c8bb96c234ed9230f32fb60a3269a122b5eabe8d211b32577665"
+    }
+  },
+  "complete": true
+}

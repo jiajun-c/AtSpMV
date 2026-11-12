@@ -1,0 +1,17 @@
+{
+  "dataset": "finance256",
+  "matrix_sha256": "73516873e4e42f0aa092eb3914ea826ed6b76caf784656bf102b4d2813563d40",
+  "index_nnz": 298496,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.244,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

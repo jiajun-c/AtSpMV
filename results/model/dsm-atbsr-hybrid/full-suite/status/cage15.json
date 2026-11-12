@@ -1,0 +1,10 @@
+{
+  "dataset": "cage15",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cage15/cage15.mtx",
+  "matrix_sha256": "603be7eec3fa80b17319029397ac494a0041426546ec4fde1b1b7c3798c2ffa5",
+  "index_nnz": 99199551,
+  "index_rows": 5154859,
+  "elapsed_s": 29.139,
+  "returncode": 0,
+  "status": "ok"
+}

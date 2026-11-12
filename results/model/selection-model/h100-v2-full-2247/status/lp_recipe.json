@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_recipe",
+  "matrix_sha256": "3b2955f74d5aba9193acccf8c18369eef7b919a1580247001d15b239681f05ea",
+  "index_nnz": 687,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.736,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

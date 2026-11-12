@@ -1,0 +1,4 @@
+{
+  "matrix": "stokes128",
+  "error": "RuntimeError('Factor is exactly singular')"
+}

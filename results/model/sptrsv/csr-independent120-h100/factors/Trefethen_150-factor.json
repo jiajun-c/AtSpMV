@@ -1,0 +1,14 @@
+{
+  "matrix": "Trefethen_150",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Trefethen_150/Trefethen_150.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 150,
+  "columns": 150,
+  "original_nnz": 2040,
+  "factor_L_nnz": 4273,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.025884326081722975
+}

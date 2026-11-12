@@ -1,0 +1,10 @@
+{
+  "dataset": "G30",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G30/G30.mtx",
+  "matrix_sha256": "a89b296fa12dd52e9bb5196c8dd5440ee5a60a80d55426bf5fa2022674dab179",
+  "index_nnz": 39980,
+  "index_rows": 2000,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "thermomech_TC",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/thermomech_TC/thermomech_TC.mtx",
+  "matrix_sha256": "d0c14679377b82e2dc97ceebe0cc325c7455fd812d61fc849233cfd13ff9a5ec",
+  "index_nnz": 711558,
+  "index_rows": 102158,
+  "elapsed_s": 1.256,
+  "returncode": 0,
+  "status": "ok"
+}

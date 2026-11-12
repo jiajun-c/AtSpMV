@@ -1,0 +1,31 @@
+{
+  "dataset": "parabolic_fem",
+  "status": "ok",
+  "matrix_sha256": "711a89faf2454b052e1e326b6bad6e5d2df4cde162d92ae6e0bc0577b5c6f488",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/parabolic_fem/parabolic_fem.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/parabolic_fem-0.csv",
+        "20261145",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.7476703820284456
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/parabolic_fem/parabolic_fem.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/parabolic_fem-1.csv",
+        "20261146",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.8886239738203585
+    }
+  ]
+}

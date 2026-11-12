@@ -1,0 +1,10 @@
+{
+  "dataset": "k49_norm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/k49_norm_10NN/k49_norm_10NN.mtx",
+  "matrix_sha256": "e62abba529f06b0145b605fd6df24e39711cd6f2cf380d8ecef8bec4a9f2376d",
+  "index_nnz": 618158,
+  "index_rows": 38547,
+  "elapsed_s": 1.458,
+  "returncode": 0,
+  "status": "ok"
+}

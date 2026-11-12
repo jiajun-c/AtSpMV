@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_gran",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_gran/lpi_gran.mtx",
+  "matrix_sha256": "ad111d7dbb6b5a67e757183010604f77cecabdd1ce4ce2b0c0876ca087716cc1",
+  "index_nnz": 20111,
+  "index_rows": 2658,
+  "elapsed_s": 0.628,
+  "returncode": 0,
+  "status": "ok"
+}

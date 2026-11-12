@@ -1,0 +1,8 @@
+==WARNING== Note: Running with uncontrolled GPU caches. Profiling results may be inconsistent.
+==WARNING== Note: Running with unmodified GPU clocks. If not controlled otherwise, profiling results may be inconsistent.
+==PROF== Connected to process 2280363 (/tmp/atspmv-mfem-grouped-v2)
+==PROF== Disconnected from process 2280363
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2280363","atspmv-mfem-grouped-v2","127.0.0.1","void tunedSpmv<int, 1, 0, 2, 0>(const int *, const int *, const T1 *, const double *, int, int, const double *, double *, const int *)","1","7","(128, 1, 1)","(10261, 1, 1)","0","9.0","Command line profiler metrics","dram__bytes_read.sum","byte","295198720"
+"0","2280363","atspmv-mfem-grouped-v2","127.0.0.1","void tunedSpmv<int, 1, 0, 2, 0>(const int *, const int *, const T1 *, const double *, int, int, const double *, double *, const int *)","1","7","(128, 1, 1)","(10261, 1, 1)","0","9.0","Command line profiler metrics","lts__t_sector_hit_rate.pct","%","20.27"
+"0","2280363","atspmv-mfem-grouped-v2","127.0.0.1","void tunedSpmv<int, 1, 0, 2, 0>(const int *, const int *, const T1 *, const double *, int, int, const double *, double *, const int *)","1","7","(128, 1, 1)","(10261, 1, 1)","0","9.0","Command line profiler metrics","smsp__inst_executed.sum","inst","12257346"

@@ -1,0 +1,31 @@
+{
+  "dataset": "poisson3Da",
+  "matrix_sha256": "3a762311f0e31989ab0b7812bd867b2fd00c30bd6fe079f1cc96825b59d43e8c",
+  "status": "ok",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/poisson3Da/poisson3Da.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs.csv",
+        "20261133",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 0.6177852128166705,
+      "reason": null
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-prior24",
+        "/staff/chengjiajun/workspace/database/suitsparse/poisson3Da/poisson3Da.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-prior24/configs-reverse.csv",
+        "20261134",
+        "15"
+      ],
+      "returncode": 0,
+      "elapsed_s": 1.2036115799564868,
+      "reason": null
+    }
+  ]
+}

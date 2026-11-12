@@ -1,0 +1,17 @@
+{
+  "dataset": "venturiLevel3",
+  "matrix_sha256": "15803569e62fee0dd04299d37188a20368952e50bf029d4e8e4611a6eede2bcb",
+  "index_nnz": 16108474,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 165.764,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

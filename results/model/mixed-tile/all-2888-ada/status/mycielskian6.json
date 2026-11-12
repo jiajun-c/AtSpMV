@@ -1,0 +1,15 @@
+{
+  "dataset": "mycielskian6",
+  "matrix_sha256": "cf7d3552518fbd1a09ef8d088716e19bd99d82550af3936639b1d7a8af5cfb26",
+  "gpu_before": {
+    "utilization_percent": 16,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.863,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

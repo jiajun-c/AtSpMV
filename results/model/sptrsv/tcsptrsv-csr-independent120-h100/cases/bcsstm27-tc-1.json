@@ -1,0 +1,9 @@
+{
+  "name": "bcsstm27",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bcsstm27-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1232, 1232 ) nnz = 51276\nloadfile time    = 0.02152 sec\nnnzL = 51276\ntime_for_csc2CompressTile = 3.69 ms\ntime_cuda_solve = 0.637230 ms, Mflops = 160.93\nVALIDATION finite=1 max_error=2.1049828546892968e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

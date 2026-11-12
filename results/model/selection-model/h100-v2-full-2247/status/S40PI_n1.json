@@ -1,0 +1,17 @@
+{
+  "dataset": "S40PI_n1",
+  "matrix_sha256": "728a28729702cb57b6b17bc9b37ec0f3b727edb4653f5092d7af9563d9d07363",
+  "index_nnz": 5007,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.589,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

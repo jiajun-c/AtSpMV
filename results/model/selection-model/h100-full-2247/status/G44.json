@@ -1,0 +1,17 @@
+{
+  "dataset": "G44",
+  "matrix_sha256": "bfa97f4aa80835466cd1878d4f34ee496b65b6ed3fe9a19c389dabb98325fe52",
+  "index_nnz": 19980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.561,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

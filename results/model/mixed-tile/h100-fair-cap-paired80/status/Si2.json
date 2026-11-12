@@ -1,0 +1,15 @@
+{
+  "dataset": "Si2",
+  "matrix_sha256": "160b437776dcb56d0d409934c072d64594f6ab3ee4cdf55d5bcb0758e1d81c7c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.166,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

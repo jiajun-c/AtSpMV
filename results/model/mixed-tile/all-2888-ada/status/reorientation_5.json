@@ -1,0 +1,15 @@
+{
+  "dataset": "reorientation_5",
+  "matrix_sha256": "9b1b502c8b8a334aabb5de6614303b808aec4d2bc2021033fe7443821ba33e73",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.43,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

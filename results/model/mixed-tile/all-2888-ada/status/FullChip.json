@@ -1,0 +1,15 @@
+{
+  "dataset": "FullChip",
+  "matrix_sha256": "0c83ca1c69a42fb4d2917911d1c642e380dd58d7b6b860e44168a8ea9e3b19fc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 304.212,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

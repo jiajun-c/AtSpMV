@@ -1,0 +1,14 @@
+{
+  "matrix": "olm500",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/olm500/olm500.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 500,
+  "columns": 500,
+  "original_nnz": 1996,
+  "factor_L_nnz": 1250,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.023977054050192237
+}

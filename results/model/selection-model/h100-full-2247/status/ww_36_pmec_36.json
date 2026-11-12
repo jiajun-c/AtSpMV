@@ -1,0 +1,17 @@
+{
+  "dataset": "ww_36_pmec_36",
+  "matrix_sha256": "5b41c270b0c375b7e92978c26065bcb017694199a8d6a0adfba27f37f73306bb",
+  "index_nnz": 1194,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.967,
+  "gpu_after": {
+    "utilization_percent": 33,
+    "free_memory_mib": 81079
+  }
+}

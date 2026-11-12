@@ -1,0 +1,10 @@
+{
+  "matrix": "sts4098",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/sts4098-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 4098,
+  "nnz": 174693,
+  "min_abs_diagonal": 2.8821617203563172,
+  "max_abs_diagonal": 15953798.873219075,
+  "elapsed_s": 0.10375069617293775
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "goodwin",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/goodwin/goodwin.mtx",
+  "matrix_sha256": "32297df14ac0cafd741443b2243cfed6aef618bf20a89ea36cf0699dee043b4f",
+  "index_nnz": 324784,
+  "index_rows": 7320,
+  "elapsed_s": 1.288,
+  "returncode": 0,
+  "status": "ok"
+}

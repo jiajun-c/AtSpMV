@@ -1,0 +1,8 @@
+{
+  "name": "fs_760_2",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/fs_760_2-L.mtx,model,cached,760,6239,175,1361.173,134.2431946,6.994405055e-15,4.413933416e-17,1.219491013e-16,512\nresults/model/sptrsv/components-independent-h100/factors/fs_760_2-L.mtx,model-host,cached,760,6239,175,1361.173,140.18743,6.994405055e-15,4.413933416e-17,1.219491013e-16,512\nresults/model/sptrsv/components-independent-h100/factors/fs_760_2-L.mtx,default,cusparse,760,6239,-1,3077.932,184.5599976,6.994405055e-15,4.4398009e-17,1.053178456e-16,0\nresults/model/sptrsv/components-independent-h100/factors/fs_760_2-L.mtx,default-host,cusparse,760,6239,-1,3077.932,191.384635,6.994405055e-15,4.4398009e-17,1.053178456e-16,0\n",
+  "stderr": ""
+}

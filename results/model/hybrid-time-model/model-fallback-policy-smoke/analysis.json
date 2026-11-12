@@ -1,0 +1,37 @@
+{
+  "manifest_total": 4,
+  "status_counts": {
+    "ok": 4
+  },
+  "selected_backends": {
+    "atbsr": 2,
+    "csr_vector": 1,
+    "cusparse": 1
+  },
+  "selection": "auto_model_fallback_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.4204299647395335,
+    "median": 1.4201300381310058,
+    "wins": 4,
+    "cases": 4
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.9049909822897928,
+    "median": 2.2906862618388546,
+    "wins": 4,
+    "cases": 4
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.2554082942287796,
+    "median": 1.2977671301440883,
+    "wins": 4,
+    "cases": 4
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1668205282967545,
+    "median": 1.1962676320586816,
+    "wins": 4,
+    "cases": 4
+  }
+}

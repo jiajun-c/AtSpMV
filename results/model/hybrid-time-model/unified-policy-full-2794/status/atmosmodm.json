@@ -1,0 +1,17 @@
+{
+  "dataset": "atmosmodm",
+  "matrix_sha256": "a5201e73412f4f8ed086ef6f79d5cd8b94bcf11b72341a2cf7d308170f9d25e2",
+  "index_nnz": 10319760,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 35.298,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

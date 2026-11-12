@@ -1,0 +1,9 @@
+{
+  "name": "circuit204",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/circuit204-L.mtx,default,cusparse,1024,7145,-1,2831.996,111.6927948,1.315614284e-13,9.229356158e-17,1.101836589e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/circuit204-L.mtx,default-host,cusparse,1024,7145,-1,2831.996,117.70429,1.315614284e-13,9.229356158e-17,1.101836589e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/circuit204-L.mtx,model,cached,1024,7145,121,1483.395,98.40000153,1.084687895e-13,9.229356158e-17,1.153250828e-16,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/circuit204-L.mtx,model-host,cached,1024,7145,121,1483.395,103.8531,1.084687895e-13,9.229356158e-17,1.153250828e-16,512\n",
+  "stderr": ""
+}

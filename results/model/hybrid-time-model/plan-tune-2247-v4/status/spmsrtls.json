@@ -1,0 +1,19 @@
+{
+  "dataset": "spmsrtls",
+  "matrix_sha256": "d362cd389769f39b127ac4abbaad6ec2453f32ea5c49814bbf810e1ef90b9b51",
+  "index_nnz": 229947,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.346,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

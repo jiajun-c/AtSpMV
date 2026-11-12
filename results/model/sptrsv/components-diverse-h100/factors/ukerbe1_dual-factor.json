@@ -1,0 +1,13 @@
+{
+  "matrix": "ukerbe1_dual",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/ukerbe1_dual/ukerbe1_dual.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1866,
+  "columns": 1866,
+  "original_nnz": 7076,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03195764520205557
+}

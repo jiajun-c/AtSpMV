@@ -1,0 +1,15 @@
+{
+  "dataset": "Serena",
+  "matrix_sha256": "796107bb066c3aa6cf3d6b8dde3549d2c123bc525bcac0df7df20ab0a6dbf9e9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 52.835,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

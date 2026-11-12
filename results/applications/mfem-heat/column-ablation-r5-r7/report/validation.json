@@ -1,0 +1,18 @@
+[
+  {
+    "refine": 5,
+    "validated_fields": 48,
+    "max_cross_condition_field_error": 1.777204260581181e-14,
+    "cg_iterations": [
+      16399
+    ]
+  },
+  {
+    "refine": 7,
+    "validated_fields": 48,
+    "max_cross_condition_field_error": 7.489691934198503e-14,
+    "cg_iterations": [
+      15301
+    ]
+  }
+]

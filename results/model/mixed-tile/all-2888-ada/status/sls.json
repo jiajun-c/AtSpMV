@@ -1,0 +1,15 @@
+{
+  "dataset": "sls",
+  "matrix_sha256": "9a222e5618251134ea69c20b83914e7c42121e4c8686b45bf20fce52bbca0e8a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.582,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

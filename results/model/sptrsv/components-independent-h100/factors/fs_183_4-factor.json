@@ -1,0 +1,14 @@
+{
+  "matrix": "fs_183_4",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/fs_183_4/fs_183_4.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 183,
+  "columns": 183,
+  "original_nnz": 1069,
+  "factor_L_nnz": 1404,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.02571982890367508
+}

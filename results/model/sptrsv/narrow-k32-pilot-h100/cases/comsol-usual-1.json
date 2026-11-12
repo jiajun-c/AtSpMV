@@ -1,0 +1,8 @@
+{
+  "name": "comsol",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,cusparse,38505.757,1107.670403,3.841371665e-14,2.48248474e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,cusparse-host,38505.757,1115.0014,3.841371665e-14,2.48248474e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/comsol-L.mtx,1500,116320,1487,selector-cusparse,2419.515,1106.431961,3.841371665e-14,2.48248474e-17\n",
+  "stderr": ""
+}

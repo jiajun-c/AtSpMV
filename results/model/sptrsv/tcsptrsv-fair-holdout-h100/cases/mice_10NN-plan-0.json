@@ -1,0 +1,9 @@
+{
+  "name": "mice_10NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mice_10NN-L.mtx,default,cusparse,1077,31219,-1,5788.157,387.0368042,3.952393968e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mice_10NN-L.mtx,default-host,cusparse,1077,31219,-1,5788.157,394.495045,3.952393968e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mice_10NN-L.mtx,model,cusparse,1077,31219,323,5736.616,387.6383972,3.952393968e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/mice_10NN-L.mtx,model-host,cusparse,1077,31219,323,5736.616,394.55584,3.952393968e-14\n",
+  "stderr": ""
+}

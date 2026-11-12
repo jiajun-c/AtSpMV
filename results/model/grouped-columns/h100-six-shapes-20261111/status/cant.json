@@ -1,0 +1,31 @@
+{
+  "dataset": "cant",
+  "status": "ok",
+  "matrix_sha256": "67556f4af0534ba28c283d788530fada209f3994d448dbc189ef40b91e87486d",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cant/cant.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/cant-0.csv",
+        "20261121",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 2.4652386910747737
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/cant/cant.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/cant-1.csv",
+        "20261122",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.7748924810439348
+    }
+  ]
+}

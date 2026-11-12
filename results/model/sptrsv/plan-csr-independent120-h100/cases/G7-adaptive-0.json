@@ -1,0 +1,8 @@
+{
+  "name": "G7",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/G7-L.mtx,default,cusparse,800,93530,-1,12001.539,509.9679871,5.549116722e-12,2.025183738e-17,9.191807177e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/G7-L.mtx,default-host,cusparse,800,93530,-1,12001.539,516.316665,5.549116722e-12,2.025183738e-17,9.191807177e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/G7-L.mtx,model,cusparse,800,93530,599,11838.283,510.0063782,5.549116722e-12,2.025183738e-17,9.191807177e-17,0\nresults/model/sptrsv/csr-independent120-h100/factors/G7-L.mtx,model-host,cusparse,800,93530,599,11838.283,516.2377,5.549116722e-12,2.025183738e-17,9.191807177e-17,0\n",
+  "stderr": ""
+}

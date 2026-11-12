@@ -1,0 +1,15 @@
+{
+  "dataset": "G48",
+  "matrix_sha256": "4373b3ef7c219041ad40570acdaeac0dd480a444b7826c04fb3a478807e179a0",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.794,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

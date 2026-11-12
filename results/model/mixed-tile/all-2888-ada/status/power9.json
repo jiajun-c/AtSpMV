@@ -1,0 +1,15 @@
+{
+  "dataset": "power9",
+  "matrix_sha256": "a2412b7f3f4019c3f19b754b06e8ee8c4cf849157fb68cefd6c64320a1a3fee5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.03,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

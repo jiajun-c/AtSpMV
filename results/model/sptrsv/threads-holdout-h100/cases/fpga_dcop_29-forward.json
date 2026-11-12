@@ -1,0 +1,7 @@
+{
+  "name": "fpga_dcop_29",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cusparse,27794.06,29.47199941,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cusparse-host,27794.06,37.045055,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-128,121.967,30.23679852,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-host-128,121.967,36.98134,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-256,121.967,21.56160027,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-host-256,121.967,28.222915,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-512,121.967,18.43519956,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,cached-tiles-host-512,121.967,25.156765,1.110223025e-15,5.657816419e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_29-L.mtx,1220,2936,18,selector-cached,121.967,18.52159947,1.110223025e-15,5.657816419e-17\n",
+  "stderr": ""
+}

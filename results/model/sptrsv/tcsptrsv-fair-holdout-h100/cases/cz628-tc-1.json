@@ -1,0 +1,9 @@
+{
+  "name": "cz628",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/cz628-L.mtx --------------\nsuccess open file\ninput matrix A: ( 628, 628 ) nnz = 7839\nloadfile time    = 0.00359 sec\nnnzL = 7851\nCSC col6 row=6 val=1\ntime_for_csc2CompressTile = 3.39 ms\ntime_cuda_solve = 0.430630 ms, Mflops = 36.46\nsample i=0 got=0.5 expected=0.5 b=0.5\nsample i=1 got=0.86633663366336633 expected=0.86633663366336633 b=0.86633663366336633\nsample i=2 got=1.2524752475247525 expected=1.2524752475247525 b=1.2524752475247525\nsample i=3 got=0.61881188118811881 expected=0.61881188118811881 b=0.61881188118811881\nsample i=4 got=0.98514851485148514 expected=0.98514851485148514 b=0.98514851485148514\nsample i=5 got=0.54950495049504955 expected=0.54950495049504955 b=0.54950495049504955\nsample i=6 got=0.91584158415841577 expected=0.91584158415841577 b=0.91584158415841577\nsample i=7 got=1.2821782178217822 expected=1.2821782178217822 b=1.2821782178217822\nVALIDATION finite=1 max_error=10.769142865210069 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

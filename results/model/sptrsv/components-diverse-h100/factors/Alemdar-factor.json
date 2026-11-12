@@ -1,0 +1,13 @@
+{
+  "matrix": "Alemdar",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Alemdar/Alemdar.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 6245,
+  "columns": 6245,
+  "original_nnz": 42581,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.09738565096631646
+}

@@ -1,0 +1,7 @@
+{
+  "name": "nasa1824",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/nasa1824-L.mtx,default,cusparse,1824,92922,-1,9287.542,571.4624023,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nasa1824-L.mtx,default-host,cusparse,1824,92922,-1,9287.542,577.656365,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nasa1824-L.mtx,model,cusparse,1824,92922,542,12251.316,571.4367676,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\nresults/model/sptrsv/components-independent-h100/factors/nasa1824-L.mtx,model-host,cusparse,1824,92922,542,12251.316,577.193705,2.131628207e-14,3.236777713e-17,1.773220235e-16,0\n",
+  "stderr": ""
+}

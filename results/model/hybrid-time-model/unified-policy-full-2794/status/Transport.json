@@ -1,0 +1,17 @@
+{
+  "dataset": "Transport",
+  "matrix_sha256": "1cf5b84ac98fd3c94c463263ac445bd37ec26f89d4e7e4673f824409582089c6",
+  "index_nnz": 23500731,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 43.921,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

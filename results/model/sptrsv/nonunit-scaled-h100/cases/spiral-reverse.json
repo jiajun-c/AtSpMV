@@ -1,0 +1,7 @@
+{
+  "name": "spiral",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/spiral-L.mtx,model,cusparse,1434,17005,357,4613.401,284.4544067,8.770761895e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/spiral-L.mtx,model-host,cusparse,1434,17005,357,4613.401,292.17015,8.770761895e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/spiral-L.mtx,default,cusparse,1434,17005,-1,4593.259,284.9567871,8.770761895e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/spiral-L.mtx,default-host,cusparse,1434,17005,-1,4593.259,292.452995,8.770761895e-15\n",
+  "stderr": ""
+}

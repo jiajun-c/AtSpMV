@@ -1,0 +1,15 @@
+{
+  "dataset": "arc130",
+  "matrix_sha256": "74c8b64b64d920c78c395cf461c2f440f4be3ea36c1ce23c8b34a3d75eb1ad25",
+  "gpu_before": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.418,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

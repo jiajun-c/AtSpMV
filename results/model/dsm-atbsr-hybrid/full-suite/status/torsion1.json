@@ -1,0 +1,10 @@
+{
+  "dataset": "torsion1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/torsion1/torsion1.mtx",
+  "matrix_sha256": "690f1060abbdb76444c753a212e522052c4a35a328fe0787da5bcaeb9acfc91f",
+  "index_nnz": 197608,
+  "index_rows": 40000,
+  "elapsed_s": 1.159,
+  "returncode": 0,
+  "status": "ok"
+}

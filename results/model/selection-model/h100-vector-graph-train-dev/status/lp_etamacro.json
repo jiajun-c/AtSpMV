@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_etamacro",
+  "matrix_sha256": "c85ae844091eab1aa50cc497d453379eadd7db64c03b699f19891c0a164540ab",
+  "index_nnz": 2537,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.22,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

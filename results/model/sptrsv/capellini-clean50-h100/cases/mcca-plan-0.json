@@ -1,0 +1,9 @@
+{
+  "name": "mcca",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx,default,cusparse,192,1735,-1,2489.702,80.42240143,1.33226763e-15,3.319905036e-17,1.010937876e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx,default-host,cusparse,192,1735,-1,2489.702,87.00346,1.33226763e-15,3.319905036e-17,1.010937876e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx,model,cached-csr,192,1735,92,1249.959,49.79199982,1.33226763e-15,3.319905036e-17,1.010937876e-16,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/mcca-L.mtx,model-host,cached-csr,192,1735,92,1249.959,55.740195,1.33226763e-15,3.319905036e-17,1.010937876e-16,256\n",
+  "stderr": ""
+}

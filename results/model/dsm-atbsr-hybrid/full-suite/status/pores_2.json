@@ -1,0 +1,10 @@
+{
+  "dataset": "pores_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pores_2/pores_2.mtx",
+  "matrix_sha256": "3443f2676a6614eef52bcff23a16b3381f5db982c56b1f1d111993e25f98c19e",
+  "index_nnz": 9613,
+  "index_rows": 1224,
+  "elapsed_s": 1.339,
+  "returncode": 0,
+  "status": "ok"
+}

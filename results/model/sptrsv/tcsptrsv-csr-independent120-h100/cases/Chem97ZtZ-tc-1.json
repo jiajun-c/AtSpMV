@@ -1,0 +1,9 @@
+{
+  "name": "Chem97ZtZ",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Chem97ZtZ-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2544, 2544 ) nnz = 12634\nloadfile time    = 0.00536 sec\nnnzL = 12634\ntime_for_csc2CompressTile = 2.04 ms\ntime_cuda_solve = 0.076570 ms, Mflops = 330.00\nVALIDATION finite=1 max_error=4.4408920985006262e-16 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

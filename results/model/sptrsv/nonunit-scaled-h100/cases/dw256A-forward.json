@@ -1,0 +1,7 @@
+{
+  "name": "dw256A",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/dw256A-L.mtx,default,cusparse,512,4239,-1,2495.672,103.0879974,4.130029652e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/dw256A-L.mtx,default-host,cusparse,512,4239,-1,2495.672,109.476895,4.130029652e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/dw256A-L.mtx,model,cached,512,4239,73,1359.582,57.78239822,5.684341886e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/dw256A-L.mtx,model-host,cached,512,4239,73,1359.582,64.0507,5.684341886e-14\n",
+  "stderr": ""
+}

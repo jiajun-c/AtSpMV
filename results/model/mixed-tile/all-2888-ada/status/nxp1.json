@@ -1,0 +1,15 @@
+{
+  "dataset": "nxp1",
+  "matrix_sha256": "b66247322b03b03f6502cb82683c39b93b49bf3860b5e7014bb5dd4bd745a517",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.115,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

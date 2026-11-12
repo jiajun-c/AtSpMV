@@ -1,0 +1,7 @@
+{
+  "name": "cdde2",
+  "order": "components-first",
+  "returncode": 1,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/components-grouped-pilot-h100/factors/cdde2-L.mtx,961,7305,104,cusparse,23038.22,132.3616028,1.776356839e-15,5.558562646e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/cdde2-L.mtx,961,7305,104,cusparse-host,23038.22,138.68878,1.776356839e-15,5.558562646e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/cdde2-L.mtx,961,7305,104,cached-components-256,494.05,89.52640295,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/cdde2-L.mtx,961,7305,104,cached-components-512,494.05,85.11999846,1.776356839e-15,6.049513538e-17\n",
+  "stderr": "cudaGetLastError(): invalid argument\n"
+}

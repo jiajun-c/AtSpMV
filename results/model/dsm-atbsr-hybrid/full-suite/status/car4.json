@@ -1,0 +1,10 @@
+{
+  "dataset": "car4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/car4/car4.mtx",
+  "matrix_sha256": "6ea5ce3d4d0d0a52d6f65219a46b88edc182ffded67b5e9a3132cbf4c1ec5e1b",
+  "index_nnz": 63724,
+  "index_rows": 16384,
+  "elapsed_s": 0.699,
+  "returncode": 0,
+  "status": "ok"
+}

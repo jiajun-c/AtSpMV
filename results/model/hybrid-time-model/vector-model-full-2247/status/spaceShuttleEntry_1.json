@@ -1,0 +1,17 @@
+{
+  "dataset": "spaceShuttleEntry_1",
+  "matrix_sha256": "1109bc2d2c091496d585828258109493caff6ae87be1f072478690febbf6b778",
+  "index_nnz": 6891,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.233,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

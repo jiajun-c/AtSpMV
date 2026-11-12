@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/tcsptrsv-independent160-h100/factors/bp_1000-L.mtx,832,6179,80,cusparse,20995.105,85.23200154,5.107025913e-15,2.008563721e-17\nresults/model/sptrsv/tcsptrsv-independent160-h100/factors/bp_1000-L.mtx,832,6179,80,cusparse-host,20995.105,91.504655,5.107025913e-15,2.008563721e-17\nresults/model/sptrsv/tcsptrsv-independent160-h100/factors/bp_1000-L.mtx,832,6179,80,selector-cusparse,470.701,85.32480001,5.107025913e-15,2.008563721e-17\n",
+  "stderr": "tile_shape_stats,slots=34592,strict_nnz=5347,shared_bytes=442240,shared_limit=232448\n"
+}

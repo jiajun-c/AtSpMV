@@ -1,0 +1,17 @@
+{
+  "dataset": "olafu",
+  "matrix_sha256": "8ff0691051957f7e4c6fb302c3ad026ee526691958d4f1c2c0a5520c8e89a4d5",
+  "index_nnz": 1015156,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.475,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "olm2000",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/olm2000-L.mtx,model,cached-csr,2000,5000,1768,1223.713,848.041626,4.658495811e-13,4.439040869e-17,7.499318067e-17,256\nresults/model/sptrsv/components-independent-h100/factors/olm2000-L.mtx,model-host,cached-csr,2000,5000,1768,1223.713,854.35718,4.658495811e-13,4.439040869e-17,7.499318067e-17,256\nresults/model/sptrsv/components-independent-h100/factors/olm2000-L.mtx,default,cusparse,2000,5000,-1,11233.489,1250.56958,4.658495811e-13,4.439040869e-17,7.499318067e-17,0\nresults/model/sptrsv/components-independent-h100/factors/olm2000-L.mtx,default-host,cusparse,2000,5000,-1,11233.489,1258.753605,4.658495811e-13,4.439040869e-17,7.499318067e-17,0\n",
+  "stderr": ""
+}

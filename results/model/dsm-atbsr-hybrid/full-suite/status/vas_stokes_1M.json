@@ -1,0 +1,10 @@
+{
+  "dataset": "vas_stokes_1M",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vas_stokes_1M/vas_stokes_1M.mtx",
+  "matrix_sha256": "50be51813e8b41bb46ad63e70dfd0d215837331dea9732ddb778dc33920c7c0c",
+  "index_nnz": 34767207,
+  "index_rows": 1090664,
+  "elapsed_s": 11.884,
+  "returncode": 0,
+  "status": "ok"
+}

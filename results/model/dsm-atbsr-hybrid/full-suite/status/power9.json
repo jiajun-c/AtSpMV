@@ -1,0 +1,10 @@
+{
+  "dataset": "power9",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/power9/power9.mtx",
+  "matrix_sha256": "a2412b7f3f4019c3f19b754b06e8ee8c4cf849157fb68cefd6c64320a1a3fee5",
+  "index_nnz": 2512300,
+  "index_rows": 155376,
+  "elapsed_s": 2.153,
+  "returncode": 0,
+  "status": "ok"
+}

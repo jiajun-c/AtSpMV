@@ -1,0 +1,10 @@
+{
+  "dataset": "eurqsa",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/eurqsa/eurqsa.mtx",
+  "matrix_sha256": "b29b8f1f4943c263f853177c0bef47dbc4a214701756d7c41eb118439257484c",
+  "index_nnz": 46142,
+  "index_rows": 7245,
+  "elapsed_s": 1.262,
+  "returncode": 0,
+  "status": "ok"
+}

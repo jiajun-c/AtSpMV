@@ -1,0 +1,17 @@
+{
+  "dataset": "pdb1HYS",
+  "matrix_sha256": "ea7437793b3801a39f8070b18a1afdbb3227cfed7a91922b9931f14c23b3b744",
+  "index_nnz": 4344765,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.276,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

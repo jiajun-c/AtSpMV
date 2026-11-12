@@ -1,0 +1,10 @@
+{
+  "dataset": "bips98_1450",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/bips98_1450/bips98_1450.mtx",
+  "matrix_sha256": "c4ef880a51abc8514636a524eea1e98b408631122fbfd9e6d97f06e460cc5bc0",
+  "index_nnz": 44678,
+  "index_rows": 11305,
+  "elapsed_s": 1.235,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Goodwin_013",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/Goodwin_013-L.mtx,model,cusparse,1965,94349,803,11930.233,852.1184082,3.685940442e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/Goodwin_013-L.mtx,model-host,cusparse,1965,94349,803,11930.233,860.69056,3.685940442e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/Goodwin_013-L.mtx,default,cusparse,1965,94349,-1,11786.364,852.1408081,3.685940442e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/Goodwin_013-L.mtx,default-host,cusparse,1965,94349,-1,11786.364,860.101975,3.685940442e-14\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "in-2004",
+  "matrix_sha256": "2d8b4bc49c096426c36641aefc725aa2ea06d5885b66ebee62bd65e9120186e7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 19.258,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

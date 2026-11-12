@@ -1,0 +1,17 @@
+{
+  "dataset": "FullChip",
+  "matrix_sha256": "0c83ca1c69a42fb4d2917911d1c642e380dd58d7b6b860e44168a8ea9e3b19fc",
+  "index_nnz": 26621990,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "timeout",
+  "returncode": -15,
+  "elapsed_s": 900.542,
+  "gpu_after": {
+    "utilization_percent": 15,
+    "free_memory_mib": 81079
+  }
+}

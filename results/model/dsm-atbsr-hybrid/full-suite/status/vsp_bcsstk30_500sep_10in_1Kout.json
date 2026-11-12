@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_bcsstk30_500sep_10in_1Kout",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_bcsstk30_500sep_10in_1Kout/vsp_bcsstk30_500sep_10in_1Kout.mtx",
+  "matrix_sha256": "c6a331841378e5ae78fdb70ea1a07c48a7db73b0b576f701fbc87ad93350c95a",
+  "index_nnz": 4033156,
+  "index_rows": 58348,
+  "elapsed_s": 3.502,
+  "returncode": 0,
+  "status": "ok"
+}

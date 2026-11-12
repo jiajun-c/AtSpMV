@@ -1,0 +1,10 @@
+{
+  "dataset": "ted_A_unscaled",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ted_A_unscaled/ted_A_unscaled.mtx",
+  "matrix_sha256": "149b930437a45f15be056d1dd47f85fc279fa48738a64ad34b6758adfcf82979",
+  "index_nnz": 424587,
+  "index_rows": 10605,
+  "elapsed_s": 1.36,
+  "returncode": 0,
+  "status": "ok"
+}

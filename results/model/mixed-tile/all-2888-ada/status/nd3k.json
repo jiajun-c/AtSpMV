@@ -1,0 +1,15 @@
+{
+  "dataset": "nd3k",
+  "matrix_sha256": "ec3379b92c60f4abd94938d08953f84a3223968b06a35b3775d2914eb01ee8ca",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.542,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "JapaneseVowelsSmall_10NN",
+  "matrix_sha256": "4d7929e98b4978d0e8b0c98c8bc9d4c1859bfcd57c3b4e7fb261be1b05db91bc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.399,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

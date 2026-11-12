@@ -1,0 +1,8 @@
+{
+  "name": "sherman4",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/sherman4-L.mtx,default,cusparse,1104,7639,-1,2898.472,172.7071991,1.776356839e-15,5.088235476e-17,1.253217244e-16,0\nresults/model/sptrsv/components-independent-h100/factors/sherman4-L.mtx,default-host,cusparse,1104,7639,-1,2898.472,179.128505,1.776356839e-15,5.088235476e-17,1.253217244e-16,0\nresults/model/sptrsv/components-independent-h100/factors/sherman4-L.mtx,model,cached,1104,7639,150,1527.431,118.3007965,1.776356839e-15,4.896296234e-17,1.149526689e-16,512\nresults/model/sptrsv/components-independent-h100/factors/sherman4-L.mtx,model-host,cached,1104,7639,150,1527.431,124.03953,1.776356839e-15,4.896296234e-17,1.149526689e-16,512\n",
+  "stderr": ""
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fpga_trans_01",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_trans_01-L.mtx,default,cusparse,1220,8184,-1,2734.755,150.8896027,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_trans_01-L.mtx,default-host,cusparse,1220,8184,-1,2734.755,156.82518,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_trans_01-L.mtx,model,cached,1220,8184,132,2413.891,104.1183929,1.33226763e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/fpga_trans_01-L.mtx,model-host,cached,1220,8184,132,2413.891,110.056115,1.33226763e-15\n",
+  "stderr": ""
+}

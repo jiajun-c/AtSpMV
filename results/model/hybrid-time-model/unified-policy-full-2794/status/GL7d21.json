@@ -1,0 +1,17 @@
+{
+  "dataset": "GL7d21",
+  "matrix_sha256": "b261c03a5e921bdf0d77c6c3a6bad267b659327afffd3093b5a8e03ae2b51a7a",
+  "index_nnz": 18174775,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 34.213,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

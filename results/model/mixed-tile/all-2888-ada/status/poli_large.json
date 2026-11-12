@@ -1,0 +1,15 @@
+{
+  "dataset": "poli_large",
+  "matrix_sha256": "3de93a3f96b9b0d7c10d277a312810aec6097e53cd6554d660d7404a24e9c0d1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.911,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

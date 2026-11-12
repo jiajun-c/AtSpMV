@@ -1,0 +1,9 @@
+{
+  "name": "c-20",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/c-20-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2928, 2928 ) nnz = 44919\nloadfile time    = 0.01927 sec\nnnzL = 44919\ntime_for_csc2CompressTile = 3.77 ms\ntime_cuda_solve = 0.410410 ms, Mflops = 218.90\nVALIDATION finite=1 max_error=1.9539925233402755e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

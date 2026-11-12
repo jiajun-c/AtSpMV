@@ -1,0 +1,19 @@
+{
+  "dataset": "SciMet",
+  "matrix_sha256": "108aa41c5fd1e0a8ab0e675ca43fbafaa6064b633cf447f45ed057d5b7583bcd",
+  "index_nnz": 10413,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.47,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

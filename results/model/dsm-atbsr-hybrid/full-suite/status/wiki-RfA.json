@@ -1,0 +1,10 @@
+{
+  "dataset": "wiki-RfA",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx",
+  "matrix_sha256": "cb50b1fe11152927f8f4b37ae00804ee38f3b9a21d731b5b81b43dde559a8757",
+  "index_nnz": 188077,
+  "index_rows": 11380,
+  "elapsed_s": 1.17,
+  "returncode": 0,
+  "status": "ok"
+}

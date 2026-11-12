@@ -1,0 +1,10 @@
+{
+  "dataset": "baxter",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/baxter/baxter.mtx",
+  "matrix_sha256": "93f5f0d26b5dff69510653296afab32300c7ec38d123f1ee4db7774fcb30facf",
+  "index_nnz": 111576,
+  "index_rows": 27441,
+  "elapsed_s": 0.784,
+  "returncode": 0,
+  "status": "ok"
+}

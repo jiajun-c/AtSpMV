@@ -1,0 +1,10 @@
+{
+  "dataset": "ck104",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ck104/ck104.mtx",
+  "matrix_sha256": "1c4059ba0965b9d34c85957c539bc1959b9c801bbbae9592350d1c6797b49923",
+  "index_nnz": 992,
+  "index_rows": 104,
+  "elapsed_s": 0.567,
+  "returncode": 0,
+  "status": "ok"
+}

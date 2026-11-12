@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_finan512_scagr7-2c_rlfddd",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_finan512_scagr7-2c_rlfddd/vsp_finan512_scagr7-2c_rlfddd.mtx",
+  "matrix_sha256": "d02b72f02d19f2c609a914aa929f33e8e39c79d175860fc64f6ebfc46af20dac",
+  "index_nnz": 1104040,
+  "index_rows": 139752,
+  "elapsed_s": 1.377,
+  "returncode": 0,
+  "status": "ok"
+}

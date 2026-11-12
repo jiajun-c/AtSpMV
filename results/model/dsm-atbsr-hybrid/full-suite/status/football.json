@@ -1,0 +1,10 @@
+{
+  "dataset": "football",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/football/football.mtx",
+  "matrix_sha256": "939440e17c03d9c201e756ea66a8a011dec50822b9167c372924bcc140e9d027",
+  "index_nnz": 118,
+  "index_rows": 35,
+  "elapsed_s": 0.849,
+  "returncode": 0,
+  "status": "ok"
+}

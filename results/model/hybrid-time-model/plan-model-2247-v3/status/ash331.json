@@ -1,0 +1,19 @@
+{
+  "dataset": "ash331",
+  "matrix_sha256": "2e5c6821e762b5ad74827469c454bb7ca828c3f23754c08fdd18749bb6963683",
+  "index_nnz": 662,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.965,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

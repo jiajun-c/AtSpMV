@@ -1,0 +1,17 @@
+{
+  "dataset": "mri1",
+  "matrix_sha256": "2c24a67c745b9971fb4370f77f6369e72074f3bc8cdba31eac65cfb4e232d5af",
+  "index_nnz": 589824,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.289,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

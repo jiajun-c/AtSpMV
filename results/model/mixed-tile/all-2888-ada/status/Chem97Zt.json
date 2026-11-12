@@ -1,0 +1,15 @@
+{
+  "dataset": "Chem97Zt",
+  "matrix_sha256": "2dc7548e0105765e7ae387499107efb09853f116073f3923daa7d8577733a062",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.142,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

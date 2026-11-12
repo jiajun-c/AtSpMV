@@ -1,0 +1,32 @@
+{
+  "dataset": "bibd_22_8",
+  "status": "ok",
+  "matrix_sha256": "a5032c3d4b3d73c3e932ffc8e9f02bcb5940b32bfed1dcea8a3db6b61952cbd4",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bibd_22_8/bibd_22_8.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/bibd_22_8-0.csv",
+        "20261175",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 16.027941906824708
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bibd_22_8/bibd_22_8.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/bibd_22_8-1.csv",
+        "20261176",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 16.014948832103983
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

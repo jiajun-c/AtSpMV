@@ -1,0 +1,67 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 7
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend atbsr-tuned
+   --solution /tmp/atspmv-heat-field-3o3z7xi1/temperature.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --bulk-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1313281
+plan rows=1313281 nnz=20981761 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=540.76397
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=522.41999
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=312.34401
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=299.29999
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=239.484
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=221.604
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=213.06001
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=197.028
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=201.44001
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=185.84
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=190.66
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=173.852
+plan rows=1313281 nnz=20981761 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=541.67199
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=522.888
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=312.172
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=299.43201
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=239.492
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=221.20801
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=213.348
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=196.916
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=201.888
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=186.22001
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=190.652
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=173.67999
+plan rows=1313281 nnz=20981761 backend=atbsr tile=5 balanced=0 mixed_cap=0
+candidate backend=atbsr tile=0 balanced=1 vector_width=0 median_us=545.17603
+candidate backend=atbsr tile=0 balanced=0 vector_width=0 median_us=523.39202
+candidate backend=atbsr tile=1 balanced=1 vector_width=0 median_us=312.11999
+candidate backend=atbsr tile=1 balanced=0 vector_width=0 median_us=299.03999
+candidate backend=atbsr tile=2 balanced=1 vector_width=0 median_us=239.77201
+candidate backend=atbsr tile=2 balanced=0 vector_width=0 median_us=222.184
+candidate backend=atbsr tile=3 balanced=1 vector_width=0 median_us=213.228
+candidate backend=atbsr tile=3 balanced=0 vector_width=0 median_us=196.816
+candidate backend=atbsr tile=4 balanced=1 vector_width=0 median_us=201.636
+candidate backend=atbsr tile=4 balanced=0 vector_width=0 median_us=186.03601
+candidate backend=atbsr tile=5 balanced=1 vector_width=0 median_us=190.85599
+candidate backend=atbsr tile=5 balanced=0 vector_width=0 median_us=173.972
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"atbsr-tuned","dofs":1313281,"steps":20,"nnz":20981761,"initialization_s":2.4557627449999999,"evolution_s":8.6052835289999994,"total_s":11.061046459,"plan_s":1.846974017,"plans":3,"value_updates":39,"linear_s":5.687023881,"parameter_s":2.5199209469999997,"implicit_setup_s":1.0720060679999999,"implicit_updates":19,"spmv_calls":15321,"linear_solves":20,"cg_iterations":15301,"sum":1529947.3020117588,"l2":1341.7605587808032,"mass_relative_error":3.9872382668197839e-08,"initial_energy":7.1112906863336134,"final_energy":6.5211339869092351}
+
+STDERR

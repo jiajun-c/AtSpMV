@@ -1,0 +1,17 @@
+{
+  "dataset": "mod2",
+  "matrix_sha256": "8918c6f56fcd0a03f86888b8e584c1de6ea60370412baef9cbe7e75a29150278",
+  "index_nnz": 199810,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.376,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "hangGlider_2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/hangGlider_2-L.mtx,default,cusparse,1648,17326,-1,4850.327,438.6335754,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/hangGlider_2-L.mtx,default-host,cusparse,1648,17326,-1,4850.327,445.53276,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/hangGlider_2-L.mtx,model,cusparse,1648,17326,569,5014.177,438.4928284,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/hangGlider_2-L.mtx,model-host,cusparse,1648,17326,569,5014.177,445.56739,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\n",
+  "stderr": ""
+}

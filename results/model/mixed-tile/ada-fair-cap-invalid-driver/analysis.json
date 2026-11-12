@@ -1,0 +1,8 @@
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "error": 80
+  },
+  "complete": false,
+  "method": "Per-matrix geometric mean across opposite construction orders. Best fixed is the minimum measured median of 24 single-shape/mode/cap candidates per order, an optimistic measured baseline. Memory counts final packed arrays and metadata, not input CSR, temporary allocations, setup or Graph. Samples with failures remain in status counts. Warm GPU Graph excludes setup."
+}

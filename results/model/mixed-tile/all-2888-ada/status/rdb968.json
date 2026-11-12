@@ -1,0 +1,15 @@
+{
+  "dataset": "rdb968",
+  "matrix_sha256": "d95dff40d8914daf4a58de7529eebde22d1d02f0f63c528bdc42261cd0d1613c",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.451,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

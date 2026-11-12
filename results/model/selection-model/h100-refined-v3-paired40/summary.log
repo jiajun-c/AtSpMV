@@ -1,0 +1,70 @@
+{
+  "manifest_total": 40,
+  "status_counts": {
+    "ok": 40
+  },
+  "selected_backends": {
+    "hybrid_dsm_atbsr": 1,
+    "csr_vector": 29,
+    "atbsr": 7,
+    "mixed_tile|atbsr": 1,
+    "atbsr|cusparse": 1,
+    "mixed_tile": 1
+  },
+  "selection": "auto_tuned_mixed",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite. Default AtBSR is constructed first in both orders; the two model plans swap relative order after this anchor. Model labels with identical resolved configurations execute the same Plan instance. Those labels also execute the same Graph executable. CUDA event nodes inside each Graph measure the GPU interval; this includes event-node overhead.",
+  "speedup_vs_default": {
+    "geomean": 1.206066534256992,
+    "median": 1.186930686393044,
+    "wins": 39,
+    "cases": 40
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6036651491870135,
+    "median": 1.6995751161047572,
+    "wins": 39,
+    "cases": 40
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1979810423690742,
+    "median": 1.1770460452180198,
+    "wins": 38,
+    "cases": 40
+  },
+  "speedup_vs_full_tune": {
+    "geomean": 1.00215040307919,
+    "median": 1.0012595425036557,
+    "wins": 25,
+    "cases": 40
+  },
+  "speedup_vs_auto_model": {
+    "geomean": 1.1521567441053038,
+    "median": 1.142743149242055,
+    "wins": 40,
+    "cases": 40
+  },
+  "speedup_vector_vs_auto_model": {
+    "geomean": 1.1160242310850306,
+    "median": 1.1063206378251718,
+    "wins": 33,
+    "cases": 40
+  },
+  "speedup_vs_vector_model": {
+    "geomean": 1.0323761008174026,
+    "median": 1.0113635288422884,
+    "wins": 27,
+    "cases": 40
+  },
+  "speedup_refined_vs_vector_model": {
+    "geomean": 1.0267299686431697,
+    "median": 1.0043438348865799,
+    "wins": 26,
+    "cases": 40
+  },
+  "speedup_vs_refined_model": {
+    "geomean": 1.005499140325761,
+    "median": 1.002111807335938,
+    "wins": 22,
+    "cases": 40
+  }
+}

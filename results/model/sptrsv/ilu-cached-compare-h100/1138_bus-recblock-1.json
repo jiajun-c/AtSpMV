@@ -1,0 +1,8 @@
+{
+  "name": "1138_bus",
+  "round": 1,
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-factor-pilot/1138_bus-L.mtx --------------\ninput matrix A: ( 1138, 1138 ) nnz = 3751\ncomputation usetime = 0.122 ms\nPerformance = 0.061 gflops\n\nx check passed! |x-xref|/|xref| = 1.26e-16\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=2\nstage calculate done\n"
+}

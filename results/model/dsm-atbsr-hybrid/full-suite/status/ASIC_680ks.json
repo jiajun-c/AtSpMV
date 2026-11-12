@@ -1,0 +1,10 @@
+{
+  "dataset": "ASIC_680ks",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ASIC_680ks/ASIC_680ks.mtx",
+  "matrix_sha256": "b02ea7572a482d99169335146145f57adb02a9e0ac7b6cd859974fef4d24eb53",
+  "index_nnz": 2329176,
+  "index_rows": 682712,
+  "elapsed_s": 1.864,
+  "returncode": 0,
+  "status": "ok"
+}

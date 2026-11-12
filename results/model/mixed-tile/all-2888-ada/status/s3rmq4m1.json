@@ -1,0 +1,15 @@
+{
+  "dataset": "s3rmq4m1",
+  "matrix_sha256": "d46a00ccde71fe1f8381da96a3e035625ab5ff231c89c43a83ce4fbc582bd9be",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.0,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

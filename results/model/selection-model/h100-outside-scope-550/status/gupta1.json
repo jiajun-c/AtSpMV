@@ -1,0 +1,17 @@
+{
+  "dataset": "gupta1",
+  "matrix_sha256": "dbbc3fa9ad7bb50e9bc79bda84301ebc77470ad369e5c7642761e295954c82b9",
+  "index_nnz": 2164210,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 14.721,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "Olivetti_norm_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Olivetti_norm_10NN/Olivetti_norm_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 400,
+  "columns": 400,
+  "original_nnz": 5656,
+  "factor_L_nnz": 12905,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04389075003564358
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "Journals",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Journals/Journals.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 124,
+  "columns": 124,
+  "original_nnz": 12068,
+  "factor_L_nnz": 7573,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.056958628818392754
+}

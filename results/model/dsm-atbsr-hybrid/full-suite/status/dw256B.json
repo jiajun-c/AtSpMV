@@ -1,0 +1,10 @@
+{
+  "dataset": "dw256B",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dw256B/dw256B.mtx",
+  "matrix_sha256": "33b34b6856dd3ee0ce2b39dbd4c34ec0819e47d8ec70590a026a5c666cf006c6",
+  "index_nnz": 2500,
+  "index_rows": 512,
+  "elapsed_s": 0.635,
+  "returncode": 0,
+  "status": "ok"
+}

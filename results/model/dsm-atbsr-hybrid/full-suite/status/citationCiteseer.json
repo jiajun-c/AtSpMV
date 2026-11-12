@@ -1,0 +1,10 @@
+{
+  "dataset": "citationCiteseer",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/citationCiteseer/citationCiteseer.mtx",
+  "matrix_sha256": "b5541ac7fdae9a4f16a04039fc9fd6c4bd79d11cd49eb9ab2fa8a2ee5215cb71",
+  "index_nnz": 2313294,
+  "index_rows": 268495,
+  "elapsed_s": 2.866,
+  "returncode": 0,
+  "status": "ok"
+}

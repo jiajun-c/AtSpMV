@@ -1,0 +1,15 @@
+{
+  "dataset": "thermomech_dM",
+  "matrix_sha256": "dc16ccbdafd41979add439d84274bbe0f20488462ec3849287fb0a1ab18a68ac",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.887,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

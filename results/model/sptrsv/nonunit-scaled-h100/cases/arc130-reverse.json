@@ -1,0 +1,7 @@
+{
+  "name": "arc130",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/arc130-L.mtx,model,cached,130,363,15,1255.572,13.9552002,5.551115123e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/arc130-L.mtx,model-host,cached,130,363,15,1255.572,20.8099,5.551115123e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/arc130-L.mtx,default,cusparse,130,363,-1,2066.335,17.13599968,5.551115123e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/arc130-L.mtx,default-host,cusparse,130,363,-1,2066.335,24.987365,5.551115123e-15\n",
+  "stderr": ""
+}

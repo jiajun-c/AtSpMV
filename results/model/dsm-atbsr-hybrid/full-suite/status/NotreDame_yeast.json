@@ -1,0 +1,10 @@
+{
+  "dataset": "NotreDame_yeast",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx",
+  "matrix_sha256": "715cf95785e2ec7742221a60c9330f413a2d319cd9dd0bb34500b30206121588",
+  "index_nnz": 4480,
+  "index_rows": 2114,
+  "elapsed_s": 1.222,
+  "returncode": 0,
+  "status": "ok"
+}

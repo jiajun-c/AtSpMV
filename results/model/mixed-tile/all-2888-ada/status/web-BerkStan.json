@@ -1,0 +1,15 @@
+{
+  "dataset": "web-BerkStan",
+  "matrix_sha256": "4385c4db2bad37104be8440ff1b320d9f04c1581856ac4071062ba315645268a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.186,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

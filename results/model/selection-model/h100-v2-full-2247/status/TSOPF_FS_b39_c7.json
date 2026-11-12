@@ -1,0 +1,17 @@
+{
+  "dataset": "TSOPF_FS_b39_c7",
+  "matrix_sha256": "96b08580d449453aef714a51ddd4becb1e3505d377c7cb273ca03fe6a2d4659e",
+  "index_nnz": 730080,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 40.658,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

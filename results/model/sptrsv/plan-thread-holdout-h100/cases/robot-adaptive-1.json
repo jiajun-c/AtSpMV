@@ -1,0 +1,8 @@
+{
+  "name": "robot",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,model,cached,120,447,28,1202.458,22.89920044,3.774758284e-15,1.646622678e-17,5.631540823e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,model-host,cached,120,447,28,1202.458,29.11778,3.774758284e-15,1.646622678e-17,5.631540823e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,default,cusparse,120,447,-1,2148.475,32.59199905,9.992007222e-16,1.121668649e-16,1.366521089e-16,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/robot-L.mtx,default-host,cusparse,120,447,-1,2148.475,39.576545,9.992007222e-16,1.121668649e-16,1.366521089e-16,0\n",
+  "stderr": ""
+}

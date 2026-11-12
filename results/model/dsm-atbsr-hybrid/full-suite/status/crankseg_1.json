@@ -1,0 +1,10 @@
+{
+  "dataset": "crankseg_1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/crankseg_1/crankseg_1.mtx",
+  "matrix_sha256": "1b7115b96da148b6c69591d0b9ed259ab5494a15f3e7242b732509567903c67f",
+  "index_nnz": 10614210,
+  "index_rows": 52804,
+  "elapsed_s": 4.597,
+  "returncode": 0,
+  "status": "ok"
+}

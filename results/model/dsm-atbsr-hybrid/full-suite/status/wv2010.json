@@ -1,0 +1,10 @@
+{
+  "dataset": "wv2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wv2010/wv2010.mtx",
+  "matrix_sha256": "4703d5b0a9935c74631a72811372621ca72b94ab0bd936e17eef6b69dcb0bd4f",
+  "index_nnz": 662922,
+  "index_rows": 135218,
+  "elapsed_s": 1.17,
+  "returncode": 0,
+  "status": "ok"
+}

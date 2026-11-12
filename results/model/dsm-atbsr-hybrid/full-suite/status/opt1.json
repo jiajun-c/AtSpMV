@@ -1,0 +1,10 @@
+{
+  "dataset": "opt1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/opt1/opt1.mtx",
+  "matrix_sha256": "c64170b5099ffc6fe0aa05ff05327f982be42a7a3c76d4074978b0cfc83a548e",
+  "index_nnz": 1930655,
+  "index_rows": 15449,
+  "elapsed_s": 1.551,
+  "returncode": 0,
+  "status": "ok"
+}

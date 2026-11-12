@@ -1,0 +1,17 @@
+{
+  "dataset": "s4dkt3m2",
+  "matrix_sha256": "13e2ef1016fdd4c9924e5dcb8b441e1b487170a21c636fe246dddf32babe16b9",
+  "index_nnz": 3753461,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 53.123,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "steam1",
+  "matrix_sha256": "76d4c01663ddd3acae87535706d7f2b4e65fa8337ab2782113ab56db97eab222",
+  "index_nnz": 3762,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.9,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

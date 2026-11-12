@@ -1,0 +1,8 @@
+{
+  "name": "rdist3a",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/csr-independent120-h100/factors/rdist3a-L.mtx,model,cusparse,2398,70879,1755,14991.389,1320.214355,4.551914401e-14,1.277108949e-17,1.639523821e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/rdist3a-L.mtx,model-host,cusparse,2398,70879,1755,14991.389,1330.198845,4.551914401e-14,1.277108949e-17,1.639523821e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/rdist3a-L.mtx,default,cusparse,2398,70879,-1,14540.535,1320.80957,4.551914401e-14,1.277108949e-17,1.639523821e-16,0\nresults/model/sptrsv/csr-independent120-h100/factors/rdist3a-L.mtx,default-host,cusparse,2398,70879,-1,14540.535,1330.5147,4.551914401e-14,1.277108949e-17,1.639523821e-16,0\n",
+  "stderr": ""
+}

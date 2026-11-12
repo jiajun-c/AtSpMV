@@ -1,0 +1,15 @@
+{
+  "dataset": "crankseg_1",
+  "matrix_sha256": "1b7115b96da148b6c69591d0b9ed259ab5494a15f3e7242b732509567903c67f",
+  "gpu_before": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.098,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

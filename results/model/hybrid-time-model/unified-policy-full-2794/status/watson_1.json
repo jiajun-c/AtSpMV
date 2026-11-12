@@ -1,0 +1,17 @@
+{
+  "dataset": "watson_1",
+  "matrix_sha256": "481595148ae196a94af97c909048f2c14fe28dbf80a23c053f870cdad8fde0bb",
+  "index_nnz": 1055093,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.852,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

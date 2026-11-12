@@ -1,0 +1,15 @@
+{
+  "dataset": "uk",
+  "matrix_sha256": "2e4c718a2ca9bd32c2c9bcf42e299a18964aae19f5366d300b0bd6881288c52b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.479,
+  "gpu_after": {
+    "utilization_percent": 20,
+    "free_memory_mib": 48508
+  }
+}

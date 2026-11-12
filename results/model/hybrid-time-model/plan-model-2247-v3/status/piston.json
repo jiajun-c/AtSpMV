@@ -1,0 +1,19 @@
+{
+  "dataset": "piston",
+  "matrix_sha256": "6b824db6fb392837e1fddd3f09c2607d36592535ef31b626b1e513eaadbfd98f",
+  "index_nnz": 100015,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.966,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

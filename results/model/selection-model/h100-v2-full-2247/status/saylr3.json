@@ -1,0 +1,17 @@
+{
+  "dataset": "saylr3",
+  "matrix_sha256": "6e613fa753ae4c6571a2d88b92e9f8cf1e4ac99f48a7b614ca25756e6d3ff17d",
+  "index_nnz": 3750,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.801,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

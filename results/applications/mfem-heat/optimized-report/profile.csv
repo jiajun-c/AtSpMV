@@ -1,0 +1,4 @@
+case,dram_bytes_read,aggregate_l2_hit_percent
+atbsr,295036672.0,20.33
+atbsr-persist,267945472.0,24.22
+compressed-persist,225260800.0,30.02

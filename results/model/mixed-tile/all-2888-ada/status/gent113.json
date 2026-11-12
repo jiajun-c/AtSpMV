@@ -1,0 +1,15 @@
+{
+  "dataset": "gent113",
+  "matrix_sha256": "ae645bd8ab49e0d082b499029bff9b7a4907f2e7bcdef47f3362071e8216cacd",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48506
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 0.723,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 48506
+  }
+}

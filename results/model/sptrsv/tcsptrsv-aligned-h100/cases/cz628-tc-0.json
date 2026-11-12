@@ -1,0 +1,9 @@
+{
+  "name": "cz628",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/cz628-L.mtx --------------\nsuccess open file\ninput matrix A: ( 640, 640 ) nnz = 7851\nloadfile time    = 0.00357 sec\nnnzL = 7851\ntime_for_csc2CompressTile = 3.34 ms\ntime_cuda_solve = 0.419090 ms, Mflops = 37.47\nVALIDATION finite=1 max_error=6.106226635438361e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "ecl32",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ecl32/ecl32.mtx",
+  "matrix_sha256": "3d47353a8f796080523720f01e6b8f450099282c5e0a7e4965979a6e0d19ae38",
+  "index_nnz": 380415,
+  "index_rows": 51993,
+  "elapsed_s": 0.626,
+  "returncode": 0,
+  "status": "ok"
+}

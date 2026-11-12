@@ -1,0 +1,10 @@
+{
+  "dataset": "sx-stackoverflow",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sx-stackoverflow/sx-stackoverflow.mtx",
+  "matrix_sha256": "3270835bad6d1733d3dd25fb3afdaa9db8be7237e1022d275bb3fc59b5244565",
+  "index_nnz": 36233450,
+  "index_rows": 2601977,
+  "elapsed_s": 17.087,
+  "returncode": 0,
+  "status": "ok"
+}

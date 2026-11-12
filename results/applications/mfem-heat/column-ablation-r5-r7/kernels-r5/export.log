@@ -1,0 +1,28 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 5
+   --order 2
+   --ode-solver 21
+   --t-final 0.01
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend cusparse
+   --solution /tmp/atspmv-ablation-diagnostic.bin
+   --dump-implicit-matrix /tmp/atspmv-ablation-r5.csr
+   --no-persist-x
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --bulk-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 82561
+plan rows=82561 nnz=1313281 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=82561 nnz=1313281 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=82561 nnz=1313281 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+step 1, t = 0.01
+APP_RESULT {"backend":"cusparse","dofs":82561,"steps":1,"nnz":1313281,"initialization_s":0.509294201,"evolution_s":0.069892599,"total_s":0.57918688500000004,"plan_s":0.026934183,"plans":3,"value_updates":1,"linear_s":0.01514252,"parameter_s":0.030767289,"implicit_setup_s":0.046895563000000001,"implicit_updates":0,"spmv_calls":193,"linear_solves":1,"cg_iterations":192,"sum":96104.734253755669,"l2":346.86683996693847,"mass_relative_error":7.8601951369172295e-09,"initial_energy":7.1115985012722467,"final_energy":6.9469051637799337}

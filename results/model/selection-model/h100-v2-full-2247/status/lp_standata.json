@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_standata",
+  "matrix_sha256": "a005b1c280352d4d2f925ccf849ba0ff8645d16db936af8e958a12d05b5a2c12",
+  "index_nnz": 3230,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.314,
+  "gpu_after": {
+    "utilization_percent": 14,
+    "free_memory_mib": 81079
+  }
+}

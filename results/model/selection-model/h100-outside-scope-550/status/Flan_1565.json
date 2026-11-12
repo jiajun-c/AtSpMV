@@ -1,0 +1,17 @@
+{
+  "dataset": "Flan_1565",
+  "matrix_sha256": "8b535e6e308087137bbb7e957dedba6cb5cd090ee9a97e24699ddcf925cd78bb",
+  "index_nnz": 117406044,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 149.736,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

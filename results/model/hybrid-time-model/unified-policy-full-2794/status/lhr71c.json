@@ -1,0 +1,17 @@
+{
+  "dataset": "lhr71c",
+  "matrix_sha256": "1b04f918b39856d0830e2e22bda2d36c24527552915bbe84ac1aab7f13d04cfe",
+  "index_nnz": 1528092,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.495,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

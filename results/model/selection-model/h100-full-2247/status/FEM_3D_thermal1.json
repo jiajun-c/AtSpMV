@@ -1,0 +1,17 @@
+{
+  "dataset": "FEM_3D_thermal1",
+  "matrix_sha256": "85e386e2f78f45b53a9bcc15ab7037ed793969884a48f823dac8ad32d1b2a895",
+  "index_nnz": 430740,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.378,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

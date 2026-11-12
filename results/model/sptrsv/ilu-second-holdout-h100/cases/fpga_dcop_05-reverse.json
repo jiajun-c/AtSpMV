@@ -1,0 +1,7 @@
+{
+  "name": "fpga_dcop_05",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_05-L.mtx,model,cached,1220,3349,24,1388.007,23.52960014,4.884981308e-15\nresults/model/sptrsv/ilu-second-holdout-h100/factors/fpga_dcop_05-L.mtx,default,cusparse,1220,3349,-1,2197.052,44.83839798,4.884981308e-15\n",
+  "stderr": ""
+}

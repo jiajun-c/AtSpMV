@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_gfrd_pnc",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_gfrd_pnc/lp_gfrd_pnc.mtx",
+  "matrix_sha256": "f0973026beb36a2699a40618fbd8b3547c445db0eb5231dab27441d562147eeb",
+  "index_nnz": 2445,
+  "index_rows": 616,
+  "elapsed_s": 1.186,
+  "returncode": 0,
+  "status": "ok"
+}

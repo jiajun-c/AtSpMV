@@ -1,0 +1,17 @@
+{
+  "dataset": "n3c4-b4",
+  "matrix_sha256": "37d078a95e6f01a51fa89b628e9345743c3688e7f46de4174241d53975319400",
+  "index_nnz": 30,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.867,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

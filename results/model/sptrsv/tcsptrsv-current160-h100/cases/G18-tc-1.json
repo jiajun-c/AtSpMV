@@ -1,0 +1,9 @@
+{
+  "name": "G18",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/G18-L.mtx --------------\nsuccess open file\ninput matrix A: ( 800, 800 ) nnz = 21552\nloadfile time    = 0.00630 sec\nnnzL = 21552\ntime_for_csc2CompressTile = 2.47 ms\ntime_cuda_solve = 0.336750 ms, Mflops = 128.00\nVALIDATION finite=1 max_error=1.021405182655144e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

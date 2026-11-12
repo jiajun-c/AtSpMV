@@ -1,0 +1,15 @@
+{
+  "dataset": "pesa",
+  "matrix_sha256": "f57fd6e19a95306aae2ffb3c8f2c59ef65bc21afb92a39f50efdef0af1547ee9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.108,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

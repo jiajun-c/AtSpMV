@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_bore3d",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_bore3d/lp_bore3d.mtx",
+  "matrix_sha256": "9033c98d4ec10c5bc233ac587cdf254f31a8857ce6f59a1ec33845f62e705d80",
+  "index_nnz": 1448,
+  "index_rows": 233,
+  "elapsed_s": 0.569,
+  "returncode": 0,
+  "status": "ok"
+}

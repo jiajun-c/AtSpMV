@@ -1,0 +1,10 @@
+{
+  "dataset": "grid2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/grid2/grid2.mtx",
+  "matrix_sha256": "49f5c4eb24a84dec021aa54db120b5641836a4503264219b138ce2c35ce88bb7",
+  "index_nnz": 12864,
+  "index_rows": 3296,
+  "elapsed_s": 0.568,
+  "returncode": 0,
+  "status": "ok"
+}

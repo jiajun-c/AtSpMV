@@ -1,0 +1,17 @@
+{
+  "dataset": "lnsp3937",
+  "matrix_sha256": "ea50335c0706b572aaa9cae8bd08a29b6efacbef7b10cf4737001d299eaefe09",
+  "index_nnz": 25407,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.872,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

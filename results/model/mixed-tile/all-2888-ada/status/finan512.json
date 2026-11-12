@@ -1,0 +1,15 @@
+{
+  "dataset": "finan512",
+  "matrix_sha256": "0803c595b03aac11cdfb47348b9b24da1c5491e809ac78bc664ba5f06bd3bfcd",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.574,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

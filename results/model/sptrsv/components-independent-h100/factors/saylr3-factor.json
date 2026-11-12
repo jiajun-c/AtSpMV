@@ -1,0 +1,13 @@
+{
+  "matrix": "saylr3",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/saylr3/saylr3.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1000,
+  "columns": 1000,
+  "original_nnz": 3750,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03426607302390039
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "nemeth22",
+  "matrix_sha256": "ee883cf4a27b45de1160664985909e589f91c1825bdbaca49a80ba48bd252e8a",
+  "index_nnz": 1358832,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.466,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

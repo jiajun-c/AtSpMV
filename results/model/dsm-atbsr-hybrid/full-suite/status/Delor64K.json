@@ -1,0 +1,10 @@
+{
+  "dataset": "Delor64K",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Delor64K/Delor64K.mtx",
+  "matrix_sha256": "539bc6bd0ccb31c36a4d4fa3a3c7554c351c6bfd75f17de02f49ffa93cff1d03",
+  "index_nnz": 652140,
+  "index_rows": 64719,
+  "elapsed_s": 1.206,
+  "returncode": 0,
+  "status": "ok"
+}

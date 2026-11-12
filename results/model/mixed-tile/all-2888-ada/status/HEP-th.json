@@ -1,0 +1,15 @@
+{
+  "dataset": "HEP-th",
+  "matrix_sha256": "068849f8459d01ba150b4c5354edd7c9254991b8bd5eae274c976df814a67cde",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.629,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

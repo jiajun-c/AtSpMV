@@ -1,0 +1,17 @@
+{
+  "dataset": "pct20stif",
+  "matrix_sha256": "dfbbaf18da5b88d756b378429f2f47a547a7182254f974e851214783d3a877b4",
+  "index_nnz": 2698463,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.578,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

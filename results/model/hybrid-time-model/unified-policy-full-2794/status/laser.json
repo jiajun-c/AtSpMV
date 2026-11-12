@@ -1,0 +1,17 @@
+{
+  "dataset": "laser",
+  "matrix_sha256": "6efa2748afd46a427eb7339aba7d80ff8bc4348a98f0438e8d406d8a7778d8a1",
+  "index_nnz": 9000,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.159,
+  "gpu_after": {
+    "utilization_percent": 5,
+    "free_memory_mib": 81079
+  }
+}

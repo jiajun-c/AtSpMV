@@ -1,0 +1,15 @@
+{
+  "dataset": "gearbox",
+  "matrix_sha256": "302aecc8e0bdda802ade6d4f90947eb228fd87cb773933e512a981345f0bdac6",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.045,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

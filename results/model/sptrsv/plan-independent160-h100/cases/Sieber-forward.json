@@ -1,0 +1,7 @@
+{
+  "name": "Sieber",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/Sieber-L.mtx,default,cusparse,2290,7729,-1,2693.926,35.72159958,1.203481759e-13,3.503171034e-17,8.908296766e-17,0\nresults/model/sptrsv/components-independent-h100/factors/Sieber-L.mtx,default-host,cusparse,2290,7729,-1,2693.926,42.99279,1.203481759e-13,3.503171034e-17,8.908296766e-17,0\nresults/model/sptrsv/components-independent-h100/factors/Sieber-L.mtx,model,cached,2290,7729,29,1444.7,29.03040123,1.203481759e-13,3.258130573e-17,6.814765735e-17,1024\nresults/model/sptrsv/components-independent-h100/factors/Sieber-L.mtx,model-host,cached,2290,7729,29,1444.7,35.58652,1.203481759e-13,3.258130573e-17,6.814765735e-17,1024\n",
+  "stderr": ""
+}

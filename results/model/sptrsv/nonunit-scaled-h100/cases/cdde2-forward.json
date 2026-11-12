@@ -1,0 +1,7 @@
+{
+  "name": "cdde2",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/cdde2-L.mtx,default,cusparse,961,7305,-1,2721.854,128.3328094,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/cdde2-L.mtx,default-host,cusparse,961,7305,-1,2721.854,134.90014,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/cdde2-L.mtx,model,cached,961,7305,104,1518.541,84.81280518,1.776356839e-15\nresults/model/sptrsv/nonunit-scaled-h100/factors/cdde2-L.mtx,model-host,cached,961,7305,104,1518.541,90.83718,1.776356839e-15\n",
+  "stderr": ""
+}

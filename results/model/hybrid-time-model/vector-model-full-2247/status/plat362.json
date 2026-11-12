@@ -1,0 +1,17 @@
+{
+  "dataset": "plat362",
+  "matrix_sha256": "4bfa98ee544a80d8ee18a4061cc565cffef28b513c03a9c38d6b1e52c127ff5d",
+  "index_nnz": 5786,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.35,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

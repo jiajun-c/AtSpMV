@@ -1,0 +1,15 @@
+{
+  "dataset": "plantstexture_10NN",
+  "matrix_sha256": "55c9ff94740a3aefbf778d58deae049d61da25e13ae9feec8c9a8a67caf14b9f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.114,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

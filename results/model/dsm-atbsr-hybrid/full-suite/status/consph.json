@@ -1,0 +1,10 @@
+{
+  "dataset": "consph",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/consph/consph.mtx",
+  "matrix_sha256": "c3b2b55e59a74356a7a439ef46bd00a00a862b1dac68e2cf1983746bcd66c799",
+  "index_nnz": 6010480,
+  "index_rows": 83334,
+  "elapsed_s": 2.276,
+  "returncode": 0,
+  "status": "ok"
+}

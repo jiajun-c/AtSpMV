@@ -1,0 +1,19 @@
+{
+  "dataset": "ca-GrQc",
+  "matrix_sha256": "02ccbab96413c682059b5db1bfd21b9c139c666a7c79ef0e1592810ef7ca9eae",
+  "index_nnz": 28980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.354,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

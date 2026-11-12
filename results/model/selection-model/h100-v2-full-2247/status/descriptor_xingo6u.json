@@ -1,0 +1,17 @@
+{
+  "dataset": "descriptor_xingo6u",
+  "matrix_sha256": "519e18c65bf80414d9e03ebcdaba9e3be8fca39a8c2ae46f4ef95a5f547cb07a",
+  "index_nnz": 73916,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.645,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

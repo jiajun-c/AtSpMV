@@ -1,0 +1,28 @@
+{
+  "note": "Actual opt-in model with full-tuning fallback outside H100 calibration scope. 2247 training/evaluation overlap, 547 outside scope; four earlier missing/overflow cases remain excluded. Warm Graph GPU time, setup separately.",
+  "index_sha256": "3ea5d43509c27b1a5d3a82a6240299712f3798fb1b08e24cb04ba88c3df3847b",
+  "source_indices_sha256": {
+    "results/model/hybrid-time-model/plan-tune-2247-v4/index.csv": "7797379a962fe9c19c1159e2591c9119ba6d329ee3bd032cf37ef05a88e26c5d",
+    "results/model/hybrid-time-model/plan-tune-large-v3/index.csv": "d036ceed70b801eb1ecbcff8d0b03de4e3919f1d7d1e2c1de13e568aa649cef1"
+  },
+  "provenance_sha256": {
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "analyze_plan_selection.py": "406920fd4592760ddaed58356a126326e28b24c3a93e9215e1fe87b77c93298f",
+    "audit_model_fallback_policy.py": "dcbdc5b7fc7ff5195dd2c4d7bfd4967d2d470f7ee690fceb166d5c0b0e63ce9b",
+    "atspmvprod.h": "afa8cf87e56b40da666128919d898e710fc9ff6eb3c026e216c8f10e4045f73b",
+    "dsmLongRow.cuh": "1c2f4bc8578aa5596f942a7f2e374d261008965007a3922f1d1ac44a6c976f9b",
+    "atspmvProduct.cu": "d95f035fdec8527195eb57fde141abb1a0af89310ab79bae1fa5dc84f89c5fb4",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "spmv_hybrid_validation.cu": "73f49c2baaef88fb59e2c83b64615434c0438b3de898ba848e107248fca49c12",
+    "audit_plan_sweep.py": "fc79ce48122cf0520869d6fabcc3d92e2aa96af2e6a38fc367e053991d814017",
+    "tileSelector.cuh": "e3a2882fa8d6da1eade9de045bd139ef7be9ad37c488024fcc346e49f66dbd3c",
+    "benchmark_plan_selection.py": "7818765d669426daa1216fe9e6e6bea4cd8b27060a5e22e0e9396a34a804b322",
+    "spmvPlanDsm.cu": "fb5f5cf76e135179fffc26e6fdce9bc2f6c7100238073316a9c7635297504886",
+    "plan_speedup_uncertainty.py": "64a0c5eb227eac43cdc893678468cdccfdea00b03028bf121ddf68a67934900d",
+    "spmvPlan.h": "b0c6fc02d8f3b580a0129526c931fc0b4ef7256972edc3cb11167659218dc8e7",
+    "spmv_hybrid_validation": "ec6c821c14ac3d785458aed88473a75c51f5b739ca54e90b7d5c3e076a267910",
+    "analyze_plan_amortization.py": "22a5218a5da2e91841aedd3542a303a365db40bc7aa47827b9560de2c1156cf8",
+    "spmvPlan.cu": "b5a2b247acb697a197c5302a5198d66bbbbd8f8fa8f6a9e2e37097a68a40958d"
+  }
+}

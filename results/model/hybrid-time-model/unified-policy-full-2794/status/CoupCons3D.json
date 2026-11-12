@@ -1,0 +1,17 @@
+{
+  "dataset": "CoupCons3D",
+  "matrix_sha256": "96cd6220f7b9d1cf2a03773346137b9a5e78b0a40e5041390502eaf9efc1f44f",
+  "index_nnz": 22322336,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 21.843,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

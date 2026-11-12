@@ -1,0 +1,10 @@
+{
+  "dataset": "torso2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/torso2/torso2.mtx",
+  "matrix_sha256": "8f20119ca8ce3ae3be196295fef51872999059935893fb850b4b1899ebd0e826",
+  "index_nnz": 1033473,
+  "index_rows": 115967,
+  "elapsed_s": 1.195,
+  "returncode": 0,
+  "status": "ok"
+}

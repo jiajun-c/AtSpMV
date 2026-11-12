@@ -1,0 +1,13 @@
+{
+  "matrix": "mimo28x28_system",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mimo28x28_system/mimo28x28_system.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 13251,
+  "columns": 13251,
+  "original_nnz": 48737,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.09308569109998643
+}

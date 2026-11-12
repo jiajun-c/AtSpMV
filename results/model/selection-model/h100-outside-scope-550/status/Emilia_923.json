@@ -1,0 +1,17 @@
+{
+  "dataset": "Emilia_923",
+  "matrix_sha256": "8c9eb77b9de8eb306e20e3d4128b05c8759f9a93a543811d5f31e7557e0b090e",
+  "index_nnz": 41005206,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 68.698,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

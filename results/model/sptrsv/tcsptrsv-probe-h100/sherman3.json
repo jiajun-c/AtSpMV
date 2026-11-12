@@ -1,0 +1,6 @@
+{
+  "name": "sherman3",
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-factor-pilot/sherman3-L.mtx --------------\nsuccess open file\ninput matrix A: ( 5005, 5005 ) nnz = 37855\nloadfile time    = 0.01629 sec\nnnzL = 37858\ntime_for_csc2CompressTile = 2.12 ms\ntime_cuda_solve = 0.56 ms, Mflops = 135.79\nVALIDATION finite=1 max_error=4.2578534143310476 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

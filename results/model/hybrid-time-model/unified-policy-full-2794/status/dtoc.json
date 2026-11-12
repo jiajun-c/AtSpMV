@@ -1,0 +1,17 @@
+{
+  "dataset": "dtoc",
+  "matrix_sha256": "8739961bcb6be2e547d7e83a71de844723f03ab412f0e0516133ffeb9374b04c",
+  "index_nnz": 69972,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.178,
+  "gpu_after": {
+    "utilization_percent": 10,
+    "free_memory_mib": 81079
+  }
+}

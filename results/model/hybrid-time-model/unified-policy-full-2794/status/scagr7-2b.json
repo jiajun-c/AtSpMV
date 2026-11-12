@@ -1,0 +1,17 @@
+{
+  "dataset": "scagr7-2b",
+  "matrix_sha256": "7c86959c10f9bbaa9f939f15f62161b24b86d379e1d8f08adcd0b171d5a52fa8",
+  "index_nnz": 35885,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.296,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

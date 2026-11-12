@@ -1,0 +1,8 @@
+{
+  "name": "Glass_10NN",
+  "round": 0,
+  "mode": "narrow",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cusparse,28493.582,149.2799997,1.687538997e-14,2.437057704e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cusparse-host,28493.582,157.33261,1.687538997e-14,2.437057704e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-128,196.389,154.5024037,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-host-128,196.389,160.87968,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-256,196.389,147.7344036,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-host-256,196.389,154.845595,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-512,196.389,148.5728025,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,cached-tiles-host-512,196.389,154.696155,7.105427358e-15,2.52138597e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Glass_10NN-L.mtx,224,5782,197,selector-cached,196.389,148.4575987,7.105427358e-15,2.52138597e-17\n",
+  "stderr": ""
+}

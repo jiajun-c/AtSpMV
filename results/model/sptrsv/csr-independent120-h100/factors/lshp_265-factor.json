@@ -1,0 +1,14 @@
+{
+  "matrix": "lshp_265",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lshp_265/lshp_265.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 265,
+  "columns": 265,
+  "original_nnz": 1753,
+  "factor_L_nnz": 3125,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.024441115092486143
+}

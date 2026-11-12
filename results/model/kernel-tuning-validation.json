@@ -1,0 +1,49 @@
+{
+  "hardware": "NVIDIA RTX 5880 Ada Generation (devices 0 and 1)",
+  "compiler": "CUDA 12.4, CMAKE_CUDA_ARCHITECTURES=80, Release",
+  "driver": "580.178.04",
+  "timing": "CUDA Graph beta=1 kernel-only; median of 9 batches; 100-node upper bound",
+  "comparison": "Fixed baseline model-selected shape and balance; baseline_us / configured_us",
+  "default_decision": "Keep cap=8, warps=4, prefetch=0, cta_reduce=0; remove redundant beta=0 clear in normal product mode",
+  "calibration": "No new fits; nondefault configurations are uncalibrated extrapolations",
+  "runs": {
+    "synthetic": {
+      "checks": 11520,
+      "csv": "kernel-sweep-synthetic.csv",
+      "summary": "kernel-sweep-synthetic.json"
+    },
+    "synthetic-repeat": {
+      "checks": 288,
+      "csv": "kernel-sweep-synthetic-repeat.csv",
+      "summary": "kernel-sweep-synthetic-repeat.json"
+    },
+    "dev": {
+      "checks": 768,
+      "csv": "kernel-sweep-dev.csv",
+      "summary": "kernel-sweep-dev.json"
+    },
+    "dev-repeat": {
+      "checks": 288,
+      "csv": "kernel-sweep-dev-repeat.csv",
+      "summary": "kernel-sweep-dev-repeat.json"
+    },
+    "synthetic-cold": {
+      "checks": 288,
+      "csv": "kernel-sweep-synthetic-cold.csv",
+      "summary": "kernel-sweep-synthetic-cold.json"
+    }
+  },
+  "tests": {
+    "ctest": "6/6 passed",
+    "memcheck": "0 errors; cap=4, warps=8, prefetch=8, cta_reduce=1",
+    "racecheck": "0 hazards, 0 errors, 0 warnings; same tuned kernel, cap=4, warps=8, prefetch=8, cta_reduce=1",
+    "v2_fit_guard": "baseline data accepted; nonbaseline prefetch data rejected"
+  },
+  "limitations": [
+    "Eight development matrices, not an independent performance holdout.",
+    "Cold single-kernel timings are quantized and noisy; warm long-tail gains did not carry over.",
+    "Some repeated measurements of unchanged normal kernels varied; small speedups are not conclusive.",
+    "No H100 measurements: devices were occupied. No PDL or cluster implementation."
+  ],
+  "numerical_checks": 13152
+}

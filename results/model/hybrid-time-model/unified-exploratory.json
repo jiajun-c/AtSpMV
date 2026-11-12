@@ -1,0 +1,293 @@
+{
+  "method": "H100 PCIe warm Graph, pre-optimization fixed candidates; all estimates relative to default AtBSR. Grouped deterministic train/dev/holdout split; no setup cost.",
+  "sklearn": "1.6.0",
+  "features_sha256": "58fea6ef293c9498d19817e8b90fe424c161c9f0ce2c23913ecd884727a6b0d2",
+  "names_sha256": "eb2db5f3296d0d464bc12dbb91436a101db0e13ad6ec4768fccafafa5ff8f8aa",
+  "targets_sha256": "9dc9777cc5199fad13cdc60913ca03b37416cfe3a35f8b60f37f246d241836bb",
+  "configs": [
+    [
+      "atbsr",
+      "3/0/8/128/1/1024",
+      3,
+      1024
+    ],
+    [
+      "atbsr",
+      "0/1/8/128/1/1024",
+      0,
+      1024
+    ],
+    [
+      "csr_dsm",
+      "-1/-1/8/256/1/1024",
+      3,
+      1024
+    ],
+    [
+      "csr_two_stage",
+      "-1/-1/8/256/1/1024",
+      3,
+      1024
+    ],
+    [
+      "cusparse",
+      "CSR_ALG1",
+      3,
+      1024
+    ],
+    [
+      "hybrid_dsm_atbsr",
+      "3/0/8/256/1/1024",
+      3,
+      1024
+    ],
+    [
+      "hybrid_dsm_atbsr",
+      "5/0/8/256/1/1024",
+      5,
+      1024
+    ],
+    [
+      "hybrid_dsm_atbsr",
+      "5/0/8/128/1/4096",
+      5,
+      4096
+    ]
+  ],
+  "experiments": {
+    "0.9:0.85": {
+      "train": {
+        "matrices": 1448,
+        "changed": 272,
+        "hybrid": 1,
+        "slower_than_default": 9,
+        "geomean_speedup": 1.0339451267318678,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 82,
+        "hybrid": 2,
+        "slower_than_default": 6,
+        "geomean_speedup": 1.0307034255896377,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 41,
+        "hybrid": 0,
+        "slower_than_default": 6,
+        "geomean_speedup": 1.0164745483749793,
+        "median_speedup": 1.0
+      }
+    },
+    "0.9:0.9": {
+      "train": {
+        "matrices": 1448,
+        "changed": 276,
+        "hybrid": 5,
+        "slower_than_default": 9,
+        "geomean_speedup": 1.0344327951222962,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 82,
+        "hybrid": 2,
+        "slower_than_default": 6,
+        "geomean_speedup": 1.0307034255896377,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 51,
+        "hybrid": 10,
+        "slower_than_default": 9,
+        "geomean_speedup": 1.0172935572497361,
+        "median_speedup": 1.0
+      }
+    },
+    "0.9:0.95": {
+      "train": {
+        "matrices": 1448,
+        "changed": 277,
+        "hybrid": 8,
+        "slower_than_default": 9,
+        "geomean_speedup": 1.0344839741981662,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 82,
+        "hybrid": 2,
+        "slower_than_default": 6,
+        "geomean_speedup": 1.0307034255896377,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 52,
+        "hybrid": 11,
+        "slower_than_default": 9,
+        "geomean_speedup": 1.0176676855922342,
+        "median_speedup": 1.0
+      }
+    },
+    "0.95:0.85": {
+      "train": {
+        "matrices": 1448,
+        "changed": 597,
+        "hybrid": 1,
+        "slower_than_default": 32,
+        "geomean_speedup": 1.0550192343716724,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 179,
+        "hybrid": 2,
+        "slower_than_default": 30,
+        "geomean_speedup": 1.0502738140456518,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 129,
+        "hybrid": 0,
+        "slower_than_default": 27,
+        "geomean_speedup": 1.03419601475405,
+        "median_speedup": 1.0
+      }
+    },
+    "0.95:0.9": {
+      "train": {
+        "matrices": 1448,
+        "changed": 600,
+        "hybrid": 4,
+        "slower_than_default": 32,
+        "geomean_speedup": 1.0553682365954102,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 179,
+        "hybrid": 2,
+        "slower_than_default": 30,
+        "geomean_speedup": 1.0502738140456518,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 135,
+        "hybrid": 6,
+        "slower_than_default": 30,
+        "geomean_speedup": 1.0331035711059182,
+        "median_speedup": 1.0
+      }
+    },
+    "0.95:0.95": {
+      "train": {
+        "matrices": 1448,
+        "changed": 601,
+        "hybrid": 8,
+        "slower_than_default": 32,
+        "geomean_speedup": 1.0554289865221917,
+        "median_speedup": 1.0
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 179,
+        "hybrid": 2,
+        "slower_than_default": 30,
+        "geomean_speedup": 1.0502738140456518,
+        "median_speedup": 1.0
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 136,
+        "hybrid": 10,
+        "slower_than_default": 30,
+        "geomean_speedup": 1.0345567260272008,
+        "median_speedup": 1.0
+      }
+    },
+    "1.0:0.85": {
+      "train": {
+        "matrices": 1448,
+        "changed": 1057,
+        "hybrid": 1,
+        "slower_than_default": 197,
+        "geomean_speedup": 1.0646650962493471,
+        "median_speedup": 1.0473961519730777
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 298,
+        "hybrid": 2,
+        "slower_than_default": 80,
+        "geomean_speedup": 1.058859891449826,
+        "median_speedup": 1.0193340026734297
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 269,
+        "hybrid": 0,
+        "slower_than_default": 85,
+        "geomean_speedup": 1.043149389474727,
+        "median_speedup": 1.0
+      }
+    },
+    "1.0:0.9": {
+      "train": {
+        "matrices": 1448,
+        "changed": 1060,
+        "hybrid": 4,
+        "slower_than_default": 197,
+        "geomean_speedup": 1.065017289341209,
+        "median_speedup": 1.048389043660154
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 298,
+        "hybrid": 2,
+        "slower_than_default": 80,
+        "geomean_speedup": 1.058859891449826,
+        "median_speedup": 1.0193340026734297
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 272,
+        "hybrid": 3,
+        "slower_than_default": 87,
+        "geomean_speedup": 1.0414137845835463,
+        "median_speedup": 1.0
+      }
+    },
+    "1.0:0.95": {
+      "train": {
+        "matrices": 1448,
+        "changed": 1061,
+        "hybrid": 8,
+        "slower_than_default": 197,
+        "geomean_speedup": 1.0650785946942651,
+        "median_speedup": 1.0485622694019916
+      },
+      "dev": {
+        "matrices": 410,
+        "changed": 298,
+        "hybrid": 2,
+        "slower_than_default": 80,
+        "geomean_speedup": 1.058859891449826,
+        "median_speedup": 1.0193340026734297
+      },
+      "holdout": {
+        "matrices": 389,
+        "changed": 273,
+        "hybrid": 10,
+        "slower_than_default": 87,
+        "geomean_speedup": 1.0437324698992692,
+        "median_speedup": 1.0
+      }
+    }
+  }
+}

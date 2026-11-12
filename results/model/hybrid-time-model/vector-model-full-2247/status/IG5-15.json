@@ -1,0 +1,17 @@
+{
+  "dataset": "IG5-15",
+  "matrix_sha256": "e7bfac3ce2092692f9511e5a173d150fc80dbcf95bddaea3008a3f68e8b86c15",
+  "index_nnz": 323509,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.402,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

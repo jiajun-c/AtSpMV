@@ -1,0 +1,8 @@
+{
+  "name": "dwt_310",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cusparse,27352.777,87.40159869,7.105427358e-14,4.669372503e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cusparse-host,27352.777,94.48873,7.105427358e-14,4.669372503e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-512,144.116,77.42720246,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-host-512,144.116,83.81568,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-256,144.116,77.9648006,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-host-256,144.116,84.2805,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-128,144.116,83.31840038,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,cached-tiles-host-128,144.116,89.709865,8.10462808e-14,1.749511505e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/dwt_310-L.mtx,320,1759,108,selector-cached,144.116,77.46880054,8.10462808e-14,1.749511505e-17\n",
+  "stderr": ""
+}

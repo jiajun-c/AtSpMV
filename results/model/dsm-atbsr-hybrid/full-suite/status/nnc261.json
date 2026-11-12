@@ -1,0 +1,10 @@
+{
+  "dataset": "nnc261",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nnc261/nnc261.mtx",
+  "matrix_sha256": "244bdd798d1e8ac1fa9c07e2d80aee37565f400cf8a5e38980955237b9420f67",
+  "index_nnz": 1500,
+  "index_rows": 261,
+  "elapsed_s": 0.668,
+  "returncode": 0,
+  "status": "ok"
+}

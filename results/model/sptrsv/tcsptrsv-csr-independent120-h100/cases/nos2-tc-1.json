@@ -1,0 +1,9 @@
+{
+  "name": "nos2",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/nos2-L.mtx --------------\nsuccess open file\ninput matrix A: ( 960, 960 ) nnz = 2868\nloadfile time    = 0.00123 sec\nnnzL = 2868\ntime_for_csc2CompressTile = 1.82 ms\ntime_cuda_solve = 1.279850 ms, Mflops = 4.48\nVALIDATION finite=1 max_error=2.9976021664879227e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

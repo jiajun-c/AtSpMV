@@ -1,0 +1,10 @@
+{
+  "dataset": "rail582",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+  "matrix_sha256": "7e84631464825450aaf9361675b87a8533b6dd1cf18303f07291dfbd80bed6d6",
+  "index_nnz": 402290,
+  "index_rows": 582,
+  "elapsed_s": 1.218,
+  "returncode": 0,
+  "status": "ok"
+}

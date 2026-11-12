@@ -1,0 +1,10 @@
+{
+  "dataset": "umistfacesnorm_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/umistfacesnorm_10NN/umistfacesnorm_10NN.mtx",
+  "matrix_sha256": "dfe200c9c10348cdb29ac58b1bc8ed77bd8edb2de33bbae77e5d29f0716f6bce",
+  "index_nnz": 6990,
+  "index_rows": 575,
+  "elapsed_s": 1.266,
+  "returncode": 0,
+  "status": "ok"
+}

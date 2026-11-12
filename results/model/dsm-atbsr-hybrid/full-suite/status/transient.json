@@ -1,0 +1,10 @@
+{
+  "dataset": "transient",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/transient/transient.mtx",
+  "matrix_sha256": "1040e734fbe1eabaca99d254f32962471ef9666f2a12508c9ad73d18b4c8f33a",
+  "index_nnz": 961790,
+  "index_rows": 178866,
+  "elapsed_s": 1.933,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Journals",
+  "round": 0,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cusparse,29598.234,93.8816011,1.243449788e-14,6.276775637e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cusparse-host,29598.234,101.46686,1.243449788e-14,6.276775637e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-128,238.934,109.5808029,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-host-128,238.934,116.438795,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-256,238.934,102.2591949,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-host-256,238.934,108.93024,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-512,238.934,100.7455945,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,cached-tiles-host-512,238.934,107.360865,1.243449788e-14,6.404365028e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/Journals-L.mtx,124,7573,123,selector-cached,238.934,100.7071972,1.243449788e-14,6.404365028e-17\n",
+  "stderr": ""
+}

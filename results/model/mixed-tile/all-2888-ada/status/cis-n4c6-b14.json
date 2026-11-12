@@ -1,0 +1,15 @@
+{
+  "dataset": "cis-n4c6-b14",
+  "matrix_sha256": "90a939ccb135bd864152a02b10f40c5120241c0c134230979d3f7f04d1f25f21",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.689,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

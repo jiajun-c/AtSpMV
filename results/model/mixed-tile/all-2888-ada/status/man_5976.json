@@ -1,0 +1,15 @@
+{
+  "dataset": "man_5976",
+  "matrix_sha256": "dd92ce521f859391018bec98545cde08f2c934b095aae6414981d35e3a0b22bb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.404,
+  "gpu_after": {
+    "utilization_percent": 31,
+    "free_memory_mib": 48508
+  }
+}

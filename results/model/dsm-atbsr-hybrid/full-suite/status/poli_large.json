@@ -1,0 +1,10 @@
+{
+  "dataset": "poli_large",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/poli_large/poli_large.mtx",
+  "matrix_sha256": "3de93a3f96b9b0d7c10d277a312810aec6097e53cd6554d660d7404a24e9c0d1",
+  "index_nnz": 33074,
+  "index_rows": 15575,
+  "elapsed_s": 0.649,
+  "returncode": 0,
+  "status": "ok"
+}

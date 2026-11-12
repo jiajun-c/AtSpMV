@@ -1,0 +1,17 @@
+{
+  "dataset": "Tina_AskCal",
+  "matrix_sha256": "cc8614092ad50c13b441def7a0af54c8f45158c84e00a6bbc7a7c846b62334f1",
+  "index_nnz": 29,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.982,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "qa8fm",
+  "matrix_sha256": "5a04ec09978644b70dc435c175b7cee61e408718af20240fac5ceca71a63ccde",
+  "index_nnz": 1660579,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 67.314,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

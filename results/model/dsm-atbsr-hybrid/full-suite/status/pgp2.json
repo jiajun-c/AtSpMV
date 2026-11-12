@@ -1,0 +1,10 @@
+{
+  "dataset": "pgp2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/pgp2/pgp2.mtx",
+  "matrix_sha256": "0b827dc98784ffc56565e7ceaad95ed09fc20e5e6421e6c9dbfe36592fa9a089",
+  "index_nnz": 22474,
+  "index_rows": 4034,
+  "elapsed_s": 1.234,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "nos4",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/nos4/nos4.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 100,
+  "columns": 100,
+  "original_nnz": 594,
+  "factor_L_nnz": 744,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.018274154979735613
+}

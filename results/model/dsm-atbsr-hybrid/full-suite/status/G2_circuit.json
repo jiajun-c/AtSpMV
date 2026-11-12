@@ -1,0 +1,10 @@
+{
+  "dataset": "G2_circuit",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/G2_circuit/G2_circuit.mtx",
+  "matrix_sha256": "cddcb9e6e489878da31359a0032cf9e98211a0b974b10daf1b17fe4bf26fa941",
+  "index_nnz": 726674,
+  "index_rows": 150102,
+  "elapsed_s": 1.204,
+  "returncode": 0,
+  "status": "ok"
+}

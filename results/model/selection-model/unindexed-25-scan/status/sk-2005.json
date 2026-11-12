@@ -1,0 +1,17 @@
+{
+  "dataset": "sk-2005",
+  "file_bytes": 34382175184,
+  "file_mtime_ns": 1425854048000000000,
+  "structure": {
+    "dataset": "sk-2005",
+    "rows": "50636154",
+    "columns": "50636154",
+    "nnz": "1949412601",
+    "longest_row": "19879528",
+    "longest_row_nnz": "12870",
+    "ratio": "6.60198871875e-06",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 178.56
+}

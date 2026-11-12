@@ -1,0 +1,19 @@
+{
+  "dataset": "tandem_vtx",
+  "matrix_sha256": "ba5e593e6b104219e6982572e818efeb882cf2f109ba8a40b4b8fd8003c699dd",
+  "index_nnz": 253350,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.194,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

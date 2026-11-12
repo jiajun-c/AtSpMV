@@ -1,0 +1,8 @@
+{
+  "name": "yeast_30NN",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/yeast_30NN-L.mtx,model,cusparse,1484,154917,1040,19735.53,916.7712402,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\nresults/model/sptrsv/components-independent-h100/factors/yeast_30NN-L.mtx,model-host,cusparse,1484,154917,1040,19735.53,925.27147,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\nresults/model/sptrsv/components-independent-h100/factors/yeast_30NN-L.mtx,default,cusparse,1484,154917,-1,19825.195,917.0528564,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\nresults/model/sptrsv/components-independent-h100/factors/yeast_30NN-L.mtx,default-host,cusparse,1484,154917,-1,19825.195,927.91008,1.971489638e-11,1.346844892e-17,1.025834608e-16,0\n",
+  "stderr": ""
+}

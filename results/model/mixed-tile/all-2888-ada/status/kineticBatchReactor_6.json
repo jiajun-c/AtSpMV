@@ -1,0 +1,15 @@
+{
+  "dataset": "kineticBatchReactor_6",
+  "matrix_sha256": "7606d91a99ed1e69594fd13b43080705a01387027a3291479b7f3321971e6be9",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.508,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

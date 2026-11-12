@@ -1,0 +1,17 @@
+{
+  "dataset": "dataset22mfeatzernike_10NN",
+  "matrix_sha256": "79ea892b33a709b0b19a696e82cf138389c537423a3c6e332637630cae6dc01a",
+  "index_nnz": 27414,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.212,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

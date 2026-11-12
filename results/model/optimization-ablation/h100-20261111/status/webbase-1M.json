@@ -1,0 +1,31 @@
+{
+  "dataset": "webbase-1M",
+  "status": "ok",
+  "matrix_sha256": "2193ec714a68f5b8b036906001beaa77ec46adc7c39b19a626ad107d8989d264",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/webbase-1M/webbase-1M.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/webbase-1M-0.csv",
+        "20261125",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 7.624874884961173
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/webbase-1M/webbase-1M.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/webbase-1M-1.csv",
+        "20261126",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 7.117187544004992
+    }
+  ]
+}

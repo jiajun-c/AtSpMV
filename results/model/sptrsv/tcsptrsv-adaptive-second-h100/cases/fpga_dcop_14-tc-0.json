@@ -1,0 +1,9 @@
+{
+  "name": "fpga_dcop_14",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/fpga_dcop_14-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1232, 1232 ) nnz = 3177\nloadfile time    = 0.00160 sec\nnnzL = 3177\ntime_for_csc2CompressTile = 2.53 ms\ntime_cuda_solve = 0.074560 ms, Mflops = 85.22\nVALIDATION finite=1 max_error=1.1102230246251565e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

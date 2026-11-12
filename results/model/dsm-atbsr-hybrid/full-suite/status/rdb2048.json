@@ -1,0 +1,10 @@
+{
+  "dataset": "rdb2048",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rdb2048/rdb2048.mtx",
+  "matrix_sha256": "d98a04d1545940e4cb8e651485d1cdc095bbcb27c9e7f9e09f26857ef4cdf261",
+  "index_nnz": 12032,
+  "index_rows": 2048,
+  "elapsed_s": 0.61,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "Tina_DisCal",
+  "matrix_sha256": "80bdc3f8e47c0ac9aca6f49fcb65bbcf1f5482f7d8a0bfc5ebb1535915228391",
+  "index_nnz": 41,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.575,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

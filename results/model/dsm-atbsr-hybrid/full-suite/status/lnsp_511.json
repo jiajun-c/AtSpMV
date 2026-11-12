@@ -1,0 +1,10 @@
+{
+  "dataset": "lnsp_511",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lnsp_511/lnsp_511.mtx",
+  "matrix_sha256": "37286f78c663d669d53fe6da074b61337606e0512182da25c4beff35e925b666",
+  "index_nnz": 2796,
+  "index_rows": 511,
+  "elapsed_s": 0.635,
+  "returncode": 0,
+  "status": "ok"
+}

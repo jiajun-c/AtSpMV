@@ -1,0 +1,31 @@
+{
+  "dataset": "thermal2",
+  "status": "ok",
+  "matrix_sha256": "f22cafc97c150c1333545f519ee92226f8407ec281938a6a39b5ff685d61acf2",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/thermal2/thermal2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/thermal2-0.csv",
+        "20261147",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.754607485141605
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/thermal2/thermal2.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/thermal2-1.csv",
+        "20261148",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 3.5046781809069216
+    }
+  ]
+}

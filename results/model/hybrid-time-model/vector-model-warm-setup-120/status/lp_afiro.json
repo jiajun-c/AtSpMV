@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_afiro",
+  "matrix_sha256": "3fe7cd2193e20efcdfa7ae26273224be6f0c9ee73f8377b12cf2a8ee2c5129dc",
+  "index_nnz": 102,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.949,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

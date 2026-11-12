@@ -1,0 +1,85 @@
+{
+  "cases": 80,
+  "manifest_total": 80,
+  "all_cases_completed_successfully": true,
+  "positive_per_call_saving": 73,
+  "median_break_even_calls": 31888,
+  "method": "Additional plan setup divided by independently measured warm Graph per-call savings; arithmetic average over construction orders. Excludes input loading, caller allocations, graph creation and CPU launch overhead. Not applicable to one-off cold execution.",
+  "reuse_scenarios": {
+    "1": {
+      "cases": 80,
+      "geomean_speedup": 0.17721420526121442,
+      "wins": 2
+    },
+    "10": {
+      "cases": 80,
+      "geomean_speedup": 0.17888990580862646,
+      "wins": 2
+    },
+    "100": {
+      "cases": 80,
+      "geomean_speedup": 0.19464206564981612,
+      "wins": 2
+    },
+    "1000": {
+      "cases": 80,
+      "geomean_speedup": 0.30297254602121165,
+      "wins": 2
+    },
+    "10000": {
+      "cases": 80,
+      "geomean_speedup": 0.6611022190726726,
+      "wins": 8
+    },
+    "100000": {
+      "cases": 80,
+      "geomean_speedup": 1.050434383401325,
+      "wins": 60
+    },
+    "1000000": {
+      "cases": 80,
+      "geomean_speedup": 1.1710725348583104,
+      "wins": 68
+    }
+  },
+  "versus_full_tune": {
+    "median_full_minus_fast_setup_us": 101907.78025000001,
+    "reuse_scenarios": {
+      "1": {
+        "cases": 80,
+        "geomean_speedup": 5.532586045964386,
+        "wins": 80
+      },
+      "10": {
+        "cases": 80,
+        "geomean_speedup": 5.526751986026017,
+        "wins": 80
+      },
+      "100": {
+        "cases": 80,
+        "geomean_speedup": 5.469453977425494,
+        "wins": 80
+      },
+      "1000": {
+        "cases": 80,
+        "geomean_speedup": 4.982839900174367,
+        "wins": 80
+      },
+      "10000": {
+        "cases": 80,
+        "geomean_speedup": 3.077826744956863,
+        "wins": 79
+      },
+      "100000": {
+        "cases": 80,
+        "geomean_speedup": 1.4457542966560473,
+        "wins": 79
+      },
+      "1000000": {
+        "cases": 80,
+        "geomean_speedup": 1.0403746494512278,
+        "wins": 62
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cond-mat-2005",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cond-mat-2005/cond-mat-2005.mtx",
+  "matrix_sha256": "3efabf381073f210423c2799e1aee6c5269c077866973d15b2e48b1829553a18",
+  "index_nnz": 351386,
+  "index_rows": 40421,
+  "elapsed_s": 1.32,
+  "returncode": 0,
+  "status": "ok"
+}

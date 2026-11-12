@@ -1,0 +1,7 @@
+{
+  "name": "c-20",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/c-20-L.mtx,default,cusparse,5001.56,4893.028,5169.551,13.5805,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/c-20-L.mtx,model,cusparse,5155.541,5013.402,5903.263,13.0165,12\n",
+  "stderr": ""
+}

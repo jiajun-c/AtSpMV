@@ -1,0 +1,10 @@
+{
+  "dataset": "blockqp1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/blockqp1/blockqp1.mtx",
+  "matrix_sha256": "15985e19d4d640ff00a9fb922ed10619114afd9b65b508a1213dc278e4b41e29",
+  "index_nnz": 640033,
+  "index_rows": 60012,
+  "elapsed_s": 1.271,
+  "returncode": 0,
+  "status": "ok"
+}

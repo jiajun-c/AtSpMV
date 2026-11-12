@@ -1,0 +1,15 @@
+{
+  "dataset": "scfxm1-2r",
+  "matrix_sha256": "aaaa55a6ca9d1f7dfeffddb75dec2203e885e6fc4567516ac4a63c27dd27e0dc",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.139,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "expected": 2248,
+  "cases": 2248,
+  "status_counts": {
+    "evaluation": {
+      "ok": 663
+    },
+    "train_dev": {
+      "ok": 1585
+    }
+  },
+  "method": "Separate H100 runs: evaluation matrices and train/dev matrices. Warm Graph, independently allocated candidates and order effects; setup excluded. Failed and missing cases excluded. Evaluation data were previously inspected.",
+  "graph_speedup_vs_v2": 1.0006687298388313,
+  "graph_speedup_vs_cusparse": 1.5678013051625295,
+  "v2_width_ratio_mape": 0.06382829276991321,
+  "graph_width_ratio_mape": 0.06293209003426264
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "Long_Coup_dt6",
+  "matrix_sha256": "806d70e94cf6d4273c2e40687646491febe74cd15182c738f782c355fe1641c5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 66.465,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

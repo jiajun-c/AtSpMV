@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_ship08l",
+  "matrix_sha256": "abdb4948970b6471afe0e5e4dda04a8afd0a0c1038c1b57ae262043ee74dae2f",
+  "index_nnz": 12882,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.913,
+  "gpu_after": {
+    "utilization_percent": 46,
+    "free_memory_mib": 81079
+  }
+}

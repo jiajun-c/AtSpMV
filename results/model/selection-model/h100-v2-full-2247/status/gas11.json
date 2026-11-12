@@ -1,0 +1,17 @@
+{
+  "dataset": "gas11",
+  "matrix_sha256": "ba19c994f4eb455b84b01181f396b5506c3bd8b153ddebb2c0bca5caa43c08d8",
+  "index_nnz": 2166,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 33.081,
+  "gpu_after": {
+    "utilization_percent": 38,
+    "free_memory_mib": 81079
+  }
+}

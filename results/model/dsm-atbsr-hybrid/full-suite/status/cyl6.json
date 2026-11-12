@@ -1,0 +1,10 @@
+{
+  "dataset": "cyl6",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cyl6/cyl6.mtx",
+  "matrix_sha256": "31c8df8a6c891aa128822f2970b384c6edb3b7ca9c801f53bce5daba433129c0",
+  "index_nnz": 714241,
+  "index_rows": 13681,
+  "elapsed_s": 1.172,
+  "returncode": 0,
+  "status": "ok"
+}

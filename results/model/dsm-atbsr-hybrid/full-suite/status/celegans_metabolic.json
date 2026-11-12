@@ -1,0 +1,10 @@
+{
+  "dataset": "celegans_metabolic",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/celegans_metabolic/celegans_metabolic.mtx",
+  "matrix_sha256": "6f573fdf4a6ff4ba3191d4db8ce5193c6d18edac67ca55599ff2dc689a7ae61a",
+  "index_nnz": 4065,
+  "index_rows": 453,
+  "elapsed_s": 1.299,
+  "returncode": 0,
+  "status": "ok"
+}

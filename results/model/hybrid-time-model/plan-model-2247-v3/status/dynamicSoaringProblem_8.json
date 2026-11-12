@@ -1,0 +1,19 @@
+{
+  "dataset": "dynamicSoaringProblem_8",
+  "matrix_sha256": "d31566a54fe544a407c0f7ddc93c8f17a4e7040b51a208d84c5ce53e0b6b1491",
+  "index_nnz": 38136,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.288,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

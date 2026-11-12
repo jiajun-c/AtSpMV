@@ -1,0 +1,15 @@
+{
+  "dataset": "jgl011",
+  "matrix_sha256": "d0a0f83c67bd14d5e5ca27c2841b49f83e3ac8f303785b4c821a84fd9d043dfe",
+  "gpu_before": {
+    "utilization_percent": 17,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.921,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

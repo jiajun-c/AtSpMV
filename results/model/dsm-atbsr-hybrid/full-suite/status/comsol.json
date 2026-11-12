@@ -1,0 +1,10 @@
+{
+  "dataset": "comsol",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/comsol/comsol.mtx",
+  "matrix_sha256": "ead8dd3c5b6bbd0f602c10863dedbbaafaad4d93c855e224412dee66c893d92f",
+  "index_nnz": 97645,
+  "index_rows": 1500,
+  "elapsed_s": 0.678,
+  "returncode": 0,
+  "status": "ok"
+}

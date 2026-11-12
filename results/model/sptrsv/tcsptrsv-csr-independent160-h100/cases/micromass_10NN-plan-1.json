@@ -1,0 +1,9 @@
+{
+  "name": "micromass_10NN",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/micromass_10NN-L.mtx,default,cusparse,576,22881,-1,5100.88,257.6704102,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/micromass_10NN-L.mtx,default-host,cusparse,576,22881,-1,5100.88,264.437915,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/micromass_10NN-L.mtx,model,cusparse,576,22881,268,5240.489,258.1696167,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/micromass_10NN-L.mtx,model-host,cusparse,576,22881,268,5240.489,264.41389,1.98951966e-13,2.061685803e-17,1.045308296e-16,0\n",
+  "stderr": ""
+}

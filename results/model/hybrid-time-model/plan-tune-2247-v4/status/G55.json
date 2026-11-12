@@ -1,0 +1,19 @@
+{
+  "dataset": "G55",
+  "matrix_sha256": "4e17845f257cfcac2ebd0e760a8d42c52c01e295d02123432f454b4f408aec40",
+  "index_nnz": 24996,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.288,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

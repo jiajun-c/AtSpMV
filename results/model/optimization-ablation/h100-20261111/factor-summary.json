@@ -1,0 +1,131 @@
+{
+  "coverage": {
+    "requested": 9,
+    "successful": 9,
+    "failures": [],
+    "candidate_pairs": 380,
+    "scope": "Purposeful mechanism ablation, nine previously inspected matrices; not a blind sample or all-dataset claim. Fixed configs, not autotuned winners."
+  },
+  "factors": {
+    "shape_oracle_vs_32": {
+      "n": 9,
+      "geomean": 3.5754862713351674,
+      "wins_over_1pct": 8,
+      "losses_over_1pct": 0
+    },
+    "balance_oracle_vs_ordinary": {
+      "n": 9,
+      "geomean": 2.6276594897299868,
+      "wins_over_1pct": 4,
+      "losses_over_1pct": 0
+    },
+    "balance_at_32": {
+      "n": 9,
+      "geomean": 7.61059172232401,
+      "wins_over_1pct": 8,
+      "losses_over_1pct": 1
+    },
+    "prefetch_12config_gmean": {
+      "n": 9,
+      "geomean": 1.0199975829161592,
+      "wins_over_1pct": 7,
+      "losses_over_1pct": 2
+    },
+    "remove_clear_32": {
+      "n": 9,
+      "geomean": 1.054019109774046,
+      "wins_over_1pct": 6,
+      "losses_over_1pct": 0
+    },
+    "cta_merge_32_balanced": {
+      "n": 9,
+      "geomean": 1.0619612276135395,
+      "wins_over_1pct": 3,
+      "losses_over_1pct": 3
+    },
+    "cap4_32_balanced": {
+      "n": 9,
+      "geomean": 0.8947892175055686,
+      "wins_over_1pct": 1,
+      "losses_over_1pct": 7
+    },
+    "cap16_32_balanced": {
+      "n": 9,
+      "geomean": 1.0141178079111082,
+      "wins_over_1pct": 5,
+      "losses_over_1pct": 3
+    },
+    "warps2_32": {
+      "n": 9,
+      "geomean": 0.9803464965974603,
+      "wins_over_1pct": 0,
+      "losses_over_1pct": 5
+    },
+    "warps8_32": {
+      "n": 9,
+      "geomean": 0.9792889882778263,
+      "wins_over_1pct": 3,
+      "losses_over_1pct": 3
+    },
+    "depth4_vs2_32": {
+      "n": 9,
+      "geomean": 1.233207628406713,
+      "wins_over_1pct": 9,
+      "losses_over_1pct": 0
+    },
+    "mixed_split8_vs_unsplit": {
+      "n": 9,
+      "geomean": 2.6218123649928886,
+      "wins_over_1pct": 6,
+      "losses_over_1pct": 2
+    },
+    "mixed_oracle_vs_fixed12": {
+      "n": 9,
+      "geomean": 1.0685585237611948,
+      "wins_over_1pct": 5,
+      "losses_over_1pct": 3
+    },
+    "vector16_vs_auto_atbsr": {
+      "n": 9,
+      "geomean": 0.4290945499454758,
+      "wins_over_1pct": 4,
+      "losses_over_1pct": 5
+    },
+    "int16_vs_int32_32": {
+      "n": 2,
+      "geomean": 0.9995775481756644,
+      "wins_over_1pct": 0,
+      "losses_over_1pct": 1
+    },
+    "grouped_vs_32": {
+      "n": 7,
+      "geomean": 1.1184657891926357,
+      "wins_over_1pct": 4,
+      "losses_over_1pct": 3
+    },
+    "grouped_vs_old_compression": {
+      "n": 7,
+      "geomean": 1.7176607284028604,
+      "wins_over_1pct": 7,
+      "losses_over_1pct": 0
+    },
+    "old_compression_vs_32": {
+      "n": 7,
+      "geomean": 0.6511564074895182,
+      "wins_over_1pct": 2,
+      "losses_over_1pct": 5
+    },
+    "dsm_vs_two_stage": {
+      "n": 3,
+      "geomean": 0.5364407711327362,
+      "wins_over_1pct": 0,
+      "losses_over_1pct": 3
+    },
+    "hybrid_vs_auto_atbsr": {
+      "n": 3,
+      "geomean": 0.5461826088821764,
+      "wins_over_1pct": 1,
+      "losses_over_1pct": 2
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bcsstk04",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,model,cached,132,3641,128,1365.737,100.2591934,8.881784197e-15,2.572088242e-17,9.810396764e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,model-host,cached,132,3641,128,1365.737,106.456855,8.881784197e-15,2.572088242e-17,9.810396764e-17,512\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,default,cusparse,132,3641,-1,2878.495,96,1.021405183e-14,3.740774724e-17,9.810396764e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bcsstk04-L.mtx,default-host,cusparse,132,3641,-1,2878.495,102.62804,1.021405183e-14,3.740774724e-17,9.810396764e-17,0\n",
+  "stderr": ""
+}

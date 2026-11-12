@@ -1,0 +1,15 @@
+{
+  "dataset": "invextr1_new",
+  "matrix_sha256": "9436d19e77d67b4f044e48956a9e63d9373304fee31c2fe8f0046aff5ef5310d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.933,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

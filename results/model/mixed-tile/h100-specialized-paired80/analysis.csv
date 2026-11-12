@@ -1,0 +1,2 @@
+dataset,nnz,speedup_vs_fastest_fixed,specialized_vs_fastest_fixed,specialized_vs_dynamic,speedup_vs_default,mixed_bytes_vs_fastest_fixed,mixed_slots_vs_fewest_fixed,mixed_slots,mixed_bytes,group_counts,fastest_fixed
+L-9,71192,0.8101266666638531,0.8048076131019811,0.9934342939434692,0.9318901391426835,0.9694088547140574,1.0,71232,793244,0/0/0/0/0/562,m8_b0/m8_b0

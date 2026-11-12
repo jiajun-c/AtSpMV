@@ -1,0 +1,17 @@
+{
+  "dataset": "Linux_call_graph",
+  "matrix_sha256": "d7cb9196a87516f45c762486ae1c1bd38f746d9dd5bd76f5732c893ae73f4612",
+  "index_nnz": 1208908,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.175,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "usps_norm_5NN",
+  "matrix_sha256": "b26bdd28ca8050aeb513b8da67e1ede4c99da478ac47cbbea587b50dec1494a0",
+  "index_nnz": 81112,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.265,
+  "gpu_after": {
+    "utilization_percent": 9,
+    "free_memory_mib": 81079
+  }
+}

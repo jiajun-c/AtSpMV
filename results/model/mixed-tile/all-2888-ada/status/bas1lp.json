@@ -1,0 +1,15 @@
+{
+  "dataset": "bas1lp",
+  "matrix_sha256": "6f4c31664da4d45547af86ad7e4dfa953bb3da840ae3317d1547190f22f6469f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.946,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

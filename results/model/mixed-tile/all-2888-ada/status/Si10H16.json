@@ -1,0 +1,15 @@
+{
+  "dataset": "Si10H16",
+  "matrix_sha256": "0c8d635640bb61401d125bf2b458705ba47970b451341626a221ba1b826b89ff",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.742,
+  "gpu_after": {
+    "utilization_percent": 9,
+    "free_memory_mib": 48508
+  }
+}

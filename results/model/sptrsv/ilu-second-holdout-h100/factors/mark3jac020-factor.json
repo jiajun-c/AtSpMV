@@ -1,0 +1,13 @@
+{
+  "matrix": "mark3jac020",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mark3jac020/mark3jac020.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 9129,
+  "columns": 9129,
+  "original_nnz": 56175,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.26115417783148587
+}

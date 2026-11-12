@@ -1,0 +1,15 @@
+{
+  "dataset": "sx-superuser",
+  "matrix_sha256": "70d13f4750d6d88184c0d7df8c2361bb9a62066915089fd870773bcd804fe5f7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.347,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Si5H12",
+  "matrix_sha256": "1eb37983085e1ec22d223ae83cb7c2f7570f5f547fc8499438d7843af4337b0d",
+  "index_nnz": 738598,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.862,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

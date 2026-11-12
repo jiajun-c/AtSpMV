@@ -1,0 +1,17 @@
+{
+  "dataset": "impcol_d",
+  "matrix_sha256": "959634c65f152e007ed68496f850660d761b08fb16322ad0e029ed3a5d31a884",
+  "index_nnz": 1339,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.036,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

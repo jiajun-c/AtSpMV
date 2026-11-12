@@ -1,0 +1,17 @@
+{
+  "dataset": "sls",
+  "matrix_sha256": "9a222e5618251134ea69c20b83914e7c42121e4c8686b45bf20fce52bbca0e8a",
+  "index_nnz": 6804304,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 38.158,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

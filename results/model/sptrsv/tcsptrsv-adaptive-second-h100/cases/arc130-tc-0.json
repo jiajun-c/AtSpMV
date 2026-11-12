@@ -1,0 +1,9 @@
+{
+  "name": "arc130",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/arc130-L.mtx --------------\nsuccess open file\ninput matrix A: ( 144, 144 ) nnz = 377\nloadfile time    = 0.00026 sec\nnnzL = 377\ntime_for_csc2CompressTile = 2.59 ms\ntime_cuda_solve = 0.054930 ms, Mflops = 13.73\nVALIDATION finite=1 max_error=1.2323475573339238e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

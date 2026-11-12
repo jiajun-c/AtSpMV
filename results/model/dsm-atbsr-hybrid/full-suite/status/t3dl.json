@@ -1,0 +1,10 @@
+{
+  "dataset": "t3dl",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/t3dl/t3dl.mtx",
+  "matrix_sha256": "de46839ad3420d8ec57b7964cee186dd50a33708c0ecad907ececa3e848592ed",
+  "index_nnz": 509866,
+  "index_rows": 20360,
+  "elapsed_s": 0.618,
+  "returncode": 0,
+  "status": "ok"
+}

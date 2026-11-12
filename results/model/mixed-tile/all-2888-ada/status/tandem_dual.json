@@ -1,0 +1,15 @@
+{
+  "dataset": "tandem_dual",
+  "matrix_sha256": "6070ac74dfd9fbe9af6d4394730cfa7cceef0455e838b84cb33f587ea59b92d1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.06,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

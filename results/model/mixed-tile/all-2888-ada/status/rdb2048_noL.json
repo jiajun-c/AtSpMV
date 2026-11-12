@@ -1,0 +1,15 @@
+{
+  "dataset": "rdb2048_noL",
+  "matrix_sha256": "a6624a4a74987405546f6db17bbd140afa05b1adff118564f8614c3665568b73",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.012,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

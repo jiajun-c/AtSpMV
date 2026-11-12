@@ -1,0 +1,7 @@
+{
+  "name": "cdde2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cusparse,33383.07,133.2191944,1.776356839e-15,5.558562646e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cusparse-host,33383.07,141.599525,1.776356839e-15,5.558562646e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-512,316.682,84.87039804,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-host-512,316.682,92.23668,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-256,316.682,88.5792017,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-host-256,316.682,95.8937,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-128,316.682,102.086401,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,cached-tiles-host-128,316.682,109.34593,1.776356839e-15,6.049513538e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/cdde2-L.mtx,961,7305,104,selector-cached,316.682,84.88000035,1.776356839e-15,6.049513538e-17\n",
+  "stderr": ""
+}

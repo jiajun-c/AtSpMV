@@ -1,0 +1,13 @@
+{
+  "matrix": "eurqsa",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/eurqsa/eurqsa.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 7245,
+  "columns": 7245,
+  "original_nnz": 46142,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.18684085900895298
+}

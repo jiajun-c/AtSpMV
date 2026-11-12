@@ -1,0 +1,22 @@
+{
+  "purpose": "ABBA initialization and independent Graph validation, 3 selected matrices; cannot establish full-suite performance.",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "seed": 20261028,
+  "trials": 9,
+  "provenance_sha256": {
+    "atspmvprod.h": "28dc6c2cd364d0fd787f466a4d9bad55cf23faa14a2411d9e164149cf2ab00d9",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "analyze_row_sort_comparison.py": "d7cec8bb7af8623c58ac5c60a9751bfff2c0848641bec2731b0f3ff88738287c",
+    "run_on_idle_gpu.py": "71182d65711375b3a7bb3caaa01e2065859633b33859c9b7a9dc0816da0f30cb",
+    "spmvPlan.cu": "40c67c4fc060b17b135273a95de6a6e266bc6a03e53f4fc5b1d62afa17016db5",
+    "current": "1e01541968970c0db5058a40d04984580dc80ed504a997ccb00174e381db0756",
+    "atspmvProduct.cu": "5cb32b8d60970195d020bdf82e47af41e485de400d5c0b627419cc6eb416e0c1",
+    "previous": "25986cfedbeb60d49293e6f71d634bae44beb2af9de1223ed8c9b00530d1d81e",
+    "spmv_plan_test": "75fffdd4e74308aa047f1950779097f3f44ed8a3230f087334427d0e3d1e2368"
+  },
+  "matrix_sha256": {
+    "lp_sc205": "2c30794a7cf65dc556d69da87e14152bd5a5b975975a846058e61670221c94bf",
+    "a0nsdsil": "5503ea5b2a58c8bb96c234ed9230f32fb60a3269a122b5eabe8d211b32577665",
+    "shermanACb": "c93e8a51ad76b43bf20d9bd4ac300175c7328b80201bbad1ee023310f1e400ae"
+  }
+}

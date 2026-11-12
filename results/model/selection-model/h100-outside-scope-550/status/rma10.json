@@ -1,0 +1,17 @@
+{
+  "dataset": "rma10",
+  "matrix_sha256": "d1b1c0acf2b2864040c69afbe34dc9415273c497206b75662bf3c1eb687e8a56",
+  "index_nnz": 2374001,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 35.576,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

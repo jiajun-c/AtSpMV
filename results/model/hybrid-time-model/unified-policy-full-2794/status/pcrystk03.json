@@ -1,0 +1,17 @@
+{
+  "dataset": "pcrystk03",
+  "matrix_sha256": "fd2778edbbd18db56501da7c24e5f85f21f8afe423d520b2f9f31fb310660b0f",
+  "index_nnz": 1751178,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.478,
+  "gpu_after": {
+    "utilization_percent": 32,
+    "free_memory_mib": 81079
+  }
+}

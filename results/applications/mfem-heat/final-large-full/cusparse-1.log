@@ -1,0 +1,30 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 7
+   --order 2
+   --ode-solver 21
+   --t-final 0.2
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend cusparse
+   --solution /tmp/atspmv-heat-field-x2mc_cvm/temperature.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1313281
+plan rows=1313281 nnz=20981761 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1313281 nnz=20981761 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1313281 nnz=20981761 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+step 5, t = 0.05
+step 10, t = 0.1
+step 15, t = 0.15
+step 20, t = 0.2
+APP_RESULT {"backend":"cusparse","dofs":1313281,"steps":20,"nnz":20981761,"initialization_s":2.4612806250000001,"evolution_s":14.905736623999999,"total_s":17.367017453999999,"plan_s":2.8074630050000002,"plans":3,"value_updates":39,"linear_s":8.1166088150000011,"parameter_s":4.6970617680000002,"implicit_setup_s":2.4261393569999998,"implicit_updates":19,"spmv_calls":22430,"linear_solves":20,"cg_iterations":22410,"sum":1530113.4016644028,"l2":1335.9860671170222,"mass_relative_error":1.2209641482103712e-08,"initial_energy":7.1112906863336134,"final_energy":6.4637260700340828}
+
+STDERR

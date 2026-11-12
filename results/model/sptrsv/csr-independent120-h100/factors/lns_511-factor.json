@@ -1,0 +1,13 @@
+{
+  "matrix": "lns_511",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/lns_511/lns_511.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 511,
+  "columns": 511,
+  "original_nnz": 2796,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03667521616443992
+}

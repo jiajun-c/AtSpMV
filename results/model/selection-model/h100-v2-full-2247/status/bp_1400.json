@@ -1,0 +1,17 @@
+{
+  "dataset": "bp_1400",
+  "matrix_sha256": "078b30058778897307b8039aa2f6fed16d99cadb4eac6f2f89fce9b66fb64fe6",
+  "index_nnz": 4790,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.112,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

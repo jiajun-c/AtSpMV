@@ -1,0 +1,15 @@
+{
+  "dataset": "water_tank",
+  "matrix_sha256": "a1b5d6d04fd04e3a68db6d28b6bafdb564a6824e72ce73a47874ed6f2ddc6810",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.083,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

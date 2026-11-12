@@ -1,0 +1,17 @@
+{
+  "dataset": "stokes64s",
+  "matrix_sha256": "b6e26c998caecc1e1175ce0d006b18430993d49b84f6ee34de57cef379676833",
+  "index_nnz": 140034,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.6,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cage10",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cage10/cage10.mtx",
+  "matrix_sha256": "ae21d526ab61a4b0c8a48676d20789188b8170b7878bbb10efb94a7cd9e40add",
+  "index_nnz": 150645,
+  "index_rows": 11397,
+  "elapsed_s": 2.081,
+  "returncode": 0,
+  "status": "ok"
+}

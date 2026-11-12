@@ -1,0 +1,7 @@
+{
+  "name": "bp_1600",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/bp_1600-L.mtx,default,cusparse,2520.0145,2485.843,3486.516,16.7915,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/bp_1600-L.mtx,model,cached,1175.316,1082.766,1258.899,30.289,12\n",
+  "stderr": ""
+}

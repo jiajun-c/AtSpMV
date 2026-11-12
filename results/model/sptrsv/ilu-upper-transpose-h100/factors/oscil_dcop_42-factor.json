@@ -1,0 +1,10 @@
+{
+  "matrix": "oscil_dcop_42",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/oscil_dcop_42-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 430,
+  "nnz": 1019,
+  "min_abs_diagonal": 1.0056391031441e-12,
+  "max_abs_diagonal": 1000006.574622,
+  "elapsed_s": 0.00907441508024931
+}

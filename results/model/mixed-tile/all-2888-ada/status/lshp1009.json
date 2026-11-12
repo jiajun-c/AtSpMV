@@ -1,0 +1,15 @@
+{
+  "dataset": "lshp1009",
+  "matrix_sha256": "4979377fc14853ef48534d27980c25617a7356b78f5c80f8281f2bcf44ff7681",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.794,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

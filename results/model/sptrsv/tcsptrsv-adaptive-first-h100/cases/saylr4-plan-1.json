@@ -1,0 +1,9 @@
+{
+  "name": "saylr4",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx,default,cusparse,3568,36982,-1,3798.825,294.4224243,2.664535259e-15,6.179341037e-17,1.538924654e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx,default-host,cusparse,3568,36982,-1,3798.825,301.86139,2.664535259e-15,6.179341037e-17,1.538924654e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx,model,cusparse,3568,36982,181,3934.268,294.601593,2.664535259e-15,6.179341037e-17,1.538924654e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/saylr4-L.mtx,model-host,cusparse,3568,36982,181,3934.268,302.192105,2.664535259e-15,6.179341037e-17,1.538924654e-16,0\n",
+  "stderr": ""
+}

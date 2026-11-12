@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_finan512_scagr7-2c_rlfddd",
+  "matrix_sha256": "d02b72f02d19f2c609a914aa929f33e8e39c79d175860fc64f6ebfc46af20dac",
+  "index_nnz": 1104040,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.702,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

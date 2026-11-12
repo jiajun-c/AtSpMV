@@ -1,0 +1,10 @@
+{
+  "matrix": "wang2",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/wang2-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 2903,
+  "nnz": 50487,
+  "min_abs_diagonal": 0.021865373952148333,
+  "max_abs_diagonal": 2.39085016950363,
+  "elapsed_s": 0.05183046008460224
+}

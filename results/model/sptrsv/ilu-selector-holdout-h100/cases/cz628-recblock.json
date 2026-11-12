@@ -1,0 +1,7 @@
+{
+  "name": "cz628",
+  "implementation": "recblock",
+  "returncode": 0,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-selector-holdout-h100/factors/cz628-L.mtx --------------\ninput matrix A: ( 628, 628 ) nnz = 7839\ncomputation usetime = 0.301 ms\nPerformance = 0.052 gflops\n\n x check _NOT_ passed! |x-xref|/|xref| = 2.15e-02\n",
+  "stderr": "stage reorder start\nstage reorder done\nstage preprocessing done\nstage solve start method=3\nstage calculate done\n"
+}

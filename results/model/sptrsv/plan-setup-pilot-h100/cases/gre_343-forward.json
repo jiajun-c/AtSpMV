@@ -1,0 +1,7 @@
+{
+  "name": "gre_343",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/gre_343-L.mtx,default,cusparse,2431.1955,2371.95,3845.92,14.076,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/gre_343-L.mtx,model,cached,1189.889,1062.24,3030.615,19.8565,12\n",
+  "stderr": ""
+}

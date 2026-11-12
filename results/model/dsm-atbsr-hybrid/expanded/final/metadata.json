@@ -1,0 +1,333 @@
+{
+  "gpu_before": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 97 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 100 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 0 %, 0 MiB\n",
+  "cuda_visible_devices": "3",
+  "exe": "/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation",
+  "exe_sha256": "445fd7f9d7503ba4c0f5de1121ee039c779c05db88f746e01892f6e5411baeda",
+  "sources": {
+    "bench/spmv_hybrid_validation.cu": "8ed2326f3d462bf4430138f382d013476b7bd77ee4bfe26f59f816b93e1fedce",
+    "src/spmvPlan.cu": "356a5a9abe6d8c8eac121123ee2c5c362365ede2bfccd6db99ddcd15edd0167e",
+    "src/spmvPlanDsm.cu": "a10bc1b9ab7e4713676c0d0c7d935ab40b91f44cdf3bfd43c64c7586eddb2395",
+    "include/spmvPlan.h": "98b86fc234b8fadcebed410d40543d407ad93c59b1689c915a2cc012adc34fd6",
+    "include/detail/spmvPlanDsm.h": "b6b63876950df27c97de7e165db4a6ff0b4c59505b30cd2466a37eeefa35024a",
+    "include/dsmLongRow.cuh": "ced8adb26029196fe378d9b10099ef8ca502489d9c1b7ea2c568fdc33e2cf48b",
+    "src/atspmvProduct.cu": "abeec5b087861c23949669649d1ee2e78944b88fe3f2821eab20624351e12f8e",
+    "scripts/analysis/benchmark_dsm_atbsr_hybrid.py": "129bf34a33ed056f1aba92814e327feea12d10f5e8f2a6648cb0621d35adc0fa"
+  },
+  "inputs": {
+    "rajat20": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat20/rajat20.mtx",
+      "sha256": "2b7eafb39ed6dddbe0d099293591d3feae9d916ca4f7cb71390c0880d517c9b3"
+    },
+    "trans4": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/trans4/trans4.mtx",
+      "sha256": "483c4cfd42e940a97b1c263d695d0d11245cd74962a04601a592cec172c227ff"
+    },
+    "mult_dcop_02": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mult_dcop_02/mult_dcop_02.mtx",
+      "sha256": "4daf1e61d2a2a592e3778b0245fe729e504d5b26b23da1639785aae5a5c4aab4"
+    },
+    "mult_dcop_01": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mult_dcop_01/mult_dcop_01.mtx",
+      "sha256": "86f433e1e69c4d800bdb6c348c7ddccc7b8ed53d10287cc600b69db8f0934619"
+    },
+    "rajat17": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat17/rajat17.mtx",
+      "sha256": "08fd9d65f43406d5ef460d7684d7d8f535e8af4b1804a2b170a22dd553c1a9e8"
+    },
+    "case9": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/case9/case9.mtx",
+      "sha256": "20a112f29cca08143ed962b467dfe64c80cb8711e65895146b57102230e859b7"
+    },
+    "ts-palko": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ts-palko/ts-palko.mtx",
+      "sha256": "9f36dc74ed4b1a9f9edaa78d27cec9f376055af1993574e06720faf54c2ce935"
+    },
+    "rajat16": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rajat16/rajat16.mtx",
+      "sha256": "60edccbdf38a2bf08986d3cb5f86b212bf6f5492983645deb1032f2ef07fedc1"
+    },
+    "c-73": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-73/c-73.mtx",
+      "sha256": "636f67b45afe232eceff1cd562907a24b29460677fad9dae449ef5ffde598205"
+    },
+    "lowThrust_6": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lowThrust_6/lowThrust_6.mtx",
+      "sha256": "ab4d5db21ca84002d24d75e15b36fd7b6d2e2a51764695023c867f6b1ea30583"
+    },
+    "a0nsdsil": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/a0nsdsil/a0nsdsil.mtx",
+      "sha256": "5503ea5b2a58c8bb96c234ed9230f32fb60a3269a122b5eabe8d211b32577665"
+    },
+    "lowThrust_5": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lowThrust_5/lowThrust_5.mtx",
+      "sha256": "d4804268803532866834e663e386755d1772c87697701f25cc6bd622bbcf7b4e"
+    },
+    "rail507": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rail507/rail507.mtx",
+      "sha256": "8991bb0104be94fa59901cb6ecdc983ad20d548bb5a716aec03c3c2a17a32dbe"
+    },
+    "rail582": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rail582/rail582.mtx",
+      "sha256": "7e84631464825450aaf9361675b87a8533b6dd1cf18303f07291dfbd80bed6d6"
+    },
+    "case39": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/case39/case39.mtx",
+      "sha256": "d01aed95ce372774ab2c7f6729727aaa1f454b43e810140e2a0aa913bbb734b3"
+    },
+    "c-53": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-53/c-53.mtx",
+      "sha256": "5e4adb7a489f2f588ee92fe152def73a15af2b905d0a0f49621486ce1ed12044"
+    },
+    "c-60": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-60/c-60.mtx",
+      "sha256": "70fb3ac81155fd04f30610fdecca53fb903e544d9325e331d58aa12cbb47016b"
+    },
+    "psmigr_2": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/psmigr_2/psmigr_2.mtx",
+      "sha256": "29c80416c4747feb563b367c3bcaabf7b5edd481f387284e5cef9b31211c0dcd"
+    },
+    "3D_28984_Tetra": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/3D_28984_Tetra/3D_28984_Tetra.mtx",
+      "sha256": "5cd2f7c69eb513e4d52f5979d51b23b394dcedf66dd44ed5644ff7500fc5d1f9"
+    },
+    "c-63": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-63/c-63.mtx",
+      "sha256": "a7713760b9eccd468fe70a1b8b22c060f158b15805dee4e5473d748df90b0737"
+    },
+    "c-62ghs": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/c-62ghs/c-62ghs.mtx",
+      "sha256": "8f5bf15429366260bc1d200380543a29e19e26459450a65c0187b7c2b680bb99"
+    },
+    "ckt11752_dc_1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ckt11752_dc_1/ckt11752_dc_1.mtx",
+      "sha256": "af8ab2c319a8a312aa67a1b4ca7ef6f37d81a2eb08117f0703420dccb31161d9"
+    },
+    "bundle1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bundle1/bundle1.mtx",
+      "sha256": "03e58eac1cb794172c45f0b9977b73ffbf462c61300afd04954617af5185cd17"
+    },
+    "vsp_sctap1-2b_and_seymourl": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_sctap1-2b_and_seymourl/vsp_sctap1-2b_and_seymourl.mtx",
+      "sha256": "b38339ebc95de8e6c739efe9b1fd47fb2679ddd9b3acb720c360d816d3d6263c"
+    },
+    "Zd_Jac3": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Zd_Jac3/Zd_Jac3.mtx",
+      "sha256": "29477883031877e16bcc6d48f53e13bd8817aa2ab833adb382e93eeae34da787"
+    },
+    "std1_Jac3": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/std1_Jac3/std1_Jac3.mtx",
+      "sha256": "f54d4056d666b39691b1d2686e80862a6cc2e2b377636332b819afc1983ee232"
+    },
+    "heart1": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/heart1/heart1.mtx",
+      "sha256": "d16713a75b5fc2acdd27ba4a66d5e5d90894f9b8df17f694cc20f1e0c67e7a1d"
+    },
+    "EternityII_Etilde": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/EternityII_Etilde/EternityII_Etilde.mtx",
+      "sha256": "3d445d9b17f055caf0d1c277b3b7752a54d04fcdae48750e9c89e9ad128cac3b"
+    },
+    "caidaRouterLevel": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/caidaRouterLevel/caidaRouterLevel.mtx",
+      "sha256": "d1b9c91ff387346c06a593f0dff0be1a7a17df3d82436a1bb5291a05e4bec8a5"
+    },
+    "Zd_Jac6": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Zd_Jac6/Zd_Jac6.mtx",
+      "sha256": "916ec34725cb1993e1349e4aeb6a52aa103a9d24e47d28d6792e03e57b3d37cd"
+    },
+    "fome21": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fome21/fome21.mtx",
+      "sha256": "90789a7380044f855099ebe527dd93f99dc0ed67e6fa87c397c801423bc7483a"
+    },
+    "ACTIVSg10K": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ACTIVSg10K/ACTIVSg10K.mtx",
+      "sha256": "f8a6265a68a27f5692c6296f80293a0e1054d52021f9b3f18fc312f1f186796b"
+    },
+    "nh2010": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nh2010/nh2010.mtx",
+      "sha256": "3cc27fcfe4b3f1bdb6dabd26db4b563028f063642648e7d79a729779c51797f0"
+    },
+    "t60k": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/t60k/t60k.mtx",
+      "sha256": "e4893c9485d457a4f62dc1213f9b26436fb64755ab2bf20eff0b24c4d8341445"
+    },
+    "ch7-8-b4": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ch7-8-b4/ch7-8-b4.mtx",
+      "sha256": "c54a6d5f5a29a715cdb03b80e6b7d07ee443fd3a12ee2cbd232129b6cd46c005"
+    },
+    "mhd4800a": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mhd4800a/mhd4800a.mtx",
+      "sha256": "b71b040a80870fb44eb3c8b5b6a4703df59ca3fede8f62276e6850f654178aa7"
+    },
+    "mark3jac120": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mark3jac120/mark3jac120.mtx",
+      "sha256": "ebb7e348c82788734df8719c21d5c2dd4ec136402833904dc3c087d5d0899dde"
+    },
+    "lhr07c": {
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lhr07c/lhr07c.mtx",
+      "sha256": "895a14797d4aea686ea04fbbfed31d8fb868078ce812115c0aea5e0d4e58b549"
+    }
+  },
+  "configs": {
+    "rajat20": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/rajat20-configs.csv",
+      "sha256": "2a4fb99e55202b032e792752c170b6234b7ca14333de2662c69f6febe014ba3f"
+    },
+    "trans4": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/trans4-configs.csv",
+      "sha256": "ab94dcaef6639e0f8a17e0ec1d21eeb33e963893bd77f0f1867c9ddaf9202691"
+    },
+    "mult_dcop_02": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/mult_dcop_02-configs.csv",
+      "sha256": "8dd78fa7ccf22541498fa874c3be0fc84eb1b9f597b0239ac96c38c561b734ee"
+    },
+    "mult_dcop_01": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/mult_dcop_01-configs.csv",
+      "sha256": "efab8b89b4c87df094d7062e2d11fe4edd0bfe914a953be3bd6998acbe662257"
+    },
+    "rajat17": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/rajat17-configs.csv",
+      "sha256": "e0e900f9217ff297ac804deede87cbb3cc649e44f3d6f834dc6ca55f4b9b1b85"
+    },
+    "case9": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/case9-configs.csv",
+      "sha256": "8f05302a6109032435f89c55456901ec3c773d4e8b6e65d009dcf7da3f81530e"
+    },
+    "ts-palko": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/ts-palko-configs.csv",
+      "sha256": "6048cfd0cfae3f63cc0b1a6440554205a08d6b2dafd446ed03eda4d30ef494bf"
+    },
+    "rajat16": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/rajat16-configs.csv",
+      "sha256": "4c9a65f3d91e8ee61ff7f07924951c55bf57e99137e0d904ddce31aa16e203c8"
+    },
+    "c-73": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/c-73-configs.csv",
+      "sha256": "682ffe25b8a05d09c6fbe68a670359c5d9dbb7679455255197e527ffad17c2d2"
+    },
+    "lowThrust_6": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/lowThrust_6-configs.csv",
+      "sha256": "0cc2d43209ce86ff5a47fce3cee7eab69bc276d5dd8a4c6ada85e62532909c02"
+    },
+    "a0nsdsil": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/a0nsdsil-configs.csv",
+      "sha256": "16d7fd7dd03abce2443a8700e6dcbf64a5c48e2bd20d76780f133bf54742d484"
+    },
+    "lowThrust_5": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/lowThrust_5-configs.csv",
+      "sha256": "a04ba819213c7f7a353159fc41c199570d4698e88a34a49ed0fdb3dfeb46ceeb"
+    },
+    "rail507": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/rail507-configs.csv",
+      "sha256": "e790b030bb6f8e3c7770cf0d75f6e82631a1516431100576d3a5180bc1cabd7f"
+    },
+    "rail582": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/rail582-configs.csv",
+      "sha256": "0a0fe09026650b85303eb22a5bcd430a9f8df199d76702e8d129d257fc5637c3"
+    },
+    "case39": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/case39-configs.csv",
+      "sha256": "4e841001f30e04b98d43214d9ed107e08c267b9f42fd680d0a74901b0c0feacc"
+    },
+    "c-53": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/c-53-configs.csv",
+      "sha256": "d28341ca93f196eac5fd93748740e44828e29fe9608de8230066f4c1bd2d9442"
+    },
+    "c-60": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/c-60-configs.csv",
+      "sha256": "7deb40c00d6e2647521bd1b5fd74c8cd78cd2f70e8ffae18c81a50a993ad9820"
+    },
+    "psmigr_2": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/psmigr_2-configs.csv",
+      "sha256": "533c7018d791772d044b5648777f03499a25f9dbee9e1355e01c1856176590ae"
+    },
+    "3D_28984_Tetra": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/3D_28984_Tetra-configs.csv",
+      "sha256": "51f916f4fbc8c8d56396e461fd1beb37122d69f377c1de1d4866f66c185a6003"
+    },
+    "c-63": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/c-63-configs.csv",
+      "sha256": "b9fb80047fe34e6accbb31eb934f4511d7f5ca535cff482ebb0b581b73fc66f6"
+    },
+    "c-62ghs": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/c-62ghs-configs.csv",
+      "sha256": "c8ddc652c65153b73367b6c522bc102bcc7afc3f911c15c4bcb79774e20941da"
+    },
+    "ckt11752_dc_1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/ckt11752_dc_1-configs.csv",
+      "sha256": "dc47780ecf6ea371717b038c2a7b347c54d0cf722793ea363a370846c5a61563"
+    },
+    "bundle1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/bundle1-configs.csv",
+      "sha256": "78cdbf58916ceaf4d7861b652837a385c3464f7a3355384b0f1ac50b4a49bf7a"
+    },
+    "vsp_sctap1-2b_and_seymourl": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/vsp_sctap1-2b_and_seymourl-configs.csv",
+      "sha256": "6cde2903c24a69e420285cb70ba4deae7e2f71c7387be3b1d20e490ec84f6172"
+    },
+    "Zd_Jac3": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/Zd_Jac3-configs.csv",
+      "sha256": "099ed3cc5049ab1c7c19a6722b4b689f5e38702901397f25e79a88cad1292a7e"
+    },
+    "std1_Jac3": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/std1_Jac3-configs.csv",
+      "sha256": "0ee24218bc484a7c439a5f4dde512ce660d7507da189ff71b8d6ff0e024f63b8"
+    },
+    "heart1": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/heart1-configs.csv",
+      "sha256": "7e9785786cc1082dc5bdc8137a12dc823e125df0238290bac393e7902b91cb65"
+    },
+    "EternityII_Etilde": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/EternityII_Etilde-configs.csv",
+      "sha256": "6bcf738454c6ae569563bc84e2edf0e6f1291f1a02973ecfd5a5ada1d463a0bb"
+    },
+    "caidaRouterLevel": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/caidaRouterLevel-configs.csv",
+      "sha256": "ada1bcc9588d18c64e406fb415c2a13122527d77ef8c7df56ec865dc7127768f"
+    },
+    "Zd_Jac6": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/Zd_Jac6-configs.csv",
+      "sha256": "5ce370961d198c38e956518f417bf6c80875788d06854f0f7f75781674bec52c"
+    },
+    "fome21": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/fome21-configs.csv",
+      "sha256": "0b957774d98953ad01dad11f93ea00cd6f9f32f709b89d8ab6ed9c9b255f8309"
+    },
+    "ACTIVSg10K": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/ACTIVSg10K-configs.csv",
+      "sha256": "d698958feb3fad3d940335bd08063dc67d89b1f1637ecc7deeefa01fd19d0631"
+    },
+    "nh2010": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/nh2010-configs.csv",
+      "sha256": "d5d1458dbeb7a9fe1ef89993e205ccff366748b957f0927c6fc192d0ddd1cf26"
+    },
+    "t60k": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/t60k-configs.csv",
+      "sha256": "2c869091c8043cf01b1076eb963fa1da8e0cdd4530682be7cdb8820f151c472b"
+    },
+    "ch7-8-b4": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/ch7-8-b4-configs.csv",
+      "sha256": "c76d0231ea0df5c5f57e962b8bb82f862b648f6074793ace39a7012c946e70b4"
+    },
+    "mhd4800a": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/mhd4800a-configs.csv",
+      "sha256": "3d9ddfbc96d85cd5ee4c8b5b4596c16d76c54834be1823140426099bdfa13ec7"
+    },
+    "mark3jac120": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/mark3jac120-configs.csv",
+      "sha256": "6f5b983ccbcadc8032e8b94fd10f424acad32d2ae2fa96e9cc01f2ffa39ff8a9"
+    },
+    "lhr07c": {
+      "path": "/staff/chengjiajun/workspace/AtSpmv/results/model/dsm-atbsr-hybrid/expanded/configs/lhr07c-configs.csv",
+      "sha256": "fe585738b5cbcfad0df91bdb66f37271be4d5b43371881e007ae0f2a8296f85f"
+    }
+  },
+  "seeds": [
+    202610271,
+    202610272,
+    202610273
+  ],
+  "trials": 21,
+  "method": "Fixed exploratory shortlist; direct correctness with two nonuniform x vectors and poisoned y, plus CUDA Graph correctness. Three warmup and randomly interleaved timed batches; 8 calls per graph, warm graph before every timed graph, cudaEvent time per call. Setup, preprocessing and graph creation excluded.",
+  "selection": "Per dataset, take the median trial for each frozen configuration and seed, then median across seeds. Report best measured configuration in each backend and best measured non-hybrid. Exploratory, not an independent holdout.",
+  "gpu_after": "index, uuid, name, utilization.gpu [%], memory.used [MiB]\n0, GPU-50a7b273-473c-bb31-1192-230217bbb80d, NVIDIA RTX 5880 Ada Generation, 100 %, 14472 MiB\n1, GPU-1f1d1f35-8d5b-c7c4-aeba-6fdc3110009c, NVIDIA RTX 5880 Ada Generation, 0 %, 1 MiB\n2, GPU-03411f7f-71f1-5320-6c4b-5f87c169733d, NVIDIA H100 PCIe, 70 %, 76989 MiB\n3, GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d, NVIDIA H100 PCIe, 16 %, 0 MiB\n"
+}

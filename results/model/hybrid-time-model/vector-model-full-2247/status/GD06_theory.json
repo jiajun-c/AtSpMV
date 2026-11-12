@@ -1,0 +1,17 @@
+{
+  "dataset": "GD06_theory",
+  "matrix_sha256": "d393816622572a06f6e4ef72f007ad745aaa13e14138bd4f72d9da2a3c4e0c0c",
+  "index_nnz": 380,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.204,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

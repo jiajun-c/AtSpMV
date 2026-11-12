@@ -1,0 +1,15 @@
+{
+  "dataset": "grid2_dual",
+  "matrix_sha256": "da449f5224f6bbc10c9e9a8d4f87bfb747776f1c64707122d87e3f8580c75d3b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.127,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

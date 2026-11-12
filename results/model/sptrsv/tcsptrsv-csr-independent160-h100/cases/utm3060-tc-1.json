@@ -1,0 +1,9 @@
+{
+  "name": "utm3060",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/utm3060-L.mtx --------------\nsuccess open file\ninput matrix A: ( 3072, 3072 ) nnz = 96360\nloadfile time    = 0.04522 sec\nnnzL = 96360\ntime_for_csc2CompressTile = 3.10 ms\ntime_cuda_solve = 0.845570 ms, Mflops = 227.92\nVALIDATION finite=1 max_error=6.7279515292284486e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

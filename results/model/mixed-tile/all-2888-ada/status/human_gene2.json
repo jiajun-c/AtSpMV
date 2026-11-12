@@ -1,0 +1,15 @@
+{
+  "dataset": "human_gene2",
+  "matrix_sha256": "7e880ea0012e4202195bcd6fb930f8259e726179e56cdc7e4012fc20a1da3a8f",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 14.036,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

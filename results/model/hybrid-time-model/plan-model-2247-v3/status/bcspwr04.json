@@ -1,0 +1,19 @@
+{
+  "dataset": "bcspwr04",
+  "matrix_sha256": "059fce38865190986d1d893d3a6ac1767745472e285f6f8e487a7051b6eddc0d",
+  "index_nnz": 1612,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.277,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

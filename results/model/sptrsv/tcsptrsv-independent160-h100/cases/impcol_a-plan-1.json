@@ -1,0 +1,9 @@
+{
+  "name": "impcol_a",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/impcol_a-L.mtx,default,cusparse,208,441,-1,2090.152,17.30560112,6.661338148e-16,1.968943607e-17,6.22786582e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/impcol_a-L.mtx,default-host,cusparse,208,441,-1,2090.152,24.45154,6.661338148e-16,1.968943607e-17,6.22786582e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/impcol_a-L.mtx,model,cached,208,441,10,1242.231,10.55360031,6.661338148e-16,1.968943607e-17,6.22786582e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/impcol_a-L.mtx,model-host,cached,208,441,10,1242.231,16.987585,6.661338148e-16,1.968943607e-17,6.22786582e-17,512\n",
+  "stderr": ""
+}

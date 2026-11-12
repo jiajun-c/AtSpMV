@@ -1,0 +1,15 @@
+{
+  "dataset": "t3dh",
+  "matrix_sha256": "05199b29c5f5428918274fd2d82090c4b5aef89299550b9553d90442b0625ac4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.932,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

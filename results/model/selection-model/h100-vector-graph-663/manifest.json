@@ -1,0 +1,6632 @@
+[
+  {
+    "dataset": "scfxm1-2r",
+    "rows": "37980",
+    "columns": "65943",
+    "nnz": "221388",
+    "longest_row": "184",
+    "longest_row_nnz": "57",
+    "ratio": "0.000257466529351",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex4",
+    "rows": "1601",
+    "columns": "1601",
+    "nnz": "32299",
+    "longest_row": "93",
+    "longest_row_nnz": "37",
+    "ratio": "0.00114554630174",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_5",
+    "rows": "1019",
+    "columns": "1019",
+    "nnz": "15219",
+    "longest_row": "968",
+    "longest_row_nnz": "133",
+    "ratio": "0.00873907615481",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_11",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "air05",
+    "rows": "426",
+    "columns": "7195",
+    "nnz": "52121",
+    "longest_row": "207",
+    "longest_row_nnz": "404",
+    "ratio": "0.00775119433626",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d11",
+    "rows": "1019",
+    "columns": "60",
+    "nnz": "1513",
+    "longest_row": "976",
+    "longest_row_nnz": "8",
+    "ratio": "0.00528750826173",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_2",
+    "rows": "4361",
+    "columns": "4361",
+    "nnz": "44840",
+    "longest_row": "1471",
+    "longest_row_nnz": "1166",
+    "ratio": "0.0260035682426",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_23",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "662_bus",
+    "rows": "662",
+    "columns": "662",
+    "nnz": "2474",
+    "longest_row": "385",
+    "longest_row_nnz": "10",
+    "ratio": "0.00404203718674",
+    "status": "ok"
+  },
+  {
+    "dataset": "rosen8",
+    "rows": "520",
+    "columns": "1544",
+    "nnz": "16058",
+    "longest_row": "8",
+    "longest_row_nnz": "976",
+    "ratio": "0.0607796736829",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex10",
+    "rows": "2410",
+    "columns": "2410",
+    "nnz": "54840",
+    "longest_row": "170",
+    "longest_row_nnz": "50",
+    "ratio": "0.0009117432531",
+    "status": "ok"
+  },
+  {
+    "dataset": "GD98_c",
+    "rows": "112",
+    "columns": "112",
+    "nnz": "336",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.00892857142857",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_15",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_cycle",
+    "rows": "1903",
+    "columns": "3371",
+    "nnz": "21234",
+    "longest_row": "1157",
+    "longest_row_nnz": "64",
+    "ratio": "0.00301403409626",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_03",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex6",
+    "rows": "1651",
+    "columns": "1651",
+    "nnz": "49533",
+    "longest_row": "131",
+    "longest_row_nnz": "62",
+    "ratio": "0.001251690792",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_4_1",
+    "rows": "377",
+    "columns": "313",
+    "nnz": "938",
+    "longest_row": "46",
+    "longest_row_nnz": "6",
+    "ratio": "0.00639658848614",
+    "status": "ok"
+  },
+  {
+    "dataset": "rw496",
+    "rows": "496",
+    "columns": "496",
+    "nnz": "1859",
+    "longest_row": "33",
+    "longest_row_nnz": "4",
+    "ratio": "0.00215169445939",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_45",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_17",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity14",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "247",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_1",
+    "rows": "677",
+    "columns": "677",
+    "nnz": "7326",
+    "longest_row": "395",
+    "longest_row_nnz": "632",
+    "ratio": "0.0862680862681",
+    "status": "ok"
+  },
+  {
+    "dataset": "ibm32",
+    "rows": "32",
+    "columns": "32",
+    "nnz": "126",
+    "longest_row": "3",
+    "longest_row_nnz": "8",
+    "ratio": "0.0634920634921",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_pilot4i",
+    "rows": "410",
+    "columns": "1123",
+    "nnz": "5264",
+    "longest_row": "84",
+    "longest_row_nnz": "76",
+    "ratio": "0.0144376899696",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_02",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "l30",
+    "rows": "2701",
+    "columns": "16281",
+    "nnz": "52070",
+    "longest_row": "2701",
+    "longest_row_nnz": "32",
+    "ratio": "0.000614557326676",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_12",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity06",
+    "rows": "1182",
+    "columns": "1182",
+    "nnz": "32747",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.00189330320335",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b1",
+    "rows": "105",
+    "columns": "15",
+    "nnz": "210",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.00952380952381",
+    "status": "ok"
+  },
+  {
+    "dataset": "curtis54",
+    "rows": "54",
+    "columns": "54",
+    "nnz": "291",
+    "longest_row": "7",
+    "longest_row_nnz": "12",
+    "ratio": "0.0412371134021",
+    "status": "ok"
+  },
+  {
+    "dataset": "mesh3em5",
+    "rows": "289",
+    "columns": "289",
+    "nnz": "1889",
+    "longest_row": "289",
+    "longest_row_nnz": "9",
+    "ratio": "0.00476442562202",
+    "status": "ok"
+  },
+  {
+    "dataset": "s3rmt3m1",
+    "rows": "5489",
+    "columns": "5489",
+    "nnz": "219521",
+    "longest_row": "190",
+    "longest_row_nnz": "42",
+    "ratio": "0.000191325659049",
+    "status": "ok"
+  },
+  {
+    "dataset": "HTC_336_9129",
+    "rows": "226340",
+    "columns": "226340",
+    "nnz": "883422",
+    "longest_row": "134303",
+    "longest_row_nnz": "7394",
+    "ratio": "0.00836972590676",
+    "status": "ok"
+  },
+  {
+    "dataset": "Spectro_10NN",
+    "rows": "531",
+    "columns": "531",
+    "nnz": "7422",
+    "longest_row": "221",
+    "longest_row_nnz": "29",
+    "ratio": "0.00390730261385",
+    "status": "ok"
+  },
+  {
+    "dataset": "dano3mip",
+    "rows": "3202",
+    "columns": "15851",
+    "nnz": "81633",
+    "longest_row": "601",
+    "longest_row_nnz": "530",
+    "ratio": "0.00649247240699",
+    "status": "ok"
+  },
+  {
+    "dataset": "NotreDame_www",
+    "rows": "325729",
+    "columns": "325729",
+    "nnz": "929849",
+    "longest_row": "1641",
+    "longest_row_nnz": "60",
+    "ratio": "6.45266059328e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch3-3-b1",
+    "rows": "18",
+    "columns": "9",
+    "nnz": "36",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.0555555555556",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_8",
+    "rows": "3108",
+    "columns": "3108",
+    "nnz": "37894",
+    "longest_row": "1825",
+    "longest_row_nnz": "2920",
+    "ratio": "0.0770570538872",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz148",
+    "rows": "148",
+    "columns": "148",
+    "nnz": "1527",
+    "longest_row": "87",
+    "longest_row_nnz": "33",
+    "ratio": "0.0216110019646",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex27",
+    "rows": "974",
+    "columns": "974",
+    "nnz": "40782",
+    "longest_row": "228",
+    "longest_row_nnz": "206",
+    "ratio": "0.00505124809965",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian8",
+    "rows": "191",
+    "columns": "191",
+    "nnz": "4720",
+    "longest_row": "191",
+    "longest_row_nnz": "95",
+    "ratio": "0.0201271186441",
+    "status": "ok"
+  },
+  {
+    "dataset": "cegb3024",
+    "rows": "3024",
+    "columns": "3024",
+    "nnz": "79848",
+    "longest_row": "2493",
+    "longest_row_nnz": "68",
+    "ratio": "0.000851618074341",
+    "status": "ok"
+  },
+  {
+    "dataset": "orsirr_2",
+    "rows": "886",
+    "columns": "886",
+    "nnz": "5970",
+    "longest_row": "858",
+    "longest_row_nnz": "14",
+    "ratio": "0.00234505862647",
+    "status": "ok"
+  },
+  {
+    "dataset": "bfwb398",
+    "rows": "398",
+    "columns": "398",
+    "nnz": "2910",
+    "longest_row": "9",
+    "longest_row_nnz": "13",
+    "ratio": "0.00446735395189",
+    "status": "ok"
+  },
+  {
+    "dataset": "ss1",
+    "rows": "205282",
+    "columns": "205282",
+    "nnz": "845089",
+    "longest_row": "198746",
+    "longest_row_nnz": "8",
+    "ratio": "9.46645856235e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_shell",
+    "rows": "536",
+    "columns": "1777",
+    "nnz": "3558",
+    "longest_row": "3",
+    "longest_row_nnz": "255",
+    "ratio": "0.0716694772344",
+    "status": "ok"
+  },
+  {
+    "dataset": "cegb2802",
+    "rows": "2802",
+    "columns": "2802",
+    "nnz": "277362",
+    "longest_row": "37",
+    "longest_row_nnz": "153",
+    "ratio": "0.000551625673308",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr08",
+    "rows": "1624",
+    "columns": "1624",
+    "nnz": "6050",
+    "longest_row": "622",
+    "longest_row_nnz": "14",
+    "ratio": "0.00231404958678",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex2",
+    "rows": "441",
+    "columns": "441",
+    "nnz": "26839",
+    "longest_row": "164",
+    "longest_row_nnz": "125",
+    "ratio": "0.00465740154253",
+    "status": "ok"
+  },
+  {
+    "dataset": "rdb2048_noL",
+    "rows": "2048",
+    "columns": "2048",
+    "nnz": "12032",
+    "longest_row": "67",
+    "longest_row_nnz": "6",
+    "ratio": "0.000498670212766",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_3",
+    "rows": "410",
+    "columns": "410",
+    "nnz": "3952",
+    "longest_row": "244",
+    "longest_row_nnz": "406",
+    "ratio": "0.102732793522",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_4_4",
+    "rows": "19020",
+    "columns": "44448",
+    "nnz": "132888",
+    "longest_row": "16288",
+    "longest_row_nnz": "17",
+    "ratio": "0.000127927277106",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz1",
+    "rows": "2240",
+    "columns": "768",
+    "nnz": "5120",
+    "longest_row": "2",
+    "longest_row_nnz": "4",
+    "ratio": "0.00078125",
+    "status": "ok"
+  },
+  {
+    "dataset": "model2",
+    "rows": "379",
+    "columns": "1321",
+    "nnz": "7607",
+    "longest_row": "376",
+    "longest_row_nnz": "138",
+    "ratio": "0.01814118575",
+    "status": "ok"
+  },
+  {
+    "dataset": "preferentialAttachment",
+    "rows": "100000",
+    "columns": "100000",
+    "nnz": "999970",
+    "longest_row": "6",
+    "longest_row_nnz": "983",
+    "ratio": "0.000983029490885",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz4",
+    "rows": "6784",
+    "columns": "5252",
+    "nnz": "46528",
+    "longest_row": "129",
+    "longest_row_nnz": "7",
+    "ratio": "0.000150447042641",
+    "status": "ok"
+  },
+  {
+    "dataset": "garon1",
+    "rows": "3175",
+    "columns": "3175",
+    "nnz": "88927",
+    "longest_row": "20",
+    "longest_row_nnz": "45",
+    "ratio": "0.000506033038335",
+    "status": "ok"
+  },
+  {
+    "dataset": "air03",
+    "rows": "124",
+    "columns": "10757",
+    "nnz": "91028",
+    "longest_row": "124",
+    "longest_row_nnz": "3861",
+    "ratio": "0.0424155204992",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b4",
+    "rows": "20058",
+    "columns": "5970",
+    "nnz": "100290",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "4.98554192841e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz7",
+    "rows": "10164",
+    "columns": "1740",
+    "nnz": "40424",
+    "longest_row": "2",
+    "longest_row_nnz": "4",
+    "ratio": "9.89511181476e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "jan99jac060sc",
+    "rows": "20614",
+    "columns": "20614",
+    "nnz": "127182",
+    "longest_row": "2810",
+    "longest_row_nnz": "68",
+    "ratio": "0.000534666855373",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_czprob",
+    "rows": "929",
+    "columns": "3562",
+    "nnz": "10708",
+    "longest_row": "4",
+    "longest_row_nnz": "417",
+    "ratio": "0.0389428464699",
+    "status": "ok"
+  },
+  {
+    "dataset": "hangGlider_1",
+    "rows": "360",
+    "columns": "360",
+    "nnz": "3477",
+    "longest_row": "198",
+    "longest_row_nnz": "319",
+    "ratio": "0.0917457578372",
+    "status": "ok"
+  },
+  {
+    "dataset": "pf2177",
+    "rows": "9728",
+    "columns": "9728",
+    "nnz": "725144",
+    "longest_row": "375",
+    "longest_row_nnz": "252",
+    "ratio": "0.000347517182794",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_9",
+    "rows": "8115",
+    "columns": "8115",
+    "nnz": "86183",
+    "longest_row": "2714",
+    "longest_row_nnz": "2720",
+    "ratio": "0.0315607486395",
+    "status": "ok"
+  },
+  {
+    "dataset": "orsirr_1",
+    "rows": "1030",
+    "columns": "1030",
+    "nnz": "6858",
+    "longest_row": "583",
+    "longest_row_nnz": "13",
+    "ratio": "0.00189559638379",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_cre_c",
+    "rows": "3068",
+    "columns": "6411",
+    "nnz": "15977",
+    "longest_row": "318",
+    "longest_row_nnz": "317",
+    "ratio": "0.0198410214684",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz5108",
+    "rows": "5108",
+    "columns": "5108",
+    "nnz": "51412",
+    "longest_row": "937",
+    "longest_row_nnz": "27",
+    "ratio": "0.000525169221193",
+    "status": "ok"
+  },
+  {
+    "dataset": "model4",
+    "rows": "1337",
+    "columns": "4962",
+    "nnz": "45753",
+    "longest_row": "441",
+    "longest_row_nnz": "493",
+    "ratio": "0.0107752497104",
+    "status": "ok"
+  },
+  {
+    "dataset": "nj2010",
+    "rows": "169588",
+    "columns": "169588",
+    "nnz": "829912",
+    "longest_row": "131015",
+    "longest_row_nnz": "60",
+    "ratio": "7.22968218317e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "grid2",
+    "rows": "3296",
+    "columns": "3296",
+    "nnz": "12864",
+    "longest_row": "5",
+    "longest_row_nnz": "5",
+    "ratio": "0.00038868159204",
+    "status": "ok"
+  },
+  {
+    "dataset": "chem_master1",
+    "rows": "40401",
+    "columns": "40401",
+    "nnz": "201201",
+    "longest_row": "203",
+    "longest_row_nnz": "5",
+    "ratio": "2.48507711194e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity24",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ship04s",
+    "rows": "402",
+    "columns": "1506",
+    "nnz": "4400",
+    "longest_row": "59",
+    "longest_row_nnz": "66",
+    "ratio": "0.015",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec3",
+    "rows": "1",
+    "columns": "2",
+    "nnz": "1",
+    "longest_row": "1",
+    "longest_row_nnz": "1",
+    "ratio": "1",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_27",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b5",
+    "rows": "51813",
+    "columns": "20058",
+    "nnz": "310878",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "1.93001756316e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_3",
+    "rows": "2871",
+    "columns": "2871",
+    "nnz": "32022",
+    "longest_row": "1433",
+    "longest_row_nnz": "1076",
+    "ratio": "0.0336018986946",
+    "status": "ok"
+  },
+  {
+    "dataset": "c-62ghs",
+    "rows": "41731",
+    "columns": "41731",
+    "nnz": "559343",
+    "longest_row": "38853",
+    "longest_row_nnz": "5060",
+    "ratio": "0.00904632756645",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec12",
+    "rows": "551",
+    "columns": "2726",
+    "nnz": "151219",
+    "longest_row": "332",
+    "longest_row_nnz": "499",
+    "ratio": "0.00329984988659",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex28",
+    "rows": "2603",
+    "columns": "2603",
+    "nnz": "77781",
+    "longest_row": "175",
+    "longest_row_nnz": "62",
+    "ratio": "0.000797109834021",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_31",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX5",
+    "rows": "6545",
+    "columns": "6545",
+    "nnz": "295680",
+    "longest_row": "411",
+    "longest_row_nnz": "48",
+    "ratio": "0.000162337662338",
+    "status": "ok"
+  },
+  {
+    "dataset": "gemat11",
+    "rows": "4929",
+    "columns": "4929",
+    "nnz": "33185",
+    "longest_row": "37",
+    "longest_row_nnz": "27",
+    "ratio": "0.000813620611722",
+    "status": "ok"
+  },
+  {
+    "dataset": "rosen10",
+    "rows": "2056",
+    "columns": "6152",
+    "nnz": "64192",
+    "longest_row": "5",
+    "longest_row_nnz": "3886",
+    "ratio": "0.0605371385842",
+    "status": "ok"
+  },
+  {
+    "dataset": "SmaGri",
+    "rows": "1059",
+    "columns": "1059",
+    "nnz": "4919",
+    "longest_row": "1",
+    "longest_row_nnz": "232",
+    "ratio": "0.0471640577353",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d26",
+    "rows": "305",
+    "columns": "2798",
+    "nnz": "7412",
+    "longest_row": "302",
+    "longest_row_nnz": "356",
+    "ratio": "0.0480302212628",
+    "status": "ok"
+  },
+  {
+    "dataset": "shermanACb",
+    "rows": "18510",
+    "columns": "18510",
+    "nnz": "145149",
+    "longest_row": "3542",
+    "longest_row_nnz": "10405",
+    "ratio": "0.0716849582154",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_cre_d",
+    "rows": "8926",
+    "columns": "73948",
+    "nnz": "246614",
+    "longest_row": "30",
+    "longest_row_nnz": "808",
+    "ratio": "0.00327637522606",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_sc105",
+    "rows": "105",
+    "columns": "163",
+    "nnz": "340",
+    "longest_row": "11",
+    "longest_row_nnz": "5",
+    "ratio": "0.0147058823529",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b3",
+    "rows": "1350",
+    "columns": "455",
+    "nnz": "5400",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.000740740740741",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian11",
+    "rows": "1535",
+    "columns": "1535",
+    "nnz": "134710",
+    "longest_row": "1535",
+    "longest_row_nnz": "767",
+    "ratio": "0.00569371241927",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz308",
+    "rows": "308",
+    "columns": "308",
+    "nnz": "3182",
+    "longest_row": "95",
+    "longest_row_nnz": "27",
+    "ratio": "0.00848522941546",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex18",
+    "rows": "5773",
+    "columns": "5773",
+    "nnz": "71805",
+    "longest_row": "90",
+    "longest_row_nnz": "18",
+    "ratio": "0.000250678922081",
+    "status": "ok"
+  },
+  {
+    "dataset": "cari",
+    "rows": "400",
+    "columns": "1200",
+    "nnz": "152800",
+    "longest_row": "1",
+    "longest_row_nnz": "382",
+    "ratio": "0.0025",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr04",
+    "rows": "274",
+    "columns": "274",
+    "nnz": "1612",
+    "longest_row": "11",
+    "longest_row_nnz": "16",
+    "ratio": "0.00992555831266",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex32",
+    "rows": "1159",
+    "columns": "1159",
+    "nnz": "11343",
+    "longest_row": "22",
+    "longest_row_nnz": "13",
+    "ratio": "0.00114608128361",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_cre_a",
+    "rows": "3516",
+    "columns": "7248",
+    "nnz": "18168",
+    "longest_row": "309",
+    "longest_row_nnz": "360",
+    "ratio": "0.0198150594452",
+    "status": "ok"
+  },
+  {
+    "dataset": "photogrammetry2",
+    "rows": "4472",
+    "columns": "936",
+    "nnz": "37056",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.000242875647668",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_08",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5888",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00611413043478",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac140sc",
+    "rows": "41490",
+    "columns": "41490",
+    "nnz": "565956",
+    "longest_row": "20",
+    "longest_row_nnz": "153",
+    "ratio": "0.000270339036957",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_44",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_7",
+    "rows": "7968",
+    "columns": "7968",
+    "nnz": "84508",
+    "longest_row": "2714",
+    "longest_row_nnz": "2720",
+    "ratio": "0.0321863018886",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex1",
+    "rows": "216",
+    "columns": "216",
+    "nnz": "4352",
+    "longest_row": "82",
+    "longest_row_nnz": "49",
+    "ratio": "0.0112591911765",
+    "status": "ok"
+  },
+  {
+    "dataset": "n3c4-b2",
+    "rows": "20",
+    "columns": "15",
+    "nnz": "60",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.05",
+    "status": "ok"
+  },
+  {
+    "dataset": "t2dah_e",
+    "rows": "11445",
+    "columns": "11445",
+    "nnz": "176117",
+    "longest_row": "3",
+    "longest_row_nnz": "21",
+    "ratio": "0.000119238915039",
+    "status": "ok"
+  },
+  {
+    "dataset": "olesnik0",
+    "rows": "88263",
+    "columns": "88263",
+    "nnz": "744216",
+    "longest_row": "176",
+    "longest_row_nnz": "11",
+    "ratio": "1.47806550786e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex19",
+    "rows": "12005",
+    "columns": "12005",
+    "nnz": "259879",
+    "longest_row": "261",
+    "longest_row_nnz": "50",
+    "ratio": "0.000192397231019",
+    "status": "ok"
+  },
+  {
+    "dataset": "k49_norm_10NN",
+    "rows": "38547",
+    "columns": "38547",
+    "nnz": "618158",
+    "longest_row": "14954",
+    "longest_row_nnz": "551",
+    "ratio": "0.000891357872906",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_18",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "n3c4-b3",
+    "rows": "15",
+    "columns": "20",
+    "nnz": "60",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.0666666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_6",
+    "rows": "3431",
+    "columns": "3431",
+    "nnz": "36741",
+    "longest_row": "1713",
+    "longest_row_nnz": "1286",
+    "ratio": "0.0350017691407",
+    "status": "ok"
+  },
+  {
+    "dataset": "Stranke94",
+    "rows": "10",
+    "columns": "10",
+    "nnz": "90",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.1",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b6",
+    "rows": "104115",
+    "columns": "51813",
+    "nnz": "728805",
+    "longest_row": "1",
+    "longest_row_nnz": "7",
+    "ratio": "9.60476396293e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_1",
+    "rows": "2052",
+    "columns": "2052",
+    "nnz": "20600",
+    "longest_row": "1008",
+    "longest_row_nnz": "460",
+    "ratio": "0.0223300970874",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz2",
+    "rows": "4032",
+    "columns": "4480",
+    "nnz": "21504",
+    "longest_row": "9",
+    "longest_row_nnz": "8",
+    "ratio": "0.000372023809524",
+    "status": "ok"
+  },
+  {
+    "dataset": "soc-Slashdot0811",
+    "rows": "77360",
+    "columns": "77360",
+    "nnz": "905468",
+    "longest_row": "2482",
+    "longest_row_nnz": "2508",
+    "ratio": "0.00276983835983",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_finnis",
+    "rows": "497",
+    "columns": "1064",
+    "nnz": "2760",
+    "longest_row": "41",
+    "longest_row_nnz": "41",
+    "ratio": "0.0148550724638",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b9",
+    "rows": "306",
+    "columns": "1470",
+    "nnz": "3060",
+    "longest_row": "1",
+    "longest_row_nnz": "10",
+    "ratio": "0.00326797385621",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_09",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5888",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00611413043478",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b11",
+    "rows": "69235",
+    "columns": "132402",
+    "nnz": "830820",
+    "longest_row": "1",
+    "longest_row_nnz": "12",
+    "ratio": "1.44435617823e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "nemscem",
+    "rows": "651",
+    "columns": "1712",
+    "nnz": "3840",
+    "longest_row": "95",
+    "longest_row_nnz": "137",
+    "ratio": "0.0356770833333",
+    "status": "ok"
+  },
+  {
+    "dataset": "rdist3a",
+    "rows": "2398",
+    "columns": "2398",
+    "nnz": "61896",
+    "longest_row": "91",
+    "longest_row_nnz": "93",
+    "ratio": "0.00150252035673",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b6",
+    "rows": "4735",
+    "columns": "4340",
+    "nnz": "33145",
+    "longest_row": "1",
+    "longest_row_nnz": "7",
+    "ratio": "0.000211193241816",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b4",
+    "rows": "2852",
+    "columns": "1350",
+    "nnz": "14260",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "0.000350631136045",
+    "status": "ok"
+  },
+  {
+    "dataset": "plantstexture_10NN",
+    "rows": "1599",
+    "columns": "1599",
+    "nnz": "21204",
+    "longest_row": "1127",
+    "longest_row_nnz": "36",
+    "ratio": "0.00169779286927",
+    "status": "ok"
+  },
+  {
+    "dataset": "onetone1",
+    "rows": "36057",
+    "columns": "36057",
+    "nnz": "341088",
+    "longest_row": "8523",
+    "longest_row_nnz": "81",
+    "ratio": "0.000237475372924",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian2",
+    "rows": "2",
+    "columns": "2",
+    "nnz": "2",
+    "longest_row": "1",
+    "longest_row_nnz": "1",
+    "ratio": "0.5",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_39",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "nug08-3rd",
+    "rows": "19728",
+    "columns": "29856",
+    "nnz": "148416",
+    "longest_row": "1",
+    "longest_row_nnz": "8",
+    "ratio": "5.39025442001e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "geom",
+    "rows": "7343",
+    "columns": "7343",
+    "nnz": "23796",
+    "longest_row": "36",
+    "longest_row_nnz": "102",
+    "ratio": "0.00428643469491",
+    "status": "ok"
+  },
+  {
+    "dataset": "vsp_model1_crew1_cr42_south31",
+    "rows": "45101",
+    "columns": "45101",
+    "nnz": "379952",
+    "longest_row": "9427",
+    "longest_row_nnz": "17663",
+    "ratio": "0.0464874510464",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_share1b",
+    "rows": "117",
+    "columns": "253",
+    "nnz": "1179",
+    "longest_row": "47",
+    "longest_row_nnz": "37",
+    "ratio": "0.0313825275657",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex37",
+    "rows": "3565",
+    "columns": "3565",
+    "nnz": "67591",
+    "longest_row": "661",
+    "longest_row_nnz": "85",
+    "ratio": "0.00125756387685",
+    "status": "ok"
+  },
+  {
+    "dataset": "fe_sphere",
+    "rows": "16386",
+    "columns": "16386",
+    "nnz": "98304",
+    "longest_row": "2",
+    "longest_row_nnz": "6",
+    "ratio": "6.103515625e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "nasa2146",
+    "rows": "2146",
+    "columns": "2146",
+    "nnz": "72250",
+    "longest_row": "82",
+    "longest_row_nnz": "36",
+    "ratio": "0.000498269896194",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b9_c6",
+    "rows": "7224",
+    "columns": "7224",
+    "nnz": "54082",
+    "longest_row": "3628",
+    "longest_row_nnz": "11",
+    "ratio": "0.000203394844865",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_4",
+    "rows": "7105",
+    "columns": "7105",
+    "nnz": "74869",
+    "longest_row": "2472",
+    "longest_row_nnz": "2426",
+    "ratio": "0.0324032643684",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_13_6",
+    "rows": "78",
+    "columns": "1716",
+    "nnz": "25740",
+    "longest_row": "1",
+    "longest_row_nnz": "330",
+    "ratio": "0.0128205128205",
+    "status": "ok"
+  },
+  {
+    "dataset": "bodyy6",
+    "rows": "19366",
+    "columns": "19366",
+    "nnz": "134748",
+    "longest_row": "751",
+    "longest_row_nnz": "9",
+    "ratio": "6.67913438418e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "shallow_water2",
+    "rows": "81920",
+    "columns": "81920",
+    "nnz": "327680",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "1.220703125e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac040sc",
+    "rows": "18289",
+    "columns": "18289",
+    "nnz": "113435",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.00038788733636",
+    "status": "ok"
+  },
+  {
+    "dataset": "t3dl_e",
+    "rows": "20360",
+    "columns": "20360",
+    "nnz": "20360",
+    "longest_row": "1",
+    "longest_row_nnz": "1",
+    "ratio": "4.9115913556e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b8",
+    "rows": "1470",
+    "columns": "3990",
+    "nnz": "13230",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.000680272108844",
+    "status": "ok"
+  },
+  {
+    "dataset": "slptsk",
+    "rows": "2861",
+    "columns": "3347",
+    "nnz": "72465",
+    "longest_row": "1",
+    "longest_row_nnz": "61",
+    "ratio": "0.000841785689643",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian6",
+    "rows": "47",
+    "columns": "47",
+    "nnz": "472",
+    "longest_row": "47",
+    "longest_row_nnz": "23",
+    "ratio": "0.0487288135593",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr03",
+    "rows": "118",
+    "columns": "118",
+    "nnz": "476",
+    "longest_row": "53",
+    "longest_row_nnz": "10",
+    "ratio": "0.0210084033613",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_brandy",
+    "rows": "220",
+    "columns": "303",
+    "nnz": "2202",
+    "longest_row": "55",
+    "longest_row_nnz": "118",
+    "ratio": "0.0535876475931",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_6",
+    "rows": "7773",
+    "columns": "7773",
+    "nnz": "82500",
+    "longest_row": "2681",
+    "longest_row_nnz": "2678",
+    "ratio": "0.0324606060606",
+    "status": "ok"
+  },
+  {
+    "dataset": "mult_dcop_02",
+    "rows": "25187",
+    "columns": "25187",
+    "nnz": "193276",
+    "longest_row": "24629",
+    "longest_row_nnz": "22767",
+    "ratio": "0.11779527722",
+    "status": "ok"
+  },
+  {
+    "dataset": "HTC_336_4438",
+    "rows": "226340",
+    "columns": "226340",
+    "nnz": "904522",
+    "longest_row": "134303",
+    "longest_row_nnz": "7394",
+    "ratio": "0.00817448331826",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_49",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "sc205-2r",
+    "rows": "35213",
+    "columns": "62423",
+    "nnz": "123239",
+    "longest_row": "11",
+    "longest_row_nnz": "5",
+    "ratio": "4.05715723107e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "bfwb782",
+    "rows": "782",
+    "columns": "782",
+    "nnz": "5982",
+    "longest_row": "11",
+    "longest_row_nnz": "13",
+    "ratio": "0.00217318622534",
+    "status": "ok"
+  },
+  {
+    "dataset": "model5",
+    "rows": "1888",
+    "columns": "11802",
+    "nnz": "89925",
+    "longest_row": "1877",
+    "longest_row_nnz": "307",
+    "ratio": "0.00341395607451",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_25",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "extr1b",
+    "rows": "2836",
+    "columns": "2836",
+    "nnz": "11404",
+    "longest_row": "72",
+    "longest_row_nnz": "10",
+    "ratio": "0.000876885303402",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_12_4",
+    "rows": "66",
+    "columns": "495",
+    "nnz": "2970",
+    "longest_row": "1",
+    "longest_row_nnz": "45",
+    "ratio": "0.0151515151515",
+    "status": "ok"
+  },
+  {
+    "dataset": "mbeause",
+    "rows": "496",
+    "columns": "496",
+    "nnz": "41063",
+    "longest_row": "456",
+    "longest_row_nnz": "489",
+    "ratio": "0.0119085307941",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_chemcom",
+    "rows": "288",
+    "columns": "744",
+    "nnz": "1590",
+    "longest_row": "16",
+    "longest_row_nnz": "11",
+    "ratio": "0.00691823899371",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n15",
+    "rows": "32768",
+    "columns": "32768",
+    "nnz": "196548",
+    "longest_row": "10112",
+    "longest_row_nnz": "18",
+    "ratio": "9.15806825814e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ford1",
+    "rows": "18728",
+    "columns": "18728",
+    "nnz": "101576",
+    "longest_row": "17708",
+    "longest_row_nnz": "20",
+    "ratio": "0.000196896904781",
+    "status": "ok"
+  },
+  {
+    "dataset": "vsp_bump2_e18_aa01_model1_crew1",
+    "rows": "56438",
+    "columns": "56438",
+    "nnz": "601602",
+    "longest_row": "50098",
+    "longest_row_nnz": "604",
+    "ratio": "0.00100398602398",
+    "status": "ok"
+  },
+  {
+    "dataset": "M40PI_n1",
+    "rows": "2028",
+    "columns": "2028",
+    "nnz": "5007",
+    "longest_row": "2013",
+    "longest_row_nnz": "8",
+    "ratio": "0.00159776313162",
+    "status": "ok"
+  },
+  {
+    "dataset": "t2dal_bci",
+    "rows": "4257",
+    "columns": "4257",
+    "nnz": "37465",
+    "longest_row": "3",
+    "longest_row_nnz": "9",
+    "ratio": "0.000240224209262",
+    "status": "ok"
+  },
+  {
+    "dataset": "xingo3012",
+    "rows": "20944",
+    "columns": "20944",
+    "nnz": "74386",
+    "longest_row": "20623",
+    "longest_row_nnz": "34",
+    "ratio": "0.000457075256097",
+    "status": "ok"
+  },
+  {
+    "dataset": "hi2010",
+    "rows": "25016",
+    "columns": "25016",
+    "nnz": "124126",
+    "longest_row": "2438",
+    "longest_row_nnz": "112",
+    "ratio": "0.000902308944137",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b1",
+    "rows": "105",
+    "columns": "15",
+    "nnz": "210",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.00952380952381",
+    "status": "ok"
+  },
+  {
+    "dataset": "lop163",
+    "rows": "163",
+    "columns": "163",
+    "nnz": "935",
+    "longest_row": "18",
+    "longest_row_nnz": "6",
+    "ratio": "0.00641711229947",
+    "status": "ok"
+  },
+  {
+    "dataset": "world",
+    "rows": "34506",
+    "columns": "67147",
+    "nnz": "198883",
+    "longest_row": "34506",
+    "longest_row_nnz": "342",
+    "ratio": "0.00171960398827",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch8-8-b2",
+    "rows": "18816",
+    "columns": "1568",
+    "nnz": "56448",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "5.31462585034e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_01",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian12",
+    "rows": "3071",
+    "columns": "3071",
+    "nnz": "407200",
+    "longest_row": "3071",
+    "longest_row_nnz": "1535",
+    "ratio": "0.00376964636542",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz11",
+    "rows": "47104",
+    "columns": "30144",
+    "nnz": "329728",
+    "longest_row": "1",
+    "longest_row_nnz": "7",
+    "ratio": "2.12296195652e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "model9",
+    "rows": "2879",
+    "columns": "10939",
+    "nnz": "55956",
+    "longest_row": "234",
+    "longest_row_nnz": "216",
+    "ratio": "0.00386017585246",
+    "status": "ok"
+  },
+  {
+    "dataset": "small",
+    "rows": "677",
+    "columns": "1400",
+    "nnz": "3207",
+    "longest_row": "258",
+    "longest_row_nnz": "19",
+    "ratio": "0.0059245400686",
+    "status": "ok"
+  },
+  {
+    "dataset": "nsct",
+    "rows": "23003",
+    "columns": "37563",
+    "nnz": "697738",
+    "longest_row": "4402",
+    "longest_row_nnz": "848",
+    "ratio": "0.00121535590723",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_21",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "fome11",
+    "rows": "12142",
+    "columns": "24460",
+    "nnz": "71264",
+    "longest_row": "1854",
+    "longest_row_nnz": "228",
+    "ratio": "0.00319937135159",
+    "status": "ok"
+  },
+  {
+    "dataset": "dw2048",
+    "rows": "2048",
+    "columns": "2048",
+    "nnz": "10114",
+    "longest_row": "1388",
+    "longest_row_nnz": "8",
+    "ratio": "0.000790982796124",
+    "status": "ok"
+  },
+  {
+    "dataset": "psmigr_3",
+    "rows": "3140",
+    "columns": "3140",
+    "nnz": "543162",
+    "longest_row": "204",
+    "longest_row_nnz": "2294",
+    "ratio": "0.00422341769122",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr06",
+    "rows": "1454",
+    "columns": "1454",
+    "nnz": "5300",
+    "longest_row": "598",
+    "longest_row_nnz": "13",
+    "ratio": "0.00245283018868",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz5",
+    "rows": "7382",
+    "columns": "2882",
+    "nnz": "44056",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "0.00013619030325",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d13",
+    "rows": "47271",
+    "columns": "8899",
+    "nnz": "356232",
+    "longest_row": "8255",
+    "longest_row_nnz": "14",
+    "ratio": "3.93002313099e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "bodyy4",
+    "rows": "17546",
+    "columns": "17546",
+    "nnz": "121938",
+    "longest_row": "527",
+    "longest_row_nnz": "9",
+    "ratio": "7.38080007873e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity25",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "diag",
+    "rows": "2559",
+    "columns": "2559",
+    "nnz": "8184",
+    "longest_row": "13",
+    "longest_row_nnz": "4",
+    "ratio": "0.000488758553275",
+    "status": "ok"
+  },
+  {
+    "dataset": "hangGlider_4",
+    "rows": "15561",
+    "columns": "15561",
+    "nnz": "149532",
+    "longest_row": "8643",
+    "longest_row_nnz": "13831",
+    "ratio": "0.0924952518524",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex26",
+    "rows": "2163",
+    "columns": "2163",
+    "nnz": "94033",
+    "longest_row": "2084",
+    "longest_row_nnz": "136",
+    "ratio": "0.00144630076675",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-8-b1",
+    "rows": "1176",
+    "columns": "56",
+    "nnz": "2352",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.000850340136054",
+    "status": "ok"
+  },
+  {
+    "dataset": "rlfdual",
+    "rows": "8052",
+    "columns": "74970",
+    "nnz": "282031",
+    "longest_row": "8006",
+    "longest_row_nnz": "202",
+    "ratio": "0.000716233321869",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_16_8",
+    "rows": "120",
+    "columns": "12870",
+    "nnz": "360360",
+    "longest_row": "1",
+    "longest_row_nnz": "3003",
+    "ratio": "0.00833333333333",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa6",
+    "rows": "646",
+    "columns": "7292",
+    "nnz": "51728",
+    "longest_row": "251",
+    "longest_row_nnz": "358",
+    "ratio": "0.00692081657903",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_gfrd_pnc",
+    "rows": "616",
+    "columns": "1160",
+    "nnz": "2445",
+    "longest_row": "53",
+    "longest_row_nnz": "12",
+    "ratio": "0.00490797546012",
+    "status": "ok"
+  },
+  {
+    "dataset": "sx-askubuntu",
+    "rows": "159316",
+    "columns": "159316",
+    "nnz": "596933",
+    "longest_row": "6383",
+    "longest_row_nnz": "4966",
+    "ratio": "0.00831919160107",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac200sc",
+    "rows": "59310",
+    "columns": "59310",
+    "nnz": "837936",
+    "longest_row": "20",
+    "longest_row_nnz": "153",
+    "ratio": "0.000182591510569",
+    "status": "ok"
+  },
+  {
+    "dataset": "photogrammetry",
+    "rows": "1388",
+    "columns": "390",
+    "nnz": "11816",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.000761679079215",
+    "status": "ok"
+  },
+  {
+    "dataset": "Sieber",
+    "rows": "2290",
+    "columns": "2290",
+    "nnz": "14873",
+    "longest_row": "2289",
+    "longest_row_nnz": "2289",
+    "ratio": "0.153903045788",
+    "status": "ok"
+  },
+  {
+    "dataset": "aircraft",
+    "rows": "3754",
+    "columns": "7517",
+    "nnz": "20267",
+    "longest_row": "6",
+    "longest_row_nnz": "6",
+    "ratio": "0.000296047762372",
+    "status": "ok"
+  },
+  {
+    "dataset": "dolphins",
+    "rows": "62",
+    "columns": "62",
+    "nnz": "318",
+    "longest_row": "15",
+    "longest_row_nnz": "12",
+    "ratio": "0.0377358490566",
+    "status": "ok"
+  },
+  {
+    "dataset": "hangGlider_5",
+    "rows": "16011",
+    "columns": "16011",
+    "nnz": "155246",
+    "longest_row": "8893",
+    "longest_row_nnz": "14231",
+    "ratio": "0.0916674181621",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b14",
+    "rows": "920",
+    "columns": "6300",
+    "nnz": "13800",
+    "longest_row": "1",
+    "longest_row_nnz": "15",
+    "ratio": "0.00108695652174",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex7",
+    "rows": "1633",
+    "columns": "1633",
+    "nnz": "54543",
+    "longest_row": "235",
+    "longest_row_nnz": "75",
+    "ratio": "0.00137506187778",
+    "status": "ok"
+  },
+  {
+    "dataset": "ACTIVSg2000",
+    "rows": "4000",
+    "columns": "4000",
+    "nnz": "29336",
+    "longest_row": "1754",
+    "longest_row_nnz": "34",
+    "ratio": "0.00115898554677",
+    "status": "ok"
+  },
+  {
+    "dataset": "nasa2910",
+    "rows": "2910",
+    "columns": "2910",
+    "nnz": "174296",
+    "longest_row": "219",
+    "longest_row_nnz": "175",
+    "ratio": "0.00100403910589",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity03",
+    "rows": "317",
+    "columns": "317",
+    "nnz": "7327",
+    "longest_row": "97",
+    "longest_row_nnz": "62",
+    "ratio": "0.00846185341886",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_2",
+    "rows": "1544",
+    "columns": "1544",
+    "nnz": "17910",
+    "longest_row": "905",
+    "longest_row_nnz": "1448",
+    "ratio": "0.0808486878839",
+    "status": "ok"
+  },
+  {
+    "dataset": "hangGlider_3",
+    "rows": "10260",
+    "columns": "10260",
+    "nnz": "92703",
+    "longest_row": "5698",
+    "longest_row_nnz": "9119",
+    "ratio": "0.0983679061088",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec8",
+    "rows": "23",
+    "columns": "84",
+    "nnz": "549",
+    "longest_row": "20",
+    "longest_row_nnz": "39",
+    "ratio": "0.0710382513661",
+    "status": "ok"
+  },
+  {
+    "dataset": "s3rmt3m3",
+    "rows": "5357",
+    "columns": "5357",
+    "nnz": "207695",
+    "longest_row": "997",
+    "longest_row_nnz": "48",
+    "ratio": "0.000231108115265",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_scrs8",
+    "rows": "490",
+    "columns": "1275",
+    "nnz": "3288",
+    "longest_row": "57",
+    "longest_row_nnz": "37",
+    "ratio": "0.0112530413625",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_20",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b39_c7",
+    "rows": "14098",
+    "columns": "14098",
+    "nnz": "252446",
+    "longest_row": "7109",
+    "longest_row_nnz": "32",
+    "ratio": "0.00012675978229",
+    "status": "ok"
+  },
+  {
+    "dataset": "nasa1824",
+    "rows": "1824",
+    "columns": "1824",
+    "nnz": "39208",
+    "longest_row": "124",
+    "longest_row_nnz": "42",
+    "ratio": "0.00107120995715",
+    "status": "ok"
+  },
+  {
+    "dataset": "d_dyn",
+    "rows": "87",
+    "columns": "87",
+    "nnz": "238",
+    "longest_row": "7",
+    "longest_row_nnz": "8",
+    "ratio": "0.0336134453782",
+    "status": "ok"
+  },
+  {
+    "dataset": "image_interp",
+    "rows": "240000",
+    "columns": "120000",
+    "nnz": "711683",
+    "longest_row": "401",
+    "longest_row_nnz": "5",
+    "ratio": "7.02559988085e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_07",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5855",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00614859094791",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b15",
+    "rows": "60",
+    "columns": "920",
+    "nnz": "960",
+    "longest_row": "1",
+    "longest_row_nnz": "16",
+    "ratio": "0.0166666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz1268",
+    "rows": "1268",
+    "columns": "1268",
+    "nnz": "12786",
+    "longest_row": "287",
+    "longest_row_nnz": "27",
+    "ratio": "0.00211168465509",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_afiro",
+    "rows": "27",
+    "columns": "51",
+    "nnz": "102",
+    "longest_row": "21",
+    "longest_row_nnz": "10",
+    "ratio": "0.0980392156863",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_42",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec4",
+    "rows": "2",
+    "columns": "3",
+    "nnz": "3",
+    "longest_row": "2",
+    "longest_row_nnz": "2",
+    "ratio": "0.666666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_ceria3d",
+    "rows": "3576",
+    "columns": "4400",
+    "nnz": "21178",
+    "longest_row": "90",
+    "longest_row_nnz": "190",
+    "ratio": "0.00897157427519",
+    "status": "ok"
+  },
+  {
+    "dataset": "pwt",
+    "rows": "36519",
+    "columns": "36519",
+    "nnz": "326107",
+    "longest_row": "12469",
+    "longest_row_nnz": "16",
+    "ratio": "4.90636508876e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "air06",
+    "rows": "825",
+    "columns": "8627",
+    "nnz": "70806",
+    "longest_row": "747",
+    "longest_row_nnz": "461",
+    "ratio": "0.00651074767675",
+    "status": "ok"
+  },
+  {
+    "dataset": "spiral",
+    "rows": "1434",
+    "columns": "1434",
+    "nnz": "18228",
+    "longest_row": "203",
+    "longest_row_nnz": "99",
+    "ratio": "0.00543120473996",
+    "status": "ok"
+  },
+  {
+    "dataset": "wing_nodal",
+    "rows": "10937",
+    "columns": "10937",
+    "nnz": "150976",
+    "longest_row": "2087",
+    "longest_row_nnz": "28",
+    "ratio": "0.000185459940653",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_38",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d25",
+    "rows": "2798",
+    "columns": "21074",
+    "nnz": "81671",
+    "longest_row": "2797",
+    "longest_row_nnz": "422",
+    "ratio": "0.00516707276757",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b11",
+    "rows": "10",
+    "columns": "120",
+    "nnz": "120",
+    "longest_row": "1",
+    "longest_row_nnz": "12",
+    "ratio": "0.1",
+    "status": "ok"
+  },
+  {
+    "dataset": "Tina_AskCal",
+    "rows": "11",
+    "columns": "11",
+    "nnz": "29",
+    "longest_row": "3",
+    "longest_row_nnz": "5",
+    "ratio": "0.172413793103",
+    "status": "ok"
+  },
+  {
+    "dataset": "scagr7-2r",
+    "rows": "32847",
+    "columns": "46679",
+    "nnz": "120141",
+    "longest_row": "23",
+    "longest_row_nnz": "10",
+    "ratio": "8.32355315837e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "Vehicle_10NN",
+    "rows": "846",
+    "columns": "846",
+    "nnz": "10894",
+    "longest_row": "301",
+    "longest_row_nnz": "26",
+    "ratio": "0.00238663484487",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-8-b2",
+    "rows": "11760",
+    "columns": "1176",
+    "nnz": "35280",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "8.50340136054e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "email-Eu-core-temporal",
+    "rows": "1005",
+    "columns": "1005",
+    "nnz": "24929",
+    "longest_row": "91",
+    "longest_row_nnz": "333",
+    "ratio": "0.0133579365398",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity01",
+    "rows": "317",
+    "columns": "317",
+    "nnz": "7327",
+    "longest_row": "97",
+    "longest_row_nnz": "62",
+    "ratio": "0.00846185341886",
+    "status": "ok"
+  },
+  {
+    "dataset": "pesa",
+    "rows": "11738",
+    "columns": "11738",
+    "nnz": "79566",
+    "longest_row": "392",
+    "longest_row_nnz": "10",
+    "ratio": "0.000125681823895",
+    "status": "ok"
+  },
+  {
+    "dataset": "Ragusa16",
+    "rows": "24",
+    "columns": "24",
+    "nnz": "81",
+    "longest_row": "5",
+    "longest_row_nnz": "9",
+    "ratio": "0.111111111111",
+    "status": "ok"
+  },
+  {
+    "dataset": "hep-th",
+    "rows": "8361",
+    "columns": "8361",
+    "nnz": "31502",
+    "longest_row": "87",
+    "longest_row_nnz": "50",
+    "ratio": "0.00158720081265",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-9-b2",
+    "rows": "17640",
+    "columns": "1512",
+    "nnz": "52920",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "5.66893424036e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_4",
+    "rows": "455",
+    "columns": "455",
+    "nnz": "4593",
+    "longest_row": "271",
+    "longest_row_nnz": "451",
+    "ratio": "0.0981929022425",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz628",
+    "rows": "628",
+    "columns": "628",
+    "nnz": "6346",
+    "longest_row": "158",
+    "longest_row_nnz": "27",
+    "ratio": "0.00425464859754",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex24",
+    "rows": "2283",
+    "columns": "2283",
+    "nnz": "48737",
+    "longest_row": "507",
+    "longest_row_nnz": "46",
+    "ratio": "0.000943841434639",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_22",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_15_7",
+    "rows": "105",
+    "columns": "6435",
+    "nnz": "135135",
+    "longest_row": "1",
+    "longest_row_nnz": "1287",
+    "ratio": "0.00952380952381",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian5",
+    "rows": "23",
+    "columns": "23",
+    "nnz": "142",
+    "longest_row": "23",
+    "longest_row_nnz": "11",
+    "ratio": "0.0774647887324",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b162_c4",
+    "rows": "20374",
+    "columns": "20374",
+    "nnz": "812749",
+    "longest_row": "10400",
+    "longest_row_nnz": "77",
+    "ratio": "9.47401965428e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "L",
+    "rows": "956",
+    "columns": "956",
+    "nnz": "3640",
+    "longest_row": "9",
+    "longest_row_nnz": "4",
+    "ratio": "0.0010989010989",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr09",
+    "rows": "1723",
+    "columns": "1723",
+    "nnz": "6511",
+    "longest_row": "1481",
+    "longest_row_nnz": "15",
+    "ratio": "0.0023037935801",
+    "status": "ok"
+  },
+  {
+    "dataset": "Pd",
+    "rows": "8081",
+    "columns": "8081",
+    "nnz": "13036",
+    "longest_row": "117",
+    "longest_row_nnz": "5",
+    "ratio": "0.000383553237189",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-9-b1",
+    "rows": "1512",
+    "columns": "63",
+    "nnz": "3024",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.000661375661376",
+    "status": "ok"
+  },
+  {
+    "dataset": "trans5",
+    "rows": "116835",
+    "columns": "116835",
+    "nnz": "766396",
+    "longest_row": "90",
+    "longest_row_nnz": "114190",
+    "ratio": "0.148996080355",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_46",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "dw4096",
+    "rows": "8192",
+    "columns": "8192",
+    "nnz": "41746",
+    "longest_row": "223",
+    "longest_row_nnz": "8",
+    "ratio": "0.000191635126719",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_12_5",
+    "rows": "66",
+    "columns": "792",
+    "nnz": "7920",
+    "longest_row": "1",
+    "longest_row_nnz": "120",
+    "ratio": "0.0151515151515",
+    "status": "ok"
+  },
+  {
+    "dataset": "stufe",
+    "rows": "1036",
+    "columns": "1036",
+    "nnz": "3736",
+    "longest_row": "8",
+    "longest_row_nnz": "4",
+    "ratio": "0.00107066381156",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_1",
+    "rows": "205",
+    "columns": "205",
+    "nnz": "1783",
+    "longest_row": "121",
+    "longest_row_nnz": "201",
+    "ratio": "0.112731351655",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ken_11",
+    "rows": "14694",
+    "columns": "21349",
+    "nnz": "49058",
+    "longest_row": "14642",
+    "longest_row_nnz": "122",
+    "ratio": "0.00248685229728",
+    "status": "ok"
+  },
+  {
+    "dataset": "n3c4-b1",
+    "rows": "15",
+    "columns": "6",
+    "nnz": "30",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.0666666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_17_8",
+    "rows": "136",
+    "columns": "24310",
+    "nnz": "680680",
+    "longest_row": "1",
+    "longest_row_nnz": "5005",
+    "ratio": "0.00735294117647",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_6",
+    "rows": "465",
+    "columns": "465",
+    "nnz": "4795",
+    "longest_row": "277",
+    "longest_row_nnz": "461",
+    "ratio": "0.09614181439",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_2",
+    "rows": "555",
+    "columns": "350",
+    "nnz": "4357",
+    "longest_row": "203",
+    "longest_row_nnz": "78",
+    "ratio": "0.0179022263025",
+    "status": "ok"
+  },
+  {
+    "dataset": "pcb1000",
+    "rows": "1565",
+    "columns": "2820",
+    "nnz": "20463",
+    "longest_row": "1563",
+    "longest_row_nnz": "1499",
+    "ratio": "0.0732541660558",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_9_5",
+    "rows": "36",
+    "columns": "126",
+    "nnz": "1260",
+    "longest_row": "1",
+    "longest_row_nnz": "35",
+    "ratio": "0.0277777777778",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch3-3-b2",
+    "rows": "6",
+    "columns": "18",
+    "nnz": "18",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.166666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "ford2",
+    "rows": "100196",
+    "columns": "100196",
+    "nnz": "544688",
+    "longest_row": "94796",
+    "longest_row_nnz": "30",
+    "ratio": "5.50774021091e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b13",
+    "rows": "6300",
+    "columns": "25605",
+    "nnz": "88200",
+    "longest_row": "1",
+    "longest_row_nnz": "14",
+    "ratio": "0.00015873015873",
+    "status": "ok"
+  },
+  {
+    "dataset": "nopss_11k",
+    "rows": "11685",
+    "columns": "11685",
+    "nnz": "44941",
+    "longest_row": "10970",
+    "longest_row_nnz": "30",
+    "ratio": "0.000667541888253",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_7",
+    "rows": "3511",
+    "columns": "3511",
+    "nnz": "37680",
+    "longest_row": "1753",
+    "longest_row_nnz": "1316",
+    "ratio": "0.0349256900212",
+    "status": "ok"
+  },
+  {
+    "dataset": "vsp_c-30_data_data",
+    "rows": "11023",
+    "columns": "11023",
+    "nnz": "124368",
+    "longest_row": "11",
+    "longest_row_nnz": "2109",
+    "ratio": "0.016957738325",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity09",
+    "rows": "1182",
+    "columns": "1182",
+    "nnz": "32747",
+    "longest_row": "172",
+    "longest_row_nnz": "62",
+    "ratio": "0.00189330320335",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_standmps",
+    "rows": "467",
+    "columns": "1274",
+    "nnz": "3878",
+    "longest_row": "112",
+    "longest_row_nnz": "745",
+    "ratio": "0.192109334709",
+    "status": "ok"
+  },
+  {
+    "dataset": "fome12",
+    "rows": "24284",
+    "columns": "48920",
+    "nnz": "142528",
+    "longest_row": "1854",
+    "longest_row_nnz": "228",
+    "ratio": "0.0015996856758",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_1",
+    "rows": "32",
+    "columns": "14",
+    "nnz": "234",
+    "longest_row": "7",
+    "longest_row_nnz": "14",
+    "ratio": "0.0598290598291",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex20",
+    "rows": "2203",
+    "columns": "2203",
+    "nnz": "69981",
+    "longest_row": "205",
+    "longest_row_nnz": "67",
+    "ratio": "0.000957402723596",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_4",
+    "rows": "950",
+    "columns": "950",
+    "nnz": "13626",
+    "longest_row": "902",
+    "longest_row_nnz": "124",
+    "ratio": "0.00910024952297",
+    "status": "ok"
+  },
+  {
+    "dataset": "dw256A",
+    "rows": "512",
+    "columns": "512",
+    "nnz": "2480",
+    "longest_row": "86",
+    "longest_row_nnz": "7",
+    "ratio": "0.00282258064516",
+    "status": "ok"
+  },
+  {
+    "dataset": "air04",
+    "rows": "823",
+    "columns": "8904",
+    "nnz": "72965",
+    "longest_row": "784",
+    "longest_row_nnz": "368",
+    "ratio": "0.00504351401357",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac160sc",
+    "rows": "47430",
+    "columns": "47430",
+    "nnz": "656616",
+    "longest_row": "20",
+    "longest_row_nnz": "153",
+    "ratio": "0.000233012902518",
+    "status": "ok"
+  },
+  {
+    "dataset": "dwb512",
+    "rows": "512",
+    "columns": "512",
+    "nnz": "2500",
+    "longest_row": "342",
+    "longest_row_nnz": "8",
+    "ratio": "0.0032",
+    "status": "ok"
+  },
+  {
+    "dataset": "rw136",
+    "rows": "136",
+    "columns": "136",
+    "nnz": "479",
+    "longest_row": "18",
+    "longest_row_nnz": "4",
+    "ratio": "0.00835073068894",
+    "status": "ok"
+  },
+  {
+    "dataset": "air02",
+    "rows": "50",
+    "columns": "6774",
+    "nnz": "61555",
+    "longest_row": "50",
+    "longest_row_nnz": "3729",
+    "ratio": "0.0605799691333",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_mondou2",
+    "rows": "312",
+    "columns": "604",
+    "nnz": "1208",
+    "longest_row": "221",
+    "longest_row_nnz": "19",
+    "ratio": "0.0157284768212",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX2",
+    "rows": "560",
+    "columns": "560",
+    "nnz": "8736",
+    "longest_row": "36",
+    "longest_row_nnz": "18",
+    "ratio": "0.00206043956044",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX6",
+    "rows": "6545",
+    "columns": "6545",
+    "nnz": "295680",
+    "longest_row": "410",
+    "longest_row_nnz": "48",
+    "ratio": "0.000162337662338",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity08",
+    "rows": "1182",
+    "columns": "1182",
+    "nnz": "32747",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.00189330320335",
+    "status": "ok"
+  },
+  {
+    "dataset": "mult_dcop_03",
+    "rows": "25187",
+    "columns": "25187",
+    "nnz": "193216",
+    "longest_row": "24629",
+    "longest_row_nnz": "22767",
+    "ratio": "0.117831856575",
+    "status": "ok"
+  },
+  {
+    "dataset": "torsion1",
+    "rows": "40000",
+    "columns": "40000",
+    "nnz": "197608",
+    "longest_row": "202",
+    "longest_row_nnz": "5",
+    "ratio": "2.53026193272e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_13",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "S80PI_n",
+    "rows": "4182",
+    "columns": "4182",
+    "nnz": "10261",
+    "longest_row": "4149",
+    "longest_row_nnz": "12",
+    "ratio": "0.0011694766592",
+    "status": "ok"
+  },
+  {
+    "dataset": "GD96_a",
+    "rows": "1096",
+    "columns": "1096",
+    "nnz": "1677",
+    "longest_row": "23",
+    "longest_row_nnz": "17",
+    "ratio": "0.010137149672",
+    "status": "ok"
+  },
+  {
+    "dataset": "Andrews",
+    "rows": "60000",
+    "columns": "60000",
+    "nnz": "760154",
+    "longest_row": "15121",
+    "longest_row_nnz": "36",
+    "ratio": "4.73588246592e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "Olivetti_norm_10NN",
+    "rows": "400",
+    "columns": "400",
+    "nnz": "5656",
+    "longest_row": "150",
+    "longest_row_nnz": "60",
+    "ratio": "0.0106082036775",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec9",
+    "rows": "47",
+    "columns": "201",
+    "nnz": "2147",
+    "longest_row": "40",
+    "longest_row_nnz": "77",
+    "ratio": "0.0358639962739",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_30",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_33",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b3",
+    "rows": "5970",
+    "columns": "1330",
+    "nnz": "23880",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.000167504187605",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_5",
+    "rows": "2904",
+    "columns": "2904",
+    "nnz": "35590",
+    "longest_row": "1705",
+    "longest_row_nnz": "2728",
+    "ratio": "0.0766507445912",
+    "status": "ok"
+  },
+  {
+    "dataset": "m133-b3",
+    "rows": "200200",
+    "columns": "200200",
+    "nnz": "800800",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "4.995004995e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "model8",
+    "rows": "2896",
+    "columns": "6464",
+    "nnz": "25277",
+    "longest_row": "310",
+    "longest_row_nnz": "58",
+    "ratio": "0.00229457609685",
+    "status": "ok"
+  },
+  {
+    "dataset": "dictionary28",
+    "rows": "52652",
+    "columns": "52652",
+    "nnz": "178076",
+    "longest_row": "404",
+    "longest_row_nnz": "38",
+    "ratio": "0.000213392034862",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec7",
+    "rows": "11",
+    "columns": "36",
+    "nnz": "147",
+    "longest_row": "8",
+    "longest_row_nnz": "23",
+    "ratio": "0.156462585034",
+    "status": "ok"
+  },
+  {
+    "dataset": "ca-HepTh",
+    "rows": "9877",
+    "columns": "9877",
+    "nnz": "51971",
+    "longest_row": "223",
+    "longest_row_nnz": "65",
+    "ratio": "0.00125069750438",
+    "status": "ok"
+  },
+  {
+    "dataset": "model3",
+    "rows": "1609",
+    "columns": "4578",
+    "nnz": "23974",
+    "longest_row": "131",
+    "longest_row_nnz": "214",
+    "ratio": "0.00892633686494",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian3",
+    "rows": "5",
+    "columns": "5",
+    "nnz": "10",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.2",
+    "status": "ok"
+  },
+  {
+    "dataset": "162bit",
+    "rows": "3606",
+    "columns": "3597",
+    "nnz": "37118",
+    "longest_row": "1043",
+    "longest_row_nnz": "14",
+    "ratio": "0.000377175494369",
+    "status": "ok"
+  },
+  {
+    "dataset": "shallow_water1",
+    "rows": "81920",
+    "columns": "81920",
+    "nnz": "327680",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "1.220703125e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian10",
+    "rows": "767",
+    "columns": "767",
+    "nnz": "44392",
+    "longest_row": "767",
+    "longest_row_nnz": "383",
+    "ratio": "0.00862768066318",
+    "status": "ok"
+  },
+  {
+    "dataset": "mesh2e1",
+    "rows": "306",
+    "columns": "306",
+    "nnz": "2018",
+    "longest_row": "90",
+    "longest_row_nnz": "10",
+    "ratio": "0.00495540138751",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa01",
+    "rows": "823",
+    "columns": "8904",
+    "nnz": "72965",
+    "longest_row": "784",
+    "longest_row_nnz": "368",
+    "ratio": "0.00504351401357",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b4",
+    "rows": "3003",
+    "columns": "1365",
+    "nnz": "15015",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "0.000333000333",
+    "status": "ok"
+  },
+  {
+    "dataset": "sit100",
+    "rows": "10262",
+    "columns": "10262",
+    "nnz": "61046",
+    "longest_row": "98",
+    "longest_row_nnz": "10",
+    "ratio": "0.000163810896701",
+    "status": "ok"
+  },
+  {
+    "dataset": "psmigr_1",
+    "rows": "3140",
+    "columns": "3140",
+    "nnz": "543162",
+    "longest_row": "204",
+    "longest_row_nnz": "2294",
+    "ratio": "0.00422341769122",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_14",
+    "rows": "1640",
+    "columns": "1640",
+    "nnz": "24324",
+    "longest_row": "1562",
+    "longest_row_nnz": "214",
+    "ratio": "0.00879789508305",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_37",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "airfoil1",
+    "rows": "4253",
+    "columns": "4253",
+    "nnz": "24578",
+    "longest_row": "138",
+    "longest_row_nnz": "9",
+    "ratio": "0.000366181137603",
+    "status": "ok"
+  },
+  {
+    "dataset": "Ragusa18",
+    "rows": "23",
+    "columns": "23",
+    "nnz": "64",
+    "longest_row": "11",
+    "longest_row_nnz": "7",
+    "ratio": "0.109375",
+    "status": "ok"
+  },
+  {
+    "dataset": "vsp_befref_fxm_2_4_air02",
+    "rows": "14109",
+    "columns": "14109",
+    "nnz": "196448",
+    "longest_row": "7349",
+    "longest_row_nnz": "1531",
+    "ratio": "0.00779341097899",
+    "status": "ok"
+  },
+  {
+    "dataset": "S10PI_n1",
+    "rows": "528",
+    "columns": "528",
+    "nnz": "1317",
+    "longest_row": "513",
+    "longest_row_nnz": "8",
+    "ratio": "0.00607441154138",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_4",
+    "rows": "3191",
+    "columns": "3191",
+    "nnz": "36516",
+    "longest_row": "1593",
+    "longest_row_nnz": "1196",
+    "ratio": "0.0327527659108",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_3",
+    "rows": "467",
+    "columns": "467",
+    "nnz": "5103",
+    "longest_row": "440",
+    "longest_row_nnz": "61",
+    "ratio": "0.0119537526945",
+    "status": "ok"
+  },
+  {
+    "dataset": "klein-b1",
+    "rows": "30",
+    "columns": "10",
+    "nnz": "60",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.0333333333333",
+    "status": "ok"
+  },
+  {
+    "dataset": "c-66b",
+    "rows": "49989",
+    "columns": "49989",
+    "nnz": "499007",
+    "longest_row": "7459",
+    "longest_row_nnz": "5237",
+    "ratio": "0.0104948427577",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b14",
+    "rows": "920",
+    "columns": "6300",
+    "nnz": "13800",
+    "longest_row": "1",
+    "longest_row_nnz": "15",
+    "ratio": "0.00108695652174",
+    "status": "ok"
+  },
+  {
+    "dataset": "crack",
+    "rows": "10240",
+    "columns": "10240",
+    "nnz": "60760",
+    "longest_row": "6",
+    "longest_row_nnz": "9",
+    "ratio": "0.000148123765635",
+    "status": "ok"
+  },
+  {
+    "dataset": "FX_March2010",
+    "rows": "1319",
+    "columns": "9498",
+    "nnz": "301899",
+    "longest_row": "1",
+    "longest_row_nnz": "8943",
+    "ratio": "0.0296224896406",
+    "status": "ok"
+  },
+  {
+    "dataset": "HEP-th",
+    "rows": "27240",
+    "columns": "27240",
+    "nnz": "342437",
+    "longest_row": "25464",
+    "longest_row_nnz": "562",
+    "ratio": "0.00164117779329",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec6",
+    "rows": "6",
+    "columns": "15",
+    "nnz": "40",
+    "longest_row": "3",
+    "longest_row_nnz": "9",
+    "ratio": "0.225",
+    "status": "ok"
+  },
+  {
+    "dataset": "dw1024",
+    "rows": "2048",
+    "columns": "2048",
+    "nnz": "10114",
+    "longest_row": "1388",
+    "longest_row_nnz": "8",
+    "ratio": "0.000790982796124",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_34",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "garon2",
+    "rows": "13535",
+    "columns": "13535",
+    "nnz": "390607",
+    "longest_row": "40",
+    "longest_row_nnz": "45",
+    "ratio": "0.000115205308661",
+    "status": "ok"
+  },
+  {
+    "dataset": "seymourl",
+    "rows": "4944",
+    "columns": "6316",
+    "nnz": "38493",
+    "longest_row": "4174",
+    "longest_row_nnz": "20",
+    "ratio": "0.00051957498766",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_9",
+    "rows": "1180",
+    "columns": "1180",
+    "nnz": "19674",
+    "longest_row": "1122",
+    "longest_row_nnz": "154",
+    "ratio": "0.00782758971231",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_48",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_e226",
+    "rows": "223",
+    "columns": "472",
+    "nnz": "2768",
+    "longest_row": "84",
+    "longest_row_nnz": "110",
+    "ratio": "0.0397398843931",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcircuit",
+    "rows": "68902",
+    "columns": "68902",
+    "nnz": "375558",
+    "longest_row": "29916",
+    "longest_row_nnz": "34",
+    "ratio": "9.05319551175e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "mk11-b4b",
+    "rows": "9450",
+    "columns": "17325",
+    "nnz": "47250",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "0.00010582010582",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_3",
+    "rows": "1690",
+    "columns": "860",
+    "nnz": "18391",
+    "longest_row": "72",
+    "longest_row_nnz": "468",
+    "ratio": "0.0254472296232",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz10228",
+    "rows": "10228",
+    "columns": "10228",
+    "nnz": "102876",
+    "longest_row": "1901",
+    "longest_row_nnz": "27",
+    "ratio": "0.000262451883821",
+    "status": "ok"
+  },
+  {
+    "dataset": "mimo46x46_system",
+    "rows": "13250",
+    "columns": "13250",
+    "nnz": "48735",
+    "longest_row": "12823",
+    "longest_row_nnz": "32",
+    "ratio": "0.000656612290961",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr01",
+    "rows": "39",
+    "columns": "39",
+    "nnz": "131",
+    "longest_row": "16",
+    "longest_row_nnz": "6",
+    "ratio": "0.0458015267176",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_1",
+    "rows": "99",
+    "columns": "99",
+    "nnz": "927",
+    "longest_row": "1",
+    "longest_row_nnz": "17",
+    "ratio": "0.0183387270766",
+    "status": "ok"
+  },
+  {
+    "dataset": "hangGlider_2",
+    "rows": "1647",
+    "columns": "1647",
+    "nnz": "14754",
+    "longest_row": "913",
+    "longest_row_nnz": "1463",
+    "ratio": "0.0991595499526",
+    "status": "ok"
+  },
+  {
+    "dataset": "helm3d01",
+    "rows": "32226",
+    "columns": "32226",
+    "nnz": "428444",
+    "longest_row": "977",
+    "longest_row_nnz": "37",
+    "ratio": "8.63590107459e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ASIC_100k",
+    "rows": "99340",
+    "columns": "99340",
+    "nnz": "954163",
+    "longest_row": "25953",
+    "longest_row_nnz": "99029",
+    "ratio": "0.103786250358",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_9_3",
+    "rows": "36",
+    "columns": "84",
+    "nnz": "252",
+    "longest_row": "1",
+    "longest_row_nnz": "7",
+    "ratio": "0.0277777777778",
+    "status": "ok"
+  },
+  {
+    "dataset": "gemat1",
+    "rows": "4929",
+    "columns": "10595",
+    "nnz": "47369",
+    "longest_row": "4929",
+    "longest_row_nnz": "4928",
+    "ratio": "0.104034284025",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac080",
+    "rows": "36609",
+    "columns": "36609",
+    "nnz": "227955",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000193020552302",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_29",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "QRpivot",
+    "rows": "660",
+    "columns": "749",
+    "nnz": "3808",
+    "longest_row": "58",
+    "longest_row_nnz": "16",
+    "ratio": "0.00420168067227",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_5",
+    "rows": "7641",
+    "columns": "7641",
+    "nnz": "80767",
+    "longest_row": "2648",
+    "longest_row_nnz": "2636",
+    "ratio": "0.0326370918816",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_sc205",
+    "rows": "205",
+    "columns": "317",
+    "nnz": "665",
+    "longest_row": "11",
+    "longest_row_nnz": "5",
+    "ratio": "0.00751879699248",
+    "status": "ok"
+  },
+  {
+    "dataset": "rbsa480",
+    "rows": "480",
+    "columns": "480",
+    "nnz": "17088",
+    "longest_row": "1",
+    "longest_row_nnz": "36",
+    "ratio": "0.00210674157303",
+    "status": "ok"
+  },
+  {
+    "dataset": "scagr7-2b",
+    "rows": "9743",
+    "columns": "13847",
+    "nnz": "35885",
+    "longest_row": "23",
+    "longest_row_nnz": "10",
+    "ratio": "0.000278667967117",
+    "status": "ok"
+  },
+  {
+    "dataset": "abb313",
+    "rows": "313",
+    "columns": "176",
+    "nnz": "1557",
+    "longest_row": "33",
+    "longest_row_nnz": "6",
+    "ratio": "0.00385356454721",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex23",
+    "rows": "1409",
+    "columns": "1409",
+    "nnz": "43703",
+    "longest_row": "858",
+    "longest_row_nnz": "67",
+    "ratio": "0.00153307553257",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_sctap3",
+    "rows": "1480",
+    "columns": "3340",
+    "nnz": "9734",
+    "longest_row": "162",
+    "longest_row_nnz": "32",
+    "ratio": "0.00328744606534",
+    "status": "ok"
+  },
+  {
+    "dataset": "gemat12",
+    "rows": "4929",
+    "columns": "4929",
+    "nnz": "33111",
+    "longest_row": "4929",
+    "longest_row_nnz": "44",
+    "ratio": "0.00132886351968",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz40948",
+    "rows": "40948",
+    "columns": "40948",
+    "nnz": "412148",
+    "longest_row": "7433",
+    "longest_row_nnz": "27",
+    "ratio": "6.55104477033e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "har_10NN",
+    "rows": "10299",
+    "columns": "10299",
+    "nnz": "151736",
+    "longest_row": "5289",
+    "longest_row_nnz": "92",
+    "ratio": "0.000606316233458",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ken_18",
+    "rows": "105127",
+    "columns": "154699",
+    "nnz": "358171",
+    "longest_row": "104977",
+    "longest_row_nnz": "325",
+    "ratio": "0.000907387811967",
+    "status": "ok"
+  },
+  {
+    "dataset": "big",
+    "rows": "13209",
+    "columns": "13209",
+    "nnz": "91465",
+    "longest_row": "6069",
+    "longest_row_nnz": "12",
+    "ratio": "0.000131197725906",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_bgetam",
+    "rows": "400",
+    "columns": "816",
+    "nnz": "2537",
+    "longest_row": "1",
+    "longest_row_nnz": "23",
+    "ratio": "0.00906582577848",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_14",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "fe_tooth",
+    "rows": "78136",
+    "columns": "78136",
+    "nnz": "905182",
+    "longest_row": "29906",
+    "longest_row_nnz": "39",
+    "ratio": "4.30852579923e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_6",
+    "rows": "1111",
+    "columns": "1111",
+    "nnz": "17595",
+    "longest_row": "1056",
+    "longest_row_nnz": "145",
+    "ratio": "0.00824097755044",
+    "status": "ok"
+  },
+  {
+    "dataset": "bfwb62",
+    "rows": "62",
+    "columns": "62",
+    "nnz": "342",
+    "longest_row": "7",
+    "longest_row_nnz": "13",
+    "ratio": "0.0380116959064",
+    "status": "ok"
+  },
+  {
+    "dataset": "descriptor_xingo6u",
+    "rows": "20738",
+    "columns": "20738",
+    "nnz": "73916",
+    "longest_row": "20417",
+    "longest_row_nnz": "34",
+    "ratio": "0.000459981600736",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz9",
+    "rows": "19588",
+    "columns": "4164",
+    "nnz": "97508",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "5.12778438692e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_woodinfe",
+    "rows": "35",
+    "columns": "89",
+    "nnz": "140",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "0.0428571428571",
+    "status": "ok"
+  },
+  {
+    "dataset": "psmigr_2",
+    "rows": "3140",
+    "columns": "3140",
+    "nnz": "540022",
+    "longest_row": "204",
+    "longest_row_nnz": "2293",
+    "ratio": "0.00424612330609",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex31",
+    "rows": "3909",
+    "columns": "3909",
+    "nnz": "115357",
+    "longest_row": "224",
+    "longest_row_nnz": "75",
+    "ratio": "0.000650155603908",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex5",
+    "rows": "27",
+    "columns": "27",
+    "nnz": "279",
+    "longest_row": "4",
+    "longest_row_nnz": "15",
+    "ratio": "0.0537634408602",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac060sc",
+    "rows": "17730",
+    "columns": "17730",
+    "nnz": "203316",
+    "longest_row": "20",
+    "longest_row_nnz": "153",
+    "ratio": "0.000752523165909",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b5",
+    "rows": "4945",
+    "columns": "3003",
+    "nnz": "29670",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "0.000202224469161",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity20",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_11",
+    "rows": "1364",
+    "columns": "1364",
+    "nnz": "18954",
+    "longest_row": "1298",
+    "longest_row_nnz": "178",
+    "ratio": "0.00939115753931",
+    "status": "ok"
+  },
+  {
+    "dataset": "smallworld",
+    "rows": "100000",
+    "columns": "100000",
+    "nnz": "999996",
+    "longest_row": "89371",
+    "longest_row_nnz": "17",
+    "ratio": "1.70000680003e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr07",
+    "rows": "1612",
+    "columns": "1612",
+    "nnz": "5824",
+    "longest_row": "673",
+    "longest_row_nnz": "13",
+    "ratio": "0.00223214285714",
+    "status": "ok"
+  },
+  {
+    "dataset": "soc-sign-Slashdot090221",
+    "rows": "82144",
+    "columns": "82144",
+    "nnz": "549202",
+    "longest_row": "8896",
+    "longest_row_nnz": "428",
+    "ratio": "0.000779312529816",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity02",
+    "rows": "317",
+    "columns": "317",
+    "nnz": "7327",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.00846185341886",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_12",
+    "rows": "1410",
+    "columns": "1410",
+    "nnz": "19728",
+    "longest_row": "1342",
+    "longest_row_nnz": "184",
+    "ratio": "0.00932684509327",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_6",
+    "rows": "3006",
+    "columns": "3006",
+    "nnz": "37342",
+    "longest_row": "1765",
+    "longest_row_nnz": "2824",
+    "ratio": "0.0756253012693",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_26",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "1138_bus",
+    "rows": "1138",
+    "columns": "1138",
+    "nnz": "4054",
+    "longest_row": "241",
+    "longest_row_nnz": "18",
+    "ratio": "0.00444005920079",
+    "status": "ok"
+  },
+  {
+    "dataset": "gre_216b",
+    "rows": "216",
+    "columns": "216",
+    "nnz": "876",
+    "longest_row": "18",
+    "longest_row_nnz": "5",
+    "ratio": "0.00570776255708",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b7",
+    "rows": "3635",
+    "columns": "4735",
+    "nnz": "29080",
+    "longest_row": "1",
+    "longest_row_nnz": "8",
+    "ratio": "0.000275103163686",
+    "status": "ok"
+  },
+  {
+    "dataset": "mk13-b5",
+    "rows": "135135",
+    "columns": "270270",
+    "nnz": "810810",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "7.40000740001e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch8-8-b1",
+    "rows": "1568",
+    "columns": "64",
+    "nnz": "3136",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.000637755102041",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex36",
+    "rows": "3079",
+    "columns": "3079",
+    "nnz": "53843",
+    "longest_row": "237",
+    "longest_row_nnz": "37",
+    "ratio": "0.000687183106439",
+    "status": "ok"
+  },
+  {
+    "dataset": "WorldCities",
+    "rows": "315",
+    "columns": "100",
+    "nnz": "7518",
+    "longest_row": "163",
+    "longest_row_nnz": "99",
+    "ratio": "0.01316839585",
+    "status": "ok"
+  },
+  {
+    "dataset": "stokes64s",
+    "rows": "12546",
+    "columns": "12546",
+    "nnz": "140034",
+    "longest_row": "67",
+    "longest_row_nnz": "13",
+    "ratio": "9.28345973121e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b39_c19",
+    "rows": "38098",
+    "columns": "38098",
+    "nnz": "684206",
+    "longest_row": "19109",
+    "longest_row_nnz": "32",
+    "ratio": "4.67695401677e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity17",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "usps_norm_5NN",
+    "rows": "11000",
+    "columns": "11000",
+    "nnz": "81112",
+    "longest_row": "6649",
+    "longest_row_nnz": "44",
+    "ratio": "0.00054245980866",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_pilot_ja",
+    "rows": "940",
+    "columns": "2267",
+    "nnz": "14977",
+    "longest_row": "889",
+    "longest_row_nnz": "224",
+    "ratio": "0.014956266275",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_36",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "gams10am",
+    "rows": "114",
+    "columns": "171",
+    "nnz": "407",
+    "longest_row": "109",
+    "longest_row_nnz": "20",
+    "ratio": "0.04914004914",
+    "status": "ok"
+  },
+  {
+    "dataset": "data",
+    "rows": "2851",
+    "columns": "2851",
+    "nnz": "30186",
+    "longest_row": "1205",
+    "longest_row_nnz": "17",
+    "ratio": "0.00056317498178",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b162_c3",
+    "rows": "15374",
+    "columns": "15374",
+    "nnz": "610299",
+    "longest_row": "7900",
+    "longest_row_nnz": "77",
+    "ratio": "0.000126167665357",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr02",
+    "rows": "49",
+    "columns": "49",
+    "nnz": "167",
+    "longest_row": "23",
+    "longest_row_nnz": "7",
+    "ratio": "0.0419161676647",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_standgub",
+    "rows": "361",
+    "columns": "1383",
+    "nnz": "3339",
+    "longest_row": "114",
+    "longest_row_nnz": "745",
+    "ratio": "0.223120694819",
+    "status": "ok"
+  },
+  {
+    "dataset": "fe_ocean",
+    "rows": "143437",
+    "columns": "143437",
+    "nnz": "819186",
+    "longest_row": "8377",
+    "longest_row_nnz": "6",
+    "ratio": "7.32434392189e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "saylr3",
+    "rows": "1000",
+    "columns": "1000",
+    "nnz": "3750",
+    "longest_row": "214",
+    "longest_row_nnz": "7",
+    "ratio": "0.00186666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_15_3",
+    "rows": "105",
+    "columns": "455",
+    "nnz": "1365",
+    "longest_row": "1",
+    "longest_row_nnz": "13",
+    "ratio": "0.00952380952381",
+    "status": "ok"
+  },
+  {
+    "dataset": "c-64b",
+    "rows": "51035",
+    "columns": "51035",
+    "nnz": "717841",
+    "longest_row": "15",
+    "longest_row_nnz": "9474",
+    "ratio": "0.0131979087291",
+    "status": "ok"
+  },
+  {
+    "dataset": "mult_dcop_01",
+    "rows": "25187",
+    "columns": "25187",
+    "nnz": "193276",
+    "longest_row": "24629",
+    "longest_row_nnz": "22767",
+    "ratio": "0.11779527722",
+    "status": "ok"
+  },
+  {
+    "dataset": "ma2010",
+    "rows": "157508",
+    "columns": "157508",
+    "nnz": "776610",
+    "longest_row": "15481",
+    "longest_row_nnz": "67",
+    "ratio": "8.62723889726e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity11",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_8",
+    "rows": "3543",
+    "columns": "3543",
+    "nnz": "38136",
+    "longest_row": "1769",
+    "longest_row_nnz": "1328",
+    "ratio": "0.0348227396686",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b12",
+    "rows": "25605",
+    "columns": "69235",
+    "nnz": "332865",
+    "longest_row": "1",
+    "longest_row_nnz": "13",
+    "ratio": "3.90548720953e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex21",
+    "rows": "656",
+    "columns": "656",
+    "nnz": "19144",
+    "longest_row": "149",
+    "longest_row_nnz": "62",
+    "ratio": "0.00323861262014",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_50",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "S10PI_n",
+    "rows": "682",
+    "columns": "682",
+    "nnz": "1633",
+    "longest_row": "657",
+    "longest_row_nnz": "8",
+    "ratio": "0.00489895897122",
+    "status": "ok"
+  },
+  {
+    "dataset": "rosen7",
+    "rows": "264",
+    "columns": "776",
+    "nnz": "8034",
+    "longest_row": "8",
+    "longest_row_nnz": "490",
+    "ratio": "0.0609907891461",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-8-b3",
+    "rows": "58800",
+    "columns": "11760",
+    "nnz": "235200",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "1.70068027211e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "mhd3200a",
+    "rows": "3200",
+    "columns": "3200",
+    "nnz": "68026",
+    "longest_row": "42",
+    "longest_row_nnz": "33",
+    "ratio": "0.000485108634934",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa03",
+    "rows": "825",
+    "columns": "8627",
+    "nnz": "70806",
+    "longest_row": "747",
+    "longest_row_nnz": "461",
+    "ratio": "0.00651074767675",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity12",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "247",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_vtp_base",
+    "rows": "198",
+    "columns": "346",
+    "nnz": "1051",
+    "longest_row": "1",
+    "longest_row_nnz": "38",
+    "ratio": "0.0361560418649",
+    "status": "ok"
+  },
+  {
+    "dataset": "impcol_e",
+    "rows": "225",
+    "columns": "225",
+    "nnz": "1308",
+    "longest_row": "36",
+    "longest_row_nnz": "12",
+    "ratio": "0.00917431192661",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex40",
+    "rows": "7740",
+    "columns": "7740",
+    "nnz": "458012",
+    "longest_row": "243",
+    "longest_row_nnz": "89",
+    "ratio": "0.000194318052802",
+    "status": "ok"
+  },
+  {
+    "dataset": "robot24c1_mat5",
+    "rows": "404",
+    "columns": "302",
+    "nnz": "15118",
+    "longest_row": "339",
+    "longest_row_nnz": "91",
+    "ratio": "0.00601931472417",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity05",
+    "rows": "1182",
+    "columns": "1182",
+    "nnz": "32747",
+    "longest_row": "172",
+    "longest_row_nnz": "62",
+    "ratio": "0.00189330320335",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity15",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "nmos3",
+    "rows": "18588",
+    "columns": "18588",
+    "nnz": "386594",
+    "longest_row": "3063",
+    "longest_row_nnz": "33",
+    "ratio": "8.53608695427e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex9",
+    "rows": "3363",
+    "columns": "3363",
+    "nnz": "99471",
+    "longest_row": "146",
+    "longest_row_nnz": "50",
+    "ratio": "0.000502659066462",
+    "status": "ok"
+  },
+  {
+    "dataset": "rosen1",
+    "rows": "520",
+    "columns": "1544",
+    "nnz": "23794",
+    "longest_row": "2",
+    "longest_row_nnz": "976",
+    "ratio": "0.0410187442212",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz8",
+    "rows": "16728",
+    "columns": "7176",
+    "nnz": "100368",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "5.97800095648e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_19",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ken_13",
+    "rows": "28632",
+    "columns": "42659",
+    "nnz": "97246",
+    "longest_row": "28562",
+    "longest_row_nnz": "170",
+    "ratio": "0.00174814388252",
+    "status": "ok"
+  },
+  {
+    "dataset": "model7",
+    "rows": "3358",
+    "columns": "9582",
+    "nnz": "51027",
+    "longest_row": "177",
+    "longest_row_nnz": "253",
+    "ratio": "0.0049581594058",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_06",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5860",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061433447099",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex29",
+    "rows": "2870",
+    "columns": "2870",
+    "nnz": "23754",
+    "longest_row": "85",
+    "longest_row_nnz": "9",
+    "ratio": "0.000378883556454",
+    "status": "ok"
+  },
+  {
+    "dataset": "gas11",
+    "rows": "459",
+    "columns": "862",
+    "nnz": "2166",
+    "longest_row": "9",
+    "longest_row_nnz": "11",
+    "ratio": "0.0050784856879",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_81_3",
+    "rows": "3240",
+    "columns": "85320",
+    "nnz": "255960",
+    "longest_row": "1",
+    "longest_row_nnz": "79",
+    "ratio": "0.000308641975309",
+    "status": "ok"
+  },
+  {
+    "dataset": "soc-Slashdot0902",
+    "rows": "82168",
+    "columns": "82168",
+    "nnz": "948464",
+    "longest_row": "2495",
+    "longest_row_nnz": "2511",
+    "ratio": "0.00264743838459",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex25",
+    "rows": "848",
+    "columns": "848",
+    "nnz": "24612",
+    "longest_row": "171",
+    "longest_row_nnz": "62",
+    "ratio": "0.00251909637575",
+    "status": "ok"
+  },
+  {
+    "dataset": "crystk01",
+    "rows": "4875",
+    "columns": "4875",
+    "nnz": "315891",
+    "longest_row": "238",
+    "longest_row_nnz": "81",
+    "ratio": "0.000256417561754",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp22",
+    "rows": "2958",
+    "columns": "16392",
+    "nnz": "68518",
+    "longest_row": "2882",
+    "longest_row_nnz": "82",
+    "ratio": "0.00119676581336",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_7",
+    "rows": "475",
+    "columns": "475",
+    "nnz": "4597",
+    "longest_row": "283",
+    "longest_row_nnz": "471",
+    "ratio": "0.102458124864",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity21",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "M10PI_n1",
+    "rows": "528",
+    "columns": "528",
+    "nnz": "1317",
+    "longest_row": "513",
+    "longest_row_nnz": "8",
+    "ratio": "0.00607441154138",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_10",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5884",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00611828687967",
+    "status": "ok"
+  },
+  {
+    "dataset": "grid1",
+    "rows": "252",
+    "columns": "252",
+    "nnz": "952",
+    "longest_row": "13",
+    "longest_row_nnz": "4",
+    "ratio": "0.00420168067227",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n14",
+    "rows": "16384",
+    "columns": "16384",
+    "nnz": "98244",
+    "longest_row": "7888",
+    "longest_row_nnz": "16",
+    "ratio": "0.000162859818411",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian7",
+    "rows": "95",
+    "columns": "95",
+    "nnz": "1510",
+    "longest_row": "95",
+    "longest_row_nnz": "47",
+    "ratio": "0.0311258278146",
+    "status": "ok"
+  },
+  {
+    "dataset": "soc-sign-Slashdot090216",
+    "rows": "81871",
+    "columns": "81871",
+    "nnz": "545671",
+    "longest_row": "8898",
+    "longest_row_nnz": "428",
+    "ratio": "0.000784355408295",
+    "status": "ok"
+  },
+  {
+    "dataset": "bodyy5",
+    "rows": "18589",
+    "columns": "18589",
+    "nnz": "129281",
+    "longest_row": "623",
+    "longest_row_nnz": "9",
+    "ratio": "6.96157981451e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_24",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "mesh_deform",
+    "rows": "234023",
+    "columns": "9393",
+    "nnz": "853829",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "4.68477880231e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "TSOPF_RS_b162_c1",
+    "rows": "5374",
+    "columns": "5374",
+    "nnz": "205399",
+    "longest_row": "2900",
+    "longest_row_nnz": "77",
+    "ratio": "0.000374880111393",
+    "status": "ok"
+  },
+  {
+    "dataset": "poli4",
+    "rows": "33833",
+    "columns": "33833",
+    "nnz": "73249",
+    "longest_row": "531",
+    "longest_row_nnz": "304",
+    "ratio": "0.00415022730686",
+    "status": "ok"
+  },
+  {
+    "dataset": "rw5151",
+    "rows": "5151",
+    "columns": "5151",
+    "nnz": "20199",
+    "longest_row": "103",
+    "longest_row_nnz": "4",
+    "ratio": "0.000198029605426",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity23",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz10",
+    "rows": "19588",
+    "columns": "4164",
+    "nnz": "97508",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "5.12778438692e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_4",
+    "rows": "1964",
+    "columns": "1034",
+    "nnz": "26719",
+    "longest_row": "74",
+    "longest_row_nnz": "586",
+    "ratio": "0.0219319585314",
+    "status": "ok"
+  },
+  {
+    "dataset": "M10PI_n",
+    "rows": "682",
+    "columns": "682",
+    "nnz": "1633",
+    "longest_row": "657",
+    "longest_row_nnz": "8",
+    "ratio": "0.00489895897122",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex8",
+    "rows": "3096",
+    "columns": "3096",
+    "nnz": "106344",
+    "longest_row": "213",
+    "longest_row_nnz": "75",
+    "ratio": "0.00070525840668",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-9-b3",
+    "rows": "105840",
+    "columns": "17640",
+    "nnz": "423360",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "9.44822373394e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "bloweybq",
+    "rows": "10001",
+    "columns": "10001",
+    "nnz": "69991",
+    "longest_row": "1",
+    "longest_row_nnz": "10001",
+    "ratio": "0.142889800117",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac120",
+    "rows": "54929",
+    "columns": "54929",
+    "nnz": "342475",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000128476531134",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b3",
+    "rows": "5970",
+    "columns": "1330",
+    "nnz": "23880",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.000167504187605",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-8-b4",
+    "rows": "141120",
+    "columns": "58800",
+    "nnz": "705600",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "7.08616780045e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "model10",
+    "rows": "4400",
+    "columns": "16819",
+    "nnz": "150372",
+    "longest_row": "456",
+    "longest_row_nnz": "537",
+    "ratio": "0.00357114356396",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d12",
+    "rows": "8899",
+    "columns": "1019",
+    "nnz": "37519",
+    "longest_row": "5118",
+    "longest_row_nnz": "13",
+    "ratio": "0.00034649111117",
+    "status": "ok"
+  },
+  {
+    "dataset": "rat",
+    "rows": "3136",
+    "columns": "9408",
+    "nnz": "268908",
+    "longest_row": "286",
+    "longest_row_nnz": "90",
+    "ratio": "0.000334686956134",
+    "status": "ok"
+  },
+  {
+    "dataset": "M40PI_n",
+    "rows": "2182",
+    "columns": "2182",
+    "nnz": "5341",
+    "longest_row": "2149",
+    "longest_row_nnz": "12",
+    "ratio": "0.00224677026774",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa3",
+    "rows": "825",
+    "columns": "8627",
+    "nnz": "70806",
+    "longest_row": "747",
+    "longest_row_nnz": "461",
+    "ratio": "0.00651074767675",
+    "status": "ok"
+  },
+  {
+    "dataset": "jan99jac100sc",
+    "rows": "34454",
+    "columns": "34454",
+    "nnz": "215862",
+    "longest_row": "2810",
+    "longest_row_nnz": "68",
+    "ratio": "0.000315016075085",
+    "status": "ok"
+  },
+  {
+    "dataset": "HFE18_96_in",
+    "rows": "2372",
+    "columns": "4096",
+    "nnz": "933343",
+    "longest_row": "2351",
+    "longest_row_nnz": "1201",
+    "ratio": "0.001286772387",
+    "status": "ok"
+  },
+  {
+    "dataset": "tomography",
+    "rows": "500",
+    "columns": "500",
+    "nnz": "28726",
+    "longest_row": "406",
+    "longest_row_nnz": "335",
+    "ratio": "0.0116619090719",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac140",
+    "rows": "64089",
+    "columns": "64089",
+    "nnz": "399735",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000110072923312",
+    "status": "ok"
+  },
+  {
+    "dataset": "ca-CondMat",
+    "rows": "23133",
+    "columns": "23133",
+    "nnz": "186936",
+    "longest_row": "15756",
+    "longest_row_nnz": "280",
+    "ratio": "0.00149783883254",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_6",
+    "rows": "21255",
+    "columns": "10152",
+    "nnz": "537694",
+    "longest_row": "1209",
+    "longest_row_nnz": "5941",
+    "ratio": "0.0110490353249",
+    "status": "ok"
+  },
+  {
+    "dataset": "lpi_bgdbg1",
+    "rows": "348",
+    "columns": "629",
+    "nnz": "1662",
+    "longest_row": "306",
+    "longest_row_nnz": "29",
+    "ratio": "0.017448856799",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_2",
+    "rows": "1591",
+    "columns": "1591",
+    "nnz": "15588",
+    "longest_row": "793",
+    "longest_row_nnz": "596",
+    "ratio": "0.0382345393893",
+    "status": "ok"
+  },
+  {
+    "dataset": "GD99_b",
+    "rows": "64",
+    "columns": "64",
+    "nnz": "252",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.015873015873",
+    "status": "ok"
+  },
+  {
+    "dataset": "df2177",
+    "rows": "630",
+    "columns": "10358",
+    "nnz": "22336",
+    "longest_row": "2",
+    "longest_row_nnz": "38",
+    "ratio": "0.00170128939828",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_81_2",
+    "rows": "3240",
+    "columns": "3240",
+    "nnz": "3240",
+    "longest_row": "1",
+    "longest_row_nnz": "1",
+    "ratio": "0.000308641975309",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity10",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "247",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "email-Eu-core",
+    "rows": "1005",
+    "columns": "1005",
+    "nnz": "25571",
+    "longest_row": "161",
+    "longest_row_nnz": "334",
+    "ratio": "0.0130616714247",
+    "status": "ok"
+  },
+  {
+    "dataset": "d_dyn1",
+    "rows": "87",
+    "columns": "87",
+    "nnz": "238",
+    "longest_row": "7",
+    "longest_row_nnz": "8",
+    "ratio": "0.0336134453782",
+    "status": "ok"
+  },
+  {
+    "dataset": "model6",
+    "rows": "2096",
+    "columns": "5289",
+    "nnz": "27628",
+    "longest_row": "1335",
+    "longest_row_nnz": "274",
+    "ratio": "0.00991747502534",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b2",
+    "rows": "1330",
+    "columns": "210",
+    "nnz": "3990",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.000751879699248",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b2",
+    "rows": "455",
+    "columns": "105",
+    "nnz": "1365",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.0021978021978",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_1",
+    "rows": "647",
+    "columns": "647",
+    "nnz": "5367",
+    "longest_row": "321",
+    "longest_row_nnz": "242",
+    "ratio": "0.0450903670579",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_sctap2",
+    "rows": "1090",
+    "columns": "2500",
+    "nnz": "7334",
+    "longest_row": "111",
+    "longest_row_nnz": "25",
+    "ratio": "0.00340878101991",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_10",
+    "rows": "1272",
+    "columns": "1272",
+    "nnz": "17478",
+    "longest_row": "1210",
+    "longest_row_nnz": "166",
+    "ratio": "0.00949765419384",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac060sc",
+    "rows": "27449",
+    "columns": "27449",
+    "nnz": "170695",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000257769706201",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity16",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "juba40k",
+    "rows": "40337",
+    "columns": "40337",
+    "nnz": "144945",
+    "longest_row": "20012",
+    "longest_row_nnz": "34",
+    "ratio": "0.000234571734106",
+    "status": "ok"
+  },
+  {
+    "dataset": "struct4",
+    "rows": "4350",
+    "columns": "4350",
+    "nnz": "237798",
+    "longest_row": "542",
+    "longest_row_nnz": "90",
+    "ratio": "0.00037847248505",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_sctap1",
+    "rows": "300",
+    "columns": "660",
+    "nnz": "1872",
+    "longest_row": "32",
+    "longest_row_nnz": "23",
+    "ratio": "0.0122863247863",
+    "status": "ok"
+  },
+  {
+    "dataset": "trans4",
+    "rows": "116835",
+    "columns": "116835",
+    "nnz": "766396",
+    "longest_row": "90",
+    "longest_row_nnz": "114190",
+    "ratio": "0.148996080355",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity07",
+    "rows": "1182",
+    "columns": "1182",
+    "nnz": "32747",
+    "longest_row": "172",
+    "longest_row_nnz": "62",
+    "ratio": "0.00189330320335",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_2",
+    "rows": "329",
+    "columns": "329",
+    "nnz": "5817",
+    "longest_row": "308",
+    "longest_row_nnz": "43",
+    "ratio": "0.0073921265257",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b3",
+    "rows": "1365",
+    "columns": "455",
+    "nnz": "5460",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "0.000732600732601",
+    "status": "ok"
+  },
+  {
+    "dataset": "S80PI_n1",
+    "rows": "4028",
+    "columns": "4028",
+    "nnz": "9927",
+    "longest_row": "4013",
+    "longest_row_nnz": "8",
+    "ratio": "0.000805882945502",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_43",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "ASIC_100ks",
+    "rows": "99190",
+    "columns": "99190",
+    "nnz": "578890",
+    "longest_row": "35118",
+    "longest_row_nnz": "206",
+    "ratio": "0.000355853443659",
+    "status": "ok"
+  },
+  {
+    "dataset": "dynamicSoaringProblem_5",
+    "rows": "3271",
+    "columns": "3271",
+    "nnz": "36789",
+    "longest_row": "1633",
+    "longest_row_nnz": "1226",
+    "ratio": "0.0333251787219",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_13",
+    "rows": "1617",
+    "columns": "1617",
+    "nnz": "23649",
+    "longest_row": "1540",
+    "longest_row_nnz": "211",
+    "ratio": "0.00892215315658",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b8",
+    "rows": "1895",
+    "columns": "3635",
+    "nnz": "17055",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.000527704485488",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz3",
+    "rows": "1280",
+    "columns": "2800",
+    "nnz": "11520",
+    "longest_row": "1",
+    "longest_row_nnz": "9",
+    "ratio": "0.00078125",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_scorpion",
+    "rows": "388",
+    "columns": "466",
+    "nnz": "1534",
+    "longest_row": "301",
+    "longest_row_nnz": "21",
+    "ratio": "0.0136897001304",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b5",
+    "rows": "4340",
+    "columns": "2852",
+    "nnz": "26040",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "0.000230414746544",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac040",
+    "rows": "18289",
+    "columns": "18289",
+    "nnz": "113435",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.00038788733636",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_40",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "hcircuit",
+    "rows": "105676",
+    "columns": "105676",
+    "nnz": "513072",
+    "longest_row": "9",
+    "longest_row_nnz": "1399",
+    "ratio": "0.00272671282003",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n11",
+    "rows": "2048",
+    "columns": "2048",
+    "nnz": "12254",
+    "longest_row": "984",
+    "longest_row_nnz": "13",
+    "ratio": "0.00106087808063",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity22",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b9",
+    "rows": "630",
+    "columns": "1895",
+    "nnz": "6300",
+    "longest_row": "1",
+    "longest_row_nnz": "10",
+    "ratio": "0.0015873015873",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity19",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "poli",
+    "rows": "4008",
+    "columns": "4008",
+    "nnz": "8188",
+    "longest_row": "143",
+    "longest_row_nnz": "63",
+    "ratio": "0.00769418661456",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b2",
+    "rows": "455",
+    "columns": "105",
+    "nnz": "1365",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.0021978021978",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac080sc",
+    "rows": "23670",
+    "columns": "23670",
+    "nnz": "293976",
+    "longest_row": "20",
+    "longest_row_nnz": "153",
+    "ratio": "0.000520450649033",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX3",
+    "rows": "2600",
+    "columns": "2600",
+    "nnz": "71760",
+    "longest_row": "196",
+    "longest_row_nnz": "30",
+    "ratio": "0.000418060200669",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_3_4",
+    "rows": "5226",
+    "columns": "13271",
+    "nnz": "39592",
+    "longest_row": "2494",
+    "longest_row_nnz": "16",
+    "ratio": "0.000404122044858",
+    "status": "ok"
+  },
+  {
+    "dataset": "494_bus",
+    "rows": "494",
+    "columns": "494",
+    "nnz": "1666",
+    "longest_row": "457",
+    "longest_row_nnz": "10",
+    "ratio": "0.00600240096038",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch8-8-b3",
+    "rows": "117600",
+    "columns": "18816",
+    "nnz": "470400",
+    "longest_row": "1",
+    "longest_row_nnz": "4",
+    "ratio": "8.50340136054e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "t2dal_e",
+    "rows": "4257",
+    "columns": "4257",
+    "nnz": "4257",
+    "longest_row": "1",
+    "longest_row_nnz": "1",
+    "ratio": "0.000234907211651",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b2",
+    "rows": "1330",
+    "columns": "210",
+    "nnz": "3990",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.000751879699248",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_41",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity26",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec10",
+    "rows": "106",
+    "columns": "478",
+    "nnz": "8612",
+    "longest_row": "56",
+    "longest_row_nnz": "134",
+    "ratio": "0.0155596841616",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n10",
+    "rows": "1024",
+    "columns": "1024",
+    "nnz": "6112",
+    "longest_row": "561",
+    "longest_row_nnz": "12",
+    "ratio": "0.00196335078534",
+    "status": "ok"
+  },
+  {
+    "dataset": "cegb3306",
+    "rows": "3306",
+    "columns": "3306",
+    "nnz": "74916",
+    "longest_row": "571",
+    "longest_row_nnz": "54",
+    "ratio": "0.000720807304181",
+    "status": "ok"
+  },
+  {
+    "dataset": "saylr1",
+    "rows": "238",
+    "columns": "238",
+    "nnz": "1128",
+    "longest_row": "16",
+    "longest_row_nnz": "5",
+    "ratio": "0.00443262411348",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac020",
+    "rows": "9129",
+    "columns": "9129",
+    "nnz": "56175",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000783266577659",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian4",
+    "rows": "11",
+    "columns": "11",
+    "nnz": "40",
+    "longest_row": "11",
+    "longest_row_nnz": "5",
+    "ratio": "0.125",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_14_7",
+    "rows": "91",
+    "columns": "3432",
+    "nnz": "72072",
+    "longest_row": "1",
+    "longest_row_nnz": "792",
+    "ratio": "0.010989010989",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex14",
+    "rows": "3251",
+    "columns": "3251",
+    "nnz": "66775",
+    "longest_row": "154",
+    "longest_row_nnz": "37",
+    "ratio": "0.000554099588169",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_11_5",
+    "rows": "55",
+    "columns": "462",
+    "nnz": "4620",
+    "longest_row": "1",
+    "longest_row_nnz": "84",
+    "ratio": "0.0181818181818",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa5",
+    "rows": "801",
+    "columns": "8308",
+    "nnz": "65953",
+    "longest_row": "714",
+    "longest_row_nnz": "354",
+    "ratio": "0.00536745864479",
+    "status": "ok"
+  },
+  {
+    "dataset": "176bit",
+    "rows": "7441",
+    "columns": "7431",
+    "nnz": "82270",
+    "longest_row": "1581",
+    "longest_row_nnz": "16",
+    "ratio": "0.000194481585025",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX4",
+    "rows": "2600",
+    "columns": "2600",
+    "nnz": "71760",
+    "longest_row": "196",
+    "longest_row_nnz": "30",
+    "ratio": "0.000418060200669",
+    "status": "ok"
+  },
+  {
+    "dataset": "ted_A_unscaled",
+    "rows": "10605",
+    "columns": "10605",
+    "nnz": "424587",
+    "longest_row": "4319",
+    "longest_row_nnz": "147",
+    "ratio": "0.000346218796148",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_4",
+    "rows": "2717",
+    "columns": "2717",
+    "nnz": "33630",
+    "longest_row": "1595",
+    "longest_row_nnz": "2552",
+    "ratio": "0.0758846268213",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex22",
+    "rows": "839",
+    "columns": "839",
+    "nnz": "22715",
+    "longest_row": "250",
+    "longest_row_nnz": "62",
+    "ratio": "0.00272947391591",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec11",
+    "rows": "235",
+    "columns": "1138",
+    "nnz": "35705",
+    "longest_row": "172",
+    "longest_row_nnz": "274",
+    "ratio": "0.00767399523876",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b4",
+    "rows": "20058",
+    "columns": "5970",
+    "nnz": "100290",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "4.98554192841e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "car4",
+    "rows": "16384",
+    "columns": "33052",
+    "nnz": "63724",
+    "longest_row": "7743",
+    "longest_row_nnz": "111",
+    "ratio": "0.0017418868872",
+    "status": "ok"
+  },
+  {
+    "dataset": "fome13",
+    "rows": "48568",
+    "columns": "97840",
+    "nnz": "285056",
+    "longest_row": "1854",
+    "longest_row_nnz": "228",
+    "ratio": "0.000799842837899",
+    "status": "ok"
+  },
+  {
+    "dataset": "aa4",
+    "rows": "426",
+    "columns": "7195",
+    "nnz": "52121",
+    "longest_row": "207",
+    "longest_row_nnz": "404",
+    "ratio": "0.00775119433626",
+    "status": "ok"
+  },
+  {
+    "dataset": "jazz",
+    "rows": "198",
+    "columns": "198",
+    "nnz": "5484",
+    "longest_row": "136",
+    "longest_row_nnz": "100",
+    "ratio": "0.018234865062",
+    "status": "ok"
+  },
+  {
+    "dataset": "3elt",
+    "rows": "4720",
+    "columns": "4720",
+    "nnz": "27444",
+    "longest_row": "377",
+    "longest_row_nnz": "9",
+    "ratio": "0.00032794053345",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b13",
+    "rows": "6300",
+    "columns": "25605",
+    "nnz": "88200",
+    "longest_row": "1",
+    "longest_row_nnz": "14",
+    "ratio": "0.00015873015873",
+    "status": "ok"
+  },
+  {
+    "dataset": "zeros_nopss_13k",
+    "rows": "13296",
+    "columns": "13296",
+    "nnz": "48827",
+    "longest_row": "12823",
+    "longest_row_nnz": "32",
+    "ratio": "0.000655375099842",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_16",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz20468",
+    "rows": "20468",
+    "columns": "20468",
+    "nnz": "206076",
+    "longest_row": "3797",
+    "longest_row_nnz": "27",
+    "ratio": "0.000131019623828",
+    "status": "ok"
+  },
+  {
+    "dataset": "astro-ph",
+    "rows": "16706",
+    "columns": "16706",
+    "nnz": "242502",
+    "longest_row": "5503",
+    "longest_row_nnz": "360",
+    "ratio": "0.00148452383898",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_5",
+    "rows": "460",
+    "columns": "460",
+    "nnz": "4690",
+    "longest_row": "274",
+    "longest_row_nnz": "456",
+    "ratio": "0.0972281449893",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n16",
+    "rows": "65536",
+    "columns": "65536",
+    "nnz": "393150",
+    "longest_row": "27895",
+    "longest_row_nnz": "17",
+    "ratio": "4.32404934503e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "jendrec1",
+    "rows": "2109",
+    "columns": "4228",
+    "nnz": "89608",
+    "longest_row": "31",
+    "longest_row_nnz": "53",
+    "ratio": "0.000591465047764",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_17_3",
+    "rows": "136",
+    "columns": "680",
+    "nnz": "2040",
+    "longest_row": "1",
+    "longest_row_nnz": "15",
+    "ratio": "0.00735294117647",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex13",
+    "rows": "2568",
+    "columns": "2568",
+    "nnz": "75628",
+    "longest_row": "83",
+    "longest_row_nnz": "50",
+    "ratio": "0.000661130798117",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac060",
+    "rows": "27449",
+    "columns": "27449",
+    "nnz": "170695",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000257769706201",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex33",
+    "rows": "1733",
+    "columns": "1733",
+    "nnz": "22189",
+    "longest_row": "86",
+    "longest_row_nnz": "18",
+    "ratio": "0.000811212763081",
+    "status": "ok"
+  },
+  {
+    "dataset": "klein-b2",
+    "rows": "20",
+    "columns": "30",
+    "nnz": "60",
+    "longest_row": "1",
+    "longest_row_nnz": "3",
+    "ratio": "0.05",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex35",
+    "rows": "19716",
+    "columns": "19716",
+    "nnz": "228208",
+    "longest_row": "180",
+    "longest_row_nnz": "18",
+    "ratio": "7.88754119049e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_7",
+    "rows": "3057",
+    "columns": "3057",
+    "nnz": "37150",
+    "longest_row": "1795",
+    "longest_row_nnz": "2872",
+    "ratio": "0.0773082099596",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b15",
+    "rows": "60",
+    "columns": "920",
+    "nnz": "960",
+    "longest_row": "1",
+    "longest_row_nnz": "16",
+    "ratio": "0.0166666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "rosen2",
+    "rows": "1032",
+    "columns": "3080",
+    "nnz": "47536",
+    "longest_row": "6",
+    "longest_row_nnz": "1947",
+    "ratio": "0.0409584315045",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch",
+    "rows": "3700",
+    "columns": "8291",
+    "nnz": "24102",
+    "longest_row": "12",
+    "longest_row_nnz": "75",
+    "ratio": "0.00311177495644",
+    "status": "ok"
+  },
+  {
+    "dataset": "Reuters911",
+    "rows": "13332",
+    "columns": "13332",
+    "nnz": "296076",
+    "longest_row": "12502",
+    "longest_row_nnz": "2265",
+    "ratio": "0.00765006282171",
+    "status": "ok"
+  },
+  {
+    "dataset": "onetone2",
+    "rows": "36057",
+    "columns": "36057",
+    "nnz": "227628",
+    "longest_row": "4239",
+    "longest_row_nnz": "33",
+    "ratio": "0.000144973377616",
+    "status": "ok"
+  },
+  {
+    "dataset": "aug2dc",
+    "rows": "30200",
+    "columns": "30200",
+    "nnz": "80000",
+    "longest_row": "20201",
+    "longest_row_nnz": "4",
+    "ratio": "5e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "Oregon-2",
+    "rows": "11806",
+    "columns": "11806",
+    "nnz": "65460",
+    "longest_row": "197",
+    "longest_row_nnz": "2432",
+    "ratio": "0.0371524595173",
+    "status": "ok"
+  },
+  {
+    "dataset": "Oregon-1",
+    "rows": "11492",
+    "columns": "11492",
+    "nnz": "46818",
+    "longest_row": "194",
+    "longest_row_nnz": "2389",
+    "ratio": "0.0510273826306",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_2",
+    "rows": "305",
+    "columns": "305",
+    "nnz": "2699",
+    "longest_row": "181",
+    "longest_row_nnz": "301",
+    "ratio": "0.111522786217",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr10",
+    "rows": "5300",
+    "columns": "5300",
+    "nnz": "21842",
+    "longest_row": "4892",
+    "longest_row_nnz": "14",
+    "ratio": "0.000640966944419",
+    "status": "ok"
+  },
+  {
+    "dataset": "mark3jac100",
+    "rows": "45769",
+    "columns": "45769",
+    "nnz": "285215",
+    "longest_row": "424",
+    "longest_row_nnz": "44",
+    "ratio": "0.000154269586102",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_8",
+    "rows": "8052",
+    "columns": "8052",
+    "nnz": "85194",
+    "longest_row": "2714",
+    "longest_row_nnz": "2720",
+    "ratio": "0.0319271310186",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_2_4",
+    "rows": "1009",
+    "columns": "2689",
+    "nnz": "7982",
+    "longest_row": "640",
+    "longest_row_nnz": "15",
+    "ratio": "0.00187922826359",
+    "status": "ok"
+  },
+  {
+    "dataset": "g7jac020sc",
+    "rows": "5850",
+    "columns": "5850",
+    "nnz": "45465",
+    "longest_row": "14",
+    "longest_row_nnz": "60",
+    "ratio": "0.00131969646981",
+    "status": "ok"
+  },
+  {
+    "dataset": "Baumann",
+    "rows": "112211",
+    "columns": "112211",
+    "nnz": "760631",
+    "longest_row": "1124",
+    "longest_row_nnz": "7",
+    "ratio": "9.20288549901e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_2_1",
+    "rows": "85",
+    "columns": "85",
+    "nnz": "254",
+    "longest_row": "4",
+    "longest_row_nnz": "5",
+    "ratio": "0.0196850393701",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_51",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "cz2548",
+    "rows": "2548",
+    "columns": "2548",
+    "nnz": "25674",
+    "longest_row": "504",
+    "longest_row_nnz": "27",
+    "ratio": "0.00105164758121",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex3",
+    "rows": "1821",
+    "columns": "1821",
+    "nnz": "52685",
+    "longest_row": "400",
+    "longest_row_nnz": "62",
+    "ratio": "0.00117680554237",
+    "status": "ok"
+  },
+  {
+    "dataset": "poli3",
+    "rows": "16955",
+    "columns": "16955",
+    "nnz": "37849",
+    "longest_row": "7781",
+    "longest_row_nnz": "336",
+    "ratio": "0.00887738117255",
+    "status": "ok"
+  },
+  {
+    "dataset": "hor_131",
+    "rows": "434",
+    "columns": "434",
+    "nnz": "4710",
+    "longest_row": "434",
+    "longest_row_nnz": "41",
+    "ratio": "0.00870488322718",
+    "status": "ok"
+  },
+  {
+    "dataset": "ri2010",
+    "rows": "25181",
+    "columns": "25181",
+    "nnz": "125750",
+    "longest_row": "2704",
+    "longest_row_nnz": "44",
+    "ratio": "0.000349900596421",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_28",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ken_07",
+    "rows": "2426",
+    "columns": "3602",
+    "nnz": "8404",
+    "longest_row": "2402",
+    "longest_row_nnz": "50",
+    "ratio": "0.00594954783436",
+    "status": "ok"
+  },
+  {
+    "dataset": "l9",
+    "rows": "244",
+    "columns": "1483",
+    "nnz": "4659",
+    "longest_row": "15",
+    "longest_row_nnz": "22",
+    "ratio": "0.00472204335694",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex12",
+    "rows": "3973",
+    "columns": "3973",
+    "nnz": "80211",
+    "longest_row": "97",
+    "longest_row_nnz": "37",
+    "ratio": "0.000461283365124",
+    "status": "ok"
+  },
+  {
+    "dataset": "baxter",
+    "rows": "27441",
+    "columns": "30733",
+    "nnz": "111576",
+    "longest_row": "1436",
+    "longest_row_nnz": "2951",
+    "ratio": "0.0264483401448",
+    "status": "ok"
+  },
+  {
+    "dataset": "EX1",
+    "rows": "560",
+    "columns": "560",
+    "nnz": "8736",
+    "longest_row": "36",
+    "longest_row_nnz": "18",
+    "ratio": "0.00206043956044",
+    "status": "ok"
+  },
+  {
+    "dataset": "fome20",
+    "rows": "33874",
+    "columns": "108175",
+    "nnz": "232647",
+    "longest_row": "2857",
+    "longest_row_nnz": "96",
+    "ratio": "0.000412642329366",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_49_3",
+    "rows": "1176",
+    "columns": "18424",
+    "nnz": "55272",
+    "longest_row": "1",
+    "longest_row_nnz": "47",
+    "ratio": "0.000850340136054",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_trans_01",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "7382",
+    "longest_row": "1153",
+    "longest_row_nnz": "50",
+    "ratio": "0.0067732321864",
+    "status": "ok"
+  },
+  {
+    "dataset": "nasa4704",
+    "rows": "4704",
+    "columns": "4704",
+    "nnz": "104756",
+    "longest_row": "216",
+    "longest_row_nnz": "42",
+    "ratio": "0.000400931688877",
+    "status": "ok"
+  },
+  {
+    "dataset": "cegb2919",
+    "rows": "2919",
+    "columns": "2919",
+    "nnz": "321543",
+    "longest_row": "1252",
+    "longest_row_nnz": "267",
+    "ratio": "0.000830371054571",
+    "status": "ok"
+  },
+  {
+    "dataset": "fome21",
+    "rows": "67748",
+    "columns": "216350",
+    "nnz": "465294",
+    "longest_row": "2857",
+    "longest_row_nnz": "96",
+    "ratio": "0.000206321164683",
+    "status": "ok"
+  },
+  {
+    "dataset": "Franz6",
+    "rows": "7576",
+    "columns": "3016",
+    "nnz": "45456",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "0.000131995776135",
+    "status": "ok"
+  },
+  {
+    "dataset": "Maragal_5",
+    "rows": "4654",
+    "columns": "3320",
+    "nnz": "93091",
+    "longest_row": "126",
+    "longest_row_nnz": "1491",
+    "ratio": "0.0160165859213",
+    "status": "ok"
+  },
+  {
+    "dataset": "bibd_17_4",
+    "rows": "136",
+    "columns": "2380",
+    "nnz": "14280",
+    "longest_row": "1",
+    "longest_row_nnz": "105",
+    "ratio": "0.00735294117647",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_04",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5884",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00611828687967",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c6-b1",
+    "rows": "210",
+    "columns": "21",
+    "nnz": "420",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.0047619047619",
+    "status": "ok"
+  },
+  {
+    "dataset": "n4c5-b10",
+    "rows": "120",
+    "columns": "630",
+    "nnz": "1320",
+    "longest_row": "1",
+    "longest_row_nnz": "11",
+    "ratio": "0.00833333333333",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b7",
+    "rows": "3990",
+    "columns": "5715",
+    "nnz": "31920",
+    "longest_row": "1",
+    "longest_row_nnz": "8",
+    "ratio": "0.000250626566416",
+    "status": "ok"
+  },
+  {
+    "dataset": "Si2",
+    "rows": "769",
+    "columns": "769",
+    "nnz": "17801",
+    "longest_row": "408",
+    "longest_row_nnz": "61",
+    "ratio": "0.00342677377675",
+    "status": "ok"
+  },
+  {
+    "dataset": "bcspwr05",
+    "rows": "443",
+    "columns": "443",
+    "nnz": "1623",
+    "longest_row": "177",
+    "longest_row_nnz": "10",
+    "ratio": "0.00616142945163",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_d2q06c",
+    "rows": "2171",
+    "columns": "5831",
+    "nnz": "33081",
+    "longest_row": "1343",
+    "longest_row_nnz": "144",
+    "ratio": "0.00435295184547",
+    "status": "ok"
+  },
+  {
+    "dataset": "mycielskian9",
+    "rows": "383",
+    "columns": "383",
+    "nnz": "14542",
+    "longest_row": "383",
+    "longest_row_nnz": "191",
+    "ratio": "0.0131343694127",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_35",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "aft01",
+    "rows": "8205",
+    "columns": "8205",
+    "nnz": "125567",
+    "longest_row": "65",
+    "longest_row_nnz": "21",
+    "ratio": "0.000167241393041",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_32",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n12",
+    "rows": "4096",
+    "columns": "4096",
+    "nnz": "24528",
+    "longest_row": "1967",
+    "longest_row_nnz": "14",
+    "ratio": "0.000570776255708",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity04",
+    "rows": "317",
+    "columns": "317",
+    "nnz": "7327",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.00846185341886",
+    "status": "ok"
+  },
+  {
+    "dataset": "graphics",
+    "rows": "29493",
+    "columns": "11822",
+    "nnz": "117954",
+    "longest_row": "7",
+    "longest_row_nnz": "4",
+    "ratio": "3.39115248317e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_05",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5852",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.00615174299385",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_ganges",
+    "rows": "1309",
+    "columns": "1706",
+    "nnz": "6937",
+    "longest_row": "1298",
+    "longest_row_nnz": "84",
+    "ratio": "0.0121089808274",
+    "status": "ok"
+  },
+  {
+    "dataset": "indianpines_10NN",
+    "rows": "9144",
+    "columns": "9144",
+    "nnz": "124656",
+    "longest_row": "6953",
+    "longest_row_nnz": "63",
+    "ratio": "0.00050539083558",
+    "status": "ok"
+  },
+  {
+    "dataset": "f855_mat9",
+    "rows": "2456",
+    "columns": "2511",
+    "nnz": "171214",
+    "longest_row": "2155",
+    "longest_row_nnz": "188",
+    "ratio": "0.00109804104805",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n17",
+    "rows": "131072",
+    "columns": "131072",
+    "nnz": "786352",
+    "longest_row": "38890",
+    "longest_row_nnz": "17",
+    "ratio": "2.16188170183e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity13",
+    "rows": "2597",
+    "columns": "2597",
+    "nnz": "76367",
+    "longest_row": "5",
+    "longest_row_nnz": "62",
+    "ratio": "0.000811869001008",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b6",
+    "rows": "5715",
+    "columns": "4945",
+    "nnz": "40005",
+    "longest_row": "1",
+    "longest_row_nnz": "7",
+    "ratio": "0.000174978127734",
+    "status": "ok"
+  },
+  {
+    "dataset": "dw8192",
+    "rows": "8192",
+    "columns": "8192",
+    "nnz": "41746",
+    "longest_row": "223",
+    "longest_row_nnz": "8",
+    "ratio": "0.000191635126719",
+    "status": "ok"
+  },
+  {
+    "dataset": "cavity18",
+    "rows": "4562",
+    "columns": "4562",
+    "nnz": "138187",
+    "longest_row": "322",
+    "longest_row_nnz": "62",
+    "ratio": "0.000448667385499",
+    "status": "ok"
+  },
+  {
+    "dataset": "kineticBatchReactor_3",
+    "rows": "5082",
+    "columns": "5082",
+    "nnz": "53219",
+    "longest_row": "1625",
+    "longest_row_nnz": "1348",
+    "ratio": "0.0253292996862",
+    "status": "ok"
+  },
+  {
+    "dataset": "big_dual",
+    "rows": "30269",
+    "columns": "30269",
+    "nnz": "89858",
+    "longest_row": "2",
+    "longest_row_nnz": "3",
+    "ratio": "3.33860090365e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_8",
+    "rows": "1157",
+    "columns": "1157",
+    "nnz": "18945",
+    "longest_row": "1100",
+    "longest_row_nnz": "151",
+    "ratio": "0.00797044074954",
+    "status": "ok"
+  },
+  {
+    "dataset": "cat_ears_3_1",
+    "rows": "204",
+    "columns": "181",
+    "nnz": "542",
+    "longest_row": "37",
+    "longest_row_nnz": "6",
+    "ratio": "0.0110701107011",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_dcop_47",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "5892",
+    "longest_row": "1092",
+    "longest_row_nnz": "36",
+    "ratio": "0.0061099796334",
+    "status": "ok"
+  },
+  {
+    "dataset": "pcb3000",
+    "rows": "3960",
+    "columns": "7732",
+    "nnz": "57479",
+    "longest_row": "3640",
+    "longest_row_nnz": "6085",
+    "ratio": "0.105864750605",
+    "status": "ok"
+  },
+  {
+    "dataset": "N_reactome",
+    "rows": "10204",
+    "columns": "16559",
+    "nnz": "43816",
+    "longest_row": "6382",
+    "longest_row_nnz": "722",
+    "ratio": "0.0164779989045",
+    "status": "ok"
+  },
+  {
+    "dataset": "n2c6-b10",
+    "rows": "30",
+    "columns": "306",
+    "nnz": "330",
+    "longest_row": "1",
+    "longest_row_nnz": "11",
+    "ratio": "0.0333333333333",
+    "status": "ok"
+  },
+  {
+    "dataset": "ch7-8-b5",
+    "rows": "141120",
+    "columns": "141120",
+    "nnz": "846720",
+    "longest_row": "1",
+    "longest_row_nnz": "6",
+    "ratio": "7.08616780045e-06",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec13",
+    "rows": "1301",
+    "columns": "6561",
+    "nnz": "654517",
+    "longest_row": "1009",
+    "longest_row_nnz": "974",
+    "ratio": "0.00148812024745",
+    "status": "ok"
+  },
+  {
+    "dataset": "vt2010",
+    "rows": "32580",
+    "columns": "32580",
+    "nnz": "155598",
+    "longest_row": "22654",
+    "longest_row_nnz": "57",
+    "ratio": "0.000366328616049",
+    "status": "ok"
+  },
+  {
+    "dataset": "cnae9_10NN",
+    "rows": "1080",
+    "columns": "1080",
+    "nnz": "18278",
+    "longest_row": "970",
+    "longest_row_nnz": "221",
+    "ratio": "0.0120910384068",
+    "status": "ok"
+  },
+  {
+    "dataset": "spaceStation_7",
+    "rows": "1134",
+    "columns": "1134",
+    "nnz": "18252",
+    "longest_row": "1078",
+    "longest_row_nnz": "148",
+    "ratio": "0.00810870041639",
+    "status": "ok"
+  },
+  {
+    "dataset": "Trec5",
+    "rows": "3",
+    "columns": "7",
+    "nnz": "12",
+    "longest_row": "2",
+    "longest_row_nnz": "5",
+    "ratio": "0.416666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "model1",
+    "rows": "362",
+    "columns": "798",
+    "nnz": "3028",
+    "longest_row": "310",
+    "longest_row_nnz": "58",
+    "ratio": "0.0191545574637",
+    "status": "ok"
+  },
+  {
+    "dataset": "crystk02",
+    "rows": "13965",
+    "columns": "13965",
+    "nnz": "968583",
+    "longest_row": "460",
+    "longest_row_nnz": "81",
+    "ratio": "8.36273194966e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "cis-n4c6-b1",
+    "rows": "210",
+    "columns": "21",
+    "nnz": "420",
+    "longest_row": "1",
+    "longest_row_nnz": "2",
+    "ratio": "0.0047619047619",
+    "status": "ok"
+  },
+  {
+    "dataset": "fpga_trans_02",
+    "rows": "1220",
+    "columns": "1220",
+    "nnz": "7382",
+    "longest_row": "1153",
+    "longest_row_nnz": "50",
+    "ratio": "0.0067732321864",
+    "status": "ok"
+  },
+  {
+    "dataset": "lp_bore3d",
+    "rows": "233",
+    "columns": "334",
+    "nnz": "1448",
+    "longest_row": "196",
+    "longest_row_nnz": "73",
+    "ratio": "0.0504143646409",
+    "status": "ok"
+  },
+  {
+    "dataset": "tumorAntiAngiogenesis_8",
+    "rows": "490",
+    "columns": "490",
+    "nnz": "4776",
+    "longest_row": "292",
+    "longest_row_nnz": "486",
+    "ratio": "0.10175879397",
+    "status": "ok"
+  },
+  {
+    "dataset": "whitaker3",
+    "rows": "9800",
+    "columns": "9800",
+    "nnz": "57978",
+    "longest_row": "5168",
+    "longest_row_nnz": "8",
+    "ratio": "0.000137983373004",
+    "status": "ok"
+  },
+  {
+    "dataset": "145bit",
+    "rows": "1002",
+    "columns": "993",
+    "nnz": "11315",
+    "longest_row": "185",
+    "longest_row_nnz": "15",
+    "ratio": "0.00132567388422",
+    "status": "ok"
+  },
+  {
+    "dataset": "sd2010",
+    "rows": "88360",
+    "columns": "88360",
+    "nnz": "410722",
+    "longest_row": "42109",
+    "longest_row_nnz": "79",
+    "ratio": "0.000192344213361",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d10",
+    "rows": "1",
+    "columns": "60",
+    "nnz": "8",
+    "longest_row": "1",
+    "longest_row_nnz": "8",
+    "ratio": "1",
+    "status": "ok"
+  },
+  {
+    "dataset": "sctap1-2b",
+    "rows": "15390",
+    "columns": "33858",
+    "nnz": "99454",
+    "longest_row": "32",
+    "longest_row_nnz": "23",
+    "ratio": "0.000231262694311",
+    "status": "ok"
+  },
+  {
+    "dataset": "cvxqp3",
+    "rows": "17500",
+    "columns": "17500",
+    "nnz": "122462",
+    "longest_row": "20",
+    "longest_row_nnz": "17",
+    "ratio": "0.000138818572292",
+    "status": "ok"
+  },
+  {
+    "dataset": "soc-sign-Slashdot081106",
+    "rows": "77357",
+    "columns": "77357",
+    "nnz": "516575",
+    "longest_row": "8795",
+    "longest_row_nnz": "426",
+    "ratio": "0.00082466244011",
+    "status": "ok"
+  },
+  {
+    "dataset": "delaunay_n13",
+    "rows": "8192",
+    "columns": "8192",
+    "nnz": "49094",
+    "longest_row": "3977",
+    "longest_row_nnz": "12",
+    "ratio": "0.000244429054467",
+    "status": "ok"
+  },
+  {
+    "dataset": "mhd3200b",
+    "rows": "3200",
+    "columns": "3200",
+    "nnz": "18316",
+    "longest_row": "22",
+    "longest_row_nnz": "10",
+    "ratio": "0.000545970735969",
+    "status": "ok"
+  },
+  {
+    "dataset": "685_bus",
+    "rows": "685",
+    "columns": "685",
+    "nnz": "3249",
+    "longest_row": "317",
+    "longest_row_nnz": "13",
+    "ratio": "0.00400123114805",
+    "status": "ok"
+  },
+  {
+    "dataset": "ex15",
+    "rows": "6867",
+    "columns": "6867",
+    "nnz": "98671",
+    "longest_row": "67",
+    "longest_row_nnz": "18",
+    "ratio": "0.000182424420549",
+    "status": "ok"
+  },
+  {
+    "dataset": "bloweya",
+    "rows": "30004",
+    "columns": "30004",
+    "nnz": "150009",
+    "longest_row": "20003",
+    "longest_row_nnz": "10001",
+    "ratio": "0.0666693331733",
+    "status": "ok"
+  },
+  {
+    "dataset": "pfinan512",
+    "rows": "74752",
+    "columns": "74752",
+    "nnz": "596992",
+    "longest_row": "56",
+    "longest_row_nnz": "55",
+    "ratio": "9.21285377358e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "n3c4-b4",
+    "rows": "6",
+    "columns": "15",
+    "nnz": "30",
+    "longest_row": "1",
+    "longest_row_nnz": "5",
+    "ratio": "0.166666666667",
+    "status": "ok"
+  },
+  {
+    "dataset": "GL7d24",
+    "rows": "21074",
+    "columns": "105054",
+    "nnz": "593892",
+    "longest_row": "21065",
+    "longest_row_nnz": "751",
+    "ratio": "0.00126453968062",
+    "status": "ok"
+  },
+  {
+    "dataset": "crew1",
+    "rows": "135",
+    "columns": "6469",
+    "nnz": "46950",
+    "longest_row": "59",
+    "longest_row_nnz": "775",
+    "ratio": "0.0165069222577",
+    "status": "ok"
+  },
+  {
+    "dataset": "saylr4",
+    "rows": "3564",
+    "columns": "3564",
+    "nnz": "22316",
+    "longest_row": "233",
+    "longest_row_nnz": "7",
+    "ratio": "0.000313676286073",
+    "status": "ok"
+  },
+  {
+    "dataset": "L-9",
+    "rows": "17983",
+    "columns": "17983",
+    "nnz": "71192",
+    "longest_row": "15",
+    "longest_row_nnz": "4",
+    "ratio": "5.61860883245e-05",
+    "status": "ok"
+  },
+  {
+    "dataset": "scrs8-2b",
+    "rows": "1820",
+    "columns": "3499",
+    "nnz": "7367",
+    "longest_row": "43",
+    "longest_row_nnz": "15",
+    "ratio": "0.00203610696349",
+    "status": "ok"
+  },
+  {
+    "dataset": "reorientation_3",
+    "rows": "2513",
+    "columns": "2513",
+    "nnz": "32166",
+    "longest_row": "1475",
+    "longest_row_nnz": "2360",
+    "ratio": "0.0733693962569",
+    "status": "ok"
+  },
+  {
+    "dataset": "stufe-10",
+    "rows": "24010",
+    "columns": "24010",
+    "nnz": "92828",
+    "longest_row": "62",
+    "longest_row_nnz": "4",
+    "ratio": "4.30904468479e-05",
+    "status": "ok"
+  }
+]

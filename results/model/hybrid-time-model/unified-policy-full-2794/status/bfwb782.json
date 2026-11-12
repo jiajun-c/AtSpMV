@@ -1,0 +1,17 @@
+{
+  "dataset": "bfwb782",
+  "matrix_sha256": "de823d5d2220c1b12946cd4a5a24030e5df2ce1956ae7f7d2ff1dfa43b2bc172",
+  "index_nnz": 5982,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.06,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

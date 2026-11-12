@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_msc10848_300sep_100in_1Kout",
+  "matrix_sha256": "d6a0d214e6e87b7ffd9e9cb936921d68e86920088958c17648849430b393314b",
+  "index_nnz": 2442056,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.57,
+  "gpu_after": {
+    "utilization_percent": 30,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "plat362",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/plat362/plat362.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 362,
+  "columns": 362,
+  "original_nnz": 5786,
+  "factor_L_nnz": 8981,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04593465104699135
+}

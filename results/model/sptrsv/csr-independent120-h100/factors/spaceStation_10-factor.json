@@ -1,0 +1,13 @@
+{
+  "matrix": "spaceStation_10",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/spaceStation_10/spaceStation_10.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1272,
+  "columns": 1272,
+  "original_nnz": 17478,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.051992864115163684
+}

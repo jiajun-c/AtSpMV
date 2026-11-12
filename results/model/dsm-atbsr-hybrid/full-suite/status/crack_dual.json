@@ -1,0 +1,10 @@
+{
+  "dataset": "crack_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/crack_dual/crack_dual.mtx",
+  "matrix_sha256": "313264ef4985053547e8449b3722f541ab119aa0b7a1ac02f4c002e42a9373e9",
+  "index_nnz": 60086,
+  "index_rows": 20141,
+  "elapsed_s": 1.175,
+  "returncode": 0,
+  "status": "ok"
+}

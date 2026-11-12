@@ -1,0 +1,17 @@
+{
+  "dataset": "cz5108",
+  "matrix_sha256": "27ee736188cdfbb08ebfc160d78d6c91812a9ef016e741b68c75b3c00a56cbf8",
+  "index_nnz": 51412,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.291,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

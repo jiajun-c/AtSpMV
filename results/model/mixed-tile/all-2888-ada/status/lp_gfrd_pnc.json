@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_gfrd_pnc",
+  "matrix_sha256": "f0973026beb36a2699a40618fbd8b3547c445db0eb5231dab27441d562147eeb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.477,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

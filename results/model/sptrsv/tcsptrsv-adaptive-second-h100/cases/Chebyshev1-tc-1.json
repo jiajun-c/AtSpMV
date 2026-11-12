@@ -1,0 +1,9 @@
+{
+  "name": "Chebyshev1",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/Chebyshev1-L.mtx --------------\nsuccess open file\ninput matrix A: ( 272, 272 ) nnz = 970\nloadfile time    = 0.00051 sec\nnnzL = 970\ntime_for_csc2CompressTile = 1.90 ms\ntime_cuda_solve = 0.474950 ms, Mflops = 4.08\nVALIDATION finite=1 max_error=1.4432899320127035e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

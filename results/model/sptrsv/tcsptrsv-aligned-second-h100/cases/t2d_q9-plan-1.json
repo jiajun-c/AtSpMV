@@ -1,0 +1,9 @@
+{
+  "name": "t2d_q9",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/t2d_q9-L.mtx,default,cusparse,9808,197896,-1,9033.611,615.2063599,2.220446049e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/t2d_q9-L.mtx,default-host,cusparse,9808,197896,-1,9033.611,623.02838,2.220446049e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/t2d_q9-L.mtx,model,cusparse,9808,197896,-1,8652.824,615.878418,2.220446049e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/t2d_q9-L.mtx,model-host,cusparse,9808,197896,-1,8652.824,621.679015,2.220446049e-15\n",
+  "stderr": ""
+}

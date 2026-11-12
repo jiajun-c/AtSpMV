@@ -1,0 +1,6 @@
+{
+  "count": 2247,
+  "criterion": "prior complete-sweep success and 1 to 1000000 nnz",
+  "reason": "8 GiB available on shared H100; larger cases require separate evaluation",
+  "source": "full-suite/analysis.csv"
+}

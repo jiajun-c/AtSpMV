@@ -1,0 +1,9 @@
+{
+  "name": "olm100",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/olm100-L.mtx --------------\nsuccess open file\ninput matrix A: ( 112, 112 ) nnz = 262\nloadfile time    = 0.00020 sec\nnnzL = 262\ntime_for_csc2CompressTile = 2.22 ms\ntime_cuda_solve = 0.088190 ms, Mflops = 5.94\nVALIDATION finite=1 max_error=3.1086244689504383e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

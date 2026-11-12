@@ -1,0 +1,10 @@
+{
+  "dataset": "debr",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/debr/debr.mtx",
+  "matrix_sha256": "185139c81c0819f8ded4e4a8231ac6393bb18811ef10b646ee6ed7b73844a725",
+  "index_nnz": 4194298,
+  "index_rows": 1048576,
+  "elapsed_s": 2.905,
+  "returncode": 0,
+  "status": "ok"
+}

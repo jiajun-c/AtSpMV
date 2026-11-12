@@ -1,0 +1,17 @@
+{
+  "dataset": "bips98_606",
+  "matrix_sha256": "f4fe62c3c6f51ca9a146afcaa9302ecfc32c5f635bf94750a856e227c3845632",
+  "index_nnz": 34738,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.387,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

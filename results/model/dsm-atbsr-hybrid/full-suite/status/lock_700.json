@@ -1,0 +1,10 @@
+{
+  "dataset": "lock_700",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lock_700/lock_700.mtx",
+  "matrix_sha256": "7c35da5fbb5e00105210c0932e11c456b7f2c8458fccb2a65e6b9427417ce23c",
+  "index_nnz": 22175,
+  "index_rows": 700,
+  "elapsed_s": 1.178,
+  "returncode": 0,
+  "status": "ok"
+}

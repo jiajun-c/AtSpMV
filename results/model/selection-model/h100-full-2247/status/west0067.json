@@ -1,0 +1,17 @@
+{
+  "dataset": "west0067",
+  "matrix_sha256": "26e848564e3a0024ade49caba8c293c8b93ac81a34a2dba99e8b0b9f7bdd96d7",
+  "index_nnz": 294,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.809,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

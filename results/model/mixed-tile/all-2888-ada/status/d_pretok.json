@@ -1,0 +1,15 @@
+{
+  "dataset": "d_pretok",
+  "matrix_sha256": "4986f267f767d354784a2dc92dd5a80015dc7cea6049178caace823052d1cf75",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.311,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

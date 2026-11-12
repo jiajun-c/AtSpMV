@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_maros_r7",
+  "matrix_sha256": "319a136db827e0d4138fad5b983e32aa68fa2ebccacaf24aa74729fa7810eae3",
+  "index_nnz": 144848,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.551,
+  "gpu_after": {
+    "utilization_percent": 30,
+    "free_memory_mib": 81079
+  }
+}

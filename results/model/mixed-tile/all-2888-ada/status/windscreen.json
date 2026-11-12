@@ -1,0 +1,15 @@
+{
+  "dataset": "windscreen",
+  "matrix_sha256": "99203db2618b417816c3c7d23e61846262d9b61a9c74637ed4fb495527797ecb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.328,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

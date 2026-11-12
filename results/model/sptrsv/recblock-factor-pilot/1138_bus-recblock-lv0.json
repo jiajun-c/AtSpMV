@@ -1,0 +1,7 @@
+{
+  "name": "1138_bus",
+  "mode": "lv0",
+  "timeout_s": 15,
+  "stdout": "---------------------------------------------------------------------------------------------\nPRECISION = 64-bit Double Precision\nBenchmark REPEAT = 200\n---------------------------------------------------------------------------------------------\ndevice_id = 0\nrhs = 1\nsubstitutionstr = -forward\nsubstitution = 0\nmatstr = -mtx\n-------------- results/model/sptrsv/ilu-factor-pilot/1138_bus-L.mtx --------------\ninput matrix A: ( 1138, 1138 ) nnz = 3751\n",
+  "stderr": ""
+}

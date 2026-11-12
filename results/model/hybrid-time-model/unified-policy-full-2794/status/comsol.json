@@ -1,0 +1,17 @@
+{
+  "dataset": "comsol",
+  "matrix_sha256": "ead8dd3c5b6bbd0f602c10863dedbbaafaad4d93c855e224412dee66c893d92f",
+  "index_nnz": 97645,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.196,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

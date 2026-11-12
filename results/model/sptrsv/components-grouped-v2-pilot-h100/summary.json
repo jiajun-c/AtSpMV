@@ -1,0 +1,12 @@
+{
+  "status_counts": {
+    "ok": 11
+  },
+  "valid_pairs": 11,
+  "grouped_vs_ungrouped_geomean": 1.0524029042623886,
+  "grouped_vs_ungrouped_wins_gt_5pct": 1,
+  "grouped_vs_ungrouped_losses_gt_5pct": 0,
+  "grouped_vs_baseline_geomean": 0.9954892278655544,
+  "grouped_vs_baseline_wins_gt_5pct": 2,
+  "grouped_vs_baseline_losses_gt_5pct": 6
+}

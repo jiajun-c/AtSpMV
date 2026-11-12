@@ -1,0 +1,10 @@
+{
+  "dataset": "polblogs",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/polblogs/polblogs.mtx",
+  "matrix_sha256": "61c77cd98623a5dcbc07a918d22486590d8863677ae6e62f735a401512ff6653",
+  "index_nnz": 19025,
+  "index_rows": 1490,
+  "elapsed_s": 1.554,
+  "returncode": 0,
+  "status": "ok"
+}

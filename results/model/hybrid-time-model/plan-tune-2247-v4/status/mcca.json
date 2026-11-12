@@ -1,0 +1,19 @@
+{
+  "dataset": "mcca",
+  "matrix_sha256": "e2ffd51d89f346f86c5de6fc4de5aa893388f761907acdbb4f6024027501a024",
+  "index_nnz": 2659,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.792,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

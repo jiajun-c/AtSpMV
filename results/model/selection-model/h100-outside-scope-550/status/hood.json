@@ -1,0 +1,17 @@
+{
+  "dataset": "hood",
+  "matrix_sha256": "163805a11f42987b3647f4ca9ffb986286b2fc1ca5c9b8bfdd7bfdf49e48a528",
+  "index_nnz": 10768436,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 71.999,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

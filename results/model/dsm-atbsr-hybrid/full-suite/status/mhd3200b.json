@@ -1,0 +1,10 @@
+{
+  "dataset": "mhd3200b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mhd3200b/mhd3200b.mtx",
+  "matrix_sha256": "95a6afaa7b0a886e370860941c7a28a102f076fb904d9a875286173da623d7ac",
+  "index_nnz": 18316,
+  "index_rows": 3200,
+  "elapsed_s": 1.288,
+  "returncode": 0,
+  "status": "ok"
+}

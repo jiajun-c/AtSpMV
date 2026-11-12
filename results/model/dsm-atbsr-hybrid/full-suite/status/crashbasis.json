@@ -1,0 +1,10 @@
+{
+  "dataset": "crashbasis",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/crashbasis/crashbasis.mtx",
+  "matrix_sha256": "b745664af528564db0bf40f7511370d30207bd888f42db79b3446e376fdd9eaf",
+  "index_nnz": 1750416,
+  "index_rows": 160000,
+  "elapsed_s": 1.808,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Spielman_k100",
+  "matrix_sha256": "c222aefca52c71a11a01f5fc1c4ab6efd53e02dbf91c19b218a72bfca29bf356",
+  "index_nnz": 1025404,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 42.259,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

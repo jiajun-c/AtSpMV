@@ -1,0 +1,106 @@
+{
+  "crossover": {},
+  "automatic": {
+    "c-53": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 1768146.15,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.62800001
+          },
+          {
+            "setup_us": 1461153.59,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.53599978
+          },
+          {
+            "setup_us": 1526462.23,
+            "selected": "atbsr",
+            "candidates": 140,
+            "best_candidate_us": 5.67999994
+          }
+        ],
+        "median_setup_us": 1526462.23,
+        "median_best_candidate_us": 5.62800001
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 1692167.31,
+            "selected": "atbsr",
+            "candidates": 146,
+            "best_candidate_us": 5.61999995
+          },
+          {
+            "setup_us": 1795990.03,
+            "selected": "atbsr",
+            "candidates": 146,
+            "best_candidate_us": 5.41999983
+          },
+          {
+            "setup_us": 1474693.66,
+            "selected": "atbsr",
+            "candidates": 146,
+            "best_candidate_us": 5.42799989
+          }
+        ],
+        "median_setup_us": 1692167.31,
+        "median_best_candidate_us": 5.42799989
+      }
+    },
+    "ccc": {
+      "baseline": {
+        "runs": [
+          {
+            "setup_us": 472887.096,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.13999993
+          },
+          {
+            "setup_us": 523701.786,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.14399996
+          },
+          {
+            "setup_us": 480246.511,
+            "selected": "atbsr",
+            "candidates": 56,
+            "best_candidate_us": 3.15200002
+          }
+        ],
+        "median_setup_us": 480246.511,
+        "median_best_candidate_us": 3.14399996
+      },
+      "optimized": {
+        "runs": [
+          {
+            "setup_us": 603141.355,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 62,
+            "best_candidate_us": 3.11599998
+          },
+          {
+            "setup_us": 609490.959,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 62,
+            "best_candidate_us": 3.11199995
+          },
+          {
+            "setup_us": 484502.278,
+            "selected": "hybrid_dsm_atbsr",
+            "candidates": 62,
+            "best_candidate_us": 3.11199995
+          }
+        ],
+        "median_setup_us": 603141.355,
+        "median_best_candidate_us": 3.11199995
+      }
+    }
+  },
+  "notes": "Fixed crossover candidates, 3 independent order seeds and 21 warm graph batches, using the optimized executable. Auto setup includes selection and is not included in per-call execution time. Best reported per dataset is within listed candidates only."
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_kb2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_kb2/lp_kb2.mtx",
+  "matrix_sha256": "4277d4a09149da4c90a895bbe9dc212907a98ad3213ebb2b6bd68871cc5ae6bd",
+  "index_nnz": 313,
+  "index_rows": 43,
+  "elapsed_s": 0.623,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "pores_2",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/pores_2-L.mtx,default,cusparse,1232,16882,-1,4833.166,304.7615967,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/pores_2-L.mtx,default-host,cusparse,1232,16882,-1,4833.166,311.13418,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/pores_2-L.mtx,model,cusparse,1232,16882,374,4909.953,304.3744202,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/pores_2-L.mtx,model-host,cusparse,1232,16882,374,4909.953,311.183205,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_pang",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_pang/lpi_pang.mtx",
+  "matrix_sha256": "aac6f7c306a2e39d73e54e00e4823bcc6917b44a6d6242445bc716a767c408dc",
+  "index_nnz": 2933,
+  "index_rows": 361,
+  "elapsed_s": 0.57,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "nw14",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nw14/nw14.mtx",
+  "matrix_sha256": "d38054f7850124d82f99fa7b61b2be7d56a79a8c754bbdfec262860e6295a320",
+  "index_nnz": 904910,
+  "index_rows": 73,
+  "elapsed_s": 1.854,
+  "returncode": 0,
+  "status": "ok"
+}

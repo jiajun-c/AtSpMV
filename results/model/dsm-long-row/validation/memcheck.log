@@ -1,0 +1,2153 @@
+========= COMPUTE-SANITIZER
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (16,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (16,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (16,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (17,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (17,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (17,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (0,0,0) in block (4,0,0)
+=========     Address 0x408 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (4,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (5,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (0,0,0) in block (6,0,0)
+=========     Address 0x408 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (6,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (7,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (8,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (8,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (8,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (9,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (9,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (9,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (10,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (10,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (10,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (11,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (11,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (11,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (12,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (12,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (12,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (13,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (13,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (13,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (14,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (14,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (14,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (15,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (15,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (15,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (30,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (30,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (30,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (31,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (31,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (31,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (18,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (18,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (18,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (19,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (19,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (19,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (20,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (20,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (20,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (21,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (21,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (21,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (22,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (22,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (22,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (23,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (23,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (23,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (24,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (24,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (24,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (25,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (25,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (25,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (26,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (26,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (26,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (27,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (27,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (27,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (28,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (28,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (28,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (29,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (29,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (29,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (32,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (32,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (0,0,0) in block (32,0,0)
+=========     Address 0x408 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (32,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (33,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (33,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (33,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (2,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (2,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (2,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (3,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (3,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (3,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (32,0,0) in block (0,0,0)
+=========     Address 0x418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (64,0,0) in block (0,0,0)
+=========     Address 0x428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (96,0,0) in block (0,0,0)
+=========     Address 0x438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (65,0,0) in block (1,0,0)
+=========     Address 0x1000430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (97,0,0) in block (1,0,0)
+=========     Address 0x1000440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Invalid __shared__ write of size 8 bytes
+=========     at void atspmv::long_row_detail::reduceRows<(int)4, (int)1>(const int *, const int *, const double *, const double *, double *, double *, int, const int *, int, const int *, int)+0x2300
+=========     by thread (33,0,0) in block (1,0,0)
+=========     Address 0x1000420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuLaunchKernelEx [0x39fcaf]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame: [0x15b79]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:cudaLaunchKernelExC [0x754c7]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:std::_Function_handler<void (), main::{lambda(auto:1)#2}::operator()<std::integral_constant<int, 1> >(std::integral_constant<int, 1>) const::{lambda()#1}>::_M_invoke(std::_Any_data const&) [0x16e8d]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:main [0xdffa]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+========= Program hit cudaErrorLaunchFailure (error 719) due to "unspecified launch failure" on CUDA API call to cudaStreamSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame: [0x4cb0c5]
+=========                in /usr/lib/x86_64-linux-gnu/libcuda.so.1
+=========     Host Frame:cudaStreamSynchronize [0x74ffa]
+=========                in /usr/local/cuda-12.4/lib64/libcudart.so.12
+=========     Host Frame:main [0xe006]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+=========     Host Frame:__libc_start_call_main in ../sysdeps/nptl/libc_start_call_main.h:58 [0x29d8f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:__libc_start_main in ../csu/libc-start.c:392 [0x29e3f]
+=========                in /usr/lib/x86_64-linux-gnu/libc.so.6
+=========     Host Frame:_start [0x12e84]
+=========                in /tmp/atspmv-dsm-sm90-build/dsm_long_row_bench
+========= 
+unspecified launch failure
+========= Target application returned an error
+========= ERROR SUMMARY: 98 errors

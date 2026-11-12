@@ -1,0 +1,17 @@
+{
+  "dataset": "fe_tooth",
+  "matrix_sha256": "83eb07be575fee5ddf842a4c9272ce6c7052430cb056e62be068a921f53a307e",
+  "index_nnz": 905182,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.436,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

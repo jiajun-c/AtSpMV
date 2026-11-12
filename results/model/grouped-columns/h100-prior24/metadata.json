@@ -1,0 +1,17 @@
+{
+  "executable": "/tmp/atspmv-grouped-prior24",
+  "exe_sha256": "83de820e60b1b83863f63c0430270e62b13a8d2c30f853976f9db7cd9e5bcb3b",
+  "selection_sha256": "69a738de99c959967e9777b65dc70c8e4804421475f4d15befb2a424591040b4",
+  "runner_sha256": "a2048e1633d00766ac23cfc1a1561c55b0c2c55d256110b6d3871280631aab42",
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "trials": 15,
+  "timeout": 300,
+  "prefetch": 2,
+  "historical_prefetch": 0,
+  "warps": 4,
+  "persist_x": false,
+  "configs_sha256": [
+    "addfdcea49f01b801ecae47e6cbf655076cd2d3aca94210ebaa9c6e1e772f9fc",
+    "7ac3989b3d869aa1ebec8cf1c036cf84edc3b562fe5bf4bd09830a102ffe70df"
+  ]
+}

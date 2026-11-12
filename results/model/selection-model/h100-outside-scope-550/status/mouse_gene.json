@@ -1,0 +1,17 @@
+{
+  "dataset": "mouse_gene",
+  "matrix_sha256": "c00f8bf0a79b7b5f78e6bf4b0f35497901f21f2685c511b94764419d8b7a8e75",
+  "index_nnz": 28967291,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 58.417,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

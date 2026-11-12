@@ -1,0 +1,10 @@
+{
+  "matrix": "freeFlyingRobot_16",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/freeFlyingRobot_16-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 6078,
+  "nnz": 64963,
+  "min_abs_diagonal": 5.264195231281514e-10,
+  "max_abs_diagonal": 5534336339.350236,
+  "elapsed_s": 0.03954807110130787
+}

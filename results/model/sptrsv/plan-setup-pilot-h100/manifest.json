@@ -1,0 +1,24 @@
+{
+  "selection": "six valid factors randomly sampled per backend from the 120-matrix study",
+  "seed": 20261106,
+  "names": [
+    "662_bus",
+    "685_bus",
+    "bp_1600",
+    "cdde5",
+    "1138_bus",
+    "gre_343",
+    "lshp_265",
+    "dermatology_5NN",
+    "cavity01",
+    "tumorAntiAngiogenesis_3",
+    "Chebyshev2",
+    "nos1",
+    "G3",
+    "bcsstk15",
+    "bcsstm23",
+    "c-20",
+    "garon1",
+    "G7"
+  ]
+}

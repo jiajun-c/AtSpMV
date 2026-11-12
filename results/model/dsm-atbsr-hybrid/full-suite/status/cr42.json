@@ -1,0 +1,10 @@
+{
+  "dataset": "cr42",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cr42/cr42.mtx",
+  "matrix_sha256": "593a873eb17cc6d5b18f505d7b4a6da8bf730d614c9239b8b905483da2b32898",
+  "index_nnz": 6614,
+  "index_rows": 905,
+  "elapsed_s": 1.322,
+  "returncode": 0,
+  "status": "ok"
+}

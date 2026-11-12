@@ -1,0 +1,15 @@
+{
+  "dataset": "uni_chimera_i2",
+  "matrix_sha256": "49a01dcb7c7b0ed1a5e953b4d2b80fa12fe6909af9d4dbfcd97e4f532c2a4832",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.304,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

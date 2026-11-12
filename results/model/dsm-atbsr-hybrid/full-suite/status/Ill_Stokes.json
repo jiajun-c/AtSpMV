@@ -1,0 +1,10 @@
+{
+  "dataset": "Ill_Stokes",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Ill_Stokes/Ill_Stokes.mtx",
+  "matrix_sha256": "16e8b97aae4985194f5972bc2169c52437676f20fb4fe62033999d1b29acc72a",
+  "index_nnz": 191368,
+  "index_rows": 20896,
+  "elapsed_s": 1.32,
+  "returncode": 0,
+  "status": "ok"
+}

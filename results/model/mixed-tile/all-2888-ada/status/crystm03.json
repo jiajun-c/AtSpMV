@@ -1,0 +1,15 @@
+{
+  "dataset": "crystm03",
+  "matrix_sha256": "7e4d0d1fe67786a431c645db304d624d7de11d85684af12f1cca6e7a4410dda5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.353,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

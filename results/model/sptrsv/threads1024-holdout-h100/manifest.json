@@ -1,0 +1,31 @@
+{
+  "source": "ilu-second-holdout-v2-h100",
+  "selection": "cached backend on original factor",
+  "names": [
+    "fpga_dcop_14",
+    "oscil_dcop_32",
+    "lshp_406",
+    "dw256A",
+    "fpga_dcop_04",
+    "oscil_dcop_48",
+    "adder_dcop_17",
+    "fpga_dcop_50",
+    "robot",
+    "arc130",
+    "fpga_dcop_29",
+    "fpga_dcop_33",
+    "cdde2",
+    "oscil_dcop_42",
+    "oscil_dcop_24",
+    "fpga_dcop_05",
+    "adder_dcop_50",
+    "adder_dcop_36",
+    "bcsstk04",
+    "Chebyshev1",
+    "oscil_dcop_16",
+    "adder_dcop_66",
+    "olm100",
+    "fpga_trans_01",
+    "adder_dcop_19"
+  ]
+}

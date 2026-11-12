@@ -1,0 +1,31 @@
+{
+  "dataset": "a5esindl",
+  "status": "ok",
+  "matrix_sha256": "72b795de223a904fdb00e40a97bcafd88d08d1328633734587988295bfaf6d5c",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/a5esindl/a5esindl.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/a5esindl-0.csv",
+        "20261127",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 4.737106441054493
+    },
+    {
+      "command": [
+        "/tmp/atspmv-optimization-ablation-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/a5esindl/a5esindl.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/optimization-ablation/h100-20261111/configs/a5esindl-1.csv",
+        "20261128",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 4.583311476977542
+    }
+  ]
+}

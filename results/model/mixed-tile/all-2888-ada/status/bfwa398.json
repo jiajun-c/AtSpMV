@@ -1,0 +1,15 @@
+{
+  "dataset": "bfwa398",
+  "matrix_sha256": "87088061f1aea116c225a1b0baa4de27a4f94204fc76c527b75a3f0fb054de73",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.063,
+  "gpu_after": {
+    "utilization_percent": 19,
+    "free_memory_mib": 48508
+  }
+}

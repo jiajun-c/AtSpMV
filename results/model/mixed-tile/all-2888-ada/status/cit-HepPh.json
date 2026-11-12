@@ -1,0 +1,15 @@
+{
+  "dataset": "cit-HepPh",
+  "matrix_sha256": "ebc54ff9907b2b0970fc6456a2afc09c03ec03a7fa492b607aa4536a968e6438",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.398,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

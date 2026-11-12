@@ -1,0 +1,7 @@
+{
+  "name": "dw256A",
+  "order": "components-first",
+  "returncode": 1,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/components-grouped-pilot-h100/factors/dw256A-L.mtx,512,4239,73,cusparse,21126.805,102.8128028,4.130029652e-14,5.936281106e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/dw256A-L.mtx,512,4239,73,cusparse-host,21126.805,109.364915,4.130029652e-14,5.936281106e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/dw256A-L.mtx,512,4239,73,cached-components-256,221.737,60.7648015,5.684341886e-14,4.1475734e-17\nresults/model/sptrsv/components-grouped-pilot-h100/factors/dw256A-L.mtx,512,4239,73,cached-components-512,221.737,58.63680243,5.684341886e-14,4.1475734e-17\n",
+  "stderr": "cudaGetLastError(): invalid argument\n"
+}

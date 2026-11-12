@@ -1,0 +1,9 @@
+{
+  "name": "bcsstk20",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/bcsstk20-L.mtx --------------\nsuccess open file\ninput matrix A: ( 496, 496 ) nnz = 2381\nloadfile time    = 0.00117 sec\nnnzL = 2381\ntime_for_csc2CompressTile = 2.59 ms\ntime_cuda_solve = 0.237390 ms, Mflops = 20.06\nVALIDATION finite=1 max_error=1.4210854715202004e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

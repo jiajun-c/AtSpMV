@@ -1,0 +1,7 @@
+{
+  "name": "pores_2",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,default,cusparse,1224,16874,-1,4959.138,304.4992065,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,default-host,cusparse,1224,16874,-1,4959.138,312.01442,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,model,cusparse,1224,16874,374,5099.563,304.7167969,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\nresults/model/sptrsv/components-independent-h100/factors/pores_2-L.mtx,model-host,cusparse,1224,16874,374,5099.563,312.78437,9.992007222e-15,2.023016764e-17,1.477810568e-16,0\n",
+  "stderr": ""
+}

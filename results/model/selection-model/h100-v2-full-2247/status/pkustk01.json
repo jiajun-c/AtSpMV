@@ -1,0 +1,17 @@
+{
+  "dataset": "pkustk01",
+  "matrix_sha256": "1fec4aab0e3f9e4f5c51c003184ab3fb7e98b40cb16afbc362948b18698ff4f0",
+  "index_nnz": 979380,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.634,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

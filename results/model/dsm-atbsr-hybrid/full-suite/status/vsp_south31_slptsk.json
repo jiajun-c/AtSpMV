@@ -1,0 +1,10 @@
+{
+  "dataset": "vsp_south31_slptsk",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_south31_slptsk/vsp_south31_slptsk.mtx",
+  "matrix_sha256": "566a49b91cde56a10cfe8ad3bcf76e65080163b034571c3fe50988a8696920ff",
+  "index_nnz": 379828,
+  "index_rows": 39668,
+  "elapsed_s": 1.351,
+  "returncode": 0,
+  "status": "ok"
+}

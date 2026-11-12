@@ -1,0 +1,15 @@
+{
+  "dataset": "troll",
+  "matrix_sha256": "10be94cd5d1880a8681e24464a5cc27ed7b9e75687027e22524569759762d90a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.174,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

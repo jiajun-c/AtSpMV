@@ -1,0 +1,17 @@
+{
+  "dataset": "crew1",
+  "matrix_sha256": "892c5379252f83e5f4ce004a4171cbe72775111f10e7f2bbade031fccfbc197f",
+  "index_nnz": 46950,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.23,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

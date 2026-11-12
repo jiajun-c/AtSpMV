@@ -1,0 +1,7 @@
+{
+  "name": "G2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/G2-L.mtx,model,cusparse,800,93519,562,11372.351,504.3519897,2.192468429e-12,1.706650256e-17,8.69557029e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G2-L.mtx,model-host,cusparse,800,93519,562,11372.351,510.92176,2.192468429e-12,1.706650256e-17,8.69557029e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G2-L.mtx,default,cusparse,800,93519,-1,11035.231,503.8976135,2.192468429e-12,1.706650256e-17,8.69557029e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G2-L.mtx,default-host,cusparse,800,93519,-1,11035.231,510.372355,2.192468429e-12,1.706650256e-17,8.69557029e-17,0\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "sherman3",
+  "matrix_sha256": "57d12deb23a2e4307650c5794ec92878433ce0ad433fda85e8b33c4acb3a57fa",
+  "index_nnz": 20033,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.705,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

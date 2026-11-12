@@ -1,0 +1,17 @@
+{
+  "dataset": "radfr1",
+  "matrix_sha256": "91b1a8ce5fcd4889009dbc27a1191e72e74cfe9b021c10b713fa3d189f54600b",
+  "index_nnz": 13299,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.06,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

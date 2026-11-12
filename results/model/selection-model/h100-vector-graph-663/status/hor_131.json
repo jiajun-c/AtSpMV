@@ -1,0 +1,17 @@
+{
+  "dataset": "hor_131",
+  "matrix_sha256": "a8aa892668e5376199e656bc9b4f31f8074ea69a50c8036ee963e7e9dbe55b0b",
+  "index_nnz": 4710,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.471,
+  "gpu_after": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dynamicSoaringProblem_7",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/dynamicSoaringProblem_7-L.mtx,default,cusparse,3511,74875,-1,11032.438,791.6063843,2.664535259e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/dynamicSoaringProblem_7-L.mtx,default-host,cusparse,3511,74875,-1,11032.438,798.670745,2.664535259e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/dynamicSoaringProblem_7-L.mtx,model,cusparse,3511,74875,666,8773.295,791.0240479,2.664535259e-14\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/ilu-selector-holdout-h100/factors/dynamicSoaringProblem_7-L.mtx,model-host,cusparse,3511,74875,666,8773.295,797.897915,2.664535259e-14\n",
+  "stderr": ""
+}

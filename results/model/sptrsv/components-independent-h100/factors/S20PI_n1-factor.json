@@ -1,0 +1,13 @@
+{
+  "matrix": "S20PI_n1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/S20PI_n1/S20PI_n1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1028,
+  "columns": 1028,
+  "original_nnz": 2547,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.02112576295621693
+}

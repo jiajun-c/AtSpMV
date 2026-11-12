@@ -1,0 +1,7 @@
+{
+  "name": "Chebyshev1",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cusparse,32841.78,172.9856014,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cusparse-host,32841.78,181.59155,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-128,291.577,149.7375965,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-host-128,291.577,157.159865,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-256,291.577,139.9103999,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-host-256,291.577,147.09243,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-512,291.577,139.6160007,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,cached-tiles-host-512,291.577,146.924695,4.662936703e-15,4.065737018e-17\nresults/model/sptrsv/ilu-second-holdout-h100/factors/Chebyshev1-L.mtx,261,959,237,selector-cached,291.577,139.6736026,4.662936703e-15,4.065737018e-17\n",
+  "stderr": ""
+}

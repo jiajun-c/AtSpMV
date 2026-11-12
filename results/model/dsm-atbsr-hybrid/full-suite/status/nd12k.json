@@ -1,0 +1,10 @@
+{
+  "dataset": "nd12k",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/nd12k/nd12k.mtx",
+  "matrix_sha256": "f3d752d78c08e7e7d61b2590a8470175addd23526a223dd00c16e65ddf5131bf",
+  "index_nnz": 14220946,
+  "index_rows": 36000,
+  "elapsed_s": 5.233,
+  "returncode": 0,
+  "status": "ok"
+}

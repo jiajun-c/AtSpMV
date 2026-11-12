@@ -1,0 +1,15 @@
+{
+  "dataset": "olm100",
+  "matrix_sha256": "38bedd9fa408b15083a22aee4861c211518ff2ee3fea7de647413f5a511ae961",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.386,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

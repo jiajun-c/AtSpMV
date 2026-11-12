@@ -1,0 +1,15 @@
+{
+  "dataset": "rbsa480",
+  "matrix_sha256": "eda3af5487f4f0d7c7d09651dd09732ba2444ec5a9516d4ba1ce89ac687a0800",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.292,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

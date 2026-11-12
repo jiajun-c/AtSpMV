@@ -1,0 +1,15 @@
+{
+  "dataset": "west0381",
+  "matrix_sha256": "895be8b23ed27cfa9f7b5b6ff556045b1495152ccb00d54a3d442b72d114d884",
+  "gpu_before": {
+    "utilization_percent": 12,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.694,
+  "gpu_after": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  }
+}

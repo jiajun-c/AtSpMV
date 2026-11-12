@@ -1,0 +1,10 @@
+{
+  "dataset": "utm1700b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/utm1700b/utm1700b.mtx",
+  "matrix_sha256": "e6a1dde53c3d85d18535e0c0dd3040673c8577d5e93adb9dd7067e7d13cf71f3",
+  "index_nnz": 21509,
+  "index_rows": 1700,
+  "elapsed_s": 0.567,
+  "returncode": 0,
+  "status": "ok"
+}

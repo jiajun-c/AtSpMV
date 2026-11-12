@@ -1,0 +1,17 @@
+{
+  "dataset": "fome21",
+  "matrix_sha256": "90789a7380044f855099ebe527dd93f99dc0ed67e6fa87c397c801423bc7483a",
+  "index_nnz": 465294,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.744,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "Dubcova3",
+  "matrix_sha256": "c8c977dac955ee488951a08a41a1196fbaccc78ace1be9b79e526efc7b3e3997",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.181,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

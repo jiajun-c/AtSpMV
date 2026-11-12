@@ -1,0 +1,9 @@
+{
+  "inline_1": {
+    "path": "/staff/chengjiajun/workspace/AtSpmv/data/recovered/inline_1/inline_1.mtx",
+    "source_url": "https://www.cise.ufl.edu/research/sparse/MM/GHS_psdef/inline_1.tar.gz",
+    "sha256": "6179bf6aecb79f124a85afec6259664beb85c1bbfdc12923dba9e8c7fcdb62ea",
+    "bytes": 603544811,
+    "reason": "Original local .mtx and .tar.gz were truncated; original files preserved. Recovered same matrix from the official UF mirror; gzip integrity verified."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "karted",
+  "matrix_sha256": "5cdf9bc4f642a71d35ea87ebf9d791d77bda2cfc5935ac5787b3eb2d78eb4367",
+  "index_nnz": 1770349,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 28.113,
+  "gpu_after": {
+    "utilization_percent": 46,
+    "free_memory_mib": 81079
+  }
+}

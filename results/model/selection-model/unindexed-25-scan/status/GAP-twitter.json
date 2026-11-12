@@ -1,0 +1,17 @@
+{
+  "dataset": "GAP-twitter",
+  "file_bytes": 31423834191,
+  "file_mtime_ns": 1571699409000000000,
+  "structure": {
+    "dataset": "GAP-twitter",
+    "rows": "61578415",
+    "columns": "61578415",
+    "nnz": "1468364884",
+    "longest_row": "19058682",
+    "longest_row_nnz": "2997469",
+    "ratio": "0.00204136521696",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 216.02
+}

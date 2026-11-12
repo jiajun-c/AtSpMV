@@ -1,0 +1,10 @@
+{
+  "dataset": "s3rmt3m3",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/s3rmt3m3/s3rmt3m3.mtx",
+  "matrix_sha256": "dad2e75d12c7ae8d6cd96fca5bccbe2bf7e7fd67652e6b3ced89502678a8917e",
+  "index_nnz": 207695,
+  "index_rows": 5357,
+  "elapsed_s": 1.868,
+  "returncode": 0,
+  "status": "ok"
+}

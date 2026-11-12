@@ -1,0 +1,9 @@
+{
+  "name": "orbitRaising_3",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=1.2989609388114332e-14 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.256700000 ms\n",
+  "stderr": ""
+}

@@ -1,0 +1,7 @@
+{
+  "name": "bp_600",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/bp_600-L.mtx,default,cusparse,822,4840,-1,2437.457,66.98560333,3.774758284e-15,3.128922166e-17,1.262603013e-16,0\nresults/model/sptrsv/components-independent-h100/factors/bp_600-L.mtx,default-host,cusparse,822,4840,-1,2437.457,74.44956,3.774758284e-15,3.128922166e-17,1.262603013e-16,0\nresults/model/sptrsv/components-independent-h100/factors/bp_600-L.mtx,model,cached,822,4840,59,1511.263,50.85759735,3.330669074e-15,2.675042943e-17,1.262210534e-16,512\nresults/model/sptrsv/components-independent-h100/factors/bp_600-L.mtx,model-host,cached,822,4840,59,1511.263,57.358645,3.330669074e-15,2.675042943e-17,1.262210534e-16,512\n",
+  "stderr": ""
+}

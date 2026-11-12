@@ -1,0 +1,17 @@
+{
+  "dataset": "reorientation_3",
+  "matrix_sha256": "8bc5a0171cffe7958e5ef657f347d4450634215abfc4f202c37d4a0fcb86841c",
+  "index_nnz": 32166,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.134,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

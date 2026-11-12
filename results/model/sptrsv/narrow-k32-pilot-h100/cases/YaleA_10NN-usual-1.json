@@ -1,0 +1,8 @@
+{
+  "name": "YaleA_10NN",
+  "round": 1,
+  "mode": "usual",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cusparse,23898.132,116.1152005,6.661338148e-15,2.771802356e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cusparse-host,23898.132,123.282915,6.661338148e-15,2.771802356e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-512,205.382,115.4368043,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-host-512,205.382,121.789855,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-256,205.382,116.6015983,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-host-256,205.382,122.87369,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-128,205.382,124.9567986,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,cached-tiles-host-128,205.382,131.39785,6.883382753e-15,2.70780873e-17\nresults/model/sptrsv/narrow-k32-pilot-h100/factors/YaleA_10NN-L.mtx,165,5301,152,selector-cached,205.382,115.484798,6.883382753e-15,2.70780873e-17\n",
+  "stderr": ""
+}

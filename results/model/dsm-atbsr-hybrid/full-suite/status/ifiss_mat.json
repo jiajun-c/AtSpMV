@@ -1,0 +1,10 @@
+{
+  "dataset": "ifiss_mat",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ifiss_mat/ifiss_mat.mtx",
+  "matrix_sha256": "4535e866955ed47a0da6ff6bd93b3686d3401a466476289ac14eb14642f3e182",
+  "index_nnz": 3599932,
+  "index_rows": 96307,
+  "elapsed_s": 2.875,
+  "returncode": 0,
+  "status": "ok"
+}

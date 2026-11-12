@@ -1,0 +1,17 @@
+{
+  "dataset": "Zd_Jac2_db",
+  "matrix_sha256": "2e08d3f91892671b0a238f58f35ac04f4f9d8a08321d80432300f2a99d4c501c",
+  "index_nnz": 676439,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.866,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

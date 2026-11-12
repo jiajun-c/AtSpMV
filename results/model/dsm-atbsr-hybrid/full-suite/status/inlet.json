@@ -1,0 +1,10 @@
+{
+  "dataset": "inlet",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/inlet/inlet.mtx",
+  "matrix_sha256": "be765fbbcd0eaf2f43ebe64d23de535a1abe569e98bb1aa6ec985a6268205fd9",
+  "index_nnz": 328323,
+  "index_rows": 11730,
+  "elapsed_s": 1.336,
+  "returncode": 0,
+  "status": "ok"
+}

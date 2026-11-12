@@ -1,0 +1,14 @@
+{
+  "matrix": "dataset22mfeatzernike_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/dataset22mfeatzernike_10NN/dataset22mfeatzernike_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2000,
+  "columns": 2000,
+  "original_nnz": 27414,
+  "factor_L_nnz": 61134,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.08534689689986408
+}

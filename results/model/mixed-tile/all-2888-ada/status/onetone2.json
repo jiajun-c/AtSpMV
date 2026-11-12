@@ -1,0 +1,15 @@
+{
+  "dataset": "onetone2",
+  "matrix_sha256": "214282a5be03ee042c163d55c741f30e4a156911b62a53618cd36167f70dda79",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.904,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

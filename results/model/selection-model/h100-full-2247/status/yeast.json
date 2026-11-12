@@ -1,0 +1,17 @@
+{
+  "dataset": "yeast",
+  "matrix_sha256": "22a51331a985d1d3fac4e4c221500397281aca081748e6c5c86c7f579670037d",
+  "index_nnz": 13828,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.522,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

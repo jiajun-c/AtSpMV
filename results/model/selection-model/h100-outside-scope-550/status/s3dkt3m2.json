@@ -1,0 +1,17 @@
+{
+  "dataset": "s3dkt3m2",
+  "matrix_sha256": "f56b80e3ec974f3585e9cbb9d9feab9154bb01be2ad4a751cdf47b95eed909c1",
+  "index_nnz": 3753461,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 10.494,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

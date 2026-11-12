@@ -1,0 +1,10 @@
+{
+  "dataset": "minnesota",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/minnesota/minnesota.mtx",
+  "matrix_sha256": "71e48789e484d985fdf1fe0ec1f542464a43b4f9be6d957b39364bbb276ac463",
+  "index_nnz": 6606,
+  "index_rows": 2642,
+  "elapsed_s": 1.273,
+  "returncode": 0,
+  "status": "ok"
+}

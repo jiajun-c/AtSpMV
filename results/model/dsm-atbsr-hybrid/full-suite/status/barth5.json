@@ -1,0 +1,10 @@
+{
+  "dataset": "barth5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/barth5/barth5.mtx",
+  "matrix_sha256": "807dfaee1cacc42e5bf957d9dc9a69a79524d4fa879280760af48e06ec7127f8",
+  "index_nnz": 61484,
+  "index_rows": 15606,
+  "elapsed_s": 1.185,
+  "returncode": 0,
+  "status": "ok"
+}

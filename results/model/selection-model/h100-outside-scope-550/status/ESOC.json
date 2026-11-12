@@ -1,0 +1,17 @@
+{
+  "dataset": "ESOC",
+  "matrix_sha256": "9115ee33574a7bdcd3872f2be4be2f0d5ec1c29365aff38295088544b014e91f",
+  "index_nnz": 6019939,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 17.897,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

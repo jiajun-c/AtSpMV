@@ -1,0 +1,19 @@
+{
+  "dataset": "ML_Geer",
+  "matrix_sha256": "6b391552f80b3f751d6297e41a6b4b08016f0341a0fefc57c311f43e6c28bf9c",
+  "index_nnz": 110879972,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 85.35,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

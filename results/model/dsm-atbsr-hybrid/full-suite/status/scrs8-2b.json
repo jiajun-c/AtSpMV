@@ -1,0 +1,10 @@
+{
+  "dataset": "scrs8-2b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/scrs8-2b/scrs8-2b.mtx",
+  "matrix_sha256": "a5fb5e20c1dd49de8f2b2a9b2bd78d5725cbe712a268209489bf465b4d8d24aa",
+  "index_nnz": 7367,
+  "index_rows": 1820,
+  "elapsed_s": 0.606,
+  "returncode": 0,
+  "status": "ok"
+}

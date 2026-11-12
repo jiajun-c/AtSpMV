@@ -1,0 +1,17 @@
+{
+  "dataset": "mosfet2",
+  "matrix_sha256": "10a6bdeec79e8a66b29304c3a37cff6cf960a2d836c1a2cf813004c65b963f32",
+  "index_nnz": 1499460,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.83,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

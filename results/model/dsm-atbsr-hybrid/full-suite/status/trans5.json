@@ -1,0 +1,10 @@
+{
+  "dataset": "trans5",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/trans5/trans5.mtx",
+  "matrix_sha256": "a5aa689c023ba50a7c5e7107384e18386ed7cd2dac0194133ffca4532c22cf84",
+  "index_nnz": 766396,
+  "index_rows": 116835,
+  "elapsed_s": 1.881,
+  "returncode": 0,
+  "status": "ok"
+}

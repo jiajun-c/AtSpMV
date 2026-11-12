@@ -1,0 +1,14 @@
+{
+  "matrix": "msc00726",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/msc00726/msc00726.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 726,
+  "columns": 726,
+  "original_nnz": 34518,
+  "factor_L_nnz": 77654,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.10032034595496953
+}

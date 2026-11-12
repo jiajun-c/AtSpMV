@@ -1,0 +1,10 @@
+{
+  "matrix": "t2d_q9",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/t2d_q9-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 9801,
+  "nnz": 217881,
+  "min_abs_diagonal": 1.2991381615593656,
+  "max_abs_diagonal": 3.61003156559904,
+  "elapsed_s": 0.11235064291395247
+}

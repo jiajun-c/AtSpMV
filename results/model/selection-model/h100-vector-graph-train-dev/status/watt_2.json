@@ -1,0 +1,17 @@
+{
+  "dataset": "watt_2",
+  "matrix_sha256": "53a569019a5ec5799e41e29e32407b90943bf963c6b2b79c102c4419182c493f",
+  "index_nnz": 11550,
+  "gpu_before": {
+    "utilization_percent": 11,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.184,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 81079
+  }
+}

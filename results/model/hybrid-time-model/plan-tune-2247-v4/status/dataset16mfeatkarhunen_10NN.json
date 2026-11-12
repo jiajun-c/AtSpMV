@@ -1,0 +1,19 @@
+{
+  "dataset": "dataset16mfeatkarhunen_10NN",
+  "matrix_sha256": "b35b4753e58d0c1b906b22f06e101005a1c99216bba597bbdf718f9a5658b7c8",
+  "index_nnz": 27668,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.878,
+  "gpu_after": {
+    "utilization_percent": 24,
+    "free_memory_mib": 81079
+  }
+}

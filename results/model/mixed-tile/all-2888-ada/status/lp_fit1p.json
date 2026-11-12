@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_fit1p",
+  "matrix_sha256": "3946adfbfcb315ee411a9fb6703dbcf50e24e251f2d849b84eed6b6eda74e14a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.902,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

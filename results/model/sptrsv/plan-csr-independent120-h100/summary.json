@@ -1,0 +1,12 @@
+{
+  "status_counts": {
+    "factor_missing": 50,
+    "ok": 70
+  },
+  "valid_pairs": 70,
+  "adaptive_1024": 0,
+  "cached_csr": 16,
+  "geomean_fixed_over_adaptive": 1.0801037157491948,
+  "wins_gt_5pct": 16,
+  "losses_gt_5pct": 0
+}

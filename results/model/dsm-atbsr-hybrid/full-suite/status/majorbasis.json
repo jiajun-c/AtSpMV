@@ -1,0 +1,10 @@
+{
+  "dataset": "majorbasis",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/majorbasis/majorbasis.mtx",
+  "matrix_sha256": "28ec97e2dde0eb5f25eb5745d0e57e3384b778d6f4de091cf920e40c3b0bfa6c",
+  "index_nnz": 1750416,
+  "index_rows": 160000,
+  "elapsed_s": 1.376,
+  "returncode": 0,
+  "status": "ok"
+}

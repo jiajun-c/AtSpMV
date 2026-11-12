@@ -1,0 +1,12 @@
+Internal ctest changing into directory: /tmp/atspmv-dsm-sm90-build
+Test project /tmp/atspmv-dsm-sm90-build
+    Start 7: dsm_long_row_empty
+1/3 Test #7: dsm_long_row_empty ...............   Passed    0.84 sec
+    Start 8: dsm_long_row_tail
+2/3 Test #8: dsm_long_row_tail ................   Passed    1.26 sec
+    Start 9: dsm_long_row_mixed
+3/3 Test #9: dsm_long_row_mixed ...............   Passed    1.47 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Total Test time (real) =   3.57 sec

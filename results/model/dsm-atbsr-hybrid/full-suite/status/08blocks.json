@@ -1,0 +1,10 @@
+{
+  "dataset": "08blocks",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/08blocks/08blocks.mtx",
+  "matrix_sha256": "400a030d861f1459916a17bf4fee4645727521761afe502c4f1f6c8b492aad4e",
+  "index_nnz": 592,
+  "index_rows": 300,
+  "elapsed_s": 0.569,
+  "returncode": 0,
+  "status": "ok"
+}

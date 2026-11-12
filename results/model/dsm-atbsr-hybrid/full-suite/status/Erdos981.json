@@ -1,0 +1,10 @@
+{
+  "dataset": "Erdos981",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Erdos981/Erdos981.mtx",
+  "matrix_sha256": "4b10747a5e544b3443c2a25b58acc43758921340fd1be35fbd1ea7dbf4f977b4",
+  "index_nnz": 2762,
+  "index_rows": 485,
+  "elapsed_s": 1.375,
+  "returncode": 0,
+  "status": "ok"
+}

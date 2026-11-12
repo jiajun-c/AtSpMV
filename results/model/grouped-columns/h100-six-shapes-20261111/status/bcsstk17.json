@@ -1,0 +1,31 @@
+{
+  "dataset": "bcsstk17",
+  "status": "ok",
+  "matrix_sha256": "fe763b8683ba918f1d78d1b5686d258bb8220ceabb7154378f2ef54afb5628da",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bcsstk17/bcsstk17.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/bcsstk17-0.csv",
+        "20261113",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.6200028460007161
+    },
+    {
+      "command": [
+        "/tmp/atspmv-grouped-six-shapes-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/bcsstk17/bcsstk17.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/grouped-columns/h100-six-shapes-20261111/configs/bcsstk17-1.csv",
+        "20261114",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.2074039599392563
+    }
+  ]
+}

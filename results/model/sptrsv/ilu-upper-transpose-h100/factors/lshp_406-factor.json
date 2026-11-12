@@ -1,0 +1,10 @@
+{
+  "matrix": "lshp_406",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/lshp_406-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 406,
+  "nnz": 7190,
+  "min_abs_diagonal": 0.13157738232060745,
+  "max_abs_diagonal": 22.00921507851492,
+  "elapsed_s": 0.011530891992151737
+}

@@ -1,0 +1,13 @@
+{
+  "matrix": "Harvard500",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Harvard500/Harvard500.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 500,
+  "columns": 500,
+  "original_nnz": 2636,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.03213425609283149
+}

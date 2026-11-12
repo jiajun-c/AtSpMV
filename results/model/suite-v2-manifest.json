@@ -1,0 +1,2425 @@
+{
+  "seed": 20261027,
+  "matrices": [
+    {
+      "matrix": "celegansneural",
+      "family": "celegansneural",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/celegansneural/celegansneural.mtx",
+      "rows": 297,
+      "cols": 297,
+      "file_nnz": 2345,
+      "bytes": 23940,
+      "split": "train"
+    },
+    {
+      "matrix": "lpi_bgindy",
+      "family": "lpi_bgindy",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_bgindy/lpi_bgindy.mtx",
+      "rows": 2671,
+      "cols": 10880,
+      "file_nnz": 66266,
+      "bytes": 1066751,
+      "split": "train"
+    },
+    {
+      "matrix": "minsurfo",
+      "family": "minsurfo",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/minsurfo/minsurfo.mtx",
+      "rows": 40806,
+      "cols": 40806,
+      "file_nnz": 122214,
+      "bytes": 3670644,
+      "split": "train"
+    },
+    {
+      "matrix": "appu",
+      "family": "appu",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/appu/appu.mtx",
+      "rows": 14000,
+      "cols": 14000,
+      "file_nnz": 1853104,
+      "bytes": 50286469,
+      "split": "dev"
+    },
+    {
+      "matrix": "ohne2",
+      "family": "ohne",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ohne2/ohne2.mtx",
+      "rows": 181343,
+      "cols": 181343,
+      "file_nnz": 11063545,
+      "bytes": 246604153,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_ganges",
+      "family": "lp_ganges",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_ganges/lp_ganges.mtx",
+      "rows": 1309,
+      "cols": 1706,
+      "file_nnz": 6937,
+      "bytes": 97880,
+      "split": "test"
+    },
+    {
+      "matrix": "shermanACa",
+      "family": "shermanaca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shermanACa/shermanACa.mtx",
+      "rows": 3432,
+      "cols": 3432,
+      "file_nnz": 25220,
+      "bytes": 509338,
+      "split": "train"
+    },
+    {
+      "matrix": "pltexpa",
+      "family": "pltexpa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pltexpa/pltexpa.mtx",
+      "rows": 26894,
+      "cols": 70364,
+      "file_nnz": 143059,
+      "bytes": 1986208,
+      "split": "train"
+    },
+    {
+      "matrix": "ca2010",
+      "family": "ca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ca2010/ca2010.mtx",
+      "rows": 710145,
+      "cols": 710145,
+      "file_nnz": 1744683,
+      "bytes": 33937204,
+      "split": "train"
+    },
+    {
+      "matrix": "cit-Patents",
+      "family": "cit-patents",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cit-Patents/cit-Patents.mtx",
+      "rows": 3774768,
+      "cols": 3774768,
+      "file_nnz": 16518948,
+      "bytes": 261658301,
+      "split": "dev"
+    },
+    {
+      "matrix": "lpi_bgdbg1",
+      "family": "lpi_bgdbg",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_bgdbg1/lpi_bgdbg1.mtx",
+      "rows": 348,
+      "cols": 629,
+      "file_nnz": 1662,
+      "bytes": 19209,
+      "split": "train"
+    },
+    {
+      "matrix": "rbsb480",
+      "family": "rbsb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rbsb480/rbsb480.mtx",
+      "rows": 480,
+      "cols": 480,
+      "file_nnz": 17088,
+      "bytes": 185526,
+      "split": "test"
+    },
+    {
+      "matrix": "bundle1",
+      "family": "bundle",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bundle1/bundle1.mtx",
+      "rows": 10581,
+      "cols": 10581,
+      "file_nnz": 390741,
+      "bytes": 7421056,
+      "split": "train"
+    },
+    {
+      "matrix": "matrix_9",
+      "family": "matrix",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/matrix_9/matrix_9.mtx",
+      "rows": 103430,
+      "cols": 103430,
+      "file_nnz": 2121550,
+      "bytes": 44445392,
+      "split": "train"
+    },
+    {
+      "matrix": "Fault_639",
+      "family": "fault",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Fault_639/Fault_639.mtx",
+      "rows": 638802,
+      "cols": 638802,
+      "file_nnz": 14626683,
+      "bytes": 388368851,
+      "split": "train"
+    },
+    {
+      "matrix": "cnae9_10NN",
+      "family": "cnae",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cnae9_10NN/cnae9_10NN.mtx",
+      "rows": 1080,
+      "cols": 1080,
+      "file_nnz": 9139,
+      "bytes": 248923,
+      "split": "dev"
+    },
+    {
+      "matrix": "Fashion_MNIST_norm_10NN",
+      "family": "fashion_mnist_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Fashion_MNIST_norm_10NN/Fashion_MNIST_norm_10NN.mtx",
+      "rows": 10000,
+      "cols": 10000,
+      "file_nnz": 79152,
+      "bytes": 2314166,
+      "split": "train"
+    },
+    {
+      "matrix": "ar2010",
+      "family": "ar",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ar2010/ar2010.mtx",
+      "rows": 186211,
+      "cols": 186211,
+      "file_nnz": 452155,
+      "bytes": 8471299,
+      "split": "test"
+    },
+    {
+      "matrix": "Raj1",
+      "family": "raj",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Raj1/Raj1.mtx",
+      "rows": 263743,
+      "cols": 263743,
+      "file_nnz": 1302464,
+      "bytes": 42416096,
+      "split": "train"
+    },
+    {
+      "matrix": "as-Skitter",
+      "family": "as-skitter",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/as-Skitter/as-Skitter.mtx",
+      "rows": 1696415,
+      "cols": 1696415,
+      "file_nnz": 11095298,
+      "bytes": 149108959,
+      "split": "train"
+    },
+    {
+      "matrix": "young3c",
+      "family": "young",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/young3c/young3c.mtx",
+      "rows": 841,
+      "cols": 841,
+      "file_nnz": 3988,
+      "bytes": 52069,
+      "split": "train"
+    },
+    {
+      "matrix": "commanche_dual",
+      "family": "commanche_dual",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/commanche_dual/commanche_dual.mtx",
+      "rows": 7920,
+      "cols": 7920,
+      "file_nnz": 19800,
+      "bytes": 193069,
+      "split": "dev"
+    },
+    {
+      "matrix": "us04",
+      "family": "us",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/us04/us04.mtx",
+      "rows": 163,
+      "cols": 28016,
+      "file_nnz": 297538,
+      "bytes": 2661728,
+      "split": "train"
+    },
+    {
+      "matrix": "nxp1",
+      "family": "nxp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nxp1/nxp1.mtx",
+      "rows": 414604,
+      "cols": 414604,
+      "file_nnz": 2656177,
+      "bytes": 64306456,
+      "split": "test"
+    },
+    {
+      "matrix": "333SP",
+      "family": "333SP",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/333SP/333SP.mtx",
+      "rows": 3712815,
+      "cols": 3712815,
+      "file_nnz": 11108633,
+      "bytes": 171065574,
+      "split": "train"
+    },
+    {
+      "matrix": "CSphd",
+      "family": "csphd",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/CSphd/CSphd.mtx",
+      "rows": 1882,
+      "cols": 1882,
+      "file_nnz": 1740,
+      "bytes": 15628,
+      "split": "train"
+    },
+    {
+      "matrix": "se",
+      "family": "se",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/se/se.mtx",
+      "rows": 32768,
+      "cols": 32768,
+      "file_nnz": 49150,
+      "bytes": 561016,
+      "split": "train"
+    },
+    {
+      "matrix": "Wordnet3",
+      "family": "wordnet",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Wordnet3/Wordnet3.mtx",
+      "rows": 82670,
+      "cols": 82670,
+      "file_nnz": 132964,
+      "bytes": 1803886,
+      "split": "dev"
+    },
+    {
+      "matrix": "invextr1_new",
+      "family": "invextr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/invextr1_new/invextr1_new.mtx",
+      "rows": 30412,
+      "cols": 30412,
+      "file_nnz": 1793881,
+      "bytes": 53980530,
+      "split": "train"
+    },
+    {
+      "matrix": "inline_1",
+      "family": "inline",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/inline_1/inline_1.mtx",
+      "rows": 503712,
+      "cols": 503712,
+      "file_nnz": 18660027,
+      "bytes": 594941440,
+      "split": "test"
+    },
+    {
+      "matrix": "130bit",
+      "family": "130bit",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/130bit/130bit.mtx",
+      "rows": 584,
+      "cols": 575,
+      "file_nnz": 6120,
+      "bytes": 47317,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_truss",
+      "family": "lp_truss",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_truss/lp_truss.mtx",
+      "rows": 1000,
+      "cols": 8806,
+      "file_nnz": 27836,
+      "bytes": 399800,
+      "split": "train"
+    },
+    {
+      "matrix": "loc-Gowalla",
+      "family": "loc-gowalla",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/loc-Gowalla/loc-Gowalla.mtx",
+      "rows": 196591,
+      "cols": 196591,
+      "file_nnz": 950327,
+      "bytes": 11066919,
+      "split": "train"
+    },
+    {
+      "matrix": "roadNet-PA",
+      "family": "roadnet-pa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/roadNet-PA/roadNet-PA.mtx",
+      "rows": 1090920,
+      "cols": 1090920,
+      "file_nnz": 1541898,
+      "bytes": 21511862,
+      "split": "dev"
+    },
+    {
+      "matrix": "JP",
+      "family": "jp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/JP/JP.mtx",
+      "rows": 87616,
+      "cols": 67320,
+      "file_nnz": 13734559,
+      "bytes": 418218032,
+      "split": "train"
+    },
+    {
+      "matrix": "lund_a",
+      "family": "lund_a",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lund_a/lund_a.mtx",
+      "rows": 147,
+      "cols": 147,
+      "file_nnz": 1298,
+      "bytes": 21205,
+      "split": "test"
+    },
+    {
+      "matrix": "tuma2",
+      "family": "tuma",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/tuma2/tuma2.mtx",
+      "rows": 12992,
+      "cols": 12992,
+      "file_nnz": 28440,
+      "bytes": 449598,
+      "split": "train"
+    },
+    {
+      "matrix": "rlfdual",
+      "family": "rlfdual",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rlfdual/rlfdual.mtx",
+      "rows": 8052,
+      "cols": 74970,
+      "file_nnz": 282031,
+      "bytes": 3879062,
+      "split": "train"
+    },
+    {
+      "matrix": "ifiss_mat",
+      "family": "ifiss_mat",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ifiss_mat/ifiss_mat.mtx",
+      "rows": 96307,
+      "cols": 96307,
+      "file_nnz": 3599932,
+      "bytes": 120413901,
+      "split": "train"
+    },
+    {
+      "matrix": "NLR",
+      "family": "nlr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/NLR/NLR.mtx",
+      "rows": 4163763,
+      "cols": 4163763,
+      "file_nnz": 12487976,
+      "bytes": 192986568,
+      "split": "dev"
+    },
+    {
+      "matrix": "ww_36_pmec_36",
+      "family": "ww",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ww_36_pmec_36/ww_36_pmec_36.mtx",
+      "rows": 66,
+      "cols": 66,
+      "file_nnz": 1194,
+      "bytes": 38184,
+      "split": "train"
+    },
+    {
+      "matrix": "Pd",
+      "family": "pd",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Pd/Pd.mtx",
+      "rows": 8081,
+      "cols": 8081,
+      "file_nnz": 13036,
+      "bytes": 175643,
+      "split": "test"
+    },
+    {
+      "matrix": "torsion1",
+      "family": "torsion",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/torsion1/torsion1.mtx",
+      "rows": 40000,
+      "cols": 40000,
+      "file_nnz": 118804,
+      "bytes": 1757970,
+      "split": "train"
+    },
+    {
+      "matrix": "boneS01",
+      "family": "bones",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/boneS01/boneS01.mtx",
+      "rows": 127224,
+      "cols": 127224,
+      "file_nnz": 3421188,
+      "bytes": 69809966,
+      "split": "train"
+    },
+    {
+      "matrix": "msdoor",
+      "family": "msdoor",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/msdoor/msdoor.mtx",
+      "rows": 415863,
+      "cols": 415863,
+      "file_nnz": 10328399,
+      "bytes": 290500307,
+      "split": "train"
+    },
+    {
+      "matrix": "minnesota",
+      "family": "minnesota",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/minnesota/minnesota.mtx",
+      "rows": 2642,
+      "cols": 2642,
+      "file_nnz": 3303,
+      "bytes": 30861,
+      "split": "dev"
+    },
+    {
+      "matrix": "TS",
+      "family": "ts",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/TS/TS.mtx",
+      "rows": 2142,
+      "cols": 2142,
+      "file_nnz": 45262,
+      "bytes": 1250147,
+      "split": "train"
+    },
+    {
+      "matrix": "vsp_south31_slptsk",
+      "family": "vsp_south",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_south31_slptsk/vsp_south31_slptsk.mtx",
+      "rows": 39668,
+      "cols": 39668,
+      "file_nnz": 189914,
+      "bytes": 2080486,
+      "split": "test"
+    },
+    {
+      "matrix": "belgium_osm",
+      "family": "belgium_osm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/belgium_osm/belgium_osm.mtx",
+      "rows": 1441295,
+      "cols": 1441295,
+      "file_nnz": 1549970,
+      "bytes": 22360923,
+      "split": "train"
+    },
+    {
+      "matrix": "nlpkkt80",
+      "family": "nlpkkt",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nlpkkt80/nlpkkt80.mtx",
+      "rows": 1062400,
+      "cols": 1062400,
+      "file_nnz": 14883536,
+      "bytes": 1730560,
+      "split": "train"
+    },
+    {
+      "matrix": "netscience",
+      "family": "netscience",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/netscience/netscience.mtx",
+      "rows": 1589,
+      "cols": 1589,
+      "file_nnz": 2742,
+      "bytes": 40356,
+      "split": "train"
+    },
+    {
+      "matrix": "LF10000",
+      "family": "lf",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/LF10000/LF10000.mtx",
+      "rows": 19998,
+      "cols": 19998,
+      "file_nnz": 59990,
+      "bytes": 1723840,
+      "split": "dev"
+    },
+    {
+      "matrix": "wv2010",
+      "family": "wv",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wv2010/wv2010.mtx",
+      "rows": 135218,
+      "cols": 135218,
+      "file_nnz": 331461,
+      "bytes": 6005097,
+      "split": "train"
+    },
+    {
+      "matrix": "web-BerkStan",
+      "family": "web-berkstan",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/web-BerkStan/web-BerkStan.mtx",
+      "rows": 685230,
+      "cols": 685230,
+      "file_nnz": 7600595,
+      "bytes": 102539104,
+      "split": "test"
+    },
+    {
+      "matrix": "coPapersCiteseer",
+      "family": "copapersciteseer",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/coPapersCiteseer/coPapersCiteseer.mtx",
+      "rows": 434102,
+      "cols": 434102,
+      "file_nnz": 16036720,
+      "bytes": 206979896,
+      "split": "train"
+    },
+    {
+      "matrix": "mhda416",
+      "family": "mhda",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mhda416/mhda416.mtx",
+      "rows": 416,
+      "cols": 416,
+      "file_nnz": 8562,
+      "bytes": 172592,
+      "split": "train"
+    },
+    {
+      "matrix": "SiH4",
+      "family": "sih",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/SiH4/SiH4.mtx",
+      "rows": 5041,
+      "cols": 5041,
+      "file_nnz": 88472,
+      "bytes": 2597870,
+      "split": "train"
+    },
+    {
+      "matrix": "trdheim",
+      "family": "trdheim",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/trdheim/trdheim.mtx",
+      "rows": 22098,
+      "cols": 22098,
+      "file_nnz": 978711,
+      "bytes": 10765888,
+      "split": "dev"
+    },
+    {
+      "matrix": "marine1",
+      "family": "marine",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/marine1/marine1.mtx",
+      "rows": 400320,
+      "cols": 400320,
+      "file_nnz": 6226538,
+      "bytes": 205322951,
+      "split": "train"
+    },
+    {
+      "matrix": "atmosmodl",
+      "family": "atmosmodl",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/atmosmodl/atmosmodl.mtx",
+      "rows": 1489752,
+      "cols": 1489752,
+      "file_nnz": 10319760,
+      "bytes": 219158210,
+      "split": "test"
+    },
+    {
+      "matrix": "lpi_refinery",
+      "family": "lpi_refinery",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_refinery/lpi_refinery.mtx",
+      "rows": 323,
+      "cols": 464,
+      "file_nnz": 1626,
+      "bytes": 23055,
+      "split": "train"
+    },
+    {
+      "matrix": "wing_nodal",
+      "family": "wing_nodal",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wing_nodal/wing_nodal.mtx",
+      "rows": 10937,
+      "cols": 10937,
+      "file_nnz": 75488,
+      "bytes": 769038,
+      "split": "train"
+    },
+    {
+      "matrix": "bauru5727",
+      "family": "bauru",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bauru5727/bauru5727.mtx",
+      "rows": 40366,
+      "cols": 40366,
+      "file_nnz": 145019,
+      "bytes": 3729123,
+      "split": "train"
+    },
+    {
+      "matrix": "thread",
+      "family": "thread",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/thread/thread.mtx",
+      "rows": 29736,
+      "cols": 29736,
+      "file_nnz": 2249892,
+      "bytes": 63737597,
+      "split": "dev"
+    },
+    {
+      "matrix": "test1",
+      "family": "test",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/test1/test1.mtx",
+      "rows": 392908,
+      "cols": 392908,
+      "file_nnz": 12968200,
+      "bytes": 286233486,
+      "split": "train"
+    },
+    {
+      "matrix": "rel6",
+      "family": "rel",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rel6/rel6.mtx",
+      "rows": 2340,
+      "cols": 157,
+      "file_nnz": 5101,
+      "bytes": 52506,
+      "split": "test"
+    },
+    {
+      "matrix": "bratu3d",
+      "family": "bratu",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bratu3d/bratu3d.mtx",
+      "rows": 27792,
+      "cols": 27792,
+      "file_nnz": 88627,
+      "bytes": 1387844,
+      "split": "train"
+    },
+    {
+      "matrix": "blockqp1",
+      "family": "blockqp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/blockqp1/blockqp1.mtx",
+      "rows": 60012,
+      "cols": 60012,
+      "file_nnz": 340022,
+      "bytes": 4745356,
+      "split": "train"
+    },
+    {
+      "matrix": "gearbox",
+      "family": "gearbox",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gearbox/gearbox.mtx",
+      "rows": 153746,
+      "cols": 153746,
+      "file_nnz": 4617075,
+      "bytes": 57607466,
+      "split": "train"
+    },
+    {
+      "matrix": "packing-500x100x100-b050",
+      "family": "packing",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/packing-500x100x100-b050/packing-500x100x100-b050.mtx",
+      "rows": 2145852,
+      "cols": 2145852,
+      "file_nnz": 17488243,
+      "bytes": 261651756,
+      "split": "dev"
+    },
+    {
+      "matrix": "well1033",
+      "family": "well",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/well1033/well1033.mtx",
+      "rows": 1033,
+      "cols": 320,
+      "file_nnz": 4732,
+      "bytes": 96000,
+      "split": "train"
+    },
+    {
+      "matrix": "soc-sign-bitcoin-alpha",
+      "family": "soc-sign-bitcoin-alpha",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/soc-sign-bitcoin-alpha/soc-sign-bitcoin-alpha.mtx",
+      "rows": 3783,
+      "cols": 3783,
+      "file_nnz": 24186,
+      "bytes": 244777,
+      "split": "test"
+    },
+    {
+      "matrix": "nsct",
+      "family": "nsct",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nsct/nsct.mtx",
+      "rows": 23003,
+      "cols": 37563,
+      "file_nnz": 697738,
+      "bytes": 11019163,
+      "split": "train"
+    },
+    {
+      "matrix": "netherlands_osm",
+      "family": "netherlands_osm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/netherlands_osm/netherlands_osm.mtx",
+      "rows": 2216688,
+      "cols": 2216688,
+      "file_nnz": 2441238,
+      "bytes": 36583936,
+      "split": "train"
+    },
+    {
+      "matrix": "higgs-twitter",
+      "family": "higgs-twitter",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/higgs-twitter/higgs-twitter.mtx",
+      "rows": 456626,
+      "cols": 456626,
+      "file_nnz": 14855842,
+      "bytes": 180440758,
+      "split": "train"
+    },
+    {
+      "matrix": "oscil_trans_01",
+      "family": "oscil_trans",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/oscil_trans_01/oscil_trans_01.mtx",
+      "rows": 430,
+      "cols": 430,
+      "file_nnz": 1614,
+      "bytes": 34009,
+      "split": "dev"
+    },
+    {
+      "matrix": "stokes64",
+      "family": "stokes",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/stokes64/stokes64.mtx",
+      "rows": 12546,
+      "cols": 12546,
+      "file_nnz": 74242,
+      "bytes": 2129584,
+      "split": "train"
+    },
+    {
+      "matrix": "rat",
+      "family": "rat",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rat/rat.mtx",
+      "rows": 3136,
+      "cols": 9408,
+      "file_nnz": 268908,
+      "bytes": 4595328,
+      "split": "test"
+    },
+    {
+      "matrix": "ESOC",
+      "family": "esoc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ESOC/ESOC.mtx",
+      "rows": 327062,
+      "cols": 37830,
+      "file_nnz": 6019939,
+      "bytes": 176940200,
+      "split": "train"
+    },
+    {
+      "matrix": "gsm_106857",
+      "family": "gsm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gsm_106857/gsm_106857.mtx",
+      "rows": 589446,
+      "cols": 589446,
+      "file_nnz": 11174185,
+      "bytes": 381166735,
+      "split": "train"
+    },
+    {
+      "matrix": "Ecoli_10NN",
+      "family": "ecoli",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Ecoli_10NN/Ecoli_10NN.mtx",
+      "rows": 336,
+      "cols": 336,
+      "file_nnz": 2280,
+      "bytes": 62785,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_cre_c",
+      "family": "lp_cre_c",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_cre_c/lp_cre_c.mtx",
+      "rows": 3068,
+      "cols": 6411,
+      "file_nnz": 15977,
+      "bytes": 193459,
+      "split": "dev"
+    },
+    {
+      "matrix": "cit-HepPh",
+      "family": "cit-hepph",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cit-HepPh/cit-HepPh.mtx",
+      "rows": 34546,
+      "cols": 34546,
+      "file_nnz": 421578,
+      "bytes": 4795556,
+      "split": "train"
+    },
+    {
+      "matrix": "Stanford",
+      "family": "stanford",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Stanford/Stanford.mtx",
+      "rows": 281903,
+      "cols": 281903,
+      "file_nnz": 2312497,
+      "bytes": 30576225,
+      "split": "test"
+    },
+    {
+      "matrix": "road_central",
+      "family": "road_central",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/road_central/road_central.mtx",
+      "rows": 14081816,
+      "cols": 14081816,
+      "file_nnz": 16933413,
+      "bytes": 278013277,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_bore3d",
+      "family": "lp_bore",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_bore3d/lp_bore3d.mtx",
+      "rows": 233,
+      "cols": 334,
+      "file_nnz": 1448,
+      "bytes": 21485,
+      "split": "train"
+    },
+    {
+      "matrix": "swang1",
+      "family": "swang",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/swang1/swang1.mtx",
+      "rows": 3169,
+      "cols": 3169,
+      "file_nnz": 20841,
+      "bytes": 430633,
+      "split": "train"
+    },
+    {
+      "matrix": "la2010",
+      "family": "la",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/la2010/la2010.mtx",
+      "rows": 204447,
+      "cols": 204447,
+      "file_nnz": 490317,
+      "bytes": 9186721,
+      "split": "dev"
+    },
+    {
+      "matrix": "ns3Da",
+      "family": "ns",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ns3Da/ns3Da.mtx",
+      "rows": 20414,
+      "cols": 20414,
+      "file_nnz": 1679599,
+      "bytes": 53155659,
+      "split": "train"
+    },
+    {
+      "matrix": "wikipedia-20051105",
+      "family": "wikipedia",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wikipedia-20051105/wikipedia-20051105.mtx",
+      "rows": 1634989,
+      "cols": 1634989,
+      "file_nnz": 19753078,
+      "bytes": 268117058,
+      "split": "test"
+    },
+    {
+      "matrix": "YaleA_10NN",
+      "family": "yalea",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/YaleA_10NN/YaleA_10NN.mtx",
+      "rows": 165,
+      "cols": 165,
+      "file_nnz": 1134,
+      "bytes": 31858,
+      "split": "train"
+    },
+    {
+      "matrix": "mbeacxc",
+      "family": "mbeacxc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mbeacxc/mbeacxc.mtx",
+      "rows": 496,
+      "cols": 496,
+      "file_nnz": 49920,
+      "bytes": 983320,
+      "split": "train"
+    },
+    {
+      "matrix": "usroads-48",
+      "family": "usroads",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/usroads-48/usroads-48.mtx",
+      "rows": 126146,
+      "cols": 126146,
+      "file_nnz": 161950,
+      "bytes": 1982421,
+      "split": "train"
+    },
+    {
+      "matrix": "engine",
+      "family": "engine",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/engine/engine.mtx",
+      "rows": 143571,
+      "cols": 143571,
+      "file_nnz": 2424822,
+      "bytes": 35621324,
+      "split": "dev"
+    },
+    {
+      "matrix": "eu-2005",
+      "family": "eu",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/eu-2005/eu-2005.mtx",
+      "rows": 862664,
+      "cols": 862664,
+      "file_nnz": 19235140,
+      "bytes": 265363513,
+      "split": "train"
+    },
+    {
+      "matrix": "odepa400",
+      "family": "odepa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/odepa400/odepa400.mtx",
+      "rows": 400,
+      "cols": 400,
+      "file_nnz": 1201,
+      "bytes": 12324,
+      "split": "test"
+    },
+    {
+      "matrix": "email-Eu-core-temporal",
+      "family": "email-eu-core-temporal",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core-temporal/email-Eu-core-temporal.mtx",
+      "rows": 1005,
+      "cols": 1005,
+      "file_nnz": 24929,
+      "bytes": 259153,
+      "split": "train"
+    },
+    {
+      "matrix": "208bit",
+      "family": "208bit",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/208bit/208bit.mtx",
+      "rows": 24430,
+      "cols": 24421,
+      "file_nnz": 299756,
+      "bytes": 2828439,
+      "split": "train"
+    },
+    {
+      "matrix": "vsp_bcsstk30_500sep_10in_1Kout",
+      "family": "vsp_bcsstk",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_bcsstk30_500sep_10in_1Kout/vsp_bcsstk30_500sep_10in_1Kout.mtx",
+      "rows": 58348,
+      "cols": 58348,
+      "file_nnz": 2016578,
+      "bytes": 23433157,
+      "split": "train"
+    },
+    {
+      "matrix": "mawi_201512012345",
+      "family": "mawi",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mawi_201512012345/mawi_201512012345.mtx",
+      "rows": 18571154,
+      "cols": 18571154,
+      "file_nnz": 19020160,
+      "bytes": 350569117,
+      "split": "dev"
+    },
+    {
+      "matrix": "494_bus",
+      "family": "494_bus",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/494_bus/494_bus.mtx",
+      "rows": 494,
+      "cols": 494,
+      "file_nnz": 1080,
+      "bytes": 18779,
+      "split": "train"
+    },
+    {
+      "matrix": "bfly",
+      "family": "bfly",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bfly/bfly.mtx",
+      "rows": 49152,
+      "cols": 49152,
+      "file_nnz": 98304,
+      "bytes": 1139514,
+      "split": "test"
+    },
+    {
+      "matrix": "rlfprim",
+      "family": "rlfprim",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/rlfprim/rlfprim.mtx",
+      "rows": 58866,
+      "cols": 62716,
+      "file_nnz": 320591,
+      "bytes": 4439506,
+      "split": "train"
+    },
+    {
+      "matrix": "GaAsH6",
+      "family": "gaash",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/GaAsH6/GaAsH6.mtx",
+      "rows": 61349,
+      "cols": 61349,
+      "file_nnz": 1721579,
+      "bytes": 53968721,
+      "split": "train"
+    },
+    {
+      "matrix": "mouse_gene",
+      "family": "mouse_gene",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mouse_gene/mouse_gene.mtx",
+      "rows": 45101,
+      "cols": 45101,
+      "file_nnz": 14506196,
+      "bytes": 447387587,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_standmps",
+      "family": "lp_standmps",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_standmps/lp_standmps.mtx",
+      "rows": 467,
+      "cols": 1274,
+      "file_nnz": 3878,
+      "bytes": 46103,
+      "split": "dev"
+    },
+    {
+      "matrix": "LFAT5000",
+      "family": "lfat",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/LFAT5000/LFAT5000.mtx",
+      "rows": 19994,
+      "cols": 19994,
+      "file_nnz": 49980,
+      "bytes": 1489635,
+      "split": "train"
+    },
+    {
+      "matrix": "com-Amazon",
+      "family": "com-amazon",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/com-Amazon/com-Amazon.mtx",
+      "rows": 334863,
+      "cols": 334863,
+      "file_nnz": 925872,
+      "bytes": 12351162,
+      "split": "test"
+    },
+    {
+      "matrix": "venturiLevel3",
+      "family": "venturilevel",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/venturiLevel3/venturiLevel3.mtx",
+      "rows": 4026819,
+      "cols": 4026819,
+      "file_nnz": 8054237,
+      "bytes": 124428110,
+      "split": "train"
+    },
+    {
+      "matrix": "bundle_adj",
+      "family": "bundle_adj",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bundle_adj/bundle_adj.mtx",
+      "rows": 513351,
+      "cols": 513351,
+      "file_nnz": 10360701,
+      "bytes": 317266283,
+      "split": "train"
+    },
+    {
+      "matrix": "qiulp",
+      "family": "qiulp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/qiulp/qiulp.mtx",
+      "rows": 1192,
+      "cols": 1900,
+      "file_nnz": 4492,
+      "bytes": 51884,
+      "split": "train"
+    },
+    {
+      "matrix": "crack_dual",
+      "family": "crack_dual",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/crack_dual/crack_dual.mtx",
+      "rows": 20141,
+      "cols": 20141,
+      "file_nnz": 30043,
+      "bytes": 330505,
+      "split": "dev"
+    },
+    {
+      "matrix": "wiki-RfA",
+      "family": "wiki-rfa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-RfA/wiki-RfA.mtx",
+      "rows": 11380,
+      "cols": 11380,
+      "file_nnz": 188077,
+      "bytes": 2280181,
+      "split": "train"
+    },
+    {
+      "matrix": "degme",
+      "family": "degme",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/degme/degme.mtx",
+      "rows": 185501,
+      "cols": 659415,
+      "file_nnz": 8127528,
+      "bytes": 135987951,
+      "split": "test"
+    },
+    {
+      "matrix": "StocF-1465",
+      "family": "stocf",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/StocF-1465/StocF-1465.mtx",
+      "rows": 1465137,
+      "cols": 1465137,
+      "file_nnz": 11235263,
+      "bytes": 306248676,
+      "split": "train"
+    },
+    {
+      "matrix": "mcca",
+      "family": "mcca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mcca/mcca.mtx",
+      "rows": 180,
+      "cols": 180,
+      "file_nnz": 2659,
+      "bytes": 50119,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_dfl001",
+      "family": "lp_dfl",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_dfl001/lp_dfl001.mtx",
+      "rows": 6071,
+      "cols": 12230,
+      "file_nnz": 35632,
+      "bytes": 448366,
+      "split": "train"
+    },
+    {
+      "matrix": "Kuu",
+      "family": "kuu",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Kuu/Kuu.mtx",
+      "rows": 7102,
+      "cols": 7102,
+      "file_nnz": 173651,
+      "bytes": 5110147,
+      "split": "dev"
+    },
+    {
+      "matrix": "matrix-new_3",
+      "family": "matrix-new",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/matrix-new_3/matrix-new_3.mtx",
+      "rows": 125329,
+      "cols": 125329,
+      "file_nnz": 2678750,
+      "bytes": 49242567,
+      "split": "train"
+    },
+    {
+      "matrix": "coPapersDBLP",
+      "family": "copapersdblp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/coPapersDBLP/coPapersDBLP.mtx",
+      "rows": 540486,
+      "cols": 540486,
+      "file_nnz": 15245729,
+      "bytes": 200648163,
+      "split": "test"
+    },
+    {
+      "matrix": "lpi_mondou2",
+      "family": "lpi_mondou",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_mondou2/lpi_mondou2.mtx",
+      "rows": 312,
+      "cols": 604,
+      "file_nnz": 1208,
+      "bytes": 14389,
+      "split": "train"
+    },
+    {
+      "matrix": "shyy41",
+      "family": "shyy",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shyy41/shyy41.mtx",
+      "rows": 4720,
+      "cols": 4720,
+      "file_nnz": 20042,
+      "bytes": 386921,
+      "split": "train"
+    },
+    {
+      "matrix": "az2010",
+      "family": "az",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/az2010/az2010.mtx",
+      "rows": 241666,
+      "cols": 241666,
+      "file_nnz": 598047,
+      "bytes": 11311278,
+      "split": "train"
+    },
+    {
+      "matrix": "com-DBLP",
+      "family": "com-dblp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/com-DBLP/com-DBLP.mtx",
+      "rows": 317080,
+      "cols": 317080,
+      "file_nnz": 1049866,
+      "bytes": 13615972,
+      "split": "dev"
+    },
+    {
+      "matrix": "germany_osm",
+      "family": "germany_osm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/germany_osm/germany_osm.mtx",
+      "rows": 11548845,
+      "cols": 11548845,
+      "file_nnz": 12369181,
+      "bytes": 198530725,
+      "split": "train"
+    },
+    {
+      "matrix": "NotreDame_yeast",
+      "family": "notredame_yeast",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/NotreDame_yeast/NotreDame_yeast.mtx",
+      "rows": 2114,
+      "cols": 2114,
+      "file_nnz": 2277,
+      "bytes": 20828,
+      "split": "test"
+    },
+    {
+      "matrix": "brainpc2",
+      "family": "brainpc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/brainpc2/brainpc2.mtx",
+      "rows": 27607,
+      "cols": 27607,
+      "file_nnz": 96601,
+      "bytes": 1630248,
+      "split": "train"
+    },
+    {
+      "matrix": "graham1",
+      "family": "graham",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/graham1/graham1.mtx",
+      "rows": 9035,
+      "cols": 9035,
+      "file_nnz": 335504,
+      "bytes": 10007041,
+      "split": "train"
+    },
+    {
+      "matrix": "nasasrb",
+      "family": "nasasrb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/nasasrb/nasasrb.mtx",
+      "rows": 54870,
+      "cols": 54870,
+      "file_nnz": 1366097,
+      "bytes": 38552486,
+      "split": "train"
+    },
+    {
+      "matrix": "asia_osm",
+      "family": "asia_osm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/asia_osm/asia_osm.mtx",
+      "rows": 11950757,
+      "cols": 11950757,
+      "file_nnz": 12711603,
+      "bytes": 205074867,
+      "split": "dev"
+    },
+    {
+      "matrix": "Chem97ZtZ",
+      "family": "chem",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Chem97ZtZ/Chem97ZtZ.mtx",
+      "rows": 2541,
+      "cols": 2541,
+      "file_nnz": 4951,
+      "bytes": 83528,
+      "split": "train"
+    },
+    {
+      "matrix": "car4",
+      "family": "car",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/car4/car4.mtx",
+      "rows": 16384,
+      "cols": 33052,
+      "file_nnz": 63724,
+      "bytes": 955543,
+      "split": "test"
+    },
+    {
+      "matrix": "spmsrtls",
+      "family": "spmsrtls",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/spmsrtls/spmsrtls.mtx",
+      "rows": 29995,
+      "cols": 29995,
+      "file_nnz": 129971,
+      "bytes": 3949490,
+      "split": "train"
+    },
+    {
+      "matrix": "connectus",
+      "family": "connectus",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/connectus/connectus.mtx",
+      "rows": 512,
+      "cols": 394792,
+      "file_nnz": 1127525,
+      "bytes": 10971455,
+      "split": "train"
+    },
+    {
+      "matrix": "F1",
+      "family": "f",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/F1/F1.mtx",
+      "rows": 343791,
+      "cols": 343791,
+      "file_nnz": 13590452,
+      "bytes": 417834415,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_bandm",
+      "family": "lp_bandm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_bandm/lp_bandm.mtx",
+      "rows": 305,
+      "cols": 472,
+      "file_nnz": 2494,
+      "bytes": 34613,
+      "split": "dev"
+    },
+    {
+      "matrix": "linverse",
+      "family": "linverse",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/linverse/linverse.mtx",
+      "rows": 11999,
+      "cols": 11999,
+      "file_nnz": 53988,
+      "bytes": 1603299,
+      "split": "train"
+    },
+    {
+      "matrix": "loc-Brightkite",
+      "family": "loc-brightkite",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/loc-Brightkite/loc-Brightkite.mtx",
+      "rows": 58228,
+      "cols": 58228,
+      "file_nnz": 214078,
+      "bytes": 2296999,
+      "split": "test"
+    },
+    {
+      "matrix": "fullb",
+      "family": "fullb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fullb/fullb.mtx",
+      "rows": 199187,
+      "cols": 199187,
+      "file_nnz": 5953632,
+      "bytes": 76778239,
+      "split": "train"
+    },
+    {
+      "matrix": "tp-6",
+      "family": "tp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/tp-6/tp-6.mtx",
+      "rows": 142752,
+      "cols": 1014301,
+      "file_nnz": 11537419,
+      "bytes": 190349465,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_sierra",
+      "family": "lp_sierra",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_sierra/lp_sierra.mtx",
+      "rows": 1227,
+      "cols": 2735,
+      "file_nnz": 8001,
+      "bytes": 96318,
+      "split": "train"
+    },
+    {
+      "matrix": "Lederberg",
+      "family": "lederberg",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Lederberg/Lederberg.mtx",
+      "rows": 8843,
+      "cols": 8843,
+      "file_nnz": 41601,
+      "bytes": 477236,
+      "split": "dev"
+    },
+    {
+      "matrix": "pfinan512",
+      "family": "pfinan",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/pfinan512/pfinan512.mtx",
+      "rows": 74752,
+      "cols": 74752,
+      "file_nnz": 335872,
+      "bytes": 3929167,
+      "split": "train"
+    },
+    {
+      "matrix": "NACA0015",
+      "family": "naca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/NACA0015/NACA0015.mtx",
+      "rows": 1039183,
+      "cols": 1039183,
+      "file_nnz": 3114818,
+      "bytes": 43158387,
+      "split": "test"
+    },
+    {
+      "matrix": "patents",
+      "family": "patents",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/patents/patents.mtx",
+      "rows": 3774768,
+      "cols": 3774768,
+      "file_nnz": 14970767,
+      "bytes": 237082484,
+      "split": "train"
+    },
+    {
+      "matrix": "orsirr_2",
+      "family": "orsirr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/orsirr_2/orsirr_2.mtx",
+      "rows": 886,
+      "cols": 886,
+      "file_nnz": 5970,
+      "bytes": 91682,
+      "split": "train"
+    },
+    {
+      "matrix": "ca-GrQc",
+      "family": "ca-grqc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ca-GrQc/ca-GrQc.mtx",
+      "rows": 5242,
+      "cols": 5242,
+      "file_nnz": 14496,
+      "bytes": 142721,
+      "split": "train"
+    },
+    {
+      "matrix": "vsp_vibrobox_scagr7-2c_rlfddd",
+      "family": "vsp_vibrobox_scagr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_vibrobox_scagr7-2c_rlfddd/vsp_vibrobox_scagr7-2c_rlfddd.mtx",
+      "rows": 77328,
+      "cols": 77328,
+      "file_nnz": 435586,
+      "bytes": 4946793,
+      "split": "dev"
+    },
+    {
+      "matrix": "wiki-Talk",
+      "family": "wiki-talk",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-Talk/wiki-Talk.mtx",
+      "rows": 2394385,
+      "cols": 2394385,
+      "file_nnz": 5021410,
+      "bytes": 61451746,
+      "split": "train"
+    },
+    {
+      "matrix": "kron_g500-logn18",
+      "family": "kron_g",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/kron_g500-logn18/kron_g500-logn18.mtx",
+      "rows": 262144,
+      "cols": 262144,
+      "file_nnz": 10583222,
+      "bytes": 160536321,
+      "split": "test"
+    },
+    {
+      "matrix": "problem1",
+      "family": "problem",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/problem1/problem1.mtx",
+      "rows": 415,
+      "cols": 415,
+      "file_nnz": 2779,
+      "bytes": 74291,
+      "split": "train"
+    },
+    {
+      "matrix": "zeros_nopss_13k",
+      "family": "zeros_nopss",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/zeros_nopss_13k/zeros_nopss_13k.mtx",
+      "rows": 13296,
+      "cols": 13296,
+      "file_nnz": 48827,
+      "bytes": 1243795,
+      "split": "train"
+    },
+    {
+      "matrix": "fe_tooth",
+      "family": "fe_tooth",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fe_tooth/fe_tooth.mtx",
+      "rows": 78136,
+      "cols": 78136,
+      "file_nnz": 452591,
+      "bytes": 5346743,
+      "split": "train"
+    },
+    {
+      "matrix": "vanbody",
+      "family": "vanbody",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vanbody/vanbody.mtx",
+      "rows": 47072,
+      "cols": 47072,
+      "file_nnz": 1191985,
+      "bytes": 36274803,
+      "split": "dev"
+    },
+    {
+      "matrix": "memchip",
+      "family": "memchip",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/memchip/memchip.mtx",
+      "rows": 2707524,
+      "cols": 2707524,
+      "file_nnz": 14810202,
+      "bytes": 507466298,
+      "split": "train"
+    },
+    {
+      "matrix": "sphere3",
+      "family": "sphere",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sphere3/sphere3.mtx",
+      "rows": 258,
+      "cols": 258,
+      "file_nnz": 1026,
+      "bytes": 7928,
+      "split": "test"
+    },
+    {
+      "matrix": "Kaufhold",
+      "family": "kaufhold",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Kaufhold/Kaufhold.mtx",
+      "rows": 8765,
+      "cols": 8765,
+      "file_nnz": 42471,
+      "bytes": 1332939,
+      "split": "train"
+    },
+    {
+      "matrix": "ny2010",
+      "family": "ny",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ny2010/ny2010.mtx",
+      "rows": 350169,
+      "cols": 350169,
+      "file_nnz": 854772,
+      "bytes": 16394205,
+      "split": "train"
+    },
+    {
+      "matrix": "webbase-1M",
+      "family": "webbase",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/webbase-1M/webbase-1M.mtx",
+      "rows": 1000005,
+      "cols": 1000005,
+      "file_nnz": 3105536,
+      "bytes": 70667857,
+      "split": "train"
+    },
+    {
+      "matrix": "human_gene1",
+      "family": "human_gene",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/human_gene1/human_gene1.mtx",
+      "rows": 22283,
+      "cols": 22283,
+      "file_nnz": 12345963,
+      "bytes": 374714138,
+      "split": "dev"
+    },
+    {
+      "matrix": "small",
+      "family": "small",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/small/small.mtx",
+      "rows": 677,
+      "cols": 1400,
+      "file_nnz": 3207,
+      "bytes": 45333,
+      "split": "train"
+    },
+    {
+      "matrix": "orani678",
+      "family": "orani",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/orani678/orani678.mtx",
+      "rows": 2529,
+      "cols": 2529,
+      "file_nnz": 90158,
+      "bytes": 1954143,
+      "split": "test"
+    },
+    {
+      "matrix": "cit-HepTh",
+      "family": "cit-hepth",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cit-HepTh/cit-HepTh.mtx",
+      "rows": 27770,
+      "cols": 27770,
+      "file_nnz": 352807,
+      "bytes": 3944835,
+      "split": "train"
+    },
+    {
+      "matrix": "flickr",
+      "family": "flickr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/flickr/flickr.mtx",
+      "rows": 820878,
+      "cols": 820878,
+      "file_nnz": 9837214,
+      "bytes": 121825514,
+      "split": "train"
+    },
+    {
+      "matrix": "atmosmodm",
+      "family": "atmosmodm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/atmosmodm/atmosmodm.mtx",
+      "rows": 1489752,
+      "cols": 1489752,
+      "file_nnz": 10319760,
+      "bytes": 221980901,
+      "split": "train"
+    },
+    {
+      "matrix": "umistfacesnorm_10NN",
+      "family": "umistfacesnorm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/umistfacesnorm_10NN/umistfacesnorm_10NN.mtx",
+      "rows": 575,
+      "cols": 575,
+      "file_nnz": 3495,
+      "bytes": 95720,
+      "split": "dev"
+    },
+    {
+      "matrix": "lpi_gosh",
+      "family": "lpi_gosh",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_gosh/lpi_gosh.mtx",
+      "rows": 3792,
+      "cols": 13455,
+      "file_nnz": 99953,
+      "bytes": 1566108,
+      "split": "train"
+    },
+    {
+      "matrix": "wing",
+      "family": "wing",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wing/wing.mtx",
+      "rows": 62032,
+      "cols": 62032,
+      "file_nnz": 121544,
+      "bytes": 1432366,
+      "split": "test"
+    },
+    {
+      "matrix": "ins2",
+      "family": "ins",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ins2/ins2.mtx",
+      "rows": 309412,
+      "cols": 309412,
+      "file_nnz": 1530448,
+      "bytes": 20693545,
+      "split": "train"
+    },
+    {
+      "matrix": "adaptive",
+      "family": "adaptive",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/adaptive/adaptive.mtx",
+      "rows": 6815744,
+      "cols": 6815744,
+      "file_nnz": 13624320,
+      "bytes": 213559431,
+      "split": "train"
+    },
+    {
+      "matrix": "shl_200",
+      "family": "shl",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/shl_200/shl_200.mtx",
+      "rows": 663,
+      "cols": 663,
+      "file_nnz": 1726,
+      "bytes": 17825,
+      "split": "train"
+    },
+    {
+      "matrix": "init_adder1",
+      "family": "init_adder",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/init_adder1/init_adder1.mtx",
+      "rows": 1813,
+      "cols": 1813,
+      "file_nnz": 11156,
+      "bytes": 318953,
+      "split": "dev"
+    },
+    {
+      "matrix": "denormal",
+      "family": "denormal",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/denormal/denormal.mtx",
+      "rows": 89400,
+      "cols": 89400,
+      "file_nnz": 622812,
+      "bytes": 10526992,
+      "split": "train"
+    },
+    {
+      "matrix": "Lin",
+      "family": "lin",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Lin/Lin.mtx",
+      "rows": 256000,
+      "cols": 256000,
+      "file_nnz": 1011200,
+      "bytes": 32215886,
+      "split": "test"
+    },
+    {
+      "matrix": "Glass_10NN",
+      "family": "glass",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Glass_10NN/Glass_10NN.mtx",
+      "rows": 214,
+      "cols": 214,
+      "file_nnz": 1493,
+      "bytes": 41395,
+      "split": "train"
+    },
+    {
+      "matrix": "kmnist_norm_10NN",
+      "family": "kmnist_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/kmnist_norm_10NN/kmnist_norm_10NN.mtx",
+      "rows": 10000,
+      "cols": 10000,
+      "file_nnz": 78466,
+      "bytes": 2296157,
+      "split": "train"
+    },
+    {
+      "matrix": "smallworld",
+      "family": "smallworld",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/smallworld/smallworld.mtx",
+      "rows": 100000,
+      "cols": 100000,
+      "file_nnz": 499998,
+      "bytes": 5890317,
+      "split": "train"
+    },
+    {
+      "matrix": "largebasis",
+      "family": "largebasis",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/largebasis/largebasis.mtx",
+      "rows": 440020,
+      "cols": 440020,
+      "file_nnz": 5560100,
+      "bytes": 173334605,
+      "split": "dev"
+    },
+    {
+      "matrix": "lnsp_511",
+      "family": "lnsp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lnsp_511/lnsp_511.mtx",
+      "rows": 511,
+      "cols": 511,
+      "file_nnz": 2796,
+      "bytes": 54479,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_greenbeb",
+      "family": "lp_greenbeb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_greenbeb/lp_greenbeb.mtx",
+      "rows": 2392,
+      "cols": 5598,
+      "file_nnz": 31070,
+      "bytes": 450047,
+      "split": "test"
+    },
+    {
+      "matrix": "wiki-Vote",
+      "family": "wiki-vote",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wiki-Vote/wiki-Vote.mtx",
+      "rows": 8297,
+      "cols": 8297,
+      "file_nnz": 103689,
+      "bytes": 995847,
+      "split": "train"
+    },
+    {
+      "matrix": "tsyl201",
+      "family": "tsyl",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/tsyl201/tsyl201.mtx",
+      "rows": 20685,
+      "cols": 20685,
+      "file_nnz": 1237821,
+      "bytes": 13524053,
+      "split": "train"
+    },
+    {
+      "matrix": "Olivetti_norm_10NN",
+      "family": "olivetti_norm",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Olivetti_norm_10NN/Olivetti_norm_10NN.mtx",
+      "rows": 400,
+      "cols": 400,
+      "file_nnz": 2828,
+      "bytes": 78207,
+      "split": "train"
+    },
+    {
+      "matrix": "har_10NN",
+      "family": "har",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/har_10NN/har_10NN.mtx",
+      "rows": 10299,
+      "cols": 10299,
+      "file_nnz": 75868,
+      "bytes": 2223351,
+      "split": "dev"
+    },
+    {
+      "matrix": "vibrobox",
+      "family": "vibrobox",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vibrobox/vibrobox.mtx",
+      "rows": 12328,
+      "cols": 12328,
+      "file_nnz": 177578,
+      "bytes": 4799934,
+      "split": "train"
+    },
+    {
+      "matrix": "web-NotreDame",
+      "family": "web-notredame",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/web-NotreDame/web-NotreDame.mtx",
+      "rows": 325729,
+      "cols": 325729,
+      "file_nnz": 1497134,
+      "bytes": 20062432,
+      "split": "test"
+    },
+    {
+      "matrix": "lp_share1b",
+      "family": "lp_share",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_share1b/lp_share1b.mtx",
+      "rows": 117,
+      "cols": 253,
+      "file_nnz": 1179,
+      "bytes": 17250,
+      "split": "train"
+    },
+    {
+      "matrix": "Oregon-1",
+      "family": "oregon",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Oregon-1/Oregon-1.mtx",
+      "rows": 11492,
+      "cols": 11492,
+      "file_nnz": 23409,
+      "bytes": 227402,
+      "split": "train"
+    },
+    {
+      "matrix": "e18",
+      "family": "e",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/e18/e18.mtx",
+      "rows": 24617,
+      "cols": 38602,
+      "file_nnz": 156466,
+      "bytes": 2170574,
+      "split": "train"
+    },
+    {
+      "matrix": "smt",
+      "family": "smt",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/smt/smt.mtx",
+      "rows": 25710,
+      "cols": 25710,
+      "file_nnz": 1889447,
+      "bytes": 56463029,
+      "split": "dev"
+    },
+    {
+      "matrix": "USAir97",
+      "family": "usair",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/USAir97/USAir97.mtx",
+      "rows": 332,
+      "cols": 332,
+      "file_nnz": 2126,
+      "bytes": 29977,
+      "split": "train"
+    },
+    {
+      "matrix": "biplane-9",
+      "family": "biplane",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/biplane-9/biplane-9.mtx",
+      "rows": 21701,
+      "cols": 21701,
+      "file_nnz": 42038,
+      "bytes": 464521,
+      "split": "test"
+    },
+    {
+      "matrix": "world",
+      "family": "world",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/world/world.mtx",
+      "rows": 34506,
+      "cols": 67147,
+      "file_nnz": 198883,
+      "bytes": 3134913,
+      "split": "train"
+    },
+    {
+      "matrix": "sls",
+      "family": "sls",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sls/sls.mtx",
+      "rows": 1748122,
+      "cols": 62729,
+      "file_nnz": 6804304,
+      "bytes": 179919818,
+      "split": "train"
+    },
+    {
+      "matrix": "saylr1",
+      "family": "saylr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/saylr1/saylr1.mtx",
+      "rows": 238,
+      "cols": 238,
+      "file_nnz": 1128,
+      "bytes": 16806,
+      "split": "train"
+    },
+    {
+      "matrix": "fe_sphere",
+      "family": "fe_sphere",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fe_sphere/fe_sphere.mtx",
+      "rows": 16386,
+      "cols": 16386,
+      "file_nnz": 49152,
+      "bytes": 535241,
+      "split": "dev"
+    },
+    {
+      "matrix": "gyro_m",
+      "family": "gyro_m",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gyro_m/gyro_m.mtx",
+      "rows": 17361,
+      "cols": 17361,
+      "file_nnz": 178896,
+      "bytes": 5968917,
+      "split": "train"
+    },
+    {
+      "matrix": "watson_1",
+      "family": "watson",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/watson_1/watson_1.mtx",
+      "rows": 201155,
+      "cols": 386992,
+      "file_nnz": 1055093,
+      "bytes": 18567823,
+      "split": "test"
+    },
+    {
+      "matrix": "laser",
+      "family": "laser",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/laser/laser.mtx",
+      "rows": 3002,
+      "cols": 3002,
+      "file_nnz": 5000,
+      "bytes": 85208,
+      "split": "train"
+    },
+    {
+      "matrix": "beaflw",
+      "family": "beaflw",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/beaflw/beaflw.mtx",
+      "rows": 497,
+      "cols": 507,
+      "file_nnz": 53403,
+      "bytes": 942160,
+      "split": "train"
+    },
+    {
+      "matrix": "ncvxbqp1",
+      "family": "ncvxbqp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ncvxbqp1/ncvxbqp1.mtx",
+      "rows": 50000,
+      "cols": 50000,
+      "file_nnz": 199984,
+      "bytes": 3746503,
+      "split": "train"
+    },
+    {
+      "matrix": "exdata_1",
+      "family": "exdata",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/exdata_1/exdata_1.mtx",
+      "rows": 6001,
+      "cols": 6001,
+      "file_nnz": 1137751,
+      "bytes": 24017770,
+      "split": "dev"
+    },
+    {
+      "matrix": "Journals",
+      "family": "journals",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/Journals/Journals.mtx",
+      "rows": 124,
+      "cols": 124,
+      "file_nnz": 6096,
+      "bytes": 56599,
+      "split": "train"
+    },
+    {
+      "matrix": "stoch_aircraft",
+      "family": "stoch_aircraft",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/stoch_aircraft/stoch_aircraft.mtx",
+      "rows": 3754,
+      "cols": 7517,
+      "file_nnz": 20267,
+      "bytes": 219008,
+      "split": "test"
+    },
+    {
+      "matrix": "gridgena",
+      "family": "gridgena",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gridgena/gridgena.mtx",
+      "rows": 48962,
+      "cols": 48962,
+      "file_nnz": 280523,
+      "bytes": 9113704,
+      "split": "train"
+    },
+    {
+      "matrix": "windtunnel_evap3d",
+      "family": "windtunnel_evap",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/windtunnel_evap3d/windtunnel_evap3d.mtx",
+      "rows": 40816,
+      "cols": 40816,
+      "file_nnz": 2730600,
+      "bytes": 52221201,
+      "split": "train"
+    },
+    {
+      "matrix": "lp_scagr25",
+      "family": "lp_scagr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_scagr25/lp_scagr25.mtx",
+      "rows": 471,
+      "cols": 671,
+      "file_nnz": 1725,
+      "bytes": 21536,
+      "split": "train"
+    },
+    {
+      "matrix": "cca",
+      "family": "cca",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cca/cca.mtx",
+      "rows": 49152,
+      "cols": 49152,
+      "file_nnz": 69632,
+      "bytes": 808427,
+      "split": "dev"
+    },
+    {
+      "matrix": "mesh_deform",
+      "family": "mesh_deform",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mesh_deform/mesh_deform.mtx",
+      "rows": 234023,
+      "cols": 9393,
+      "file_nnz": 853829,
+      "bytes": 26409123,
+      "split": "train"
+    },
+    {
+      "matrix": "mosfet2",
+      "family": "mosfet",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/mosfet2/mosfet2.mtx",
+      "rows": 46994,
+      "cols": 46994,
+      "file_nnz": 1499460,
+      "bytes": 29899634,
+      "split": "test"
+    },
+    {
+      "matrix": "lp_gfrd_pnc",
+      "family": "lp_gfrd_pnc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_gfrd_pnc/lp_gfrd_pnc.mtx",
+      "rows": 616,
+      "cols": 1160,
+      "file_nnz": 2445,
+      "bytes": 32749,
+      "split": "train"
+    },
+    {
+      "matrix": "crack",
+      "family": "crack",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/crack/crack.mtx",
+      "rows": 10240,
+      "cols": 10240,
+      "file_nnz": 30380,
+      "bytes": 299587,
+      "split": "train"
+    },
+    {
+      "matrix": "sx-superuser",
+      "family": "sx-superuser",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sx-superuser/sx-superuser.mtx",
+      "rows": 194085,
+      "cols": 194085,
+      "file_nnz": 924886,
+      "bytes": 12950755,
+      "split": "train"
+    },
+    {
+      "matrix": "cnr-2000",
+      "family": "cnr",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cnr-2000/cnr-2000.mtx",
+      "rows": 325557,
+      "cols": 325557,
+      "file_nnz": 3216152,
+      "bytes": 42799153,
+      "split": "dev"
+    },
+    {
+      "matrix": "jazz",
+      "family": "jazz",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/jazz/jazz.mtx",
+      "rows": 198,
+      "cols": 198,
+      "file_nnz": 2742,
+      "bytes": 25748,
+      "split": "train"
+    },
+    {
+      "matrix": "wb-cs-stanford",
+      "family": "wb-cs-stanford",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/wb-cs-stanford/wb-cs-stanford.mtx",
+      "rows": 9914,
+      "cols": 9914,
+      "file_nnz": 36854,
+      "bytes": 362042,
+      "split": "test"
+    },
+    {
+      "matrix": "ca-HepPh",
+      "family": "ca-hepph",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/ca-HepPh/ca-HepPh.mtx",
+      "rows": 12008,
+      "cols": 12008,
+      "file_nnz": 118521,
+      "bytes": 1205986,
+      "split": "train"
+    },
+    {
+      "matrix": "radiation",
+      "family": "radiation",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/radiation/radiation.mtx",
+      "rows": 223104,
+      "cols": 223104,
+      "file_nnz": 7637688,
+      "bytes": 167664622,
+      "split": "train"
+    },
+    {
+      "matrix": "bfwb782",
+      "family": "bfwb",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/bfwb782/bfwb782.mtx",
+      "rows": 782,
+      "cols": 782,
+      "file_nnz": 3382,
+      "bytes": 70115,
+      "split": "train"
+    },
+    {
+      "matrix": "FA",
+      "family": "fa",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/FA/FA.mtx",
+      "rows": 10617,
+      "cols": 10617,
+      "file_nnz": 72176,
+      "bytes": 1068696,
+      "split": "dev"
+    },
+    {
+      "matrix": "gyro_k",
+      "family": "gyro_k",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gyro_k/gyro_k.mtx",
+      "rows": 17361,
+      "cols": 17361,
+      "file_nnz": 519260,
+      "bytes": 15448534,
+      "split": "train"
+    },
+    {
+      "matrix": "vsp_msc10848_300sep_100in_1Kout",
+      "family": "vsp_msc",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/vsp_msc10848_300sep_100in_1Kout/vsp_msc10848_300sep_100in_1Kout.mtx",
+      "rows": 21996,
+      "cols": 21996,
+      "file_nnz": 1221028,
+      "bytes": 13419538,
+      "split": "test"
+    },
+    {
+      "matrix": "gas11",
+      "family": "gas",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/gas11/gas11.mtx",
+      "rows": 459,
+      "cols": 862,
+      "file_nnz": 2166,
+      "bytes": 27858,
+      "split": "train"
+    },
+    {
+      "matrix": "PGPgiantcompo",
+      "family": "pgpgiantcompo",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/PGPgiantcompo/PGPgiantcompo.mtx",
+      "rows": 10680,
+      "cols": 10680,
+      "file_nnz": 24316,
+      "bytes": 288613,
+      "split": "train"
+    },
+    {
+      "matrix": "cbuckle",
+      "family": "cbuckle",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cbuckle/cbuckle.mtx",
+      "rows": 13681,
+      "cols": 13681,
+      "file_nnz": 345098,
+      "bytes": 9944937,
+      "split": "train"
+    },
+    {
+      "matrix": "cant",
+      "family": "cant",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/cant/cant.mtx",
+      "rows": 62451,
+      "cols": 62451,
+      "file_nnz": 2034917,
+      "bytes": 59698523,
+      "split": "dev"
+    },
+    {
+      "matrix": "lp_scorpion",
+      "family": "lp_scorpion",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_scorpion/lp_scorpion.mtx",
+      "rows": 388,
+      "cols": 466,
+      "file_nnz": 1534,
+      "bytes": 20569,
+      "split": "train"
+    },
+    {
+      "matrix": "email-Eu-core",
+      "family": "email-eu-core",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/email-Eu-core/email-Eu-core.mtx",
+      "rows": 1005,
+      "cols": 1005,
+      "file_nnz": 25571,
+      "bytes": 199806,
+      "split": "test"
+    },
+    {
+      "matrix": "coAuthorsDBLP",
+      "family": "coauthorsdblp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/coAuthorsDBLP/coAuthorsDBLP.mtx",
+      "rows": 299067,
+      "cols": 299067,
+      "file_nnz": 977676,
+      "bytes": 12359300,
+      "split": "train"
+    },
+    {
+      "matrix": "thermomech_dK",
+      "family": "thermomech_dk",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/thermomech_dK/thermomech_dK.mtx",
+      "rows": 204316,
+      "cols": 204316,
+      "file_nnz": 2846228,
+      "bytes": 90801369,
+      "split": "train"
+    },
+    {
+      "matrix": "lpi_cplex2",
+      "family": "lpi_cplex",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_cplex2/lpi_cplex2.mtx",
+      "rows": 224,
+      "cols": 378,
+      "file_nnz": 1215,
+      "bytes": 16244,
+      "split": "train"
+    },
+    {
+      "matrix": "plantsmargin_12NN",
+      "family": "plantsmargin",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/plantsmargin_12NN/plantsmargin_12NN.mtx",
+      "rows": 1600,
+      "cols": 1600,
+      "file_nnz": 12741,
+      "bytes": 358360,
+      "split": "dev"
+    },
+    {
+      "matrix": "jnlbrng1",
+      "family": "jnlbrng",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/jnlbrng1/jnlbrng1.mtx",
+      "rows": 40000,
+      "cols": 40000,
+      "file_nnz": 119600,
+      "bytes": 3101519,
+      "split": "train"
+    },
+    {
+      "matrix": "EternityII_Etilde",
+      "family": "eternityii_etilde",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/EternityII_Etilde/EternityII_Etilde.mtx",
+      "rows": 10054,
+      "cols": 204304,
+      "file_nnz": 1170516,
+      "bytes": 16146326,
+      "split": "test"
+    },
+    {
+      "matrix": "EVA",
+      "family": "eva",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/EVA/EVA.mtx",
+      "rows": 8497,
+      "cols": 8497,
+      "file_nnz": 6726,
+      "bytes": 61885,
+      "split": "train"
+    },
+    {
+      "matrix": "fe_4elt2",
+      "family": "fe",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/fe_4elt2/fe_4elt2.mtx",
+      "rows": 11143,
+      "cols": 11143,
+      "file_nnz": 32818,
+      "bytes": 342005,
+      "split": "train"
+    },
+    {
+      "matrix": "sx-mathoverflow",
+      "family": "sx-mathoverflow",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/sx-mathoverflow/sx-mathoverflow.mtx",
+      "rows": 24818,
+      "cols": 24818,
+      "file_nnz": 239978,
+      "bytes": 2906835,
+      "split": "train"
+    },
+    {
+      "matrix": "viscorocks",
+      "family": "viscorocks",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/viscorocks/viscorocks.mtx",
+      "rows": 37762,
+      "cols": 37762,
+      "file_nnz": 1162244,
+      "bytes": 35586064,
+      "split": "dev"
+    },
+    {
+      "matrix": "lp_perold",
+      "family": "lp_perold",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_perold/lp_perold.mtx",
+      "rows": 625,
+      "cols": 1506,
+      "file_nnz": 6148,
+      "bytes": 96083,
+      "split": "train"
+    },
+    {
+      "matrix": "poli_large",
+      "family": "poli_large",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/poli_large/poli_large.mtx",
+      "rows": 15575,
+      "cols": 15575,
+      "file_nnz": 33074,
+      "bytes": 450898,
+      "split": "test"
+    },
+    {
+      "matrix": "image_interp",
+      "family": "image_interp",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/image_interp/image_interp.mtx",
+      "rows": 240000,
+      "cols": 120000,
+      "file_nnz": 711683,
+      "bytes": 12814039,
+      "split": "train"
+    },
+    {
+      "matrix": "offshore",
+      "family": "offshore",
+      "path": "/staff/chengjiajun/workspace/database/suitsparse/offshore/offshore.mtx",
+      "rows": 259789,
+      "cols": 259789,
+      "file_nnz": 2251231,
+      "bytes": 72029092,
+      "split": "train"
+    }
+  ]
+}

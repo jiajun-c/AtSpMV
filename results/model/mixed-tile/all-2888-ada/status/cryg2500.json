@@ -1,0 +1,15 @@
+{
+  "dataset": "cryg2500",
+  "matrix_sha256": "17e7aae931e9ee9d55c4699e2790e83627263c89a89ce6ce550d6dcd28466d79",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.201,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "arabic-2005",
+  "matrix_sha256": "464c6019b77216b0b4518db61d866c567cfe455dd030e585cf9b6617c20fca6e",
+  "index_nnz": 639999458,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 123.937,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

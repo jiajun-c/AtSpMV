@@ -1,0 +1,15 @@
+{
+  "dataset": "web-Google",
+  "matrix_sha256": "1b75dab8f83a8e597f71a678abccfb2334f6c29d3b61ccd30d3e5f535e068f91",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 11.569,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

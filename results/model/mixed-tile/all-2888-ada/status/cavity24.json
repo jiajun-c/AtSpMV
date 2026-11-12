@@ -1,0 +1,15 @@
+{
+  "dataset": "cavity24",
+  "matrix_sha256": "acb71e48559cd02f8d5a3e07d1637f5c093217a721e3f12c906ae5a416779aae",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.369,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

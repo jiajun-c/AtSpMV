@@ -1,0 +1,15 @@
+{
+  "dataset": "Queen_4147",
+  "nnz": 329499284,
+  "tile_counts": [
+    12206496,
+    12204382,
+    11167613,
+    10678048,
+    10419154,
+    10296963
+  ],
+  "minimum_bytes": 80125371664,
+  "candidate_packed_bytes": 51434999808,
+  "method": "Baseline-first validation: input CSR, three packed AtBSR baselines, two CSR baseline Plans, tuning CSR and twelve packed AtBSR tuning candidates. Excludes allocations, padding beyond the stated layouts, temporary buffers, graph state and other candidates."
+}

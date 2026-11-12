@@ -1,0 +1,10 @@
+{
+  "dataset": "grid1_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/grid1_dual/grid1_dual.mtx",
+  "matrix_sha256": "91b6a45fb8bef721f16b28ef1f4cd005e7428f6999b7bf4e967489bfa90eaf6a",
+  "index_nnz": 840,
+  "index_rows": 224,
+  "elapsed_s": 1.298,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "Spectro_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Spectro_10NN/Spectro_10NN.mtx",
+  "matrix_sha256": "e66d4b93d0197b77e52b932f44a8b8a20e64890277840c26ab2074960321fb30",
+  "index_nnz": 7422,
+  "index_rows": 531,
+  "elapsed_s": 1.258,
+  "returncode": 0,
+  "status": "ok"
+}

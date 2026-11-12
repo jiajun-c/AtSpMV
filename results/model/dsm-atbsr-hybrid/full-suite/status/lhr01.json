@@ -1,0 +1,10 @@
+{
+  "dataset": "lhr01",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lhr01/lhr01.mtx",
+  "matrix_sha256": "a03db16ec2947cdb5c4f39255d054d6c3fa46f37b59acd4c2519608854c2f1cf",
+  "index_nnz": 18592,
+  "index_rows": 1477,
+  "elapsed_s": 1.364,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,10 @@
+{
+  "matrix": "rdb5000",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/rdb5000-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 5000,
+  "nnz": 79261,
+  "min_abs_diagonal": 0.32613599955630157,
+  "max_abs_diagonal": 283.5289968567477,
+  "elapsed_s": 0.047585753025487065
+}

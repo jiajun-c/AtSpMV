@@ -1,0 +1,14 @@
+{
+  "matrix": "mycielskian10",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/mycielskian10/mycielskian10.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 767,
+  "columns": 767,
+  "original_nnz": 44392,
+  "factor_L_nnz": 39131,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.09693433018401265
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "ford1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ford1/ford1.mtx",
+  "matrix_sha256": "efd72438e06fa217c9f666724dd34f76c4cb0cc05144f137479ba4fcc8d2632f",
+  "index_nnz": 101576,
+  "index_rows": 18728,
+  "elapsed_s": 1.15,
+  "returncode": 0,
+  "status": "ok"
+}

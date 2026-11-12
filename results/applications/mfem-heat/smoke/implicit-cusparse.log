@@ -1,0 +1,25 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 2
+   --order 2
+   --ode-solver 21
+   --t-final 0.02
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend cusparse
+   --solution results/applications/mfem-heat/smoke/implicit-cusparse.bin
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1361
+plan rows=1361 nnz=20801 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1361 nnz=20799 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1361 nnz=20801 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1361 nnz=20801 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+plan rows=1361 nnz=20801 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+step 2, t = 0.02
+plan rows=1361 nnz=20801 backend=cusparse tile=-1 balanced=-1 mixed_cap=0
+APP_RESULT {"backend":"cusparse","dofs":1361,"steps":2,"nnz":20801,"initialization_s":0.60897372299999997,"evolution_s":0.019210395000000002,"total_s":0.62818420100000005,"plan_s":0.013293269,"plans":6,"spmv_calls":84,"linear_solves":2,"cg_iterations":82,"sum":1569.4304779208856,"l2":43.431373953638357}

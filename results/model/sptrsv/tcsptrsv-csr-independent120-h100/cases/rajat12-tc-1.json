@@ -1,0 +1,9 @@
+{
+  "name": "rajat12",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/rajat12-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1888, 1888 ) nnz = 13961\nloadfile time    = 0.00425 sec\nnnzL = 13961\ntime_for_csc2CompressTile = 2.14 ms\ntime_cuda_solve = 0.247930 ms, Mflops = 112.62\nVALIDATION finite=1 max_error=5.6510351953420468e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

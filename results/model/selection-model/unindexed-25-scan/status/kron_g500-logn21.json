@@ -1,0 +1,17 @@
+{
+  "dataset": "kron_g500-logn21",
+  "file_bytes": 1542215015,
+  "file_mtime_ns": 1302449888000000000,
+  "structure": {
+    "dataset": "kron_g500-logn21",
+    "rows": "2097152",
+    "columns": "2097152",
+    "nnz": "182082942",
+    "longest_row": "1930587",
+    "longest_row_nnz": "213905",
+    "ratio": "0.00117476682687",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 10.86
+}

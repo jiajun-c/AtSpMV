@@ -1,0 +1,15 @@
+{
+  "dataset": "hcircuit",
+  "matrix_sha256": "4e26756b7187ffdc5726548925312fc29a691b40179f8d2091790efd8ec37994",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.3,
+  "gpu_after": {
+    "utilization_percent": 10,
+    "free_memory_mib": 48508
+  }
+}

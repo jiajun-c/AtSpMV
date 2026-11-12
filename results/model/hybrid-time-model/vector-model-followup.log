@@ -1,0 +1,101 @@
+{
+  "training_matrices": 135,
+  "training_groups": 105,
+  "training_names_sha256": "18b32ab5838c2d764129437f7072288f544628fb8ce3d6a733d74c59421691cb",
+  "excluded_eval_families": 63,
+  "development": {
+    "boost:0.8": {
+      "cases": 42,
+      "speedup_vs_model": 1.0,
+      "speedup_vs_fixed_oracle": 0.9684653129269886,
+      "changed": 0,
+      "regressions": 0
+    },
+    "boost:0.9": {
+      "cases": 42,
+      "speedup_vs_model": 1.0681547746497706,
+      "speedup_vs_fixed_oracle": 1.034470848085647,
+      "changed": 15,
+      "regressions": 0
+    },
+    "boost:0.95": {
+      "cases": 42,
+      "speedup_vs_model": 1.0883459733724021,
+      "speedup_vs_fixed_oracle": 1.0540253236749315,
+      "changed": 21,
+      "regressions": 0
+    },
+    "boost:1.0": {
+      "cases": 42,
+      "speedup_vs_model": 1.1037769116445644,
+      "speedup_vs_fixed_oracle": 1.0689696521374379,
+      "changed": 26,
+      "regressions": 0
+    },
+    "forest:0.8": {
+      "cases": 42,
+      "speedup_vs_model": 1.0,
+      "speedup_vs_fixed_oracle": 0.9684653129269886,
+      "changed": 0,
+      "regressions": 0
+    },
+    "forest:0.9": {
+      "cases": 42,
+      "speedup_vs_model": 1.0787373323829144,
+      "speedup_vs_fixed_oracle": 1.044719688172244,
+      "changed": 16,
+      "regressions": 0
+    },
+    "forest:0.95": {
+      "cases": 42,
+      "speedup_vs_model": 1.1000737430615142,
+      "speedup_vs_fixed_oracle": 1.065383261816833,
+      "changed": 23,
+      "regressions": 0
+    },
+    "forest:1.0": {
+      "cases": 42,
+      "speedup_vs_model": 1.1120724053102,
+      "speedup_vs_fixed_oracle": 1.0770035500062118,
+      "changed": 26,
+      "regressions": 0
+    },
+    "extra:0.8": {
+      "cases": 42,
+      "speedup_vs_model": 1.0,
+      "speedup_vs_fixed_oracle": 0.9684653129269886,
+      "changed": 0,
+      "regressions": 0
+    },
+    "extra:0.9": {
+      "cases": 42,
+      "speedup_vs_model": 1.0845028568193946,
+      "speedup_vs_fixed_oracle": 1.0503033985998083,
+      "changed": 17,
+      "regressions": 0
+    },
+    "extra:0.95": {
+      "cases": 42,
+      "speedup_vs_model": 1.1073707495024223,
+      "speedup_vs_fixed_oracle": 1.0724501594430573,
+      "changed": 23,
+      "regressions": 0
+    },
+    "extra:1.0": {
+      "cases": 42,
+      "speedup_vs_model": 1.1185561586966883,
+      "speedup_vs_fixed_oracle": 1.0832828402585986,
+      "changed": 27,
+      "regressions": 0
+    }
+  },
+  "selected_on_development": "extra:1.0",
+  "holdout": {
+    "cases": 38,
+    "speedup_vs_model": 1.0951145283461312,
+    "speedup_vs_fixed_oracle": 1.0747912880831878,
+    "changed": 27,
+    "regressions": 2
+  },
+  "caveat": "Tuning-time labels, not independent times; evaluation sample already examined; suffix grouping is heuristic. No production model is emitted."
+}

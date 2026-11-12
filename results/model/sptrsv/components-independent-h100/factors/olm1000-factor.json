@@ -1,0 +1,14 @@
+{
+  "matrix": "olm1000",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/olm1000/olm1000.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1000,
+  "columns": 1000,
+  "original_nnz": 3996,
+  "factor_L_nnz": 2500,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03612247505225241
+}

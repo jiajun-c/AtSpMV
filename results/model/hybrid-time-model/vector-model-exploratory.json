@@ -1,0 +1,102 @@
+{
+  "method": "Historical paired candidate timings on 80 previously examined matrices. Grouped train/dev/holdout split; best family and gate chosen on dev; candidate order counterbalanced. Training is diagnostic and no production weights are exported.",
+  "split_counts": {
+    "train": 48,
+    "dev": 20,
+    "holdout": 12
+  },
+  "development": {
+    "boost:0.8": {
+      "cases": 20,
+      "speedup_vs_model": 1.0094391663459252,
+      "speedup_vs_fixed_oracle": 0.9768570520356812,
+      "changed": 1,
+      "regressions_vs_model": 0
+    },
+    "boost:0.9": {
+      "cases": 20,
+      "speedup_vs_model": 1.1033760368172456,
+      "speedup_vs_fixed_oracle": 1.0677618806032556,
+      "changed": 15,
+      "regressions_vs_model": 1
+    },
+    "boost:0.95": {
+      "cases": 20,
+      "speedup_vs_model": 1.1069834337726774,
+      "speedup_vs_fixed_oracle": 1.0712528400120944,
+      "changed": 16,
+      "regressions_vs_model": 1
+    },
+    "boost:1.0": {
+      "cases": 20,
+      "speedup_vs_model": 1.1069834337726774,
+      "speedup_vs_fixed_oracle": 1.0712528400120944,
+      "changed": 16,
+      "regressions_vs_model": 1
+    },
+    "extra:0.8": {
+      "cases": 20,
+      "speedup_vs_model": 1.0,
+      "speedup_vs_fixed_oracle": 0.967722557835567,
+      "changed": 0,
+      "regressions_vs_model": 0
+    },
+    "extra:0.9": {
+      "cases": 20,
+      "speedup_vs_model": 1.0801801703077318,
+      "speedup_vs_fixed_oracle": 1.0453147173334567,
+      "changed": 10,
+      "regressions_vs_model": 0
+    },
+    "extra:0.95": {
+      "cases": 20,
+      "speedup_vs_model": 1.0944889563798699,
+      "speedup_vs_fixed_oracle": 1.0591616523907081,
+      "changed": 12,
+      "regressions_vs_model": 0
+    },
+    "extra:1.0": {
+      "cases": 20,
+      "speedup_vs_model": 1.1033556199125436,
+      "speedup_vs_fixed_oracle": 1.0677421227040145,
+      "changed": 14,
+      "regressions_vs_model": 0
+    },
+    "forest:0.8": {
+      "cases": 20,
+      "speedup_vs_model": 1.0,
+      "speedup_vs_fixed_oracle": 0.967722557835567,
+      "changed": 0,
+      "regressions_vs_model": 0
+    },
+    "forest:0.9": {
+      "cases": 20,
+      "speedup_vs_model": 1.066467300599027,
+      "speedup_vs_fixed_oracle": 1.032044463983683,
+      "changed": 9,
+      "regressions_vs_model": 0
+    },
+    "forest:0.95": {
+      "cases": 20,
+      "speedup_vs_model": 1.08812070863414,
+      "speedup_vs_fixed_oracle": 1.05299895539328,
+      "changed": 12,
+      "regressions_vs_model": 0
+    },
+    "forest:1.0": {
+      "cases": 20,
+      "speedup_vs_model": 1.1202472039309426,
+      "speedup_vs_fixed_oracle": 1.084088489596194,
+      "changed": 15,
+      "regressions_vs_model": 0
+    }
+  },
+  "selected_on_development": "forest:1.0",
+  "holdout": {
+    "cases": 12,
+    "speedup_vs_model": 1.0316659695354384,
+    "speedup_vs_fixed_oracle": 1.0059840067109758,
+    "changed": 2,
+    "regressions_vs_model": 0
+  }
+}

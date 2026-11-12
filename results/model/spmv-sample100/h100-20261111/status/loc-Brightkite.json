@@ -1,0 +1,32 @@
+{
+  "dataset": "loc-Brightkite",
+  "status": "ok",
+  "matrix_sha256": "990f78f37bcaee2361f1a525a2d8e1ad80eb15927ee29951296b2ce3c48e4b47",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/loc-Brightkite/loc-Brightkite.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/loc-Brightkite-0.csv",
+        "20261161",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.2259963278193027
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/loc-Brightkite/loc-Brightkite.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/loc-Brightkite-1.csv",
+        "20261162",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.115437787026167
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

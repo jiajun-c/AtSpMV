@@ -1,0 +1,10 @@
+{
+  "dataset": "NACA0015",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/NACA0015/NACA0015.mtx",
+  "matrix_sha256": "6be4530f9ce89a4a8179f87cf67ef38b2ac4efbef1e6c272914e4aac45cbc9af",
+  "index_nnz": 6229636,
+  "index_rows": 1039183,
+  "elapsed_s": 2.915,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,259 @@
+--- a/main.cu
++++ b/main.cu
+@@ -218,6 +218,14 @@
+         lldSpTRSV_cuda(csrRowPtrL_tmp, lldmatrix, b, x, x_ref, &final_aver_time, &Mflops);
+     }
+ 
++    double max_error = 0.0, max_ref = 0.0;
++    bool finite = true;
++    for (int i=0; i<n; ++i) {
++        finite = finite && std::isfinite(x[i]);
++        max_error = std::max(max_error, std::abs(x[i]-x_ref[i]));
++        max_ref = std::max(max_ref, std::abs(x_ref[i]));
++    }
++    printf("VALIDATION finite=%d max_error=%.17g reference_scale=%.17g\n",int(finite),max_error,max_ref);
+     const double Threshold_for_whether_block = (lldmatrix.columns_per_level >= threshold_for_columns_per_level) ? 4.0f : 0.0f;
+     int tilelayer;
+     double parallelism_add_tilen, parallelism_add_tilenum;
+--- a/inc/common.h
++++ b/inc/common.h
+@@ -11,7 +11,7 @@
+ #define blocks_per_warp 4 //这个似乎用不到了
+ #define HASH_SCALE 107
+ #define whether_warm_up 1
+-#define BENCH_REPEAT 1000
++#define BENCH_REPEAT 100
+ #define checek_kernel 0
+ #define checek_result 0
+ #define record_compute_result 1
+--- a/src/utils.h
++++ b/src/utils.h
+@@ -65,7 +65,7 @@
+                 if (csrColIdxA[j] < i)
+                 {
+                     csrColIdxL_tmp[nnz_pointer] = csrColIdxA[j];
+-                    csrValL_tmp[nnz_pointer] = 1.0; // csrValA[j]
++                    csrValL_tmp[nnz_pointer] = csrValA[j]; // Preserve factor values for comparison
+                     // csrValL_tmp[nnz_pointer] = csrValA[j]; // csrValA[j]
+                     nnz_pointer++;
+                 }
+@@ -290,7 +290,7 @@
+     x_ref = new Dtype[n];
+     int i, j;
+     for (i = 0; i < n; i++)
+-        x_ref[i] = 1;
++        x_ref[i] = 0.5 + ((i * 37LL) % 101) / 101.0;
+ 
+     Dtype *b;
+     b = new Dtype[m];
+--- a/src/lldSpTRSV_cuda.cuh
++++ b/src/lldSpTRSV_cuda.cuh
+@@ -101,7 +101,7 @@
+         int offset = d_tileNnz[tile_offset];
+         if (temp_mask & (1ULL << idInwarp)) // load 8*4tile
+         {
+-            temp_mask = temp_mask << (32 - idInwarp);
++            temp_mask = SAFE_SHIFT(temp_mask, 32 - idInwarp, 32);
+             fragA = d_tileVal[offset + __popc(temp_mask)];
+         }
+ #if whether_use_tensor_core
+@@ -142,12 +142,14 @@
+         inver_matrix_of_eachWarp[idInwarp] = d_diaVal[dia_nnz_offset + __popc(temp_dia_mask)];
+     }
+ 
++    __syncwarp();
+     // 主对角线的倒数
+     if (yid == xid)
+     {
+         inver_matrix_of_eachWarp[idInwarp] = 1.0 / inver_matrix_of_eachWarp[idInwarp];
+     }
+ 
++    __syncwarp();
+     // 次对角线的逆
+     if (yid == 0 && (xid & 1))
+     {
+@@ -155,6 +157,7 @@
+         inver_matrix_of_eachWarp[(xid << 2) + xid - 1] = -temdate;
+     }
+ 
++    __syncwarp();
+     // 最终合并乘法结果
+     if (idInwarp < 4)
+     {
+@@ -205,7 +208,9 @@
+     extern __shared__ Dtype shared_array[];
+     const int idInwarp = threadIdx.x & (WSIZE - 1);
+ 
+-    const int global_id = atomicAdd(d_id_extractor, 1);
++    int global_id = 0;
++    if(idInwarp == 0) global_id = atomicAdd(d_id_extractor, WSIZE);
++    global_id = __shfl_sync(0xffffffff, global_id, 0);
+     const int global_warp_id = global_id / WSIZE;
+ 
+     if (global_warp_id >= (Len - 1))
+@@ -234,7 +239,7 @@
+                 while (start_offset < d_cscColPtr[colid + 1])
+                 {
+                     rowid = d_cscRowIdx[start_offset];
+-                    atomicAdd(&d_left_sum[rowid], -coef * d_cscVal[start_offset]);
++                    atomicAdd(&d_left_sum[rowid], -xi * d_cscVal[start_offset]);
+                     __threadfence();
+                     atomicAdd(&d_eachRow_block_nums[rowid], -1);
+                     start_offset++;
+@@ -263,7 +268,9 @@
+                 inver_matrix_of_eachWarp[idInwarp] = 0.0;
+             }
+ 
++            __syncwarp();
+             compute_inverse_tile(idInwarp, xid, yid, column_id, d_diaptr, d_dia_mask, d_dia_nnz, d_diaVal, inver_matrix_of_eachWarp);
++            __syncwarp();
+             const int tile_start_offset = d_tileColptr[column_id];
+             const int tile_end_offset = d_tileColptr[column_id + 1];
+ 
+@@ -282,6 +289,7 @@
+             {
+                 solved_X_vectory_of_eachWarp[yid] = fragC[0];
+             }
++            __syncwarp();
+             fragB = -solved_X_vectory_of_eachWarp[xid]; // load sloved X vectory to fragB from shared memory
+ 
+             if (tile_start_offset < tile_end_offset)
+@@ -396,7 +404,9 @@
+     extern __shared__ Dtype shared_array[];
+     const int idInwarp = threadIdx.x & (WSIZE - 1);
+ 
+-    const int global_id = atomicAdd(d_id_extractor, 1);
++    int global_id = 0;
++    if(idInwarp == 0) global_id = atomicAdd(d_id_extractor, WSIZE);
++    global_id = __shfl_sync(0xffffffff, global_id, 0);
+     const int global_warp_id = global_id / WSIZE;
+ 
+     if (global_warp_id >= (Len - 1))
+@@ -426,7 +436,7 @@
+                 while (start_offset < d_cscColPtr[colid + 1])
+                 {
+                     rowid = d_cscRowIdx[start_offset];
+-                    atomicAdd(&d_left_sum[rowid], -coef * d_cscVal[start_offset]);
++                    atomicAdd(&d_left_sum[rowid], -xi * d_cscVal[start_offset]);
+                     __threadfence(); //
+                     atomicAdd(&d_eachRow_block_nums[rowid], -1);
+                     start_offset++;
+@@ -664,6 +674,8 @@
+     cudaMalloc((void **)&d_left_sum, lldmatrix.m * sizeof(Dtype));
+     Dtype *d_x;
+     cudaMalloc((void **)&d_x, lldmatrix.n * sizeof(Dtype));
++    Dtype *d_rhs; cudaMalloc((void **)&d_rhs, lldmatrix.m * sizeof(Dtype));
++    cudaMemcpy(d_rhs, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
+     int *d_eachRow_block_nums;
+     // check
+     cudaDeviceSynchronize();
+@@ -684,7 +696,7 @@
+     while (elapsed < 2000.0f)
+     { // warm-up 至少 2 秒
+         // === warmup workload start ===
+-        cudaMemcpy(d_left_sum, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
++        cudaMemcpy(d_left_sum, d_rhs, lldmatrix.m * sizeof(Dtype), cudaMemcpyDeviceToDevice);
+ 
+         cudaMemset(d_id_extractor, 0, sizeof(int));
+         cudaMemset(d_eachRow_block_nums, 0, lldmatrix.n * sizeof(int));
+@@ -725,7 +737,10 @@
+ 
+     for (int i = 0; i < BENCH_REPEAT; i++)
+     {
+-        cudaMemcpy(d_left_sum, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
++        cudaMemset(d_x, 0, lldmatrix.n * sizeof(Dtype));
++        cudaDeviceSynchronize();
++        gettimeofday(&t1, NULL);
++        cudaMemcpy(d_left_sum, d_rhs, lldmatrix.m * sizeof(Dtype), cudaMemcpyDeviceToDevice);
+         int bs;
+         int gs;
+         cudaMemset(d_id_extractor, 0, sizeof(int));
+@@ -744,7 +759,6 @@
+         // check_array_in_device_int<<<1, 1>>>(2, d_eachRow_block_nums + 85);
+         cudaDeviceSynchronize();
+ 
+-        gettimeofday(&t1, NULL);
+         bs = 1024; // 32 warps can handle 128 tilecols
+         gs = (Len - 1 + 31) / 32;
+ #if whether_inverse
+@@ -777,7 +791,7 @@
+ 
+     *final_aver_time = (double)(time_cuda_solve / BENCH_REPEAT);
+     *Mflops = (double)(2 * lldmatrix.nnzL) / (1e3 * (*final_aver_time));
+-    printf("time_cuda_solve = %4.2f ms, Mflops = %4.2f\n",
++    printf("time_cuda_solve = %.6f ms, Mflops = %4.2f\n",
+            (*final_aver_time), (*Mflops));
+ 
+ #if checek_kernel
+@@ -842,6 +856,7 @@
+     free(warp_num_array);
+ 
+     cudaFree(d_id_extractor);
++    cudaFree(d_rhs);
+     cudaFree(d_left_sum);
+     cudaFree(d_x);
+     cudaFree(d_eachRow_block_nums);
+--- a/src/level_set_lldSpTRSV_cuda.cuh
++++ b/src/level_set_lldSpTRSV_cuda.cuh
+@@ -193,6 +193,8 @@
+     cudaMalloc((void **)&d_left_sum, lldmatrix.m * sizeof(Dtype));
+     Dtype *d_x;
+     cudaMalloc((void **)&d_x, lldmatrix.n * sizeof(Dtype));
++    Dtype *d_rhs; cudaMalloc((void **)&d_rhs, lldmatrix.m * sizeof(Dtype));
++    cudaMemcpy(d_rhs, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
+ 
+     // warmup start
+     cudaEvent_t start, stop;
+@@ -207,7 +209,7 @@
+     {                 // warm-up 至少 2 秒
+         int bs = 256; // 8个warp;
+         int gs;
+-        cudaMemcpy(d_left_sum, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
++        cudaMemcpy(d_left_sum, d_rhs, lldmatrix.m * sizeof(Dtype), cudaMemcpyDeviceToDevice);
+         for (int li = 0; li < lldmatrix.nlevel; li++)
+         {
+             gs = (lldmatrix.warpnum_perlevel[li] + 7) / 8;
+@@ -242,8 +244,9 @@
+     {
+         int bs = 256; // 8个warp;
+         int gs;
+-        cudaMemcpy(d_left_sum, b, lldmatrix.m * sizeof(Dtype), cudaMemcpyHostToDevice);
++        cudaMemset(d_x, 0, lldmatrix.n * sizeof(Dtype));cudaDeviceSynchronize();
+         gettimeofday(&t1, NULL);
++        cudaMemcpy(d_left_sum, d_rhs, lldmatrix.m * sizeof(Dtype), cudaMemcpyDeviceToDevice);
+         for (int li = 0; li < lldmatrix.nlevel; li++)
+         {
+             gs = (lldmatrix.warpnum_perlevel[li] + 7) / 8;
+@@ -265,7 +268,7 @@
+     }
+     *final_aver_time = (double)(time_cuda_solve / BENCH_REPEAT);
+     *Mflops = (double)(2 * lldmatrix.nnzL) / (1e3 * (*final_aver_time));
+-    printf("time_cuda_solve = %4.2f ms, Mflops = %4.2f\n",
++    printf("time_cuda_solve = %.6f ms, Mflops = %4.2f\n",
+            (*final_aver_time), (*Mflops));
+ 
+ #if checek_kernel
+@@ -329,6 +332,7 @@
+     }
+ 
+     // cudaFree(lldmatrix.d_mark_of_whether_block); // 这个之前就释放了
++    cudaFree(d_rhs);
+     cudaFree(d_left_sum);
+     cudaFree(d_x);
+     // cudaFree(d_id_extractor);
+--- a/src/csc2CompressTile.cuh
++++ b/src/csc2CompressTile.cuh
+@@ -496,11 +496,13 @@
+                 }
+                 d_tilerowid[rowid_offset_of_this_warp + count] = hash_array_belonged_each_warp[j];
+             }
++            __syncwarp(); // publish sorted global row ids before reloading
+             // // load  sorted rowid in shared memory
+             for (int j = id_in_warp; j < row_nnz; j += 32)
+             {
+                 hash_array_belonged_each_warp[j] = d_tilerowid[rowid_offset_of_this_warp + j];
+             }
++            __syncwarp(); // all lanes need the entire sorted shared array
+ 
+             // get tile8*4 mask and nnz ，最后一遍for 循环，
+             int offset_of_tile = d_tilecolptr[tile4colid_for_each_warp];

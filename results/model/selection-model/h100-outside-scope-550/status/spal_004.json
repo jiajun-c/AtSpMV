@@ -1,0 +1,17 @@
+{
+  "dataset": "spal_004",
+  "matrix_sha256": "13fe6c0a4e1f30a71337ec0b1a8dbb9781b01ce8ef3e8870d4a67cac51610d22",
+  "index_nnz": 46168124,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 80.58,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

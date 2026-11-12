@@ -1,0 +1,19 @@
+{
+  "dataset": "msc01050",
+  "matrix_sha256": "0d59c54e4c665022e9c8de155e557db9dd3affe67c1a43db77a26acdde23488c",
+  "index_nnz": 29156,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.743,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

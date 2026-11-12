@@ -1,0 +1,10 @@
+{
+  "dataset": "qpband",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/qpband/qpband.mtx",
+  "matrix_sha256": "9c6f90c925775c65629fde27b6a6e7f22e10b60496b5f474c444fb5184698489",
+  "index_nnz": 45000,
+  "index_rows": 20000,
+  "elapsed_s": 1.173,
+  "returncode": 0,
+  "status": "ok"
+}

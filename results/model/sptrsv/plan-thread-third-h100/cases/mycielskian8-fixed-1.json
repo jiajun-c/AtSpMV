@@ -1,0 +1,8 @@
+{
+  "name": "mycielskian8",
+  "round": 1,
+  "which": "fixed",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-expanded-h100/factors/mycielskian8-L.mtx,model,cached,191,6138,134,1544.217,108.3135986,1.554312234e-14,1.476833109e-17,6.105219174e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/mycielskian8-L.mtx,model-host,cached,191,6138,134,1544.217,114.850165,1.554312234e-14,1.476833109e-17,6.105219174e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/mycielskian8-L.mtx,default,cusparse,191,6138,-1,3117.6,115.8527985,1.554312234e-14,2.121563595e-17,7.826873472e-17\nresults/model/sptrsv/ilu-expanded-h100/factors/mycielskian8-L.mtx,default-host,cusparse,191,6138,-1,3117.6,123.16769,1.554312234e-14,2.121563595e-17,7.826873472e-17\n",
+  "stderr": ""
+}

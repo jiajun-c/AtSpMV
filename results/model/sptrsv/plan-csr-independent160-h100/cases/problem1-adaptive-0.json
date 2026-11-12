@@ -1,0 +1,8 @@
+{
+  "name": "problem1",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,default,cusparse,415,6054,-1,2894.46,163.4272003,9.992007222e-16,4.053502655e-17,1.140088565e-16,0\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,default-host,cusparse,415,6054,-1,2894.46,170.06912,9.992007222e-16,4.053502655e-17,1.140088565e-16,0\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,model,cached-csr,415,6054,138,1243.425,75.79199982,9.992007222e-16,4.053502655e-17,1.140088565e-16,256\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,model-host,cached-csr,415,6054,138,1243.425,81.95023,9.992007222e-16,4.053502655e-17,1.140088565e-16,256\n",
+  "stderr": ""
+}

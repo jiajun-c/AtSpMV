@@ -1,0 +1,10 @@
+{
+  "dataset": "shuttle_eddy",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/shuttle_eddy/shuttle_eddy.mtx",
+  "matrix_sha256": "e9a8361c6a23fd6f04ae3e9edde964fad81bde26847963efe00554253dac8253",
+  "index_nnz": 103599,
+  "index_rows": 10429,
+  "elapsed_s": 0.749,
+  "returncode": 0,
+  "status": "ok"
+}

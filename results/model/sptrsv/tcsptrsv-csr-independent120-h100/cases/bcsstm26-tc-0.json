@@ -1,0 +1,9 @@
+{
+  "name": "bcsstm26",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/bcsstm26-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1936, 1936 ) nnz = 1936\nloadfile time    = 0.00058 sec\nnnzL = 1936\ntime_for_csc2CompressTile = 5.18 ms\ntime_cuda_solve = 0.032470 ms, Mflops = 119.25\nVALIDATION finite=1 max_error=0 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

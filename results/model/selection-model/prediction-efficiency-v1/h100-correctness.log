@@ -1,0 +1,6 @@
+tuned auto -> atbsr, candidates=40, setup_us=125891
+tuned atbsr -> atbsr, candidates=12, setup_us=54250.8
+tuned csr_two_stage -> csr_two_stage, candidates=3, setup_us=1240.21
+tuned csr_dsm -> csr_dsm, candidates=2, setup_us=952.132
+tuned cusparse -> cusparse, candidates=1, setup_us=1620.42
+PASS: 952 direct/graph/reference checks; dsm_available=1

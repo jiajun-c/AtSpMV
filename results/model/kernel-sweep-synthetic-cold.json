@@ -1,0 +1,65 @@
+{
+  "comparison": "fixed baseline model-selected tile and mode; baseline/tuned time",
+  "seed": 20261028,
+  "cache": "cold",
+  "checks": 288,
+  "configs": [
+    {
+      "config": [
+        8,
+        4,
+        2,
+        0
+      ],
+      "speedups": {
+        "partial_int16": 1.2499999755859375,
+        "partial_int32": 1.2499999755859375,
+        "merge_boundaries16": 1.111111074942131,
+        "merge_boundaries32": 1.0,
+        "uniform_short": 1.0,
+        "uniform_long": 0.9791666471693258,
+        "long_tail": 0.9230769230769231
+      },
+      "geomean": 1.0664810465411654,
+      "worst": 0.9230769230769231
+    },
+    {
+      "config": [
+        8,
+        4,
+        0,
+        1
+      ],
+      "speedups": {
+        "partial_int16": 1.0,
+        "partial_int32": 1.0,
+        "merge_boundaries16": 1.0996563455792918,
+        "merge_boundaries32": 0.9090909090909092,
+        "uniform_short": 1.1428571269132655,
+        "uniform_long": 1.0,
+        "long_tail": 0.9230769230769231
+      },
+      "geomean": 1.0076255286761917,
+      "worst": 0.9090909090909092
+    },
+    {
+      "config": [
+        8,
+        4,
+        0,
+        0
+      ],
+      "speedups": {
+        "partial_int16": 1.0,
+        "partial_int32": 1.0,
+        "merge_boundaries16": 1.0,
+        "merge_boundaries32": 1.0,
+        "uniform_short": 1.0,
+        "uniform_long": 1.0,
+        "long_tail": 1.0
+      },
+      "geomean": 1.0,
+      "worst": 1.0
+    }
+  ]
+}

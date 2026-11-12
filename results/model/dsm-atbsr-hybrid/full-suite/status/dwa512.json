@@ -1,0 +1,10 @@
+{
+  "dataset": "dwa512",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dwa512/dwa512.mtx",
+  "matrix_sha256": "126fb8602ef997817ee8adedc1ad2a43952f16dbec197415efecd0a92a18ba42",
+  "index_nnz": 2480,
+  "index_rows": 512,
+  "elapsed_s": 1.217,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "poisson2D",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/poisson2D/poisson2D.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 367,
+  "columns": 367,
+  "original_nnz": 2417,
+  "factor_L_nnz": 4917,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03950372990220785
+}

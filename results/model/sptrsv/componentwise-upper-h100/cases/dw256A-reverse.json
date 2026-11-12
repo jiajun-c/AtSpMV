@@ -1,0 +1,7 @@
+{
+  "name": "dw256A",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/dw256A-L.mtx,model,cached,512,5589,134,1590.054,104.3040009,7.860379014e-14,1.699514956e-17,1.348119561e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/dw256A-L.mtx,model-host,cached,512,5589,134,1590.054,112.038745,7.860379014e-14,1.699514956e-17,1.348119561e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/dw256A-L.mtx,default,cusparse,512,5589,-1,3632.504,142.0191956,5.458189456e-12,2.189010256e-17,1.34137535e-16\nresults/model/sptrsv/ilu-upper-transpose-h100/factors/dw256A-L.mtx,default-host,cusparse,512,5589,-1,3632.504,150.756165,5.458189456e-12,2.189010256e-17,1.34137535e-16\n",
+  "stderr": ""
+}

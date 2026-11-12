@@ -1,0 +1,15 @@
+{
+  "dataset": "1138_bus",
+  "matrix_sha256": "91af071985d646ea6f0b478db765444a232a7dd79cab55b1c264b292137207ae",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.704,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "az2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/az2010/az2010.mtx",
+  "matrix_sha256": "388366cdc8d206d352ea4e313b1364a45a416e48d05ea4b76ddec4e419ac8c30",
+  "index_nnz": 1196094,
+  "index_rows": 241666,
+  "elapsed_s": 1.309,
+  "returncode": 0,
+  "status": "ok"
+}

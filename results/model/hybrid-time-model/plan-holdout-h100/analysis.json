@@ -1,0 +1,33 @@
+{
+  "manifest_total": 389,
+  "status_counts": {
+    "ok": 20,
+    "pending": 369
+  },
+  "selected_backends": {
+    "csr_dsm": 2,
+    "atbsr": 16,
+    "csr_two_stage": 1,
+    "hybrid_dsm_atbsr": 1
+  },
+  "selection": "auto_model",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 0.9826767661991024,
+    "median": 0.9799920026487094,
+    "wins": 5,
+    "cases": 20
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.4059557961383133,
+    "median": 1.5331813448889475,
+    "wins": 18,
+    "cases": 20
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 0.9792431428186822,
+    "median": 0.9799920026487094,
+    "wins": 4,
+    "cases": 20
+  }
+}

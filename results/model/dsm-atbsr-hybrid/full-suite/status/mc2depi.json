@@ -1,0 +1,10 @@
+{
+  "dataset": "mc2depi",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mc2depi/mc2depi.mtx",
+  "matrix_sha256": "23c3d7b3336b2344adf09e25511666194bfa4866e335602b2d864ed18968193b",
+  "index_nnz": 2100225,
+  "index_rows": 525825,
+  "elapsed_s": 1.962,
+  "returncode": 0,
+  "status": "ok"
+}

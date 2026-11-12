@@ -1,0 +1,57 @@
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "selected_backends": {
+    "csr_vector": 1463,
+    "atbsr": 410,
+    "csr_vector|atbsr": 17,
+    "csr_dsm": 105,
+    "csr_dsm|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr": 145,
+    "hybrid_dsm_atbsr|atbsr": 4,
+    "atbsr|csr_vector": 21,
+    "cusparse": 28,
+    "atbsr|csr_dsm": 1,
+    "csr_two_stage": 13,
+    "atbsr|csr_two_stage": 2,
+    "cusparse|atbsr": 8,
+    "atbsr|cusparse": 4,
+    "csr_two_stage|csr_vector": 5,
+    "csr_vector|csr_two_stage": 4,
+    "atbsr|hybrid_dsm_atbsr": 6,
+    "csr_dsm|atbsr": 1,
+    "hybrid_dsm_atbsr|csr_dsm_vector": 1,
+    "csr_dsm_vector|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr|csr_dsm": 3,
+    "csr_two_stage|atbsr": 1,
+    "csr_vector|csr_dsm": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.2010351051684331,
+    "median": 1.211886314628079,
+    "wins": 2153,
+    "cases": 2247
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6495727474556952,
+    "median": 1.7572468684652112,
+    "wins": 2210,
+    "cases": 2247
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1919678748491755,
+    "median": 1.202279813664508,
+    "wins": 2122,
+    "cases": 2247
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1160450049328898,
+    "median": 1.1282226695583155,
+    "wins": 2074,
+    "cases": 2247
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Maragal_5",
+  "matrix_sha256": "9ae3bd36446bc73ad9daad31842a986af5fdaab82c5134520ee28d80f7bc51ba",
+  "index_nnz": 93091,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.236,
+  "gpu_after": {
+    "utilization_percent": 17,
+    "free_memory_mib": 81079
+  }
+}

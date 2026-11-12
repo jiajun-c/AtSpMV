@@ -1,0 +1,10 @@
+{
+  "dataset": "WorldCities",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/WorldCities/WorldCities.mtx",
+  "matrix_sha256": "03de9e7912d399e1f545cb9c2d7062e7659b896ad449f19322e92c245c7e1e4e",
+  "index_nnz": 7518,
+  "index_rows": 315,
+  "elapsed_s": 0.57,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "breasttissue_10NN",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/breasttissue_10NN/breasttissue_10NN.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 106,
+  "columns": 106,
+  "original_nnz": 1412,
+  "factor_L_nnz": 3227,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.05387004814110696
+}

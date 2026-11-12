@@ -1,0 +1,15 @@
+{
+  "dataset": "problem",
+  "matrix_sha256": "419c54baf53fa2011a24404cc0dabea21a550595992c6fa40bc83146380889d2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.019,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

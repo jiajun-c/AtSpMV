@@ -1,0 +1,17 @@
+{
+  "dataset": "crack",
+  "matrix_sha256": "2e8936b51fdadcf4cd20f8e4dc44886037b26efec65e78e4980f4455500a0ebc",
+  "index_nnz": 60760,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.214,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 81079
+  }
+}

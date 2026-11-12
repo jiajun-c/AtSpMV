@@ -1,0 +1,10 @@
+{
+  "dataset": "dbir2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/dbir2/dbir2.mtx",
+  "matrix_sha256": "d96695df16dc049fa08b5b4329b549dfe82d63e34423868b7b7535e4c6ae0d9b",
+  "index_nnz": 1158159,
+  "index_rows": 18906,
+  "elapsed_s": 2.094,
+  "returncode": 0,
+  "status": "ok"
+}

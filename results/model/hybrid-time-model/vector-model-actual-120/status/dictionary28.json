@@ -1,0 +1,17 @@
+{
+  "dataset": "dictionary28",
+  "matrix_sha256": "ffb4c929f6d033a978335bf7ee640458e806e10065a143dd60031ef1b5aac5e5",
+  "index_nnz": 178076,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.359,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

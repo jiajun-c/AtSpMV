@@ -1,0 +1,93 @@
+10/663 rosen8: ok, new=10
+20/663 fpga_dcop_17: ok, new=20
+30/663 curtis54: ok, new=30
+40/663 ex27: ok, new=40
+50/663 rdb2048_noL: ok, new=50
+60/663 Franz7: ok, new=60
+70/663 nj2010: ok, new=70
+80/663 Trec12: ok, new=80
+90/663 lp_sc105: ok, new=90
+100/663 fpga_dcop_08: ok, new=100
+110/663 fpga_dcop_18: ok, new=110
+120/663 fpga_dcop_09: ok, new=120
+130/663 nug08-3rd: ok, new=130
+140/663 bodyy6: ok, new=140
+150/663 mult_dcop_02: ok, new=150
+160/663 lpi_chemcom: ok, new=160
+170/663 world: ok, new=170
+180/663 dw2048: ok, new=180
+190/663 ch7-8-b1: ok, new=190
+200/663 dolphins: ok, new=200
+210/663 s3rmt3m3: ok, new=210
+220/663 lp_afiro: ok, new=220
+230/663 n4c5-b11: ok, new=230
+240/663 ch7-9-b2: ok, new=240
+250/663 Pd: ok, new=250
+260/663 bibd_17_8: ok, new=260
+270/663 vsp_c-30_data_data: ok, new=270
+280/663 dwb512: ok, new=280
+290/663 S80PI_n: ok, new=290
+300/663 model8: ok, new=300
+310/663 aa01: ok, new=310
+320/663 dynamicSoaringProblem_4: ok, new=320
+330/663 fpga_dcop_34: ok, new=330
+340/663 mimo46x46_system: ok, new=340
+350/663 QRpivot: ok, new=350
+360/663 har_10NN: ok, new=360
+370/663 lpi_woodinfe: ok, new=370
+380/663 soc-sign-Slashdot090221: ok, new=380
+390/663 ex36: ok, new=390
+400/663 TSOPF_RS_b162_c3: ok, new=400
+410/663 dynamicSoaringProblem_8: ok, new=410
+420/663 lp_vtp_base: ok, new=420
+430/663 fpga_dcop_19: ok, new=430
+440/663 lp22: ok, new=440
+450/663 fpga_dcop_24: ok, new=450
+460/663 ch7-9-b3: ok, new=460
+470/663 jan99jac100sc: ok, new=470
+480/663 bibd_81_2: ok, new=480
+490/663 mark3jac060sc: ok, new=490
+500/663 fpga_dcop_43: ok, new=500
+510/663 hcircuit: ok, new=510
+520/663 494_bus: ok, new=520
+530/663 mark3jac020: ok, new=530
+540/663 ex22: ok, new=540
+550/663 fpga_dcop_16: ok, new=550
+560/663 klein-b2: ok, new=560
+570/663 Oregon-1: ok, new=570
+580/663 cz2548: ok, new=580
+590/663 EX1: ok, new=590
+600/663 fpga_dcop_04: ok, new=600
+610/663 fpga_dcop_32: ok, new=610
+620/663 n2c6-b6: ok, new=620
+RETRY due to external GPU use kineticBatchReactor_3 [{'pid': 2282324, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2282324, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+RETRY due to external GPU use kineticBatchReactor_3 [{'pid': 2283888, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+632/663 Trec13: ok, new=10
+642/663 tumorAntiAngiogenesis_8: ok, new=20
+652/663 685_bus: ok, new=30
+WAIT GPU busy [{'pid': 2295477, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2297718, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2300716, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2302943, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2305473, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2308240, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2323038, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2329054, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2335576, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2337882, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2341253, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2343447, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2347759, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2350842, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2352948, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/vector-model-full-2247/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 2353778, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2354342, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2355087, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2355845, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2356321, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+WAIT GPU busy [{'pid': 2357032, 'name': '[No data]'}]
+WAIT GPU busy [{'pid': 2357503, 'name': '/staff/zhangyan/work/tcst/scratch/oz2d_closure_20261029/bin/pareto_8_r3_sm90'}]
+662/663 reorientation_3: ok, new=40
+DONE new cases 41
+runner exit code: 0

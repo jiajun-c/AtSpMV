@@ -1,0 +1,10 @@
+{
+  "dataset": "mimo8x8_system",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/mimo8x8_system/mimo8x8_system.mtx",
+  "matrix_sha256": "678d7e684913463c80a38ce8ae7a56659ec40fb6b4867cd74532e58626028927",
+  "index_nnz": 48872,
+  "index_rows": 13309,
+  "elapsed_s": 0.965,
+  "returncode": 0,
+  "status": "ok"
+}

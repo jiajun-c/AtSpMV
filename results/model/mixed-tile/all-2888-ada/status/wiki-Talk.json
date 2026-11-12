@@ -1,0 +1,15 @@
+{
+  "dataset": "wiki-Talk",
+  "matrix_sha256": "6c7f3c21bba142109fee12d5304c90d80d29464e3c6167a06251ec8d1538f7e7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 25.417,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

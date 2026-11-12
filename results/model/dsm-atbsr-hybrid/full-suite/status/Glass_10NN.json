@@ -1,0 +1,10 @@
+{
+  "dataset": "Glass_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Glass_10NN/Glass_10NN.mtx",
+  "matrix_sha256": "ebcf39685947022630339758386cdf5b4242340242ab17eaccf92df89d00d60d",
+  "index_nnz": 2986,
+  "index_rows": 214,
+  "elapsed_s": 0.569,
+  "returncode": 0,
+  "status": "ok"
+}

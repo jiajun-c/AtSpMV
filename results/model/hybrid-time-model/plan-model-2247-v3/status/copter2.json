@@ -1,0 +1,19 @@
+{
+  "dataset": "copter2",
+  "matrix_sha256": "24abcfe1933cee0b245694fe255d62bc040f5c85e868674e9227c57bf008bb27",
+  "index_nnz": 759952,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.388,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

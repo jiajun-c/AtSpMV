@@ -1,0 +1,10 @@
+{
+  "dataset": "chem_master1",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/chem_master1/chem_master1.mtx",
+  "matrix_sha256": "7b4acc0ce964169abb304d9ecd1863738d2109efcc278cc382bbddf708b5f8af",
+  "index_nnz": 201201,
+  "index_rows": 40401,
+  "elapsed_s": 1.322,
+  "returncode": 0,
+  "status": "ok"
+}

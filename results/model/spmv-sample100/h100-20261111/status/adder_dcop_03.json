@@ -1,0 +1,32 @@
+{
+  "dataset": "adder_dcop_03",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "7fce690c4129e0008ebbb7c1dfb676b998289ff4d7da8a2972a5f786feb11803",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_03/adder_dcop_03.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/adder_dcop_03-0.csv",
+        "20261247",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 1.0030884509906173
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/adder_dcop_03/adder_dcop_03.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/adder_dcop_03-1.csv",
+        "20261248",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.502368416171521
+    }
+  ]
+}

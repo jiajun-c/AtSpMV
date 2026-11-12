@@ -1,0 +1,34 @@
+{
+  "status_counts": {
+    "ok": 2007,
+    "pending": 791
+  },
+  "total_manifest": 2798,
+  "metrics": {
+    "cases": 2007,
+    "hybrid_wins": 48,
+    "wins_at_least_5pct_faster": 18,
+    "slower_more_5pct": 1712,
+    "median": 0.7935135143801315,
+    "geomean": 0.6656617275981885,
+    "min": 0.10866158212081768,
+    "max": 1.44749289115609,
+    "vs_default_atbsr_geomean": 0.7132931775720851,
+    "groups": {
+      "no_long": {
+        "count": 1783,
+        "wins": 9,
+        "median": 0.8071334141866576,
+        "geomean": 0.6931877704871967
+      },
+      "has_long": {
+        "count": 224,
+        "wins": 39,
+        "median": 0.639327497322836,
+        "geomean": 0.48215001859343426
+      }
+    }
+  },
+  "failures": [],
+  "method": "Best of fixed hybrid shortlist vs best fixed non-hybrid shortlist and cuSPARSE CSR_ALG1; 9 interleaved trials of 8 warm Graph calls per config. No preprocessing cost. Early results are sorted by nnz and are not representative of the whole suite."
+}

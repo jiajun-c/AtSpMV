@@ -1,0 +1,15 @@
+{
+  "dataset": "lock1074",
+  "matrix_sha256": "0db7687f9fb98636637ba8c55c1236ad1e7a511e3e9adb1e5d29ca1e68ff32a7",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.076,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

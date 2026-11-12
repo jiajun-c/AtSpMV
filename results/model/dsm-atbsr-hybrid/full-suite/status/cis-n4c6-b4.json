@@ -1,0 +1,10 @@
+{
+  "dataset": "cis-n4c6-b4",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cis-n4c6-b4/cis-n4c6-b4.mtx",
+  "matrix_sha256": "522f29795fe1ad55526860062a0a717268b08cc467eb87c1df1bda7026009964",
+  "index_nnz": 100290,
+  "index_rows": 20058,
+  "elapsed_s": 1.294,
+  "returncode": 0,
+  "status": "ok"
+}

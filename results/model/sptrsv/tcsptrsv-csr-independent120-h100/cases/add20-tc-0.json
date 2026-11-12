@@ -1,0 +1,9 @@
+{
+  "name": "add20",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/add20-L.mtx --------------\nsuccess open file\ninput matrix A: ( 2400, 2400 ) nnz = 13645\nloadfile time    = 0.00654 sec\nnnzL = 13645\ntime_for_csc2CompressTile = 2.89 ms\ntime_cuda_solve = 0.166650 ms, Mflops = 163.76\nVALIDATION finite=1 max_error=2.2204460492503131e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

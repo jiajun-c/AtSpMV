@@ -1,0 +1,15 @@
+{
+  "dataset": "higgs-twitter",
+  "matrix_sha256": "14c4f71b1e4e26dfd2cc3843867344d2951f8418ac0db5ba9c2d8fb949c115ce",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 17.852,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

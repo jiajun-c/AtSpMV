@@ -1,0 +1,15 @@
+{
+  "dataset": "PR02R",
+  "matrix_sha256": "a6c84631556a9629c7c99acefa0ec1a78984e22ddbaccc0c3e3ada9b3ed37a1a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.502,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

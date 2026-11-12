@@ -1,0 +1,17 @@
+{
+  "dataset": "netz4504",
+  "matrix_sha256": "7fa7aaaf8e56a241003e85514395ed23c06f6a8c56a8cfeed3b62b0dbf812817",
+  "index_nnz": 5156,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 64.878,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

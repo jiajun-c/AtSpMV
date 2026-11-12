@@ -1,0 +1,15 @@
+{
+  "dataset": "nasa2910",
+  "matrix_sha256": "3200463adc27714dc66eb407ab136ab37ba925f33dca03fbb7592e19dd0ea313",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.902,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

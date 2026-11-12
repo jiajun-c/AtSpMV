@@ -1,0 +1,17 @@
+{
+  "dataset": "brainpc2",
+  "matrix_sha256": "990fac4b86d531f92c31934ed821af91c8e18bf4953f81db3aae6746635c45ba",
+  "index_nnz": 179395,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.997,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

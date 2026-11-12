@@ -1,0 +1,17 @@
+{
+  "dataset": "bayer10",
+  "matrix_sha256": "e1245a0753b9fa75931ff758c216c73ccb184a2444144d132acc308d89d69b02",
+  "index_nnz": 94926,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.527,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

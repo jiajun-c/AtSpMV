@@ -1,0 +1,15 @@
+{
+  "dataset": "asia_osm",
+  "matrix_sha256": "10006a3e537aca9b82a2868850dfb8729fbb455437ecce476e0c8c7ecd38eb6b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 65.851,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

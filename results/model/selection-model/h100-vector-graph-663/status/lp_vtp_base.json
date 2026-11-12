@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_vtp_base",
+  "matrix_sha256": "03180cf6cdfb3d6b6589006f58ef09938fc316d1dee6fa8df1b0ccb8a6a1dfac",
+  "index_nnz": 1051,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.83,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

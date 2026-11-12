@@ -1,0 +1,15 @@
+{
+  "dataset": "stormg2-27",
+  "matrix_sha256": "53c2720780a6903e6224bef3611d39dbb9a6c202f04f7f9e1bf3803b562e63f4",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.231,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

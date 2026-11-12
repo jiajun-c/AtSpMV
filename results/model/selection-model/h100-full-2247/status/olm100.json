@@ -1,0 +1,17 @@
+{
+  "dataset": "olm100",
+  "matrix_sha256": "38bedd9fa408b15083a22aee4861c211518ff2ee3fea7de647413f5a511ae961",
+  "index_nnz": 396,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.925,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

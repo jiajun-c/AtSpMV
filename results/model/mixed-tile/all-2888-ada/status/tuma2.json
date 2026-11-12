@@ -1,0 +1,15 @@
+{
+  "dataset": "tuma2",
+  "matrix_sha256": "2995bd03114ade723422b182b6a82ef9cd69ae2431c5baad8bd7ad4ca3e33c43",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.981,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

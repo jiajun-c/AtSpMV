@@ -1,0 +1,25 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 2
+   --order 2
+   --ode-solver 21
+   --t-final 0.05
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend mfem
+   --solution /tmp/atspmv-heat-field-k3qkyoc2/temperature.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --legacy-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1361
+step 5, t = 0.05
+APP_RESULT {"backend":"mfem","dofs":1361,"steps":5,"nnz":20801,"initialization_s":0.48325453899999998,"evolution_s":0.034200358,"total_s":0.51745499900000003,"plan_s":8.7051999999999979e-05,"plans":12,"value_updates":0,"linear_s":0.023008120999999996,"parameter_s":0.022942986999999998,"implicit_setup_s":0.0011074250000000002,"implicit_updates":4,"spmv_calls":204,"linear_solves":5,"cg_iterations":199,"sum":1571.033402658526,"l2":43.009456568973349,"mass_relative_error":6.4933528029816989e-10,"initial_energy":7.0575969181801366,"final_energy":6.556647153451852}
+
+STDERR

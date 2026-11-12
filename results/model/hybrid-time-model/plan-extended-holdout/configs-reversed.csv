@@ -1,0 +1,6 @@
+auto_model,-1,-1,8,128,1,1024
+csr_two_stage_fixed,-1,-1,8,256,1,1024
+csr_dsm_fixed,-1,-1,8,256,1,1024
+atbsr_m1_balanced,0,1,8,128,1,1024
+atbsr_m8,3,0,8,128,1,1024
+atbsr,-1,-1,8,128,1,1024

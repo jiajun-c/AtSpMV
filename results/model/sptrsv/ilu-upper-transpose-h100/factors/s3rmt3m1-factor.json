@@ -1,0 +1,7 @@
+{
+  "matrix": "s3rmt3m1",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/s3rmt3m1-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 8.710194379091263e-07
+}

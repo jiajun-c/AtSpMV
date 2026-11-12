@@ -1,0 +1,9 @@
+{
+  "name": "cage",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/cage-L.mtx --------------\nsuccess open file\ninput matrix A: ( 368, 368 ) nnz = 10807\nloadfile time    = 0.00399 sec\nnnzL = 10807\ntime_for_csc2CompressTile = 2.06 ms\ntime_cuda_solve = 0.219950 ms, Mflops = 98.27\nVALIDATION finite=1 max_error=1.2101430968414206e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

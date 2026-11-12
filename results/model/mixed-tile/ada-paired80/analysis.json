@@ -1,0 +1,42 @@
+{
+  "manifest_total": 80,
+  "status_counts": {
+    "ok": 80
+  },
+  "complete": true,
+  "method": "Per-matrix geometric mean across opposite construction orders. Best fixed is the minimum measured median of 12 single-shape/mode candidates per order, an optimistic measured baseline. Memory counts final packed arrays and metadata, not input CSR, temporary allocations, setup or Graph. Samples with failures remain in status counts. Warm GPU Graph excludes setup.",
+  "speedup_vs_fastest_fixed": {
+    "geomean": 0.5970546811616536,
+    "median": 0.7403846174298347,
+    "min": 0.05923284568084667,
+    "max": 1.017271970729322,
+    "cases": 80,
+    "above_one": 1
+  },
+  "speedup_vs_default": {
+    "geomean": 0.6246809558993653,
+    "median": 0.75351667043583,
+    "min": 0.059501476826291345,
+    "max": 1.1000000365234384,
+    "cases": 80,
+    "above_one": 4
+  },
+  "mixed_bytes_vs_fastest_fixed": {
+    "geomean": 0.5970261187059404,
+    "median": 0.6861116402776073,
+    "min": 0.12438386695812441,
+    "max": 1.0028153640849071,
+    "cases": 80,
+    "above_one": 3
+  },
+  "mixed_slots_vs_fewest_fixed": {
+    "geomean": 0.9224119739240416,
+    "median": 0.9830074365011491,
+    "min": 0.5025370067513734,
+    "max": 1.0,
+    "cases": 80,
+    "above_one": 0
+  },
+  "storage_slot_strictly_lower_cases": 60,
+  "mixed_faster_cases": 1
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "Delor338K",
+  "matrix_sha256": "bbb85f8d1808b5cc1a16e7c1b72ec226ba378a85da26caa5b8c5c726aca80420",
+  "index_nnz": 4211599,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 19.169,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

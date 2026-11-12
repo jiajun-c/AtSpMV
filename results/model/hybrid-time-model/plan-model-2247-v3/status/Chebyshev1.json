@@ -1,0 +1,19 @@
+{
+  "dataset": "Chebyshev1",
+  "matrix_sha256": "397e623f2f509cb8af27a096c032c8021474dba17f9461fc546cdb2ebb28b49d",
+  "index_nnz": 2319,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.698,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

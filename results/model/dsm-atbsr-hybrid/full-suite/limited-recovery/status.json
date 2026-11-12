@@ -1,0 +1,12 @@
+{
+  "dataset": "Spielman_k600",
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 79.55070881301071,
+  "gpu_uuid": "GPU-e6272357-bd20-5d0b-05a2-67b3cf46740d",
+  "matrix_sha256": "611ffd56adde78d6ddb8d1768a2cb25d83c49fedb56aeb2d28d79c0cc02f630b",
+  "config_sha256": "8b4cbfa56ba6b8bc5c3ba5ff19c17f12304cb826ba1b290cc8b9b46e692caedd",
+  "exe_sha256": "445fd7f9d7503ba4c0f5de1121ee039c779c05db88f746e01892f6e5411baeda",
+  "excluded_candidate": "atbsr,0,1,8,128,1,1024",
+  "note": "Reduced candidate set, must not be merged into the uniform full-sweep aggregate."
+}

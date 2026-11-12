@@ -1,0 +1,6 @@
+{
+  "split": "holdout",
+  "cases": 38,
+  "issues": [],
+  "scope": "Host selector parity on current matrix files; does not validate GPU timing or model quality."
+}

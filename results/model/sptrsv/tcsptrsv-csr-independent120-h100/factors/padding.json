@@ -1,0 +1,622 @@
+[
+  {
+    "name": "west0156",
+    "status": "factor_missing"
+  },
+  {
+    "name": "G4",
+    "status": "ok",
+    "rows": 800,
+    "padded_rows": 800
+  },
+  {
+    "name": "Harvard500",
+    "status": "factor_missing"
+  },
+  {
+    "name": "add20",
+    "status": "ok",
+    "rows": 2395,
+    "padded_rows": 2400
+  },
+  {
+    "name": "cage8",
+    "status": "ok",
+    "rows": 1015,
+    "padded_rows": 1024
+  },
+  {
+    "name": "685_bus",
+    "status": "ok",
+    "rows": 685,
+    "padded_rows": 688
+  },
+  {
+    "name": "steam2",
+    "status": "ok",
+    "rows": 600,
+    "padded_rows": 608
+  },
+  {
+    "name": "dwt_419",
+    "status": "factor_missing"
+  },
+  {
+    "name": "fs_760_3",
+    "status": "ok",
+    "rows": 760,
+    "padded_rows": 768
+  },
+  {
+    "name": "cegb3306",
+    "status": "factor_missing"
+  },
+  {
+    "name": "Chebyshev2",
+    "status": "ok",
+    "rows": 2053,
+    "padded_rows": 2064
+  },
+  {
+    "name": "G11",
+    "status": "factor_missing"
+  },
+  {
+    "name": "SmaGri",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bp_400",
+    "status": "ok",
+    "rows": 822,
+    "padded_rows": 832
+  },
+  {
+    "name": "cdde5",
+    "status": "ok",
+    "rows": 961,
+    "padded_rows": 976
+  },
+  {
+    "name": "b_dyn",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcsstk11",
+    "status": "ok",
+    "rows": 1473,
+    "padded_rows": 1488
+  },
+  {
+    "name": "dwt_1007",
+    "status": "factor_missing"
+  },
+  {
+    "name": "reorientation_8",
+    "status": "factor_missing"
+  },
+  {
+    "name": "west0381",
+    "status": "factor_missing"
+  },
+  {
+    "name": "dynamicSoaringProblem_5",
+    "status": "ok",
+    "rows": 3271,
+    "padded_rows": 3280
+  },
+  {
+    "name": "1138_bus",
+    "status": "ok",
+    "rows": 1138,
+    "padded_rows": 1152
+  },
+  {
+    "name": "can_256",
+    "status": "factor_missing"
+  },
+  {
+    "name": "nos1",
+    "status": "ok",
+    "rows": 237,
+    "padded_rows": 240
+  },
+  {
+    "name": "662_bus",
+    "status": "ok",
+    "rows": 662,
+    "padded_rows": 672
+  },
+  {
+    "name": "GD96_a",
+    "status": "factor_missing"
+  },
+  {
+    "name": "reorientation_4",
+    "status": "factor_missing"
+  },
+  {
+    "name": "nnc261",
+    "status": "factor_missing"
+  },
+  {
+    "name": "meg1",
+    "status": "factor_missing"
+  },
+  {
+    "name": "orbitRaising_2",
+    "status": "ok",
+    "rows": 739,
+    "padded_rows": 752
+  },
+  {
+    "name": "cage",
+    "status": "ok",
+    "rows": 366,
+    "padded_rows": 368
+  },
+  {
+    "name": "bcsstm23",
+    "status": "ok",
+    "rows": 3134,
+    "padded_rows": 3136
+  },
+  {
+    "name": "G7",
+    "status": "ok",
+    "rows": 800,
+    "padded_rows": 800
+  },
+  {
+    "name": "ex3",
+    "status": "ok",
+    "rows": 1821,
+    "padded_rows": 1824
+  },
+  {
+    "name": "gre_343",
+    "status": "ok",
+    "rows": 343,
+    "padded_rows": 352
+  },
+  {
+    "name": "qh1484",
+    "status": "ok",
+    "rows": 1484,
+    "padded_rows": 1488
+  },
+  {
+    "name": "jagmesh1",
+    "status": "factor_missing"
+  },
+  {
+    "name": "spaceStation_8",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcspwr09",
+    "status": "factor_missing"
+  },
+  {
+    "name": "gre_185",
+    "status": "ok",
+    "rows": 185,
+    "padded_rows": 192
+  },
+  {
+    "name": "west0497",
+    "status": "ok",
+    "rows": 497,
+    "padded_rows": 512
+  },
+  {
+    "name": "rdist3a",
+    "status": "ok",
+    "rows": 2398,
+    "padded_rows": 2400
+  },
+  {
+    "name": "ck104",
+    "status": "ok",
+    "rows": 104,
+    "padded_rows": 112
+  },
+  {
+    "name": "bcsstk15",
+    "status": "ok",
+    "rows": 3948,
+    "padded_rows": 3952
+  },
+  {
+    "name": "freeFlyingRobot_6",
+    "status": "ok",
+    "rows": 3358,
+    "padded_rows": 3360
+  },
+  {
+    "name": "jagmesh4",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bp_1400",
+    "status": "ok",
+    "rows": 822,
+    "padded_rows": 832
+  },
+  {
+    "name": "lnsp3937",
+    "status": "factor_missing"
+  },
+  {
+    "name": "spaceStation_10",
+    "status": "factor_missing"
+  },
+  {
+    "name": "dwt_2680",
+    "status": "factor_missing"
+  },
+  {
+    "name": "G47",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bp_1600",
+    "status": "ok",
+    "rows": 822,
+    "padded_rows": 832
+  },
+  {
+    "name": "G17",
+    "status": "factor_missing"
+  },
+  {
+    "name": "lns_511",
+    "status": "factor_missing"
+  },
+  {
+    "name": "raefsky6",
+    "status": "ok",
+    "rows": 3402,
+    "padded_rows": 3408
+  },
+  {
+    "name": "G45",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bayer05",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcsstm12",
+    "status": "ok",
+    "rows": 1473,
+    "padded_rows": 1488
+  },
+  {
+    "name": "ex27",
+    "status": "ok",
+    "rows": 974,
+    "padded_rows": 976
+  },
+  {
+    "name": "impcol_d",
+    "status": "ok",
+    "rows": 425,
+    "padded_rows": 432
+  },
+  {
+    "name": "S40PI_n",
+    "status": "factor_missing"
+  },
+  {
+    "name": "lshp_778",
+    "status": "factor_missing"
+  },
+  {
+    "name": "cryg2500",
+    "status": "factor_missing"
+  },
+  {
+    "name": "c-25",
+    "status": "factor_missing"
+  },
+  {
+    "name": "pivtol",
+    "status": "ok",
+    "rows": 102,
+    "padded_rows": 112
+  },
+  {
+    "name": "Ecoli_10NN",
+    "status": "ok",
+    "rows": 336,
+    "padded_rows": 336
+  },
+  {
+    "name": "fs_680_2",
+    "status": "ok",
+    "rows": 680,
+    "padded_rows": 688
+  },
+  {
+    "name": "G3",
+    "status": "ok",
+    "rows": 800,
+    "padded_rows": 800
+  },
+  {
+    "name": "GD97_c",
+    "status": "factor_missing"
+  },
+  {
+    "name": "ex8",
+    "status": "ok",
+    "rows": 3096,
+    "padded_rows": 3104
+  },
+  {
+    "name": "lock1074",
+    "status": "factor_missing"
+  },
+  {
+    "name": "tumorAntiAngiogenesis_3",
+    "status": "ok",
+    "rows": 410,
+    "padded_rows": 416
+  },
+  {
+    "name": "reorientation_1",
+    "status": "factor_missing"
+  },
+  {
+    "name": "G53",
+    "status": "ok",
+    "rows": 1000,
+    "padded_rows": 1008
+  },
+  {
+    "name": "lund_a",
+    "status": "ok",
+    "rows": 147,
+    "padded_rows": 160
+  },
+  {
+    "name": "bcsstm27",
+    "status": "ok",
+    "rows": 1224,
+    "padded_rows": 1232
+  },
+  {
+    "name": "dwt_1242",
+    "status": "factor_missing"
+  },
+  {
+    "name": "Chem97ZtZ",
+    "status": "ok",
+    "rows": 2541,
+    "padded_rows": 2544
+  },
+  {
+    "name": "mbeause",
+    "status": "factor_missing"
+  },
+  {
+    "name": "circuit_1",
+    "status": "ok",
+    "rows": 2624,
+    "padded_rows": 2624
+  },
+  {
+    "name": "epb0",
+    "status": "ok",
+    "rows": 1794,
+    "padded_rows": 1808
+  },
+  {
+    "name": "ex26",
+    "status": "ok",
+    "rows": 2163,
+    "padded_rows": 2176
+  },
+  {
+    "name": "spaceStation_3",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bayer07",
+    "status": "factor_missing"
+  },
+  {
+    "name": "cdde3",
+    "status": "ok",
+    "rows": 961,
+    "padded_rows": 976
+  },
+  {
+    "name": "nos2",
+    "status": "ok",
+    "rows": 957,
+    "padded_rows": 960
+  },
+  {
+    "name": "garon1",
+    "status": "ok",
+    "rows": 3175,
+    "padded_rows": 3184
+  },
+  {
+    "name": "lowThrust_1",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcsstm26",
+    "status": "ok",
+    "rows": 1922,
+    "padded_rows": 1936
+  },
+  {
+    "name": "c-18",
+    "status": "ok",
+    "rows": 2169,
+    "padded_rows": 2176
+  },
+  {
+    "name": "M10PI_n",
+    "status": "factor_missing"
+  },
+  {
+    "name": "west0655",
+    "status": "ok",
+    "rows": 655,
+    "padded_rows": 656
+  },
+  {
+    "name": "cavity01",
+    "status": "ok",
+    "rows": 317,
+    "padded_rows": 320
+  },
+  {
+    "name": "laser",
+    "status": "factor_missing"
+  },
+  {
+    "name": "dermatology_5NN",
+    "status": "ok",
+    "rows": 366,
+    "padded_rows": 368
+  },
+  {
+    "name": "USAir97",
+    "status": "factor_missing"
+  },
+  {
+    "name": "ex9",
+    "status": "ok",
+    "rows": 3363,
+    "padded_rows": 3376
+  },
+  {
+    "name": "rajat12",
+    "status": "ok",
+    "rows": 1879,
+    "padded_rows": 1888
+  },
+  {
+    "name": "nasa2910",
+    "status": "factor_missing"
+  },
+  {
+    "name": "jagmesh3",
+    "status": "factor_missing"
+  },
+  {
+    "name": "shl_400",
+    "status": "ok",
+    "rows": 663,
+    "padded_rows": 672
+  },
+  {
+    "name": "freeFlyingRobot_1",
+    "status": "factor_missing"
+  },
+  {
+    "name": "can_1072",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcsstk21",
+    "status": "ok",
+    "rows": 3600,
+    "padded_rows": 3600
+  },
+  {
+    "name": "str_600",
+    "status": "ok",
+    "rows": 363,
+    "padded_rows": 368
+  },
+  {
+    "name": "west0167",
+    "status": "factor_missing"
+  },
+  {
+    "name": "msc01440",
+    "status": "ok",
+    "rows": 1440,
+    "padded_rows": 1440
+  },
+  {
+    "name": "bcsstk24",
+    "status": "ok",
+    "rows": 3562,
+    "padded_rows": 3568
+  },
+  {
+    "name": "CollegeMsg",
+    "status": "factor_missing"
+  },
+  {
+    "name": "cavity12",
+    "status": "ok",
+    "rows": 2597,
+    "padded_rows": 2608
+  },
+  {
+    "name": "c-20",
+    "status": "ok",
+    "rows": 2921,
+    "padded_rows": 2928
+  },
+  {
+    "name": "qh768",
+    "status": "ok",
+    "rows": 768,
+    "padded_rows": 768
+  },
+  {
+    "name": "cavity08",
+    "status": "ok",
+    "rows": 1182,
+    "padded_rows": 1184
+  },
+  {
+    "name": "bcsstk34",
+    "status": "ok",
+    "rows": 588,
+    "padded_rows": 592
+  },
+  {
+    "name": "G42",
+    "status": "factor_missing"
+  },
+  {
+    "name": "ex21",
+    "status": "ok",
+    "rows": 656,
+    "padded_rows": 656
+  },
+  {
+    "name": "dwt_512",
+    "status": "factor_missing"
+  },
+  {
+    "name": "bcsstk27",
+    "status": "ok",
+    "rows": 1224,
+    "padded_rows": 1232
+  },
+  {
+    "name": "Trefethen_150",
+    "status": "ok",
+    "rows": 150,
+    "padded_rows": 160
+  },
+  {
+    "name": "lshp_265",
+    "status": "ok",
+    "rows": 265,
+    "padded_rows": 272
+  }
+]

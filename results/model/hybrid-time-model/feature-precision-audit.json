@@ -1,0 +1,7 @@
+{
+  "predictions": 11889,
+  "matrices": 2247,
+  "max_abs_log_ratio_error": 2.2204460492503136e-16,
+  "changed_decisions": [],
+  "note": "Compare runtime-equivalent exact row-length sums against the original six-significant-digit feature CSV, using the frozen trained model and post-hoc guard."
+}

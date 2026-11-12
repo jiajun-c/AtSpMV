@@ -1,0 +1,13 @@
+{
+  "matrix": "bayer08",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/bayer08/bayer08.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3008,
+  "columns": 3008,
+  "original_nnz": 27576,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.06097039091400802
+}

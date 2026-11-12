@@ -1,0 +1,17 @@
+{
+  "dataset": "494_bus",
+  "matrix_sha256": "68f051d52e72593d1331344ee8be58a168ac0fac2f90a666c8821b2d4d3bd6d3",
+  "index_nnz": 1666,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.923,
+  "gpu_after": {
+    "utilization_percent": 34,
+    "free_memory_mib": 81079
+  }
+}

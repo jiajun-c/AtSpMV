@@ -1,0 +1,17 @@
+{
+  "dataset": "radiation",
+  "matrix_sha256": "4b02800f089c234027dd2734dc557b92781bdcd1678e653083e5c1ea7d4374dc",
+  "index_nnz": 7637688,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 12.332,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

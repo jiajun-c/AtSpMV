@@ -1,0 +1,9 @@
+{
+  "name": "tumorAntiAngiogenesis_5",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-h100/factors/tumorAntiAngiogenesis_5-L.mtx --------------\nsuccess open file\ninput matrix A: ( 464, 464 ) nnz = 9909\nloadfile time    = 0.00455 sec\nnnzL = 9909\ntime_for_csc2CompressTile = 2.19 ms\ntime_cuda_solve = 0.178070 ms, Mflops = 111.29\nVALIDATION finite=1 max_error=3.0531133177191805e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

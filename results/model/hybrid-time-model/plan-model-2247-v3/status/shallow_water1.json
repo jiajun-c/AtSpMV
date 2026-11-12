@@ -1,0 +1,19 @@
+{
+  "dataset": "shallow_water1",
+  "matrix_sha256": "15f48618eed51f24ba77d0f6bb021719efea3383db55f45801e7437c3321548b",
+  "index_nnz": 327680,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.638,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

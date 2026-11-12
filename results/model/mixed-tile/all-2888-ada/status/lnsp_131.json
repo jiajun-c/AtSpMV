@@ -1,0 +1,15 @@
+{
+  "dataset": "lnsp_131",
+  "matrix_sha256": "b919c31f3d8ecf2eceb863fd048000a8802c93a3cdec25f1516157ecf1e2ed15",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.791,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

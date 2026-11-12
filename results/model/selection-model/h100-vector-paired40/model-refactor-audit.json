@@ -1,0 +1,10 @@
+{
+  "cases": 40,
+  "decisions_checked": 80,
+  "default_fallbacks": {
+    "auto_model": 27,
+    "auto_vector_model": 7
+  },
+  "mismatches": [],
+  "scope": "Host model decision replay against frozen GPU Plan selections; fallback tile chosen by AtBSR is not checked."
+}

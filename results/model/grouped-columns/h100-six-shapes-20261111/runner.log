@@ -1,0 +1,25 @@
+1/24 rajat09: ok
+2/24 bcsstk17: ok
+3/24 poisson3Da: ok
+4/24 pdb1HYS: ok
+5/24 rma10: ok
+6/24 cant: ok
+7/24 consph: ok
+8/24 FEM_3D_thermal2: ok
+9/24 shipsec1: ok
+10/24 cop20k_A: ok
+11/24 mac_econ_fwd500: ok
+12/24 pwtk: ok
+13/24 ohne2: ok
+14/24 trans4: ok
+15/24 webbase-1M: ok
+16/24 amazon0312: ok
+17/24 ecology2: ok
+18/24 parabolic_fem: ok
+19/24 thermal2: ok
+20/24 G3_circuit: ok
+21/24 cage14: ok
+22/24 msdoor: ok
+23/24 F1: ok
+24/24 RM07R: ok
+{"requested": 24, "successful": 24, "failures": [], "candidate_pairs": 408, "scope": "Same predeclared prior24 sample, six ordinary shapes with grouped columns on/off and original automatic AtBSR choice, fixed depth2. Balanced and int16 fallbacks retained; not a blind sample."}

@@ -1,0 +1,17 @@
+{
+  "dataset": "obstclae",
+  "matrix_sha256": "53527480b7ae5041645018b81bae334c7bf1ced59a8da4ac2a3516ed7156c1d6",
+  "index_nnz": 197608,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.179,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

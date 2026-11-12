@@ -1,0 +1,15 @@
+{
+  "dataset": "cegb2802",
+  "matrix_sha256": "94dcb1acd5fa2808a937c946963dc27b911e68aeae216fba30fce63c572dfabb",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.535,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

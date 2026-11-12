@@ -1,0 +1,10 @@
+{
+  "dataset": "ut2010",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ut2010/ut2010.mtx",
+  "matrix_sha256": "bb5fea8ccecf11ae025af5181c853fee54db209eb8edb3017aedb5ed37b24147",
+  "index_nnz": 572066,
+  "index_rows": 115406,
+  "elapsed_s": 1.302,
+  "returncode": 0,
+  "status": "ok"
+}

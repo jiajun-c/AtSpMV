@@ -1,0 +1,19 @@
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "scope": "Independent paired Graph timings; best of 7 observed Plan results per order, not an exhaustive kernel oracle. Geomean across orders; setup excluded.",
+  "cases": 2247,
+  "geomean_model_over_observed_best": 1.1527693486960138,
+  "median_model_over_observed_best": 1.1485325135673154,
+  "model_within_5pct_cases": 373,
+  "model_more_than_10pct_slower_cases": 1666,
+  "max_model_over_observed_best": 1.8207651108211045,
+  "geomean_vector_model_over_observed_best": 1.0507713339950346,
+  "vector_model_within_5pct_cases": 1605,
+  "vector_model_more_than_10pct_slower_cases": 359,
+  "geomean_refined_model_over_observed_best": 1.0298617556092782,
+  "refined_model_within_5pct_cases": 1939,
+  "refined_model_more_than_10pct_slower_cases": 193
+}

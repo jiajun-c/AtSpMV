@@ -1,0 +1,15 @@
+{
+  "dataset": "nemsemm1",
+  "matrix_sha256": "33a7bf9644dfc609e20c6837cb721ce2dd8a4d116642d10fac582a6a5b7247df",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.9,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

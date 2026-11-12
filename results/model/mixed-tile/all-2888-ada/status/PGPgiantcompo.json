@@ -1,0 +1,15 @@
+{
+  "dataset": "PGPgiantcompo",
+  "matrix_sha256": "0760d5a5370f7b0bce6eed05851c7c85f8f7cd16336b867f70b6e8600f51a859",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.454,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

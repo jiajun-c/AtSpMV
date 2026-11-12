@@ -1,0 +1,17 @@
+{
+  "dataset": "web-BerkStan",
+  "matrix_sha256": "4385c4db2bad37104be8440ff1b320d9f04c1581856ac4071062ba315645268a",
+  "index_nnz": 7600595,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 19.118,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

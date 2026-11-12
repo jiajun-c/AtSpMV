@@ -1,0 +1,10 @@
+{
+  "dataset": "CAG_mat72",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/CAG_mat72/CAG_mat72.mtx",
+  "matrix_sha256": "77c493ce5ed724822b5ffd27b4a87488fad2ed1870c356820ff1442f4f37810b",
+  "index_nnz": 1012,
+  "index_rows": 72,
+  "elapsed_s": 1.314,
+  "returncode": 0,
+  "status": "ok"
+}

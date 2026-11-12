@@ -1,0 +1,10 @@
+{
+  "dataset": "Andrews",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Andrews/Andrews.mtx",
+  "matrix_sha256": "be91d160b07d3d2950a3991845bd652f833c5eefef2f8d58285aa17f3ef606bb",
+  "index_nnz": 760154,
+  "index_rows": 60000,
+  "elapsed_s": 2.588,
+  "returncode": 0,
+  "status": "ok"
+}

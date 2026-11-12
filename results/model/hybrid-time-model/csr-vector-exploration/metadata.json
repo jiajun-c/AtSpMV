@@ -1,0 +1,13 @@
+{
+  "device": "H100 PCIe, shared with resident process",
+  "warning": "Exploratory run; resident GPU utilization not monitored continuously; fixed construction order and selected cases; warm graph, excludes setup",
+  "seed": 202610281,
+  "trials": 21,
+  "graph_calls": 8,
+  "source_sha256": {
+    "src/spmvPlan.cu": "ea03e5006e6935bd369777f4f041e2535d6092a39f4a3825ba9f1fa6bd9a3b6a",
+    "include/spmvPlan.h": "9ed9548106dfebd36bf15cec8303c4551782e2a892cbb8156944135e55df4968"
+  },
+  "executable_sha256": null,
+  "provenance_note": "Exploration executable was subsequently rebuilt; exact binary and benchmark source hash were not captured. Frozen binaries are saved for the paired follow-up."
+}

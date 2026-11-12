@@ -1,0 +1,19 @@
+{
+  "dataset": "vsp_p0291_seymourl_iiasa",
+  "matrix_sha256": "e0dafa8563aaf4e22c1df483f6eae896a0a5d238bf955992282ce76476c21e5f",
+  "index_nnz": 107736,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.877,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

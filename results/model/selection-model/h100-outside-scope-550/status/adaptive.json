@@ -1,0 +1,17 @@
+{
+  "dataset": "adaptive",
+  "matrix_sha256": "3aec7859026c59d7672c6736203bde301b274de70f55c60736c4844c5bc8d680",
+  "index_nnz": 27248640,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 402.67,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

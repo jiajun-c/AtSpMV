@@ -1,0 +1,17 @@
+{
+  "dataset": "bbmat",
+  "matrix_sha256": "9e7b28944c5de6ce97362f54e6efbefbecc6b6b16fcfd82395eda21dd36f3ff7",
+  "index_nnz": 1771722,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.115,
+  "gpu_after": {
+    "utilization_percent": 49,
+    "free_memory_mib": 81079
+  }
+}

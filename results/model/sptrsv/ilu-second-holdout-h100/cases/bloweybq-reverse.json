@@ -1,0 +1,7 @@
+{
+  "name": "bloweybq",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bloweybq-L.mtx,model,cusparse,10001,39998,-1,42111.143,8825.129883,2.520206266e-14\nresults/model/sptrsv/ilu-second-holdout-h100/factors/bloweybq-L.mtx,default,cusparse,10001,39998,-1,42432.787,8825.242188,2.520206266e-14\n",
+  "stderr": ""
+}

@@ -1,0 +1,4 @@
+name,status,baseline,baseline_us,components_us,speedup,cusparse_us
+fs_541_1,ok,cached-tiles-512,21.903999895,19.98879984,1.095813659165642,29.62239981
+str_0,ok,cusparse,11.8623998,6.7584000525,1.7552082901058779,11.8623998
+rajat07,invalid_or_unsupported,,,,,

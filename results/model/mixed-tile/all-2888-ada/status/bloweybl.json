@@ -1,0 +1,15 @@
+{
+  "dataset": "bloweybl",
+  "matrix_sha256": "bb4633aaadc513bfa5afad00038c3372bbf0efa2f68bfc168ca91c63824a0e36",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.257,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

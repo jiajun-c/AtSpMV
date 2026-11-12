@@ -1,0 +1,17 @@
+{
+  "dataset": "west0479",
+  "matrix_sha256": "a45b04df5fc8b27c6e87dba0fae80f734267d4c44deb5313578f5893a6a6122b",
+  "index_nnz": 1910,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.103,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

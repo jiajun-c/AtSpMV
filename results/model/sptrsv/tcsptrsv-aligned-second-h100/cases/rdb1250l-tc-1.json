@@ -1,0 +1,9 @@
+{
+  "name": "rdb1250l",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rdb1250l-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1264, 1264 ) nnz = 13246\nloadfile time    = 0.00394 sec\nnnzL = 13246\ntime_for_csc2CompressTile = 2.09 ms\ntime_cuda_solve = 0.320080 ms, Mflops = 82.77\nVALIDATION finite=1 max_error=1.1168843627729075e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

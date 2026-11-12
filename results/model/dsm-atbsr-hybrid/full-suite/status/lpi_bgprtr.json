@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_bgprtr",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_bgprtr/lpi_bgprtr.mtx",
+  "matrix_sha256": "4fda4e8e0f9ea5238955616094a96b8c74ba0a77a6a746794ccb3005f09dca97",
+  "index_nnz": 70,
+  "index_rows": 20,
+  "elapsed_s": 0.653,
+  "returncode": 0,
+  "status": "ok"
+}

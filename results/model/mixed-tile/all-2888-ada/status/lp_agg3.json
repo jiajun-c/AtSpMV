@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_agg3",
+  "matrix_sha256": "411df5d1fa4e2f338f191757336119663a99274ecd655c5b705e8409c180dce1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.913,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

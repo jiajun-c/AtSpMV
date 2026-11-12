@@ -1,0 +1,15 @@
+{
+  "dataset": "CAG_mat72",
+  "matrix_sha256": "77c493ce5ed724822b5ffd27b4a87488fad2ed1870c356820ff1442f4f37810b",
+  "gpu_before": {
+    "utilization_percent": 17,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.457,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

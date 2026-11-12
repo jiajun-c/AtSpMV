@@ -1,0 +1,7 @@
+{
+  "name": "685_bus",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/685_bus-L.mtx,default,cusparse,2617.6015,2576.634,3189.807,17.5395,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/685_bus-L.mtx,model,cached,1192.911,1151.995,1383.461,29.9,12\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "bibd_12_4",
+  "matrix_sha256": "a48bf0d96e8fc61c62a7547b60f30d6e6bd2dbcc881aadbd1fc41bf36c867ff1",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.261,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

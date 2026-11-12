@@ -1,0 +1,10 @@
+{
+  "dataset": "powersim",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/powersim/powersim.mtx",
+  "matrix_sha256": "613a5925ba3a4d852752723aa2f83a0e6fe918516fec441d69e49453aab21b31",
+  "index_nnz": 67562,
+  "index_rows": 15838,
+  "elapsed_s": 1.248,
+  "returncode": 0,
+  "status": "ok"
+}

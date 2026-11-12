@@ -1,0 +1,16 @@
+{
+  "manifest_count": 50,
+  "status_counts": {
+    "factorization_failed": 17,
+    "ok": 33
+  },
+  "selected_cached": 20,
+  "selected_cusparse": 13,
+  "geomean_vs_cusparse": 1.3148755285865337,
+  "regret_gt_5pct": 0,
+  "cached_slower_than_cusparse_5pct": 0,
+  "recblock_valid": 28,
+  "recblock_incorrect_or_failed": 5,
+  "recblock_geomean": 2.1801843506785756,
+  "caveat": "one sequential pass conditional on successful ILU factorization; excludes setup/transfers; selector Graph vs cuSPARSE Graph; Recblock CUDA 11.8 synchronized host vs matched-backend CUDA 12.4 host, different timing and numerical checks"
+}

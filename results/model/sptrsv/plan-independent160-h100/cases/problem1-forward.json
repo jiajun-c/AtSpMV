@@ -1,0 +1,7 @@
+{
+  "name": "problem1",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,default,cusparse,415,6054,-1,2904.691,162.8191986,9.992007222e-16,4.053502655e-17,1.140088565e-16,0\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,default-host,cusparse,415,6054,-1,2904.691,169.577505,9.992007222e-16,4.053502655e-17,1.140088565e-16,0\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,model,cached,415,6054,138,1420.579,108.1343994,1.776356839e-15,6.397474594e-17,1.157999697e-16,512\nresults/model/sptrsv/components-independent-h100/factors/problem1-L.mtx,model-host,cached,415,6054,138,1420.579,114.484305,1.776356839e-15,6.397474594e-17,1.157999697e-16,512\n",
+  "stderr": ""
+}

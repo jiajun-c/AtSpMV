@@ -1,0 +1,10 @@
+{
+  "dataset": "rel8",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rel8/rel8.mtx",
+  "matrix_sha256": "bcab606586694575f6938172b678a8856ea3fda4a2ea5eeb5d1bf34b6cb39d43",
+  "index_nnz": 821839,
+  "index_rows": 345688,
+  "elapsed_s": 1.279,
+  "returncode": 0,
+  "status": "ok"
+}

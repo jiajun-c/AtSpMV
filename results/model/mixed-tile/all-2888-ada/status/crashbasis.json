@@ -1,0 +1,15 @@
+{
+  "dataset": "crashbasis",
+  "matrix_sha256": "b745664af528564db0bf40f7511370d30207bd888f42db79b3446e376fdd9eaf",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.551,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

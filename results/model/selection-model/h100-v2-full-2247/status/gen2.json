@@ -1,0 +1,17 @@
+{
+  "dataset": "gen2",
+  "matrix_sha256": "55b7fe4312eeb5a9665f149714c40eabbddb1d34275ab745a621a6e483c001ce",
+  "index_nnz": 81855,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.899,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

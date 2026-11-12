@@ -1,0 +1,55 @@
+bcsstk03 0 fixed 0
+bcsstk03 0 adaptive 0
+bcsstk03 1 adaptive 0
+bcsstk03 1 fixed 0
+adder_dcop_40 0 fixed 0
+adder_dcop_40 0 adaptive 0
+adder_dcop_40 1 adaptive 0
+adder_dcop_40 1 fixed 0
+adder_dcop_43 0 fixed 0
+adder_dcop_43 0 adaptive 0
+adder_dcop_43 1 adaptive 0
+adder_dcop_43 1 fixed 0
+mesh3em5 0 fixed 0
+mesh3em5 0 adaptive 0
+mesh3em5 1 adaptive 0
+mesh3em5 1 fixed 0
+bp_1200 0 fixed 0
+bp_1200 0 adaptive 0
+bp_1200 1 adaptive 0
+bp_1200 1 fixed 0
+mycielskian8 0 fixed 0
+mycielskian8 0 adaptive 0
+mycielskian8 1 adaptive 0
+mycielskian8 1 fixed 0
+adder_dcop_08 0 fixed 0
+adder_dcop_08 0 adaptive 0
+adder_dcop_08 1 adaptive 0
+adder_dcop_08 1 fixed 0
+cdde4 0 fixed 0
+cdde4 0 adaptive 0
+cdde4 1 adaptive 0
+cdde4 1 fixed 0
+494_bus 0 fixed 0
+494_bus 0 adaptive 0
+494_bus 1 adaptive 0
+494_bus 1 fixed 0
+bcsstm09 0 fixed 0
+bcsstm09 0 adaptive 0
+bcsstm09 1 adaptive 0
+bcsstm09 1 fixed 0
+fpga_dcop_09 0 fixed 0
+fpga_dcop_09 0 adaptive 0
+fpga_dcop_09 1 adaptive 0
+fpga_dcop_09 1 fixed 0
+{
+  "status_counts": {
+    "ok": 11
+  },
+  "valid_pairs": 11,
+  "adaptive_1024": 4,
+  "geomean_fixed_over_adaptive": 1.0221272815033489,
+  "wins_gt_5pct": 3,
+  "losses_gt_5pct": 0
+}
+runner_exit=0

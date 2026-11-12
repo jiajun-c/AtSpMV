@@ -1,0 +1,10 @@
+{
+  "dataset": "asia_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/asia_osm/asia_osm.mtx",
+  "matrix_sha256": "10006a3e537aca9b82a2868850dfb8729fbb455437ecce476e0c8c7ecd38eb6b",
+  "index_nnz": 25423206,
+  "index_rows": 11950757,
+  "elapsed_s": 17.216,
+  "returncode": 0,
+  "status": "ok"
+}

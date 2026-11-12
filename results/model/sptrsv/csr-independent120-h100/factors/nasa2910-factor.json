@@ -1,0 +1,13 @@
+{
+  "matrix": "nasa2910",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/nasa2910/nasa2910.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2910,
+  "columns": 2910,
+  "original_nnz": 174296,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.1285217481199652
+}

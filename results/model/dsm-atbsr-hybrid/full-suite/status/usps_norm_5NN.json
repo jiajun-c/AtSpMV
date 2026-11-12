@@ -1,0 +1,10 @@
+{
+  "dataset": "usps_norm_5NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/usps_norm_5NN/usps_norm_5NN.mtx",
+  "matrix_sha256": "b26bdd28ca8050aeb513b8da67e1ede4c99da478ac47cbbea587b50dec1494a0",
+  "index_nnz": 81112,
+  "index_rows": 11000,
+  "elapsed_s": 1.253,
+  "returncode": 0,
+  "status": "ok"
+}

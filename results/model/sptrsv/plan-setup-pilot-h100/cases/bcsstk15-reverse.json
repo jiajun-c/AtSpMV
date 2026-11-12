@@ -1,0 +1,7 @@
+{
+  "name": "bcsstk15",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/bcsstk15-L.mtx,default,cusparse,19988.6165,19617.727,23257.72,188.3675,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/bcsstk15-L.mtx,model,cusparse,20453.705,19832.371,22627.443,181.586,12\n",
+  "stderr": ""
+}

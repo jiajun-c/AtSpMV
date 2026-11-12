@@ -1,0 +1,24 @@
+Options used:
+   --mesh /tmp/atspmv-mfem-v4.8/data/star.mesh
+   --refine 2
+   --order 2
+   --ode-solver 21
+   --t-final 0.03
+   --time-step 0.01
+   --alpha 0.01
+   --kappa 0.5
+   --no-visualization
+   --no-visit-datafiles
+   --visualization-steps 5
+   --backend mfem
+   --solution /staff/chengjiajun/workspace/AtSpmv/results/applications/mfem-heat/coherent-cpu-reference/r2/mfem.bin
+   --reuse-values
+   --full-assembly
+   --reuse-implicit
+   --bulk-coefficients
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+Number of temperature unknowns: 1361
+step 3, t = 0.03
+APP_RESULT {"backend":"mfem","dofs":1361,"steps":3,"nnz":20801,"initialization_s":0.40208445199999998,"evolution_s":0.024659956,"total_s":0.42674451000000002,"plan_s":7.8922000000000001e-05,"plans":8,"value_updates":0,"linear_s":0.017486779000000001,"parameter_s":0.020002879999999997,"implicit_setup_s":0.00099848099999999985,"implicit_updates":2,"spmv_calls":86,"linear_solves":3,"cg_iterations":83,"sum":1569.2157224219568,"l2":43.671291260827545,"mass_relative_error":1.2642100315509598e-09,"initial_energy":7.0575969181801366,"final_energy":6.7835070629635474}
+

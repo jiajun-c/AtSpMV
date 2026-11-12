@@ -1,0 +1,19 @@
+{
+  "dataset": "jan99jac060",
+  "matrix_sha256": "e4d82414bca95d2b5c6a83704a953f2a73d0b7a7b5bc70339654fa4c174d8a86",
+  "index_nnz": 127182,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.481,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

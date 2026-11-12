@@ -1,0 +1,12 @@
+WAIT external GPU use [(332065, '/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation')]
+RUN plan-test
+RUN c-53-202610281
+RUN c-53-202610282
+RUN c-53-202610283
+RUN scfxm1-2b-202610281
+RUN scfxm1-2b-202610282
+RUN scfxm1-2b-202610283
+RUN ccc-202610281
+RUN ccc-202610282
+RUN ccc-202610283
+COMPLETE

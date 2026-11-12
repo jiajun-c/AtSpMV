@@ -1,0 +1,10 @@
+{
+  "status_counts": {
+    "invalid_or_unsupported": 2,
+    "ok": 16
+  },
+  "valid_pairs": 16,
+  "geomean_baseline_over_csr": 1.3222454889340474,
+  "wins_gt_5pct": 14,
+  "losses_gt_5pct": 1
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "luxembourg_osm",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/luxembourg_osm/luxembourg_osm.mtx",
+  "matrix_sha256": "3920e27dcdc7a4cfcf24b5e7c092584c54b7a71e8db042623d9c66741b2c0184",
+  "index_nnz": 239332,
+  "index_rows": 114599,
+  "elapsed_s": 1.228,
+  "returncode": 0,
+  "status": "ok"
+}

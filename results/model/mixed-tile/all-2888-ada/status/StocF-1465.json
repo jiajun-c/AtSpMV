@@ -1,0 +1,15 @@
+{
+  "dataset": "StocF-1465",
+  "matrix_sha256": "1a91c655d8c43ac3458ab4b04954a304e5a24680310f7b02096f7e1533816305",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 20.981,
+  "gpu_after": {
+    "utilization_percent": 98,
+    "free_memory_mib": 48508
+  }
+}

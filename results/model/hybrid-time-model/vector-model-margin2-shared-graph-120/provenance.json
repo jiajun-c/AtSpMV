@@ -1,0 +1,20 @@
+{
+  "note": "Post-hoc margin analysis; matching model configs share Plan and Graph, and event nodes measure GPU interval. Previously examined sample.",
+  "index_sha256": "cf3b53bbb71187b5c3f1a4203098a9eca56d9c0acf602051d60c81e05ca96b38",
+  "provenance_sha256": {
+    "spmvPlan.cu": "31beb1f3bd6ec2663bd4c1ba70927384b42b16ef527dad6ad7d2cb94c143b94d",
+    "vectorModelCalibration.cpp": "a96a4398dbf3a221d4fabb2a48135069a0711679c3389c55a09585b1fbfc1d7b",
+    "run_priority_vector_holdout.py": "d8120b06e2cfbdd524fb17631b74d3769afab9dae1328eb747382594866c41e8",
+    "vectorModelCalibration.h": "06dc3b017cdd5d941ac374449a592f9545a0c65d1e3d06c2abf972c94d3e11e5",
+    "spmv_hybrid_validation": "ca753ed804bc1dd001c2bee819e589f526303dec882fa2302e2d10be93438776",
+    "analyze_plan_allocation_bias.py": "410f75b486dc89d6fd024fe272133fd4e67d259166bcff179b4f102fcab69675",
+    "audit_plan_sweep.py": "fc79ce48122cf0520869d6fabcc3d92e2aa96af2e6a38fc367e053991d814017",
+    "audit_vector_model_replay.py": "feffda7646452638bd32d39bff7817ead35cadb6af7ca3d1d5374810b4673724",
+    "benchmark_plan_selection.py": "22936555c884d043d158c4716591f869dd5d4eaff213dc9b9533a5cade1c5a84",
+    "spmv_hybrid_validation.cu": "a161034f76c18fdcbd0a00511530b6a65c634842d822ff6825d851a2f84850fe",
+    "analyze_plan_amortization.py": "22a5218a5da2e91841aedd3542a303a365db40bc7aa47827b9560de2c1156cf8",
+    "benchmark_dsm_atbsr_full.py": "c3dc585ce5f5de75db05b19aae6460c03be26c3830fe4e7879d57e09f2e44dd5",
+    "spmvPlan.h": "e22ef301cb1645789b4a3f5335f86eb57427dc4cde94ab0029e87aab1f42e13a",
+    "analyze_plan_selection.py": "09a5a10ad67c002a8b0f5c04be07b87fc5681ef66c9e53b0b3509cfff5a5e38b"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_itest6",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_itest6/lpi_itest6.mtx",
+  "matrix_sha256": "3938901c903cec34d585bfa16afc46c7675830f986e0f45c0e998c7ceb3dc1b5",
+  "index_nnz": 29,
+  "index_rows": 11,
+  "elapsed_s": 1.309,
+  "returncode": 0,
+  "status": "ok"
+}

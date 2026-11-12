@@ -1,0 +1,15 @@
+{
+  "dataset": "ASIC_680k",
+  "matrix_sha256": "f289e24fb1a251d8d6eb2531d0c383e5b36c3b7adecfe4c591ef5e7e62ae7c25",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 49.827,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

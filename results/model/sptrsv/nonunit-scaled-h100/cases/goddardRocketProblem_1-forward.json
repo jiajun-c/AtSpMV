@@ -1,0 +1,7 @@
+{
+  "name": "goddardRocketProblem_1",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/goddardRocketProblem_1-L.mtx,default,cusparse,831,19576,-1,3868.172,161.3376007,1.7985613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/goddardRocketProblem_1-L.mtx,default-host,cusparse,831,19576,-1,3868.172,167.651,1.7985613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/goddardRocketProblem_1-L.mtx,model,cusparse,831,19576,177,3876.329,161.2768097,1.7985613e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/goddardRocketProblem_1-L.mtx,model-host,cusparse,831,19576,177,3876.329,167.9007,1.7985613e-14\n",
+  "stderr": ""
+}

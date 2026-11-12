@@ -1,0 +1,8 @@
+{
+  "name": "adder_dcop_66",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,default,cusparse,1813,3863,-1,3213.187,18.2432003,8.002487561e-13,3.8942006e-17,7.713209106e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,default-host,cusparse,1813,3863,-1,3213.187,24.674155,8.002487561e-13,3.8942006e-17,7.713209106e-17,0\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,model,cached,1813,3863,8,1316.085,11.97440052,8.002487561e-13,3.94988507e-17,7.713209106e-17,1024\nresults/model/sptrsv/ilu-second-holdout-h100/factors/adder_dcop_66-L.mtx,model-host,cached,1813,3863,8,1316.085,18.09045,8.002487561e-13,3.94988507e-17,7.713209106e-17,1024\n",
+  "stderr": ""
+}

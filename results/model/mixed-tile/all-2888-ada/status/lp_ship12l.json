@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_ship12l",
+  "matrix_sha256": "e66893ed0db59b3838369289c826eb39503680465eedf9fd07f605f9c022161d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.61,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

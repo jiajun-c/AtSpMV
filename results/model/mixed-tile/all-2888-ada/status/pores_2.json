@@ -1,0 +1,15 @@
+{
+  "dataset": "pores_2",
+  "matrix_sha256": "3443f2676a6614eef52bcff23a16b3381f5db982c56b1f1d111993e25f98c19e",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.502,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

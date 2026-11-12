@@ -1,0 +1,9 @@
+{
+  "name": "cz148",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "VALIDATION finite=1 max_error=1.5543122344752192e-15 reference_scale=1.4900990099009901\ntime_cuda_solve = 0.201400000 ms\n",
+  "stderr": ""
+}

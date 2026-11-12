@@ -1,0 +1,32 @@
+{
+  "dataset": "Spectro_10NN",
+  "status": "ok",
+  "matrix_sha256": "e66d4b93d0197b77e52b932f44a8b8a20e64890277840c26ab2074960321fb30",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Spectro_10NN/Spectro_10NN.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Spectro_10NN-0.csv",
+        "20261217",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 0.6052709990181029
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Spectro_10NN/Spectro_10NN.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Spectro_10NN-1.csv",
+        "20261218",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 16.084549851948395
+    }
+  ],
+  "runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca"
+}

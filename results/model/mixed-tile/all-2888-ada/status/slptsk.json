@@ -1,0 +1,15 @@
+{
+  "dataset": "slptsk",
+  "matrix_sha256": "9cd1700bdbbefe5c971fd2df9ef1292d8d333ed469befbd54eb6e4ef21d9bf79",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.181,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

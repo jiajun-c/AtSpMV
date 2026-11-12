@@ -1,0 +1,19 @@
+{
+  "dataset": "sts4098",
+  "matrix_sha256": "a697ce8282771cb53e0b89537d87b39a7a4889fba101dd987e2636377227dda6",
+  "index_nnz": 72356,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.413,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

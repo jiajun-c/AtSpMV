@@ -1,0 +1,10 @@
+{
+  "reason": "Replace potentially blocking repeated global nvidia-smi queries with a direct per-device NVML query. Timing kernels, executable, manifest and GPU UUID unchanged.",
+  "completed_before_migration": 58,
+  "old_runner_sha256": "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca",
+  "new_runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "runner_sources": {
+    "0389ea52a70c907e583140d173405bb28afde1859752a67b877de0b90f6c8dca": "provenance/scripts/analysis/benchmark_optimization_ablation.v1.py",
+    "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c": "provenance/scripts/analysis/benchmark_optimization_ablation.py"
+  }
+}

@@ -1,0 +1,3 @@
+name,status,baseline,baseline_us,components_us,speedup,cusparse_us
+impcol_e,ok,cached-tiles-512,20.865599815000003,21.396800130000003,0.9751738432021331,30.69440126
+mhd3200b,invalid_or_unsupported,,,,,

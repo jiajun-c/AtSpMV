@@ -1,0 +1,9 @@
+{
+  "name": "jagmesh6",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/jagmesh6-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1392, 1392 ) nnz = 13431\nloadfile time    = 0.00612 sec\nnnzL = 13431\ntime_for_csc2CompressTile = 2.85 ms\ntime_cuda_solve = 0.940320 ms, Mflops = 28.57\nVALIDATION finite=1 max_error=6.7768013423119555e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

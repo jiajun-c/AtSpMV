@@ -1,0 +1,17 @@
+{
+  "dataset": "utm300",
+  "matrix_sha256": "868ee441865f9de5d387349d39383c93fb842b1e35f66e417e53376de8e9d381",
+  "index_nnz": 3155,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.189,
+  "gpu_after": {
+    "utilization_percent": 10,
+    "free_memory_mib": 81079
+  }
+}

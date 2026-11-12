@@ -1,0 +1,10 @@
+{
+  "dataset": "ibm_matrix_2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/ibm_matrix_2/ibm_matrix_2.mtx",
+  "matrix_sha256": "76dd158effaa322928381a22d9ed93bab3c04373543f21562739c2d0a505011b",
+  "index_nnz": 1056610,
+  "index_rows": 51448,
+  "elapsed_s": 1.401,
+  "returncode": 0,
+  "status": "ok"
+}

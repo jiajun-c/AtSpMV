@@ -1,0 +1,10 @@
+{
+  "dataset": "wikipedia-20051105",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wikipedia-20051105/wikipedia-20051105.mtx",
+  "matrix_sha256": "ef042d57872f852bc8da6535aec2a8efb565324a4c095d4638f3fc6be20e316e",
+  "index_nnz": 19753078,
+  "index_rows": 1634989,
+  "elapsed_s": 10.817,
+  "returncode": 0,
+  "status": "ok"
+}

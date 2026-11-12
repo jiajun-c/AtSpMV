@@ -1,0 +1,113 @@
+1/100 ns3Da: ok
+2/100 stat96v3: ok
+3/100 rdb2048_noL: ok
+4/100 para-9: ok
+5/100 tsyl201: ok
+6/100 TSOPF_RS_b678_c1: ok
+7/100 para-10: ok
+8/100 bcsstm36: ok
+9/100 sparsine: ok
+10/100 kron_g500-logn17: ok
+11/100 net50: ok
+12/100 n4c5-b6: ok
+13/100 rosen2: ok
+14/100 std1_Jac3: ok
+15/100 af_2_k101: ok
+16/100 celegans_metabolic: ok
+17/100 af_shell1: ok
+18/100 caidaRouterLevel: ok
+19/100 F2: ok
+20/100 shermanACd: ok
+21/100 degme: ok
+22/100 lp_sctap1: ok
+23/100 nemeth01: ok
+24/100 mycielskian15: ok
+25/100 gen4: ok
+26/100 loc-Brightkite: ok
+27/100 rosen10: ok
+28/100 para-8: ok
+29/100 af_shell8: ok
+30/100 TSOPF_RS_b2383_c1: ok
+31/100 PR02R: ok
+32/100 saylr3: ok
+33/100 bibd_22_8: ok
+34/100 Trefethen_20000b: ok
+35/100 nsir: ok
+36/100 auto: ok
+37/100 al2010: ok
+38/100 IG5-17: ok
+39/100 Goodwin_127: ok
+40/100 lp_osa_14: ok
+41/100 Zhao2: ok
+42/100 vsp_c-60_data_cti_cs4: ok
+43/100 Si41Ge41H72: ok
+44/100 neos3: ok
+45/100 TEM152078: ok
+46/100 torso1: ok
+47/100 oilpan: ok
+48/100 bibd_15_7: ok
+49/100 bibd_81_2: ok
+50/100 rail516: ok
+51/100 dc3: ok
+52/100 Chebyshev4: ok
+53/100 darcy003: ok
+54/100 Spectro_10NN: ok
+55/100 TSOPF_FS_b162_c4: ok
+56/100 D6-6: ok
+57/100 TSOPF_FS_b162_c3: ok
+58/100 majorbasis: ok
+Traceback (most recent call last):
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_optimization_ablation.py", line 124, in <module>
+    main()
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_optimization_ablation.py", line 87, in main
+    record = {'dataset': name, 'status': 'running', 'matrix_sha256': sha(Path(item['path'])), 'orders': []}
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_full.py", line 21, in sha
+    for chunk in iter(lambda:f.read(1024*1024),b''):h.update(chunk)
+  File "/staff/chengjiajun/workspace/AtSpmv/scripts/analysis/benchmark_dsm_atbsr_full.py", line 21, in <lambda>
+    for chunk in iter(lambda:f.read(1024*1024),b''):h.update(chunk)
+                             ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+59/100 rajat17: ok
+60/100 rajat20: ok
+61/100 gemat1: ok
+62/100 plddb: ok
+63/100 TSOPF_RS_b2052_c1: ok
+64/100 dwt_162: ok
+65/100 wikipedia-20051105: ok
+66/100 Maragal_5: ok
+67/100 bmw7st_1: ok
+68/100 c-72: ok
+69/100 adder_dcop_03: ok
+70/100 Raj1: ok
+71/100 pkustk04: ok
+72/100 nemeth26: ok
+73/100 pkustk14: ok
+74/100 ch7-9-b3: ok
+75/100 c-54: ok
+76/100 thermomech_dK: ok
+77/100 raefsky2: ok
+78/100 mycielskian14: ok
+79/100 watt_2: ok
+80/100 IMDB: ok
+81/100 TF19: ok
+82/100 barrier2-11: ok
+83/100 adder_dcop_09: ok
+84/100 cz10228: ok
+85/100 brack2: ok
+86/100 g7jac080sc: ok
+87/100 rajat21: ok
+88/100 cavity26: ok
+89/100 ncvxqp1: ok
+90/100 as-22july06: ok
+91/100 msc23052: ok
+92/100 freeFlyingRobot_14: ok
+93/100 G4: ok
+94/100 TSOPF_FS_b9_c1: ok
+95/100 coater1: ok
+96/100 pkustk12: ok
+97/100 adder_dcop_32: ok
+98/100 Lederberg: ok
+99/100 Stanford_Berkeley: ok
+100/100 HTC_336_9129: ok
+{"requested": 100, "successful": 100, "failures": [], "candidate_pairs": 700, "scope": "Predeclared 100-matrix structural sample: 25 per nnz bin (1k-100k,100k-1m,1m-5m,5m-20m); each 13 short/12 long-row cases. Approximate name-family cap 3. Excludes previous24, no performance used for selection. Not a random full-library sample or training holdout."}

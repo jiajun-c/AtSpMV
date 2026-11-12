@@ -1,0 +1,9 @@
+{
+  "name": "rbsb480",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/rbsb480-L.mtx --------------\nsuccess open file\ninput matrix A: ( 480, 480 ) nnz = 27058\nloadfile time    = 0.01284 sec\nnnzL = 27058\ntime_for_csc2CompressTile = 2.75 ms\ntime_cuda_solve = 0.249360 ms, Mflops = 217.02\nVALIDATION finite=1 max_error=2.19824158875781e-13 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

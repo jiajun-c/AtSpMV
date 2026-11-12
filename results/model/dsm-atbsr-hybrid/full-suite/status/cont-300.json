@@ -1,0 +1,10 @@
+{
+  "dataset": "cont-300",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cont-300/cont-300.mtx",
+  "matrix_sha256": "6db956d1b283e5056a3fac34fdf6a45d0da2449aa8076cd074e29c76ba5b4b1b",
+  "index_nnz": 988195,
+  "index_rows": 180895,
+  "elapsed_s": 1.283,
+  "returncode": 0,
+  "status": "ok"
+}

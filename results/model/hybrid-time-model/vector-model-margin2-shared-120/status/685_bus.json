@@ -1,0 +1,17 @@
+{
+  "dataset": "685_bus",
+  "matrix_sha256": "31b1d5fa595c2c0972996c6517ff314c5acba98a7423cbd344971f280068bc5b",
+  "index_nnz": 3249,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.963,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

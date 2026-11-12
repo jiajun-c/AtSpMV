@@ -1,0 +1,13 @@
+{
+  "matrix": "bcsstk23",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/bcsstk23/bcsstk23.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3134,
+  "columns": 3134,
+  "original_nnz": 45178,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.14028518996201456
+}

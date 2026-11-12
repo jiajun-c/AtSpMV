@@ -1,0 +1,17 @@
+{
+  "dataset": "ASIC_100k",
+  "matrix_sha256": "19bf67d60d6b794934985ea1d5aa143f6a813592294d362c548f5cb6b4dbb725",
+  "index_nnz": 954163,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.529,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

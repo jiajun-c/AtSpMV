@@ -1,0 +1,17 @@
+{
+  "dataset": "t2dal_bci",
+  "matrix_sha256": "ec4939560ae1d0e1f3862c395b79a0982c6a87ca13d11b548120ba01cb1034e4",
+  "index_nnz": 37465,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.176,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

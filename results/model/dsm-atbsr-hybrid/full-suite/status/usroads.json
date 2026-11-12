@@ -1,0 +1,10 @@
+{
+  "dataset": "usroads",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/usroads/usroads.mtx",
+  "matrix_sha256": "de17f0a3223284b0c768edba7d16fd12a402c1e32618077145acad4e1b012e26",
+  "index_nnz": 330870,
+  "index_rows": 129164,
+  "elapsed_s": 1.869,
+  "returncode": 0,
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "TF12",
+  "matrix_sha256": "9f21276700ba5e3af510e89df83b4fefeadbdbcc00e24ae4d23745d2882b6777",
+  "index_nnz": 4231,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.267,
+  "gpu_after": {
+    "utilization_percent": 8,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "roadNet-TX",
+  "matrix_sha256": "3a2522482097b7d592a6bd90f05c9db4b598eaa358d6f44d299becd1bdc4a3f1",
+  "index_nnz": 3843320,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 58.992,
+  "gpu_after": {
+    "utilization_percent": 45,
+    "free_memory_mib": 81079
+  }
+}

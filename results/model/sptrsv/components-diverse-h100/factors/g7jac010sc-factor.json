@@ -1,0 +1,14 @@
+{
+  "matrix": "g7jac010sc",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/g7jac010sc/g7jac010sc.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2880,
+  "columns": 2880,
+  "original_nnz": 19635,
+  "factor_L_nnz": 36046,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.08963839500211179
+}

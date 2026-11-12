@@ -1,0 +1,10 @@
+{
+  "dataset": "fome21",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fome21/fome21.mtx",
+  "matrix_sha256": "90789a7380044f855099ebe527dd93f99dc0ed67e6fa87c397c801423bc7483a",
+  "index_nnz": 465294,
+  "index_rows": 67748,
+  "elapsed_s": 1.132,
+  "returncode": 0,
+  "status": "ok"
+}

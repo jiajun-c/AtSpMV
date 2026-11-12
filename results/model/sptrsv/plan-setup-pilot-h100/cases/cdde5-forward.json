@@ -1,0 +1,7 @@
+{
+  "name": "cdde5",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/cdde5-L.mtx,default,cusparse,2629.308,2604.74,2978.525,11.5865,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/cdde5-L.mtx,model,cached,1133.587,1115.984,2118.943,18.4285,12\n",
+  "stderr": ""
+}

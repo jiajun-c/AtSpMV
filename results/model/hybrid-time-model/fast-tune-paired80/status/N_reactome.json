@@ -1,0 +1,17 @@
+{
+  "dataset": "N_reactome",
+  "matrix_sha256": "86bcd52ee1e11c903c8d68a47381b15e69001d0f37408295d92643875aa9537e",
+  "index_nnz": 43816,
+  "gpu_before": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.289,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "mesh3em5",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/ilu-expanded-h100/factors/mesh3em5-L.mtx,model,cached,289,734,21,1255.875,18.0992012,2.220446049e-16,3.095144273e-17,4.880390485e-17,512\nresults/model/sptrsv/ilu-expanded-h100/factors/mesh3em5-L.mtx,model-host,cached,289,734,21,1255.875,23.883675,2.220446049e-16,3.095144273e-17,4.880390485e-17,512\nresults/model/sptrsv/ilu-expanded-h100/factors/mesh3em5-L.mtx,default,cusparse,289,734,-1,2117.162,37.16160202,2.220446049e-16,3.095144273e-17,4.880390485e-17,0\nresults/model/sptrsv/ilu-expanded-h100/factors/mesh3em5-L.mtx,default-host,cusparse,289,734,-1,2117.162,43.38224,2.220446049e-16,3.095144273e-17,4.880390485e-17,0\n",
+  "stderr": ""
+}

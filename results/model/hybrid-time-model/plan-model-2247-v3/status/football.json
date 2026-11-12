@@ -1,0 +1,19 @@
+{
+  "dataset": "football",
+  "matrix_sha256": "939440e17c03d9c201e756ea66a8a011dec50822b9167c372924bcc140e9d027",
+  "index_nnz": 118,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.24,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

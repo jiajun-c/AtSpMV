@@ -1,0 +1,14 @@
+{
+  "matrix": "gre_216b",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/gre_216b/gre_216b.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 216,
+  "columns": 216,
+  "original_nnz": 876,
+  "factor_L_nnz": 1202,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.0325762489810586
+}

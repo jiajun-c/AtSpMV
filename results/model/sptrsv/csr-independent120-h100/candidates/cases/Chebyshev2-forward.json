@@ -1,0 +1,7 @@
+{
+  "name": "Chebyshev2",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,n,nnz,levels,variant,analysis_us,solve_us,max_error,backward_error\nresults/model/sptrsv/csr-independent120-h100/factors/Chebyshev2-L.mtx,2053,4563,1112,cusparse,30931.283,811.6288185,2.220446049e-15,3.03750283e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Chebyshev2-L.mtx,2053,4563,1112,cusparse-host,30931.283,819.98341,2.220446049e-15,3.03750283e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Chebyshev2-L.mtx,2053,4563,1112,selector-cusparse,657.333,811.4527702,2.220446049e-15,3.03750283e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Chebyshev2-L.mtx,2053,4563,1112,cached-csr-32-256,26.239,532.9247952,2.220446049e-15,3.03750283e-17\nresults/model/sptrsv/csr-independent120-h100/factors/Chebyshev2-L.mtx,2053,4563,1112,cached-csr-32-512,26.239,543.0848122,2.220446049e-15,3.03750283e-17\n",
+  "stderr": ""
+}

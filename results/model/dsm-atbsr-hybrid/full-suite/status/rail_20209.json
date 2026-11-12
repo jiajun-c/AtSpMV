@@ -1,0 +1,10 @@
+{
+  "dataset": "rail_20209",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/rail_20209/rail_20209.mtx",
+  "matrix_sha256": "f82314dfb365ff7af0d52f3ffa52f4e17d538198b224bb199d97c2b4ba8eb59f",
+  "index_nnz": 139233,
+  "index_rows": 20209,
+  "elapsed_s": 1.212,
+  "returncode": 0,
+  "status": "ok"
+}

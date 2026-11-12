@@ -1,0 +1,10 @@
+{
+  "dataset": "stomach",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/stomach/stomach.mtx",
+  "matrix_sha256": "8a54b133513ed6fde0c41da76cddabe5f912a9e90e50dc061ecff91d06b22a31",
+  "index_nnz": 3021648,
+  "index_rows": 213360,
+  "elapsed_s": 2.083,
+  "returncode": 0,
+  "status": "ok"
+}

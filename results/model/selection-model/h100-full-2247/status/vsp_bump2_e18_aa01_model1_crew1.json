@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_bump2_e18_aa01_model1_crew1",
+  "matrix_sha256": "0e7a808e7d4dd26de7a5750e613cbcc56aff4117ef13e98db5c1d857e9425ae8",
+  "index_nnz": 601602,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 5.26,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

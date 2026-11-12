@@ -1,0 +1,10 @@
+{
+  "dataset": "extr1b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/extr1b/extr1b.mtx",
+  "matrix_sha256": "0326f5fd33275ca25a41f4e47e48024b06c2b79d21a1932032625956474078b8",
+  "index_nnz": 11404,
+  "index_rows": 2836,
+  "elapsed_s": 0.672,
+  "returncode": 0,
+  "status": "ok"
+}

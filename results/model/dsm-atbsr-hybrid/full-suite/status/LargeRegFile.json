@@ -1,0 +1,10 @@
+{
+  "dataset": "LargeRegFile",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/LargeRegFile/LargeRegFile.mtx",
+  "matrix_sha256": "346db0888d20277784ec0daf571e834919b244eddde55e447d35758ce46e4897",
+  "index_nnz": 4944201,
+  "index_rows": 2111154,
+  "elapsed_s": 3.456,
+  "returncode": 0,
+  "status": "ok"
+}

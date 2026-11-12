@@ -1,0 +1,8 @@
+{
+  "name": "G9",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/G9-L.mtx,default,cusparse,800,92830,-1,11567.201,502.1887817,6.837419519e-12,1.87881141e-17,7.979435804e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G9-L.mtx,default-host,cusparse,800,92830,-1,11567.201,509.730245,6.837419519e-12,1.87881141e-17,7.979435804e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G9-L.mtx,model,cusparse,800,92830,600,11627.217,502.1119995,6.837419519e-12,1.87881141e-17,7.979435804e-17,0\nresults/model/sptrsv/components-independent-h100/factors/G9-L.mtx,model-host,cusparse,800,92830,600,11627.217,509.59135,6.837419519e-12,1.87881141e-17,7.979435804e-17,0\n",
+  "stderr": ""
+}

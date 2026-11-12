@@ -1,0 +1,15 @@
+{
+  "dataset": "ecl32",
+  "matrix_sha256": "3d47353a8f796080523720f01e6b8f450099282c5e0a7e4965979a6e0d19ae38",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.949,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

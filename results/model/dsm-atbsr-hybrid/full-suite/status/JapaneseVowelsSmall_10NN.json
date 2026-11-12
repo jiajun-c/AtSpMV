@@ -1,0 +1,10 @@
+{
+  "dataset": "JapaneseVowelsSmall_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/JapaneseVowelsSmall_10NN/JapaneseVowelsSmall_10NN.mtx",
+  "matrix_sha256": "4d7929e98b4978d0e8b0c98c8bc9d4c1859bfcd57c3b4e7fb261be1b05db91bc",
+  "index_nnz": 131144,
+  "index_rows": 9961,
+  "elapsed_s": 1.419,
+  "returncode": 0,
+  "status": "ok"
+}

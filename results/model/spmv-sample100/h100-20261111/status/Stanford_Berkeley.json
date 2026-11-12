@@ -1,0 +1,32 @@
+{
+  "dataset": "Stanford_Berkeley",
+  "runner_sha256": "2b2e604f1ab61ba239c1f31d394de5a2e40276a2afadd004b968e1c5f5f6424c",
+  "status": "ok",
+  "matrix_sha256": "0bad4f02a6bbfeac33693a85a534d95ec2bcdd3122ed2d6fa34c3d542ea21f94",
+  "orders": [
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Stanford_Berkeley/Stanford_Berkeley.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Stanford_Berkeley-0.csv",
+        "20261307",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 19.57378219999373
+    },
+    {
+      "command": [
+        "/tmp/atspmv-sample100-1111",
+        "/staff/chengjiajun/workspace/database/suitsparse/Stanford_Berkeley/Stanford_Berkeley.mtx",
+        "/staff/chengjiajun/workspace/AtSpmv/results/model/spmv-sample100/h100-20261111/configs/Stanford_Berkeley-1.csv",
+        "20261308",
+        "9"
+      ],
+      "returncode": 0,
+      "reason": null,
+      "elapsed_s": 12.066338666947559
+    }
+  ]
+}

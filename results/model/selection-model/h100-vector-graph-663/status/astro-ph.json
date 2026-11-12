@@ -1,0 +1,17 @@
+{
+  "dataset": "astro-ph",
+  "matrix_sha256": "2c8071aaa52fe0cf285f06fa454981b8629e0d7165f984c32242f9671af37f6f",
+  "index_nnz": 242502,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.301,
+  "gpu_after": {
+    "utilization_percent": 25,
+    "free_memory_mib": 81079
+  }
+}

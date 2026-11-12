@@ -1,0 +1,8 @@
+{
+  "name": "hangGlider_2",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/hangGlider_2-L.mtx,default,cusparse,1647,17325,-1,4982.649,441.1168213,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\nresults/model/sptrsv/components-independent-h100/factors/hangGlider_2-L.mtx,default-host,cusparse,1647,17325,-1,4982.649,447.552215,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\nresults/model/sptrsv/components-independent-h100/factors/hangGlider_2-L.mtx,model,cusparse,1647,17325,569,4986.392,440.8383789,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\nresults/model/sptrsv/components-independent-h100/factors/hangGlider_2-L.mtx,model-host,cusparse,1647,17325,569,4986.392,447.41388,5.950795412e-14,4.982751888e-17,1.00908577e-16,0\n",
+  "stderr": ""
+}

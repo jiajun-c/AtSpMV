@@ -1,0 +1,9 @@
+{
+  "name": "G19",
+  "mode": "tc",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/G19-L.mtx --------------\nsuccess open file\ninput matrix A: ( 800, 800 ) nnz = 21698\nloadfile time    = 0.00733 sec\nnnzL = 21698\ntime_for_csc2CompressTile = 2.54 ms\ntime_cuda_solve = 0.392000 ms, Mflops = 110.70\nVALIDATION finite=1 max_error=5.7287508070658077e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

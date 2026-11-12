@@ -1,0 +1,9 @@
+{
+  "name": "sherman4",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/sherman4-L.mtx,default,cusparse,1104,7639,-1,9474.196,172.9279938,1.776356839e-15,5.088235476e-17,1.253217244e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/sherman4-L.mtx,default-host,cusparse,1104,7639,-1,9474.196,179.084795,1.776356839e-15,5.088235476e-17,1.253217244e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/sherman4-L.mtx,model,cached,1104,7639,150,1535.779,118.7999954,1.776356839e-15,4.896296234e-17,1.149526689e-16,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/sherman4-L.mtx,model-host,cached,1104,7639,150,1535.779,124.72339,1.776356839e-15,4.896296234e-17,1.149526689e-16,512\n",
+  "stderr": ""
+}

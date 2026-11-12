@@ -1,0 +1,15 @@
+{
+  "dataset": "circuit_3",
+  "matrix_sha256": "3f8a1b2640122564ecd4aed1ad5ca5b7653f21618067cb9f3e53ee4fff5cde3a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.372,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

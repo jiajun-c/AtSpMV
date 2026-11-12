@@ -1,0 +1,10 @@
+{
+  "dataset": "k3plates",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/k3plates/k3plates.mtx",
+  "matrix_sha256": "fe84001ada7d232d511a31496304a7dadcc85fd8cee26cd475922b72cf0eca18",
+  "index_nnz": 378927,
+  "index_rows": 11107,
+  "elapsed_s": 1.172,
+  "returncode": 0,
+  "status": "ok"
+}

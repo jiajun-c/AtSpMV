@@ -1,0 +1,17 @@
+{
+  "dataset": "NotreDame_yeast",
+  "matrix_sha256": "715cf95785e2ec7742221a60c9330f413a2d319cd9dd0bb34500b30206121588",
+  "index_nnz": 4480,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.721,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

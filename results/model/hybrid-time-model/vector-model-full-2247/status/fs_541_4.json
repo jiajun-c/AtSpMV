@@ -1,0 +1,17 @@
+{
+  "dataset": "fs_541_4",
+  "matrix_sha256": "6a0951099ee90d0d13371f715f01826333cd4a41b448576d1241924dc1dc367b",
+  "index_nnz": 4285,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.829,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 81079
+  }
+}

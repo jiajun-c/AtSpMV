@@ -1,0 +1,8 @@
+Internal ctest changing into directory: /tmp/atspmv-dsm-sm90-build
+Test project /tmp/atspmv-dsm-sm90-build
+    Start 7: gemv_persistent_correctness
+1/1 Test #7: gemv_persistent_correctness ......   Passed    1.23 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.23 sec

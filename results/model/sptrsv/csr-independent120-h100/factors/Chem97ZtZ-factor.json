@@ -1,0 +1,14 @@
+{
+  "matrix": "Chem97ZtZ",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/Chem97ZtZ/Chem97ZtZ.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 2541,
+  "columns": 2541,
+  "original_nnz": 7361,
+  "factor_L_nnz": 12631,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.04516496299766004
+}

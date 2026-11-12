@@ -1,0 +1,9 @@
+{
+  "name": "rdb200l",
+  "mode": "plan",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/rdb200l-L.mtx,default,cusparse,208,2387,-1,2441.302,92.73279572,7.993605777e-15,4.506799138e-17,9.533244266e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/rdb200l-L.mtx,default-host,cusparse,208,2387,-1,2441.302,100.63016,7.993605777e-15,4.506799138e-17,9.533244266e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/rdb200l-L.mtx,model,cached-csr,208,2387,75,1484.811,40.65920258,7.993605777e-15,4.506799138e-17,9.533244266e-17,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/rdb200l-L.mtx,model-host,cached-csr,208,2387,75,1484.811,47.52071,7.993605777e-15,4.506799138e-17,9.533244266e-17,256\n",
+  "stderr": ""
+}

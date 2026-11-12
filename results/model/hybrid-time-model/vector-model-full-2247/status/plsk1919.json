@@ -1,0 +1,17 @@
+{
+  "dataset": "plsk1919",
+  "matrix_sha256": "41a6da88352503ee84f014016186342959248cce9957ada33e895afd3911de47",
+  "index_nnz": 9662,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.895,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

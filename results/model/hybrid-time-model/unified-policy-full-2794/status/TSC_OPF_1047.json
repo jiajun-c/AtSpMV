@@ -1,0 +1,17 @@
+{
+  "dataset": "TSC_OPF_1047",
+  "matrix_sha256": "478cc90f56261ea4afb71d771e496d39e4ba67045d7f61b4eb90443ad808b707",
+  "index_nnz": 2016902,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.545,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

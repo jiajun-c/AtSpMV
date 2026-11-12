@@ -1,0 +1,9 @@
+{
+  "name": "gre_343",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_343-L.mtx,default,cusparse,352,2483,-1,2374.705,98.53759766,2.320366121e-14,2.56416183e-17,6.961340023e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_343-L.mtx,default-host,cusparse,352,2483,-1,2374.705,105.359285,2.320366121e-14,2.56416183e-17,6.961340023e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_343-L.mtx,model,cached,352,2483,77,1384.738,60.32639694,2.320366121e-14,3.222646929e-17,9.04135931e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/gre_343-L.mtx,model-host,cached,352,2483,77,1384.738,66.520575,2.320366121e-14,3.222646929e-17,9.04135931e-17,512\n",
+  "stderr": ""
+}

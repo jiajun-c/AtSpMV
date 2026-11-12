@@ -1,0 +1,17 @@
+{
+  "dataset": "arabic-2005",
+  "file_bytes": 10893833669,
+  "file_mtime_ns": 1425827258000000000,
+  "structure": {
+    "dataset": "arabic-2005",
+    "rows": "22744080",
+    "columns": "22744080",
+    "nnz": "639999458",
+    "longest_row": "2960954",
+    "longest_row_nnz": "9905",
+    "ratio": "1.54765756067e-05",
+    "status": "ok"
+  },
+  "status": "ok",
+  "elapsed_s": 65.21
+}

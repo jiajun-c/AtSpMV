@@ -1,0 +1,8 @@
+{
+  "name": "qh882",
+  "round": 1,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/qh882-L.mtx,model,cached,882,2955,40,1586.257,34.82240295,1.287858709e-14,6.130504021e-17,9.909243186e-17,512\nresults/model/sptrsv/components-independent-h100/factors/qh882-L.mtx,model-host,cached,882,2955,40,1586.257,40.385435,1.287858709e-14,6.130504021e-17,9.909243186e-17,512\nresults/model/sptrsv/components-independent-h100/factors/qh882-L.mtx,default,cusparse,882,2955,-1,2448.064,47.33440018,1.287858709e-14,6.232580938e-17,1.007423859e-16,0\nresults/model/sptrsv/components-independent-h100/factors/qh882-L.mtx,default-host,cusparse,882,2955,-1,2448.064,53.444555,1.287858709e-14,6.232580938e-17,1.007423859e-16,0\n",
+  "stderr": ""
+}

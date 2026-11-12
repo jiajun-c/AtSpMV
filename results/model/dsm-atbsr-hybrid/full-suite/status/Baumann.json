@@ -1,0 +1,10 @@
+{
+  "dataset": "Baumann",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/Baumann/Baumann.mtx",
+  "matrix_sha256": "fae201065c17b0a065b6743dc55a6d15d23ff0467a10e0a0ba647ca9275d3345",
+  "index_nnz": 760631,
+  "index_rows": 112211,
+  "elapsed_s": 1.255,
+  "returncode": 0,
+  "status": "ok"
+}

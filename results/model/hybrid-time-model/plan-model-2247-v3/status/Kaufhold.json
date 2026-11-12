@@ -1,0 +1,19 @@
+{
+  "dataset": "Kaufhold",
+  "matrix_sha256": "f46d524104de88d903182c55c010411740d225fcff08ef1ac521f112ba70ec0f",
+  "index_nnz": 42471,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.207,
+  "gpu_after": {
+    "utilization_percent": 1,
+    "free_memory_mib": 81079
+  }
+}

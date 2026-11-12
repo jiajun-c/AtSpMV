@@ -1,0 +1,15 @@
+{
+  "dataset": "denormal",
+  "matrix_sha256": "f6ceec1a99c444eb44a650c4513c80a8b763290366f2e3f37437ff199713d9ff",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.468,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "matrix": "freeFlyingRobot_6",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/freeFlyingRobot_6/freeFlyingRobot_6.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 3358,
+  "columns": 3358,
+  "original_nnz": 27030,
+  "factor_L_nnz": 48031,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.03995680087246001
+}

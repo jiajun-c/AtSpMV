@@ -1,0 +1,19 @@
+{
+  "dataset": "G46",
+  "matrix_sha256": "ea11a0aef48e95768bba50308eb461ade8a224c4330ea059ad89f3677a110802",
+  "index_nnz": 19980,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.753,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

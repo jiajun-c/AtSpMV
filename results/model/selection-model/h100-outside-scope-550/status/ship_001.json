@@ -1,0 +1,17 @@
+{
+  "dataset": "ship_001",
+  "matrix_sha256": "87695e6563512950cc4a67cdec9a22e8b0bef92d99d9560979ec5a9e85475763",
+  "index_nnz": 4644230,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 9.628,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

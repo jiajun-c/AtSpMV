@@ -1,0 +1,10 @@
+{
+  "dataset": "karate",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/karate/karate.mtx",
+  "matrix_sha256": "074a23e758ebeddb766fb08f617ee4bc5debc8d2564287c3e1e24f5ccdb77813",
+  "index_nnz": 156,
+  "index_rows": 34,
+  "elapsed_s": 1.288,
+  "returncode": 0,
+  "status": "ok"
+}

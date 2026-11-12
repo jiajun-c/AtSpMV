@@ -1,0 +1,15 @@
+{
+  "dataset": "caidaRouterLevel",
+  "matrix_sha256": "d1b9c91ff387346c06a593f0dff0be1a7a17df3d82436a1bb5291a05e4bec8a5",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.589,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

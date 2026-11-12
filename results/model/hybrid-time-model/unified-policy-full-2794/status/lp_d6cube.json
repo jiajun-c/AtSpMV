@@ -1,0 +1,17 @@
+{
+  "dataset": "lp_d6cube",
+  "matrix_sha256": "88ad23098115370218797dffb5fbfdc64557a82a377ea31349a8ce7ce110d0cc",
+  "index_nnz": 37704,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.799,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "msc00726",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/msc00726-L.mtx --------------\nsuccess open file\ninput matrix A: ( 736, 736 ) nnz = 77664\nloadfile time    = 0.03134 sec\nnnzL = 77664\ntime_for_csc2CompressTile = 2.18 ms\ntime_cuda_solve = 0.400680 ms, Mflops = 387.66\nVALIDATION finite=1 max_error=5.9952043329758453e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

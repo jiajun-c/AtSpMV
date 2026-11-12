@@ -1,0 +1,17 @@
+{
+  "dataset": "rat",
+  "matrix_sha256": "4ecd01c2b19a9b54920e93995c2eccb78670a4ab57fd1c0a62a394b4969adb50",
+  "index_nnz": 268908,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.032,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

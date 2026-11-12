@@ -1,0 +1,15 @@
+{
+  "dataset": "G35",
+  "matrix_sha256": "75dcc80a5484d4a0792997bcb283284b4e6a0849b9462e80220d4a63d72a1de6",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.288,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

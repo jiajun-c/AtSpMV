@@ -1,0 +1,17 @@
+{
+  "dataset": "av41092",
+  "matrix_sha256": "e3554fe3a5d93c3952c37da1d78003a5be0c9cc0419453b2e21d3758e0adc03a",
+  "index_nnz": 1683902,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 8.736,
+  "gpu_after": {
+    "utilization_percent": 2,
+    "free_memory_mib": 81079
+  }
+}

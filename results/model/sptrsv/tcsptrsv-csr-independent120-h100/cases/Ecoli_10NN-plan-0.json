@@ -1,0 +1,9 @@
+{
+  "name": "Ecoli_10NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Ecoli_10NN-L.mtx,default,cusparse,336,10687,-1,4136.174,214.4416046,4.04121181e-14,2.674375264e-17,1.006878072e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Ecoli_10NN-L.mtx,default-host,cusparse,336,10687,-1,4136.174,220.492785,4.04121181e-14,2.674375264e-17,1.006878072e-16,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Ecoli_10NN-L.mtx,model,cached-csr,336,10687,280,1327.059,149.5776062,4.04121181e-14,2.674375264e-17,1.006878072e-16,256\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/Ecoli_10NN-L.mtx,model-host,cached-csr,336,10687,280,1327.059,155.538875,4.04121181e-14,2.674375264e-17,1.006878072e-16,256\n",
+  "stderr": ""
+}

@@ -1,0 +1,7 @@
+WAIT shared GPU utilization/memory {'utilization_percent': 4, 'free_memory_mib': 8161}
+10/389 spaceStation_8: ok, new=10
+WAIT shared GPU utilization/memory {'utilization_percent': 5, 'free_memory_mib': 8161}
+WAIT GPU busy [{'pid': 909101, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation'}]
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}
+20/389 qh882: ok, new=20
+WAIT shared GPU utilization/memory {'utilization_percent': 1, 'free_memory_mib': 8161}

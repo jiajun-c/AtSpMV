@@ -1,0 +1,15 @@
+{
+  "dataset": "mario002",
+  "matrix_sha256": "463d6fe542525f331a92069a35a98116ca73f8a9bdf86bc308e8d01ab8de9acd",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 4.36,
+  "gpu_after": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "SiO2",
+  "matrix_sha256": "5aeb3ad1bd2cc0b84f8ebde2ffe9a5792c2720d344b02c854e9fe65defaf17fd",
+  "index_nnz": 11283503,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 26.889,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "saylr1",
+  "matrix_sha256": "f7a916e127c96f9ec1163d017f54a825a0d9cb86dfbe07cf05553b2e5fb236a4",
+  "gpu_before": {
+    "utilization_percent": 3,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.293,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

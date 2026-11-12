@@ -1,0 +1,15 @@
+{
+  "dataset": "lutz30-23-b6",
+  "matrix_sha256": "1139becb1adc2d8b8289efa05f2a84a627033f082f01cd88edd1dd6bce22634b",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.765,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

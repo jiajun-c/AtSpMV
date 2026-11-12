@@ -1,0 +1,9 @@
+{
+  "name": "iris_dataset_30NN",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iris_dataset_30NN-L.mtx,default,cusparse,160,3989,-1,2806.467,109.4272003,6.217248938e-14,2.1681732e-17,7.395556029e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iris_dataset_30NN-L.mtx,default-host,cusparse,160,3989,-1,2806.467,115.57249,6.217248938e-14,2.1681732e-17,7.395556029e-17,0\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iris_dataset_30NN-L.mtx,model,cached,160,3989,145,1259.154,111.2287979,1.931788063e-14,2.252072651e-17,8.602254651e-17,512\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/iris_dataset_30NN-L.mtx,model-host,cached,160,3989,145,1259.154,116.928345,1.931788063e-14,2.252072651e-17,8.602254651e-17,512\n",
+  "stderr": ""
+}

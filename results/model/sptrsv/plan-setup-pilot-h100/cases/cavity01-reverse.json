@@ -1,0 +1,7 @@
+{
+  "name": "cavity01",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/cavity01-L.mtx,default,cusparse,3137.3115,3067.48,4522.029,10.0465,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/cavity01-L.mtx,model,cached-csr,996.6825,923.445,1036.995,9.408,12\n",
+  "stderr": ""
+}

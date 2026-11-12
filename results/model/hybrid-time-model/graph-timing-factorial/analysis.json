@@ -1,0 +1,157 @@
+{
+  "method": "Equal model configurations execute the same Plan; compare same vs distinct Graph executables and outside vs inside Graph event placement. Two construction orders and 21 samples per case. Four selected examples, so do not generalize without broader tests.",
+  "groups": {
+    "graph_shared=0,events_inside=0": {
+      "geomean_ratio": 0.9999240533086248,
+      "median_absolute_deviation_from_one": 0.005242786360820206,
+      "cases": [
+        {
+          "dataset": "685_bus",
+          "ratio": 1.0020495558452962,
+          "order_ratios": {
+            "forward": 1.018761760413111,
+            "reverse": 0.9856115054442056
+          }
+        },
+        {
+          "dataset": "bloweybq",
+          "ratio": 0.989206313554705,
+          "order_ratios": {
+            "forward": 0.9921875541801454,
+            "reverse": 0.9862340307070854
+          }
+        },
+        {
+          "dataset": "c-66b",
+          "ratio": 1.0084360168763442,
+          "order_ratios": {
+            "forward": 1.008135575965068,
+            "reverse": 1.0087365473239323
+          }
+        },
+        {
+          "dataset": "fe_sphere",
+          "ratio": 1.0001004766955421,
+          "order_ratios": {
+            "forward": 1.01286173990912,
+            "reverse": 0.9874999953857421
+          }
+        }
+      ]
+    },
+    "graph_shared=0,events_inside=1": {
+      "geomean_ratio": 1.0016314014180137,
+      "median_absolute_deviation_from_one": 0.007913434952947496,
+      "cases": [
+        {
+          "dataset": "685_bus",
+          "ratio": 1.008449784584436,
+          "order_ratios": {
+            "forward": 1.0279850705430984,
+            "reverse": 0.9892857368941321
+          }
+        },
+        {
+          "dataset": "bloweybq",
+          "ratio": 0.9858838774449715,
+          "order_ratios": {
+            "forward": 0.9892892239210255,
+            "reverse": 0.9824902529045675
+          }
+        },
+        {
+          "dataset": "c-66b",
+          "ratio": 1.007377085321459,
+          "order_ratios": {
+            "forward": 1.0087600961484497,
+            "reverse": 1.0059959706033201
+          }
+        },
+        {
+          "dataset": "fe_sphere",
+          "ratio": 1.004985082860974,
+          "order_ratios": {
+            "forward": 1.0225806288046309,
+            "reverse": 0.9876923034946747
+          }
+        }
+      ]
+    },
+    "graph_shared=1,events_inside=0": {
+      "geomean_ratio": 0.9986221527463333,
+      "median_absolute_deviation_from_one": 0.0005030522107850599,
+      "cases": [
+        {
+          "dataset": "685_bus",
+          "ratio": 0.9955015698351868,
+          "order_ratios": {
+            "forward": 1.0,
+            "reverse": 0.9910233755443212
+          }
+        },
+        {
+          "dataset": "bloweybq",
+          "ratio": 1.0,
+          "order_ratios": {
+            "forward": 1.0,
+            "reverse": 1.0
+          }
+        },
+        {
+          "dataset": "c-66b",
+          "ratio": 0.9989938955784299,
+          "order_ratios": {
+            "forward": 0.9986568064549706,
+            "reverse": 0.9993310984837975
+          }
+        },
+        {
+          "dataset": "fe_sphere",
+          "ratio": 1.0,
+          "order_ratios": {
+            "forward": 1.0,
+            "reverse": 1.0
+          }
+        }
+      ]
+    },
+    "graph_shared=1,events_inside=1": {
+      "geomean_ratio": 1.0007161169770604,
+      "median_absolute_deviation_from_one": 0.0008720182698327972,
+      "cases": [
+        {
+          "dataset": "685_bus",
+          "ratio": 1.0,
+          "order_ratios": {
+            "forward": 1.0,
+            "reverse": 1.0
+          }
+        },
+        {
+          "dataset": "bloweybq",
+          "ratio": 1.0009685360594076,
+          "order_ratios": {
+            "forward": 1.0009661908541625,
+            "reverse": 1.0009708812701474
+          }
+        },
+        {
+          "dataset": "c-66b",
+          "ratio": 1.002674747527215,
+          "order_ratios": {
+            "forward": 1.000674313890762,
+            "reverse": 1.0046791802017951
+          }
+        },
+        {
+          "dataset": "fe_sphere",
+          "ratio": 0.999224499519742,
+          "order_ratios": {
+            "forward": 1.0,
+            "reverse": 0.9984496004404788
+          }
+        }
+      ]
+    }
+  }
+}

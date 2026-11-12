@@ -1,0 +1,9 @@
+{
+  "name": "spiral",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/spiral-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1440, 1440 ) nnz = 17011\nloadfile time    = 0.00775 sec\nnnzL = 17011\ntime_for_csc2CompressTile = 2.35 ms\ntime_cuda_solve = 0.254010 ms, Mflops = 133.94\nVALIDATION finite=1 max_error=5.9952043329758453e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

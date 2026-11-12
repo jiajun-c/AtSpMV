@@ -1,0 +1,10 @@
+{
+  "dataset": "tandem_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tandem_dual/tandem_dual.mtx",
+  "matrix_sha256": "6070ac74dfd9fbe9af6d4394730cfa7cceef0455e838b84cb33f587ea59b92d1",
+  "index_nnz": 460493,
+  "index_rows": 94069,
+  "elapsed_s": 1.207,
+  "returncode": 0,
+  "status": "ok"
+}

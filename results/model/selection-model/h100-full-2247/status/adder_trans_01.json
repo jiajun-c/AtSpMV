@@ -1,0 +1,17 @@
+{
+  "dataset": "adder_trans_01",
+  "matrix_sha256": "c063d153517b87afe889864081adaed789b3a74035aef0abaff4dbc37f7036ae",
+  "index_nnz": 14579,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.75,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

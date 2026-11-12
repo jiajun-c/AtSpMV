@@ -1,0 +1,10 @@
+{
+  "dataset": "commanche_dual",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/commanche_dual/commanche_dual.mtx",
+  "matrix_sha256": "10cea88034132e6c11d323c6c723f479ca3af3d747b89343a0cfb4dee18fa9f0",
+  "index_nnz": 31680,
+  "index_rows": 7920,
+  "elapsed_s": 1.218,
+  "returncode": 0,
+  "status": "ok"
+}

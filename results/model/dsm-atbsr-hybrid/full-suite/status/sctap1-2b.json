@@ -1,0 +1,10 @@
+{
+  "dataset": "sctap1-2b",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/sctap1-2b/sctap1-2b.mtx",
+  "matrix_sha256": "ba7703aa638d8447b04f8ac1fd05cad81a2f45a384c7d698235d2ffc69b691b4",
+  "index_nnz": 99454,
+  "index_rows": 15390,
+  "elapsed_s": 0.669,
+  "returncode": 0,
+  "status": "ok"
+}

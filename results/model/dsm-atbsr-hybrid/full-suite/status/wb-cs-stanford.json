@@ -1,0 +1,10 @@
+{
+  "dataset": "wb-cs-stanford",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/wb-cs-stanford/wb-cs-stanford.mtx",
+  "matrix_sha256": "c81413d2746fee6a75c63777aef875d24a0be4239c27245f63133a2d4c040a27",
+  "index_nnz": 36854,
+  "index_rows": 9914,
+  "elapsed_s": 1.357,
+  "returncode": 0,
+  "status": "ok"
+}

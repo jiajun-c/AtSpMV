@@ -1,0 +1,10 @@
+{
+  "dataset": "lp_czprob",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lp_czprob/lp_czprob.mtx",
+  "matrix_sha256": "cc627e9c07fec6a52361cad3d69538c72ab66bdd647ba716d78a46021b6fa9b3",
+  "index_nnz": 10708,
+  "index_rows": 929,
+  "elapsed_s": 1.166,
+  "returncode": 0,
+  "status": "ok"
+}

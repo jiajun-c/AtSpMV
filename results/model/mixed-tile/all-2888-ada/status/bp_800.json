@@ -1,0 +1,15 @@
+{
+  "dataset": "bp_800",
+  "matrix_sha256": "90340fa2fc8714108cf088c34ccd7af0f4bbf68e107da4cd5777cb57cd13513d",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.589,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

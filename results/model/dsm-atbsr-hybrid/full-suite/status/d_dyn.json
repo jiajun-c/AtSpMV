@@ -1,0 +1,10 @@
+{
+  "dataset": "d_dyn",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/d_dyn/d_dyn.mtx",
+  "matrix_sha256": "a5f56f00e62785f644a0ab82eae015a37421b36600c24c76c955ecc054c8ebfd",
+  "index_nnz": 238,
+  "index_rows": 87,
+  "elapsed_s": 0.778,
+  "returncode": 0,
+  "status": "ok"
+}

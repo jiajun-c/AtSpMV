@@ -1,0 +1,10 @@
+{
+  "dataset": "fpga_trans_02",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/fpga_trans_02/fpga_trans_02.mtx",
+  "matrix_sha256": "01395af97cbe04971bdf562cf1f75650e766ce1313850fa592c86280ca36a960",
+  "index_nnz": 7382,
+  "index_rows": 1220,
+  "elapsed_s": 1.347,
+  "returncode": 0,
+  "status": "ok"
+}

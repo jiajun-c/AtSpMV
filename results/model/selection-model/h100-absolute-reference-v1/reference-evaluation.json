@@ -1,0 +1,248 @@
+{
+  "status_counts": {
+    "ok": 2248
+  },
+  "total": 2248,
+  "model_sha256": "c71e00219d4d82227d1534cf5896394ee396ceaa8c2c8f9cab57146d7b94a0de",
+  "method": "Frozen model trained from H100 device 2; evaluation applies it offline to later H100 device 3 timings and checks matrix hashes. Approximate family split, shared host and previously inspected data limit independence. Event nodes and separate allocations affect timing. This replay does not exercise the opt-in Plan integration.",
+  "all": {
+    "cases": 2248,
+    "old_reference_mape": 0.37847202146706127,
+    "new_reference_mape": 0.052428177894690085,
+    "old_vector_absolute_mape": 0.3766998312913565,
+    "new_vector_absolute_mape": 0.05799792742607396,
+    "new_reference_median_ape": 0.03132437761088336,
+    "new_reference_p90_ape": 0.1191501744362593,
+    "new_reference_max_ape": 0.6197901700937065,
+    "new_reference_over_20pct": 73,
+    "new_reference_worse_than_old": 73,
+    "new_reference_geomean_ratio": 0.9831361370148813
+  },
+  "train": {
+    "cases": 1130,
+    "old_reference_mape": 0.37140131126880255,
+    "new_reference_mape": 0.03459046211821748,
+    "old_vector_absolute_mape": 0.3656600198668726,
+    "new_vector_absolute_mape": 0.04138091163604656,
+    "new_reference_median_ape": 0.022073674390347575,
+    "new_reference_p90_ape": 0.07893297987437348,
+    "new_reference_max_ape": 0.33498590677309337,
+    "new_reference_over_20pct": 11,
+    "new_reference_worse_than_old": 22,
+    "new_reference_geomean_ratio": 0.9868534609087773
+  },
+  "dev": {
+    "cases": 455,
+    "old_reference_mape": 0.38774592870406405,
+    "new_reference_mape": 0.06955509664528492,
+    "old_vector_absolute_mape": 0.38910606021771615,
+    "new_vector_absolute_mape": 0.07009263106774341,
+    "new_reference_median_ape": 0.059562856089957705,
+    "new_reference_p90_ape": 0.12182623262522341,
+    "new_reference_max_ape": 0.41801246046298646,
+    "new_reference_over_20pct": 18,
+    "new_reference_worse_than_old": 13,
+    "new_reference_geomean_ratio": 0.9680458639166606
+  },
+  "holdout": {
+    "cases": 245,
+    "old_reference_mape": 0.4044169743871854,
+    "new_reference_mape": 0.06569218960326607,
+    "old_vector_absolute_mape": 0.3942230732920275,
+    "new_vector_absolute_mape": 0.06303390388882983,
+    "new_reference_median_ape": 0.050675040048457576,
+    "new_reference_p90_ape": 0.1323164863176161,
+    "new_reference_max_ape": 0.6197901700937065,
+    "new_reference_over_20pct": 11,
+    "new_reference_worse_than_old": 8,
+    "new_reference_geomean_ratio": 0.9779305370751609
+  },
+  "not_in_training_table": {
+    "cases": 418,
+    "old_reference_mape": 0.3722848474617162,
+    "new_reference_mape": 0.07423245523270991,
+    "old_vector_absolute_mape": 0.38276910989903296,
+    "new_vector_absolute_mape": 0.08680252898683036,
+    "new_reference_median_ape": 0.0446862812858409,
+    "new_reference_p90_ape": 0.16964959572756405,
+    "new_reference_max_ape": 0.4677756022748554,
+    "new_reference_over_20pct": 33,
+    "new_reference_worse_than_old": 30,
+    "new_reference_geomean_ratio": 0.9927653310140446
+  },
+  "segments": {
+    "100k-1M": {
+      "cases": 631,
+      "old_reference_mape": 0.3093745533887292,
+      "new_reference_mape": 0.0777617977811298,
+      "new_reference_over_20pct": 45
+    },
+    "10k-100k": {
+      "cases": 785,
+      "old_reference_mape": 0.4493607757179482,
+      "new_reference_mape": 0.052049458978803004,
+      "new_reference_over_20pct": 21
+    },
+    "<10k": {
+      "cases": 832,
+      "old_reference_mape": 0.36399225015754366,
+      "new_reference_mape": 0.03357214448198324,
+      "new_reference_over_20pct": 7
+    }
+  },
+  "large_short_posthoc": {
+    "definition": "nnz >= 600000 and longest row < 32; thresholds chosen after inspecting errors",
+    "training_cases": 6,
+    "evaluation_cases": 25,
+    "old_reference_mape": 0.16417893489985955,
+    "new_reference_mape": 0.30073364679880876,
+    "cases_by_split": {
+      "train": 6,
+      "dev": 5,
+      "holdout": 5,
+      "not_in_training_table": 9
+    }
+  },
+  "worst_reference_cases": [
+    {
+      "dataset": "delaunay_n17",
+      "split": "holdout",
+      "nnz": 786352,
+      "old_reference_mape": 0.19689696255532196,
+      "new_reference_mape": 0.6197901700937065
+    },
+    {
+      "dataset": "smallworld",
+      "split": "holdout",
+      "nnz": 999996,
+      "old_reference_mape": 0.13597334449893733,
+      "new_reference_mape": 0.5235730436510811
+    },
+    {
+      "dataset": "ch7-8-b4",
+      "split": "not_in_training_table",
+      "nnz": 705600,
+      "old_reference_mape": 0.08414204350057997,
+      "new_reference_mape": 0.4677756022748554
+    },
+    {
+      "dataset": "image_interp",
+      "split": "not_in_training_table",
+      "nnz": 711683,
+      "old_reference_mape": 0.14398262987012722,
+      "new_reference_mape": 0.46247384356336796
+    },
+    {
+      "dataset": "mesh_deform",
+      "split": "not_in_training_table",
+      "nnz": 853829,
+      "old_reference_mape": 0.3253563725344336,
+      "new_reference_mape": 0.44405818395937324
+    },
+    {
+      "dataset": "Baumann",
+      "split": "not_in_training_table",
+      "nnz": 760631,
+      "old_reference_mape": 0.04039149546598031,
+      "new_reference_mape": 0.42568099837830886
+    },
+    {
+      "dataset": "G2_circuit",
+      "split": "dev",
+      "nnz": 726674,
+      "old_reference_mape": 0.056692307080886795,
+      "new_reference_mape": 0.41801246046298646
+    },
+    {
+      "dataset": "shar_te2-b2",
+      "split": "dev",
+      "nnz": 600600,
+      "old_reference_mape": 0.1337075056402035,
+      "new_reference_mape": 0.41352685510655185
+    },
+    {
+      "dataset": "olesnik0",
+      "split": "holdout",
+      "nnz": 744216,
+      "old_reference_mape": 0.04700052111608799,
+      "new_reference_mape": 0.39782652220279136
+    },
+    {
+      "dataset": "n4c6-b6",
+      "split": "not_in_training_table",
+      "nnz": 728805,
+      "old_reference_mape": 0.04919699530592769,
+      "new_reference_mape": 0.3948767934960239
+    },
+    {
+      "dataset": "nsct",
+      "split": "not_in_training_table",
+      "nnz": 697738,
+      "old_reference_mape": 0.05889583664997289,
+      "new_reference_mape": 0.37719067153109986
+    },
+    {
+      "dataset": "Andrews",
+      "split": "not_in_training_table",
+      "nnz": 760154,
+      "old_reference_mape": 0.5815442985544388,
+      "new_reference_mape": 0.368634348668615
+    },
+    {
+      "dataset": "bibd_17_8",
+      "split": "not_in_training_table",
+      "nnz": 680680,
+      "old_reference_mape": 0.13042792808347442,
+      "new_reference_mape": 0.3576200297123383
+    },
+    {
+      "dataset": "n4c6-b11",
+      "split": "not_in_training_table",
+      "nnz": 830820,
+      "old_reference_mape": 0.02716137554949427,
+      "new_reference_mape": 0.3420993389167448
+    },
+    {
+      "dataset": "Erdos981",
+      "split": "dev",
+      "nnz": 2762,
+      "old_reference_mape": 0.5701146376116691,
+      "new_reference_mape": 0.3368846412070883
+    },
+    {
+      "dataset": "CSphd",
+      "split": "train",
+      "nnz": 1740,
+      "old_reference_mape": 0.5821450671653604,
+      "new_reference_mape": 0.33498590677309337
+    },
+    {
+      "dataset": "GD00_c",
+      "split": "train",
+      "nnz": 1041,
+      "old_reference_mape": 0.561774915660827,
+      "new_reference_mape": 0.32931082346020835
+    },
+    {
+      "dataset": "cont-300",
+      "split": "train",
+      "nnz": 988195,
+      "old_reference_mape": 0.19035197489305988,
+      "new_reference_mape": 0.3242527950028339
+    },
+    {
+      "dataset": "spaceStation_9",
+      "split": "not_in_training_table",
+      "nnz": 19674,
+      "old_reference_mape": 0.2560469089875355,
+      "new_reference_mape": 0.32352552068170004
+    },
+    {
+      "dataset": "Erdos991",
+      "split": "dev",
+      "nnz": 2834,
+      "old_reference_mape": 0.5603601938354836,
+      "new_reference_mape": 0.32226739784923053
+    }
+  ]
+}

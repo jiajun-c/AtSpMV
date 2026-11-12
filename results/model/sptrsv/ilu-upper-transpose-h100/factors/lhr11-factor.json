@@ -1,0 +1,7 @@
+{
+  "matrix": "lhr11",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/lhr11-factor.json",
+  "operator": "SuperLU U transpose",
+  "error": "original factorization failed: RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 7.799826562404633e-07
+}

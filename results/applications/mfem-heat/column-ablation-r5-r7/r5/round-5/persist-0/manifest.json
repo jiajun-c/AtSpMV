@@ -1,0 +1,20 @@
+{
+  "exe": "/tmp/atspmv-mfem-compressed-v3",
+  "mesh": "/tmp/atspmv-mfem-v4.8/data/star.mesh",
+  "output": "/staff/chengjiajun/workspace/AtSpmv/results/applications/mfem-heat/column-ablation-r5-r7/r5/round-5/persist-0",
+  "refine": 5,
+  "order": 2,
+  "steps": 100,
+  "dt": 0.01,
+  "alpha": 0.01,
+  "backends": "atbsr-compressed,atbsr,cusparse",
+  "rounds": 1,
+  "timeout": 120.0,
+  "rebuild_values": false,
+  "prefetch": 2,
+  "warps": 4,
+  "gpu_assembly": true,
+  "rebuild_implicit": false,
+  "persist_x": false,
+  "executable_sha256": "03352fff3a5b9eb285ad4f768bd5d2e307822c4615974c7c1a4db266b1cfa719"
+}

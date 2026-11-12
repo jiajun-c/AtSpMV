@@ -1,0 +1,9 @@
+{
+  "name": "ex33",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-independent160-h100/factors/ex33-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1744, 1744 ) nnz = 33757\nloadfile time    = 0.01611 sec\nnnzL = 33757\ntime_for_csc2CompressTile = 6.24 ms\ntime_cuda_solve = 0.798200 ms, Mflops = 84.58\nVALIDATION finite=1 max_error=1.3100631690576847e-14 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "young1c",
+  "matrix_sha256": "8993751e875812435e7084deddec0c7b5d9fe9da2f391e9515803b4ed53e71a2",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "error",
+  "returncode": 1,
+  "elapsed_s": 0.306,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

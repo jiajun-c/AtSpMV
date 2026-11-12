@@ -1,0 +1,48 @@
+--- a/main.cu
++++ b/main.cu
+@@ -218,6 +218,14 @@
+         lldSpTRSV_cuda(csrRowPtrL_tmp, lldmatrix, b, x, x_ref, &final_aver_time, &Mflops);
+     }
+ 
++    double max_error = 0.0, max_ref = 0.0;
++    bool finite = true;
++    for (int i=0; i<n; ++i) {
++        finite = finite && std::isfinite(x[i]);
++        max_error = std::max(max_error, std::abs(x[i]-x_ref[i]));
++        max_ref = std::max(max_ref, std::abs(x_ref[i]));
++    }
++    printf("VALIDATION finite=%d max_error=%.17g reference_scale=%.17g\n",int(finite),max_error,max_ref);
+     const double Threshold_for_whether_block = (lldmatrix.columns_per_level >= threshold_for_columns_per_level) ? 4.0f : 0.0f;
+     int tilelayer;
+     double parallelism_add_tilen, parallelism_add_tilenum;
+--- a/inc/common.h
++++ b/inc/common.h
+@@ -11,7 +11,7 @@
+ #define blocks_per_warp 4 //这个似乎用不到了
+ #define HASH_SCALE 107
+ #define whether_warm_up 1
+-#define BENCH_REPEAT 1000
++#define BENCH_REPEAT 100
+ #define checek_kernel 0
+ #define checek_result 0
+ #define record_compute_result 1
+--- a/src/utils.h
++++ b/src/utils.h
+@@ -65,7 +65,7 @@
+                 if (csrColIdxA[j] < i)
+                 {
+                     csrColIdxL_tmp[nnz_pointer] = csrColIdxA[j];
+-                    csrValL_tmp[nnz_pointer] = 1.0; // csrValA[j]
++                    csrValL_tmp[nnz_pointer] = csrValA[j]; // Preserve factor values for comparison
+                     // csrValL_tmp[nnz_pointer] = csrValA[j]; // csrValA[j]
+                     nnz_pointer++;
+                 }
+@@ -290,7 +290,7 @@
+     x_ref = new Dtype[n];
+     int i, j;
+     for (i = 0; i < n; i++)
+-        x_ref[i] = 1;
++        x_ref[i] = 0.5 + ((i * 37LL) % 101) / 101.0;
+ 
+     Dtype *b;
+     b = new Dtype[m];

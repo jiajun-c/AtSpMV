@@ -1,0 +1,13 @@
+{
+  "matrix": "nnc1374",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/nnc1374/nnc1374.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 1374,
+  "columns": 1374,
+  "original_nnz": 8606,
+  "error": "RuntimeError('Factor is exactly singular')",
+  "elapsed_s": 0.03241767501458526
+}

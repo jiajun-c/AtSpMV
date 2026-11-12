@@ -1,0 +1,7 @@
+{
+  "name": "bcsstm08",
+  "order": "forward",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/bcsstm08-L.mtx,default,cusparse,1074,1074,-1,2094.565,6.604799747,0\nresults/model/sptrsv/nonunit-scaled-h100/factors/bcsstm08-L.mtx,default-host,cusparse,1074,1074,-1,2094.565,14.306515,0\nresults/model/sptrsv/nonunit-scaled-h100/factors/bcsstm08-L.mtx,model,cusparse,1074,1074,1,2136.972,6.633599758,0\nresults/model/sptrsv/nonunit-scaled-h100/factors/bcsstm08-L.mtx,model-host,cusparse,1074,1074,1,2136.972,14.303755,0\n",
+  "stderr": ""
+}

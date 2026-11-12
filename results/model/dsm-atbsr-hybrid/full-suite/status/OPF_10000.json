@@ -1,0 +1,10 @@
+{
+  "dataset": "OPF_10000",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/OPF_10000/OPF_10000.mtx",
+  "matrix_sha256": "504c4b4cf001c2aa4c599bd2ce9a71ea187a1114ea3a1e5ab0bf3cdb502e8856",
+  "index_nnz": 467711,
+  "index_rows": 43887,
+  "elapsed_s": 1.238,
+  "returncode": 0,
+  "status": "ok"
+}

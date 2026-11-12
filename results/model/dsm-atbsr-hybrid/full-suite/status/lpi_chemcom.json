@@ -1,0 +1,10 @@
+{
+  "dataset": "lpi_chemcom",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/lpi_chemcom/lpi_chemcom.mtx",
+  "matrix_sha256": "25d4f70990f455537dc6c1db8a668626d8dbedf32df23b446b8361e6d721bbb5",
+  "index_nnz": 1590,
+  "index_rows": 288,
+  "elapsed_s": 0.547,
+  "returncode": 0,
+  "status": "ok"
+}

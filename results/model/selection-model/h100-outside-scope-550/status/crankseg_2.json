@@ -1,0 +1,17 @@
+{
+  "dataset": "crankseg_2",
+  "matrix_sha256": "a77e891a69d99ecae3d59a456df9a65f67b96d9c3b4cdcfe586a72789580e37a",
+  "index_nnz": 14148858,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 66.559,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

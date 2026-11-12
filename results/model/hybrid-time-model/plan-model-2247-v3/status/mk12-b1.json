@@ -1,0 +1,19 @@
+{
+  "dataset": "mk12-b1",
+  "matrix_sha256": "34f36fc2b0f5ecc5e3a7ec4c395568d9a8b3198391998d2b2286dd90fc9418fb",
+  "index_nnz": 2970,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.396,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

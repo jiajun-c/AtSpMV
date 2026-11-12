@@ -1,0 +1,15 @@
+{
+  "dataset": "citationCiteseer",
+  "matrix_sha256": "b5541ac7fdae9a4f16a04039fc9fd6c4bd79d11cd49eb9ab2fa8a2ee5215cb71",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 6.157,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

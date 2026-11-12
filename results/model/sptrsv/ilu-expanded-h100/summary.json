@@ -1,0 +1,24 @@
+{
+  "total": 24,
+  "statuses": {
+    "cached_tile_not_emitted": 6,
+    "factorization_failed_or_not_run": 7,
+    "ok": 11
+  },
+  "graph_vs_cusparse": {
+    "n": 11,
+    "wins": 11,
+    "geomean": 1.564835218110584
+  },
+  "host_vs_cusparse": {
+    "n": 11,
+    "wins": 11,
+    "geomean": 1.4740582252205152
+  },
+  "host_vs_modified_recblock": {
+    "n": 10,
+    "wins": 10,
+    "geomean": 2.7665848985369323
+  },
+  "caveat": "exploratory fixed 512-thread candidate; modified Recblock uses CUDA 11.8, cuSPARSE CUDA 12.4; warm graph vs graph and synchronized host vs host; unsupported excluded"
+}

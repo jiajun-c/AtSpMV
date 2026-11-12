@@ -1,0 +1,15 @@
+{
+  "dataset": "Stanford_Berkeley",
+  "matrix_sha256": "0bad4f02a6bbfeac33693a85a534d95ec2bcdd3122ed2d6fa34c3d542ea21f94",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 21.346,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

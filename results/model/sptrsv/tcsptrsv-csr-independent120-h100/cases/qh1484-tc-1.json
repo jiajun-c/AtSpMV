@@ -1,0 +1,9 @@
+{
+  "name": "qh1484",
+  "mode": "tc",
+  "round": 1,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "PRECISION = 64-bit Double Precision\nthe matrix is: -------------- /staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-csr-independent120-h100/factors/qh1484-L.mtx --------------\nsuccess open file\ninput matrix A: ( 1488, 1488 ) nnz = 6211\nloadfile time    = 0.00272 sec\nnnzL = 6211\ntime_for_csc2CompressTile = 1.81 ms\ntime_cuda_solve = 0.182630 ms, Mflops = 68.02\nVALIDATION finite=1 max_error=9.3258734068513149e-15 reference_scale=1.4900990099009901\n",
+  "stderr": ""
+}

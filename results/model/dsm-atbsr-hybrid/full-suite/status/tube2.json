@@ -1,0 +1,10 @@
+{
+  "dataset": "tube2",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/tube2/tube2.mtx",
+  "matrix_sha256": "009c37781232220128a4c518285e3d4b4b9a8aec53ea9288bed10d7f5b167c01",
+  "index_nnz": 897056,
+  "index_rows": 21498,
+  "elapsed_s": 0.666,
+  "returncode": 0,
+  "status": "ok"
+}

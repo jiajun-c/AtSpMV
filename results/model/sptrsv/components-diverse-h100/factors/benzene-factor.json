@@ -1,0 +1,14 @@
+{
+  "matrix": "benzene",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/benzene/benzene.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 8219,
+  "columns": 8219,
+  "original_nnz": 242669,
+  "factor_L_nnz": 575594,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 2.389032653067261
+}

@@ -1,0 +1,7 @@
+{
+  "name": "G3",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,setup_median_us,setup_min_us,setup_max_us,destroy_median_us,iterations\nresults/model/sptrsv/plan-setup-pilot-h100/factors/G3-L.mtx,default,cusparse,11597.82,11562.312,15647.252,105.4175,12\nresults/model/sptrsv/plan-setup-pilot-h100/factors/G3-L.mtx,model,cusparse,11704.4715,11683.942,11808.099,102.4595,12\n",
+  "stderr": ""
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "vas_stokes_4M",
+  "matrix_sha256": "3f4f40c06c767a6f6a6f7507377104782533bed896ab6f1bac906fb599a3f499",
+  "index_nnz": 131577616,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 176.185,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81076
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "lp_ken_13",
+  "matrix_sha256": "004b1f48ef87aa5b8a61e9b50f436c55c5f2c30811feba69445689de72290dcf",
+  "gpu_before": {
+    "utilization_percent": 50,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.389,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "CurlCurl_3",
+  "matrix_sha256": "8e8ec93b7748e4cfb5843355b34cd3a0ca69d5f8b50b920ad6fd9a75302c858a",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 13.298,
+  "gpu_after": {
+    "utilization_percent": 100,
+    "free_memory_mib": 48508
+  }
+}

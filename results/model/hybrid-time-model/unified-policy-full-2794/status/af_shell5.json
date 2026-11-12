@@ -1,0 +1,17 @@
+{
+  "dataset": "af_shell5",
+  "matrix_sha256": "4877f7f62dc818d6009b48d2971635de978623bf2fe13f46d62be20f28c34eb0",
+  "index_nnz": 17588875,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 21.347,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

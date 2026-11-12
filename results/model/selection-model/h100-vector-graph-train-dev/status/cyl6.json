@@ -1,0 +1,17 @@
+{
+  "dataset": "cyl6",
+  "matrix_sha256": "31c8df8a6c891aa128822f2970b384c6edb3b7ca9c801f53bce5daba433129c0",
+  "index_nnz": 714241,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.43,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

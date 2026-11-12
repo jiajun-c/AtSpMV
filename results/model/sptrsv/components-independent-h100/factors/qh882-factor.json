@@ -1,0 +1,14 @@
+{
+  "matrix": "qh882",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/qh882/qh882.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 882,
+  "columns": 882,
+  "original_nnz": 3354,
+  "factor_L_nnz": 2955,
+  "note": "SuperLU L factor with row/column permutations; not original A",
+  "elapsed_s": 0.027821340830996633
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "fpga_dcop_45",
+  "matrix_sha256": "d23948c5949eaebb17884106050105e423244b869fbcb10ed80e849c3c510774",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.75,
+  "gpu_after": {
+    "utilization_percent": 7,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "cage13",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/cage13/cage13.mtx",
+  "matrix_sha256": "1eb8f8b386178849e3da1c073d2d52d26b15b979b038344ab40bfb5e294d51e4",
+  "index_nnz": 7479343,
+  "index_rows": 445315,
+  "elapsed_s": 3.626,
+  "returncode": 0,
+  "status": "ok"
+}

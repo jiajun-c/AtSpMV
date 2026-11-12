@@ -1,0 +1,10 @@
+{
+  "dataset": "progas",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/progas/progas.mtx",
+  "matrix_sha256": "cb0e6ff92cd1d764493c82b30cc3aae2c3a40f436f58ab08366dca0ad526fa51",
+  "index_nnz": 8897,
+  "index_rows": 1650,
+  "elapsed_s": 0.701,
+  "returncode": 0,
+  "status": "ok"
+}

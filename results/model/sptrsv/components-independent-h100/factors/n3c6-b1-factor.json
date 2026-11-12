@@ -1,0 +1,13 @@
+{
+  "matrix": "n3c6-b1",
+  "source": "/staff/chengjiajun/workspace/database/suitsparse/n3c6-b1/n3c6-b1.mtx",
+  "drop_tol": 0.0001,
+  "fill_factor": 5.0,
+  "ordering": "COLAMD",
+  "shift": 0,
+  "rows": 105,
+  "columns": 105,
+  "original_nnz": 210,
+  "error": "RuntimeError('[0]: matrix is singular at line 148 in file ../scipy/sparse/linalg/_dsolve/SuperLU/SRC/ilu_dpivotL.c\\n')",
+  "elapsed_s": 0.029570800019428134
+}

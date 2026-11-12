@@ -1,0 +1,15 @@
+{
+  "dataset": "lpi_ex73a",
+  "matrix_sha256": "8482108db92e28fd9529fa2ab363148ab91407ea8bedd4897631af103df8427c",
+  "gpu_before": {
+    "utilization_percent": 22,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.823,
+  "gpu_after": {
+    "utilization_percent": 4,
+    "free_memory_mib": 48508
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "Trec12",
+  "matrix_sha256": "bcb7f035f1921995fbdd196f4cb935835b1d5d73332303b80155990212ed2fc4",
+  "index_nnz": 151219,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.955,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

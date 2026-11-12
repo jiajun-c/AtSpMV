@@ -1,0 +1,10 @@
+{
+  "dataset": "YaleA_10NN",
+  "path": "/staff/chengjiajun/workspace/database/suitsparse/YaleA_10NN/YaleA_10NN.mtx",
+  "matrix_sha256": "d45ca914ea8c6db9581aa148d63f4c2dacb1daa0fb102bb4560735413cca411a",
+  "index_nnz": 2268,
+  "index_rows": 165,
+  "elapsed_s": 0.772,
+  "returncode": 0,
+  "status": "ok"
+}

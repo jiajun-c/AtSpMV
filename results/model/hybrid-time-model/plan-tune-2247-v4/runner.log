@@ -1,0 +1,739 @@
+23/2247 EX5: ok, new=10
+33/2247 spaceStation_12: ok, new=20
+43/2247 delf: ok, new=30
+53/2247 pores_1: ok, new=40
+63/2247 G48: ok, new=50
+73/2247 n4c6-b15: ok, new=60
+83/2247 rajat12: ok, new=70
+93/2247 gams60am: ok, new=80
+103/2247 dwt_758: ok, new=90
+113/2247 rkat7_mat5: ok, new=100
+123/2247 oscil_dcop_45: ok, new=110
+133/2247 G59: ok, new=120
+143/2247 air06: ok, new=130
+153/2247 mimo28x28_system: ok, new=140
+163/2247 ex22: ok, new=150
+173/2247 G2_circuit: ok, new=160
+183/2247 crack_dual: ok, new=170
+193/2247 oscil_dcop_33: ok, new=180
+203/2247 SiH4: ok, new=190
+213/2247 ck104: ok, new=200
+223/2247 Trefethen_300: ok, new=210
+233/2247 dw2048: ok, new=220
+243/2247 lshp_265: ok, new=230
+253/2247 mbeause: ok, new=240
+263/2247 transient: ok, new=250
+273/2247 adder_dcop_15: ok, new=260
+283/2247 dwt_2680: ok, new=270
+293/2247 p2756: ok, new=280
+303/2247 GD02_a: ok, new=290
+313/2247 msc01440: ok, new=300
+323/2247 TSOPF_FS_b9_c6: ok, new=310
+333/2247 data: ok, new=320
+343/2247 c-24: ok, new=330
+353/2247 Trec11: ok, new=340
+363/2247 bcsstm08: ok, new=350
+373/2247 dc3: ok, new=360
+383/2247 lp_pilot4: ok, new=370
+393/2247 CAG_mat364: ok, new=380
+403/2247 bcsstk16: ok, new=390
+RETRY due to external GPU use p2p-Gnutella31 [{'pid': 1115249, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1115249, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1115648, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1116562, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+413/2247 xingo_afonso_itaipu: ok, new=10
+423/2247 ACTIVSg70K: ok, new=20
+433/2247 fpga_dcop_14: ok, new=30
+443/2247 whitaker3: ok, new=40
+453/2247 karate: ok, new=50
+463/2247 lpi_box1: ok, new=60
+473/2247 e18: ok, new=70
+483/2247 adder_dcop_40: ok, new=80
+493/2247 fpga_dcop_34: ok, new=90
+503/2247 stufe: ok, new=100
+513/2247 nemspmm2: ok, new=110
+523/2247 spaceStation_7: ok, new=120
+533/2247 cti: ok, new=130
+543/2247 n4c5-b10: ok, new=140
+553/2247 bibd_17_3: ok, new=150
+563/2247 rw136: ok, new=160
+573/2247 spaceStation_5: ok, new=170
+583/2247 shl_200: ok, new=180
+593/2247 steam1: ok, new=190
+603/2247 rosen1: ok, new=200
+613/2247 freeFlyingRobot_13: ok, new=210
+623/2247 mk11-b4: ok, new=220
+633/2247 pde2961: ok, new=230
+643/2247 GT01R: ok, new=240
+653/2247 nasa2146: ok, new=250
+663/2247 lpi_itest2: ok, new=260
+673/2247 tuma2: ok, new=270
+683/2247 lp_stocfor1: ok, new=280
+693/2247 pores_2: ok, new=290
+703/2247 pkustk01: ok, new=300
+713/2247 GL6_D_7: ok, new=310
+723/2247 HEP-th: ok, new=320
+733/2247 mhdb416: ok, new=330
+743/2247 ch7-8-b1: ok, new=340
+753/2247 rajat10: ok, new=350
+RETRY due to external GPU use viscoplastic2 [{'pid': 1211342, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1211342, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1211605, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1212219, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/short-row-cache-h100/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1213017, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/shared-row-sort-h100/provenance/current'}]
+769/2247 qiulp: ok, new=10
+779/2247 s1rmq4m1: ok, new=20
+789/2247 kneser_8_3_1: ok, new=30
+RETRY due to external GPU use cage4 [{'pid': 1223630, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+WAIT GPU busy [{'pid': 1223732, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1224400, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/shared-tile-stats-h100/provenance/spmv_hybrid_validation'}]
+WAIT GPU busy [{'pid': 1225198, 'name': '/staff/chengjiajun/workspace/AtSpmv/results/model/hybrid-time-model/short-row-cache-h100/provenance/spmv_hybrid_validation'}]
+804/2247 fpga_dcop_31: ok, new=10
+814/2247 west0497: ok, new=20
+WAIT GPU busy [{'pid': 1233684, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1233865, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+824/2247 g7jac120sc: ok, new=30
+834/2247 G26: ok, new=40
+844/2247 494_bus: ok, new=50
+854/2247 ash292: ok, new=60
+864/2247 mycielskian7: ok, new=70
+874/2247 polblogs: ok, new=80
+884/2247 lp_ship08l: ok, new=90
+894/2247 ex24: ok, new=100
+904/2247 TF13: ok, new=110
+914/2247 vibrobox: ok, new=120
+924/2247 rdb2048_noL: ok, new=130
+934/2247 n3c5-b4: ok, new=140
+944/2247 mk9-b2: ok, new=150
+954/2247 fpga_dcop_28: ok, new=160
+964/2247 G16: ok, new=170
+RETRY due to external GPU use mesh_deform [{'pid': 1303647, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1303647, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+981/2247 p0291: ok, new=10
+991/2247 orani678: ok, new=20
+1001/2247 nemspmm1: ok, new=30
+1011/2247 c-70: ok, new=40
+1021/2247 lp_fit1d: ok, new=50
+RETRY due to external GPU use scfxm1-2r [{'pid': 1378046, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+1034/2247 adder_dcop_65: ok, new=10
+1044/2247 str_200: ok, new=20
+RETRY due to external GPU use aft01 [{'pid': 1385211, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1385211, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+RETRY due to external GPU use c-46 [{'pid': 1388319, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1388319, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+1067/2247 stormg2-8: ok, new=10
+1077/2247 c-40: ok, new=20
+1087/2247 adder_dcop_29: ok, new=30
+1097/2247 bibd_81_2: ok, new=40
+1107/2247 n4c5-b4: ok, new=50
+1117/2247 EX1: ok, new=60
+1127/2247 c-43: ok, new=70
+1137/2247 lp_afiro: ok, new=80
+1147/2247 air03: ok, new=90
+1157/2247 finan512: ok, new=100
+1167/2247 vsp_p0291_seymourl_iiasa: ok, new=110
+RETRY due to external GPU use pores_3 [{'pid': 1479553, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_hybrid_validation'}]
+1185/2247 fpga_dcop_04: ok, new=10
+1195/2247 spaceShuttleEntry_4: ok, new=20
+1205/2247 n3c6-b6: ok, new=30
+1215/2247 Roget: ok, new=40
+1225/2247 robot24c1_mat5_J: ok, new=50
+1235/2247 shallow_water1: ok, new=60
+1245/2247 mycielskian3: ok, new=70
+1255/2247 cz1268: ok, new=80
+1265/2247 trans5: ok, new=90
+1275/2247 air04: ok, new=100
+1285/2247 fpga_dcop_01: ok, new=110
+1295/2247 oscil_dcop_21: ok, new=120
+1305/2247 Reuters911: ok, new=130
+1315/2247 G25: ok, new=140
+1325/2247 cavity11: ok, new=150
+1335/2247 lhr11: ok, new=160
+1345/2247 G34: ok, new=170
+1355/2247 ASIC_100k: ok, new=180
+1365/2247 dw4096: ok, new=190
+1375/2247 shar_te2-b1: ok, new=200
+1385/2247 sctap1-2r: ok, new=210
+1395/2247 p0282: ok, new=220
+RETRY due to external GPU use NotreDame_www [{'pid': 1572868, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT GPU busy [{'pid': 1572868, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+1407/2247 crew1: ok, new=10
+1417/2247 scrs8-2c: ok, new=20
+1427/2247 freeFlyingRobot_12: ok, new=30
+1437/2247 dendrimer: ok, new=40
+1447/2247 gen1: ok, new=50
+1457/2247 bcsstm22: ok, new=60
+1467/2247 oscil_dcop_38: ok, new=70
+RETRY due to external GPU use ch7-9-b2 [{'pid': 1593911, 'name': '/tmp/atspmv-dsm-sm90-build/spmv_plan_test'}]
+WAIT shared GPU activity/memory {'utilization_percent': 27, 'free_memory_mib': 81079} []
+1477/2247 mk9-b1: ok, new=10
+1487/2247 G9: ok, new=20
+1497/2247 mhd3200a: ok, new=30
+1507/2247 slptsk: ok, new=40
+1517/2247 lp_25fv47: ok, new=50
+1527/2247 diag: ok, new=60
+1537/2247 meg1: ok, new=70
+1547/2247 mri1: ok, new=80
+1557/2247 cnae9_10NN: ok, new=90
+1567/2247 hor_131: ok, new=100
+1577/2247 M80PI_n: ok, new=110
+1587/2247 chipcool0: ok, new=120
+1597/2247 fpga_dcop_37: ok, new=130
+1607/2247 p0201: ok, new=140
+1617/2247 n4c5-b11: ok, new=150
+1627/2247 vsp_bump2_e18_aa01_model1_crew1: ok, new=160
+1637/2247 stormg2-27: ok, new=170
+1647/2247 flower_5_4: ok, new=180
+1657/2247 mk11-b1: ok, new=190
+1667/2247 n4c6-b11: ok, new=200
+1677/2247 rail582: ok, new=210
+1687/2247 c-19: ok, new=220
+1697/2247 oscil_dcop_40: ok, new=230
+1707/2247 Zd_Jac3_db: ok, new=240
+1717/2247 mk12-b5: ok, new=250
+1727/2247 beacxc: ok, new=260
+1737/2247 adder_dcop_60: ok, new=270
+1747/2247 mk10-b4: ok, new=280
+1757/2247 circuit_2: ok, new=290
+RETRY due to external GPU use c-27 [{'pid': 1676534, 'name': '/staff/zhangsen/miniforge3/envs/lard/bin/python'}]
+WAIT GPU busy [{'pid': 1676534, 'name': '/staff/zhangsen/miniforge3/envs/lard/bin/python'}]
+1768/2247 EternityII_A: ok, new=10
+1778/2247 ex14: ok, new=20
+1788/2247 psse1: ok, new=30
+1798/2247 ccc: ok, new=40
+1808/2247 nemscem: ok, new=50
+RETRY due to external GPU use bcspwr04 [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1715651, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT shared GPU activity/memory {'utilization_percent': 2, 'free_memory_mib': 81079} []
+RETRY due to external GPU use n2c6-b7 [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}, {'pid': 1758719, 'name': '/staff/qiaoliang/anaconda3/envs/dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1720355, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}, {'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1783931, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+RETRY due to external GPU use worms20_10NN [{'pid': 1816999, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+WAIT GPU busy [{'pid': 1816999, 'name': '/staff/qiaoliang/anaconda3/envs/dac-dequantsim/bin/python'}]
+1829/2247 IG5-13: ok, new=10
+1839/2247 nemeth18: ok, new=20
+1849/2247 adder_dcop_57: ok, new=30
+1859/2247 Franz10: ok, new=40
+1869/2247 reorientation_1: ok, new=50
+1879/2247 west0479: ok, new=60
+1889/2247 aa6: ok, new=70
+RETRY due to external GPU use nmos3 [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1859284, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 1895297, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1895297, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1895297, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1895297, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1895297, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}, {'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1897183, 'name': 'VLLM::EngineCore'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 1903753, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2004795, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2018664, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+RETRY due to external GPU use 2D_27628_bjtcai [{'pid': 2032665, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2032665, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2032665, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2032665, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu128/bin/python'}]
+WAIT GPU busy [{'pid': 2039148, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2039148, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+WAIT GPU busy [{'pid': 2039148, 'name': '/staff/zhangsen/miniforge3/envs/humming-cu130/bin/python'}]
+1905/2247 lhr17c: ok, new=10
+1915/2247 model7: ok, new=20
+1925/2247 cz2548: ok, new=30
+1935/2247 N_biocarta: ok, new=40
+1945/2247 bibd_15_7: ok, new=50
+1955/2247 oscil_dcop_46: ok, new=60
+1965/2247 vsp_mod2_pgp2_slptsk: ok, new=70
+1975/2247 divorce: ok, new=80
+1985/2247 laser: ok, new=90
+1995/2247 crplat2: ok, new=100
+2005/2247 c-55: ok, new=110
+2015/2247 n3c5-b2: ok, new=120
+2025/2247 Chebyshev1: ok, new=130
+2035/2247 mark3jac100sc: ok, new=140
+2045/2247 Trefethen_200: ok, new=150
+2055/2247 lp_adlittle: ok, new=160
+2065/2247 lp_dfl001: ok, new=170
+2075/2247 gas11: ok, new=180
+2085/2247 arc130: ok, new=190
+2095/2247 lp_shell: ok, new=200
+2105/2247 ky2010: ok, new=210
+2115/2247 ASIC_100ks: ok, new=220
+2125/2247 pde225: ok, new=230
+2135/2247 freeFlyingRobot_11: ok, new=240
+2145/2247 lhr07c: ok, new=250
+2155/2247 n4c5-b9: ok, new=260
+2165/2247 jan99jac060sc: ok, new=270
+2175/2247 fv2: ok, new=280
+2185/2247 lp_standmps: ok, new=290
+2195/2247 shar_te2-b2: ok, new=300
+2205/2247 mark3jac040: ok, new=310
+2215/2247 n3c4-b3: ok, new=320
+2225/2247 GD01_Acap: ok, new=330
+2235/2247 176bit: ok, new=340
+2245/2247 GD00_c: ok, new=350
+DONE new cases 352
+{
+  "manifest_total": 2247,
+  "status_counts": {
+    "ok": 2247
+  },
+  "selected_backends": {
+    "csr_vector": 1463,
+    "atbsr": 410,
+    "csr_vector|atbsr": 17,
+    "csr_dsm": 105,
+    "csr_dsm|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr": 145,
+    "hybrid_dsm_atbsr|atbsr": 4,
+    "atbsr|csr_vector": 21,
+    "cusparse": 28,
+    "atbsr|csr_dsm": 1,
+    "csr_two_stage": 13,
+    "atbsr|csr_two_stage": 2,
+    "cusparse|atbsr": 8,
+    "atbsr|cusparse": 4,
+    "csr_two_stage|csr_vector": 5,
+    "csr_vector|csr_two_stage": 4,
+    "atbsr|hybrid_dsm_atbsr": 6,
+    "csr_dsm|atbsr": 1,
+    "hybrid_dsm_atbsr|csr_dsm_vector": 1,
+    "csr_dsm_vector|hybrid_dsm_atbsr": 2,
+    "hybrid_dsm_atbsr|csr_dsm": 3,
+    "csr_two_stage|atbsr": 1,
+    "csr_vector|csr_dsm": 1
+  },
+  "selection": "auto_tuned",
+  "method": "Actual Plan selection, independently timed against default AtBSR and cuSPARSE; warm Graph, excludes setup. Ratios across construction orders use the geometric mean. Randomized manifest prefix is not the complete suite.",
+  "speedup_vs_default": {
+    "geomean": 1.2010351051684331,
+    "median": 1.211886314628079,
+    "wins": 2153,
+    "cases": 2247
+  },
+  "speedup_vs_cusparse": {
+    "geomean": 1.6495727474556952,
+    "median": 1.7572468684652112,
+    "wins": 2210,
+    "cases": 2247
+  },
+  "speedup_vs_best_baseline": {
+    "geomean": 1.1919678748491755,
+    "median": 1.202279813664508,
+    "wins": 2122,
+    "cases": 2247
+  },
+  "speedup_vs_extended_baseline": {
+    "geomean": 1.1160450049328898,
+    "median": 1.1282226695583155,
+    "wins": 2074,
+    "cases": 2247
+  }
+}

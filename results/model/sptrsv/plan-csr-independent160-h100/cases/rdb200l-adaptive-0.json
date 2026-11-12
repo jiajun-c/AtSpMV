@@ -1,0 +1,8 @@
+{
+  "name": "rdb200l",
+  "round": 0,
+  "which": "adaptive",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error,normwise_error,componentwise_error,cached_threads\nresults/model/sptrsv/components-independent-h100/factors/rdb200l-L.mtx,default,cusparse,200,2379,-1,2448.277,94.41919708,7.993605777e-15,4.506799138e-17,9.533244266e-17,0\nresults/model/sptrsv/components-independent-h100/factors/rdb200l-L.mtx,default-host,cusparse,200,2379,-1,2448.277,100.37036,7.993605777e-15,4.506799138e-17,9.533244266e-17,0\nresults/model/sptrsv/components-independent-h100/factors/rdb200l-L.mtx,model,cached-csr,200,2379,75,1219.48,40.24319839,7.993605777e-15,4.506799138e-17,9.533244266e-17,256\nresults/model/sptrsv/components-independent-h100/factors/rdb200l-L.mtx,model-host,cached-csr,200,2379,75,1219.48,45.93857,7.993605777e-15,4.506799138e-17,9.533244266e-17,256\n",
+  "stderr": ""
+}

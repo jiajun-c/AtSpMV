@@ -1,0 +1,3 @@
+#include <cuda_runtime.h>
+#include <cstdio>
+int main(){cudaDeviceProp p{};int v[4]={};cudaDeviceAttr a[]={cudaDevAttrClockRate,cudaDevAttrMemoryClockRate,cudaDevAttrGlobalMemoryBusWidth,cudaDevAttrSingleToDoublePrecisionPerfRatio};if(cudaGetDeviceProperties(&p,0)!=cudaSuccess)return 1;for(int i=0;i<4;i++)if(cudaDeviceGetAttribute(&v[i],a[i],0)!=cudaSuccess)return 2;printf("prop=%d,%d,%d,%d attr=%d,%d,%d,%d\n",p.clockRate,p.memoryClockRate,p.memoryBusWidth,p.singleToDoublePrecisionPerfRatio,v[0],v[1],v[2],v[3]);return p.clockRate!=v[0]||p.memoryClockRate!=v[1]||p.memoryBusWidth!=v[2]||p.singleToDoublePrecisionPerfRatio!=v[3];}

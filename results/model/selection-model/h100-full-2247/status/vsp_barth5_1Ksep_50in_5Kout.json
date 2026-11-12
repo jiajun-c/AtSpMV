@@ -1,0 +1,17 @@
+{
+  "dataset": "vsp_barth5_1Ksep_50in_5Kout",
+  "matrix_sha256": "afa8cecfd5256d9b11e30bbca0b464b44d764510e3f47dc8579792e3433f6326",
+  "index_nnz": 203610,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 3.811,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

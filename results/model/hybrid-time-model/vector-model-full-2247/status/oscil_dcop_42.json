@@ -1,0 +1,17 @@
+{
+  "dataset": "oscil_dcop_42",
+  "matrix_sha256": "a1cfe04f2891763afea28064ca8c1f3337e86aac652fdcdf86afe81577966cbf",
+  "index_nnz": 1544,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.132,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  }
+}

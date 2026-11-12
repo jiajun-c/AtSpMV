@@ -1,0 +1,7 @@
+{
+  "name": "rdist2",
+  "order": "reverse",
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\nresults/model/sptrsv/nonunit-scaled-h100/factors/rdist2-L.mtx,model,cusparse,3198,66801,2686,17741.138,1972.281616,9.081624341e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rdist2-L.mtx,model-host,cusparse,3198,66801,2686,17741.138,1980.21353,9.081624341e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rdist2-L.mtx,default,cusparse,3198,66801,-1,17451.501,1971.987183,9.081624341e-14\nresults/model/sptrsv/nonunit-scaled-h100/factors/rdist2-L.mtx,default-host,cusparse,3198,66801,-1,17451.501,1980.171195,9.081624341e-14\n",
+  "stderr": ""
+}

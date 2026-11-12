@@ -1,0 +1,19 @@
+{
+  "dataset": "G36",
+  "matrix_sha256": "e17e63dd1c67718f0dc4885e8936d2b2649a4c77a96f9623516b07707e8cb69b",
+  "index_nnz": 23532,
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 81079
+  },
+  "allowed_gpu_pids": [
+    632420
+  ],
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.799,
+  "gpu_after": {
+    "utilization_percent": 80,
+    "free_memory_mib": 81079
+  }
+}

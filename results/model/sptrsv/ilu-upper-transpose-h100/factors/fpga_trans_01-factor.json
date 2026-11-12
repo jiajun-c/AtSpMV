@@ -1,0 +1,10 @@
+{
+  "matrix": "fpga_trans_01",
+  "source_record": "results/model/sptrsv/ilu-second-holdout-h100/factors/fpga_trans_01-factor.json",
+  "operator": "SuperLU U transpose",
+  "rows": 1220,
+  "nnz": 8023,
+  "min_abs_diagonal": 0.0007413066877682414,
+  "max_abs_diagonal": 1.0,
+  "elapsed_s": 0.015568424016237259
+}

@@ -1,0 +1,49 @@
+west2021 forward 0
+west2021 reverse 0
+shl_0 forward 0
+shl_0 reverse 0
+str_400 forward 0
+str_400 reverse 0
+fpga_dcop_39 forward 0
+fpga_dcop_39 reverse 0
+adder_dcop_46 forward 0
+adder_dcop_46 reverse 0
+adder_dcop_04 forward 0
+adder_dcop_04 reverse 0
+fpga_dcop_28 forward 0
+fpga_dcop_28 reverse 0
+oscil_dcop_27 forward 0
+oscil_dcop_27 reverse 0
+fpga_dcop_34 forward 0
+fpga_dcop_34 reverse 0
+adder_dcop_20 forward 0
+adder_dcop_20 reverse 0
+adder_dcop_55 forward 0
+adder_dcop_55 reverse 0
+Glass_10NN forward 0
+Glass_10NN reverse 0
+dwt_234 forward 0
+dwt_234 reverse 0
+mcca forward 0
+mcca reverse 0
+fpga_dcop_22 forward 0
+fpga_dcop_22 reverse 0
+bp_0 forward 0
+bp_0 reverse 0
+tumorAntiAngiogenesis_5 forward 0
+tumorAntiAngiogenesis_5 reverse 0
+adder_dcop_48 forward 0
+adder_dcop_48 reverse 0
+mhda416 forward 0
+mhda416 reverse 0
+fs_183_6 forward 0
+fs_183_6 reverse 0
+{
+  "status_counts": {
+    "ok": 20
+  },
+  "1024_geomean_vs_512": 1.0164686064193584,
+  "1024_wins_gt_5pct": 6,
+  "1024_losses_gt_5pct": 0
+}
+runner_exit=0

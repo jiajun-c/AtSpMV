@@ -1,0 +1,15 @@
+{
+  "dataset": "GD96_b",
+  "matrix_sha256": "6af1bfb90f2299ad8a6e3186e6eaaa47a9c7d94fac175734e0272fc65d128c46",
+  "gpu_before": {
+    "utilization_percent": 6,
+    "free_memory_mib": 48506
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 1.208,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48506
+  }
+}

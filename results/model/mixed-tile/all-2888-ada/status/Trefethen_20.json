@@ -1,0 +1,15 @@
+{
+  "dataset": "Trefethen_20",
+  "matrix_sha256": "4f651d65502a61d7375cadf42a87b5bbe566facafbcc566ec8d68c8608be41bc",
+  "gpu_before": {
+    "utilization_percent": 2,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 2.218,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

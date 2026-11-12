@@ -1,0 +1,15 @@
+{
+  "dataset": "webbase-1M",
+  "matrix_sha256": "2193ec714a68f5b8b036906001beaa77ec46adc7c39b19a626ad107d8989d264",
+  "gpu_before": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  },
+  "status": "ok",
+  "returncode": 0,
+  "elapsed_s": 7.559,
+  "gpu_after": {
+    "utilization_percent": 0,
+    "free_memory_mib": 48508
+  }
+}

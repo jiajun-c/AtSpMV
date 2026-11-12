@@ -1,0 +1,9 @@
+{
+  "name": "wang2",
+  "mode": "plan",
+  "round": 0,
+  "complete": true,
+  "returncode": 0,
+  "stdout": "matrix,mode,backend,rows,nnz,levels,setup_us,solve_us,max_error\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,default,cusparse,2912,35153,-1,3527.042,246.8863983,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,default-host,cusparse,2912,35153,-1,3527.042,254.65859,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,model,cusparse,2912,35153,154,3605.397,246.8064117,1.33226763e-15\n/staff/chengjiajun/workspace/AtSpmv/results/model/sptrsv/tcsptrsv-aligned-second-h100/factors/wang2-L.mtx,model-host,cusparse,2912,35153,154,3605.397,254.32096,1.33226763e-15\n",
+  "stderr": ""
+}
